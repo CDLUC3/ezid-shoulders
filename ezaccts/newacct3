@@ -1,0 +1,22 @@
+todays_date: 07/17/2014
+realm: cdl
+submitters_name: Joan Starr
+acct_name: noaa-gmd
+acct_email: kenneth.masarie@noaa.gov
+primary_contact: Ken Masarie
+contact_email: kenneth.masarie@noaa.gov
+contact_phone: 303-497-6270
+contact_fax: 303-497-6290
+org: NOAA Global Monitoring Division
+org_acroynm: NOAA-GMD
+org_www: www.esrl.noaa.gov/gmd
+mailing_address1: 325 Broadway
+mailing_address2: NOAA GMD-1
+mailing_city: Boulder
+mailing_state: CO
+mailing_zip: 80305-3328
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: YES
+identifier_plans: GMD has several long-term atmospheric data sets and value-added products that require DOIs. What are internal and local identifiers? Colleagues at DOE (via OSTI) minted 2 DOIs for GMD products.
+comments: xxx

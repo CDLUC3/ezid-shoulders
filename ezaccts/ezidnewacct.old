@@ -1,0 +1,315 @@
+#!/usr/bin/env perl
+
+# XXXXXXXXXX DO NOT check this dir into a repo before cleaning out all
+# passwords!
+
+use 5.006;
+use strict;
+use warnings;
+
+# Author:  John A. Kunze, jak@ucop.edu, California Digital Library
+# Copyright (c) 2013-2014 UC Regents
+
+use File::ANVL;
+
+my ($msg, @elems, %hash);		# global, but efficient
+
+# main
+{
+	my $dryrun = 0;
+	my $option = $ARGV[0] || '';
+
+	if ($option eq '-n') {
+		$dryrun = 1;
+		shift @ARGV;
+	}
+	$#ARGV < 4 and
+		print(q@
+This script for setting up a new EZID account is very much a work in
+progress.  If all you want to do is set up a new shoulder for an existing
+account, see "make_shdr".
+
+Although this file is on n2t.net, the bulk of the work is still done on
+noid.cdlib.org, where the doi prefix and naan minters are still running.
+Start in ~n2t/shoulders/forge on n2t.net by saving the old "newacct" file,
+
+	$ snag --mknextcopy newacct
+
+and pasting in the "new ezid account" email body (all ANVL fields),
+
+	$ cat > newacct
+	<paste>
+	^D
+
+If you need to create a DOI prefix, go over to noid.cdlib.org:shoulders/,
+edit master_shoulders.txt, look for the line beginning
+
+	# Stack top-> 10..... 10..... ...
+
+and pop the first prefix off the stack (if the stack has fewer than five
+elements, write to DataCite (Frauke) to get another block allocated).
+That prefix is what you'll use below.
+
+If the account only needs an ARK NAAN and no DOI prefix, go over to
+noid.cdlib.org:naans/forge, run ./naan_rec with no arguments, and follow
+the instructions that it prints for creating a new NAAN.
+
+Then back at n2t.net:$sv/apache2/shoulders/forge, construct args and run
+THIS script as follows:
+
+   ezidnewacct [-n] Realm Prefix doi_shdr NAAN ark_shdr < newacct > outfile
+
+where Realm is either "cdl" or "purdue",
+
+   Prefix is 10.NNNN, 10.1NNNN, or "-", and
+   NAAN is either 8NNNN if you gave a Prefix or the NAAN from ./naan_rec.
+
+You can choose doi_shdr and ark_shdr to be "-" or a two-character string
+consisting of one "nog letter" (bcdfghjkmnpqrstvwxz) followed by one digit.
+Using "-" suppresses creation of the relevant part (shoulder, minter, or
+data center).  The -n option will do a dry run without creating shoulders.
+
+ALTHOUGH the instructions in "outfile" are generated ON n2t.net, you must
+be ON noid.cdlib.org to EXECUTE them.  (This will be improved, and the
+overall number of steps will be reduced.)
+
+@),
+		exit 1;
+
+	my ($realm, $doip, $dshdr, $naan, $ashdr) = @ARGV[0,1,2,3,4];
+	# xxx verify type checks with regexps?
+	$realm ||= '';
+	$realm = lc $realm;
+	$realm eq 'cdl' || $realm eq 'purdue' or
+		die('The first argument must be either "cdl" or "purdue"');
+
+	use File::Temper 'etemper';
+	my ($edate, $eyear);
+	($edate, $eyear) = File::Temper::etemper() =~ /^((....)......)/;
+
+	{			# modify $/ temporarily
+		local $/;	# set so one read slurps entire file
+		$_ = <STDIN>;	# now slurp entire file from stdin
+		#perl -0777 -pe 's/^From .*\n//m; s/^\s*\n//mg' < ezidnewacct
+	}			# restores $/, eg, so chomp works correctly
+
+	s/^From .*\n//m;	# include email headers, but not first
+	s/^\s*\n//mg;		# drop blank lines
+
+	$msg = File::ANVL::anvl_recarray(	# make an array from
+		$_,				# the record string
+		\@elems,			# the made array
+		1,				# starting line number
+		{ comments => 1,		# preserve comments and
+		  autoindent => 1 }		# forgive most indention
+	);				# problems, eg, from email formatting
+	$msg and $msg =~ /^error/ and
+		die($msg);
+
+	$msg = File::ANVL::anvl_arrayhash(	# make map from a tag to array
+		\@elems, \%hash);		# indices of elems holding it
+	$msg and $msg =~ /^error/ and
+		die($msg);
+
+	my ($org, $acronym, $org_www, $acct_name) =
+		map t2e($_), (qw(org org_acroynm org_www acct_name));
+	$org_www =~ s,/+$,,;
+	$acronym = uc $acronym;		# make it uppercase
+	$acronym =~ s/ +//g;		# squeeze out whitespace
+	#my $datacenterclass = $doip =~ /^b/ ? 'CDL' : 'PURDUE';
+	my $datacenterclass = uc $realm;
+	# XXX push this stuff OUT of this script
+	my $minter_pw = 'xxx';
+	#my $alloc_pw = ( $doip =~ /^b/ ?
+	my $alloc_pw = ( $realm eq 'cdl' ?
+		"'xxx'" : "'xxx'" );
+
+	# xxx document
+	# "Question for Greg: is underscore (_) allowed in a data center name?"
+	#   Answer: No, but internal dashes are:
+	#   ([A-Z][-A-Z0-9]{0,6}[A-Z0-9])\.([A-Z][-A-Z0-9]{0,6}[A-Z0-9])
+
+	my $datacenter;			# DataCite datacenter name, rules for
+	($datacenter = $acronym) =~	# which allow max 8 uppercase letters
+		s/^(.{8}).+/$1/;
+
+	# yyy this copy shouldn't be necessary
+	my $prefix = $doip;
+	my $doi_naan = $doip ne '-' ? `../doip2naan $prefix` : '-';
+	chomp $doi_naan;		# doip2naan returns an ARK NAAN
+	$doi_naan =~ s,^ark:/,,;	# encode 10., 10.1, 10.2, ...
+
+	my $minter_base = 'https://n2t.net/a/ezid/m/ark';
+	my $DSHDR = uc $dshdr;		# uppercase version of DOI shoulder
+	my $ark_minter = "$minter_base/$naan/$ashdr";
+	my $doi_minter = $doi_naan ne '-' ?
+		"$minter_base/$doi_naan/$dshdr" : '-';
+	my $validater = "\$ ./validate-shoulders master_shoulders.txt";
+	my $ark_validater = "$validater ark:/$naan/$ashdr -m ezid:$minter_pw";
+	my $doi_validater = "$validater doi:$prefix/$DSHDR -d $alloc_pw " .
+		"-m ezid:$minter_pw";
+
+	my $cmd;
+	if ($ashdr eq '-') {
+		$ark_minter = $ashdr = '';
+		$ark_validater = "# Nothing to do";
+	}
+	else {
+		$cmd = "./make_shdr ark:/$naan/$ashdr 2>&1";
+		$dryrun and
+			print("- Would have run: $cmd\n"),
+		1
+		or
+			print("Running: $cmd\n"),
+			`$cmd`
+			#`./make_shdr ark:/$naan/$ashdr`;
+		;
+	}
+	if ($dshdr eq '-' || $doi_naan eq '-') {
+		$doi_minter = $dshdr = $DSHDR = '';
+		$doi_validater = "# Nothing to do";
+	}
+	else {
+		$cmd = "./make_shdr doi:$prefix/$DSHDR 2>&1";
+		$dryrun and
+			print("- Would have run: $cmd\n"),
+		1
+		or
+			print("Running: $cmd\n"),
+			`$cmd`
+			#`./make_shdr doi:$prefix/$DSHDR`;
+		;
+	}
+
+# # Note minter parent directory:  md/... not nd/...
+# shdr: $doip/$dshdr | $acronym DOIs | $edate | md/noidu_$dshdr
+# shdr: $naan/$ashdr | $acronym ARKs | $edate | md/noidu_$ashdr
+# data center: $datacenterclass.$datacenter
+# long label: $org
+# user: $acct_name
+
+	print << "EOF";
+You'll need to insert the following in /noid/shoulders/master_shoulders.txt
+just after the line "...==== Add new shoulders after this line ====...":
+
+:: ark:/$naan/$ashdr
+type: shoulder
+manager: ezid
+#eziduser: $acct_name
+name: $org
+date: $edate
+minter: $ark_minter
+
+EOF
+
+	$doi_naan ne '-' and print << "EOF";	# really an "if" clause
+:: doi:$prefix/$DSHDR
+type: shoulder
+manager: ezid
+#eziduser: $acct_name
+name: $org
+date: $edate
+minter: $doi_minter
+datacenter: $datacenterclass.$datacenter
+
+In /noid/shoulders, validate the file and create a new datacenter with
+
+    \$ ./validate-shoulders master_shoulders.txt
+    \$ ./mdsadmin $alloc_pw create $datacenterclass.$datacenter "$org" $prefix
+
+(using the allocator password for CDL or PURDUE).  Perform an operational
+test (not just a syntactic test) on each shoulder with
+
+    $ark_validater
+    $doi_validater
+EOF
+
+	$doi_naan eq '-' and print << "EOF";	# really an "else" clause
+In /noid/shoulders, validate the file and do an operational test with
+
+    \$ ./validate-shoulders master_shoulders.txt
+    $ark_validater
+EOF
+
+	print << "EOF";
+
+When everything checks out, install the new shoulders and reload EZID
+
+    \$ ./install-shoulders
+    \$ ./reload-all xxx
+
+Now turn the pivotal story over to Joan.  Her first next step will be
+to login to EZID as 'admin', visit 'Create IDs' and verify that
+
+    $org
+    
+shows up in the shoulder list.
+
+Back in /noid/naans/forge, insert the following in "../master_naans"
+near the bottom, just before the URNS entry:
+
+naa:
+who:    $org (=) $acronym
+what:   $naan
+when:   $edate
+where:	$org_www
+how:	NP | (:unkn) unknown | $eyear |
+!why:   EZID ARK
+!contact: eziduserid $acct_name
+
+Finally, append these lines to the end of "grandfathered",
+
+EOF
+
+	#87290: UTK       2013.01.18   # University of Tennessee (xxx)
+	printf "${naan}: %-9s $edate   # $org (xxx)\n", $acronym;
+	print << "EOF";
+$prefix  # $org
+
+EOF
+	$dryrun and print "- End of dry run.  Remove -n from argument ",
+		"list to obtain real results.\n";
+}
+
+# tag2element: given hash tag, return corresponding array element value
+# Call:  t2e( $tag )
+#
+sub t2e { my( $tag ) = ( shift );
+
+	join ' ; ',	# separate if more than one (if not, no harm done)
+		map $elems[ $_ + 2 ],	# add 2 to each index stored under
+			@{ $hash{ $tag } };	# the requested hash tag
+}
+
+1;
+
+__END__
+
+From ezid@n2t.net Wed Feb  6 16:24:40 2013
+Date: Wed, 6 Feb 2013 16:24:48 -0800
+From: ezid@n2t.net
+To: jak@ucop.edu, jstarr@ucop.edu
+Subject: new ezid account: benchfly
+
+todays_date: 02/06/2013
+submitters_name: Joan Starr
+acct_name: benchfly
+acct_email: info@benchfly.com
+primary_contact: Alan Marnett
+contact_email: alan@benchfly.com
+contact_phone: 415-312-3165
+contact_fax: 617-284-6279
+org: BenchFly
+org_acroynm: BenchFly
+org_www: http://www.benchfly.com/
+mailing_address1: 955 Massachusetts Ave
+mailing_address2: #543
+mailing_city: Cambridge
+mailing_state: MA
+mailing_zip: 02139
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: NO
+internal_identifiers: YES
+identifier_plans: At BenchFly, we provide a platform for researchers to record and share their technical knowledge with the scientific community. We plan on assigning these technical videos identifiers so that as researchers share their content around the web, there will be a solid identifier in place that points to the original source file. This will also allow them to use the DOIs to get credit for the work they’ve done in emerging “altmetrics” systems. We already have the infrastructure in place to accommodate all of the DOI requirements, so issuing the DOI number will be an easy addition to our platform.
+comments: I've written him to ask about the internal/local identifiers. Haven't heard back yet. I'll update the  Pivotal ticket when I do.

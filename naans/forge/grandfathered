@@ -1,0 +1,570 @@
+# OLD NAME: grandfathered -> should be "naa_list" (ARK and DOI NAAs)
+# Go to end to add more.  See # =======... comment line for more info.
+
+# This is a backup file redundantly listing NAAN and DOI prefix assignments.
+# Note: not clear if every NAAN assignment is reflected here.
+
+# Previously-assigned DOI NAANs:
+12345: Exemplary Digital Archive
+99152: N2T Metadata Terms
+00001: NAAN/NAAN
+12025: US NLM
+12026: US LC
+10113: US NAL        # used to be 12027
+13030: CDL
+13038: WIPO
+20775: UCSD
+29114: UCSF
+28722: UCB
+21198: UCLA
+15230: RU
+13960: IA
+64269: DCC
+62624: NYU
+67531: UNT
+27927: PORTICO
+12148: BNF
+88435: PU
+78428: UW
+89901: AVGG
+80444: NWDA
+25593: EMORY
+25031: UKANSAS
+17101: CEH
+65323: UCALGARY
+61001: CGU
+52327: BANQ
+78319: GOOGLE
+39331: OSZK
+26677: LAC
+13681: CMBV
+87895: CINES     2008.10.14
+74899: BMT       2009.01.23
+61903: FS        2009.02.13
+48907: UCSB      2009.03.13
+36253: GEH       2009.03.17
+23257: APPSTATE  2009.05.18
+10261: JMBERLIN  2009.07.22
+84475: UHOUSTON  2009.07.22
+71479: CSIC      2009.10.14   # Spanish National Research Council
+58483: ADSOMME   2009.10.21   # Archives départementales de la Somme
+45829: CUJAS     2009.10.28   # Cujas
+32833: MIT       2009.11.17   # MIT
+19837: SFU       2009.12.16   # Simon Fraser University
+81055: BL        2010.01.21   # British Library
+68059: CNES      2010.02.02   # Centre National d'Études Spatiales
+55405: CCCH      2010.02.19   # Columbia College Chicago
+42409: PSU       2010.03.03   # The Pennsylvania State University
+29413: UPENN     2010.04.07   # University of Pennsylvania 
+16417: UKY       2010.04.09   # University of Kentucky
+77635: HUB       2010.06.07   # Humboldt-Universität zu Berlin       
+64981: CIRDOC    2010.06.21   # Lo CIRDÒC – Mediatèca occitana       
+51985: UIUC      2010.07.12   # University of Illinois at Urbana Champaign
+38989: GWU       2010.08.20   # The George Washington University
+25993: ADDOUBS   2010.08.23   # Archives Départementales du Doubs
+12997: ADBELFORT 2010.08.23   # Archives Départementales du Territoire de Belfort
+87553: ADPONTIVY 2010.08.23   # Archives de la Ville de Pontivy
+74557: RAC       2010.08.31   # Rockefeller Archive Center
+61561: ANOM      2010.09.23   # les Archives nationales d'outre-mer (the National Overseas Archives)
+48565: VB        2010.09.28   # Ville de Besançon
+35569: CG972     2010.10.22   # Conseil Général de la Martinique
+22573: ITHAKA    2010.11.18   # ITHAKA (modified Portico entry)
+84133: ADA       2010.11.22   # Les Archives Départementales de l'Allier
+71137: ADCO      2010.11.25   # Archives départementales de la Côte-d'Or
+58141: ONB       2010.12.03   # �sterreichische Nationalbibliothek
+45145: NYPL      2010.12.18   # New York Public Library
+34231: PU        2011.01.24   # Purdue University [DERIVED FROM 10.4231!!]
+19153: CNDP      2011.02.12   # Centre national de documentation pédagogique
+80713: BNP       2011.02.12   # Biblioteca Nacional de Portugal
+67717: MCC       2011.03.14   # Ministère de la culture et de la communication
+54721: INHA      2011.03.31   # Institut national dhistoire de lart
+41725: IRCICA    2011.04.22   # Research Center for Islamic History, Art and Culture
+28729: ADR       2011.05.08   # Archives départementales du Rhône
+16075: ADC       2011.05.27   # Archives départementales du Cantal
+77293: ADS       2011.06.07   # Archives départementales de la Savoie
+64297: ADPC      2011.06.07   # Archives départementales du Pas-de-Calais
+51301: FCEA      2011.06.20   # Fundación Centro de Estudios Andaluces
+38305: UCSC      2011.06.24   # University of California Santa Cruz
+25651: ADGIRONDE 2011.08.18   # Archives départementales de la Gironde
+12655: ACCOLAD   2011.09.13   # ACCOLAD Franche-Comté
+86869: ADMARNE   2011.09.26   # Archives départementales de la Marne
+85066: USGS      2011.12.13   # from an EZID user (xxx not 'held' yet in noid)
+85065: NCAR      2011.12.13   # from an EZID user (xxx not 'held' yet in noid)
+85064: CQRM      2011.12.12   # from an EZID user (xxx not 'held' yet in noid)
+85063: NCEA      2011.12.12   # from an EZID user (xxx not 'held' yet in noid)
+83334: ORNL      2011.12.13   # from an EZID user (xxx not 'held' yet in noid)
+73873: VP        2011.12.13   # Ville de Paris
+32149: INOC      2012.01.02   # Inoc Aquitania
+60877: ADNIEVRE  2012.01.02   # Archives départementales de la Nièvre
+85967: IU        2012.01.04   # from an EZID user (xxx not 'held' yet in noid)
+85067: NASAGSFC  2012.01.24   # from EZID user eosdis (xxx not 'held' in noid)
+85069: SDSCOTF   2012.02.07   # from EZID user ucsd_opentopo (xxx not 'held')
+86067: DIGANT    2012.02.21   # from EZID userid tdar (xxx not 'held' in noid)
+86068: DATAPLANET 2012.02.21  # EZID userid data-planet (xxx not 'held' in noid)
+86070: LABARCH   2012.02.29   # EZID userid labarchives (xxx not in noid)
+86071: UCM       2012.03.02   # University of California Merced (xxx)
+86072: UCSDSG    2012.03.05   # UCSD Signaling Gateway (xxx)
+86073: LTERN     2012.03.05   # LTER Network (xxx)
+86074: AAS       2012.03.05   # American Astronomical Society (xxx)
+86077: CISER     2012.03.05   # Cornell Institute for Social and Economic Research (xxx)
+86076: FHCRC     2012.03.05   # Fred Hutchinson Cancer Research Center (xxx)
+86079: UCLAEEB   2012.03.12   # UCLA Department of Ecology and Evolutionary Biology (xxx)
+86080: CRCNSP    2012.03.12   # Collaborative Research Computational Neuroscience Program (xxx)
+86081: UCSDBD    2012.03.28   # UCSD Biosciences Division
+86083: OHSU      2012.04.03   # Oregon Health and Science University
+10987: UPEI      2012.04.05   # University of Prince Edward Island
+47881: UCBL      2012.04.13   # Université Claude Bernard Lyon 1
+35227: ADLANDES  2012.04.24   # Archives départementales des Landes
+86084: DIGSCI    2012.05.17   # Digital Science (figshare) (xxx)
+86085: PISCO     2012.05.22   # Partnership for Interdisciplinary Studies of Coastal Oceans (xxx)
+22231: ADAIN     2012.05.26   # Archives départementales de l'Ain
+86086: UCRIVERSIDE 2012.05.26 # University of California Riverside (xxx)
+87264: UCOREGON  2012.05.26   # University of Oregon (xxx)
+87265: NSIDC     2012.05.30   # National Snow and Ice Data Center (xxx)
+87266: HRI       2012.06.08   # Harte Research Institue (xxx)
+83449: FUNDP     2012.06.17   # Facultés Universitaires Notre-Dame de la Paix, Namur (=) University of Namur
+87267: OSU       2012.06.21   # Oregon State University (xxx)
+87268: BCOE      2012.06.27   # Bourns College of Engineering (xxx)
+87269: ESIPFED   2012.06.27   # Federation of Earth Science Information Partners (xxx)
+84246: UCSDCCA   2012.06.27   # California Coastal Atlas (xxx??)
+70453: MTABC     2012.06.27   # Massage Therapy Association of British Columbia
+87270: UCSDSSPPS 2012.07.02   # Skaggs School of Pharmacy (xxx)
+87272: UCSFCTSI  2012.07.10   # UCSF Clinical and Translational Science Institute (xxx)
+57457: ADLC      2012.07.11   # Archives départementales du Loir-et-Cher
+44803: ADO       2012.07.11   # Archives départementales de l'Oise
+87273: WSU       2012.07.20   # Washington State University (xxx)
+87274: UND       2012.07.20   # University of Notre Dame (xxx)
+87275: UMA       2012.07.24   # University of Massachusetts Amherst (xxx)
+87276: CSDE      2012.08.07   # Center for Studies in Demography and Ecology (xxx)
+87277: IUCNS     2012.08.11   # IU Cyberinfrastructure for Network Science Center (xxx)
+87278: UUTAH     2012.08.16   # University of Utah (xxx)
+87279: OOI       2012.08.16   # Ocean Observatory Initiative (xxx)
+31807: OCC       2012.08.11   # Open Cloud Consortium
+87280: UCI       2012.09.10   # UCI Library (xxx)
+87281: JHU       2012.09.13   # JHU Library (xxx)
+18811: AMLYON    2012.09.17   # Archives municipales de LYON
+87283: UNAVCO    2012.09.21   # UNAVCO (xxx)
+67033: ADHS      2012.09.29   # Archives départementales de la Haute-Savoie
+87284: R2R       2012.10.04   # Rolling Deck to Repository Program
+87285: CMMAP     2012.11.10   # Center for Multiscale Modeling of Atmospheric Processes
+54379: UALBERTA  2012.11.15   # University of Alberta
+41383: ADCHER    2012.11.28   # Archives départementales du Cher
+87286: BIOCODE   2012.12.06   # Biocode Commons (xxx)
+87287: PEERJ     2012.12.06   # Peerj (xxx)
+28387: ADV       2012.12.11   # Archives départementales de la Vienne
+15391: AMSTDENIS 2012.12.13   # Archives Municipales de Saint-Denis
+76609: MOM       2012.12.19   # Maison de l'Orient et la Méditerranée
+87289: USNOAA    2013.01.18   # US National Oceanic and Atmospheric Administration (xxx)
+87290: UTK       2013.01.18   # University of Tennessee (xxx)
+63955: CNRSIRHT  2013.01.29   # Institut de recherche et d'histoire des textes
+50959: DIGCMNW   2013.02.05   # Digital Commonwealth
+87293: BENCHFLY  2013.02.11   # BenchFly (xxx)
+87294: VTLIB     2013.02.11   # University Libraries, Virginia Tech (xxx)
+37963: ADMAYENNE 2013.02.15   # Archives départementales de la Mayenne
+24967: ADLOZERE  2013.02.20   # Archives départementales de la Lozère
+11971: ADAVEYRON 2013.02.26   # Archives départementales de l'Aveyron
+73531: ADVAR     2013.02.28   # Archives départementales du Var
+87295: CRBS      2013.03.04   # Center for Research in Biological Systems (xxx)
+87296: ELRAP     2013.03.07   # Edom Lowlands Regional Archaeology Project (xxx)
+87297: UCBLING   2013.03.07   # UC Berkeley Department of Linguistics (xxx)
+60535: ADSEL     2013.03.07   # Archives départementales de Saône-et-Loire
+47539: ADHL      2013.03.08   # Archives départementales de la Haute-Loire
+87298: CUL       2013.03.11   # Cornell University Library (xxx)
+34543: BPL       2013.03.14   # Boston Public Library
+88729: UCBMVZ    2013.03.20   # Museum of Vertebrate Zoology (xxx)
+21547: BIOCODE   2013.03.23   # Biocode Commons
+87300: ONELAB    2013.04.01   # UCSD School of Medicine, Department of Neurosciences, Mobley Lab (xxx)
+87301: BUL       2013.04.01   # Brown University Library (xxx)
+87302: UMICH     2013.04.01   # University of Michigan Libaries (xxx)
+70111: HSA       2013.04.10   # Hawaii State Archives
+87303: SAGEBIO   2013.04.10   # Sage Bionetworks (xxx)
+57115: ADMANCHE  2013.04.14   # Archives départementales de la Manche
+87907: CALTECH   2013.04.15   # California Institute of Technology (xxx)
+87908: BROAD     2013.04.24   # Broad Institute of MIT and Harvard (xxx)
+87909: SEISMOLAB 2013.04.29   # CalTech Seismological Laboratory (xxx)
+87910: HARVARD   2013.04.30   # Harvard University (xxx)
+87911: ONEOCEAN  2013.05.03   # OneOcean (xxx)
+87912: IUPUI     2013.05.22   # Indiana University Purdue University Indianapolis (xxx)
+21547: BIOCODE   2013.03.23   # Biocode Commons
+44119: SARW      2013.05.27   # Service des archives régionales de Wallonie
+87913: UWESCIENCE2013.06.05   # UW eScience Institute (xxx)
+#mistake: 85967: PSUCOMMONS2013.06.18   # Penn State Institutes of Energy & Environment/PSU Data Commons (xxx)
+83014: PSUCOMMONS2013.06.18   # Penn State Institutes of Energy & Environment/PSU Data Commons (xxx)
+31123: FMSH      2013.06.27   # Fondation Maison des sciences de l'homme
+87914: FDSN      2013.06.18   # International Federation of Digital Seismograph Networks (xxx)
+87915: UWCIG     2013.06.27   # UW College of the Environment Climate Impacts Group (xxx)
+87916: CUL/IS    2013.06.27   # Columbia University Library/Information Services (xxx)
+18127: ADVO      2013.07.16   # Archives Départementales du Val-d'Oise
+79687: SFSYMPH   2013.07.28   # San Francisco Symphony
+87917: NCCS      2013.08.02   # NASA Center for Climate Simulation (xxx)
+66691: MDA       2013.08.02   # Musée des Augustins
+53695: ANS       2013.08.22   # American Numismatic Society
+87919: AGL       2013.08.31   # Advanced Graphics Lab (xxx)
+83010: UMBS      2013.08.31   # University of Michigan Biological Station (xxx)
+40699: MDMH      2013.08.31   # Ministère de la Défense, Mémoire des hommes
+87920: CAMS      2013.09.09   # Cyberinfrastructure for Atomistic Materials Science (CAMS) (xxx)
+87921: RENCI     2013.09.09   # RENCI (Renaissance Computing Institute) (xxx)
+27703: USEPA     2013.09.13   # US Environmental Protection Agency
+15049: AD56      2013.09.19   # Archives Départementales du Morbihan
+87922: UCBITS    2013.09.30   # Institute of Transportation Studies, UC Berkeley (xxx)
+87923: NKN       2013.10.02   # Northwest Knowledge Network, University of Idaho (xxx)
+83011: NEES      2013.10.07   # Network for Earthquake Engineering Simulation (xxx)
+76267: LCL       2013.10.09   # Lafayette College Libraries
+
+# ====================================================================== #
+
+# 2013.10.14 -- starting making break with "grandfathered" format
+#               by adding DOI prefixes along with ARK NAANs
+# Above is a block of previously-assigned ARK NAANs.
+# Below is a block of previously-assigned DOI NAANs (prefixes), with
+# one special NAAN for URN UUIDs: urn naan: 97720       # urn:uuid shadow
+
+# Previously-assigned DOI NAANs:
+b5060  # CDL DOI shadow
+b5061  # Dryad DOI shadow
+b5062  # UCSB DOI shadow
+b5063  # NCEAS DOI shadow
+b5064  # QDR CQRM DOIs
+b5065  # NCAR DOI shadow
+b5066  # USGS DOI shadow
+b5067  # NASA GSFC DOIs
+b5068  # UCLA DOI shadow
+b5069  # SDSC DOI shadow
+b3334  # ORNL DOI shadow
+b4246  # California Coastal Atlas (UCSDCCA)
+b5072  # test DOI shadow
+b5967  # Indiana University [tag: Purdue datacenter]
+b6067  # Digital Antiquity
+b6068  # Data-Planet
+b6069  # University of Washington Libraries
+b6070  # LabArchives
+b6071  # University of California Merced
+b6072  # UCSD Signaling Gateway
+b6073  # Long-Term Ecological Research (LTER) Network
+b6074  # American Astronomical Society (AAS)
+b6075  # UC San Diego Library (close to 20775)
+b6076  # Fred Hutchinson Cancer Research Center
+b6077  # Cornell Institute for Social and Economic Research
+b6078  # UC Berkeley (UCB)
+b6079  # UCLA Department of Ecology and Evolutionary Biology
+b6080  # Collaborative Research Computational Neuroscience
+b6081  # UCSD Biosciences Division
+b6082  # University of Chicago
+b6083  # Oregon Health and Science University
+b6084  # Figshare / Digital Science
+b6085  # PISCO
+b6086  # UC Riverside (UCR)
+b7264  # University of Oregon
+b7265  # National Snow and Ice Data Center (NSIDC), University of Colorado
+b7266  # Harte Research Institute
+b7267  # Oregon State University (OSU)
+b7268  # Bourns College of Engineering (BCOE)
+b7269  # Federation of Earth Science Information Partners (ESIPFED)
+b7270  # UCSD Skaggs School of Pharmacy (UCSD SSPPS)
+b7271  # UCSF Library
+b7272  # UCSF DataShare
+b7273  # Washington State University
+b7274  # University of Notre Dame [tag: Purdue datacenter]
+b7275  # University of Massachusetts Amherst
+b7276  # Center for Studies in Demography and Ecology csde.washington.edu
+b7277  # IU Cyberinfrastructure for Network Science Center (IUCNS)
+b7278  # University of Utah
+b7279  # UCSD Ocean Observatory Initiative
+b7280  # UCI Library
+b7281  # JHU Library
+b7282  # Rutgers University Library
+b7283  # UNAVCO
+b7284  # Columbia Rolling Deck to Repository (R2R) Program
+b7285  # Center for Multiscale Modeling of Atmospheric Processes
+b7286  # Biocode Commons
+b7287  # Peerj
+b7288  # UCSD EarthRef (DOIs only, no ARK shoulder)
+b7289  # US National Oceanic and Atmospheric Administration (NOAA)
+b7290  # University of Tennessee
+b7291  # UCSC
+b7292  # Bay Area Environmental Research Institute
+b7293  # BenchFly
+b7294  # University Libraries, Virginia Tech
+b7295  # Center for Research in Biological Systems
+b7296  # Edom Lowlands Regional Archaeology Project
+b7297  # UC Berkeley Department of Linguistics
+b7298  # Cornell University Library
+b7299  # UCB Museum of Vertebrate Zoology
+b7300  # UCSD School of Medicine, Department of Neurosciences, Mobley Lab
+b7301  # Brown University Library
+b7302  # University of Michigan Libaries
+b7303  # Sage Bionetworks
+b7907  # California Institute of Technology
+b7908  # Broad Institute of MIT and Harvard
+b7909  # CalTech Seismological Laboratory
+b7910  # Harvard University
+b7911  # OneOcean
+b7912  # Indiana University Purdue University Indianapolis
+b7913  # UW eScience Institute
+b7914  # Incorporated Research Institutions for Seismology
+b7915  # UW College of the Environment Climate Impacts Group
+b7916  # Columbia University Library/Information Services
+b7917  # NASA Center for Climate Simulation
+b7919  # Advanced Graphics Lab
+c3010  # University of Michigan Biological Station
+b7920  # Cyberinfrastructure for Atomistic Materials Science (CAMS)
+b7921  # RENCI (Renaissance Computing Institute)
+b7922  # Institute of Transportation Studies, UC Berkeley
+b7923  # Northwest Knowledge Network, University of Idaho
+c3011  # Network for Earthquake Engineering Simulation
+c3014  # PSIEE
+
+# --------- new format starts here -----
+
+87924: DUL       2013.10.14   # Duke University (xxx)
+b7924  # Duke University
+63271: AD02      2013.10.14   # Archives Départementales de l'Aisne
+87925: UCDIRL    2013.10.18   # University College Dublin (xxx)
+b7925  # University College Dublin
+87926: MDY       2013.10.28   # Middlebury College (xxx)
+b7926  # Middlebury College
+87927: CIESIN    2013.10.28   # Center for International Earth Science Information Network (xxx)
+b7927  # Center for International Earth Science Information Network
+50275: AD88      2013.10.30   # Archives Départementales des Vosges
+87928: UCBRIT    2013.11.05   # UC Berkeley Research IT (xxx)
+b7928  # UC Berkeley Research IT
+87929: ISSDA     2013.11.05   # Irish Social Science Data Archive (xxx)
+b7929  # Irish Social Science Data Archive
+87930: USGCRP    2013.11.08   # U.S. Global Change Research Program/UCAR (xxx)
+b7930  # US Global Change Research Program/UCAR
+37279: AD3       2013.11.08   # Archives Départementales de l'Hérault
+24625: AMORLEANS 2013.11.08   # Archives municipales d'Orléans
+11629: UNCR      2013.11.08   # Universidad Nacional de Costa Rica
+87931: LCRNZ     2013.11.20   # Landcare Research New Zealand Ltd (xxx)
+b7931  # Landcare Research New Zealand Ltd
+72847: AD63      2013.11.21   # Archives Départementales du Puy-de-Dôme
+59851: FBVMC     2013.11.21   # Fundación Biblioteca Virtual Miguel de Cervantes
+46855: LAREGION  2013.12.04   # Languedoc-Roussillon Council
+83012: UIUCLIB   2013.12.16   # University of Illinois Libraries (xxx)
+c3012  # University of Illinois Libraries
+# --------- using 10.* instead of b* and c*, starting here -----
+83013: INTBIO    2013.12.17   # Intrepid Bioinformatics (xxx)
+10.13013  # Intrepid Bioinformatics
+34201: BPI       2014.01.03   # Bibliothèque publique d'information
+21205: AMPV      2014.01.14   # Archives Municipales de Porto Vecchio
+69427: UNITWIN   2014.01.15   # Complex Systems Digital Campus
+56431: AD89      2014.01.17   # Archives Départementales de l'Yonne
+43777: JORL      2014.01.30   # Otolaryngology online journal
+79003: AMSE      2014.02.08   # Archives de Saint-Etienne
+87932: BSL       2014.02.13   # Berkeley Seismological Laboratory (xxx)
+10.7932  # Berkeley Seismological Laboratory
+87933: LALEUMBC  2014.02.13   # Laboratory for Anthropogenic Landscape Ecology (xxx)
+10.7933  # Laboratory for Anthropogenic Landscape Ecology
+66007: AD28      2014.02.14   # Archives départementales d'Eure-et-Loir
+53353: AMPICASSO 2014.02.17   # Archives du Musée Picasso
+40357: AD82      2014.02.20   # Archives départementales de Tarn-et-Garonne
+27361: JMU       2014.02.20   # James Madison University
+83014: UNL       2014.02.27   # University of Nebraska-Lincoln Libraries (xxx)
+10.13014  # University of Nebraska-Lincoln Libraries
+14365: COLECTICA 2014.03.11   # Colectica - Statistical Data Management
+87934: MORPHOBANK 2014.03.13   # MorphoBank (xxx)
+10.7934  # MorphoBank
+87935: LIGO      2014.03.13   # LIGO Open Science Center (xxx)
+10.7935  # LIGO Open Science Center
+75583: ADARDENN  2014.03.17   # Archives départementales des Ardennes
+87936: WUSTL     2014.03.18   # Washington University in St. Louis (xxx)
+10.7936  # Washington University in St. Louis
+62929: IN2P3     2014.03.21   # Institut National de Physique Nucléaire et de Physique des Particules du CNRS
+87937: TCIA      2014.03.21   # The Cancer Imaging Archive (xxx)
+10.7937  # The Cancer Imaging Archive
+49933: AD35      2014.03.21   # Archives départementales de l'Ille-et-Vilaine
+36937: ADYVEL    2014.03.25   # Archives départementales des Yvelines
+87938: STATSRC   2014.04.03   # Statistics (ResearchCompendia.org) (xxx)
+10.7938  # Statistics (ResearchCompendia.org)
+10.7939  # University of Alberta Libraries
+87940: WRITPRO   2014.04.16   # UCSB Writing Program (xxx)
+10.7940  # UCSB Writing Program
+23941: USC       2014.04.23   # University of Southern California
+10945: ASWEGROW  2014.05.05   # AsWeGrow
+72505: UL3       2014.05.06   # Université Lille 3
+59509: PTUTOR    2014.05.09   # PharmaTutor
+87941: LBNL      2014.05.10   # Lawrence Berkeley National Laboratory (xxx)
+10.7941  # Lawrence Berkeley National Laboratory
+46513: SCPO      2014.05.21   # Sciences Po
+87942: CCHDO     2014.05.21   # CLIVAR and Carbon Hydrographic Data Office (xxx)
+10.7942  # CLIVAR and Carbon Hydrographic Data Office
+87943: LBNLOMSI  2014.06.12   # LBNL OpenMSI (xxx)
+10.7943  # LBNL OpenMSI
+87944: USFWS     2014.06.12   # U.S. Fish and Wildlife Service (xxx)
+10.7944  # U.S. Fish and Wildlife Service
+33517: GRDC      2014.06.13   # Grains Research and Development Corporation
+20521: CSI       2014.06.13   # Cité des Sciences et de l?industrie
+87945: UMD       2014.06.13   # University of Maryland Libraries (xxx)
+10.7945  # University of Maryland Libraries
+69085: ANF       2014.06.17   # Assemblée Nationale
+87945: CIN       2014.06.25   # University of Cincinnati Libraries (xxx)
+10.7945  # University of Cincinnati Libraries
+56089: CNM       2014.07.03   # Cité Numérique de la Méditerranée
+87946: IPLANT    2014.07.08   # iPlant Collaborative (at University of Arizona) (xxx)
+10.7946  # iPlant Collaborative (at University of Arizona)
+81184: CMU       2014.07.11   # Carnegie Mellon University Libraries (xxx)
+10.1184  # Carnegie Mellon University Libraries
+85138: NOAA-GMD  2014.07.18   # NOAA Global Monitoring Division (xxx)
+10.15138  # NOAA Global Monitoring Division
+85139: ODUMUNC   2014.07.23   # Odum Institute for Research in Social Science (xxx)
+10.15139  # Odum Institute for Research in Social Science
+85140: UCDAVIS   2014.07.23   # University of California Davis (xxx)
+10.15140  # University of California, Davis, University Library
+85141: UCDSSDS  2014.07.23   # UC Davis, Social Science Data Service (xxx)
+10.15141  # UC Davis, Social Science Data Service
+85142: USU       2014.07.23   # Utah State University (xxx)
+10.15142  # Utah State University Merrill-Cazier Library
+43093: EQPXBIB   2014.07.24   # Equipex Biblissima
+30097: AMARMENT  2014.07.25   # Archives municipales d'Armentières
+17102: CWRC      2014.07.28   # Canadian Writing Research Collaboratory
+85143: ACSESS    2014.07.30   # Alliance for Crops, Soils, and Environmental Science Societies (xxx)
+10.15143  # Alliance for Crops, Soils, and Environmental Science Societies
+78661: CAP       2014.08.08   # College of American Pathologists
+85144: CRCL      2014.08.12   # Center for Research in Computational Linguistics (xxx)
+10.15144  # Center for Research in Computational Linguistics
+65665: USNMNH    2014.08.18   # National Museum of Natural History, Smithsonian Institution (xxx)
+52669: ADMEUSE   2014.08.19   # Archives Départementales de la Meuse
+39673: AD07      2014.09.11   # Archives départementales de l'Ardèche
+26678: FRANTIQ   2014.09.19   # Fédération et Ressources sur l'Antiquité
+85145: UNMLIB    2014.09.24   # University of New Mexico Libraries (xxx)
+10.15145  # University of New Mexico Libraries
+83017: UMN       2014.10.09   # University of Minnesota Libraries (xxx)
+10.13017  # University of Minnesota Libraries
+85147: IDASHREPOSITORY 2014.10.13   # iDASH Repository (xxx)
+10.15147  # iDASH Repository
+83018: GLOBUS    2014.10.13   # Globus.org (xxx)
+10.13018  # Globus.org
+83019: MYGEOHUB  2014.10.13   # MyGeoHub (xxx)
+10.13019  # MyGeoHub
+83020: PURPOLY   2014.10.14   # Purdue Polytechnic Institute (xxx)
+10.13020  # Purdue Polytechnic Institute
+83020: DRUM      2014.10.14   # Data Repository for the University of Minnesota (xxx)
+10.13020  # Data Repository for the University of Minnesota
+14023: ARTCIEN   2014.10.26   # Revista de Arte, Ciência e Comunicação
+75241: AMBDEAUX  2014.10.29   # Archives Municipales de Bordeaux
+62245: AMRM      2014.10.29   # Archives Municipales de Rueil-Malmaison
+83021: GMU       2014.11.04   # George Mason University (xxx)
+10.13021  # George Mason University
+49249: AMSB      2014.11.04   # Archives municipales de Saint Brieuc
+36254: MHNT      2014.11.06   # Muséum d'Histoire Naturelle de Toulouse
+83022: DATAMARES 2014.11.10   # DataMares (xxx)
+10.13022  # DataMares
+23599: ADHALPES  2014.11.14   # Archives Départementales des Hautes-Alpes
+10.13023  # University of Kentucky Libraries
+10.5070	 # eScholarship
+10603: INETMDFMH 2014.12.09   # Instituto de Etnomusicologia - Centro de Estudos em Música e Dança, Faculdade de Motricidade Humana
+71821: ADML      2014.12.14   # Archives départementales de Maine-et-Loire
+45830: BNRM      2014.12.19   # Bibliothèque Nationale du Royaume du Maroc
+83024: DARTLIB   2014.12.19   # Dartmouth College Library (xxx)
+10.13024  # Dartmouth College Library
+33175: ADMM      2015.01.05   # Archives Départementales de Meurthe et Moselle
+83025: NUIGAL    2015.01.06   # National University of Ireland, Galway (xxx)
+10.13025  # National University of Ireland, Galway
+20179: BNROUBAIX 2015.01.06   # Bibliothèque numérique de Roubaix
+68401: AMVE      2015.01.12   # Archives Municipales de Villeurbanne
+83026: MITLCP    2015.01.13   # MIT Laboratory of Computational Physiology (xxx)
+10.13026  # MIT Laboratory of Computational Physiology
+55406: AMBLOIS   2015.01.14   # Archives municipales de Blois
+83027: MBFBIO    2015.01.27   # MBF Bioscience (xxx)
+10.13027  # MBF Bioscience
+58825: ADDS      2015.01.30   # Archives départementales des Deux-Sèvres
+83028: UMWLSL    2015.02.04   # University of Massachusetts Medical School (xxx)
+10.13028  # University of Massachusetts Medical School
+85779: UCBLAWLIB 2015.02.07   # Berkeley Law Library (xxx)
+10.15779  # Berkeley Law Library
+42751: ADAUBE    2015.02.09   # Archives départementales de '?Aube
+85788: SBGEOG    2015.02.11   # UCSB Climate Hazards Group, Dept of Geography (xxx)
+10.15780  # UCSB Climate Hazards Group, Dept of Geography
+29755: BMV       2015.02.13   # Bibliothèque municipale de Valenciennes
+85781: UTAUSTIN  2015.02.17   # University of Texas at Austin (xxx)
+10.15781  # University of Texas at Austin
+85782: D3R       2015.02.18   # Drug Design Data Resource (xxx)
+10.15782  # Drug Design Data (D3R) Resource
+85783: CRAWDAD   2015.02.18   # CRAWDAD (xxx)
+10.15783  # CRAWDAD
+85784: IEDA      2015.02.18   # Interdisciplinary Earth Data Alliance (xxx)
+10.15784  # Interdisciplinary Earth Data Alliance
+85785: SBGRID    2015.02.18   # Harvard Medical School (xxx)
+10.15785  # Harvard Medical School
+85786: UWYO      2015.02.23   # University of Wyoming Libraries (xxx)
+10.15786  # University of Wyoming Libraries
+85787: VTTI      2015.02.26   # Virginia Tech Transportation Institute (xxx)
+10.15787  # Virginia Tech Transportation Institute
+16759: INVESTIFY 2015.03.03   # Sprint Investify
+77977: AD70      2015.03.03   # Archives départementales de la Haute-Saône
+64982: ADHP      2015.03.04   # Archives départementales des Hautes-Pyrénées
+85788: MSU       2015.03.04   # Montana State University (xxx)
+10.15788  # Montana State University
+52328: ADHV      2015.03.10   # Archives Départementales de la Haute-Vienne
+39332: AVES      2015.03.10   # Archives de la Ville et de l'Eurométropole de Strasbourg
+26335: AD27      2015.03.25   # Archives départementales de l'Eure
+99160: OIEAU     2015.03.26   # Office International de l'Eau (=) International Office for Water # NOTE: this NAAN is in the 99152-99200 range to signal use for vocabulary terms
+87602: MORPHOSO  2015.03.26   # Morphosource Project (xxx)
+10.17602  # Morphosource Project
+13339: AD72      2015.03.30   # Archives départementales de la Sarthe 
+87603: TACC      2015.03.30   # Texas Advanced Computing Center (xxx)
+10.17603  # Texas Advanced Computing Center
+87604: UMIAMI    2015.03.31   # University of Miami Libraries (xxx)
+10.17604  # University of Miami Libraries
+87605: COS       2015.03.31   # Center for Open Science (xxx)
+10.17605  # Center for Open Science
+87606: AUL       2015.04.01   # American University Library (xxx)
+10.17606  # American University Library
+87607: CCC       2015.04.01   # Chicago Collections Consortium (xxx)
+10.17607  # Chicago Collections Consortium
+87608: UOA       2015.04.03   # University of Auckland (xxx)
+10.17608  # University of Auckland
+87610: ICA       2015.04.06   # UTA Institute of Classical Archaeology (xxx)
+10.17610  # UTA Institute of Classical Archaeology
+87611: IRIS      2015.04.06   # Incorporated Research Institutions for Seismology (xxx)
+10.17611  # Incorporated Research Institutions for Seismology
+87612: PGERR     2015.04.06   # UTA Petroleum Engineering (xxx)
+10.17612  # UTA Petroleum Engineering
+74558: AMLAVAL   2015.04.10   # Archives municipales de Laval
+61904: AD16      2015.04.10   # Archives départementales de la Charente
+48908: AMBEZIERS 2015.04.19   # Archives municipales de Béziers
+87613: MLA       2015.04.22   # Modern Language Association (xxx)
+10.17613  # Modern Language Association
+87614: PQR       2015.04.22   # Pitt Quantum Repository (xxx)
+10.17614  # Pitt Quantum Repository
+87615: LIBUNC    2015.04.23   # UNC Library - Resource Description and Management (xxx)
+10.17615  # UNC Library - Resource Description and Management
+87616: RE3DATA   2015.04.24   # Registry of Research Repositories (xxx)
+10.17616  # Registry of Research Repositories
+35911: IEEE      2015.04.24   # IEEE Publishing Technology
+22915: SFSMA     2015.04.28   # The Silent Film Sound & Music Archive
+71480: EMF       2015.04.30   # Espace Mendès France
+87908: DBMICLD   2015.05.11   # UC San Diego Department of Biomedical Informatics (xxx)
+10.17908  # UC San Diego Department of Biomedical Informatics
+87909: STSCI     2015.05.11   # Space Telescope Science Institute (xxx)
+10.17909  # Space Telescope Science Institute
+58484: ADAHP     2015.05.19   # Archives Départementales des Alpes de Haute Provence
+87911: UWISOLAB  2015.05.20   # University of Washington IsoLab (xxx)
+10.17911  # University of Washington IsoLab
+45487: RULB      2015.05.22   # Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin
+87912: WORMBASE  2015.05.26   # Caltech Biology (xxx)
+10.17912  # Caltech Biology
+87913: REGENBASE 2015.05.27   # Miami Project to Cure Paralysis (xxx)
+10.17913  # Miami Project to Cure Paralysis
+32491: AVROMANS  2015.06.01   # Archives de la ville de Romans
+19495: OSC       2015.06.01   # Ohio Supercomputer Center
+87914: SEU       2015.06.09   # Saint Edward's University (xxx)
+10.17914  # Saint Edward's University
+
+
+
+
+
+
+# ==== add new entries above this line ====
+#
+# xxx withdrawn/rescinded (sanctions against Iran)
+# 30781: KOWSAR    2014.02.03   # Kowsar Publishing
+# naa:
+# who:	Kowsar Publishing Corporation (=) KOWSAR
+# what:	30781
+# when:	2014.02.03
+# where:	http://www.kowsarcorp.com
+# how:	NP | (:unkn) unknown | 2014 |
+# !why:	ARK
+# !contact: Ahmadpour-B., Mahyar ||| ahmadpour@mykowsar.com |

@@ -1,0 +1,74 @@
+From jak@ucop.edu Wed Jul 22 16:39:18 2009
+Date: Wed, 22 Jul 2009 16:39:18 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: "Chen, Mingyu" <mchen6@CENTRAL.UH.EDU>
+Cc: SUPPORT-CDL-L@LISTSERV.UCOP.EDU
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested ingenerating ARKs
+
+Hi Mingyu,
+
+Thanks for your message.  There's no license required to use ARKs,
+and no particular technical support costs other than what would be
+normal overhead for maintaining URLs on your website.  If you would
+like to use ARKs (which your message seemed to suggest), the NAAN,
+
+	84475
+
+has been registered for the University of Houston and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/84475/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--- On Wed, 22 Jul 2009, Chen, Mingyu wrote:
+
+> Date: Wed, 22 Jul 2009 16:57:38 -0500
+> From: "Chen, Mingyu" <mchen6@CENTRAL.UH.EDU>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: Interested ingenerating ARKs
+> 
+> Hi, 
+> 
+> I am a Metadata Librarian from the University of Houston Library. We are
+> interested in generating and using ARK. Would you please advice the cost
+> of purchasing license for ARK and any other potential cost for technical
+> support like installation and other services? 
+> 
+> Thanks,
+> 
+> Mingyu
+> 
+> Metadata Coordinator
+> 
+> Cataloging and Metadata Services
+> 
+> University of Houston
+> 
+> TEL: 713/743-8988
+> 
+> FAX: 713/743-9748
+> 
+>  
+> 
+>  
+> 
+> 

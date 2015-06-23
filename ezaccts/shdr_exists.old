@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# This script will be called by prep_shdr and make_shdr.
+
+function usage {
+
+cat << EOT
+shdr_exists - check given shoulderdir name for an existing minter
+
+   Usage:  shdr_exists shdrdir
+
+Returns 0 (success) if there is a minter and prints whatever was found.
+Returns 1 (non-success) if no minter was found; this is usually what you
+want before proceeding to create a minter.
+EOT
+
+}
+
+# XXX change shdr var to shdrdir
+
+shdr=$1
+[[ "$shdr" == '' ]] && {
+	usage
+	exit 0		# because this is the unexpected return status
+}
+
+# checks for a minter # XXX does it work?
+#any=$(grep -w $shdr /noid/naans/master_shoulders | grep -v nd/noid)
+any=$( egrep '^minter:|^::' $sv/apache2/shoulders/master_shoulders.txt |
+		grep -i "$shdr" )
+[[ $any == "" ]] && {
+	#echo $shdr
+	exit 1		# probably what the caller wants to see
+}
+
+#echo Error: $shdr might be taken.  Here is what I found:
+echo Note: $shdr might be taken.  Here is what I found:
+echo $any
+exit 0

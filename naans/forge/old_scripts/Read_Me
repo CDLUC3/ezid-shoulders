@@ -1,0 +1,123 @@
+	How to Create a new NAAN -- draft of 2010.08.23 (jak)
+
+// Restoring the "forge" (the minter of NAANs)
+
+The NOID minter in this directory is for minting 5-digit NAANs.  In case
+you need to rebuild it from scratch and re-establish prior minter state
+up to a given NAAN, say 54321, run the naan_reset script with the argument
+54321 in an empty directory.  When done, the NOID subdirectory will contain
+the newly reset minter.
+
+	% naan_reset 54321
+
+Here's what the script does.  First it creates a new 5-digit minter,
+
+	noid dbcreate .rddddd
+
+Early on, NAANs were assigned by hand rather than minted.  Those original
+NAANs are "grandfathered in" by issuing holds,
+
+	noid hold set \
+		12025 12026 10113 13030 13038 20775 29114 28722 \
+		21198 15230 13960 64269 62624 67531 27927 12148 \
+		88435 78428 89901 80444 25593 25031
+
+After we began minting, one particular NAAN number was requested by the
+University of Chicago, which is reserved with another hold,
+
+	noid hold set 61001
+
+The NAAN for NAL, that was never used, was changed by hand to match NAL's
+Handle prefix (10113).  But we still set aside the old NAAN for now,
+
+	noid hold set 12027
+
+Some special reserved NAANs have also been set aside,
+
+	noid hold set 12345 99152 99166 99999
+
+// Creating a new NAAN
+
+Current policy is not to issue any NAANs beginning with 0 or 9.  Rather
+than issuing 20,000 holds, this is accomplished by wrapping the minting
+process in a script that filters out those numbers with a regex.  The
+script also helps automate the creation of an "naa" record that goes in
+the NAAN registry.  Run it with
+
+	% ./naan_rec OU 'Oaksterdam University'
+
+Then change XXXXX in the output to reflect the institution's web address,
+update the contact information, and insert it near the bottom of the NAAN
+registry source, "master_naans".
+
+
+    19153: OU        2010.08.20   # Oaksterdam University
+
+    naa:
+    who:    Oaksterdam University (=) OU
+    what    19153
+    when:   2010.08.20
+    where:  http://XXXXX
+    how:    NP | (:unkn) unknown | 2010 |
+    !why:   ARK
+    !contact: Last, First | Inst. Afflil | what past period | email | phone
+
+NOTE: don't forget to change the date at the top of the master_naans file.
+
+--- cut ---
+
+first fifty mints
+id: 17101
+id: 04105
+id: 91315
+id: 78319
+id: 65323
+id: 52327
+id: 39331
+id: 26677
+id: 13681
+id: 00685
+id: 87895
+id: 74899
+id: 61903
+id: 48907
+id: 36253
+id: 23257
+id: 10261
+id: 97471
+id: 84475
+id: 71479
+id: 58483
+id: 45829
+id: 32833
+id: 19837
+id: 06841
+id: 94051
+id: 81055
+id: 68059
+id: 55405
+id: 42409
+id: 29413
+id: 16417
+id: 03421
+id: 90631
+id: 77635
+id: 64981
+id: 51985
+id: 38989
+
+-----
+
+id: 25993
+id: 12997
+id: 00001
+id: 87553
+id: 74557
+id: 61561
+id: 48565
+id: 35569
+id: 22573
+id: 09577
+id: 97129
+id: 84133
+

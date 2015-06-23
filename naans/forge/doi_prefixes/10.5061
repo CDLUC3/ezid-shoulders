@@ -1,0 +1,86 @@
+From jak@ucop.edu Mon Feb  1 13:01:38 2010
+Date: Mon, 1 Feb 2010 13:00:40 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: "Vision, Todd J" <tjv@bio.unc.edu>
+Cc: Patricia Cruse <Patricia.Cruse@ucop.edu>, Ryan Scherle <rscherle@nescent.org>
+Subject: Re: update on DataCite DOIs for Dryad?
+
+Todd,
+
+We've recorded the DOI prefix
+
+ 	10.5061
+
+for Dryad's use, and for all practical purposes that will be for Dryad's
+exclusive use (a rare exception might be if Dryad ceased to operate,
+but it's workflows were taken on by another organization).
+
+To keep things easier to manage, I imagine you may want to partition the
+namespace below that with additional prefixes as you assign individual
+DOIs.  I'd be quite interested to keep up with your assigning strategy if
+you have time to share it.
+
+Attached are two files.  The first is the document that Trisha sent you
+regarding the DataCite DOI infrastructure.  The second is a certificate
+you'll need to operate one of the interfaces.  I've not yet used them
+directly, but would be happy to run interference.
+
+I don't have an answer yet on ORCID, but Trisha may learn something when
+she attends the DataCite meeting in a few days.
+
+-John
+
+
+--- On Sun, 31 Jan 2010, John A. Kunze wrote:
+> We're getting going digesting the procedures.  There are 3 interfaces
+> for assigning DOIs:  WSDL, browser (human powered), and email robot.
+> We have a working set of login credentials, but the certificate didn't
+> quite clear our email security measures.  We have a DOI prefix that you
+> can use, and I'm trying to understand whether it can be for Dryad's
+> exclusive use (I'm assuming that you'd want that).
+>
+> I'll see what I can find out about any ORCID/DataCite connection.
+>
+> -John
+>
+>
+> --- On Sun, 31 Jan 2010, Vision, Todd J wrote:
+>> Our Dryad executive committee meets this week and I was planning to update 
+>> them on the status of using DataCite DOIs.  Do you have any more 
+>> information on how we start getting set up to request/assign DOIs?
+>> 
+>> Also, I noticed the CrossRef is involved in the ORCID name authority 
+>> project:
+>> http://www.crossref.org/01company/orcid.html
+>> It would be very useful to know if this is something DataCite is actively 
+>> participating in, or at least intending to support.  It would be of obvious 
+>> benefit if we could use the same standards for identifying authors of data 
+>> as for journal articles, and this one seems to have a lot of traction.
+>> 
+>> Thanks!
+>> Todd
+>> --
+>> 
+>> Todd Vision
+>> 
+>> Associate Professor
+>> Department of Biology
+>> University of North Carolina at Chapel Hill
+>> 
+>> Associate Director for Informatics
+>> National Evolutionary Synthesis Center
+>> http://www.nescent.org
+>> 
+>> 
+>> 
+>> 
+>> 
+>
+
+    [ Part 2, ""  Application/MSWORD (Name: "DOI regsitration ]
+    [ infrastructure 01-2010.doc") 44 KB. ]
+    [ Unable to print this part. ]
+
+
+    [ Part 3, ""  Text/PLAIN (Name: "TIBcertificate.txt") ~1 KB. ]
+    [ Unable to print this part. ]

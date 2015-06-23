@@ -1,0 +1,182 @@
+diff -r 5715f3d6748a master_naans
+--- a/master_naans	Tue Sep 10 11:53:12 2013 -0700
++++ b/master_naans	Fri Nov 15 14:23:46 2013 -0800
+@@ -4,3 +4,3 @@
+ what:	Name Assigning Authority Number (NAAN) Registry
+-when:	2013.09.10
++when:	2013.11.15
+ where:	http://cdlib.org/uc3/naan_registry.txt
+@@ -2053,4 +2053,3 @@
+ naa:
+-who:    Cyberinfrastructure for Atomistic Materials Science (CAMS) (=)
+-CAMS
++who:    Cyberinfrastructure for Atomistic Materials Science (=) CAMS
+ what:   87920
+@@ -2072,2 +2071,167 @@
+ naa:
++who:	US Environmental Protection Agency (=) USEPA
++what:	27703
++when:	2013.09.13
++where:	http://epa.gov
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Perez, Christina ||| perez.cristina@epa.gov | +1 919-541-2793
++
++naa:
++who:	Archives Départementales du Morbihan (=) AD56
++what:	15049
++when:	2013.09.19
++where:	http://recherche.archives.morbihan.fr
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Percot, Patrick ||| patrick.percot@cg56.fr |
++!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
++
++naa:
++who:    Institute of Transportation Studies, UC Berkeley (=) UCBITS
++what:   87922
++when:   2013.09.30
++where:  http://its.berkeley.edu
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid ucb-its
++
++naa:
++who:    Northwest Knowledge Network, University of Idaho (=) NKN
++what:   87923
++when:   2013.10.02
++where:  www.northwestknowledge.net
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid uidaho
++
++naa:
++who:    Network for Earthquake Engineering Simulation (=) NEES
++what:   83011
++when:   2013.10.07
++where:  http://nees.org
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid nees
++
++naa:
++who:	Lafayette College Libraries (=) LCL
++what:	76267
++when:	2013.10.09
++where:	http://www.lafayette.edu
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Griffin, James ||| griffinj@lafayette.edu | +1 610-330-5160
++
++naa:
++who:    Duke University (=) DUL
++what:   87924
++when:   2013.10.14
++where:  http://library.duke.edu
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid duke_lib
++
++naa:
++who:	Archives Départementales de l'Aisne (=) AD02
++what:	63271
++when:	2013.10.14
++where:	http://archives.aisne.fr
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Bertanier, Florence ||| fbertanier@cg02.fr |
++
++naa:
++who:    University College Dublin (=) UCDIRL
++what:   87925
++when:   2013.10.18
++where:  http://www.ucd.ie/library
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid ucd_irl
++
++naa:
++who:    Middlebury College (=) MDY
++what:   87926
++when:   2013.10.28
++where:  http://www.middlebury.edu
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid middlebury
++
++naa:
++who:    Center for International Earth Science Information Network (=) CIESIN
++what:   87927
++when:   2013.10.28
++where:  http://ciesin.columbia.edu
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid cu-ciesin
++
++naa:
++who:	Archives Départementales des Vosges (=) AD88
++what:	50275
++when:	2013.10.30
++where:	http://www.vosges-archives.com
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Rembert, Sébastien ||| srembert@cg88.fr |
++!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
++
++naa:
++who:    Berkeley Research IT (=) UCBRIT
++what:   87928
++when:   2013.11.05
++where:  N/A
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid ucb-ist-rit
++
++naa:
++who:    Irish Social Science Data Archive (=) ISSDA
++what:   87929
++when:   2013.11.05
++where:  http://www.issda.ie
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid issda
++
++naa:
++who:    US Global Change Research Program/UCAR (=) USGCRP
++what:   87930
++when:   2013.11.08
++where:  http://globalchange.gov
++how:    NP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
++!contact: eziduserid usgcrp
++
++naa:
++who:	Archives Départementales de l'Hérault (=) AD3
++what:	37279
++when:	2013.11.08
++where:	http://archives-pierresvives.herault.fr
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Déhondt, Céline ||| edéhondt@cg34.fr |
++!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
++
++naa:
++who:	Archives municipales d'Orléans (=) AMORLEAN
++what:	24625
++when:	2013.11.08
++where:	http://archives.orleans.fr
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
++
++naa:
++who:	Universidad Nacional de Costa Rica (=) UNCR
++what:	11629
++when:	2013.11.08
++where:	http://una.ac.cr
++how:	NP | (:unkn) unknown | 2013 |
++!why:	ARK
++!contact: Venegas, Luis Ocampo | IT Department, Web Project Team || luis.ocampo.venegas@una.cr |
++
++naa:
+ who:	NAAN Reserved for Uniform Resource Names (=) URNS

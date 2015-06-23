@@ -1,0 +1,26 @@
+
+  :/firstpart: 
+  :/fseqnum: 1
+  :/generator_type: random
+  :/genonly: 1
+  :/gseqnum: 2
+  :/gseqnum_date: 20150326114021
+  :/held: 83
+  :/longterm: 
+  :/mask: rddddd
+  :/naa: 
+  :/naan: 
+  :/oacounter: 233
+  :/oatop: 100000
+  :/padwidth: 8
+  :/percounter: 342
+  :/prefix: 
+  :/properties: -RA-I-E
+  :/queued: 0
+  :/siclist: 
+  :/subnaa: 
+  :/template: .rddddd
+  :/total: 100000
+  :/version: 0.424
+  :/wrap: 
+

@@ -1,0 +1,50 @@
+From jak@ucop.edu Fri Jan  6 17:59:13 2006 -0800
+Date: Fri, 6 Jan 2006 17:59:13 -0800 (PST)
+From: "John A. Kunze" <jak@ucop.edu>
+To: "Cornish, Alan K" <cornish@wsu.edu>
+bcc: jkunze@ucop.edu
+Subject: RE: ARK conference call - NWDA consortium
+
+--- On Fri, 6 Jan 2006, Cornish, Alan K wrote:
+> Great, talk with you this afternoon.  Larry and Jodi should be calling
+> in as well.    
+> 
+> The issue that you described below is the only one that I'm aware of.
+> You've described several scenarios for assignment in our calls (to NEH,
+> to WSU and OSU; to the NWDA).  During our last call, you used the term
+> "current guardian" to describe one scenario, assignment to the NWDA and
+> noted that the NWDA situation mirrors that of other consortiums that may
+> be interested in generating ARKs.    
+
+Hi Al,
+
+Thanks again for the informative call today.  The NAAN,
+
+	80444
+
+has been registered for the Northwest Digital Archives and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/80444/xt...." for one
+"sub-publisher" in the Library.  Opaque prefixes that only have meaning
+to information professionals are often a good idea and have precedent in
+schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you know, we're hoping
+to be able to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+Also, I've attached the script we use at CDL to respond to ARKs submitted
+with '?' marks at the end.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze                 jak@ucop.edu     California Digital Library
+415 20th St, 4th Floor      +1 510 987 9231     University of California
+Oakland, CA  94612-3550     fax:510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

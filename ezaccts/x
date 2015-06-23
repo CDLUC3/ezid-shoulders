@@ -1,0 +1,26 @@
+:: doi:10.7912/D2
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library Data
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/d2
+datacenter: CDL.IUPUI
+
+:: doi:10.7912/C2
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/c2
+datacenter: CDL.IUPUI
+
+:: doi:10.5967/P9
+type: shoulder
+manager: ezid
+#eziduser: iujetstrm
+name: Indiana University Pervasive Technology Institute
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b5967/p9
+datacenter: PURDUE.EZID

@@ -1,0 +1,49 @@
+From jak@ucop.edu Wed Mar  5 15:29:27 2008
+Date: Wed, 5 Mar 2008 15:29:27 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: "kpeter@oszk.hu" <kpeter@OSZK.HU>
+Cc: SUPPORT-CDL-L@LISTSERV.UCOP.EDU
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested ingenerating ARKs
+
+Dear Peter,
+
+Thanks for your message.  The NAAN,
+
+	39331
+
+has been registered for the National SzÃ©chÃ©nyi Library and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/39331/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze                                          jak@ucop.edu
+California Digital Library                    Work: +1-510-987-9231 
+415 20th St, #406                     http://dot.ucop.edu/home/jak/
+Oakland, CA  94612     USA                 University of California
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Tue, 4 Mar 2008, kpeter@oszk.hu wrote:
+> Dear Sir!
+> 
+> My name is Peter Kovacs and I work at the National Szechenyi Library in
+> Hungary.
+> I would like to ask you about ARK. We would like to register our Library and
+> get a NAAN. My question is, what we have to do to get this name?
+> 
+> Regards!
+> 
+> Peter Kovacs

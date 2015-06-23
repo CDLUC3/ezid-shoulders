@@ -1,0 +1,13 @@
+Creating database for template ".sd".
+20060710172908 3: placing hold
+20060710172908 5: placing hold
+20060710172908 6: placing hold
+20060710172908 9: placing hold
+m: i|20060710172913|jak/users|1
+m: i|20060710172913|jak/users|2
+m: i|20060710172913|jak/users|3
+m: i|20060710172913|jak/users|4
+m: i|20060710172913|jak/users|5
+m: i|20060710172913|jak/users|6
+error: hold count (11) exceeding total possible on id 00001/6
+m: i|20060710172913|jak/users|7 -- hold failed

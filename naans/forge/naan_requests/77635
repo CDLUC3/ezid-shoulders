@@ -1,0 +1,64 @@
+From jak@ucop.edu Mon Jun  7 08:05:25 2010
+Date: Mon, 7 Jun 2010 07:57:51 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Susanne Dobratz <dobratz@CMS.HU-BERLIN.DE>
+Subject: Re: Request for ARK's: a NAAN for Humboldt-University Berlin
+
+Hi Susanne,
+
+It's very nice to hear from you.  I hope you're doing well!
+
+The NAAN,
+
+ 	77635
+
+has been registered for Humboldt-Universität zu Berlin and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/77635/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Thu, 3 Jun 2010, Susanne Dobratz wrote:
+> Humboldt-University Berlin is running it's edoc-Server since 1997,
+>
+> we use normally URNs b ut we would like to try ARKs as persistent identifiers 
+> for the preservation archive.
+>
+> Now, we would like to get a NAAN from you, so we could start with testing and 
+> implementing our PIs.
+>
+> We plan to use the Noid software for generating the strings.
+>
+> We are looking forward to hearing from you soon!
+>
+> With best regards,
+> Susanne Dobratz
+>
+> -- 
+> --------------------------------------------------------------------------------------------
+> Susanne Dobratz                                            Head Electronic 
+> Publishing Group                   University Library & Computer and Media 
+> Services         Humboldt-University Berlin    Unter den Linden 6
+> 10099 Berlin, Germany 
+> Visiting address:                 http://www.hu-berlin.de/~dobratz/
+> Erwin Schrödinger-Zentrum         email: dobratz@cms.hu-berlin.de
+> Rudower Chaussee 26              phone: +49+30+2093-7070
+> 12489 Berlin                      fax:   +49+30+2093-2959
+> --------------------------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+todays_date: 08/18/2014
+realm: CDL
+submitters_name: Joan Starr
+acct_name: nmnh_rcis
+acct_email: orrellt@si.edu
+primary_contact: Thomas Orrell
+contact_email: orrellt@si.edu
+contact_phone: 202-633-2151
+contact_fax: 202-633-9562
+org: National Museum of Natural History, Smithsonian Institution
+org_acroynm: USNMNH
+org_www: http://collections.nmnh.si.edu
+mailing_address1: NMNH Informatics, Smithsonian Institution P.O. Box 37012
+mailing_address2: National Museum of Natural History, MRC-136
+mailing_city: Washington
+mailing_state: DC
+mailing_zip: 20013-7012
+mailing_country: USA
+identifiers: ARKs
+created_before: NO
+internal_identifiers: YES
+identifier_plans: We will be using the ARK IDs to track datasets associated with our Field Management System (FIMS) and associated metadata in our Research and Collections Information System. We have created test ARKs via UC Berkeley and Biscicol projects.
+comments: Note for John--I asked them and they do want a minter.

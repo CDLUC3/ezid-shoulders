@@ -1,0 +1,100 @@
+#!/bin/bash
+
+function usage {
+
+echo Error: $*	# print error message supplied as arguments, then canned usage
+echo '
+make_shdr - make a new shoulder minter
+
+   Usage:  make_shdr NAAN/Shoulder [ Altdir ]
+
+Examples:
+
+    $ make_shdr 13030/fk4
+    $ make_shdr c3012/j8 /noid/md
+
+NOTE: currently shoulders must be unique across all NAANs unless
+you specify an alternate full path with Altdir (eg, /noid/md).
+';
+}
+
+combined=$1
+altdir=$2
+
+if [[ $combined == "" ]]
+then
+	usage missing shoulder argument
+	exit 1
+fi
+
+if [[ ! $combined =~ "/" ]]
+then
+	usage first argument must contain a / character
+	exit 1
+fi
+
+# Create a two-element array.
+#a=( $(echo $combined | sed 's,\(.*\)/\([^/]*\),\1 \2,') )
+a=( $(<<< $combined	perl -pe 's,(.*)/([^/]*),\L$1 $2,') )
+naan=${a[0]}
+shdr=${a[1]}
+
+if [[ ! $naan =~ ^[0-9bc][0-9]{4}$ ]]
+then
+	usage "NAAN should be a digit or 'b' or 'c' followed by 4 digits"
+	exit 1
+fi
+
+nd=/noid/nd
+if [[ $altdir != "" ]]
+then
+	nd=$altdir
+fi
+
+## Giving more than one file makes grep print the file name with each match,
+## and the /dev/null file is a dummy argument to produce this behavior.
+##
+#shoulder_file=(/noid/naans/master_shoulders /dev/null)
+##exists=`grep -n "/$shdr" $shoulder_file`
+## kludge to only find conflicts in non-nd (as opposed to md) naans
+#exists=$(grep -w "$shdr" /noid/naans/master_shoulders | grep -v nd/noid)
+#
+#if [[ "$exists" != "" ]]
+#then
+#	echo Shoulder appears to exist already:
+#	echo "   " $exists
+#	exit 1
+#fi
+
+if [[ -e $nd/$shdr ]]
+then
+	echo Error: shoulder directory node exists already:
+	ls -ld $nd/$shdr
+	exit 1
+fi
+
+./shdr_exists $shdr && {
+	echo Aborting before making shoulder.
+	exit 1
+}
+
+cd $nd
+mkdir $shdr
+cd $shdr
+
+template=reedeek		# old noid's template
+
+$nd/noid dbcreate $shdr.$template - $naan
+echo $nd/noid dbcreate $shdr.$template - $naan > created_with
+
+cd $nd
+rm -f noidu_$shdr noidr_$shdr
+ln noid noidu_$shdr
+ln noid noidr_$shdr
+
+#date=$( date '+%Y.%m.%d' )
+#shortnd=$( echo $nd | sed s,/noid/,, )	# kludge
+#
+#echo ""
+#echo "Add this entry to master_shoulders"
+#echo "shdr: $naan/$shdr | <UI_label> | $date | $shortnd/noidu_$shdr"

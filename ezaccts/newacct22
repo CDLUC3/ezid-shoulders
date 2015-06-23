@@ -1,0 +1,20 @@
+todays_date: 01/06/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: nuigalway
+acct_email: digitallibrary@nuigalway.ie
+primary_contact: Cillian Joy
+contact_email: cillian.joy@nuigalway.ie
+contact_phone: +353 91 495463
+contact_fax:
+org: National University of Ireland, Galway
+org_acroynm: NUIGAL
+org_www: nuigalway.ie
+mailing_address1: NUI Galway
+mailing_address2: University Road
+mailing_city: Galway
+mailing_state:
+mailing_zip:
+mailing_country: Ireland
+identifiers: DOIs and ARKs
+identifier_plans: Will use API as part of DataVerse and DSpace. Will use UI when required. May integrate with new preservation workflows.%0D%0A%0D%0AAn Institution-Level account.

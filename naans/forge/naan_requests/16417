@@ -1,0 +1,54 @@
+From jak@ucop.edu Fri Apr  9 19:12:02 2010
+Date: Fri, 9 Apr 2010 19:10:42 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: "Weig, Eric" <eweig@EMAIL.UKY.EDU>
+Subject: Re: interested in generating ARKs
+
+Hi Eric,
+
+Thanks for your message.  The NAAN,
+
+ 	16417
+
+has been registered for the University of Kentucky and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/16417/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--- On Thu, 8 Apr 2010, Weig, Eric wrote:
+
+> Date: Thu, 8 Apr 2010 11:17:32 -0400
+> From: "Weig, Eric" <eweig@EMAIL.UKY.EDU>
+> To: SUPPORT-CDL-L@LISTSERV.UCOP.EDU
+> Subject: interested in generating ARKs
+> 
+> Hello,
+>
+> Here at the University of Kentucky, we are interested in generating ARKs for our digital library projects.  We would like to be assigned an NAAN.
+>
+> Thanks,
+>
+> Eric Weig
+> Head, Digital Programs
+> University of Kentucky Libraries
+> eweig@email.uky.edu
+>

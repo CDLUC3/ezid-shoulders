@@ -1,0 +1,23 @@
+todays_date: 10/13/2014
+realm: Purdue
+submitters_name: Joan Starr
+acct_name: globus
+acct_email: pruyne@uchicago.edu
+primary_contact: Jim Pruyne
+contact_email: pruyne@uchicago.edu
+contact_phone: 630-364-4464
+contact_fax:
+org: Globus.org
+org_acroynm: Globus
+org_www: www.globus.org
+mailing_address1: Computation Institute, University of Chicago, Argonne National Laboratory
+mailing_address2:
+mailing_city:
+mailing_state:
+mailing_zip:
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: NO
+internal_identifiers: YES
+identifier_plans: DOIs will be minted for customers of Globus Publish
+comments: They do want minters.

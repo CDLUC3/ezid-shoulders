@@ -1,0 +1,21 @@
+todays_date: 04/24/2015
+realm: Purdue
+submitters_name: Michael Witt
+acct_name: re3data
+acct_email: mwitt@purdue.edu
+primary_contact: Michael Witt
+contact_email: mwitt@purdue.edu
+contact_phone: 765-494-8703
+contact_fax:
+org: Registry of Research Repositories
+org_acroynm: re3data
+org_www: http://re3data.org
+mailing_address1: 504 W. State St
+mailing_address2: Purdue University
+mailing_city: West Lafayette
+mailing_state: IN
+mailing_zip: 47907
+mailing_country: USA
+identifiers: DOIs and ARKs
+identifier_plans: Persisting online records that describe and point to research data collections and repositories
+comments: Note to John: default set-up

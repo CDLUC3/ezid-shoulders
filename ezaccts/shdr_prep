@@ -1,0 +1,132 @@
+#!/usr/bin/perl
+
+use 5.006;
+use strict;
+use warnings;
+
+# Author:  John A. Kunze, jak@ucop.edu, California Digital Library
+# Copyright (c) 2013-2014 UC Regents
+
+# returns 5-digit naan, for bNNNN or CNNNN
+sub checkmint { my( $what, $purdue ) = (shift, shift);
+
+	my $m = $purdue
+		? `./mint_$what --purdue mint 2>&1`
+		: `./mint_$what mint 2>&1`
+	;
+	chop $m;
+	$m !~ /\n/ and
+		return $m;
+	print "$m\n";
+	return "XXXX";
+}
+
+# main
+{
+	$#ARGV < 2 and
+		print('
+Usage: ./shdr_prep [bc]NNNN_guess ark_shdr_guess doi_shdr_guess
+
+where you can specify "-" instead of ark_shdr_guess or doi_shdr_guess
+if you do not want to create a minter on the respective shoulder.
+
+FOR PURDUE: use bNNNN for regular DOI prefix or cNNNN for Purdue DOI prefix.
+
+From /noid/naans/forge, run "shdr_prep" to compare your guesses as to the
+next prefix/NAAN and shoulders against the more official machine-generated
+strings.  If the same, or not too different for comfort, copy and paste
+the proposed command to actually create the new shoulders.
+'),
+		exit 1;
+
+	my ($doip_g, $dshdr_g, $ashdr_g) = @ARGV[0,1,2];
+		#qw(8NNNN fk4 bNNNN fk4);
+	my $naan_g;
+	my $purdue = $doip_g =~ /^c/ ? 1 : 0;
+	($naan_g = $doip_g) =~ s/^[bc](\d{4})$/8$1/ or
+		die("mal-formed guess prefix: $doip_g");
+
+	my $st1 = system("./shdr_exists $dshdr_g");	# non-zero is good
+	my $st2 = system("./shdr_exists $ashdr_g");	# non-zero is good
+	! $st1 or ! $st2 and		# if just one of them exists, stop
+		print("Bailing before shoulder minting.\n"),
+		exit 1;
+
+	# error returns may have newlines
+	my $doip = checkmint 'doip', $purdue;
+	#my $doip = 'b7935';
+	# checkmint() will return a 4- or 5-char string of pure digits
+	# that we'll need to convert to the [bc]\d{4} format
+	# 
+	my ($dig1, $final4) = $doip =~ m/^(\w)?(\d{4})$/ or
+		die("mal-formed minted prefix: $doip");
+	$dig1 ||= '';
+	my $naan = "8$final4";
+# XXXXXXXXXXXX bug! we need to do a real check to see if 8NNNN is
+# allocated already; right now we're just guessing!
+	#$doip = (! $dig1      ? 'b' :
+	#	($dig1 eq '1' ? 'c' :
+	#	($dig1 eq '2' ? 'd' :
+	#	($dig1 eq '3' ? 'f' :
+	#	($dig1 eq '4' ? 'g' :
+	#	($dig1 eq '5' ? 'h' :
+	#	                'y' )))))) . $final4;
+
+	#my $naan;
+	#($naan = $doip) =~ s/^[bc](\d{4})$/8$1/ or
+	#($naan = $doip) =~ s/^[bc](\d{4})$/8$1/;
+
+	my $dshdr = ( $dshdr_g eq '-'
+		? '-' : checkmint 'shdr');	# DOI shoulder
+	my $ashdr = ( $ashdr_g eq '-'
+		? '-' : checkmint 'shdr');	# ARK shoulder
+
+	my $shdr_maker = '';
+	# make_shdr expects $doip as [bc]\d{4}
+	$dshdr ne '-' and
+		$shdr_maker .= "./make_shdr $doip/$dshdr /noid/md; ";
+	$ashdr ne '-' and
+		$shdr_maker .= "./make_shdr $naan/$ashdr /noid/md; ";
+	$shdr_maker or
+		$shdr_maker = "# nothing to run";
+
+	$st1 = system("./shdr_exists $dshdr");	# non-zero is good
+	$st2 = system("./shdr_exists $ashdr");	# non-zero is good
+	! $st1 or ! $st2 and		# if just one of them exists, stop
+		print("Bailing after shoulder minting (will need recycling.\n"),
+		exit 1;
+
+#    ./make_shdr $doip/$dshdr /noid/md; ./make_shdr $naan/$ashdr /noid/md
+
+	$purdue and print "
+DO MANUAL CHECK THAT PURDUE NAAN IS NOT TAKEN AND ADJUST!!
+Try s/^c3/c0/.
+";
+	print "
+Your guesses: $doip_g, $dshdr_g, $naan_g, $ashdr_g
+ Our guesses: $doip, $dshdr, $naan, $ashdr
+
+If your guesses and our guesses are identical or close enough (don't
+worry if you can't guess a Purdue prefix very well), run:
+
+    $shdr_maker
+
+To make the text records you need to store, run (on the laptop for now)
+
+    ./ezidnewacct $doip $dshdr $naan $ashdr < newacct.txt > outfile
+
+from ~/wr/noid/newnew/src/, where newacct.txt holds a copy of the emailed
+EZID new account form and outfile saves strings you'll need to copy.
+The last step is to read that file and follow its instructions.
+
+XXX next is broken; to fix (see loadit script): rm NOID, recreate, reload
+If the guesses were off in a way that you can't explain, seek expert help.
+You may recycle strings by running any or all of
+
+	./mint_doip unmint 10.X
+	./mint_shdr unmint Y
+	./mint_shdr unmint Z
+
+where X, Y, and Z are strings from the relevant source (mint_doip, mint_shdr).
+";
+}

@@ -1,0 +1,57 @@
+From jak@ucop.edu Mon Jul 12 17:21:13 2010
+Date: Mon, 12 Jul 2010 17:20:57 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Myung-Ja Han <mhan3@ILLINOIS.EDU>
+Subject: Re: Generating ARK
+
+Hi Myung-Ja,
+
+Thanks for your message.  The NAAN,
+
+ 	51985
+
+has been registered for the University of Illinois at Urbana Champaign
+and you may begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/51985/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Wed, 7 Jul 2010, Myung-Ja Han wrote:
+> Hello,
+> 
+> We would like to generate ARK identifiers for all of our digital resources.
+> As recommended in the CDL ARK wiki, we have downloaded NOID.
+> However, we were wondering where we might get our institution's NAAN.
+> Please let us know if we need to install any other programs to generate the
+> ARK identifiers.
+> 
+> Thank you,
+> mj
+> --
+> Myung-Ja "MJ" Han
+> Metadata Librarian
+> Assistant Professor of Library Administration
+> 220 Main Library
+> University of Illinois at Urbana Champaign
+> 1408 W. Gregory Dr. (MC-522)
+> Urbana, IL 61801
+> 217-333-9515 (Main Library)
+> 217-244-7809 (Grainger)
+>

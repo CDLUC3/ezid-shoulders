@@ -1,0 +1,84 @@
+From jak@ucop.edu Thu Jan 12 16:46:49 2006
+Date: Thu, 12 Jan 2006 16:46:49 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: Kyle Fenton <jfenton@emory.edu>
+Cc: Steve Toub <Steve.Toub@ucop.edu>, SUPPORT-CDL-L@listserv.ucop.edu
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested in generating ARKs
+
+--- On Thu, 12 Jan 2006, Kyle Fenton wrote:
+> I'm planning to use the NMAH "id.library.emory.edu" to resolve ARKs, PURLs,
+> and maybe later DOIs.   I'm not clear on how this plays into your
+> architecture, though.  We would be minting our own identifiers, but would ids
+> under our NAAN be referred to our NMAH (DNS-style), or are you registering all
+> of them centrally at CDL?  (Yes, I need to wade deeper into the spec ...)
+
+Hi Kyle,
+
+Thanks for your message.  First, the NAAN,
+
+	25593
+
+has been registered for Emory University and you may begin using it
+immediately.  Second, I'd recommend that instead of using the NMAH
+"id.library.emory.edu" for your identifiers, you use
+
+	id.emory.edu
+
+in keeping with your role as _the_ cultural memory organization for the
+univerisity.  Either one is fine (no architechtural conflict) for the plan
+to keep options open regarding resolution of diverse kinds of identifiers.
+
+Right now, DNS-assisted resolution isn't really an issue (users don't
+want to install browser plugins).  For now, we follow the Handle/DOI/URN
+tradition of proxying (but with ARK you always know what the core identity
+is) through a stable, reasonably short hostname, eg,
+
+	http://id.emory.edu/ark:/25593/fb123456789
+
+The NMAH's are registered at CDL (mirrored with NLM), but they're not
+accessed for real-time resolution.  Does this answer your question?
+
+In thinking about how to manage the ARK namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/25593/xt...." for one
+"sub-publisher" in the Library.  Opaque prefixes that only have meaning
+to information professionals are often a good idea and have precedent in
+schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to be able to craft a small number of standardized statements for
+name assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze                 jak@ucop.edu     California Digital Library
+415 20th St, 4th Floor      +1 510 987 9231     University of California
+Oakland, CA  94612-3550     fax:510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+> Steve Toub wrote:
+> > Thanks for your interest.
+> >
+> > By including John Kunze on this message, I'm asking him to assign your
+> > institution a NAAN. Once he provides you with the NAAN, that's pretty much
+> > all there is to it. You're then free to mint and bind ARKs using that NAAN
+> > using the NOID software or however you see fit.
+> >     --SET
+> >
+> >
+> > Kyle Fenton wrote:
+> >
+> > > I'm the principle systems administrator at Emory University's Woodruff
+> > > Library, and am interested in setting up an ARK NAAN for use with
+> > > Emory's original digital resources.  Please advise on the next steps I
+> > > need to take in order to set up a local name authority.
+> > >
+> > > Kyle Fenton
+> > > Systems Administration
+> > >   & Web Development
+> > > Robert W. Woodruff Library
+> > > Emory University

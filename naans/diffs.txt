@@ -1,0 +1,89 @@
+diff -r 4280bf9c932f master_naans
+--- a/master_naans	Thu Apr 30 09:46:07 2015 -0700
++++ b/master_naans	Mon Jun 01 10:18:41 2015 -0700
+@@ -3430,2 +3430,85 @@
+ naa:
++who:    UC San Diego Department of Biomedical Informatics (=) DBMICLD
++what:   87908
++when:   2015.05.11
++where:	http://dbmi.ucsd.edu
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid ucsd_dbmicloud
++
++naa:
++who:    Space Telescope Science Institute (=) STSCI
++what:   87909
++when:   2015.05.11
++where:	http://www.stsci.edu
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid stsci
++
++naa:
++who:	Archives Départementales des Alpes de Haute Provence (=) ADAHP
++what:	58484
++when:	2015.05.19
++where:	http://archivesenligne.archives04.fr
++how:	NP | (:unkn) unknown | 2015 |
++!why:	ARK
++!contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
++!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
++
++naa:
++who:    University of Washington IsoLab (=) UWISOLAB
++what:   87911
++when:   2015.05.20
++where:	depts.washington.edu/isolab
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid uw_isolab
++
++naa:
++who:    Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
++what:	45487
++when:	2015.05.22
++where:	http://rulb.org
++how:	NP | (:unkn) unknown | 2015 |
++!why:	ARK
++!contact: Miller, Anna ||| editors@rulb.org |
++
++naa:
++who:    Caltech Biology (=) WORMBASE
++what:   87912
++when:   2015.05.26
++where:	http://www.wormbase.org
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid caltech_wormbase
++
++naa:
++who:    Miami Project to Cure Paralysis (=) REGENBASE
++what:   87913
++when:   2015.05.27
++where:	http://regenbase.org
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid umiami_regenbase
++
++naa:
++who:	Archives de la ville de Romans (=) AVROMANS
++what:	32491
++when:	2015.06.01
++where:	http://www.archives-ville-romans.fr
++how:	NP | (:unkn) unknown | 2015 |
++!why:	ARK
++!contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
++!contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
++
++naa:
++who:	Ohio Supercomputer Center (=) OSC
++what:	19495
++when:	2015.06.01
++where:	https://osc.edu
++how:	NP | (:unkn) unknown | 2015 |
++!why:	ARK
++!contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
++
++naa:
+ who:	NAAN Reserved for Uniform Resource Names (=) URNS

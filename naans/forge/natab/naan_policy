@@ -1,0 +1,173 @@
+------
+-Ping Mike Nelson about whether he wants in (recheck if email arrived from him)
+-Forward JCDL compliments to psb, cruse, dang,  ... after
+------
+---------
+Hi Jon,
+
+XXX google jon mason articles to check out his latest thinking
+I'm embarrassed to say that I about to ask for your help, in preparation
+for which I discovered your email from last XXX to the ERC list.
+(I subsequently found your email next to a few other gems that had been
+diverted to my spam box during a frantic week when I suspect that I'd
+been tinkering with my email filter settings.)  Please accept my
+sincere apologies.
+
+Apropos your email, what I wanted to ask your help in was in writing or
+at least carefully reviewing the next ERC specification.  I really value
+your thinking and opinions and believe that your help would improve the
+specification greatly.
+
+Your points xxx and yyyy ... can be addressed in this draft.
+
+-John
+
+---------
+All,
+
+I'd like to respond to the latest NAAN request with some sort of policy,
+so I've taken a stab at drafting one.  Please let me know what you think.
+
+Also what do you think about "pre-dating" the posted policy (assuming
+we do post it on the website) by about six months?
+
+Thanks,
+
+-John
+
+------------------
+		DRAFT -- NAAN Registration Policy -- DRAFT
+			24 January 2006
+
+XXXXXXX give Portico and BnF first crack at being n2r.org nodes
+
+The NAAN is designed to be one part of a strategy for persistent object
+naming.  Impersistence in names is due mostly to factors having little
+to do with the string of characters assigned to an object, such as loss
+of funding, natural disaster, politics, and social upheaval.  The NAAN
+can be used to avoid some of the few known naming factors that
+contribute to impersistence.
+
+
+| Definitions
+
+A name is a character string (sequence) associated with an object.
+An NAA (Name Assigning Authority) is an organization that assigns
+names, such as a national archive or a university.
+A NAAN (NAA Number) is a five-digit number assigned to an NAA;
+for example, 13030 is assigned to the California Digital Library.
+An NAA's name space is the set of all possible names that it can assign.
+In principle, the NAA's name space is infinite, but usually the desire
+for relatively short strings of easily transcribable (e.g., visible)
+characters limits the practical size of the NAA's name space.
+
+| Intended Use of NAANs
+
+NAANs are intended to be persistent numerical labels that identify
+recognized cultural memory organizations.  Each NAAN is associated with
+one such organization.  These include national libraries, national
+archives, governmental agencies, and patent offices, as well as
+institutions of higher education (colleges, universities) and their
+affiliated learned societies, scholarly publishers, libraries, and
+museums.  Also included are significant information hosting organizations
+with whom cultural
+memory organizations have contracted for information services.
+XXX include final text of this in next versions of ARK and NOID docs
+XXX I'd love to have Joan Starr review this
+
+XXX WIPO fits under "patent office"
+XXX other UN offices would count as "world government"
+XXX DOES ithaka/portico fit under scholarly publishing/archive service?
+XXX DOES Internet Archive fit under nationally funded archive service?
+XXX WOULD Prelinger Library be able to clear this policy?
+XXX WOULD Google fit under significant contract?
+XXX WOULD Microsoft fit under significant contract?
+XXX WOULD corporate libraries fit?  (yes, cultural memory)
+XXX is anyone excluded that we wouldn't want to exclude?
+XXX change? regisrations for RUL/NYUL/UNTL to RU/NYU/UNT? or did I already 
+	have that conversation with some of them?
+XXX review registration for Gotheborg Sweden -- what category allows it?
+XXX how about YouTube and Flickr?
+XXXX add criterion of non-partisan, non-political??
+
+NAANs may be used by themselves or embedded in other identifiers, where
+they are envisioned to assist the creation of globablly unique names
+suitable for long-term persistent maintenance.  Typically such a NAAN
+would appear in front of names (near the beginning or as part of a prefix)
+that the NAA assigns to objects.  Because the NAAN is globally unique,
+prepending it to a unique string that the NAA maintains within its name
+space will result in a globally unique object name.  While a NAAN may be
+used within any naming scheme (e.g., in file naming conventions).
+A NAAN is required in the [ARK] scheme.
+
+[ XXX cannot mention n2r scheme yet, as it is too new; n2r is inspired
+loosely by the i2r, i2l, i2n mappings listed in RFCxxx (Mealling) ]
+
+
+| Responsibilities of an NAA
+
+xxx Successor org must be careful not to re-assign names from predecessor
+
+As one part of a persistent naming strategy, the NAAN is responsible for
+the careful stewardship
+
+For persistent names (never to be re-assigned once assigned), each NAA
+usually sets aside one or more name subspaces, which are non-overlapping
+subsets of its name space.
+
+As steward over these non-renewable names, the NAA will normally desire
+a conservative assigning strategy given the multiple people and
+departments that may both simultaneously and in succession (perhaps
+far into the future) assign names.  In order to prevent
+name collisions (two people assigning the same name) and to prevent the
+name space from becoming hard to manage, the NAA
+track of things
+
+the first thing that an NAA does is to set aside a name
+subspace, a defined portion of its name space, from which to assign
+names.  In order to simplify
+
+Each registered NAA has an administrator.  For example, a university
+registrant might have an administrator that rotates every 5 years
+between the university's library, its press, and its records office
+(xxx its public relations office -- what's UCB's dept called?).
+
+Each NAA is the "owner" for the namespace of the registrant, and should
+create a deliberate approach to partitioning its name space (ie, the set
+of all possible names that might assign) into name subspaces from
+which assignments can be rationed out over time.  This plan would
+normally be designed to make it easy for the current and successor
+administrators to with the conservatism appropriate for non-renewable
+resources.
+
+The NAA determines what kinds of objects it names,
+whether they be digital, physical, abstract, etc.
+
+
+made public, by successor.
+.  In particular,
+each registrant should consider partitioning its namespace and
+carefully 
+set aside parts of their namespace
+The registrant
+
+
+Examples:
+institutions of higher education
+	(administered by their libraries, museuems, and archives)
+national Libraries and archives
+
+
+see also:  handle/doi policies
+
+
+XXX writeup draft governance ideas for global resolver and name it
+
+
+
+
+
+
+| Mention benefit of opaque names and tradeoffs
+
+

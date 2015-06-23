@@ -1,0 +1,83 @@
+From jak@ucop.edu Wed Jul 22 16:29:15 2009
+Date: Wed, 22 Jul 2009 16:29:15 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Ulrike Sonnemann <u.sonnemann@JMBERLIN.DE>
+Cc: SUPPORT-CDL-L@LISTSERV.UCOP.EDU
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested ingenerating ARKs
+
+Hi Ulrike,
+
+Thanks for your message.  The NAAN,
+
+	10261
+
+has been registered for the Jewish Museum Berlin and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/10261/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Tue, 21 Jul 2009, Ulrike Sonnemann wrote:
+> Dear Collegues from CDL,
+> 
+> the Jewish Museum in Berlin, Germany, 
+> 
+> 
+> see http://www.jmberlin.de/
+> 
+> 
+> is running a project to design a digital preservation archive.
+> 
+> The Jewish Museum Berlin is a federal foundation under public law.
+> 
+> We decided to use ARKs as persistent identifiers for the preservation
+> archive.
+> 
+> Now, we would like to get a NAAN from you, so we could start with testing
+> and implementing our PIs.
+> 
+> We plan to use the Noid software for generating the strings.
+> 
+> For further information please contact our two project coordinators:
+> Mrs. Ulrike Sonnemann (Head Librarian)
+> Mrs. Susanne Dobratz (Project Consultant, also working for
+> Humboldt-University Berlin)
+> 
+> We are looking forward to hearing from you soon!
+> 
+> With best regards,
+> 
+> 
+> Ulrike Sonnemann.
+> 
+>  
+> 
+> Jüdisches Museum Berlin 
+> Leiterin Bibliothek / Head Librarian 
+> Lindenstr. 9 - 14 
+> 10969 Berlin 
+> Tel.:  25993-564 
+> Fax.: 25993-441 
+> u.sonnemann@jmberlin.de 
+> 
+>  
+> 
+> 

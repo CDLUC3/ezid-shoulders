@@ -1,0 +1,93 @@
+#!/bin/bash
+
+# This script will be called by shdr_prep.
+
+function usage {
+
+#   Usage:  mint_doip [--purdue] [ mint | unmint 10.NNNN ... ]
+echo Error: $*	# print error message supplied as arguments, then canned usage
+echo '
+
+XXX need to have this script check against ~/shoulders/master_shoulders.txt
+
+mint_doip - mint a DOI prefix (from a minter recycle queue)
+
+   Usage:  mint_doip mint
+';
+}
+
+#XXX this next is broken -- unmint puts things back but behind
+#    everything of the same class (first or now, all first before all now)
+#Use "unmint" to return prefixes back to a FIFO queue for reminting.
+#For example,
+#
+#   mint_doip unmint 10.1234 10.6789
+#
+#produces 10.1234 then 10.6789 on the next two "mint" operations.
+
+ncmd=/noid/nd/noid			# noid command (old noid)
+doipminter=/noid/naans/forge_doip	# doi prefix minter
+doipletter=b
+
+#if [[ $1 == "--purdue" ]]
+#then
+#	shift
+#	doipminter=/noid/naans/forge_doip_purdue
+#	doipletter=c
+#fi
+
+if [[ $1 == "unmint" ]]
+then
+	echo "Don't use unmint."
+	exit 1
+#	shift
+#	# unmint is called by user, who doesn't know from --purdue,
+#	# so we have to infer it
+#	doip=$1
+#	if [[ $doip =~ ^10.1[0-9]{4} ]]
+#	then
+#		doipminter=/noid/naans/forge_doip_purdue
+#	fi
+#set -x
+#	$ncmd -f $doipminter queue first $doip
+#	exit $?
+
+elif [[ $1 != "mint" ]]
+then
+	usage please specify the mint command
+	exit
+fi
+
+$ncmd -f $doipminter mint 1 
+exit $?
+
+
+
+############### the rest below is probably obsolete ##############
+
+
+
+msg=$($ncmd -f $doipminter mint 1 | sed 's/id: 10\.//')
+if [[ ! $msg =~ ^[0-9]{4,5}$ ]]
+then
+	echo "Generated bad DOI prefix ($doipletter$msg)"
+	exit 1
+fi
+
+## XXXXXX NB: this code is very specific to a transient situation with Purdue
+##         this code will not age well!!!!!!
+#if [[ $doipletter == c ]]
+#then
+#	#[[ ! $msg =~ ^1[0-9]{4}$ ]] && echo hi
+#	[[ ! $msg =~ ^1[0-9]{4}$ ]] && {
+#		echo "Generated DOI prefix ($msg) not long enough for Purdue"
+#		exit 1
+#	}
+#	msg=$( sed 's/^1//' <<< $msg )		# chop first digit off
+#fi
+
+# a special NAAN of form [bc]NNNN synonymous with DOI prefix
+doip=$doipletter$msg
+echo $doip			# return value
+
+exit 0

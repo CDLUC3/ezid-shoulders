@@ -1,0 +1,77 @@
+From jak@ucop.edu Fri Dec 10 15:40:48 2004
+Date: Fri, 10 Dec 2004 15:40:48 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: Evan Owens <epo@ithaka.org>
+Cc: Chris Biemesderfer <Chris@Seagoat.com>, David Copperman <David.Copperman@ithaka.org>
+Bcc: jkunze@ucop.edu
+Subject: Re: NAAN
+
+> --- On Fri, 10 Dec 2004, Evan Owens wrote:
+> We are busy fitting out our archive to use ARKs all over the place.  How
+> do we go about getting a NAAN?
+
+Hi Evan,
+
+You came to the right place. ;-)   The five-digit NAAN (they're all
+either five or nine digits) now reserved for you is,
+
+	27927
+
+But which organization will be making the name assignment policy
+decisions?  Would that be Ithaka?  (JSTOR?  E-Archive?)
+
+> The model we are using looks like this:
+>  
+> ark:/1234/dmid/1234567890abcdef 
+>  
+> where 1234 is the NAAN and dmid indicates that the remaining part of the
+> identifier was assigned by our documentum CMS.    Documentum CMS IDs are
+> 16 character alphanumeric strings and are promised to be unique across
+> all Documentum installations world-wide.   We expect that we may also be
+> assign numbers to other stuff in other ways, hence the division into
+> dmid.
+>  
+> Does that look reasonable to you?  Are we following all the rules as per
+> spec? 
+
+Yes, that looks pretty reasonable, but you'll want to drop the 3rd '/' in
+
+	ark:/1234/dmid/1234567890abcdef 
+
+which is reserved in ARKs to permit the recipient to make the strong
+assumption that the above object has a structural "is part of" relationship
+to the object
+
+	ark:/1234/dmid
+
+It would probably be better to use something like
+
+	ark:/27927/dmid_1234567890abcdef 
+or
+	ark:/27927/dmid1234567890abcdef 
+
+Thanks for bringing up the Documentum-generated ids, which I didn't know
+about.  Do you know if they're doing anything to avoid accidental semantics,
+or if they have check characters?   I'm asking this from my experience with
+developing the principles found in the "noid" software, such as a reduced
+alphanumeric character set (0123456789bcdfghjkmnpqrstvwxz -- no vowels, no
+"ell"), encouraging the placement of a digit between each pair of alphas,
+and being able to validate whether a received identifier contains common
+transcription errors.
+
+-John
+
+
+> ==========================================
+> Evan Owens (epo@ithaka.org)
+> Chief Technology Officer
+> Ithaka Electronic-Archiving Initiative
+> 228 Alexander Street
+> Princeton, NJ 08540-7102
+> Phone: 609 258-8230
+> Fax: 609 258-5778
+> ==========================================
+> 
+>   
+> 
+>  

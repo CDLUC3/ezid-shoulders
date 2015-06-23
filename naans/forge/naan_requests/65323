@@ -1,0 +1,99 @@
+From jak@ucop.edu Tue Jun  5 11:30:55 2007
+Date: Tue, 5 Jun 2007 11:30:55 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Tim Au Yeung <ytau@ucalgary.ca>
+Cc: Steve Toub <steve.toub@ucop.edu>
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested in generating ARKs
+
+Hi Tim,
+
+Thanks for your message and your patience.  The NAAN,
+
+	65323
+
+has been registered for the University of Calgary and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/65323/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+Please let me know if you have trouble using the NOID software
+(if that's what you intend to use).
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+> ytau@ucalgary.ca wrote:
+> > In our capacity of running the institutional repository and the university
+> > archives, I think we're confident in asserting persistence for permanent
+> > objects so I'd like to proceed.
+> >
+> > Thanks,
+> > Tim
+> >
+> >
+> >
+> >   
+> > > Hi Tim--
+> > >
+> > > The key thing is to get your very own NAAN for your institution. We
+> > > recommend that the NAAN be at the level of "University of Calgary" rather
+> > > than just the libraries or your digital object repository. Are you
+> > > willing
+> > > to use this NAAN to make claims about persistence for objects on behalf
+> > > of
+> > > U. Calgary?
+> > >
+> > > If so, the process from there is straightforward: reply to John Kunze (on
+> > > this thread) and he'll assign you a NAAN of your very own. That's all
+> > > there
+> > > is to it. You're then free to mint and bind ARKs to your hearts content.
+> > > NOID <http://search.cpan.org/search?query=noid&mode=all> is a fine way to
+> > > do
+> > > this but you're welcome to build or deploy however you wish.
+> > >
+> > > Let us know if you have any additional questions.
+> > >     --SET
+> > >
+> > >
+> > >
+> > > On 5/30/07 10:16 AM, "ytau@UCALGARY.CA" <ytau@UCALGARY.CA> wrote:
+> > >
+> > >     
+> > > > Hello,
+> > > >
+> > > > We're interested in generating ARKs for our local resources and would
+> > > > like
+> > > > more information on how to proceed.
+> > > >
+> > > > Thanks,
+> > > > Tim
+> > > >
+> > > > --
+> > > > ---------------------------------------------
+> > > > Tim Au Yeung
+> > > > Manager, Digital Object Repository Technology
+> > > > Libraries and Cultural Resources
+> > > > University of Calgary
+> > > > (403) 220-8975
+> > > > ytau(at)ucalgary(dot)ca
+> > > >       
+> > > --
+> > > Steve Toub
+> > > California Digital Library
+> > > (510) 987-0078

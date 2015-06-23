@@ -1,0 +1,54 @@
+From jak@ucop.edu Tue Mar 17 09:09:58 2009
+Date: Tue, 17 Mar 2009 09:09:58 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Ryan Donahue <RDonahue@GEH.ORG>
+Cc: support-cdl-l@listserv.ucop.edu
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested in generating ARKs
+
+Hi Ryan,
+
+Thanks for your message.  The NAAN,
+
+	36253
+
+has been registered for George Eastman House and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/36253/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Tue, 10 Feb 2009, Ryan Donahue wrote:
+> Date: Tue, 10 Feb 2009 22:22:34 -0500
+> From: Ryan Donahue <RDonahue@GEH.ORG>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: Interested in generating ARKs
+> 
+> Hello, I was reading up on your ARK platform and feel it is a very good fit
+> for what we do at George Eastman House.  We are one of the oldest museums
+> dedicated to photography and film, and would like to explore permalinks to our
+> online collection via the ark standards.
+> 
+> -Please advise on the best path forward.
+> 
+> -Thanks
+> Ryan Donahue
+> Webmaster, George Eastman House
+> 

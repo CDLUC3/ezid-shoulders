@@ -1,0 +1,21 @@
+todays_date: 02/18/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: sbgrid
+acct_email: piotr_sliz@hms.harvard.edu
+primary_contact: Piotr Sliz
+contact_email: piotr_sliz@hms.harvard.edu
+contact_phone: 617-620-3019
+contact_fax:
+org: Harvard Medical School
+org_acroynm: sbgrid
+org_www: http://sbgrid.org
+mailing_address1: 45 Shattuck Street
+mailing_address2: Rm LHRRB-201
+mailing_city: Boston
+mailing_state: MA
+mailing_zip: 02115
+mailing_country: USA
+identifiers: DOIs and ARKs
+identifier_plans: The DOIs will be allocated to experimental datasets collected in NMR, X-ray crystallography and EM experiments. We also plan to expand the database to accommodate molecular dynamics trajectories.
+comments: ATTENTION!! No minter, no shoulder

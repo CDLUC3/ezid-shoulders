@@ -1,0 +1,9 @@
+#! /bin/bash
+# This convolution is needed only because
+# /cdlcommon/products/bin/python doesn't have lxml.
+
+#export LD_LIBRARY_PATH=/ezid/sw/lib:/opt/csw/lib:$LD_LIBRARY_PATH
+#exec /ezid/sw/bin/python `dirname $0`/lib/mdsadmin "$@"
+
+export LD_LIBRARY_PATH=/noid/shoulders/ezid_home_dir/sw/lib:/opt/csw/lib:$LD_LIBRARY_PATH
+exec /noid/shoulders/ezid_home_dir/sw/bin/python `dirname $0`/lib/mdsadmin "$@"

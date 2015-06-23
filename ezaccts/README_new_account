@@ -1,0 +1,14 @@
+To create _both_ a new ARK NAAN and DOI prefix, follow these steps.
+Don't follow these steps if you're only creating a DOI prefix or
+only creating a NAAN.
+
+1. run ./shdr_review
+2. think
+3. run ./shdr_prep  # this MINTS strings for shoulders, prefixes, and NAANs
+4. think
+5.1. on Mac run ./ezidnewacct      		# remind yourself of args
+5.2. copy form letter ANVL into file 'newaccount.txt'
+5.3. run ./ezidnewacct ARGS < newaccount.txt	# CREATES actual minters
+5.4. copy and paste appropriate bits into appropriate files
+6. consider running 'make' from /noid/naans
+7. done

@@ -1,0 +1,356 @@
+12025	US National Library of Medicine (=) USNLM
+12026	Library of Congress (=) USLOC
+10113	US National Agricultural Library (=) USNAL
+13030	California Digital Library (=) CDLIB
+13038	World Intellectual Property Organization (=) WIPO
+20775	University of California San Diego (=) UCSD
+29114	University of California San Francisco (=) UCSF
+28722	University of California Berkeley (=) UCBERKELEY
+15230	Rutgers University (=) RUTGERS
+13960	Internet Archive (=) IA
+64269	Digital Curation Centre (=) DCC
+62624	New York University (=) NYU
+67531	University of North Texas (=) UNT
+27927	Portico Digital Preservation Service (=) PORTICO
+21198	University of California Los Angeles (=) UCLA
+12148	Bibliothèque nationale de France (=) National Library of France (=) BNF
+88435	Princeton University (=) PRINCETON
+78428	University of Washington (=) UW
+89901	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
+80444	Northwest Digital Archives (=) NWDA
+25593	Emory University (=) EMORY
+25031	University of Kansas (=) UKANSAS
+78319	Google (=) GOOGLE
+17101	Centre for Ecology & Hydrology, UK (=) CEH
+65323	University of Calgary (=) UCALGARY
+61001	University of Chicago (=) UCHICAGO
+52327	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
+39331	National Széchényi Library (=) National Library of Hungary (=) OSZK
+26677	Library and Archives Canada (=) Bibliothèque et Archives Canada (=) LAC
+13681	Centre de Musique Baroque de Versailles (=) CMBV
+87895	Centre Informatique National de l'Enseignement Supérieur (=) French National Data Center for Higher Education and Scientific Research (=) CINES
+74899	Bibliothèque municipale de Toulouse (=) Toulouse Municipal Library (=) BIBTOULOUSE
+61903	Family Search (=) FS
+48907	University of California Santa Barbara (=) UCSB
+36253	George Eastman House - International Museum of Photography and Film (=) GEH
+23257	Appalachian State University (=) APPSTATE
+10261	Jüdisches Museum Berlin (=) Jewish Museum Berlin (=) JMBERLIN
+84475	University of Houston (=) UHOUSTON
+71479	Consejo Superior de Investigaciones Científicas (=) Spanish National Research Council (=) CSIC
+58483	Archives départementales de la Somme (=) Somme Departmental Archives (=) ADSOMME
+45829	Bibliothèque Cujas (=) Cujas inter-university library (Paris 1 Panthéon Sorbonne and Paris 2 Assas) (=) BIUCUJAS
+32833	Massachusetts Institute of Technology (=) MIT
+19837	Simon Fraser University (=) SFU
+81055	British Library (=) BL
+68059	Centre National d'Études Spatiales (=) French Space Agency (=) CNES
+55405	Columbia College Chicago (=) COLUMCC
+42409	The Pennsylvania State University (=) PSU
+29413	University of Pennsylvania (=) UPENN
+16417	University of Kentucky Libraries (=) UKY
+77635	Humboldt-Universität zu Berlin (=) Humboldt University Berlin (=) HUB
+64981	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
+51985	University of Illinois at Urbana Champaign (=) UIUC
+38989	The George Washington University (=) GWU
+25993	Archives départementales du Doubs (=) ADDOUBS
+12997	Archives départementales du Territoire de Belfort (=) ADBELFORT
+87553	Archives de la ville de Pontivy (=) ADPONTIVY
+74557	Rockefeller Archive Center (=) RAC
+61561	les archives nationales d'outre-mer (=) National Overseas Archives (=) ANOM
+48565	Ville de Besançon (=) VB
+35569	Conseil Général de la Martinique (=) General Counsel of Martinique (=) CG972
+22573	ITHAKA (=) ITHAKA
+84133	Archives départementales de l'Allier (=) ADA
+71137	Archives départementales de la Côte-d'Or (=) ADCO
+58141	�sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+45145	New York Public Library (=) NYPL
+34231	Purdue University (=) PU
+19153	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
+80713	Biblioteca Nacional de Portugal (=) National Library of Portugal (=) BNP
+67717	Ministère de la culture et de la communication (=) French Ministry of Culture and Communication (=) MCC
+54721	Institut national d'histoire de l'art (=) French National Institute for the History of Art (=) INHA
+41725	Research Center for Islamic History, Art and Culture (=) IRCICA
+28729	Archives départementales du Rhône (=) ADR
+16075	Archives départementales du Cantal (=) ADC
+77293	Archives départementales de la Savoie (=) ADS
+64297	Archives départementales du Pas-de-Calais (=) ADPC
+51301	Fundación Centro de Estudios Andaluces (=) Andalusian Studies Centre Foundation (=) FCEA
+38305	University of California Santa Cruz (=) UCSC
+25651	Archives départementales de la Gironde (=) ADGIRONDE
+12655	ACCOLAD Franche-Comté (=) ACCOLAD
+86869	Archives départementales de la Marne (=) ADMARNE
+85063	National Center for Ecological Analysis and Synthesis (=) NCEAS
+85064	Consortium on Qualitative Research Methods (=) CQRM
+85065	National Center for Atmospheric Research (=) NCAR
+85066	United States Geological Survey (=) USGS
+83334	Oak Ridge National Laboratory (=) ORNL
+73873	Ville de Paris (=) VP
+60877	Archives départementales de la Nièvre (=) ADNIEVRE
+32149	Inoc Aquitania (=) INOC
+85967	Indiana University (=) IU
+85067	NASA Goddard Space Flight Center (=) NASAGSFC
+85069	SDSC OpenTopography Facility (=) SDSCOTF
+86067	Digital Antiquity (=) DIGANT
+86068	Data-Planet (=) DATAPLANET
+86070	LabArchives (=) LABARCH
+86071	University of California Merced (=) UCM
+86072	UCSD Signaling Gateway (=) UCSDSG
+86073	Long-Term Ecological Research Network (=) LTERN
+86074	American Astronomical Society (=) AAS
+86077	Cornell Institute for Social and Economic Research (=) CISER
+86076	Fred Hutchinson Cancer Research Center (=) FHCRC
+86079	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
+86080	Collaborative Research Computational Neuroscience Program (=) CRCNSP
+86081	UCSD Biosciences Division (=) UCSDBD
+86083	Oregon Health and Science University (=) OHSU
+10987	University of Prince Edward Island (=) UPEI
+47881	Université Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
+35227	Archives départementales des Landes (=) Landes Departmental Archives (=) ADLANDES
+86084	Digital Science (=) DIGSCI
+86085	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
+22231	Archives départementales de l'Ain (=) ADAIN
+86086	University of California Riverside (=) UCRIVERSIDE
+87264	University of Oregon (=) UOREGON
+87265	National Snow and Ice Data Center (=) NSIDC
+87266	Harte Research Institue (=) HRI
+83449	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
+87267	Oregon State University (=) OSU
+87268	Bourns College of Engineering (=) BCOE
+87269	Federation of Earth Science Information Partners (=) ESIPFED
+84246	California Coastal Atlas (=) UCSDCCA
+70453	Massage Therapy Association of British Columbia (=) MTABC
+90135	ONEShare Data Service (=) ONESHARE
+87270	Skaggs School of Pharmacy (=) UCSDSSPPS
+87272	UCSF Clinical and Translational Science Institute (=) UCSFCTSI
+57457	Archives départementales du Loir-et-Cher (=) ADLC
+44803	Archives départementales de l'Oise (=) ADO
+87273	Washington State University (=) WSU
+87274	University of Notre Dame (=) UND
+87275	University of Massachusetts Amherst (=) UMA
+87276	Center for Studies in Demography and Ecology (=) CSDE     
+87277	IU Cyberinfrastructure for Network Science Center (=) IUCNS
+87278	University of Utah (=) UUTAH
+87279	Ocean Observatory Initiative (=) OOI
+31807	Open Cloud Consortium (=) OCC
+87280	University of California Irvine (=) UCIRVINE
+87281	Johns Hopkins University (=) JHU
+18811	Archives municipales de LYON (=) AMLYON
+87283	UNAVCO (=) UNAVCO
+67033	Archives départementales de la Haute-Savoie (=) ADHS
+87284	Rolling Deck to Repository Program (=) R2R
+87285	Center for Multiscale Modeling of Atmospheric Processes (=) CMMAP
+54379	University of Alberta (=) UALBERTA
+41383	Archives départementales du Cher (=) ADCHER
+87287	Peerj (=) PEERJ
+28387	Archives départementales de la Vienne (=) ADV
+15391	Archives municipales de Saint-Denis (=) AMSTDENIS
+76609	Maison de l'Orient et la Méditerranée (=) MOM
+87289	US National Oceanic and Atmospheric Administration (=) USNOAA
+87290	University of Tennessee (=) UTK
+63955	Institut de recherche et d'histoire des textes (=) CNRSIRHT
+50959	Digital Commonwealth (=) DIGCMNW
+87293	BenchFly (=) BENCHFLY
+87294	University Libraries, Virginia Tech (=) VTLIB
+37963	Archives départementales de la Mayenne (=) ADMAYENNE
+24967	Archives départementales de la Lozère (=) ADLOZERE
+11971	Archives départementales de l'Aveyron (=) ADAVEYRON
+73531	Archives départementales du Var (=) ADVAR
+87295	Center for Research in Biological Systems (=) CRBS
+87296	Edom Lowlands Regional Archaeology Project (=) ELRAP
+87297	UC Berkeley Department of Linguistics (=) UCBLING
+60535	Archives départementales de Saône-et-Loire (=) ADSL
+47539	Archives départementales de la Haute-Loire (=) ADHL
+87298	Cornell University Library (=) CUL
+34543	Boston Public Library (=) BPL
+87299	Museum of Vertebrate Zoology (=) UCBMVZ
+21547	Biocode Commons (=) BIOCODE
+87300	UCSD School of Medicine, Department of Neurosciences, Mobley Lab (=) ONELAB
+87301	Brown University Library (=) BUL
+87302	University of Michigan Libaries (=) UMICH
+70111	Hawaii State Archives (=) HSA
+87303	Sage Bionetworks (=) SAGEBIO
+57115	Archives départementales de la Manche (=) ADMANCHE
+87907	California Institute of Technology (=) CALTECH
+87908	Broad Institute of MIT and Harvard (=) BROAD
+87909	CalTech Seismological Laboratory (=) SEISMOLAB
+87910	Harvard University (=) HARVARD
+87911	OneOcean (=) ONEOCEAN
+87912	Indiana University Purdue University Indianapolis (=) IUPUI
+44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
+87913	UW eScience Institute (=) UWESCIENCE
+85967	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
+87914	International Federation of Digital Seismograph Networks (=) FDSN
+31123	Fondation Maison des Sciences de l'Homme (=) FMSH
+87915	UW College of the Environment Climate Impacts Group (=) UWCIG
+87916	Columbia University Library/Information Services (=) CUL/IS
+18127	Archives départementales du Val-d'Oise (=) ADVO
+79687	San Francisco Symphony (=) SFSYMPH
+87917	NASA Center for Climate Simulation (=) NCCS
+66691	Musée des Augustins (=) MDA
+53695	American Numismatic Society (=) ANS
+87919	Advanced Graphics Lab (=) AGL
+83010	University of Michigan Biological Station (=) UMBS
+40699	Ministère de la Défense, Mémoire des hommes (=) MDMH
+87920	Cyberinfrastructure for Atomistic Materials Science (=) CAMS
+87921	RENCI (Renaissance Computing Institute) (=) RENCI
+27703	US Environmental Protection Agency (=) USEPA
+15049	Archives départementales du Morbihan (=) AD56
+87922	Institute of Transportation Studies, UC Berkeley (=) UCBITS
+87923	Northwest Knowledge Network, University of Idaho (=) NKN
+83011	Network for Earthquake Engineering Simulation (=) NEES
+76267	Lafayette College Libraries (=) LCL
+87924	Duke University (=) DUL
+63271	Archives départementales de l'Aisne (=) AD02
+87925	University College Dublin (=) UCDIRL
+87926	Middlebury College (=) MDY
+87927	Center for International Earth Science Information Network (=) CIESIN
+50275	Archives départementales des Vosges (=) AD88
+87928	Berkeley Research IT (=) UCBRIT
+87929	Irish Social Science Data Archive (=) ISSDA
+87930	US Global Change Research Program/UCAR (=) USGCRP
+37279	Archives départementales de l'Hérault (=) AD3
+24625	Archives municipales d'Orléans (=) AMORLEAN
+11629	Universidad Nacional de Costa Rica (=) UNCR
+87931	Landcare Research New Zealand Ltd (=) LCRNZ
+72847	Archives départementales du Puy-de-Dôme (=) AD63
+59851	Fundación Biblioteca Virtual Miguel de Cervantes (=) FBVMC
+46855	Languedoc-Roussillon Council (=) LAREGION
+83012	University of Illinois Libraries (=) UIUCLIB
+83013	Intrepid Bioinformatics (=) INTBIO
+34201	Bibliothèque publique d'information (=) Public Information Library (=) BPI
+21205	Archives municipales de Porto Vecchio (=) AMPV
+69427	Complex Systems Digital Campus (=) UNITWIN
+56431	Archives départementales de l'Yonne (=) AD89
+43777	Otolaryngology Online Journal (=) JORL
+79003	Archives de Saint-Etienne (=) AMSE
+87932	Berkeley Seismological Laboratory (=) BSL
+87933	Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
+66007	Archives départementales d'Eure-et-Loir (=) AD28
+53353	Archives du Musée Picasso (=) AMPICASSO
+40357	Archives départementales de Tarn-et-Garonne (=) AD82
+27361	James Madison University (=) JMU
+83014	University of Nebraska-Lincoln Libraries (=) UNL
+14365	Colectica - Statistical Data Management (=) COLECTICA
+87934	MorphoBank (=) MORPHOBA
+87935	LIGO Open Science Center (=) LIGO
+75583	Archives départementales des Ardennes (=) ADARDENN
+87936	Washington University in St. Louis (=) WUSTL
+62929	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
+87937	The Cancer Imaging Archive (=) TCIA
+49933	Archives départementales de l'Ille-et-Vilaine (=) AD35
+36937	Archives départementales des Yvelines (=) ADYVEL
+87938	Statistics (ResearchCompendia.org) (=) STATSRC
+87940	UCSB Writing Program (=) WRITPRO
+23941	University of Southern California (=) USC
+10945	AsWeGrow (=) ASWEGROW
+72505	Université Lille 3 (=) University of Lille 3 (=) UL3
+59509	PharmaTutor (=) PTUTOR
+87941	Lawrence Berkeley National Laboratory (=) LBNL
+46513	Sciences Po (=) Paris Institute of Political Studies (=) SCPO
+87942	CLIVAR and Carbon Hydrographic Data Office (=) CCHDO
+87943	LBNL OpenMSI (=) LBNLOMSI
+87944	U.S. Fish and Wildlife Service (=) USFWS
+33517	Grains Research and Development Corporation (=) GRDC
+20521	Cité des Sciences et de l'industrie (=) CSI
+87945	University of Maryland Libraries (=) UMD
+69085	Assemblée Nationale (=) National Assembly of France (=) ANF
+87945	University of Cincinnati Libraries (=) CIN
+56089	Cité Numérique de la Méditerranée (=) Digital City of the Mediterranean (=) CNM
+87946	iPlant Collaborative (=) IPLANT
+81184	Carnegie Mellon University Libraries (=) CMU
+85138	NOAA Global Monitoring Division (=) NOAA-GMD
+85139	Odum Institute for Research in Social Science (=) ODUMUNC
+85140	University of California Davis (=) UCDAVIS
+85141	UC Davis, Social Science Data Service (=) UCDSSDS
+85142	Utah State University (=) USU
+43093	Equipex Biblissima (=) EQPXBIB
+30097	Archives municipales d'Armentières (=) AMARMENT
+17102	Canadian Writing Research Collaboratory (=) CWRC
+85143	Alliance for Crops, Soils, and Environmental Science Societies (=) ACSESS
+78661	College of American Pathologists (=) CAP
+85144	Center for Research in Computational Linguistics (=) CRCL
+65665	National Museum of Natural History, Smithsonian Institution (=) USNMNH
+52669	Archives départementales de la Meuse (=) ADMEUSE
+39673	Archives départementales de l'Ardèche (=) AD07
+26678	Fédération et Ressources sur l'Antiquité (=) FRANTIQ
+85145	University of New Mexico Libraries (=) UNMLIB
+83017	University of Minnesota Libraries (=) UMN
+85147	iDASH Repository (=) IDASHREPOSITORY
+83018	Globus.org (=) GLOBUS
+83019	MyGeoHub (=) MYGEOHUB
+83020	Purdue Polytechnic Institute (=) PURPOLY
+83020	Data Repository for the University of Minnesota (=) DRUM
+14023	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
+75241	Archives municipales de Bordeaux (=) AMBDEAUX
+62245	Archives municipales de Rueil-Malmaison (=) AMRM
+83021	George Mason University (=) GMU
+49249	Archives municipales de Saint Brieuc (=) AMSB
+36254	Muséum d'Histoire Naturelle de Toulouse (=) MHNT
+83022	DataMares (=) DATAMARES
+23599	Archives départementales des Hautes-Alpes (=) ADHALPES
+10603	Instituto de Etnomusicologia - Centro de Estudos em Música e Dança, Faculdade de Motricidade Humana (=) Institue of Ethnomusicology - Music and Dance Study Center, Faculty of Human Motricity (=) INETMDFMH
+71821	Archives départementales de Maine-et-Loire (=) ADML
+45830	Bibliothèque Nationale du Royaume du Maroc (=) National Library of the Kingdom of Morocco (=) BNRM
+83024	Dartmouth College Library (=) DARTLIB
+33175	Archives départementales de Meurthe et Moselle (=) ADMM
+83025	National University of Ireland, Galway (=) NUIGAL
+20179	Bibliothèque numérique de Roubaix (=) BNROUBAIX
+68401	Archives municipales de Villeurbanne (=) AMVE
+83026	MIT Laboratory of Computational Physiology (=) MITLCP
+55406	Archives municipales de Blois (=) AMBLOIS
+83027	MBF Bioscience (=) MBFBIO
+58825	Archives départementales des Deux-Sèvres (=) ADDS
+83028	University of Massachusetts Medical School (=) UMWLSL
+85779	Berkeley Law Library (=) UCBLAWLIB
+42751	Archives départementales de l'Aube (=) ADAUBE
+85788	UCSB Climate Hazards Group, Dept of Geography (=) SBGEOG
+29755	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
+85781	University of Texas at Austin (=) UTAUSTIN
+85782	Drug Design Data Resource (=) D3R
+85783	CRAWDAD (=) CRAWDAD
+85784	Interdisciplinary Earth Data Alliance (=) IEDA
+85785	Harvard Medical School (=) SBGRID
+85786	University of Wyoming Libraries (=) UWYO
+85787	Virginia Tech Transportation Institute (=) VTTI
+16759	Sprint Investify (=) INVESTIFY
+77977	Archives départementales de la Haute-Saône (=) AD70
+64982	Archives départementales des Hautes-Pyrénées (=) ADHP
+85788	Montana State University (=) MSU
+52328	Archives Départementales de la Haute-Vienne (=) ADHV
+39332	Archives de la Ville et de l'Eurométropole de Strasbourg (=) AVES
+26335	Archives départementales de l'Eure (=) AD27
+99160	Office International de l'Eau (=) International Office for Water (=) OIEAU
+87602	Morphosource Project (=) MORPHOSO
+13339	Archives départementales de la Sarthe (=) AD72
+87603	Texas Advanced Computing Center (=) TACC
+87604	University of Miami Libraries (=) UMIAMI
+87605	Center for Open Science (=) COS
+87606	American University Library (=) AUL
+87607	Chicago Collections Consortium (=) CCC
+87608	University of Auckland (=) UOA
+87610	UTA Institute of Classical Archaeology (=) ICA
+87611	Incorporated Research Institutions for Seismology (=) IRIS
+87612	UTA Petroleum Engineering (=) PGERR
+74558	Archives municipales de Laval (=) AMLAVAL
+61904	Archives départementales de la Charente (=) AD16
+48908	Archives municipales de Béziers (=) AMBEZIERS
+87613	Modern Language Association (=) MLA
+87614	Pitt Quantum Repository (=) PQR
+87615	UNC Library - Resource Description and Management (=) LIBUNC
+87616	Registry of Research Repositories (=) RE3DATA
+35911	IEEE Publishing Technology (=) IEEE
+22915	The Silent Film Sound & Music Archive (=) SFSMA
+71480	Espace Mendès France (=) EMF
+87908	UC San Diego Department of Biomedical Informatics (=) DBMICLD
+87909	Space Telescope Science Institute (=) STSCI
+58484	Archives Départementales des Alpes de Haute Provence (=) ADAHP
+87911	University of Washington IsoLab (=) UWISOLAB
+45487	Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
+87912	Caltech Biology (=) WORMBASE
+87913	Miami Project to Cure Paralysis (=) REGENBASE
+32491	Archives de la ville de Romans (=) AVROMANS
+19495	Ohio Supercomputer Center (=) OSC
+97720	NAAN Reserved for Uniform Resource Names (=) URNS
+99152	Metadata Terms (=) TERMS
+99166	People, Groups, and Institutions as Agents (=) AGENTS
+99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
+12345	NAAN Reserved for use in Examples (=) EXAMPLE

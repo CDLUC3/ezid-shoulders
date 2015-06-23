@@ -1,0 +1,21 @@
+todays_date: 02/06/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: ucb-lawlib
+acct_email: jcera@law.berkeley.edu
+primary_contact: Joe Cera
+contact_email: jcera@law.berkeley.edu
+contact_phone: 510-643-2947
+contact_fax:
+org: Berkeley Law Library
+org_acroynm: UCBLAWLB
+org_www: http://www.law.berkeley.edu/library.htm
+mailing_address1: UC Berkeley, School of Law
+mailing_address2: LL185 Boalt Hall
+mailing_city: Berkeley
+mailing_state: CA
+mailing_zip: 94720-7210
+mailing_country:
+identifiers: DOIs and ARKs
+identifier_plans: We will be assigning identifiers to historical and newly published articles from the Berkeley Law journals. I would estimate that we have about 6,000 previously published articles that may need identifiers and the journals publish about 100 items a year across 13 law journals. We would like the account to be CrossRef enabled. We hope to use the API for items that are already published and available in the repository as well as for newly published articles being submitted to the CrossRef service. We will likely use the web interface for newly published articles or other publications that require only the DataCite DOI. Sponsored by UC Berkeley Library
+comments: CrossRef enable; Minter and shoulder.%0D%0A

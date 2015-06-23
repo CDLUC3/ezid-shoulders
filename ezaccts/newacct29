@@ -1,0 +1,23 @@
+todays_date: 02/18/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: ucsd_d3r
+acct_email: drugdesigndata@gmail.com
+primary_contact: Victoria Feher
+contact_email: vfeher@ucsd.edu
+contact_phone: 858-246-1620
+contact_fax: 858-246-0644
+org: Drug Design Data (D3R) Resource
+org_acroynm: D3R
+org_www: drugdesigndata.org
+mailing_address1: 9500 Gilman Drive
+mailing_address2: MC0608
+mailing_city: La Jolla
+mailing_state: CA
+mailing_zip: 92093-0608
+mailing_country:
+identifiers: DOIs and ARKs
+created_before: YES
+internal_identifiers: NO
+identifier_plans: (Have only created test identifiers before.) Plans: For the publication of datasets being housed within D3R resource. Note: add Michael Gilson to listserv (mgilson@ucsd.edu)%0D%0ACo-owned by ucsd_lib
+comments: standard setup

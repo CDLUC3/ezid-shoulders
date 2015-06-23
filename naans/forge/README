@@ -1,0 +1,9 @@
+Use ./naan_rec to generate ARK NAANs.
+
+Use ./mint_doip to generate DOI prefixes.
+
+DOI prefixes are generated from a store of prefixes given to us by
+DataCite and loaded into the noid minting "queue" so that they come
+out upon a mint request.  There's a minter for CDL prefixes that is
+reloaded with ../forge_doip/loadit and a minter for Purdue prefixes
+that is reloaded with ../forge_doip_purdue/loadit.

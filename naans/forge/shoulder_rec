@@ -1,0 +1,62 @@
+#!/bin/tcsh -f
+
+if ($# < 3) then
+	echo "DEPRECATED!  Use 'make_shdr' instead."
+	echo ""
+	echo "Record (create) a new shoulder (minter)."
+	echo "Usage:   $0 Shoulder NAAN Purpose [ Altdir ]"
+	echo "Example:"
+	echo ""
+	echo "    $ $0 fk4 13030 'Fake Ids'"
+	echo "    ..."
+	echo "    shoulder: 13030/fk4"
+	echo "    what:     Fake Ids"
+	echo ""
+	echo "You should copy last two lines into the 'master_shoulders' file."
+	echo "NOTE: currently shoulders must be unique across all NAANs unless"
+	echo "you specify an alternate full path with Altdir (eg, /noid/md)."
+	echo ""
+	exit 1
+endif
+
+set shldr = "$1"
+set naan = "$2"
+set purpose = "$3"
+set altdir = "$4"
+
+# Giving more than one file makes grep print the file name with each match.
+set shoulder_file = (/noid/naans/master_shoulders /dev/null);
+set exists = `grep -n "shoulder:.*$shldr" $shoulder_file`
+if ("$exists" != "") then
+	echo Shoulder appears to exist already:
+	echo "   " $exists
+	exit 1
+endif
+
+set nd = /noid/nd
+if ("$altdir" != "")   set nd = "$altdir"
+
+set template = reedeek
+
+if (-e $nd/$shldr) then
+	echo Shoulder directory exists already:
+	ls -ld $nd/$shldr
+	exit 1
+endif
+
+cd $nd
+mkdir $shldr
+
+cd $shldr
+$nd/noid dbcreate $shldr.$template - $naan
+echo $nd/noid dbcreate $shldr.$template - $naan > created_with
+
+cd $nd
+rm -f noidu_$shldr noidr_$shldr
+ln noid noidu_$shldr
+ln noid noidr_$shldr
+
+echo ""
+echo "Add this entry to master_shoulders"
+echo "shoulder: $naan/$shldr"
+echo "what:     $purpose"

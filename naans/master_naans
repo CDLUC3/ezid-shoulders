@@ -1,0 +1,3568 @@
+erc:
+who:	University of California, California Digital Library (CDL)
+what:	Name Assigning Authority Number (NAAN) Registry
+when:	2015.06.01
+where:	http://cdlib.org/uc3/naan_registry.txt
+where:	http://bnf.fr/xxx/naan_registry.txt
+where:	http://www.nlm.nih.gov/naan/naan_registry.txt
+huh:	utf-8
+
+# --- start preamble ---
+#
+#          Name Assigning Authority Number (NAAN) Registry
+#
+# Each record in this registry file specifies a Name Assigning Authority
+# (NAA) and a unique NAA Number (NAAN) that is permanently associated with
+# it for the purposes of name (identifier) assignment.  An NAA is an
+# organization that assigns names.  If each NAA begins its names with its
+# own NAAN, assignments of one NAA will never conflict with those of
+# another NAA.  The records in this file conform to the ANVL format:
+# http://cdlib.org/uc3/docs/anvlspec.pdf .
+#
+# Each record also specifies an organization-level resolution target for
+# N2T (Name-to-Thing), a scheme-agnostic identifier resolver.  The present
+# form of the registry descends from the ARK (Archival Resource Key) NAAN
+# registry, but can work with a number of different schemes, including ARK,
+# URL, DOI, Handle, and URN.  
+#
+# Terminology is based on the metaphor of a key (or name or identifier),
+# locksmithing jargon, and the concept of a branded plastic key-cover.
+#
+#        _____    slips on    _____
+#     .-'  ,_,'-..  ---->  .-'     '-.
+#    /    (o,o)  \\       /           \
+#   :     {`"'}  ||      :             `____
+#  /  .-. -"-"-  ||     /  .-.              '--^.   .^--^.        .^.
+# {  (   )       ||    {  (   )                  `-'      `-^--^-'   '--^.
+#  \  `-'   _o   ||     \  '-'         ===================================}
+#   :     _|<,_  ||      :             __________________________________/
+#    \   (*)/(*) /        \           /
+#     `-._____.-'          `-._____.-'
+# |....................|...............|....|..........................|..|
+#           ^                    ^        ^                ^            ^
+#           :                    :        :                :            :
+#         Cover=               Bow=    Shoulder  .------ Blade         Tip
+#          NMA             Scheme+NAAN    :      :  .-------------------'
+#           :                  :    :     :      :  :
+#           v                  v    v     v      v  v
+# |..........................|....+.....|...|......|.|
+#  http://OwlBike.example.org/ark:/13030/tqb3kh97gh8w   <----  Example Key
+#                              doi:10.30/tqb3kh97gh8w         with parallel
+#                              hdl:13030/tqb3kh97gh8w        parts in other
+#                              urn:13030:tqb3kh97gh8w          id schemes.
+# |..........................|.......................|....
+#    Name Mapping Authority       Base identifier      ...
+#
+#       NMA = Name Mapping Authority, in other words, an identifier
+#             service provider; as a branded and replaceable add-on,
+#             this "cover" helps make a key actionable
+#
+#    Scheme = Identifier type, which tells how the NAAN is delimited
+#
+#      NAAN = Opaque name for the organization that created the identifier;
+#             a key's "bow" (Scheme+NAAN) is immutable, but not its "cover"
+#
+#  Shoulder = Fixed pattern extending the Bow to the Blade; NAA determines
+#             how the pattern is delimited, which permits it to partition
+#             its namespace opaquely into sub-namespaces and to delegate
+#             name assignment; example Shoulder above ends with first digit
+#
+#     Blade = Variable pattern extending the Shoulder to the Tip
+#
+#       Tip = Final characters of Base identifier, critical for computing
+#             check characters; for ARKs, Base ends before the next '/'
+#
+#   Base id = Identifier for an object (thing) at its coarsest level of
+#             granularity and without identifier extensions; defined for
+#             all ARKs but for other identifiers depends on local practice
+#
+# Extension = Pattern appended to Base that names parts of an object and
+#             variants thereof; may be assigned by the NAA or not; may be
+#             invented and publicized by an NMA; generally unstructured,
+#             but ARKs reserve '/' and '.' to disclose structure; example:
+#
+#                  ark:/13030/tqb3kh97gh8z/chap3/fig5.jpg
+#                 |.......................|..............|
+#                      Base identifier       Extension
+#
+# // Opacity
+#
+# Many of these terms serve semantic opacity, which is useful in creating
+# base identifiers that age and travel well.  Opacity is often balanced by
+# the addition of hints in replaceable appendages to the base, such as NMA
+# branding before it and extensions that suggest current service offerings.
+#
+# // Resolution
+#
+# A Name Mapping Authority (NMA) can be a starting place for internet
+# resolution, an ending place for it, or both.  The main requirement for
+# being an NMA for an object is being able to take a request associated
+# with its identifier and do something useful with it (to "map" it to a
+# practical function), such as providing access to the object or its
+# metadata, or forwarding the request to another NMA.  Often an NMA will
+# provide object access for some requests and forwarding for others.
+#
+# A broadly helpful practice is for NMAs to forward completely unknown
+# identifier requests to a root resolver such as n2t.net, which can work
+# with any identifier scheme (described below).  With very little burden
+# to the original NMA, this practice increases the chances that resolution
+# will be successful no matter where the user starts it.
+#
+# ARKs, URLs, and PURLs use manifest, scheme-agnostic redirecting HTTP
+# servers as NMAs.  The DOI, Handle, and URN schemes are each designed
+# to use an implicit, scheme-specific root resolver (NMA) with its own
+# protocol.  Resolution in all these cases relies on a final HTTP access.
+#
+# // N2T Resolver
+#
+# The N2T root resolver is an NMA that takes an incoming identifier's
+# NAAN and looks it up in this registry.  If there is an identifier service
+# provider (another NMA) corresponding to the NAAN, the identifier is
+# redirected to it.  In standard usage, identifiers are published as URLs
+# with n2t.net as the hostname to ensure that resolution starts with the
+# root resolver.
+#
+# N2T was originally designed for global resolution of ARK identifiers,
+# but it is general enough to apply to identifiers from any scheme.  It's
+# mechanism is functionally equivalent to each of the DOI, Handle, and URN
+# resolution mechanisms.
+#
+# // Kinds of Namespaces
+#
+# Resolution involves namespaces of different kinds.  These definitions
+# use the term "pool" to mean all possible names within some constraint.
+#
+#   Schemespace = pool of identifier schemes (ark, doi, hdl, urn, etc.)
+#      Bowspace = pool of NAANs within a given scheme (eg, ark:/13030)
+# Shoulderspace = pool of Shoulders within a given NAAN
+#    Bladespace = pool of identifiers sharing a given NAAN and Shoulder
+#                 (eg, ark:/13030/xh4...)
+#
+# These terms are also used, but often more loosely.
+#
+#     Namespace = pool of identifiers sharing a given NAAN
+# Sub-namespace = pool of identifiers sharing a given NAAN and Shoulder
+#               = Bladespace
+#
+# // Namespace Partitioning and the "First Digit" Shoulder Convention
+#
+# A common way to manage assignments in the namespace under a NAAN (a
+# Bowspace) is to partition it, namely, to divide it into non-overlapping
+# sub-namespaces.  Assignments are then delegated to sub-namespaces where
+# uniqueness within each sub-namespace achieves uniqueness overall.
+#
+# One of the easiest ways to partition a namespace is with extended
+# prefixing.  By extending the NAAN with a fixed Shoulder prefix that is
+# unique for each sub-namespace, any assignments in that Bladespace (i.e.,
+# that begin with the given NAAN and Shoulder) will never conflict with
+# those in another Bladespace.  The same principle guides the concept of
+# using unique NAANs to partition the Bowspace, which is the highest level
+# of any scheme's namespace.
+#
+# An easy way to extend the Bow in creating a Shoulderspace partition (of
+# separate Bladespaces) that has an unlimited supply of sub-namespaces is
+# to adhere to the "first digit" convention.  In this case each Shoulder
+# is a string of one of more letters ending in a digit (inclusive).  For
+# example, "ark:/13030/b3th89n" would have fixed Shoulder prefix "b3", and
+# the 13030 NAAN could then enjoy an infinite Shoulderspace, including,
+#
+#    b3, c3, d3, ...
+#    bb3, bc3, bd3, ..., cb3, cc3, cd3, ...
+#    bbb3, bbc3, bbd3, ..., bcb3, bcd3, ..., cbb3, cbc3, ...
+#     ...
+#
+# The "first digit" Shoulder convention makes it convenient to create as
+# many unique Shoulder prefixes as may be needed.
+#
+# // Name Extensions
+#
+# An identifier frequently appears with an extension added to its base.
+# For every assigned base identifier, there is in principle an infinite
+# number of extended forms.  In practice, the NAA may not officially
+# list all its extended forms publically.  Moreover, many extended forms
+# are created and publicized by NMAs independent of the NAA assignments.
+#
+# Still more extended forms are discovered by users exploring an NMA's
+# services, for example, by noticing identifier patterns and changing
+# some of the values.  Names designed so that logical changes have logical
+# consequences have been called "hackable identifiers".  Also, sometimes
+# an NMA supports substitution of "parameters" (values) inside of query
+# strings appended to its identifiers (after a "?"), in order to produce
+# certain documented effects.
+#
+# Identifier schemes tend to specify little beyond the form of the NAAN
+# (or other designation for the NAA, sometimes called a Name Authority).
+# The ARK scheme permits formal disclosure of hierarchy and equivalence
+# in name extensions; if used in an ARK, '/' indicates containment and
+# '.' indicates variation.  For example,
+#
+#  ark:/13030/tqb3kh8z/                 # names an object containing...
+#  ark:/13030/tqb3kh8z/chap3            # that in turn contains...
+#  ark:/13030/tqb3kh8z/chap3/fig5.jpg   # that is a variant of...
+#  ark:/13030/tqb3kh8z/chap3/fig5.pdf   # and so forth
+#
+# // The "Noid1" Check Character Convention
+#
+# Check characters, if included at all, often protect only formally
+# published identifiers, such as the base identifier with no extensions.
+# Check characters lengthen whatever sub-string they protect by at least
+# one character, so protecting all sub-string extensions could create
+# fairly long identifiers.  Also, check character generation is a
+# deliberate process that can conflict with the need for rapid and
+# flexible creation of extensions.
+#
+# One useful check character convention, called "Noid1", uses exactly one
+# check character that appears at the Tip of the Blade, in other words,
+# as the last character of the base identifier.  It also uses the Noid1
+# algorithm ( https://confluence.ucop.edu/display/Curation/NOID ), which
+# guarantees the base identifier against the most common transcription
+# errors: transposition of two adjacent characters and single character
+# errors.  Noid1 does not protect either the hostname or any extensions.
+# For example, in the identifier,
+#                                     ,------------,
+#      http://OwlBike.example.org/hdl:13030/tqb3kh8w/chap3/fig5.jpg
+#
+# the protected string, "13030/tqb3kh8w", ends with a "w" that is
+# (hypothetically) the computed Noid1 check character.  Also, all Noid1
+# examples use a restricted character repertoire consisting of digits and
+# lowercase letters minus vowels and minus the letter 'l' (ell).  The
+# Noid software uses this repertoire to reduce the chance of "accidental"
+# semantics in generated identifiers and to avoid some of the confusion
+# that arises over mistaking digits for letters, such as '1' for 'l' and
+# '0' for 'O'.
+#
+# // NAA Record Template
+#
+# Each Name Assigning Authority (NAA) record has the form below.
+# Template items in [square brackets] are optional and items in <angle
+# brackets> are to be replacd with values that apply to the NAA being
+# described.  Most items should be evident from the short label in
+# <brackets>, with a "*" indicating that a longer explanation appears
+# later.  Dates are in TEMPER format "YYYY.MM.DD" or "YYYY", with a "-"
+# indicating a period (eg, tenure in a certain role) that may be closed
+# or open-ended (eg, 2003-2005, 2007-).
+#! Lines beginning '#!' or '!' will be suppressed from public view.
+#
+# Some ANVL features used may not be self-evident.  The "(=)" string is
+# used to separate alternative forms (variants) of one value or sub-value.
+# The "|" character separates sub-values that contribute different types
+# of information to the overall value.  The ";" character separates
+# multiple "peer" sub-values (of the same type).  When a value or
+# sub-value is required but missing, the string "(:unkn)" can be used as
+# a coded value meaning "unknown".
+#
+#  naa:
+#  who:   <official organization name>
+#         [ (=) <if different, organization name in english> ]
+#         (=) <display acronym based on DNS name, probably unique>
+#  what:  <NAAN, usually 5 digits, always unique>
+#  when:  <YYYY.MM.DD date registered>
+#  where: <base URL of NMA serving this NAA, used as redirection target>
+#  where: <base URL of NMA serving this NAA>    # repeat element as needed
+#  how:   <OrganizationType*>
+#            | <PolicySummary*>
+#            | [ <start year YYYY of role tenure*>[-<end of tenure> ] ]
+#            | <URL to narrative policy statement>
+#! why:   [ <if NAA was requested, list why, eg, ARK, N2T, URN, ...> ]
+#! contact: <name of contact person or position within the NAA>
+#!           | [ <person's unit within NAA, eg, Library in a University> ]
+#!           | [ <start year YYYY of role tenure*>[-<end of tenure>] ]
+#!           | <email address>
+#!           | [ <telephone number> ]
+#
+#  * OrganizationType (choose one):
+#     NP = Non profit.
+#     FP = For profit.
+#
+#  * PolicySummary (choose as many as apply):
+#     NR = No re-assignment.  Once a base identifier-to-object association
+#          has been made public, that association shall remain unique into
+#          the indefinite future.
+#     OP = Opacity.  Base identifiers shall be assigned with no widely
+#          recognizable semantic information.
+#     CC = A check character is generated in assigned identifiers to guard
+#          against common transcription errors.
+#
+#  * NAA Tenure
+#    The NAA for a given NAAN, while expected to be long-lived, might one
+#    day cease to exist or to assign names, in which case its tenure in
+#    the role of name assigner is indicated.
+#
+#! * Contact Tenure
+#!   Similarly, the tenure of a person in role of contact for the NAA may
+#!   change.  Multiple contact elements, past and present, may be listed.
+# --- end preamble ---
+
+naa:
+who:	US National Library of Medicine (=) USNLM
+what:	12025
+when:	2001.03.08
+where:	http://www.nlm.nih.gov
+how:	NP | (:unkn) unknown | 2001 |
+!why:   ARK
+!contact: Marill, Jennifer ||| MarillJ@mail.nlm.nih.gov | +1 301-435-7072
+
+naa:
+who:	Library of Congress (=) USLOC
+what:	12026
+when:	2001.03.08
+where:	http://www.loc.gov
+how:	NP | (:unkn) unknown | 2001 |
+!why:   ARK
+!contact: Johnson, Leslie ||| lesliej@loc.gov |
+
+naa:
+who:	US National Agricultural Library (=) USNAL
+what:	10113
+when:	2001.03.08
+where:	http://www.nal.usda.gov
+how:	NP | (:unkn) unknown | 2001 |
+!why:   ARK
+!contact: Cole, Chris ||| christopher.cole@ars.usda.gov | +1 301-504-7296
+!what:	12027   xxx note: this is what the NAAN used to be
+
+naa:
+who:	California Digital Library (=) CDLIB
+what:	13030
+when:	2002.07.12
+where:	http://www.cdlib.org
+how:	NP | NR, OP, CC | 2002 | http://www.cdlib.org/inside/diglib/ark/
+!why:   ARK
+!contact: Kunze, John ||| jak@ucop.edu | +1 510-987-9231
+
+naa:
+who:	World Intellectual Property Organization (=) WIPO
+what:	13038
+when:	2002.07.12
+where:	http://www.wipo.int
+how:	NP | (:unkn) unknown | 2002 |
+!why:   ARK
+!contact: Fullton, Jim ||| James.Fullton@wipo.int | +41 22 338 8026
+
+naa:
+who:	University of California San Diego (=) UCSD
+what:	20775
+when:	2004.06.02
+where:	http://library.ucsd.edu
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+#!contact: Frymann, Chris | UCSD Library | 2004-2010 | chrisfm@library.ucsd.edu
+!contact: Fleming, Declan | UCSD Library | 2010- | dfleming@ucsd.edu | +1 858-534-1287
+
+naa:
+who:	University of California San Francisco (=) UCSF
+what:	29114
+when:	2004.06.02
+where:	http://library.ucsf.edu
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+!contact: Choi, Eric | UCSF Library || Eric.Choi@library.ucsf.edu
+!contact: Kochi, Julia | UCSF Library || Julia.Kochi@library.ucsf.edu
+
+naa:
+who:	University of California Berkeley (=) UCBERKELEY
+what:	28722
+when:	2004.06.02
+where:	http://library.berkeley.edu
+how:	NP | NR, OP, CC | 2004 |
+!why:   ARK
+!contact: Mills, Garey | UCB Library || gmills@library.berkeley.edu | +1 510-643-4092,
+
+naa:
+who:	Rutgers University (=) RUTGERS
+what:	15230
+when:	2004.04.30
+where:	http://rci.rutgers.edu
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+#!contact: Giarlo, Michael, J. || 2004-2006 | sccadmin@rci.rutgers.edu
+!contact: Jantz, Ron | Rutgers University Libraries | 2006- | rjantz@rci.rutgers.edu | +1 732-932-8573 x180
+
+naa:
+who:	Internet Archive (=) IA
+what:	13960
+when:	2004.08.29
+where:	http://www.archive.org
+how:	NP | NR, OP, CC | 2004 |
+!why:   ARK
+#!contact: Stack, Michael || 2004-2007 | stack@archive.org
+!contact: Bromley, Hank || 2007- | hank@archive.org | +1 415.561.6767
+
+naa:
+who:	Digital Curation Centre (=) DCC
+what:	64269
+when:	2004.09.22
+where:	http://www.dcc.ac.uk
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+!contact: Giaretta, David ||| d.l.giaretta@rl.ac.uk
+
+naa:
+who:	New York University (=) NYU
+what:	62624
+when:	2004.10.07
+where:	http://library.nyu.edu
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+#!contact: Myrick, Leslie | New York University Library | 2004-2006? | leslie@nyu.edu
+#!contact: Pawletko, Joseph | Bobst Library, New York University || jgp@nyu.edu | +1 212-992-9999
+!contact: eziduserid nyu_library
+
+naa:
+who:	University of North Texas (=) UNT
+what:	67531
+when:	2004.10.07
+where:	http://www.library.unt.edu
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+!contact: Hartman, Cathy ||| chartman@library.unt.edu
+
+naa:
+who:	Portico Digital Preservation Service (=) PORTICO
+what:	27927
+when:	2004.12.10
+where:	http://www.portico.org/digital-preservation
+how:	NP | (:unkn) unknown | 2004 |
+!why:   ARK
+!contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
+#!contact: Owens, Evan | Portico | 2004-2010 | evanpowens@gmail.com | +1 609-258-8230
+
+naa:
+who:	University of California Los Angeles (=) UCLA
+what:	21198
+when:	2005.05.02
+where:	http://library.ucla.edu
+how:	NP | (:unkn) unknown | 2005 |
+!why:   ARK
+!contact: Chiong, Henry | UCLA Library | 2007- | hchiong@library.ucla.edu |
+
+naa:
+who:	Bibliothèque nationale de France (=) National Library of France (=) BNF
+what:	12148
+when:	2005.07.17
+where:	http://ark.bnf.fr
+how:	NP | NR, OP, CC | 2005 | http://ark.bnf.fr/ark:/12148/bpt6k2102478.policy
+!why:   ARK
+#!contact: Lupovici, Catherine || 2005-2008 | catherine.lupovici@bnf.fr
+!contact: XXX Bermes, Emmanuelle || 2008- | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
+
+naa:
+who:	Princeton University (=) PRINCETON
+what:	88435
+when:	2005.10.06
+where:	http://diglib.princeton.edu
+how:	NP | (:unkn) unknown | 2005 |
+!why:   ARK
+!contact: Stroop, Jon | Princeton University Library || jstroop@princeton.edu
+
+naa:
+who:	University of Washington (=) UW
+what:	78428
+when:	2005.10.06
+where:	http://u.washington.edu
+how:	NP | (:unkn) unknown | 2005 |
+!why:   ARK
+!contact: XXX Maguire, Marsha | University of Washington Libraries | 2005-2012 | mmaguire@u.washington.edu
+!contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
+
+naa:
+who:	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
+what:	89901
+when:	2005.11.30
+where:	http://www.arkivnamnden.org
+how:	NP | (:unkn) unknown | 2005 |
+!why:   ARK
+!contact: Saternus, Jakob ||| Jakob.Saternus@arkivnamnden.goteborg.se
+
+naa:
+who:	Northwest Digital Archives (=) NWDA
+what:	80444
+when:	2006.01.06
+where:	http://nwda.wsulibs.wsu.edu
+how:	NP | (:unkn) unknown | 2006 |
+!why:   ARK
+!contact: Cornish, Alan | Washington State University Libraries || cornish@wsu.edu | +1 509-335-1895
+
+naa:
+who:	Emory University (=) EMORY
+what:	25593
+when:	2006.01.12
+where:	http://id.library.emory.edu
+how:	NP | (:unkn) unknown | 2006 |
+!why:   ARK
+!contact: Fenton, Kyle | Robert W. Woodruff Library || jfenton@emory.edu
+
+naa:
+who:	University of Kansas (=) UKANSAS
+what:	25031
+when:	2006.03.29
+where:	http://www.lib.ku.edu
+how:	NP | (:unkn) unknown | 2006 |
+!why:   ARK
+!contact: Miller, John S. ||| jsmiller@ku.edu
+
+naa:
+who:	Google (=) GOOGLE
+what:	78319
+when:	2006.08.22
+where:	http://www.google.com
+how:	FP | (:unkn) unknown | 2006 |
+!why:   ARK
+!contact: XXX Mathes, Adam ||| amathes@google.com
+
+naa:
+who:	Centre for Ecology & Hydrology, UK (=) CEH
+what:	17101
+when:	2006.08.20
+where:	http://www.ceh.ac.uk
+how:	NP | (:unkn) unknown | 2006 |
+!why:   ARK
+!contact: XXX Gray, Tanya ||| tgra@ceh.ac.uk
+
+naa:
+who:	University of Calgary (=) UCALGARY
+what:	65323
+when:	2007.06.05
+where:	http://library.ucalgary.ca
+how:	NP | (:unkn) unknown | 2007 |
+!why:   ARK
+!contact: Au Yeung, Tim | Libraries and Cultural Resources || ytau@ucalgary.ca | +1 403-220-8975
+
+naa:
+who:	University of Chicago (=) UCHICAGO
+what:	61001
+when:	2007.09.11
+where:	http://www.lib.uchicago.edu
+how:	NP | (:unkn) unknown | 2007 |
+!why:   ARK
+!contact: Blair, Charles | University of Chicago Library || chas@uchicago.edu | +1 773-702-8459,
+
+naa:
+who:	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
+what:	52327
+when:	2007.10.18
+where:	http://www.banq.qc.ca
+how:	NP | (:unkn) unknown | 2007 |
+!why:   ARK
+!contact: Sioud, Mongi ||| mongi.sioud@cgi.com | +1 514-415-3000 #7032
+
+naa:
+who:	National Széchényi Library (=) National Library of Hungary (=) OSZK
+what:	39331
+when:	2008.03.05
+where:	http://www.oszk.hu
+how:	NP | (:unkn) unknown | 2008 |
+!why:   ARK
+!contact: Kovacs, Peter ||| kpeter@oszk.hu wrote:
+
+naa:
+who:	Library and Archives Canada (=) Bibliothèque et Archives Canada (=) LAC
+what:	26677
+when:	2008.05.15
+where:	http://collectionscanada.ca
+how:	NP | (:unkn) unknown | 2008 |
+!why:   ARK
+!contact: Lam, Hayward ||| hayward.lam@gmail.com
+
+naa:
+who:	Centre de Musique Baroque de Versailles (=) CMBV
+what:	13681
+when:	2008.09.19
+where:	http://www.cmbv.fr
+how:	NP | (:unkn) unknown | 2008 |
+!why:   ARK
+!contact: Crublet, Jérémy ||| jcrublet@cmbv.com | +33 01 3920 7821
+
+naa:
+who:	Centre Informatique National de l'Enseignement Supérieur (=) French National Data Center for Higher Education and Scientific Research (=) CINES
+what:	87895
+when:	2008.10.14
+where:	http://www.cines.fr
+how:	NP | (:unkn) unknown | 2008 |
+!why:   ARK
+!contact: Rouchon, Olivier ||| olivier.rouchon@CINES.FR | +33 467.141.467
+
+naa:
+who:	Bibliothèque municipale de Toulouse (=) Toulouse Municipal Library (=) BIBTOULOUSE
+what:	74899
+when:	2009.01.23
+where:	http://www.bibliotheque.toulouse.fr
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Hernebring, Patrick ||| Patrick.Hernebring@mairie-toulouse.fr | +33 5.62.27.63.76
+
+naa:
+who:	Family Search (=) FS
+what:	61903
+when:	2009.02.13
+where:	http://www.familysearch.org
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Creighton, Tom ||| CreightonNT@familysearch.org
+
+naa:
+who:	University of California Santa Barbara (=) UCSB
+what:	48907
+when:	2009.03.13
+where:	http://library.ucsb.edu
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: XXX Koch, Lisa | Davidson Library University of California | lkoch@library.ucsb.edu | 805-893-4149
+
+naa:
+who:	George Eastman House - International Museum of Photography and Film (=) GEH
+what:	36253
+when:	2009.03.17
+where:	http://www.eastmanhouse.org
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Donahue, Ryan ||| RDonahue@geh.org
+
+naa:
+who:	Appalachian State University (=) APPSTATE
+what:	23257
+when:	2009.05.18
+where:	http://www.appstate.edu
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Mitchem, Pam | Belk Library & Information Commons || pricemtchemp@appstate.edu | +1 828-262-8472
+
+naa:
+who:	Jüdisches Museum Berlin (=) Jewish Museum Berlin (=) JMBERLIN
+what:	10261
+when:	2009.07.22
+where:	http://www.jmberlin.de
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Sonnemann, Ulrike | Leiterin Bibliothek || u.sonnemann@jmberlin.de | +49 25993-564 
+
+naa:
+who:	University of Houston (=) UHOUSTON
+what:	84475
+when:	2009.07.22
+where:	http://www.uh.edu
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
+
+naa:
+who:	Consejo Superior de Investigaciones Científicas (=) Spanish National Research Council (=) CSIC
+what:	71479
+when:	2009.10.14
+where:	http://www.csic.es
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Santamarina, Carolina ||| carolina@bib.csic.es | +34 91-568 16 79
+
+naa:
+who:	Archives départementales de la Somme (=) Somme Departmental Archives (=) ADSOMME
+what:	58483
+when:	2009.10.21
+where:	http://www.somme.fr
+how:	NP | NR, OP | 2009 | http://archives.somme.fr/download.cgi?filename=accounts/mnesys_ad80/datas/cms/aide_fr_v04_2.pdf
+!why:   ARK
+!contact: De Solan, Olivier ||| o.desolan@SOMME.FR | +33 3 60 03 49 50
+
+naa:
+who:	Bibliothèque Cujas (=) Cujas inter-university library (Paris 1 Panthéon Sorbonne and Paris 2 Assas) (=) BIUCUJAS
+what:	45829
+when:	2009.10.28
+where:	http://biu-cujas.univ-paris1.fr
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Renard, Catherine ||| Catherine.Renard@univ-paris1.fr
+
+naa:
+who:	Massachusetts Institute of Technology (=) MIT
+what:	32833
+when:	2009.11.17
+where:	http://libraries.mit.edu
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Macdonald, Mikki Simon | MIT Libraries || mssimon@MIT.EDU | +1 617-253-7146
+
+naa:
+who:	Simon Fraser University (=) SFU
+what:	19837
+when:	2009.12.16
+where:	http://www.sfu.ca
+how:	NP | (:unkn) unknown | 2009 |
+!why:   ARK
+!contact: Jordan, Mark | W.A.C. Bennett Library || mjordan@sfu.ca | +1 778.782.5753
+
+naa:
+who:	British Library (=) BL
+what:	81055
+when:	2010.01.21
+where:	http://www.bl.uk
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Golding, David ||| David.Golding@bl.uk | +44 1937 546966
+!contact: Enders, Markus ||| Markus.Enders@bl.uk
+
+naa:
+who:	Centre National d'Études Spatiales (=) French Space Agency (=) CNES
+what:	68059
+when:	2010.02.02
+where:	http://www.cnes.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Daniele, Boucon ||| daniele.boucon@cnes.fr
+
+naa:
+who:	Columbia College Chicago (=) COLUMCC
+what:	55405
+when:	2010.02.19
+where:	http://www.colum.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Moses, Laurie Lee | Center for Black Music Research || lmoses@colum.edu | +1 312.369.7518
+
+naa:
+who:	The Pennsylvania State University (=) PSU
+what:	42409
+when:	2010.03.03
+where:	http://www.psu.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Giarlo, Michael J. ||| leftwing@alumni.rutgers.edu
+
+naa:
+who:	University of Pennsylvania (=) UPENN
+what:	29413
+when:	2010.04.07
+where:	http://www.upenn.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Winkler, Mike | University of Pennsylvania Library || winkler4@pobox.upenn.edu | +1 215.573.9086
+
+naa:
+who:	University of Kentucky Libraries (=) UKY
+what:	16417
+when:	2010.04.09
+where:	http://www.uky.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
+!contact: eziduserid unkentucky
+
+naa:
+who:	Humboldt-Universität zu Berlin (=) Humboldt University Berlin (=) HUB
+what:	77635
+when:	2010.06.07
+where:	http://www.hu-berlin.de
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Dobratz, Susanne | University Library & Computer and Media Services | dobratz@cms.hu-berlin.de | +49+30+2093-7070
+
+naa:
+who:	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
+what:	64981
+when:	2010.06.21
+where:	http://www.locirdoc.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Cassoudesalle, Joanna ||| j.cassoudesalle@cirdoc.fr | +33 4 67 11 85 10
+
+naa:
+who:	University of Illinois at Urbana Champaign (=) UIUC
+what:	51985
+when:	2010.07.12
+where:	http://illinois.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Myung-Ja "MJ" Han | Assistant Professor and Metadata Librarian || mhan3@illinois.edu | 217-333-9515
+
+naa:
+who:	The George Washington University (=) GWU
+what:	38989
+when:	2010.08.20
+where:	http://gwu.edu
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: XXX Gourley, Don | The Gelman Library System | dgourley@gelman.gwu.edu |
+
+naa:
+who:    Archives départementales du Doubs (=) ADDOUBS
+what:   25993
+when:   2010.08.23
+where:  http://archives.doubs.fr
+how:    NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Collignon, Vincent | Naoned Systèmes || vcollignon@naoned-systemes.fr | +33 02 40 78 64 21
+!contact: Froissart, Eric ||| eric.froissart@doubs.fr |
+
+naa:
+who:	Archives départementales du Territoire de Belfort (=) ADBELFORT
+what:   12997
+when:	2010.08.23
+where:	http://www.archives.cg90.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Tamborini, Jean-Christophe ||| jean-christophe.tamborini@cg90.fr |
+
+naa:
+who:	Archives de la ville de Pontivy (=) ADPONTIVY
+what:   87553
+when:	2010.08.23
+where:	http://archives.pontivy.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: XXX Ouvrard, Gaëll e||| gaelle.ouvrard@ville-pontivy.fr |
+
+naa:
+who:	Rockefeller Archive Center (=) RAC
+what:   74557
+when:	2010.08.31
+where:	http://www.rockarch.org
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Hudspeth, Marisa ||| mhudspeth@rockarch.org | +1 914-366-6324
+
+naa:
+who:	les archives nationales d'outre-mer (=) National Overseas Archives (=) ANOM
+what:   61561
+when:	2010.09.23
+where:	http://anom.archivesnationales.culture.gouv.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: XXX Brochier, André ||| andre.brochier@culture.gouv.fr |
+
+naa:
+who:	Ville de Besançon (=) VB
+what:   48565
+when:	2010.09.28
+where:	http://www.besancon.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Baverel, Jean-Marie ||| jean-marie.baverel@besancon.fr | +33 03.81.61.59.61
+
+naa:
+who:	Conseil Général de la Martinique (=) General Counsel of Martinique (=) CG972
+what:   35569
+when:	2010.10.22
+where:	http://www.cg972.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Vaudran, Freddy ||| vaudranfreddy@cg972.fr |
+
+naa:
+who:	ITHAKA (=) ITHAKA
+what:   22573
+when:	2010.11.18
+where:	http://www.ithaka.org
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
+
+naa:
+who:	Archives départementales de l'Allier (=) ADA
+what:   84133
+when:	2010.11.22
+where:	http://archives.allier.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Borello, Sébastien ||| borello.s@cg03.fr | +33 0470357253
+
+naa:
+who:	Archives départementales de la Côte-d'Or (=) ADCO
+what:   71137
+when:	2010.11.25
+where:	http://www.archives.cotedor.fr
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Devarrewaere, Anthony ||| Anthony.DEVARREWAERE@cg21.fr |
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	�sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+what:   58141
+when:	2010.12.03
+where:	http://www.onb.ac.at
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Kaiser, Max ||| max.kaiser@onb.ac.at |
+
+naa:
+who:	New York Public Library (=) NYPL
+what:   45145
+when:	2010.12.18
+where:	http://www.nypl.org
+how:	NP | (:unkn) unknown | 2010 |
+!why:	ARK
+!contact: Dalton, Joseph ||| jdalton@nypl.org | +1 212-592-7053
+
+naa:
+who:	Purdue University (=) PU
+what:   34231
+when:	2011.01.24
+where:	http://www.purdue.edu
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Bracke, Paul | Purdue University Libraries || pbracke@purdue.edu | +1 765-496-3606
+#! 34231 derived from DOI prefix 10.4231
+
+naa:
+who:	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
+what:   19153
+when:	2011.02.12
+where:	http://www.cndp.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Chauvin, Clotilde | CRDP d'Aix-Marseille || clotilde.chauvin@crdp-aix-marseille.fr | +33 04 91 14 13 90
+
+naa:
+who:	Biblioteca Nacional de Portugal (=) National Library of Portugal (=) BNP
+what:   80713
+when:	2011.02.12
+where:	http://www.bnportugal.pt
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Cordeiro, Inês ||| icordeiro@bnportugal.pt | +351 217982 021/022
+
+naa:
+who:	Ministère de la culture et de la communication (=) French Ministry of Culture and Communication (=) MCC
+what:   67717
+when:	2011.03.14
+where:	http://collections.culture.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Biscop, Jean-Luc ||| jean-luc.biscop@culture.gouv.fr | +33 0140158326
+
+naa:
+who:	Institut national d'histoire de l'art (=) French National Institute for the History of Art (=) INHA
+what:   54721
+when:	2011.03.31
+where:	http://www.inha.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Weber, Anne ||| anne.weber@inha.fr | +33 01 47 03 84 18
+!contact: Foudyl | Dirigeant d'Amanager.net || foudyl@amanager.net | +33 5 24 07 74 36
+
+naa:
+who:	Research Center for Islamic History, Art and Culture (=) IRCICA
+what:   41725
+when:	2011.04.22
+where:	http://www.ircica.org
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Topaloglu, Abdullah | IRCICA Library || abdullahtopaloglu@ircica.org |
+
+naa:
+who:	Archives départementales du Rhône (=) ADR
+what:   28729
+when:	2011.05.08
+where:	http://www.rhone.fr/education_culture_loisirs/mediatheque_archives/archives_departementales
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Van Reeth, Benoît ||| benoit.van-reeth@rhone.fr | +33 4 78 28 05 73
+!contact: XXX Olivier, Laetitia ||| Laetitia.OLIVIER@rhone.fr |
+!contact: Torres, Michele ||| michele.torres@rhone.fr |
+
+naa:
+who:	Archives départementales du Cantal (=) ADC
+what:   16075
+when:	2011.05.27
+where:	http://archives.cantal.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Bouye, Edouard ||| ebouye@CG15.FR |
+
+naa:
+who:	Archives départementales de la Savoie (=) ADS
+what:	77293
+when:	2011.06.07
+where:	http://www.savoie-archives.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Besenval, Anita ||| Anita.Besenval@cg73.fr | +33 04 79 68 34 50
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	Archives départementales du Pas-de-Calais (=) ADPC
+what:	64297
+when:	2011.06.07
+where:	http://www.archivespasdecalais.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Vanbalberghe, Agnès ||| Vanbalberghe.Agnes@cg62.fr | +33 03 21 71 64 39
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	Fundación Centro de Estudios Andaluces (=) Andalusian Studies Centre Foundation (=) FCEA
+what:	51301
+when:	2011.06.20
+where:	http://www.centrodeestudiosandaluces.es
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: García, Daniel Montes ||| fdaniel.montes@CENTRODEESTUDIOSANDALUCES.ES | 955 055 241
+
+naa:
+who:	University of California Santa Cruz (=) UCSC
+what:	38305
+when:	2011.06.24
+where:	http://www.ucsc.edu
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Perry, Sue | UCSC Library || chesley@ucsc.edu | +1 831-459-5590
+
+naa:
+who:	Archives départementales de la Gironde (=) ADGIRONDE
+what:	25651
+when:	2011.08.18
+where:	http://gael.gironde.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Roman, Pascal ||| p.romain@cg33.fr | +33 (0)5 56 99 33 33
+
+naa:
+who:	ACCOLAD Franche-Comté (=) ACCOLAD
+what:	12655
+when:	2011.09.13
+where:	http://www.livre-franchecomte.com
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Fontaines, Chantal ||| Chantal.fontaines@livre-franchecomte.com | +33 (0)3 84 26 99 51
+
+naa:
+who:	Archives départementales de la Marne (=) ADMARNE
+what:	86869
+when:	2011.09.26
+where:	http://www.marne.fr/index.php/public/Les-Liens-Du-Conseil-General/Les-Archives-Departementales
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Restif, Manonmani ||| restifm@cg51.fr | +33 (0)3 26 85 17 58 
+
+naa:
+who:	National Center for Ecological Analysis and Synthesis (=) NCEAS
+what:	85063
+when:	2011.12.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2011 |
+!why:	EZID ARK
+!contact: EZID userid sb-nceas
+
+naa:
+who:	Consortium on Qualitative Research Methods (=) CQRM
+what:	85064
+when:	2011.12.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2011 |
+!why:	EZID ARK
+!contact: EZID userid qdr_cqrm
+
+naa:
+who:	National Center for Atmospheric Research (=) NCAR
+what:	85065
+when:	2011.12.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2011 |
+!why:	EZID ARK
+!contact: EZID userid ncar
+
+naa:
+who:	United States Geological Survey (=) USGS
+what:	85066
+when:	2011.12.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2011 |
+!why:	EZID ARK
+!contact: EZID userid usgs
+
+naa:
+who:	Oak Ridge National Laboratory (=) ORNL
+what:	83334
+when:	2011.12.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2011 |
+!why:	EZID ARK
+!contact: EZID userid ornldaac
+
+naa:
+who:	Ville de Paris (=) VP
+what:	73873
+when:	2011.12.13
+where:	http://www.paris.fr
+how:	NP | (:unkn) unknown | 2011 |
+!why:	ARK
+!contact: Runfola, Sylviane ||| Sylviane.Runfola@paris.fr | +33 (0)1.49.29.36.22
+
+naa:
+who:	Archives départementales de la Nièvre (=) ADNIEVRE
+what:	60877
+when:	2012.01.02
+where:	http://www.cg58.fr/services-au-public/archives-departementales
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Roche, Thomas ||| thomas.roche@CG58.FR | +33 (0)3.86.60.68.30
+
+naa:
+who:	Inoc Aquitania (=) INOC
+what:	32149
+when:	2012.01.02
+where:	http://www.sondaqui.com
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Coquelin, Sophie ||| s.coquelin@IN-OC.ORG | +33 (0)5.59.13.06.40
+
+naa:
+who:	Indiana University (=) IU
+what:	85967
+when:	2012.01.04
+where:	http://www.indiana.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid xxx
+
+naa:
+who:	NASA Goddard Space Flight Center (=) NASAGSFC
+what:	85067
+when:	2012.01.24
+where:	http://www.nasa.gov/goddard
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid eosdis
+
+naa:
+who:	SDSC OpenTopography Facility (=) SDSCOTF
+what:	85069
+when:	2012.02.07
+where:	http://www.opentopography.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucsd_opentopo
+
+naa:
+who:	Digital Antiquity (=) DIGANT
+what:	86067
+when:	2012.02.21
+where:	http://www.digitalantiquity.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid tdar
+
+naa:
+who:	Data-Planet (=) DATAPLANET
+what:	86068
+when:	2012.02.21
+where:	http://www.conquestsystems.com
+how:	FP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid data-planet
+
+naa:
+who:	LabArchives (=) LABARCH
+what:	86070
+when:	2012.02.29
+where:	http://www.labarchives.com
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid labarchives
+
+naa:
+who:	University of California Merced (=) UCM
+what:	86071
+when:	2012.03.02
+where:	http://ucmercedlibrary.info
+how:	NP | (:unkn) unknown | 2012 |
+!why:   ARK & EZID ARK
+!contact: EZID userid ucmlibrary (Emily Linn)
+
+naa:
+who:	UCSD Signaling Gateway (=) UCSDSG
+what:	86072
+when:	2012.03.05
+where:	http://www.signaling-gateway.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
+
+naa:
+who:	Long-Term Ecological Research Network (=) LTERN
+what:	86073
+when:	2012.03.05
+where:	http://www.lternet.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid lternet (James Brunt)
+
+naa:
+who:	American Astronomical Society (=) AAS
+what:	86074
+when:	2012.03.05
+where:	http://aas.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid aasdata (Chris Biemesderfer)
+
+naa:
+who:	Cornell Institute for Social and Economic Research (=) CISER
+what:	86077
+when:	2012.03.05
+where:	http://ciser.cornell.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid ciser
+
+naa:
+who:	Fred Hutchinson Cancer Research Center (=) FHCRC
+what:	86076
+when:	2012.03.05
+where:	http://www.fhcrc.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid fhcrc
+
+naa:
+who:	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
+what:	86079
+when:	2012.03.12
+where:	http://www.eeb.ucla.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid ucla-eeb1
+
+naa:
+who:	Collaborative Research Computational Neuroscience Program (=) CRCNSP
+what:	86080
+when:	2012.03.12
+where:	http://crcns.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid crcns.org
+
+naa:
+who:	UCSD Biosciences Division (=) UCSDBD
+what:	86081 
+when:	2012.03.28
+where:	http://biology.ucsd.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid ucsd_jnieh
+
+naa:
+who:	Oregon Health and Science University (=) OHSU
+what:	86083 
+when:	2012.04.03
+where:	http://www.ohsu.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid ohsu_libr
+
+naa:
+who:	University of Prince Edward Island (=) UPEI
+what:	10987
+when:	2012.04.05
+where:	http://www.upei.ca
+how:	NP | (:unkn) unknown | 2012 |
+!why:   ARK
+!contact: Moses, Donald | Robertson Library || dmoses@upei.ca |
+
+naa:
+who:	Université Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
+what:	47881
+when:	2012.04.13
+where:	http://www.univ-lyon1.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:   ARK
+!contact: Barthet, Emilie | University Library || emilie.barthet@univ-lyon1.fr | +33 472445835
+!contact: EZID userid bulyon1
+
+naa:
+who:	Archives départementales des Landes (=) Landes Departmental Archives (=) ADLANDES
+what:	35227
+when:	2012.04.24
+where:	http://www.archives.landes.org
+how:	NP | NR, OP | 2012 |
+!why:   ARK
+!contact: Cardoso, Patrick ||| Patrick.CARDOSO@CG40.FR | +33 (0)5.58.05.40.40 / 8033
+
+naa:
+who:	Digital Science (=) DIGSCI
+what:	86084
+when:	2012.05.17
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:   EZID ARK
+!contact: EZID userid figshare
+
+naa:
+who:	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
+what:	86085
+when:	2012.05.22
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid sb-pisco
+
+naa:
+who:	Archives départementales de l'Ain (=) ADAIN
+what:	22231
+when:	2012.05.26
+where:	http://www.archives-numerisees.ain.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Vesson, Valéry ||| valery.vesson@cg01.fr
+!contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:	University of California Riverside (=) UCRIVERSIDE
+what:	86086
+when:	2012.05.26
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucrlibrary
+
+naa:
+who:	University of Oregon (=) UOREGON
+what:	87264
+when:	2012.05.26
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid uoregon
+
+naa:
+who:	National Snow and Ice Data Center (=) NSIDC
+what:	87265
+when:	2012.05.30
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid nsidc
+
+naa:
+who:	Harte Research Institue (=) HRI
+what:	87266
+when:	2012.06.08
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid griidc
+
+naa:
+who:	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
+what:	83449
+when:	2012.06.17
+where:	http://www.fundp.ac.be/universite
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
+
+naa:
+who:	Oregon State University (=) OSU
+what:	87267
+when:	2012.06.21
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid oregonstate
+
+naa:
+who:	Bourns College of Engineering (=) BCOE
+what:	87268
+when:	2012.06.27
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucr-­
+
+naa:
+who:	Federation of Earth Science Information Partners (=) ESIPFED
+what:	87269
+when:	2012.06.27
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid esipcommon
+
+naa:
+who:	California Coastal Atlas (=) UCSDCCA
+what:	84246
+when:	2012.06.27
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucsd_hellyj
+
+naa:
+who:	Massage Therapy Association of British Columbia (=) MTABC
+what:	70453
+when:	2012.06.27
+where:	http://massagetherapy.bc.ca
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Menard, Martha | Georgetown University CAM Program || mbmenard@gmail.com | 604.565.5669
+
+naa:
+who:	ONEShare Data Service (=) ONESHARE
+what:	90135
+when:	2012.07.02
+where:	http://n2t.net
+how:	NP | NR, OP | 2012 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu
+#! 90135 = 0135=ONES(hare)
+
+naa:
+who:	Skaggs School of Pharmacy (=) UCSDSSPPS
+what:	87270
+when:	2012.07.02
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucsd_ mgilson
+
+naa:
+who:	UCSF Clinical and Translational Science Institute (=) UCSFCTSI
+what:	87272
+when:	2012.07.10
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid datashare
+
+naa:
+who:	Archives départementales du Loir-et-Cher (=) ADLC
+what:	57457
+when:	2012.07.11
+where:	http://www.culture41.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Demory, Cédric ||| cedric.demory@cg41.fr |
+!contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:	Archives départementales de l'Oise (=) ADO
+what:	44803
+when:	2012.07.11
+where:	http://www.archives.oise.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Weber, Vincent ||| archives@oise.fr |
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	Washington State University (=) WSU
+what:	87273
+when:	2012.07.20
+where:	http://wsu.edu
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid washstate
+
+naa:
+who:	University of Notre Dame (=) UND
+what:	87274
+when:	2012.07.20
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid notredame
+
+naa:
+who:	University of Massachusetts Amherst (=) UMA
+what:	87275
+when:	2012.07.24
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid umamherst
+
+naa:
+who:	Center for Studies in Demography and Ecology (=) CSDE     
+what:	87276
+when:	2012.08.07
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid uw_csde
+
+naa:
+who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
+what:	87277
+when:	2012.08.11
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid iucns
+
+naa:
+who:	University of Utah (=) UUTAH
+what:	87278
+when:	2012.08.16
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid uofutah
+
+naa:
+who:	Ocean Observatory Initiative (=) OOI
+what:	87279
+when:	2012.08.16
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucsd_ooi
+
+naa:
+who:	Open Cloud Consortium (=) OCC
+what:	31807
+when:	2012.08.22
+where:	http://opencloudconsortium.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Wells, Walt ||| walt@opencloudconsortium.org |
+
+naa:
+who:	University of California Irvine (=) UCIRVINE
+what:	87280
+when:	2012.09.10
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid uci
+
+naa:
+who:	Johns Hopkins University (=) JHU
+what:	87281
+when:	2012.09.13
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid jhudms
+
+naa:
+who:	Archives municipales de LYON (=) AMLYON
+what:	18811
+when:	2012.09.17
+where:	http://www.archives-lyon.fr/archives
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Tacail, Brigitte ||| brigitte.tacail@mairie-lyon.fr | +33 04 78 92 32 54
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	UNAVCO (=) UNAVCO
+what:	87283
+when:	2012.09.21
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid unavco
+
+naa:
+who:	Archives départementales de la Haute-Savoie (=) ADHS
+what:	67033
+when:	2012.09.29
+where:	http://archives.cg74.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Rey, Bertrand ||| Bertrand.REY@cg74.fr | +33 04 50 66 84 20
+
+naa:
+who:	Rolling Deck to Repository Program (=) R2R
+what:	87284
+when:	2012.10.04
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid rvdata_us
+
+naa:
+who:	Center for Multiscale Modeling of Atmospheric Processes (=) CMMAP
+what:	87285
+when:	2012.11.10
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid ucsd_cmmap
+
+naa:
+who:	University of Alberta (=) UALBERTA
+what:	54379
+when:	2012.11.15
+where:	http://www.ualberta.ca
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Binkley, Peter | Information Technology Services || peter.binkley@ualberta.ca | 780-492-3743
+
+naa:
+who:	Archives départementales du Cher (=) ADCHER
+what:	41383
+when:	2012.11.28
+where:	http://www.archives18.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Laurent, Xavier ||| xavier.laurent@cg18.fr | +33 (0)2 48 55 82 60
+
+naa:
+who:	Peerj (=) PEERJ
+what:	87287
+when:	2012.12.06
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2012 |
+!why:	EZID ARK
+!contact: EZID userid peerj
+
+naa:
+who:	Archives départementales de la Vienne (=) ADV
+what:	28387
+when:	2012.12.11
+where:	http://www.archives-vienne.cg86.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Brémond, Pierre ||| PBremond@cg86.fr |
+
+naa:
+who:	Archives municipales de Saint-Denis (=) AMSTDENIS
+what:	15391
+when:	2012.12.13
+where:	http://archives.ville-saint-denis.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
+!contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:	Maison de l'Orient et la Méditerranée (=) MOM
+what:	76609
+when:	2012.12.19
+where:	http://www.mom.fr
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: Morandiere, Bruno ||| bruno.morandiere@mom.fr |
+
+naa:
+who:	US National Oceanic and Atmospheric Administration (=) USNOAA
+what:	87289
+when:	2013.01.18
+where:	http://www.noaa.gov
+how:	NP | (:unkn) unknown | 2013 |
+!why:	EZID ARK
+!contact: EZID userid noaa-edm
+
+naa:
+who:	University of Tennessee (=) UTK
+what:	87290
+when:	2013.01.18
+where:	http://lib.utk.edu
+how:	NP | (:unkn) unknown | 2013 |
+!why:	EZID ARK
+!contact: EZID userid tkn
+
+naa:
+who:	Institut de recherche et d'histoire des textes (=) CNRSIRHT
+what:	63955
+when:	2013.01.29
+where:	http://bvmm.irht.cnrs.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
+
+naa:
+who:	Digital Commonwealth (=) DIGCMNW
+what:	50959
+when:	2013.02.05
+where:	http://digitalcommonwealth.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
+
+naa:
+who:    BenchFly (=) BENCHFLY
+what:   87293
+when:   2013.02.11
+where:  http://www.benchfly.com
+how:    NP | (:unkn) unknown | 2013 |
+#!contact: eziduser benchfly
+
+naa:
+who:    University Libraries, Virginia Tech (=) VTLIB
+what:   87294
+when:   2013.02.11
+where:  http://www.lib.vt.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid vtlib
+
+naa:
+who:	Archives départementales de la Mayenne (=) ADMAYENNE
+what:	37963
+when:	2013.02.15
+where:	http://www.lamayenne.fr/fr/Archives53
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	Archives départementales de la Lozère (=) ADLOZERE
+what:	24967
+when:	2013.02.20
+where:	http://archives.lozere.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Motte, Alice ||| amotte@cg48.fr |
+!contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:	Archives départementales de l'Aveyron (=) ADAVEYRON
+what:	11971
+when:	2013.02.26
+where:	http://archives.aveyron.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Olive, Béatrice || beatrice.olive@cg12.fr |
+!contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:	Archives départementales du Var (=) ADVAR
+what:	73531
+when:	2013.02.28
+where:	http://www.archives.var.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Jegouzo, Benoît ||| bjegouzo@cg83.fr | +33 04.98.10.22.77
+
+naa:
+who:    Center for Research in Biological Systems (=) CRBS
+what:   87295
+when:   2013.03.04
+where:	http://crbs.ucsd.edu
+how:	NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_crbs
+
+naa:
+who:    Edom Lowlands Regional Archaeology Project (=) ELRAP
+what:   87296
+when:   2013.03.07
+where:	http://anthro.ucsd.edu/~tlevy
+how:	NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_elrap
+
+naa:
+who:    UC Berkeley Department of Linguistics (=) UCBLING
+what:   87297
+when:   2013.03.07
+where:	http://linguistics.berkeley.edu
+how:	NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucb-ling
+
+naa:
+who:	Archives départementales de Saône-et-Loire (=) ADSL
+what:	60535
+when:	2013.03.07
+where:	http://www.archives71.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Simonet, Luc ||| l.simonet@cg71.fr | +33 03 85 39 75 68
+
+naa:
+who:	Archives départementales de la Haute-Loire (=) ADHL
+what:	47539
+when:	2013.03.08
+where:	http://www.archives43.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Rahon, Antoine ||| antoine.rahon@cg43.fr | +33 04.71.02.52.09
+
+naa:
+who:    Cornell University Library (=) CUL
+what:   87298
+when:   2013.03.11
+where:  http://www.library.cornell.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid cornellib
+
+naa:
+who:	Boston Public Library (=) BPL
+what:	34543
+when:	2013.03.14
+where:	http://www.bpl.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: English, Eben ||| eenglish@bpl.org | +1 617-859-2238
+
+naa:
+who:	Museum of Vertebrate Zoology (=) UCBMVZ
+what:	87299
+when:	2011.03.20
+where:	http://n2t.net
+how:	NP | NR, OP | 2011 |
+!why:   EZID ARK
+!contact: eziduserid ucb-mvz
+
+naa:
+who:	Biocode Commons (=) BIOCODE
+what:	21547
+when:	2013.03.23
+where:	http://www.biocodecommons.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: eziduserid bcid
+
+naa:
+who:    UCSD School of Medicine, Department of Neurosciences, Mobley Lab (=) ONELAB
+what:   87300
+when:   2013.04.01
+where:  http://onelaboratory.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_onelab
+
+naa:
+who:    Brown University Library (=) BUL
+what:   87301
+when:   2013.04.01
+where:  http://library.brown.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid brownidsvc
+
+naa:
+who:    University of Michigan Libaries (=) UMICH
+what:   87302
+when:   2013.04.01
+where:  http://www.lib.umich.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid umich
+
+naa:
+who:	Hawaii State Archives (=) HSA
+what:	70111
+when:	2013.04.10
+where:	http://digitalarchives.hawaii.gov
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Jansen, Adam ||| adam_jansen@outlook.com |
+
+naa:
+who:    Sage Bionetworks (=) SAGEBIO
+what:   87303
+when:   2013.04.10
+where:  http://sagebase.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid sagebio
+
+naa:
+who:	Archives départementales de la Manche (=) ADMANCHE
+what:	57115
+when:	2013.04.14
+where:	http://archives.manche.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
+
+naa:
+who:    California Institute of Technology (=) CALTECH
+what:   87907
+when:   2013.04.15
+where:	http://library.caltech.edu
+how:	NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid caltech
+
+naa:
+who:    Broad Institute of MIT and Harvard (=) BROAD
+what:   87908
+when:   2013.04.24
+where:  http://www.broadinstitute.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid broad
+
+naa:
+who:    CalTech Seismological Laboratory (=) SEISMOLAB
+what:   87909
+when:   2013.04.29
+where:  http://www.seismolab.caltech.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid caltech_sl
+
+naa:
+who:    Harvard University (=) HARVARD
+what:   87910
+when:   2013.04.30
+where:  http://www.harvard.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid hdataverse
+
+naa:
+who:    OneOcean (=) ONEOCEAN
+what:   87911
+when:   2013.05.03
+where:	http://www.oneoceancorp.com
+how:	NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid OneOcean
+
+naa:
+who:    Indiana University Purdue University Indianapolis (=) IUPUI
+what:   87912
+when:   2013.05.22
+where:  http://ulib.iupui.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid iupui
+
+naa:
+who:	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
+what:	44119
+when:	2013.05.27
+where:	http://www.wallonie.be/fr/guide/guide-services/1150
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
+
+naa:
+who:    UW eScience Institute (=) UWESCIENCE
+what:   87913
+when:   2013.06.05
+where:  http://escience.washington.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid uw_esci
+
+naa:
+who:    Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
+what:   85967
+when:   2013.06.18
+where:  http://escience.washington.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid datacommon
+
+naa:
+who:    International Federation of Digital Seismograph Networks (=) FDSN
+what:   87914
+when:   2013.06.18
+where:  http://www.fdsn.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid fdsn
+
+naa:
+who:	Fondation Maison des Sciences de l'Homme (=) FMSH
+what:	31123
+when:	2013.06.27
+where:	http://www.msh-paris.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Papy, Fabrice ||| fabrice.papy@msh-paris.fr |
+
+naa:
+who:    UW College of the Environment Climate Impacts Group (=) UWCIG
+what:   87915
+when:   2013.06.27
+where:  http://cses.washington.edu/cig
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid uw_cig
+
+naa:
+who:    Columbia University Library/Information Services (=) CUL/IS
+what:   87916
+when:   2013.06.27
+where:  http://library.columbia.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid columbia
+
+naa:
+who:	Archives départementales du Val-d'Oise (=) ADVO
+what:	18127
+when:	2013.07.16
+where:	http://archives.valdoise.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Blanckaert, Odile ||| odile.blanckaert@valdoise.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	San Francisco Symphony (=) SFSYMPH
+what:	79687
+when:	2013.07.28
+where:	http://www.sfsymphony.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Johnson, Patrick ||| pjohnson@sfsymphony.org | +1 425-503-5270
+
+naa:
+who:    NASA Center for Climate Simulation (=) NCCS
+what:   87917
+when:   2013.08.02
+where:  http://www.nccs.nasa.gov
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid nasa_nccs
+
+naa:
+who:	Musée des Augustins (=) MDA
+what:	66691
+when:	2013.08.02
+where:	http://www.augustins.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Molinie, Christelle ||| christelle.molinie@mairie-toulouse.fr |
+
+naa:
+who:	American Numismatic Society (=) ANS
+what:	53695
+when:	2013.08.22
+where:	http://numismatics.org
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Hill, David ||| hill@numismatics.org | +1 212-571-4470
+
+naa:
+who:    Advanced Graphics Lab (=) AGL
+what:   87919
+when:   2013.08.31
+where:  http://www.ece.ucsb.edu/~psen
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid sb-mirage_agl
+
+naa:
+who:    University of Michigan Biological Station (=) UMBS
+what:   83010
+when:   2013.08.31
+where:  http://umbs.lsa.umich.edu/research
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid umbs
+
+naa:
+who:	Ministère de la Défense, Mémoire des hommes (=) MDMH
+what:	40699
+when:	2013.08.31
+where:	http://www.memoiredeshommes.sga.defense.gouv.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Aufray, Sandrine ||| sandrine.aufray@defense.gouv.fr | +33 01 44 42 11 03
+
+naa:
+who:    Cyberinfrastructure for Atomistic Materials Science (=) CAMS
+what:   87920
+when:   2013.09.09
+where:  http//cams.mse.ufl.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid cams
+
+naa:
+who:    RENCI (Renaissance Computing Institute) (=) RENCI
+what:   87921
+when:   2013.09.09
+where:  www.renci.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid renci
+
+naa:
+who:	US Environmental Protection Agency (=) USEPA
+what:	27703
+when:	2013.09.13
+where:	http://epa.gov
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Perez, Christina ||| perez.cristina@epa.gov | +1 919-541-2793
+
+naa:
+who:	Archives départementales du Morbihan (=) AD56
+what:	15049
+when:	2013.09.19
+where:	http://recherche.archives.morbihan.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Percot, Patrick ||| patrick.percot@cg56.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:    Institute of Transportation Studies, UC Berkeley (=) UCBITS
+what:   87922
+when:   2013.09.30
+where:  http://its.berkeley.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucb-its
+
+naa:
+who:    Northwest Knowledge Network, University of Idaho (=) NKN
+what:   87923
+when:   2013.10.02
+where:  www.northwestknowledge.net
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid uidaho
+
+naa:
+who:    Network for Earthquake Engineering Simulation (=) NEES
+what:   83011
+when:   2013.10.07
+where:  http://nees.org
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid nees
+
+naa:
+who:	Lafayette College Libraries (=) LCL
+what:	76267
+when:	2013.10.09
+where:	http://www.lafayette.edu
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Griffin, James ||| griffinj@lafayette.edu | +1 610-330-5160
+
+naa:
+who:    Duke University (=) DUL
+what:   87924
+when:   2013.10.14
+where:  http://library.duke.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid duke_lib
+
+naa:
+who:	Archives départementales de l'Aisne (=) AD02
+what:	63271
+when:	2013.10.14
+where:	http://archives.aisne.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Bertanier, Florence ||| fbertanier@cg02.fr |
+
+naa:
+who:    University College Dublin (=) UCDIRL
+what:   87925
+when:   2013.10.18
+where:  http://www.ucd.ie/library
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucd_irl
+
+naa:
+who:    Middlebury College (=) MDY
+what:   87926
+when:   2013.10.28
+where:  http://www.middlebury.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid middlebury
+
+naa:
+who:    Center for International Earth Science Information Network (=) CIESIN
+what:   87927
+when:   2013.10.28
+where:  http://ciesin.columbia.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid cu-ciesin
+
+naa:
+who:	Archives départementales des Vosges (=) AD88
+what:	50275
+when:	2013.10.30
+where:	http://www.vosges-archives.com
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Rembert, Sébastien ||| srembert@cg88.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:    Berkeley Research IT (=) UCBRIT
+what:   87928
+when:   2013.11.05
+where:  N/A
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid ucb-ist-rit
+
+naa:
+who:    Irish Social Science Data Archive (=) ISSDA
+what:   87929
+when:   2013.11.05
+where:  http://www.issda.ie
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid issda
+
+naa:
+who:    US Global Change Research Program/UCAR (=) USGCRP
+what:   87930
+when:   2013.11.08
+where:  http://globalchange.gov
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid usgcrp
+
+naa:
+who:	Archives départementales de l'Hérault (=) AD3
+what:	37279
+when:	2013.11.08
+where:	http://archives-pierresvives.herault.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Déhondt, Céline ||| edéhondt@cg34.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Archives municipales d'Orléans (=) AMORLEAN
+what:	24625
+when:	2013.11.08
+where:	http://archives.orleans.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
+
+naa:
+who:	Universidad Nacional de Costa Rica (=) UNCR
+what:	11629
+when:	2013.11.08
+where:	http://una.ac.cr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Venegas, Luis Ocampo | IT Department, Web Project Team || luis.ocampo.venegas@una.cr |
+
+naa:
+who:    Landcare Research New Zealand Ltd (=) LCRNZ
+what:   87931
+when:   2013.11.20
+where:  www.LandcareResearch.co.nz
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid landcarenz
+
+naa:
+who:	Archives départementales du Puy-de-Dôme (=) AD63
+what:	72847
+when:	2013.11.21
+where:	http://www.archivesdepartementales.puydedome.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Perronnet, Christelle ||| christelle.perronnet@cg63.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Fundación Biblioteca Virtual Miguel de Cervantes (=) FBVMC
+what:	59851
+when:	2013.11.21
+where:	http://www.cervantesvirtual.com
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Romero, Gustavo Candela ||| desarrollo@cervantesvirtual.com |
+
+naa:
+who:	Languedoc-Roussillon Council (=) LAREGION
+what:	46855
+when:	2013.12.04
+where:	http://www.laregion-culture.fr
+how:	NP | (:unkn) unknown | 2013 |
+!why:	ARK
+!contact: Demé, Agnès ||| Deme.Agnes@cr-languedocroussillon.fr | +33 04 67 22 94 47
+
+naa:
+who:    University of Illinois Libraries (=) UIUCLIB
+what:   83012
+when:   2013.12.16
+where:  http://www.library.illinois.edu
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid uiuc_lib
+
+naa:
+who:    Intrepid Bioinformatics (=) INTBIO
+what:   83013
+when:   2013.12.17
+where:  http://www.intrepidbio.com
+how:    NP | (:unkn) unknown | 2013 |
+!why:   EZID ARK
+!contact: eziduserid kalbflei
+
+naa:
+who:	Bibliothèque publique d'information (=) Public Information Library (=) BPI
+what:	34201
+when:	2014.01.03
+where:	http://www.bpi.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Lemaire, Sylvie ||| sylvie.lemaire@bpi.fr | +33 1 44 78 44 79
+
+naa:
+who:	Archives municipales de Porto Vecchio (=) AMPV
+what:	21205
+when:	2014.01.14
+where:	http://archives.porto-vecchio.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Goncalves, Bertrand ||| bertrand.goncalves@porto-vecchio.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Complex Systems Digital Campus (=) UNITWIN
+what:	69427
+when:	2014.01.15
+where:	http://unitwin-cs.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Parrend, Pierre | ECAM Strasbourg-Europe || pierre.parrend@ecam-strasbourg.eu | +33 (0) 3 90 40 09 63
+
+naa:
+who:	Archives départementales de l'Yonne (=) AD89
+what:	56431
+when:	2014.01.17
+where:	http://archivesenligne.yonne-archives.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Brau, Pierre-Frédéric ||| pfbrau@cg89.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Otolaryngology Online Journal (=) JORL
+what:	43777
+when:	2014.01.30
+where:	http://www.jorl.net
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Thiagarajan, Balasubramanian ||| otolaryngologyonline@GMAIL.COM |
+
+naa:
+who:	Archives de Saint-Etienne (=) AMSE
+what:	79003
+when:	2014.02.08
+where:	http://www.archives.saint-etienne.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Fournel, Matthieu ||| matthieu.fournel@saint-etienne.fr | +33 04.77.34.40.41
+
+naa:
+who:    Berkeley Seismological Laboratory (=) BSL
+what:   87932
+when:   2014.02.13
+where:  http://seismo.berkeley.edu
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucb-bsl
+
+naa:
+who:    Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
+what:   87933
+when:   2014.02.13
+where:  http://ecotope.org
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid globe
+
+naa:
+who:	Archives départementales d'Eure-et-Loir (=) AD28
+what:	66007
+when:	2014.02.14
+where:	http://www.archives28.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Lucas, Marie-Laure ||| marie-laure.lucas@cg28.fr | +33 02 37 88 82 46
+!contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+
+naa:
+who:	Archives du Musée Picasso (=) AMPICASSO
+what:	53353
+when:	2014.02.17
+where:	http://archives.museepicassoparis.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Annoepel-Cabrignac, Sophie ||| sophie.annoepel-cabrignac@museepicassoparis.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Archives départementales de Tarn-et-Garonne (=) AD82
+what:	40357
+when:	2014.02.20
+where:	http://www.archivesdepartementales.cg82.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Lagarrigue, Aymone ||| aymone.lagarrigue@cg82.fr |
+
+naa:
+who:	James Madison University (=) JMU
+what:	27361
+when:	2014.02.20
+where:	http://www.jmu.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Holloway, Steven | JMU Libraries || hollowsw@jmu.edu |
+
+naa:
+who:    University of Nebraska-Lincoln Libraries (=) UNL
+what:   83014
+when:   2014.02.27
+where:  http://libraries.unl.edu
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid cors
+
+naa:
+who:	Colectica - Statistical Data Management (=) COLECTICA
+what:	14365
+when:	2014.03.11
+where:	http://www.colectica.com
+how:	FP | NR, OP | 2014 |
+!why:	ARK
+!contact: Smith, Dan ||| dan@colectica.com |
+
+naa:
+who:    MorphoBank (=) MORPHOBA
+what:   87934
+when:   2014.03.13
+where:  http://www.morphobank.org
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid morphobank
+
+naa:
+who:    LIGO Open Science Center (=) LIGO
+what:   87935
+when:   2014.03.13
+where:  https://losc.ligo.org
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ligo
+
+naa:
+who:	Archives départementales des Ardennes (=) ADARDENN
+what:	75583
+when:	2014.03.17
+where:	http://archives.cg08.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: ROUCHY-LEVY, Violette ||| violette.rouchy-levy@cg08.fr |
+!contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+
+naa:
+who:    Washington University in St. Louis (=) WUSTL
+what:   87936
+when:   2014.03.18
+where:  http://www.wustl.edu
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid doiwustl
+
+naa:
+who:	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
+what:	62929
+when:	2014.03.21
+where:	http://www.in2p3.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
+
+naa:
+who:    The Cancer Imaging Archive (=) TCIA
+what:   87937
+when:   2014.03.21
+where:  https://www.cancerimagingarchive.net
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid tcia-ezid
+
+naa:
+who:	Archives départementales de l'Ille-et-Vilaine (=) AD35
+what:	49933
+when:	2014.03.21
+where:	http://archives.ille-et-vilaine.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Claudel, Céline ||| celine.claudel@cg35.fr |
+!contact: Aubrée, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
+
+naa:
+who:	Archives départementales des Yvelines (=) ADYVEL
+what:	36937
+when:	2014.03.25
+where:	http://archives.yvelines.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: �on, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
+
+naa:
+who:    Statistics (ResearchCompendia.org) (=) STATSRC
+what:   87938
+when:   2014.04.03
+where:  http://researchcompendia.org
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid cu-rescom
+
+naa:
+who:    UCSB Writing Program (=) WRITPRO
+what:   87940
+when:   2014.04.16
+where:  http://www.writing.ucsb.edu
+how:    NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid sb-writ
+
+naa:
+who:	University of Southern California (=) USC
+what:	23941
+when:	2014.04.23
+where:	http://www.usc.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Gomez, Joshua | USC Libaries || gomezjn@usc.edu |
+
+naa:
+who:	AsWeGrow (=) ASWEGROW
+what:	10945
+when:	2014.05.05
+where:	http://teachpitch.com
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: de Pape, Aldo ||| aldo.depape@aswegrow.org | +44 780 951 1065
+
+naa:
+who:	Université Lille 3 (=) University of Lille 3 (=) UL3
+what:	72505
+when:	2014.05.06
+where:	http://www.univ-lille3.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Berthier, Sandrine | Library || sandrine.berthier@univ-lille3.fr | +33-3-20-41-70-34
+
+naa:
+who:	PharmaTutor (=) PTUTOR
+what:	59509
+when:	2014.05.09
+where:	http://magazine.pharmatutor.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Vagh, Rajesh ||| raj190888@gmail.com |
+
+naa:
+who:    Lawrence Berkeley National Laboratory (=) LBNL
+what:   87941
+when:   2014.05.10
+where:	https://commons.lbl.gov/display/rst/Library
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid lbnl-lib
+
+naa:
+who:	Sciences Po (=) Paris Institute of Political Studies (=) SCPO
+what:	46513
+when:	2014.05.21
+where:	http://catalogue.sciences-po.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Rault, Julien | Sciences Po Library || julien.rault@sciencespo.fr | +33-1-45-49-51-85
+
+naa:
+who:    CLIVAR and Carbon Hydrographic Data Office (=) CCHDO
+what:   87942
+when:   2014.05.21
+where:	http://cchdo.ucsd.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_cchdo
+
+naa:
+who:    LBNL OpenMSI (=) LBNLOMSI
+what:   87943
+when:   2014.06.12
+where:	https://openmsi.nersc.gov/openmsi/client
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid lbnl-openmsi
+
+naa:
+who:    U.S. Fish and Wildlife Service (=) USFWS
+what:   87944
+when:   2014.06.12
+where:	http://www.fws.giv/southwest
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid USFWS-SW
+
+naa:
+who:	Grains Research and Development Corporation (=) GRDC
+what:	33517
+when:	2014.06.13
+where:	http://www.grdc.com.au
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Bounds, Stephen | knowquestion Pty Ltd || sb@knowquestion.com.au | 0401 829 096
+
+naa:
+who:	Cité des Sciences et de l'industrie (=) CSI
+what:	20521
+when:	2014.06.13
+where:	http://www.cite-sciences.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Contassot-Crublet, Barbara | Bibliothèque / Service Technologie de l'Information || barbara.contassot@universcience.fr | +33 01.40.05.71.49
+
+naa:
+who:    University of Maryland Libraries (=) UMD
+what:   87945
+when:   2014.06.13
+where:	http://www.lib.umd.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid umd
+
+naa:
+who:	Assemblée Nationale (=) National Assembly of France (=) ANF
+what:	69085
+when:	2014.06.17
+where:	http://www.assemblee-nationale.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Saudrais, Hélène ||| hsaudrais@assemblee-nationale.fr
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:    University of Cincinnati Libraries (=) CIN
+what:   87945
+when:   2014.06.25
+where:	libraries.uc.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucinlibs
+
+naa:
+who:	Cité Numérique de la Méditerranée (=) Digital City of the Mediterranean (=) CNM
+what:	56089
+when:	2014.07.03
+where:	http://www.mmsh.univ-aix.fr/Pages/default.aspx
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Moukhlisse, Hassan ||| moukhlisse@gmail.com |
+
+naa:
+who:    iPlant Collaborative (=) IPLANT
+what:   87946
+when:   2014.07.08
+where:	http://www.iplantcollaborative.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid iplant
+
+naa:
+who:    Carnegie Mellon University Libraries (=) CMU
+what:   81184
+when:   2014.07.11
+where:	http://search.library.cmu.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid cmu-ezid
+
+naa:
+who:    NOAA Global Monitoring Division (=) NOAA-GMD
+what:   85138
+when:   2014.07.18
+where:	www.esrl.noaa.gov/gmd
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid noaa-gmd
+
+naa:
+who:    Odum Institute for Research in Social Science (=) ODUMUNC
+what:   85139
+when:   2014.07.23
+where:	http://www.odum.unc.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid odumunc
+
+naa:
+who:    University of California Davis (=) UCDAVIS
+what:   85140
+when:   2014.07.23
+where:	lib.ucdavis.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucdavis-lib
+
+naa:
+who:    UC Davis, Social Science Data Service (=) UCDSSDS
+what:   85141
+when:   2014.07.23
+where:	www.ssds.ucdavis.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid davis-ssds
+
+naa:
+who:    Utah State University (=) USU
+what:   85142
+when:   2014.07.23
+where:	library.usu.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid usulibrary
+
+naa:
+who:	Equipex Biblissima (=) EQPXBIB
+what:	43093
+when:	2014.07.24
+where:	http://www.biblissima-condorcet.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Bonicel, Matthieu | BnF || matthieu.bonicel@bnf.fr | +33 (0)1 55 93 75 34
+
+naa:
+who:	Archives municipales d'Armentières (=) AMARMENT
+what:	30097
+when:	2014.07.25
+where:	http://www.ville-armentieres.fr/fr/page/dossier.php?dossier=42
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Bouchez, Valentine ||| valentineleignel@gmail.com | +33 03.61.76.20.95
+
+naa:
+who:	Canadian Writing Research Collaboratory (=) CWRC
+what:	17102
+when:	2014.07.28
+where:	http://cwrc.ca
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Brown, Susan ||| susan.brown@ualberta.ca | 780-492-7803
+
+naa:
+who:    Alliance for Crops, Soils, and Environmental Science Societies (=) ACSESS
+what:   85143
+when:   2014.07.30
+where:	https://dl.sciencesocieties.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid acsess
+
+naa:
+who:	College of American Pathologists (=) CAP
+what:	78661
+when:	2014.08.08
+where:	http://www.cap.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Smith, Tony ||| tsmith@cap.org | +1 847-832-7267
+
+naa:
+who:    Center for Research in Computational Linguistics (=) CRCL
+what:   85144
+when:   2014.08.12
+where:	http://sealang.net
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid crcl
+
+naa:
+who:    National Museum of Natural History, Smithsonian Institution (=) USNMNH
+what:   65665
+when:   2014.08.18
+where:	http://collections.nmnh.si.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid nmnh_rcis
+
+naa:
+who:	Archives départementales de la Meuse (=) ADMEUSE
+what:	52669
+when:	2014.08.19
+where:	http://archives.meuse.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Diwo, Gérard ||| diwo.g@cg55.fr | +3 3 29 79 01 89
+
+naa:
+who:	Archives départementales de l'Ardèche (=) AD07
+what:	39673
+when:	2014.09.11
+where:	http://www.ardeche.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Gargault, Franck ||| fgargault@ardeche.fr | +33 04 75 66 71 23
+
+naa:
+who:	Fédération et Ressources sur l'Antiquité (=) FRANTIQ
+what:	26678
+when:	2014.09.19
+where:	http://www.frantiq.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Rousset, Miled | MOM-CNRS Universit� Lyon2 || miled.rousset@mom.fr | +33-0472715896
+
+naa:
+who:    University of New Mexico Libraries (=) UNMLIB
+what:   85145
+when:   2014.09.24
+where:	library.unm.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid unmlibrary
+
+naa:
+who:    University of Minnesota Libraries (=) UMN
+what:   83017
+when:   2014.10.09
+where:	www.lib.umn.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid minnesota
+
+naa:
+who:    iDASH Repository (=) IDASHREPOSITORY
+what:   85147
+when:   2014.10.13
+where:	http://idash.ucsd.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_idashrepository
+
+naa:
+who:    Globus.org (=) GLOBUS
+what:   83018
+when:   2014.10.13
+where:	www.globus.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid globus
+
+naa:
+who:    MyGeoHub (=) MYGEOHUB
+what:   83019
+when:   2014.10.13
+where:	mygeohub.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid mygeohub
+
+naa:
+who:    Purdue Polytechnic Institute (=) PURPOLY
+what:   83020
+when:   2014.10.14
+where:	https://polytechhub.org
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid purduepoly
+
+naa:
+who:    Data Repository for the University of Minnesota (=) DRUM
+what:   83020
+when:   2014.10.14
+where:	www.lib.umn.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid drum
+
+naa:
+who:	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
+what:	14023
+when:	2014.10.26
+where:	http://www.artciencia.com
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Figueiredo, Alexandre ||| ampfigueiredo@gmail.com | +351 916 115 250
+
+naa:
+who:	Archives municipales de Bordeaux (=) AMBDEAUX
+what:	75241
+when:	2014.10.29
+where:	http://archives.bordeaux.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Robin, Vélleda ||| v.robin@mairie-bordeaux.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Archives municipales de Rueil-Malmaison (=) AMRM
+what:	62245
+when:	2014.10.29
+where:	http://archives.rueilmalmaison.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Markidès, Clémentine ||| clementine.markides@mairie-rueilmalmaison.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:    George Mason University (=) GMU
+what:   83021
+when:   2014.11.04
+where:	www.gmu.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid masonlib
+
+naa:
+who:	Archives municipales de Saint Brieuc (=) AMSB
+what:	49249
+when:	2014.11.04
+where:	http://www.saint-brieuc.fr/Les-archives-municipales.738.0.html
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:	Muséum d'Histoire Naturelle de Toulouse (=) MHNT
+what:	36254
+when:	2014.11.06
+where:	http://www.museum.toulouse.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Molinié, Christelle ||| christelle.molinie@mairie-toulouse.fr |
+
+naa:
+who:    DataMares (=) DATAMARES
+what:   83022
+when:   2014.11.10
+where:	http://datamares.ucsd.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_datamares
+
+naa:
+who:	Archives départementales des Hautes-Alpes (=) ADHALPES
+what:	23599
+when:	2014.11.14
+where:	http://www.archives05.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Chenard, Gaël ||| gael.chenard@cg05.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:	Instituto de Etnomusicologia - Centro de Estudos em Música e Dança, Faculdade de Motricidade Humana (=) Institue of Ethnomusicology - Music and Dance Study Center, Faculty of Human Motricity (=) INETMDFMH
+what:	10603
+when:	2014.12.09
+where:	http://www2.fcsh.unl.pt/inet/indexeng.html
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Coquelin, Sophie ||| bolseira.fmh@gmail.com | +351-964545118
+
+naa:
+who:	Archives départementales de Maine-et-Loire (=) ADML
+what:	71821
+when:	2014.12.14
+where:	http://www.archives49.fr
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Chevalier, Jean ||| jean.chevalier@cg49.fr | +33 2 41 80 80 06
+
+naa:
+who:	Bibliothèque Nationale du Royaume du Maroc (=) National Library of the Kingdom of Morocco (=) BNRM
+what:	45830
+when:	2014.12.19
+where:	http://www.bnrm.ma/bnrm
+how:	NP | (:unkn) unknown | 2014 |
+!why:	ARK
+!contact: Ouzeddoun, Asmaa ||| ouzeddoun.asmaa@yahoo.fr |
+
+naa:
+who:    Dartmouth College Library (=) DARTLIB
+what:   83024
+when:   2014.12.19
+where:	http://library.dartmouth.edu
+how:	NP | (:unkn) unknown | 2014 |
+!why:   EZID ARK
+!contact: eziduserid dartmouthc
+
+naa:
+who:	Archives départementales de Meurthe et Moselle (=) ADMM
+what:	33175
+when:	2015.01.05
+where:	http://archivesenligne.cg54.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Say Barbey, Hélène ||| hsay@cg54.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    National University of Ireland, Galway (=) NUIGAL
+what:   83025
+when:   2015.01.06
+where:	nuigalway.ie
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid nuigalway
+
+naa:
+who:	Bibliothèque numérique de Roubaix (=) BNROUBAIX
+what:	20179
+when:	2015.01.06
+where:	http://www.bn-r.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Pichenot, François ||| fpichenot@ville-roubaix.fr |
+
+naa:
+who:	Archives municipales de Villeurbanne (=) AMVE
+what:	68401
+when:	2015.01.12
+where:	http://lerize.villeurbanne.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: de la Selle, Xavier ||| xavier.delaselle@mairie-villeurbanne.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    MIT Laboratory of Computational Physiology (=) MITLCP
+what:   83026
+when:   2015.01.13
+where:	lcp.mit.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid physionet
+
+naa:
+who:	Archives municipales de Blois (=) AMBLOIS
+what:	55406
+when:	2015.01.14
+where:	http://archives.blois.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: PAVY, Frédéric ||| Frederic.PAVY@blois.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    MBF Bioscience (=) MBFBIO
+what:   83027
+when:   2015.01.27
+where:	http://mbfbioscience.com
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mbf_bioscience
+
+naa:
+who:	Archives départementales des Deux-Sèvres (=) ADDS
+what:	58825
+when:	2015.01.30
+where:	http://archives.deux-sevres.com
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Rault, Philippe ||| Philippe.RAULT@cg79.fr | +33 05 49 08 94 90
+
+naa:
+who:    University of Massachusetts Medical School (=) UMWLSL
+what:   83028
+when:   2015.02.04
+where:	http://library.umassmed.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid umassmed
+
+naa:
+who:    Berkeley Law Library (=) UCBLAWLIB
+what:   85779
+when:   2015.02.07
+where:	http://www.law.berkeley.edu/library.htm
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ucb-lawlib
+
+naa:
+who:	Archives départementales de l'Aube (=) ADAUBE
+what:	42751
+when:	2015.02.09
+where:	http://www.archives-aube.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Salach, Blandine ||| blandine.salach@cg10.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    UCSB Climate Hazards Group, Dept of Geography (=) SBGEOG
+what:   85788
+when:   2015.02.11
+where:	http://chg.geog.ucsb.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid sb-chg
+
+naa:
+who:	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
+what:	29755
+when:	2015.02.13
+where:	http://www.bn-valenciennes.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
+
+naa:
+who:    University of Texas at Austin (=) UTAUSTIN
+what:   85781
+when:   2015.02.17
+where:	www.utexas.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid utaustin
+
+naa:
+who:    Drug Design Data Resource (=) D3R
+what:   85782
+when:   2015.02.18
+where:	drugdesigndata.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_d3r
+
+naa:
+who:    CRAWDAD (=) CRAWDAD
+what:   85783
+when:   2015.02.18
+where:	http://crawdad.cs.dartmouth.edu/index.html
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid dartcrawda
+
+naa:
+who:    Interdisciplinary Earth Data Alliance (=) IEDA
+what:   85784
+when:   2015.02.18
+where:  http://www.ldeo.columbia.edu/research/marine-geology-geophysics/integrated-earth-data-applications
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid cu-ieda
+
+naa:
+who:    Harvard Medical School (=) SBGRID
+what:   85785
+when:   2015.02.18
+where:	http://sbgrid.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid sbgrid
+
+naa:
+who:    University of Wyoming Libraries (=) UWYO
+what:   85786
+when:   2015.02.23
+where:	http://www-lib.uwyo.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid wyu_libs
+
+naa:
+who:    Virginia Tech Transportation Institute (=) VTTI
+what:   85787
+when:   2015.02.26
+where:	www.vtti.vt.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid vtti_ezid
+
+naa:
+who:	Sprint Investify (=) INVESTIFY
+what:	16759
+when:	2015.03.03
+where:	http://www.ExpertJournals.com
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Vinerean, Simona ||| editor@expertjournals.com |
+
+naa:
+who:	Archives départementales de la Haute-Saône (=) AD70
+what:	77977
+when:	2015.03.03
+where:	http://archives.cg70.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Leclerc, Catherine ||| catherine.leclerc@cg70.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Archives départementales des Hautes-Pyrénées (=) ADHP
+what:	64982
+when:	2015.03.04
+where:	http://www.archivesenligne65.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Prigent, Anne-Claire ||| anne-claire.prigent@cg65.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    Montana State University (=) MSU
+what:   85788
+when:   2015.03.04
+where:	www.montana.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mtstate
+
+naa:
+who:	Archives Départementales de la Haute-Vienne (=) ADHV
+what:	52328
+when:	2015.03.10
+where:	http://www.archives-hautevienne.com
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Gerardot, Anne ||| agerardot.archives@cg87.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:	Archives de la Ville et de l'Eurométropole de Strasbourg (=) AVES
+what:	39332
+when:	2015.03.10
+where:	http://archives.strasbourg.eu
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Burckel, Franck ||| franck.burckel@strasbourg.eu |
+!contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
+
+naa:
+who:	Archives départementales de l'Eure (=) AD27
+what:	26335
+when:	2015.03.25
+where:	http://archives.cg27.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Roche, Thomas ||| thomas.roche@cg27.fr | +33 2.32.31.50.84
+
+naa:
+who:	Office International de l'Eau (=) International Office for Water (=) OIEAU
+what:	99160
+when:	2015.03.26
+where:	http://www.oieau.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Marchand, Etienne ||| e.marchand@oieau.fr | +33 5.55.11.47.94
+
+naa:
+who:    Morphosource Project (=) MORPHOSO
+what:   87602
+when:   2015.03.26
+where:	http://morphosource.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid duke_morpho
+
+naa:
+who:	Archives départementales de la Sarthe (=) AD72
+what:	13339
+when:	2015.03.30
+where:	http://www.archives.sarthe.com
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
+!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:    Texas Advanced Computing Center (=) TACC
+what:   87603
+when:   2015.03.30
+where:	http://www.tacc.utexas.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid uta_tacc
+
+naa:
+who:    University of Miami Libraries (=) UMIAMI
+what:   87604
+when:   2015.03.31
+where:	http://libraries.miami.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid umiami
+
+naa:
+who:    Center for Open Science (=) COS
+what:   87605
+when:   2015.03.31
+where:	http://cos.io
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid cos
+
+naa:
+who:    American University Library (=) AUL
+what:   87606
+when:   2015.04.01
+where:	www.american/library.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid aulibrary
+
+naa:
+who:    Chicago Collections Consortium (=) CCC
+what:   87607
+when:   2015.04.01
+where:	chicagocollectionsconsortium.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ccc
+
+naa:
+who:    University of Auckland (=) UOA
+what:   87608
+when:   2015.04.03
+where:	http://www.auckland.ac.nz/en.html
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid uoa
+
+naa:
+who:    UTA Institute of Classical Archaeology (=) ICA
+what:   87610
+when:   2015.04.06
+where:	http://www.utexas.edu/cola/insts/ica
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid uta_ica
+
+naa:
+who:    Incorporated Research Institutions for Seismology (=) IRIS
+what:   87611
+when:   2015.04.06
+where:	http://www.iris.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid iris
+
+naa:
+who:    UTA Petroleum Engineering (=) PGERR
+what:   87612
+when:   2015.04.06
+where:	www.pge.utexas.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid uta_peteng
+
+naa:
+who:	Archives municipales de Laval (=) AMLAVAL
+what:	74558
+when:	2015.04.10
+where:	http://www.mairie-laval.fr/franc/archives/index.php
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Libaud, Gaëtane ||| gaetane.libaud@laval.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Archives départementales de la Charente (=) AD16
+what:	61904
+when:	2015.04.10
+where:	http://www.archives16.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Thomas, Patricia ||| pthomas@cg16.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:	Archives municipales de Béziers (=) AMBEZIERS
+what:	48908
+when:	2015.04.19
+where:	http://www.ville-beziers.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Sanchez, Françoise ||| francoise.sanchez@ville-beziers.fr |
+!contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
+
+naa:
+who:    Modern Language Association (=) MLA
+what:   87613
+when:   2015.04.22
+where:	www.mla.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mla
+
+naa:
+who:    Pitt Quantum Repository (=) PQR
+what:   87614
+when:   2015.04.22
+where:	http://pqr.pitt.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid pittquantum
+
+naa:
+who:    UNC Library - Resource Description and Management (=) LIBUNC
+what:   87615
+when:   2015.04.23
+where:	http://www.lib.unc.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid libunc
+
+naa:
+who:    Registry of Research Repositories (=) RE3DATA
+what:   87616
+when:   2015.04.24
+where:	http://re3data.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid re3data
+
+naa:
+who:	IEEE Publishing Technology (=) IEEE
+what:	35911
+when:	2015.04.24
+where:	http://ieee.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Donoghue, Mark ||| m.donoghue@ieee |
+
+naa:
+who:	The Silent Film Sound & Music Archive (=) SFSMA
+what:	22915
+when:	2015.04.28
+where:	http://www.sfsma.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Leonard, Kendra ||| kendraprestonleonard@gmail.com |
+
+naa:
+who:	Espace Mendès France (=) EMF
+what:	71480
+when:	2015.04.30
+where:	http://emf.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Pasquier, Thierry ||| thierry.pasquier@emf.ccsti.eu | +33549503308
+
+naa:
+who:    UC San Diego Department of Biomedical Informatics (=) DBMICLD
+what:   87908
+when:   2015.05.11
+where:	http://dbmi.ucsd.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_dbmicloud
+
+naa:
+who:    Space Telescope Science Institute (=) STSCI
+what:   87909
+when:   2015.05.11
+where:	http://www.stsci.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid stsci
+
+naa:
+who:	Archives Départementales des Alpes de Haute Provence (=) ADAHP
+what:	58484
+when:	2015.05.19
+where:	http://archivesenligne.archives04.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+
+naa:
+who:    University of Washington IsoLab (=) UWISOLAB
+what:   87911
+when:   2015.05.20
+where:	depts.washington.edu/isolab
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid uw_isolab
+
+naa:
+who:    Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
+what:	45487
+when:	2015.05.22
+where:	http://rulb.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Miller, Anna ||| editors@rulb.org |
+
+naa:
+who:    Caltech Biology (=) WORMBASE
+what:   87912
+when:   2015.05.26
+where:	http://www.wormbase.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid caltech_wormbase
+
+naa:
+who:    Miami Project to Cure Paralysis (=) REGENBASE
+what:   87913
+when:   2015.05.27
+where:	http://regenbase.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid umiami_regenbase
+
+naa:
+who:	Archives de la ville de Romans (=) AVROMANS
+what:	32491
+when:	2015.06.01
+where:	http://www.archives-ville-romans.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
+!contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
+who:	Ohio Supercomputer Center (=) OSC
+what:	19495
+when:	2015.06.01
+where:	https://osc.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
+
+naa:
+who:    Saint Edward's University (=) SEU
+what:   87914
+when:   2015.06.09
+where:	http://www.stedwards.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mondaylib
+
+naa:
+who:	NAAN Reserved for Uniform Resource Names (=) URNS
+what:	97720
+when:	2011.11.15
+where:	http://n2t.net
+how:	NP | NR, OP | 2011 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu
+#! 97720 = Burns, Oregon
+
+naa:
+who:	Metadata Terms (=) TERMS
+what:	99152
+when:	2007.10.02
+where:	http://n2t.net
+how:	NP | NR, OP | 2007 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu
+#! 99152 = Metaline, Washington
+
+naa:
+who:	People, Groups, and Institutions as Agents (=) AGENTS
+what:	99166
+when:	2010.08.04
+where:	http://n2t.net
+how:	NP | NR, OP | 2010 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu
+#! 99166 = Republic, Washington
+
+naa:
+who:	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
+what:	99999
+when:	2010.08.04
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2010 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu
+
+naa:
+who:	NAAN Reserved for use in Examples (=) EXAMPLE
+what:	12345
+when:	2007.10.02
+where:	http://n2t.net
+how:	NP | (:unkn) unknown | 2007 |
+!why:   ARK
+!contact: Kunze, John | California Digital Library || jak@ucop.edu

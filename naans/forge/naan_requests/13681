@@ -1,0 +1,73 @@
+From jak@ucop.edu Fri Sep 19 02:54:31 2008
+Date: Fri, 19 Sep 2008 02:54:31 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Jérémy CRUBLET <jcrublet@CMBV.COM>
+Bcc: jkunze@ucop.edu
+Subject: Re: information about NAAM
+
+Hello Jérémy,
+
+Thanks for your message and the nice description of your organization
+and databases.  The NAAN,
+
+	13681
+
+has been registered for the Centre de Musique Baroque de Versailles
+and you may begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/13681/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--- On Wed, 17 Sep 2008, Jérémy CRUBLET wrote:
+> Date: Wed, 17 Sep 2008 10:53:35 +0200
+> From: Jérémy CRUBLET <jcrublet@CMBV.COM>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: information about NAAM
+> 
+> Hello,
+> The Versailles Center for Baroque Music is a french association with the
+> project to promute the seventies and heighties century's French music.
+> I'm in charge of the database PHILIDOR, specialized into descriptions of
+> 17th and 18th century French musical, theoretical and choregraphic works and
+> poetry set to music (about 10 000 database files online).
+> 
+> Actually, we have few databases on the Internet, and we are interested to
+> upgrade it with nice opaque identifiers ARKs.
+> Can you explains us how it's possible to obtain a NAAM identification ?
+> 
+> Here, some informations about our institution :
+> 
+> Name : Centre de Musique Baroque de Versailles
+> Site Web : http://www.cmbv.fr
+> Databases site Web : http://philidor.cmbv.fr/accueil
+> Phone : 0033 1 39 20 78 10
+> Adress : Hôtel des Menus-Plaisirs du Roi, 22 avenue de Paris, 78003
+> Versailles Cedex, FRANCE
+> 
+> Thank you for your answer,
+> 
+> -- 
+> Jérémy Crublet
+> Responsable des bases de données Philidor
+> Responsable informatique
+> tel : 01 39 20 78 21
+> email : jcrublet@cmbv.com
+> 

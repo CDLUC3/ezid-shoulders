@@ -1,0 +1,143 @@
+#!/usr/bin/env bash
+
+dflt_pop=ezid
+mintersdir="$HOME/sv/cur/apache2/minters"	# minters directory
+
+function usage {
+
+echo Error: $*	# print error message supplied as arguments, then canned usage
+cat << EOT
+
+Usage:  $0 [ -n ] [ --remove ] FullyQualifiedShoulder [ Populator ]
+
+Use this tool to create a minter on a fully qualified shoulder, as in
+
+    $ $0 ark:/13030/s8
+    $ $0 doi:10.5072/D9
+    $ $0 ark:13030/fk4
+    $ $0 doi:10.13012/J8
+
+Use the --remove option to delete rather than to create a minter.
+Minters are expected to reside at the ends of ARK-like paths, for example,
+
+    THIS SHOULDER    CREATES   THIS PATH
+    ark:/13030/s8      ->      ark/13030/s8
+    doi:10.5072/D9     ->      ark/b5072/d9
+    ark:13030/fk4      ->      ark/13030/fk4
+    doi:10.13012/J8    ->      ark/c3012/j8
+
+By default the minter will be created for the "$dflt_pop" user, under
+
+    $mintersdir/$dflt_pop
+
+unless you give the optional Populator argument (one of oca, yamz, n2t, etc).
+
+To Do:
+   Should be forgiving if ark:/ or doi: are missing from shoulder.
+   Should have a --exists option to simply see if it exists.
+
+EOT
+}
+
+no_exec=
+remove=
+while [[ "$1" =~ ^- ]]
+do
+	case $1 in
+	-n)
+		no_exec=1
+		shift
+		;;
+	--remove)
+		remove=1
+		shift
+		;;
+	*)
+		usage "Error: unknown option: $1"
+		exit 1
+	esac
+done
+
+# xxx drop $arg1 and $arg2 in favor of simply $1 and $2
+arg1=$1
+
+[[ $arg1 == "" ]] && {
+	usage missing shoulder argument
+	exit 1
+}
+[[ ! $arg1 =~ "/" ]] && {
+	usage first argument must contain a / character
+	exit 1
+}
+
+arg2=$2
+populator=${arg2:-$dflt_pop}
+
+pmdir="$mintersdir/$populator"		# populator's minter directory
+
+# Create a two-element array.
+#
+a=( $(../doip2naan $arg1 | perl -pe 's,^ark:/(.+)/([^/]*),\L$1 $2,') )
+naan=${a[0]}
+shdr=${a[1]}
+
+# XXX do broader check on $naan before doip2naan (which doesn't error check)
+if [[ ! $naan =~ ^[0-9bcdfghjkmnpqrstvwxz][0-9]{4}$ ]]
+then
+	usage "NAAN ($naan) should be a digit or consonant followed by 4 digits"
+	exit 1
+fi
+
+shdrdir="$pmdir/ark/$naan/$shdr"
+if [[ -e $shdrdir ]]
+then
+	[[ "$remove" ]] && {
+		cmd="rm -fr $shdrdir"
+		echo $cmd
+		# XXX should confirm before removing -- irrevocable
+		#     or should do it with nog internal (save in trash
+		#     dir) so that it's undoable
+		#rm -fr $shdrdir && exit 0
+		[[ "$no_exec" ]] && exit 0
+		$cmd && exit 0
+		exit 1
+	}
+	echo "Error: shoulder directory ($shdrdir) exists already:"
+	ls -ld $shdrdir
+	exit 1
+else
+	[[ "$remove" ]] && {
+		echo "Error: shoulder directory ($shdrdir) doesn't exist."
+		exit 1
+	}
+fi
+
+# XXX bogus check right now -- it's supposed to look in master_shoulders.txt
+#     for collisions.
+./shdr_exists $shdrdir && {
+	echo Aborting before making shoulder.
+	exit 1
+}
+
+# Note that $naan/$shdr is the bit that the checkchar is computed over.
+#
+cmd="nog -p $pmdir/ark mkminter --type rand --atlast add3 $naan/$shdr $template"
+echo $cmd
+[[ "$no_exec" ]] && exit 0
+template=eedk
+$cmd
+#nog -p $pmdir/ark mkminter --type rand --atlast add3 $naan/$shdr $template
+
+exit 0
+
+# ========== old stuff below ============
+#rm -f noidu_$shdrdir noidr_$shdrdir
+#ln noid noidu_$shdrdir
+#ln noid noidr_$shdrdir
+
+#date=$( date '+%Y.%m.%d' )
+#shortnd=$( echo $pmdir | sed s,/noid/,, )	# kludge
+#
+#echo ""
+#echo "Add this entry to master_shoulders"
+#echo "shdr: $naan/$shdrdir | <UI_label> | $date | $shortnd/noidu_$shdrdir"

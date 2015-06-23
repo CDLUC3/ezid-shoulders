@@ -1,0 +1,59 @@
+#!/bin/csh -f
+
+if (("$1" != "real" && "$1" != "test") \
+		|| ("$1" == "test" && "$2" == "")) then
+	echo "Usage: $0 [ real | test ID ]"
+	echo "where ID is a test value to accept or reject."
+	exit 1
+endif
+
+if ("$1" == "test") then
+	set ndcmd = "echo $2"
+else
+	set ndcmd = "noid mint 1"
+	#set ndcmd = "echo id: 00001/8999a"
+endif
+
+#set id = `noid mint 1 | sed 's/^id: //'`
+set id = `$ndcmd | sed 's,^id: ,,'`
+set partial = `echo $id | sed 's,^00001/,,'`
+
+# Criteria go here.
+if ("$partial" =~ "9*" || "$partial" =~ "0*") then
+	if ("$1" == "real") then
+		echo ECHO noid hold set $id
+		noid hold set $id
+	endif
+	echo "Skipping id: $id".  Try again.
+	exit 1
+else
+	echo "Newly minted: $id"
+endif
+
+
+# % noid dbcreate .rddddd long 00001 n2t.info naan
+# Created:   minter for 100000 random identifiers of form .rddddd
+#        A Noid minting and binding database has been created that will bind
+#        and mint 100,000 identifiers with the template ".rddddd".
+#        Sample identifiers would be "00001/79953" and "00001/22939".
+#        Minting order is random.  See ./NOID/README for details.
+
+# % noid hold set `sed 's/:.*//' grandfathered`
+# # test with
+# % noid mint 100000
+
+# -----
+# Going forward, mint as usual but prepare to filter out unwanted NAANs.
+# For example, if for a NANN starting with 0 or containing too many repeated
+# digits, do
+# 
+# % noid mint 1
+# id: 00001/01234
+# 
+# % noid hold set 00001/01234
+# 
+# % noid mint 1
+# ...   <repeat as necessary>
+# 
+# Then record the assignment you choose back into "grandfathered" just in
+# case we have to start over again.

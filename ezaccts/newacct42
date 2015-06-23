@@ -1,0 +1,21 @@
+todays_date: 04/03/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: uoa
+acct_email: m.binsteiner@auckland.ac.nz
+primary_contact: Marcus Binsteiner
+contact_email: m.binsteiner@auckland.ac.nz
+contact_phone: +64 9 373 7599 83089
+contact_fax:
+org: University of Auckland
+org_acroynm: uoa
+org_www: http://www.auckland.ac.nz/en.html
+mailing_address1: The University of Auckland
+mailing_address2: Private Bag 92019
+mailing_city: Auckland
+mailing_state:
+mailing_zip: 1142
+mailing_country: New Zealand
+identifiers: DOIs and ARKs
+identifier_plans: Use with Figshare to create DOIs for research datasets.
+comments: Note for John: default setup.

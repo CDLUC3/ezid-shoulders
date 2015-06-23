@@ -1,0 +1,154 @@
+#!/bin/tcsh -f
+
+if ($# < 1) then
+	echo "Usage:   $0 NNNNN [test]"
+	echo "Example:"
+	echo ""
+	echo "    $ $0 54321"
+	echo ""
+	echo "which re-establishes the minter of NAANs up to the NAAN, 54321."
+	exit 1
+endif
+
+set noidcmd = /noid/nd/noid		# fixed to remove annoying warning
+
+set tofind = $1  test = 0
+if ("$2" == "test")   set test = 1
+
+# % noid hold set `sed 's/:.*//' grandfathered`
+# # test with
+# % noid mint 100000
+
+# The NOID minter in this directory is for minting 5-digit NAANs.  In case
+# you need to rebuild it from scratch and re-establish prior minter state
+# up to a given NAAN, say 54321, run this script with the argument 54321
+# in an empty directory.  When done, the NOID subdirectory will contain
+# the newly reset minter.
+
+# Here's what the script does.  First it creates a new 5-digit minter,
+
+	$noidcmd dbcreate .rddddd
+
+# Early on, NAANs were assigned by hand rather than minted.  Those original
+# NAANs are "grandfathered in" by issuing holds,
+
+	set hold = ()
+	set hold = ($hold \
+		12025 12026 10113 13030 13038 20775 29114 28722 \
+		21198 15230 13960 64269 62624 67531 27927 12148 \
+		88435 78428 89901 80444 25593 25031)
+
+# After we began minting, one particular NAAN number was requested by the
+# University of Chicago, which is reserved with another hold,
+
+	set hold = ($hold 61001)
+
+# The NAAN for NAL, that was never used, was changed by hand to match NAL's
+# Handle prefix (10113).  But we still set aside the old NAAN for now,
+
+	set hold = ($hold 12027)
+
+# Some special reserved NAANs have also been set aside,
+
+	set hold = ($hold 12345 99152 99166 99999)
+
+	set held = $#hold
+	echo -n "Reserving $held NAANs.  "
+	$noidcmd hold set $hold
+
+	echo "Minting one at a time until NAAN, $tofind, reached..."
+	set minted = 0  usable = 0
+	while (1)
+		set id = `$noidcmd mint 1 | sed 's/id: //'`
+		@ minted++
+		if ("$id" !~ [09]????)		@ usable++
+		if ("$id" == $tofind)		break
+		if ("$id" !~ [0-9]???[0-9])	break
+	end
+	if ("$id" == "$tofind") then
+		echo "Found $tofind after minting $minted ($usable usable) ids."
+	else
+		echo "Error: never found $tofind."
+		exit 1;
+	endif
+	if (! $test) then
+		echo "Done."
+		exit 0;
+	endif
+
+	# hypothesis to test
+	@ left = (100000 - ($minted + $held))
+	echo Test minting remaining $left ids.  This will take awhile ...
+	set tminted = 0  tusable = 0
+	$noidcmd mint $left > /tmp/ndleft
+
+	#while (1)
+	#	set id = `$noidcmd mint 1 | sed 's/id: //'`
+	#	@ tminted++
+	#	if ("$id" !~ "[09]*")		@ tusable++
+	#	if ("$id" !~ "[0-9]*")		break
+	#end
+	echo "Minter should now be empty after minting $left ids."
+	echo "To confirm, the next request to mint 1 id should error out."
+	echo -n "    "
+	set stat = failed
+	$noidcmd mint 1 |& grep exhausted
+	if ($status == 0)   set stat = succeeded
+	echo Test $stat.
+	echo 'To reset/create a usable minter, run without "test" argument.'
+
+#first fifty mints
+#id: 17101
+#id: 04105
+#id: 91315
+#id: 78319
+#id: 65323
+#id: 52327
+#id: 39331
+#id: 26677
+#id: 13681
+#id: 00685
+#id: 87895
+#id: 74899
+#id: 61903
+#id: 48907
+#id: 36253
+#id: 23257
+#id: 10261
+#id: 97471
+#id: 84475
+#id: 71479
+#id: 58483
+#id: 45829
+#id: 32833
+#id: 19837
+#id: 06841
+#id: 94051
+#id: 81055
+#id: 68059
+#id: 55405
+#id: 42409
+#id: 29413
+#id: 16417
+#id: 03421
+#id: 90631
+#id: 77635
+#id: 64981
+#id: 51985
+#id: 38989
+#
+#-----
+#
+#id: 25993
+#id: 12997
+#id: 00001
+#id: 87553
+#id: 74557
+#id: 61561
+#id: 48565
+#id: 35569
+#id: 22573
+#id: 09577
+#id: 97129
+#id: 84133
+#

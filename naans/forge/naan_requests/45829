@@ -1,0 +1,121 @@
+From jak@ucop.edu Wed Oct 28 00:15:29 2009
+Date: Wed, 28 Oct 2009 00:15:29 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: crenard <Catherine.Renard@univ-paris1.fr>
+Cc: bleulmi@univ-paris1.fr
+Subject: Re: Interested ingenerating ARKs
+
+Dear Ms Renard,
+
+No apologies necessary.  These things take time to decide.  Your
+reasoning makes sense, and therefore the NAAN,
+
+	45829
+
+has been registered for the Bibliothèque Cujas and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/45829/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+--- On Mon, 26 Oct 2009, crenard wrote:
+> Firstly, please accept my apologies for having taken so long to reply. We've
+> been waiting for feedback from our director and the management team.
+> 
+> Regarding the ARK, we feel that Cujas should be identified unambiguously by
+> its own ARK, for a number of reasons:
+> 
+> 1. Cujas, as an inter-university library, falls under the mandate of two
+> universities, Paris 1 Panthéon Sorbonne and Paris 2 Assas, and  is the
+> reference library for legal studies at university level. It  is  associated
+> with the BnF (the French national library) and CADIST  (the network for the
+> collection and diffusion of scientific  information in France) for legal
+> sciences. It wouldn't be  appropriate that Cujas be assimilated under the ARK
+> of only one of  these universities (Paris 1).
+> 
+> 2. In the context of the digitisation project with the BNF, Cujas is opening
+> an OAI-PMH platform to allow the BNF access our digital library. Our documents
+> will be included in the digital library Gallica, and they need to be clearly
+> identified as Cujas documents, without the possibility of confusion with
+> documents emanating from the other libraries attached to the university Paris
+> 1. Our on-line documents can be consulted at http://biu-cujas.univ-paris1.fr
+> <http://biu-cujas.univ-paris1.fr/repons/portal/bookmark?Global=1&Body=7&Search_7=0&MenuItemSelected=consulter&MenuItemPosition=4&OngletItemPosition=0&ButtonPosition=0&DsNavType=type&DsNavKey=Autres&Broadcast=ouvrage/url> 
+> 
+> For these reasons, we would like to request that Cujas be assigned its own
+> ARK.
+> 
+> Thank you in advance for your considerations, and please don't hesitate to
+> contact us for any further information.
+> 
+> Yours sincerely
+> 
+> Catherine Renard and Brouck Leulmi (IT engineer)
+> 
+> John A. Kunze a écrit :
+> > Dear Ms Renard,
+> >
+> > Thank you for your interest.  If you would send the name of your
+> > institution, a NAAN can be assigned without delay.  We tend to prefer
+> > assigning the NAAN at the highest level that makes sense, for example,
+> > if your law library is within the University of Paris, we would prefer
+> > to assign the NAAN to the University of Paris.
+> >
+> > -John
+> >
+> > =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+> > John A. Kunze                                          jak@ucop.edu
+> > California Digital Library                    Work: +1-510-987-9231 415 20th
+> > St, #406                     http://dot.ucop.edu/home/jak/
+> > Oakland, CA  94612     USA                 University of California
+> > =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+> >
+> > --- On Mon, 5 Oct 2009, crenard wrote:
+> >   
+> > > Date: Mon, 5 Oct 2009 17:55:16 +0200
+> > > From: crenard <Catherine.Renard@UNIV-PARIS1.FR>
+> > > To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> > > Subject: Interested ingenerating ARKs
+> > >
+> > > Dear sir,
+> > > We are a french law library and we initiated a program of digitalization.
+> > > We
+> > > collaborate with BnF ( French National Library). Within the framework of
+> > > this
+> > > project, we would like to generate persistent identifiers ARK.
+> > > For that reason, we would like to have information on the procedure to be
+> > > followed to have to obtain Name Assigning Authority Number ( NAAN).
+> > > Thank you for your information
+> > > Yours faithfully
+> > > Catherine Renard
+> > >
+> > > -- 
+> > > Ce message a ete verifie par MailScanner
+> > > pour des virus ou des polluriels et rien de
+> > > suspect n'a ete trouve.
+> > >     
+> >
+> >   
+> 
+> 
+> -- 
+> Ce message a ete verifie par MailScanner
+> pour des virus ou des polluriels et rien de
+> suspect n'a ete trouve.
+> 
+> 

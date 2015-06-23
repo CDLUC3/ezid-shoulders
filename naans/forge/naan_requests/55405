@@ -1,0 +1,70 @@
+From jak@ucop.edu Fri Feb 19 14:44:30 2010 -0800
+Date: Fri, 19 Feb 2010 14:44:30 -0800 (PST)
+From: "John A. Kunze" <jak@ucop.edu>
+X-X-Sender: jak@jak-desktop
+To: "Moses, Laurie Lee" <lmoses@COLUM.EDU>
+bcc: jkunze@ucop.edu
+Subject: Re: Interested ingenerating ARKs
+In-Reply-To: <C75091E833394640B7F8A438969FF3030112A8073786@EXCH07MAILBOX.admin.colum.edu>
+Message-ID: <alpine.DEB.2.00.1002171230240.9592@jak-desktop>
+References: <C75091E833394640B7F8A438969FF3030112A8073786@EXCH07MAILBOX.admin.colum.edu>
+User-Agent: Alpine 2.00 (DEB 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 19860
+
+Hi Laurie,
+
+Thanks for your message.  The NAAN,
+
+ 	55405
+
+has been registered for Columbia College Chicago and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/55405/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Wed, 17 Feb 2010, Moses, Laurie Lee wrote:
+> Date: Wed, 17 Feb 2010 14:15:13 -0600
+> From: "Moses, Laurie Lee" <lmoses@COLUM.EDU>
+> To: SUPPORT-CDL-L@LISTSERV.UCOP.EDU
+> Subject: Interested ingenerating ARKs
+> 
+> greetings!
+> I am currently preparing a "Best Practices" guide for encoding our finding aids using the EAD schema.
+> Using ARK seems like a great way to provide a persistent identifier for both our finding aids and our digital objects.
+> How does one obtain a NAAN and dig in?
+> thanks much in advance,
+> Laurie
+>
+> Laurie Lee Moses
+> Archivist & Digital Librarian
+> Center for Black Music Research
+> Columbia College Chicago
+> 600 S. Michigan Avenue
+> Chicago, IL   60605
+> T: 312.369.7518
+> F: 312.369.8029
+>
+>

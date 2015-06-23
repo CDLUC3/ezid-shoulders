@@ -1,0 +1,77 @@
+From jak@ucop.edu Thu Oct 18 11:20:08 2007 -0700
+Date: Thu, 18 Oct 2007 11:20:08 -0700 (PDT)
+From: ark@cdlib.org
+To: "Sioud, Mongi" <mongi.sioud@cgi.com>
+cc: Steve Toub <steve.toub@ucop.edu>
+Subject: Re: registration for a NAAN
+
+--813753036-590704607-1192642160=:2898
+Content-Type: TEXT/PLAIN; CHARSET=iso-8859-1
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-ID: <Pine.LNX.4.63.0710181052331.7465@dot.ucop.edu>
+
+--- On Wed, 17 Oct 2007, Sioud, Mongi wrote:
+> We are implementing a digital collection system to BAnQ library Quebec
+> Canada (Biblioth=E8que et Archives Nationales du Qu=E9bec) www.banq.qc.ca
+> <http://www.banq.qc.ca/>  and we want to use ARK Persistent Identifier
+> Scheme. To do this we need a NAAN. Can you, please, assign a number in
+> the name of National Library and Archives of Quebec? For more
+> information please contact Mongi Sioud at mongi.sioud@cgi.com.
+
+
+Hi Mongi,
+
+Thanks for your message.  The NAAN,
+
+=0952327
+
+has been registered for the Biblioth=E8que et Archives Nationales du Qu=E9b=
+ec
+and you may begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/52327/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D=
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D=
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D
+
+>=20
+> Mongi Sioud M.Sc.
+> Analyste Syst=E8me=20
+> CGI - Grand Montr=E9al
+> T: 514-415-3000 #7032=20
+> 1350 Ren=E9-L=E9vesque Ouest, 20i=E8me =E9tage=20
+> Montr=E9al (Qu=E9bec), H3G 1T4=20
+> http://www.cgi.com <http://www.cgi.com/> =20
+>=20
+> Avis de confidentialit=E9 : ce message peut contenir des renseignements c=
+onfidentiels appartenant exclusivement au Groupe CGI Inc. ou =E0 ses filial=
+es. Si vous n'=EAtes pas le destinataire indiqu=E9 ou pr=E9vu dans ce messa=
+ge (ou responsable de livrer ce message =E0 la personne indiqu=E9e ou pr=E9=
+vue) ou si vous pensez que ce message vous a =E9t=E9 adress=E9 par erreur, =
+vous ne pouvez pas utiliser ou reproduire ce message, ni le livrer =E0 quel=
+qu'un d'autre. Dans ce cas, vous devez le d=E9truire et vous =EAtes pri=E9 =
+d'avertir l'exp=E9diteur en r=E9pondant au courriel.=20
+> =20
+>=20
+> =20
+>=20
+>=20
+--813753036-590704607-1192642160=:2898--
+

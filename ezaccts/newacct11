@@ -1,0 +1,22 @@
+todays_date: 09/24/2014
+realm: CDL
+submitters_name: Joan Starr
+acct_name: unmlibrary
+acct_email: ulvendor@unm.edu
+primary_contact: William Michener
+contact_email: william.michener@gmail.com
+contact_phone: 505.200.3123
+contact_fax: 
+org: University of New Mexico Libraries
+org_acroynm: unmlib
+org_www: library.unm.edu
+mailing_address1: DataONE, The University of New Mexico
+mailing_address2: 1312 Baseheart Drive SE, MSC04 2815
+mailing_city: Albuquerque
+mailing_state: NM
+mailing_zip: 87131-0001
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: YES
+internal_identifiers: YES
+identifier_plans: Need 2 prefixes to start with:%0D%0A1 for UNM Library--DOI & ARK, with minters%0D%0A1 DOI Prefix with minter for DataONE DASH, no ARK

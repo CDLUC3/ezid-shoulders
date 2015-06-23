@@ -1,0 +1,64 @@
+From jak@ucop.edu Tue Feb  2 08:51:01 2010
+Date: Tue, 2 Feb 2010 08:49:58 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: Boucon Daniele <daniele.boucon@cnes.fr>
+Subject: Re: NAAN
+
+Hi Daniele,
+
+Thanks for writing.  Usually I or one of my colleagues responds to
+these requests, sent to support-cdl-l@listserv.ucop.edu .
+
+There's no form, although we plan to automate these requests, in which
+case there will be a very short form.  Basically, we ask that you be from
+a plausible institution (such as CNES), and that you give us contact
+information for a person there (such as yourself).
+
+Assuming that you're still interested, the NAAN,
+
+ 	68059
+
+has been registered for CNES (Centre National d'Études Spatiales) and
+you may begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/68059/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Tue, 2 Feb 2010, Boucon Daniele wrote:
+> Dear Mr Kunze,
+>
+> I'm a CNES (France Centre National d'Etudes Spatiales) ingineer, and
+> I've got your email from L. Duplouy (BnF).
+>
+> At the moment we are thinking of using ARK for identifying space
+> metadata. I'd like to get some information and particularly I'd like to
+> know how to proceed to get a NAAN :
+>
+> 1. who should ask for the NAAN (in terms of responsibility, what is the
+> role of this person)?
+> 2. is there a form?
+> 3. what information must be provided?
+>
+> Thank you for your help,
+>
+> Best regards,
+>
+> Daniele Boucon
+>

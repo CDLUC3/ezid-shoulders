@@ -1,0 +1,21 @@
+todays_date: 05/14/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: nyu_databrary
+acct_email: ezid@databrary.org
+primary_contact: Andrew Gordon
+contact_email: ezid@databrary.org
+contact_phone: 212-998-5417
+contact_fax:
+org: Databrary
+org_acroynm: databrary
+org_www: https://www.databrary.org
+mailing_address1: 196 Mercer St.
+mailing_address2: Rm 807
+mailing_city: New York
+mailing_state: NY
+mailing_zip: 10012
+mailing_country: USA
+identifiers: DOIs and ARKs
+identifier_plans: We will be assigning them to the datasets in Databrary that have been shared for use by other researchers.
+comments: Note for John: default setup%0D%0ANote for Joan: sponsored by nyu_library

@@ -1,0 +1,284 @@
+#
+naa: National Library of Medicine | 12025 | 1998
+	| http://www.nlm.nih.gov/xxx/naapolicy.html
+nma: ark.nlm.nih.gov USNLM
+nma: foobar.zaf.org UCSF
+which/wasRequestedBy: Kunze; Rodgers; Humphreys
+	| as an ARK registration
+
+#
+naa: Bibliothèque et Archives Nationales du Québec
+		(=) National Libary and Archives of Quebec
+	| 52327 | 20071000 | http://www.banq.qc.ca/xxx/naapolicy.html
+nma: banq.qc.ca BANQ
+which/wasRequestedBy: Mongi Sioud | sioud@cgi.com |
+	Analyste Système
+	CGI - Grand Montréal
+	T: 514-415-3000 #7032
+	1350 René-Lévesque Ouest, 20ième étage
+	Montréal (Québec), H3G 1T4
+	| as an ARK registration
+
+#
+naa: World Intellectual Property Organization | 13038 | 1998
+	| http://www.wipo.int/xxx/naapolicy.html
+nma: www.wipo.int WIPO
+which/wasRequestedBy: Jim Fullton | James.Fullton@wipo.int
+	| as an ARK registration
+
+
+naan: 13681
+> Name : Centre de Musique Baroque de Versailles
+> Site Web : http://www.cmbv.fr
+> Databases site Web : http://philidor.cmbv.fr/accueil
+> Phone : 0033 1 39 20 78 10
+> Adress : Hôtel des Menus-Plaisirs du Roi, 22 avenue de Paris, 78003
+> Versailles Cedex, FRANCE
+> 
+> Thank you for your answer,
+> 
+> -- 
+> Jérémy Crublet
+> Responsable des bases de données Philidor
+> Responsable informatique
+> tel : 01 39 20 78 21
+> email : jcrublet@cmbv.com
+
+
+naan: 74899
+> From: CDL-Feedback List [mailto:CDL-FEEDBACK-L@LISTSERV.UCOP.EDU] On Behalf Of HERNEBRING Patrick
+> Sent: Wednesday, January 21, 2009 5:48 AM
+> To: CDL-FEEDBACK-L@LISTSERV.UCOP.EDU
+> Subject: NAAN : Toulouse city public library
+> 
+> Dear Sir or Madam,
+> 
+> In charge of the digital libraries programs (rare books, manuscripts,
+> early printed books, old photos...) in the Toulouse city public library
+> (Bibliothèque municipale de Toulouse
+> http://www.bibliotheque.toulouse.fr/), I would like to obtain the Name
+> Assigning Authority Number (NAAN) that should identify my institution.
+> 
+> Appreciate your cooperation in advance.
+> 
+> Yours sincerely,
+> 
+> Patrick Hernebring
+> 
+> Musique et numérisation
+> Bibliothèque d'Etude et du Patrimoine
+> Bibliothèque de Toulouse
+> 1 rue de Périgord 
+> 31000 Toulouse
+> 05.62.27.63.76 
+
+naan:48907
+#	University of California Santa Barbara
+> Date: Thu, 12 Mar 2009 09:21:30 -0700
+> From: Lisa Koch <lkoch@LIBRARY.UCSB.EDU>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: Interested ingenerating ARKs
+> 
+> I'm interested in generating ARKs.  I believe our organization does not
+> currently have a NAAN.  How can I obtain one?  What other steps do I need to
+> go through to start producing ARKs (I'm currently looking into noid software).
+> 
+> 
+> Sincerely,
+> Lisa Koch
+> 
+> -- 
+> Lisa Richter Koch
+> Metadata Librarian
+> Davidson Library University of California
+> Santa Barbara, CA 93106-9010
+> 
+> 805-893-4149
+> lkoch@library.ucsb.edu
+> http://www.library.ucsb.edu/
+
+naan:36253
+> Date: Tue, 10 Feb 2009 22:22:34 -0500
+> From: Ryan Donahue <RDonahue@GEH.ORG>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: Interested in generating ARKs
+> 
+> Hello, I was reading up on your ARK platform and feel it is a very good fit
+> for what we do at George Eastman House.  We are one of the oldest museums
+> dedicated to photography and film, and would like to explore permalinks to our
+> online collection via the ark standards.
+> 
+> -Please advise on the best path forward.
+> 
+> -Thanks
+> Ryan Donahue
+> Webmaster, George Eastman House
+
+naan:23257: APPSTATE  2009.05.18
+> Kevin S. Clarke
+> Coordinator of Web Services
+> Belk Library & Information Commons
+> Appalachian State University
+> 218 College Street
+> Boone, NC 28608
+>
+> clarkeks@appstate.edu
+> (828) 262-8472
+
+From jak@ucop.edu Wed Jul 22 16:29:15 2009
+Date: Wed, 22 Jul 2009 16:29:15 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Ulrike Sonnemann <u.sonnemann@JMBERLIN.DE>
+Cc:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+Subject: Re: Interested ingenerating ARKs
+
+Hi Ulrike,
+
+Thanks for your message.  The NAAN,
+
+	10261
+
+has been registered for the Jewish Museum Berlin and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/10261/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+--- On Tue, 21 Jul 2009, Ulrike Sonnemann wrote:
+> Dear Collegues from CDL,
+> 
+> the Jewish Museum in Berlin, Germany, 
+> 
+> 
+> see http://www.jmberlin.de/
+> 
+> 
+> is running a project to design a digital preservation archive.
+> 
+> The Jewish Museum Berlin is a federal foundation under public law.
+> 
+> We decided to use ARKs as persistent identifiers for the preservation
+> archive.
+> 
+> Now, we would like to get a NAAN from you, so we could start with testing
+> and implementing our PIs.
+> 
+> We plan to use the Noid software for generating the strings.
+> 
+> For further information please contact our two project coordinators:
+> Mrs. Ulrike Sonnemann (Head Librarian)
+> Mrs. Susanne Dobratz (Project Consultant, also working for
+> Humboldt-University Berlin)
+> 
+> We are looking forward to hearing from you soon!
+> 
+> With best regards,
+> 
+> 
+> Ulrike Sonnemann.
+> 
+>  
+> 
+> J�disches Museum Berlin 
+> Leiterin Bibliothek / Head Librarian 
+> Lindenstr. 9 - 14 
+> 10969 Berlin 
+> Tel.:  25993-564 
+> Fax.: 25993-441 
+> u.sonnemann@jmberlin.de 
+> 
+>  
+> 
+> 
+
+From jak@ucop.edu Wed Jul 22 16:39:18 2009
+Date: Wed, 22 Jul 2009 16:39:18 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: "Chen, Mingyu" <mchen6@CENTRAL.UH.EDU>
+Cc:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+Subject: Re: Interested ingenerating ARKs
+
+Hi Mingyu,
+
+Thanks for your message.  There's no license required to use ARKs,
+and no particular technical support costs other than what would be
+normal overhead for maintaining URLs on your website.  If you would
+like to use ARKs (which your message seemed to suggest), the NAAN,
+
+	84475
+
+has been registered for the University of Houston and you may begin
+using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/84475/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--- On Wed, 22 Jul 2009, Chen, Mingyu wrote:
+
+> Date: Wed, 22 Jul 2009 16:57:38 -0500
+> From: "Chen, Mingyu" <mchen6@CENTRAL.UH.EDU>
+> To:  <SUPPORT-CDL-L@LISTSERV.UCOP.EDU>
+> Subject: Interested ingenerating ARKs
+> 
+> Hi, 
+> 
+> I am a Metadata Librarian from the University of Houston Library. We are
+> interested in generating and using ARK. Would you please advice the cost
+> of purchasing license for ARK and any other potential cost for technical
+> support like installation and other services? 
+> 
+> Thanks,
+> 
+> Mingyu
+> 
+> Metadata Coordinator
+> 
+> Cataloging and Metadata Services
+> 
+> University of Houston
+> 
+> TEL: 713/743-8988
+> 
+> FAX: 713/743-9748
+> 
+>  
+> 
+>  
+> 
+> 
+

@@ -1,0 +1,23 @@
+todays_date: 02/18/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: dartcrawda
+acct_email: david.f.kotz@dartmouth.edu
+primary_contact: David F. Kotz
+contact_email: david.f.kotz@dartmouth.edu
+contact_phone: 603-646-1439
+contact_fax:
+org: CRAWDAD
+org_acroynm: CRAWDAD
+org_www: http://crawdad.cs.dartmouth.edu/index.html
+mailing_address1: 6211 Sudikoff Laboratory
+mailing_address2:
+mailing_city: Hanover
+mailing_state: NH
+mailing_zip: 03755
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: YES
+internal_identifiers: NO
+identifier_plans: We plan to use DOIs for datasets produced and maintained by Dartmouth faculty and others in this collaborative, multi-institutional project CRAWDAD.%0D%0ACo-owned by dartmouthc
+comments: Standard setup.

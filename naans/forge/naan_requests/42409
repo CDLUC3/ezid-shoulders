@@ -1,0 +1,58 @@
+From jak@ucop.edu Wed Mar  3 09:20:32 2010
+Date: Wed, 3 Mar 2010 09:21:41 -0800 (PST)
+From: John A. Kunze <jak@ucop.edu>
+To: Michael J. Giarlo <leftwing@alumni.rutgers.edu>
+Subject: Re: ARK NAAN
+
+Hi Mike,
+
+Glad to hear the conference was good.  One of these days I'll get there!
+Meanwhile, the NAAN,
+
+ 	42409
+
+has been registered for The Pennsylvania State University and you may
+begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/42409/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--- On Sat, 27 Feb 2010, Michael J. Giarlo wrote:
+
+> Date: Sat, 27 Feb 2010 22:53:23 -0500
+> From: Michael J. Giarlo <leftwing@alumni.rutgers.edu>
+> To: John A. Kunze <jak@ucop.edu>
+> Subject: ARK NAAN
+> 
+> Howdy John,
+>
+> I was wondering if you could generate a NAAN for Penn State.  I'm not
+> sure how far I'll get w/ ARKs, but I'd at least like to try it out.
+>
+> I just returned from Code4Lib yesterday -- great conference, but I'm
+> exhausted.  Still, here I sit trying to sketch out some architectural
+> ideas, based on some of the stuff y'all are doing, what Mark's doing
+> at UNT, and a host of other bits.
+>
+> Hope all is well with you,
+>
+> -Mike
+>

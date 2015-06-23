@@ -1,0 +1,16 @@
+# 2012.02.29
+# Load an empty minter recycle queue from scratch the first time by
+# sourcing this file from shell.
+
+# This causes mint ops to drain the queue before minting from the
+# template (of no interest to us).
+
+# oddity: some holes, eg, j2 already taken
+
+#~/nd/noid queue now h3 h4 h5 h6 h7 h8 h9 h0 j1 j3 j4 j5 j6 j7 j8 j9 j0
+#~/nd/noid queue now k0 k1 k3 k4 k5 k6 k7 k8 k9 m0 m1 m2 m3 m4 m6 m7 m8 m9
+#/noid/nd/noid dbcreate
+#/noid/nd/noid queue now s1 m1 m2 m3 m4 m5 m6 m7 m8 m9 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 s0 s2 s3 s4 s5 s6 s7 s8 s9 t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 w0 w1 w2 w3 w4 w5 w6 w7 w8 w9 x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 z0 z1 z2 z3 z4 z5 z6 z7 z8 z9
+
+# This next sets minting to start with f1, f2, f3, ...
+#/noid/nd/noid dbcreate .sed && /noid/nd/noid mint 131

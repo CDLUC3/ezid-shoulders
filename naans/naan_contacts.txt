@@ -1,0 +1,404 @@
+contact: Marill, Jennifer ||| MarillJ@mail.nlm.nih.gov | +1 301-435-7072
+contact: Johnson, Leslie ||| lesliej@loc.gov |
+contact: Cole, Chris ||| christopher.cole@ars.usda.gov | +1 301-504-7296
+contact: Kunze, John ||| jak@ucop.edu | +1 510-987-9231
+contact: Fullton, Jim ||| James.Fullton@wipo.int | +41 22 338 8026
+contact: Fleming, Declan | UCSD Library | 2010- | dfleming@ucsd.edu | +1 858-534-1287
+contact: Choi, Eric | UCSF Library || Eric.Choi@library.ucsf.edu
+contact: Kochi, Julia | UCSF Library || Julia.Kochi@library.ucsf.edu
+contact: Mills, Garey | UCB Library || gmills@library.berkeley.edu | +1 510-643-4092,
+contact: Jantz, Ron | Rutgers University Libraries | 2006- | rjantz@rci.rutgers.edu | +1 732-932-8573 x180
+contact: Bromley, Hank || 2007- | hank@archive.org | +1 415.561.6767
+contact: Giaretta, David ||| d.l.giaretta@rl.ac.uk
+contact: eziduserid nyu_library
+contact: Hartman, Cathy ||| chartman@library.unt.edu
+contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
+contact: Chiong, Henry | UCLA Library | 2007- | hchiong@library.ucla.edu |
+contact: XXX Bermes, Emmanuelle || 2008- | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
+contact: Stroop, Jon | Princeton University Library || jstroop@princeton.edu
+contact: XXX Maguire, Marsha | University of Washington Libraries | 2005-2012 | mmaguire@u.washington.edu
+contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
+contact: Saternus, Jakob ||| Jakob.Saternus@arkivnamnden.goteborg.se
+contact: Cornish, Alan | Washington State University Libraries || cornish@wsu.edu | +1 509-335-1895
+contact: Fenton, Kyle | Robert W. Woodruff Library || jfenton@emory.edu
+contact: Miller, John S. ||| jsmiller@ku.edu
+contact: XXX Mathes, Adam ||| amathes@google.com
+contact: XXX Gray, Tanya ||| tgra@ceh.ac.uk
+contact: Au Yeung, Tim | Libraries and Cultural Resources || ytau@ucalgary.ca | +1 403-220-8975
+contact: Blair, Charles | University of Chicago Library || chas@uchicago.edu | +1 773-702-8459,
+contact: Sioud, Mongi ||| mongi.sioud@cgi.com | +1 514-415-3000 #7032
+contact: Kovacs, Peter ||| kpeter@oszk.hu wrote:
+contact: Lam, Hayward ||| hayward.lam@gmail.com
+contact: Crublet, Jérémy ||| jcrublet@cmbv.com | +33 01 3920 7821
+contact: Rouchon, Olivier ||| olivier.rouchon@CINES.FR | +33 467.141.467
+contact: Hernebring, Patrick ||| Patrick.Hernebring@mairie-toulouse.fr | +33 5.62.27.63.76
+contact: Creighton, Tom ||| CreightonNT@familysearch.org
+contact: XXX Koch, Lisa | Davidson Library University of California | lkoch@library.ucsb.edu | 805-893-4149
+contact: Donahue, Ryan ||| RDonahue@geh.org
+contact: Mitchem, Pam | Belk Library & Information Commons || pricemtchemp@appstate.edu | +1 828-262-8472
+contact: Sonnemann, Ulrike | Leiterin Bibliothek || u.sonnemann@jmberlin.de | +49 25993-564 
+contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
+contact: Santamarina, Carolina ||| carolina@bib.csic.es | +34 91-568 16 79
+contact: De Solan, Olivier ||| o.desolan@SOMME.FR | +33 3 60 03 49 50
+contact: Renard, Catherine ||| Catherine.Renard@univ-paris1.fr
+contact: Macdonald, Mikki Simon | MIT Libraries || mssimon@MIT.EDU | +1 617-253-7146
+contact: Jordan, Mark | W.A.C. Bennett Library || mjordan@sfu.ca | +1 778.782.5753
+contact: Golding, David ||| David.Golding@bl.uk | +44 1937 546966
+contact: Enders, Markus ||| Markus.Enders@bl.uk
+contact: Daniele, Boucon ||| daniele.boucon@cnes.fr
+contact: Moses, Laurie Lee | Center for Black Music Research || lmoses@colum.edu | +1 312.369.7518
+contact: Giarlo, Michael J. ||| leftwing@alumni.rutgers.edu
+contact: Winkler, Mike | University of Pennsylvania Library || winkler4@pobox.upenn.edu | +1 215.573.9086
+contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
+contact: eziduserid unkentucky
+contact: Dobratz, Susanne | University Library & Computer and Media Services | dobratz@cms.hu-berlin.de | +49+30+2093-7070
+contact: Cassoudesalle, Joanna ||| j.cassoudesalle@cirdoc.fr | +33 4 67 11 85 10
+contact: Myung-Ja "MJ" Han | Assistant Professor and Metadata Librarian || mhan3@illinois.edu | 217-333-9515
+contact: XXX Gourley, Don | The Gelman Library System | dgourley@gelman.gwu.edu |
+contact: Collignon, Vincent | Naoned Systèmes || vcollignon@naoned-systemes.fr | +33 02 40 78 64 21
+contact: Froissart, Eric ||| eric.froissart@doubs.fr |
+contact: Tamborini, Jean-Christophe ||| jean-christophe.tamborini@cg90.fr |
+contact: XXX Ouvrard, Gaëll e||| gaelle.ouvrard@ville-pontivy.fr |
+contact: Hudspeth, Marisa ||| mhudspeth@rockarch.org | +1 914-366-6324
+contact: XXX Brochier, André ||| andre.brochier@culture.gouv.fr |
+contact: Baverel, Jean-Marie ||| jean-marie.baverel@besancon.fr | +33 03.81.61.59.61
+contact: Vaudran, Freddy ||| vaudranfreddy@cg972.fr |
+contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
+contact: Borello, Sébastien ||| borello.s@cg03.fr | +33 0470357253
+contact: Devarrewaere, Anthony ||| Anthony.DEVARREWAERE@cg21.fr |
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: Kaiser, Max ||| max.kaiser@onb.ac.at |
+contact: Dalton, Joseph ||| jdalton@nypl.org | +1 212-592-7053
+contact: Bracke, Paul | Purdue University Libraries || pbracke@purdue.edu | +1 765-496-3606
+contact: Chauvin, Clotilde | CRDP d'Aix-Marseille || clotilde.chauvin@crdp-aix-marseille.fr | +33 04 91 14 13 90
+contact: Cordeiro, Inês ||| icordeiro@bnportugal.pt | +351 217982 021/022
+contact: Biscop, Jean-Luc ||| jean-luc.biscop@culture.gouv.fr | +33 0140158326
+contact: Weber, Anne ||| anne.weber@inha.fr | +33 01 47 03 84 18
+contact: Foudyl | Dirigeant d'Amanager.net || foudyl@amanager.net | +33 5 24 07 74 36
+contact: Topaloglu, Abdullah | IRCICA Library || abdullahtopaloglu@ircica.org |
+contact: Van Reeth, Benoît ||| benoit.van-reeth@rhone.fr | +33 4 78 28 05 73
+contact: XXX Olivier, Laetitia ||| Laetitia.OLIVIER@rhone.fr |
+contact: Torres, Michele ||| michele.torres@rhone.fr |
+contact: Bouye, Edouard ||| ebouye@CG15.FR |
+contact: Besenval, Anita ||| Anita.Besenval@cg73.fr | +33 04 79 68 34 50
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: Vanbalberghe, Agnès ||| Vanbalberghe.Agnes@cg62.fr | +33 03 21 71 64 39
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: García, Daniel Montes ||| fdaniel.montes@CENTRODEESTUDIOSANDALUCES.ES | 955 055 241
+contact: Perry, Sue | UCSC Library || chesley@ucsc.edu | +1 831-459-5590
+contact: Roman, Pascal ||| p.romain@cg33.fr | +33 (0)5 56 99 33 33
+contact: Fontaines, Chantal ||| Chantal.fontaines@livre-franchecomte.com | +33 (0)3 84 26 99 51
+contact: Restif, Manonmani ||| restifm@cg51.fr | +33 (0)3 26 85 17 58 
+contact: EZID userid sb-nceas
+contact: EZID userid qdr_cqrm
+contact: EZID userid ncar
+contact: EZID userid usgs
+contact: EZID userid ornldaac
+contact: Runfola, Sylviane ||| Sylviane.Runfola@paris.fr | +33 (0)1.49.29.36.22
+contact: Roche, Thomas ||| thomas.roche@CG58.FR | +33 (0)3.86.60.68.30
+contact: Coquelin, Sophie ||| s.coquelin@IN-OC.ORG | +33 (0)5.59.13.06.40
+contact: EZID userid xxx
+contact: EZID userid eosdis
+contact: EZID userid ucsd_opentopo
+contact: EZID userid tdar
+contact: EZID userid data-planet
+contact: EZID userid labarchives
+contact: EZID userid ucmlibrary (Emily Linn)
+contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
+contact: EZID userid lternet (James Brunt)
+contact: EZID userid aasdata (Chris Biemesderfer)
+contact: EZID userid ciser
+contact: EZID userid fhcrc
+contact: EZID userid ucla-eeb1
+contact: EZID userid crcns.org
+contact: EZID userid ucsd_jnieh
+contact: EZID userid ohsu_libr
+contact: Moses, Donald | Robertson Library || dmoses@upei.ca |
+contact: Barthet, Emilie | University Library || emilie.barthet@univ-lyon1.fr | +33 472445835
+contact: EZID userid bulyon1
+contact: Cardoso, Patrick ||| Patrick.CARDOSO@CG40.FR | +33 (0)5.58.05.40.40 / 8033
+contact: EZID userid figshare
+contact: EZID userid sb-pisco
+contact: Vesson, Valéry ||| valery.vesson@cg01.fr
+contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+contact: EZID userid ucrlibrary
+contact: EZID userid uoregon
+contact: EZID userid nsidc
+contact: EZID userid griidc
+contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
+contact: EZID userid oregonstate
+contact: EZID userid ucr-­
+contact: EZID userid esipcommon
+contact: EZID userid ucsd_hellyj
+contact: Menard, Martha | Georgetown University CAM Program || mbmenard@gmail.com | 604.565.5669
+contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: EZID userid ucsd_ mgilson
+contact: EZID userid datashare
+contact: Demory, Cédric ||| cedric.demory@cg41.fr |
+contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+contact: Weber, Vincent ||| archives@oise.fr |
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: EZID userid washstate
+contact: EZID userid notredame
+contact: EZID userid umamherst
+contact: EZID userid uw_csde
+contact: EZID userid iucns
+contact: EZID userid uofutah
+contact: EZID userid ucsd_ooi
+contact: Wells, Walt ||| walt@opencloudconsortium.org |
+contact: EZID userid uci
+contact: EZID userid jhudms
+contact: Tacail, Brigitte ||| brigitte.tacail@mairie-lyon.fr | +33 04 78 92 32 54
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: EZID userid unavco
+contact: Rey, Bertrand ||| Bertrand.REY@cg74.fr | +33 04 50 66 84 20
+contact: EZID userid rvdata_us
+contact: EZID userid ucsd_cmmap
+contact: Binkley, Peter | Information Technology Services || peter.binkley@ualberta.ca | 780-492-3743
+contact: Laurent, Xavier ||| xavier.laurent@cg18.fr | +33 (0)2 48 55 82 60
+contact: EZID userid peerj
+contact: Brémond, Pierre ||| PBremond@cg86.fr |
+contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
+contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+contact: Morandiere, Bruno ||| bruno.morandiere@mom.fr |
+contact: EZID userid noaa-edm
+contact: EZID userid tkn
+contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
+contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
+contact: eziduserid vtlib
+contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: Motte, Alice ||| amotte@cg48.fr |
+contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+contact: Olive, Béatrice || beatrice.olive@cg12.fr |
+contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
+contact: Jegouzo, Benoît ||| bjegouzo@cg83.fr | +33 04.98.10.22.77
+contact: eziduserid ucsd_crbs
+contact: eziduserid ucsd_elrap
+contact: eziduserid ucb-ling
+contact: Simonet, Luc ||| l.simonet@cg71.fr | +33 03 85 39 75 68
+contact: Rahon, Antoine ||| antoine.rahon@cg43.fr | +33 04.71.02.52.09
+contact: eziduserid cornellib
+contact: English, Eben ||| eenglish@bpl.org | +1 617-859-2238
+contact: eziduserid ucb-mvz
+contact: eziduserid bcid
+contact: eziduserid ucsd_onelab
+contact: eziduserid brownidsvc
+contact: eziduserid umich
+contact: Jansen, Adam ||| adam_jansen@outlook.com |
+contact: eziduserid sagebio
+contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
+contact: eziduserid caltech
+contact: eziduserid broad
+contact: eziduserid caltech_sl
+contact: eziduserid hdataverse
+contact: eziduserid OneOcean
+contact: eziduserid iupui
+contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
+contact: eziduserid uw_esci
+contact: eziduserid datacommon
+contact: eziduserid fdsn
+contact: Papy, Fabrice ||| fabrice.papy@msh-paris.fr |
+contact: eziduserid uw_cig
+contact: eziduserid columbia
+contact: Blanckaert, Odile ||| odile.blanckaert@valdoise.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Johnson, Patrick ||| pjohnson@sfsymphony.org | +1 425-503-5270
+contact: eziduserid nasa_nccs
+contact: Molinie, Christelle ||| christelle.molinie@mairie-toulouse.fr |
+contact: Hill, David ||| hill@numismatics.org | +1 212-571-4470
+contact: eziduserid sb-mirage_agl
+contact: eziduserid umbs
+contact: Aufray, Sandrine ||| sandrine.aufray@defense.gouv.fr | +33 01 44 42 11 03
+contact: eziduserid cams
+contact: eziduserid renci
+contact: Perez, Christina ||| perez.cristina@epa.gov | +1 919-541-2793
+contact: Percot, Patrick ||| patrick.percot@cg56.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: eziduserid ucb-its
+contact: eziduserid uidaho
+contact: eziduserid nees
+contact: Griffin, James ||| griffinj@lafayette.edu | +1 610-330-5160
+contact: eziduserid duke_lib
+contact: Bertanier, Florence ||| fbertanier@cg02.fr |
+contact: eziduserid ucd_irl
+contact: eziduserid middlebury
+contact: eziduserid cu-ciesin
+contact: Rembert, Sébastien ||| srembert@cg88.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: eziduserid ucb-ist-rit
+contact: eziduserid issda
+contact: eziduserid usgcrp
+contact: Déhondt, Céline ||| edéhondt@cg34.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
+contact: Venegas, Luis Ocampo | IT Department, Web Project Team || luis.ocampo.venegas@una.cr |
+contact: eziduserid landcarenz
+contact: Perronnet, Christelle ||| christelle.perronnet@cg63.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Romero, Gustavo Candela ||| desarrollo@cervantesvirtual.com |
+contact: Demé, Agnès ||| Deme.Agnes@cr-languedocroussillon.fr | +33 04 67 22 94 47
+contact: eziduserid uiuc_lib
+contact: eziduserid kalbflei
+contact: Lemaire, Sylvie ||| sylvie.lemaire@bpi.fr | +33 1 44 78 44 79
+contact: Goncalves, Bertrand ||| bertrand.goncalves@porto-vecchio.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Parrend, Pierre | ECAM Strasbourg-Europe || pierre.parrend@ecam-strasbourg.eu | +33 (0) 3 90 40 09 63
+contact: Brau, Pierre-Frédéric ||| pfbrau@cg89.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Thiagarajan, Balasubramanian ||| otolaryngologyonline@GMAIL.COM |
+contact: Fournel, Matthieu ||| matthieu.fournel@saint-etienne.fr | +33 04.77.34.40.41
+contact: eziduserid ucb-bsl
+contact: eziduserid globe
+contact: Lucas, Marie-Laure ||| marie-laure.lucas@cg28.fr | +33 02 37 88 82 46
+contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+contact: Annoepel-Cabrignac, Sophie ||| sophie.annoepel-cabrignac@museepicassoparis.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Lagarrigue, Aymone ||| aymone.lagarrigue@cg82.fr |
+contact: Holloway, Steven | JMU Libraries || hollowsw@jmu.edu |
+contact: eziduserid cors
+contact: Smith, Dan ||| dan@colectica.com |
+contact: eziduserid morphobank
+contact: eziduserid ligo
+contact: ROUCHY-LEVY, Violette ||| violette.rouchy-levy@cg08.fr |
+contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+contact: eziduserid doiwustl
+contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
+contact: eziduserid tcia-ezid
+contact: Claudel, Céline ||| celine.claudel@cg35.fr |
+contact: Aubrée, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
+contact: �on, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
+contact: eziduserid cu-rescom
+contact: eziduserid sb-writ
+contact: Gomez, Joshua | USC Libaries || gomezjn@usc.edu |
+contact: de Pape, Aldo ||| aldo.depape@aswegrow.org | +44 780 951 1065
+contact: Berthier, Sandrine | Library || sandrine.berthier@univ-lille3.fr | +33-3-20-41-70-34
+contact: Vagh, Rajesh ||| raj190888@gmail.com |
+contact: eziduserid lbnl-lib
+contact: Rault, Julien | Sciences Po Library || julien.rault@sciencespo.fr | +33-1-45-49-51-85
+contact: eziduserid ucsd_cchdo
+contact: eziduserid lbnl-openmsi
+contact: eziduserid USFWS-SW
+contact: Bounds, Stephen | knowquestion Pty Ltd || sb@knowquestion.com.au | 0401 829 096
+contact: Contassot-Crublet, Barbara | Bibliothèque / Service Technologie de l'Information || barbara.contassot@universcience.fr | +33 01.40.05.71.49
+contact: eziduserid umd
+contact: Saudrais, Hélène ||| hsaudrais@assemblee-nationale.fr
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: eziduserid ucinlibs
+contact: Moukhlisse, Hassan ||| moukhlisse@gmail.com |
+contact: eziduserid iplant
+contact: eziduserid cmu-ezid
+contact: eziduserid noaa-gmd
+contact: eziduserid odumunc
+contact: eziduserid ucdavis-lib
+contact: eziduserid davis-ssds
+contact: eziduserid usulibrary
+contact: Bonicel, Matthieu | BnF || matthieu.bonicel@bnf.fr | +33 (0)1 55 93 75 34
+contact: Bouchez, Valentine ||| valentineleignel@gmail.com | +33 03.61.76.20.95
+contact: Brown, Susan ||| susan.brown@ualberta.ca | 780-492-7803
+contact: eziduserid acsess
+contact: Smith, Tony ||| tsmith@cap.org | +1 847-832-7267
+contact: eziduserid crcl
+contact: eziduserid nmnh_rcis
+contact: Diwo, Gérard ||| diwo.g@cg55.fr | +3 3 29 79 01 89
+contact: Gargault, Franck ||| fgargault@ardeche.fr | +33 04 75 66 71 23
+contact: Rousset, Miled | MOM-CNRS Universit� Lyon2 || miled.rousset@mom.fr | +33-0472715896
+contact: eziduserid unmlibrary
+contact: eziduserid minnesota
+contact: eziduserid ucsd_idashrepository
+contact: eziduserid globus
+contact: eziduserid mygeohub
+contact: eziduserid purduepoly
+contact: eziduserid drum
+contact: Figueiredo, Alexandre ||| ampfigueiredo@gmail.com | +351 916 115 250
+contact: Robin, Vélleda ||| v.robin@mairie-bordeaux.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Markidès, Clémentine ||| clementine.markides@mairie-rueilmalmaison.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: eziduserid masonlib
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: Molinié, Christelle ||| christelle.molinie@mairie-toulouse.fr |
+contact: eziduserid ucsd_datamares
+contact: Chenard, Gaël ||| gael.chenard@cg05.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: Coquelin, Sophie ||| bolseira.fmh@gmail.com | +351-964545118
+contact: Chevalier, Jean ||| jean.chevalier@cg49.fr | +33 2 41 80 80 06
+contact: Ouzeddoun, Asmaa ||| ouzeddoun.asmaa@yahoo.fr |
+contact: eziduserid dartmouthc
+contact: Say Barbey, Hélène ||| hsay@cg54.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid nuigalway
+contact: Pichenot, François ||| fpichenot@ville-roubaix.fr |
+contact: de la Selle, Xavier ||| xavier.delaselle@mairie-villeurbanne.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid physionet
+contact: PAVY, Frédéric ||| Frederic.PAVY@blois.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid mbf_bioscience
+contact: Rault, Philippe ||| Philippe.RAULT@cg79.fr | +33 05 49 08 94 90
+contact: eziduserid umassmed
+contact: eziduserid ucb-lawlib
+contact: Salach, Blandine ||| blandine.salach@cg10.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid sb-chg
+contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
+contact: eziduserid utaustin
+contact: eziduserid ucsd_d3r
+contact: eziduserid dartcrawda
+contact: eziduserid cu-ieda
+contact: eziduserid sbgrid
+contact: eziduserid wyu_libs
+contact: eziduserid vtti_ezid
+contact: Vinerean, Simona ||| editor@expertjournals.com |
+contact: Leclerc, Catherine ||| catherine.leclerc@cg70.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Prigent, Anne-Claire ||| anne-claire.prigent@cg65.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid mtstate
+contact: Gerardot, Anne ||| agerardot.archives@cg87.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: Burckel, Franck ||| franck.burckel@strasbourg.eu |
+contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
+contact: Roche, Thomas ||| thomas.roche@cg27.fr | +33 2.32.31.50.84
+contact: Marchand, Etienne ||| e.marchand@oieau.fr | +33 5.55.11.47.94
+contact: eziduserid duke_morpho
+contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
+contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+contact: eziduserid uta_tacc
+contact: eziduserid umiami
+contact: eziduserid cos
+contact: eziduserid aulibrary
+contact: eziduserid ccc
+contact: eziduserid uoa
+contact: eziduserid uta_ica
+contact: eziduserid iris
+contact: eziduserid uta_peteng
+contact: Libaud, Gaëtane ||| gaetane.libaud@laval.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Thomas, Patricia ||| pthomas@cg16.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: Sanchez, Françoise ||| francoise.sanchez@ville-beziers.fr |
+contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
+contact: eziduserid mla
+contact: eziduserid pittquantum
+contact: eziduserid libunc
+contact: eziduserid re3data
+contact: Donoghue, Mark ||| m.donoghue@ieee |
+contact: Leonard, Kendra ||| kendraprestonleonard@gmail.com |
+contact: Pasquier, Thierry ||| thierry.pasquier@emf.ccsti.eu | +33549503308
+contact: eziduserid ucsd_dbmicloud
+contact: eziduserid stsci
+contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid uw_isolab
+contact: Miller, Anna ||| editors@rulb.org |
+contact: eziduserid caltech_wormbase
+contact: eziduserid umiami_regenbase
+contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
+contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
+contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: Kunze, John | California Digital Library || jak@ucop.edu

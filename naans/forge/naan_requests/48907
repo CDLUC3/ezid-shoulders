@@ -1,0 +1,54 @@
+From jak@ucop.edu Fri Mar 13 16:09:08 2009
+Date: Fri, 13 Mar 2009 16:09:08 -0700 (PDT)
+From: John A. Kunze <jak@ucop.edu>
+To: Lisa Koch <lkoch@LIBRARY.UCSB.EDU>
+Bcc: jkunze@ucop.edu
+Subject: Re: Interested ingenerating ARKs
+
+Hi Lisa,
+
+Thanks for your message.  The NAAN,
+
+	48907
+
+has been registered for the University of California Santa Barbara and
+you may begin using it immediately.
+
+In thinking about how to manage the namespace, you may find it helpful
+to consider the usual practice of partitioning it with reserved prefixes
+of, say 1-5 characters, eg, names of the form "ark:/48907/xt...." for
+one "sub-publisher" in an organization.  Opaque prefixes that only have
+meaning to information professionals are often a good idea and have
+precedent in schemes such as ISBN and ISSN.
+
+There's nothing else you need to do right now.  As you may know, we're
+hoping to craft a small number of standardized statements for name
+assigning authority policy that organizations can use if they want to.
+
+-John
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612     fax: 510 893 5212     Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+--- On Thu, 12 Mar 2009, Lisa Koch wrote:
+> I'm interested in generating ARKs.  I believe our organization does not
+> currently have a NAAN.  How can I obtain one?  What other steps do I need to
+> go through to start producing ARKs (I'm currently looking into noid software).
+> 
+> 
+> Sincerely,
+> Lisa Koch
+> 
+> -- 
+> Lisa Richter Koch
+> Metadata Librarian
+> Davidson Library University of California
+> Santa Barbara, CA 93106-9010
+> 
+> 805-893-4149
+> lkoch@library.ucsb.edu
+> http://www.library.ucsb.edu/
+> 

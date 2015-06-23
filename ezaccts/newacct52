@@ -1,0 +1,21 @@
+todays_date: 05/11/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: stsci
+acct_email: lagerstrom@stsci.edu
+primary_contact: Jill Lagerstrom
+contact_email: lagerstrom@stsci.edu
+contact_phone: 410-338-4961
+contact_fax:
+org: Space Telescope Science Institute
+org_acroynm: STSci
+org_www: http://www.stsci.edu
+mailing_address1: 3700 San Martin Drive
+mailing_address2:
+mailing_city: Baltimore
+mailing_state: MD
+mailing_zip: 21218
+mailing_country: USA
+identifiers: DOIs and ARKs
+identifier_plans: Will be building a UI for Hubble Space Telscope data sets, which already have unique IDs.
+comments: Client wants 2 DOI shoulders: one with a minter, one without

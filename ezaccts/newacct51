@@ -1,0 +1,23 @@
+todays_date: 05/11/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: ucsd_dbmicloud
+acct_email: j5kim@ucsd.edu
+primary_contact: Jihoon Kim
+contact_email: j5kim@ucsd.edu
+contact_phone: 858-822-4324
+contact_fax:
+org: UC San Diego Department of Biomedical Informatics
+org_acroynm: dbmicld
+org_www: http://dbmi.ucsd.edu
+mailing_address1: 9500 Gilman Drive
+mailing_address2:
+mailing_city: La Jolla
+mailing_state: CA
+mailing_zip: 92093
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: NO
+internal_identifiers: NO
+identifier_plans: Assign DOIs to data and code for a variety of projects%0D%0A%0D%0ANote for Joan: IDs will be co-owned by ucsd_lib
+comments: Note for John: default setup

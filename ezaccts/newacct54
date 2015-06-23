@@ -1,0 +1,23 @@
+todays_date: 05/20/2015
+realm: CDL
+submitters_name: Joan Starr
+acct_name: uw_isolab
+acct_email: steig@uw.edu
+primary_contact: Eric Steig
+contact_email: steig@uw.edu
+contact_phone: 206-685-3715
+contact_fax:
+org: University of Washington IsoLab
+org_acroynm: UWIsoLab
+org_www: depts.washington.edu/isolab
+mailing_address1: 70 Johnson Hall
+mailing_address2: University of Washington
+mailing_city: Seattle
+mailing_state: WA
+mailing_zip: 98195
+mailing_country: USA
+identifiers: DOIs and ARKs
+created_before: NO
+internal_identifiers: NO
+identifier_plans: We'd like to mint DOIs for data sets we archive on our servers. (publicly available/resolvable and each data set has a landing page)%0D%0Ahttp://isolab.ess.washington.edu/isolab/research/data
+comments: Note for JAK: DEFAULT%0D%0ANote for JS: co-owned by uwlibs

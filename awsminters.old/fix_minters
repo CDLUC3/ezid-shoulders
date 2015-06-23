@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+
+# XXXX current dir MUST be .../apache2/shoulders
+# every entry has at least one minter
+# nog mkminter -p ezid/m/ark --type rand --atlast add3 $naan/$shdr eedeek
+
+#warning: no firstpart in record ark:/87940/m4
+#warning: no firstpart in record doi:10.7940/M3
+#warning: bad newminter in record doi:10.7939/DVN
+
+#cp ~jak/hv.txt hv.txt || {
+#	echo "missing input file"
+#	exit 1
+#}
+
+perl -00 -wne '
+	use strict;
+	my ($header) = /^::\s*([^\n]*)\n/m and /^manager:\s*ezid$/m or
+		next;		# skip comment blocks and non-ezid records
+	m{^minter:\s*$}m and
+		next;			# nothing to do with empty minter
+	m{^minter:.*/$}m or
+		next;			# only interested in botched minters
+	my ($firstpart) = m{^#firstpart:\s*(.*)$}m or
+		print("warning: no firstpart in record $header\n"),
+		next;
+	$firstpart =~ m,^\w{5}/\w+$, or
+		print("warning: firstpart ($firstpart) malformed ",
+			"in record $header\n"),
+		next;
+	my ($mask) = m{^#mask:\s*(.*)$}m or
+		print("warning: no mask in record $header\n"),
+		next;
+	$mask =~ s/^r// or
+		print("warning: mask ($mask) does not begin with \"r\" ",
+			"in record $header\n"),
+		next;
+	my ($oacounter) = m{^#oacounter:\s*(\d+)$}m or
+		print("warning: no oacounter in record $header\n"),
+		next;
+	my ($fminter) = m{^#fminter:\s*(.*)$}m;
+	#$fminter ||= 1; #'xxxx';
+	my $mbase = "../minters/ezid/ark";
+	# Note: $nfile is a relative path (eg, to current $sv)
+	# XXXX here is why the current dir requirement above
+#	unless (-e "../../$nfile") {
+#		my $cmd = "nog mkminter -p $mbase " .
+#			"--type rand --atlast add3 $firstpart $mask";
+#		#print "$cmd\n";
+#		my $out = `$cmd`;
+#		$out =~ m/^\n$/s or
+#			print("warning: nog mkminter returned: $out"),
+#			next;
+#		print "Created minter $firstpart $mask\n";
+#	}
+	my $curcnt =
+	    `./getbdbvar $mbase/$firstpart/nog.bdb :/oacounter`;
+	chop $curcnt;
+	print "curcnt=$curcnt for firstpart=$firstpart\n";
+#	$curcnt =~ s{^:/oacounter: (\d+)\n$}{$1} or
+#		print("warning: curcnt ($curcnt) not a number\n"),
+#		next;
+#	if ($curcnt < $oacounter) {
+#		my $diff = $oacounter - $curcnt;
+#		my $cmd = "nog -d $mbase/$firstpart mint $diff";
+#		print "updating: $cmd\n";
+#		my $out = `$cmd`;
+#		#print "$out\n";
+#		#my $out = "\n";
+#		#$out =~ m/^\n$/s or
+#		#	print("warning: nog mint $diff returned: $out"),
+#		#	next;
+#	}
+#	elsif ($curcnt > $oacounter) {
+#		print "weird: curcnt ($curcnt) is > oacounter ($oacounter)\n";
+#	}
+#	else {
+#		#print "curcnt ($curcnt) == oacounter ($oacounter)\n";
+#	}
+
+	' < ~jak/hv.txt
+
