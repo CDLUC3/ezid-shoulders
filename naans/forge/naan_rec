@@ -11,7 +11,7 @@ if ($# < 2) then
 	echo "It also puts out a stub NAA record for the NAAN registry."
 	echo "Don't forget to update the date of the NAAN registry file."
 	echo ""
-	echo 'To unmint a NAAN (22222), use "nog queue now 22222".'
+	echo 'To unmint a NAAN (22222), use "nog -d ~/minters/n2t/naans queue now 22222".'
 	exit 1
 endif
 
@@ -122,6 +122,8 @@ John A. Kunze            jak@ucop.edu      California Digital Library\
 Oakland, CA  94612     fax: 510 893 5212     Office of the President\
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\
 " > new_naa_response
+
+echo "Response template being sent to $notify."
 
 mail -s 'naan response' $notify < new_naa_response
 

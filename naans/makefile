@@ -16,10 +16,8 @@ print_usage:
 	@echo 'Usage:'
 	@echo ''
 	@echo "today is $(TODAY)"
-	@echo '   $ make diffs.txt   # BEFORE "all", if you plan to "announce"
+	@echo '   $ make diffs.txt   # BEFORE "all", if you plan to "announce"'
 	@echo '   $ make all         # to create derivative files'
-#	@echo '   $ make shoulders   # to backup the shoulders file'
-#	@echo '   $ make all         # both of the above
 	@echo '   $ make replicate   # update the CDL website'
 	@echo '   $ make announce    # email diffs to folks at replica sites'
 	@echo ''
@@ -67,7 +65,7 @@ umsg:
 #	@scp $^ $(stage):/cdlib/apache/htdocs/services/uc3/ 
 
 commit:
-	hg commit -m 'new entries'
+	hg commit -m 'new NAAN entries'
 
 # Private stuff
 #
