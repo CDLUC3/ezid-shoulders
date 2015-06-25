@@ -437,7 +437,7 @@ how:	NP | (:unkn) unknown | 2005 |
 !contact: Chiong, Henry | UCLA Library | 2007- | hchiong@library.ucla.edu |
 
 naa:
-who:	Bibliothèque nationale de France (=) National Library of France (=) BNF
+who:	BibliothÃ¨que nationale de France (=) National Library of France (=) BNF
 what:	12148
 when:	2005.07.17
 where:	http://ark.bnf.fr
@@ -466,7 +466,7 @@ how:	NP | (:unkn) unknown | 2005 |
 !contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
 
 naa:
-who:	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
+who:	Archives of Region of VÃ¤stra GÃ¶taland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
 what:	89901
 when:	2005.11.30
 where:	http://www.arkivnamnden.org
@@ -538,7 +538,7 @@ how:	NP | (:unkn) unknown | 2007 |
 !contact: Blair, Charles | University of Chicago Library || chas@uchicago.edu | +1 773-702-8459,
 
 naa:
-who:	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
+who:	BibliothÃ¨que et Archives Nationales du QuÃ©bec (=) National Libary and Archives of Quebec (=) BANQ
 what:	52327
 when:	2007.10.18
 where:	http://www.banq.qc.ca
@@ -547,7 +547,7 @@ how:	NP | (:unkn) unknown | 2007 |
 !contact: Sioud, Mongi ||| mongi.sioud@cgi.com | +1 514-415-3000 #7032
 
 naa:
-who:	National Széchényi Library (=) National Library of Hungary (=) OSZK
+who:	National SzÃ©chÃ©nyi Library (=) National Library of Hungary (=) OSZK
 what:	39331
 when:	2008.03.05
 where:	http://www.oszk.hu
@@ -556,7 +556,7 @@ how:	NP | (:unkn) unknown | 2008 |
 !contact: Kovacs, Peter ||| kpeter@oszk.hu wrote:
 
 naa:
-who:	Library and Archives Canada (=) Bibliothèque et Archives Canada (=) LAC
+who:	Library and Archives Canada (=) BibliothÃ¨que et Archives Canada (=) LAC
 what:	26677
 when:	2008.05.15
 where:	http://collectionscanada.ca
@@ -571,10 +571,10 @@ when:	2008.09.19
 where:	http://www.cmbv.fr
 how:	NP | (:unkn) unknown | 2008 |
 !why:   ARK
-!contact: Crublet, Jérémy ||| jcrublet@cmbv.com | +33 01 3920 7821
+!contact: Crublet, JÃ©rÃ©my ||| jcrublet@cmbv.com | +33 01 3920 7821
 
 naa:
-who:	Centre Informatique National de l'Enseignement Supérieur (=) French National Data Center for Higher Education and Scientific Research (=) CINES
+who:	Centre Informatique National de l'Enseignement SupÃ©rieur (=) French National Data Center for Higher Education and Scientific Research (=) CINES
 what:	87895
 when:	2008.10.14
 where:	http://www.cines.fr
@@ -583,7 +583,7 @@ how:	NP | (:unkn) unknown | 2008 |
 !contact: Rouchon, Olivier ||| olivier.rouchon@CINES.FR | +33 467.141.467
 
 naa:
-who:	Bibliothèque municipale de Toulouse (=) Toulouse Municipal Library (=) BIBTOULOUSE
+who:	BibliothÃ¨que municipale de Toulouse (=) Toulouse Municipal Library (=) BIBTOULOUSE
 what:	74899
 when:	2009.01.23
 where:	http://www.bibliotheque.toulouse.fr
@@ -628,7 +628,7 @@ how:	NP | (:unkn) unknown | 2009 |
 !contact: Mitchem, Pam | Belk Library & Information Commons || pricemtchemp@appstate.edu | +1 828-262-8472
 
 naa:
-who:	Jüdisches Museum Berlin (=) Jewish Museum Berlin (=) JMBERLIN
+who:	JÃ¼disches Museum Berlin (=) Jewish Museum Berlin (=) JMBERLIN
 what:	10261
 when:	2009.07.22
 where:	http://www.jmberlin.de
@@ -646,7 +646,7 @@ how:	NP | (:unkn) unknown | 2009 |
 !contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
 
 naa:
-who:	Consejo Superior de Investigaciones Científicas (=) Spanish National Research Council (=) CSIC
+who:	Consejo Superior de Investigaciones CientÃ­ficas (=) Spanish National Research Council (=) CSIC
 what:	71479
 when:	2009.10.14
 where:	http://www.csic.es
@@ -655,7 +655,7 @@ how:	NP | (:unkn) unknown | 2009 |
 !contact: Santamarina, Carolina ||| carolina@bib.csic.es | +34 91-568 16 79
 
 naa:
-who:	Archives départementales de la Somme (=) Somme Departmental Archives (=) ADSOMME
+who:	Archives dÃ©partementales de la Somme (=) Somme Departmental Archives (=) ADSOMME
 what:	58483
 when:	2009.10.21
 where:	http://www.somme.fr
@@ -664,7 +664,7 @@ how:	NP | NR, OP | 2009 | http://archives.somme.fr/download.cgi?filename=account
 !contact: De Solan, Olivier ||| o.desolan@SOMME.FR | +33 3 60 03 49 50
 
 naa:
-who:	Bibliothèque Cujas (=) Cujas inter-university library (Paris 1 Panthéon Sorbonne and Paris 2 Assas) (=) BIUCUJAS
+who:	BibliothÃ¨que Cujas (=) Cujas inter-university library (Paris 1 PanthÃ©on Sorbonne and Paris 2 Assas) (=) BIUCUJAS
 what:	45829
 when:	2009.10.28
 where:	http://biu-cujas.univ-paris1.fr
@@ -701,7 +701,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Enders, Markus ||| Markus.Enders@bl.uk
 
 naa:
-who:	Centre National d'Études Spatiales (=) French Space Agency (=) CNES
+who:	Centre National d'Ãtudes Spatiales (=) French Space Agency (=) CNES
 what:	68059
 when:	2010.02.02
 where:	http://www.cnes.fr
@@ -747,7 +747,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: eziduserid unkentucky
 
 naa:
-who:	Humboldt-Universität zu Berlin (=) Humboldt University Berlin (=) HUB
+who:	Humboldt-UniversitÃ¤t zu Berlin (=) Humboldt University Berlin (=) HUB
 what:	77635
 when:	2010.06.07
 where:	http://www.hu-berlin.de
@@ -756,7 +756,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Dobratz, Susanne | University Library & Computer and Media Services | dobratz@cms.hu-berlin.de | +49+30+2093-7070
 
 naa:
-who:	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
+who:	Lo CIRDÃC â MediatÃ¨ca occitana (=) CIRDOC
 what:	64981
 when:	2010.06.21
 where:	http://www.locirdoc.fr
@@ -783,17 +783,17 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: XXX Gourley, Don | The Gelman Library System | dgourley@gelman.gwu.edu |
 
 naa:
-who:    Archives départementales du Doubs (=) ADDOUBS
+who:    Archives dÃ©partementales du Doubs (=) ADDOUBS
 what:   25993
 when:   2010.08.23
 where:  http://archives.doubs.fr
 how:    NP | (:unkn) unknown | 2010 |
 !why:   ARK
-!contact: Collignon, Vincent | Naoned Systèmes || vcollignon@naoned-systemes.fr | +33 02 40 78 64 21
+!contact: Collignon, Vincent | Naoned SystÃ¨mes || vcollignon@naoned-systemes.fr | +33 02 40 78 64 21
 !contact: Froissart, Eric ||| eric.froissart@doubs.fr |
 
 naa:
-who:	Archives départementales du Territoire de Belfort (=) ADBELFORT
+who:	Archives dÃ©partementales du Territoire de Belfort (=) ADBELFORT
 what:   12997
 when:	2010.08.23
 where:	http://www.archives.cg90.fr
@@ -808,7 +808,7 @@ when:	2010.08.23
 where:	http://archives.pontivy.fr
 how:	NP | (:unkn) unknown | 2010 |
 !why:	ARK
-!contact: XXX Ouvrard, Gaëll e||| gaelle.ouvrard@ville-pontivy.fr |
+!contact: XXX Ouvrard, GaÃ«ll e||| gaelle.ouvrard@ville-pontivy.fr |
 
 naa:
 who:	Rockefeller Archive Center (=) RAC
@@ -826,10 +826,10 @@ when:	2010.09.23
 where:	http://anom.archivesnationales.culture.gouv.fr
 how:	NP | (:unkn) unknown | 2010 |
 !why:	ARK
-!contact: XXX Brochier, André ||| andre.brochier@culture.gouv.fr |
+!contact: XXX Brochier, AndrÃ© ||| andre.brochier@culture.gouv.fr |
 
 naa:
-who:	Ville de Besançon (=) VB
+who:	Ville de BesanÃ§on (=) VB
 what:   48565
 when:	2010.09.28
 where:	http://www.besancon.fr
@@ -838,7 +838,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Baverel, Jean-Marie ||| jean-marie.baverel@besancon.fr | +33 03.81.61.59.61
 
 naa:
-who:	Conseil Général de la Martinique (=) General Counsel of Martinique (=) CG972
+who:	Conseil GÃ©nÃ©ral de la Martinique (=) General Counsel of Martinique (=) CG972
 what:   35569
 when:	2010.10.22
 where:	http://www.cg972.fr
@@ -856,16 +856,16 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
 
 naa:
-who:	Archives départementales de l'Allier (=) ADA
+who:	Archives dÃ©partementales de l'Allier (=) ADA
 what:   84133
 when:	2010.11.22
 where:	http://archives.allier.fr
 how:	NP | (:unkn) unknown | 2010 |
 !why:	ARK
-!contact: Borello, Sébastien ||| borello.s@cg03.fr | +33 0470357253
+!contact: Borello, SÃ©bastien ||| borello.s@cg03.fr | +33 0470357253
 
 naa:
-who:	Archives départementales de la Côte-d'Or (=) ADCO
+who:	Archives dÃ©partementales de la CÃ´te-d'Or (=) ADCO
 what:   71137
 when:	2010.11.25
 where:	http://www.archives.cotedor.fr
@@ -903,7 +903,7 @@ how:	NP | (:unkn) unknown | 2011 |
 #! 34231 derived from DOI prefix 10.4231
 
 naa:
-who:	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
+who:	Centre national de documentation pÃ©dagogique (=) French National Pedogical Documentation Center (=) CNDP
 what:   19153
 when:	2011.02.12
 where:	http://www.cndp.fr
@@ -918,10 +918,10 @@ when:	2011.02.12
 where:	http://www.bnportugal.pt
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
-!contact: Cordeiro, Inês ||| icordeiro@bnportugal.pt | +351 217982 021/022
+!contact: Cordeiro, InÃªs ||| icordeiro@bnportugal.pt | +351 217982 021/022
 
 naa:
-who:	Ministère de la culture et de la communication (=) French Ministry of Culture and Communication (=) MCC
+who:	MinistÃ¨re de la culture et de la communication (=) French Ministry of Culture and Communication (=) MCC
 what:   67717
 when:	2011.03.14
 where:	http://collections.culture.fr
@@ -949,18 +949,18 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Topaloglu, Abdullah | IRCICA Library || abdullahtopaloglu@ircica.org |
 
 naa:
-who:	Archives départementales du Rhône (=) ADR
+who:	Archives dÃ©partementales du RhÃ´ne (=) ADR
 what:   28729
 when:	2011.05.08
 where:	http://www.rhone.fr/education_culture_loisirs/mediatheque_archives/archives_departementales
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
-!contact: Van Reeth, Benoît ||| benoit.van-reeth@rhone.fr | +33 4 78 28 05 73
+!contact: Van Reeth, BenoÃ®t ||| benoit.van-reeth@rhone.fr | +33 4 78 28 05 73
 !contact: XXX Olivier, Laetitia ||| Laetitia.OLIVIER@rhone.fr |
 !contact: Torres, Michele ||| michele.torres@rhone.fr |
 
 naa:
-who:	Archives départementales du Cantal (=) ADC
+who:	Archives dÃ©partementales du Cantal (=) ADC
 what:   16075
 when:	2011.05.27
 where:	http://archives.cantal.fr
@@ -969,33 +969,33 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Bouye, Edouard ||| ebouye@CG15.FR |
 
 naa:
-who:	Archives départementales de la Savoie (=) ADS
+who:	Archives dÃ©partementales de la Savoie (=) ADS
 what:	77293
 when:	2011.06.07
 where:	http://www.savoie-archives.fr
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
 !contact: Besenval, Anita ||| Anita.Besenval@cg73.fr | +33 04 79 68 34 50
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
-who:	Archives départementales du Pas-de-Calais (=) ADPC
+who:	Archives dÃ©partementales du Pas-de-Calais (=) ADPC
 what:	64297
 when:	2011.06.07
 where:	http://www.archivespasdecalais.fr
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
-!contact: Vanbalberghe, Agnès ||| Vanbalberghe.Agnes@cg62.fr | +33 03 21 71 64 39
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Vanbalberghe, AgnÃ¨s ||| Vanbalberghe.Agnes@cg62.fr | +33 03 21 71 64 39
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
-who:	Fundación Centro de Estudios Andaluces (=) Andalusian Studies Centre Foundation (=) FCEA
+who:	FundaciÃ³n Centro de Estudios Andaluces (=) Andalusian Studies Centre Foundation (=) FCEA
 what:	51301
 when:	2011.06.20
 where:	http://www.centrodeestudiosandaluces.es
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
-!contact: García, Daniel Montes ||| fdaniel.montes@CENTRODEESTUDIOSANDALUCES.ES | 955 055 241
+!contact: GarcÃ­a, Daniel Montes ||| fdaniel.montes@CENTRODEESTUDIOSANDALUCES.ES | 955 055 241
 
 naa:
 who:	University of California Santa Cruz (=) UCSC
@@ -1007,7 +1007,7 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Perry, Sue | UCSC Library || chesley@ucsc.edu | +1 831-459-5590
 
 naa:
-who:	Archives départementales de la Gironde (=) ADGIRONDE
+who:	Archives dÃ©partementales de la Gironde (=) ADGIRONDE
 what:	25651
 when:	2011.08.18
 where:	http://gael.gironde.fr
@@ -1016,7 +1016,7 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Roman, Pascal ||| p.romain@cg33.fr | +33 (0)5 56 99 33 33
 
 naa:
-who:	ACCOLAD Franche-Comté (=) ACCOLAD
+who:	ACCOLAD Franche-ComtÃ© (=) ACCOLAD
 what:	12655
 when:	2011.09.13
 where:	http://www.livre-franchecomte.com
@@ -1025,7 +1025,7 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Fontaines, Chantal ||| Chantal.fontaines@livre-franchecomte.com | +33 (0)3 84 26 99 51
 
 naa:
-who:	Archives départementales de la Marne (=) ADMARNE
+who:	Archives dÃ©partementales de la Marne (=) ADMARNE
 what:	86869
 when:	2011.09.26
 where:	http://www.marne.fr/index.php/public/Les-Liens-Du-Conseil-General/Les-Archives-Departementales
@@ -1088,7 +1088,7 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: Runfola, Sylviane ||| Sylviane.Runfola@paris.fr | +33 (0)1.49.29.36.22
 
 naa:
-who:	Archives départementales de la Nièvre (=) ADNIEVRE
+who:	Archives dÃ©partementales de la NiÃ¨vre (=) ADNIEVRE
 what:	60877
 when:	2012.01.02
 where:	http://www.cg58.fr/services-au-public/archives-departementales
@@ -1259,7 +1259,7 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: Moses, Donald | Robertson Library || dmoses@upei.ca |
 
 naa:
-who:	Université Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
+who:	UniversitÃ© Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
 what:	47881
 when:	2012.04.13
 where:	http://www.univ-lyon1.fr
@@ -1269,7 +1269,7 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid bulyon1
 
 naa:
-who:	Archives départementales des Landes (=) Landes Departmental Archives (=) ADLANDES
+who:	Archives dÃ©partementales des Landes (=) Landes Departmental Archives (=) ADLANDES
 what:	35227
 when:	2012.04.24
 where:	http://www.archives.landes.org
@@ -1296,13 +1296,13 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid sb-pisco
 
 naa:
-who:	Archives départementales de l'Ain (=) ADAIN
+who:	Archives dÃ©partementales de l'Ain (=) ADAIN
 what:	22231
 when:	2012.05.26
 where:	http://www.archives-numerisees.ain.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
-!contact: Vesson, Valéry ||| valery.vesson@cg01.fr
+!contact: Vesson, ValÃ©ry ||| valery.vesson@cg01.fr
 !contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 
 naa:
@@ -1342,13 +1342,13 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid griidc
 
 naa:
-who:	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
+who:	FacultÃ©s Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
 what:	83449
 when:	2012.06.17
 where:	http://www.fundp.ac.be/universite
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
-!contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
+!contact: Mercy-Cavrenne, Elodie | BibliothÃ¨que Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
 
 naa:
 who:	Oregon State University (=) OSU
@@ -1366,7 +1366,7 @@ when:	2012.06.27
 where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
-!contact: EZID userid ucr-­
+!contact: EZID userid ucr-Â­
 
 naa:
 who:	Federation of Earth Science Information Partners (=) ESIPFED
@@ -1424,24 +1424,24 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid datashare
 
 naa:
-who:	Archives départementales du Loir-et-Cher (=) ADLC
+who:	Archives dÃ©partementales du Loir-et-Cher (=) ADLC
 what:	57457
 when:	2012.07.11
 where:	http://www.culture41.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
-!contact: Demory, Cédric ||| cedric.demory@cg41.fr |
+!contact: Demory, CÃ©dric ||| cedric.demory@cg41.fr |
 !contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 
 naa:
-who:	Archives départementales de l'Oise (=) ADO
+who:	Archives dÃ©partementales de l'Oise (=) ADO
 what:	44803
 when:	2012.07.11
 where:	http://www.archives.oise.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
 !contact: Weber, Vincent ||| archives@oise.fr |
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
 who:	Washington State University (=) WSU
@@ -1541,7 +1541,7 @@ where:	http://www.archives-lyon.fr/archives
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
 !contact: Tacail, Brigitte ||| brigitte.tacail@mairie-lyon.fr | +33 04 78 92 32 54
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
 who:	UNAVCO (=) UNAVCO
@@ -1553,7 +1553,7 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid unavco
 
 naa:
-who:	Archives départementales de la Haute-Savoie (=) ADHS
+who:	Archives dÃ©partementales de la Haute-Savoie (=) ADHS
 what:	67033
 when:	2012.09.29
 where:	http://archives.cg74.fr
@@ -1589,7 +1589,7 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: Binkley, Peter | Information Technology Services || peter.binkley@ualberta.ca | 780-492-3743
 
 naa:
-who:	Archives départementales du Cher (=) ADCHER
+who:	Archives dÃ©partementales du Cher (=) ADCHER
 what:	41383
 when:	2012.11.28
 where:	http://www.archives18.fr
@@ -1607,13 +1607,13 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid peerj
 
 naa:
-who:	Archives départementales de la Vienne (=) ADV
+who:	Archives dÃ©partementales de la Vienne (=) ADV
 what:	28387
 when:	2012.12.11
 where:	http://www.archives-vienne.cg86.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
-!contact: Brémond, Pierre ||| PBremond@cg86.fr |
+!contact: BrÃ©mond, Pierre ||| PBremond@cg86.fr |
 
 naa:
 who:	Archives municipales de Saint-Denis (=) AMSTDENIS
@@ -1622,11 +1622,11 @@ when:	2012.12.13
 where:	http://archives.ville-saint-denis.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
-!contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
+!contact: Jacquet, FrÃ©dÃ©rique ||| service.archives@ville-saint-denis.fr
 !contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 
 naa:
-who:	Maison de l'Orient et la Méditerranée (=) MOM
+who:	Maison de l'Orient et la MÃ©diterranÃ©e (=) MOM
 what:	76609
 when:	2012.12.19
 where:	http://www.mom.fr
@@ -1688,17 +1688,17 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid vtlib
 
 naa:
-who:	Archives départementales de la Mayenne (=) ADMAYENNE
+who:	Archives dÃ©partementales de la Mayenne (=) ADMAYENNE
 what:	37963
 when:	2013.02.15
 where:	http://www.lamayenne.fr/fr/Archives53
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Chureau, SÃ©verine ||| archives@cg53.fr | +33 0243591090
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
-who:	Archives départementales de la Lozère (=) ADLOZERE
+who:	Archives dÃ©partementales de la LozÃ¨re (=) ADLOZERE
 what:	24967
 when:	2013.02.20
 where:	http://archives.lozere.fr
@@ -1708,23 +1708,23 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 
 naa:
-who:	Archives départementales de l'Aveyron (=) ADAVEYRON
+who:	Archives dÃ©partementales de l'Aveyron (=) ADAVEYRON
 what:	11971
 when:	2013.02.26
 where:	http://archives.aveyron.fr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Olive, Béatrice || beatrice.olive@cg12.fr |
+!contact: Olive, BÃ©atrice || beatrice.olive@cg12.fr |
 !contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 
 naa:
-who:	Archives départementales du Var (=) ADVAR
+who:	Archives dÃ©partementales du Var (=) ADVAR
 what:	73531
 when:	2013.02.28
 where:	http://www.archives.var.fr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Jegouzo, Benoît ||| bjegouzo@cg83.fr | +33 04.98.10.22.77
+!contact: Jegouzo, BenoÃ®t ||| bjegouzo@cg83.fr | +33 04.98.10.22.77
 
 naa:
 who:    Center for Research in Biological Systems (=) CRBS
@@ -1754,7 +1754,7 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: eziduserid ucb-ling
 
 naa:
-who:	Archives départementales de Saône-et-Loire (=) ADSL
+who:	Archives dÃ©partementales de SaÃ´ne-et-Loire (=) ADSL
 what:	60535
 when:	2013.03.07
 where:	http://www.archives71.fr
@@ -1763,7 +1763,7 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Simonet, Luc ||| l.simonet@cg71.fr | +33 03 85 39 75 68
 
 naa:
-who:	Archives départementales de la Haute-Loire (=) ADHL
+who:	Archives dÃ©partementales de la Haute-Loire (=) ADHL
 what:	47539
 when:	2013.03.08
 where:	http://www.archives43.fr
@@ -1853,7 +1853,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid sagebio
 
 naa:
-who:	Archives départementales de la Manche (=) ADMANCHE
+who:	Archives dÃ©partementales de la Manche (=) ADMANCHE
 what:	57115
 when:	2013.04.14
 where:	http://archives.manche.fr
@@ -1916,7 +1916,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid iupui
 
 naa:
-who:	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
+who:	Service des archives rÃ©gionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 what:	44119
 when:	2013.05.27
 where:	http://www.wallonie.be/fr/guide/guide-services/1150
@@ -1979,7 +1979,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid columbia
 
 naa:
-who:	Archives départementales du Val-d'Oise (=) ADVO
+who:	Archives dÃ©partementales du Val-d'Oise (=) ADVO
 what:	18127
 when:	2013.07.16
 where:	http://archives.valdoise.fr
@@ -2007,7 +2007,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid nasa_nccs
 
 naa:
-who:	Musée des Augustins (=) MDA
+who:	MusÃ©e des Augustins (=) MDA
 what:	66691
 when:	2013.08.02
 where:	http://www.augustins.org
@@ -2043,7 +2043,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid umbs
 
 naa:
-who:	Ministère de la Défense, Mémoire des hommes (=) MDMH
+who:	MinistÃ¨re de la DÃ©fense, MÃ©moire des hommes (=) MDMH
 what:	40699
 when:	2013.08.31
 where:	http://www.memoiredeshommes.sga.defense.gouv.fr
@@ -2079,7 +2079,7 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Perez, Christina ||| perez.cristina@epa.gov | +1 919-541-2793
 
 naa:
-who:	Archives départementales du Morbihan (=) AD56
+who:	Archives dÃ©partementales du Morbihan (=) AD56
 what:	15049
 when:	2013.09.19
 where:	http://recherche.archives.morbihan.fr
@@ -2134,7 +2134,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid duke_lib
 
 naa:
-who:	Archives départementales de l'Aisne (=) AD02
+who:	Archives dÃ©partementales de l'Aisne (=) AD02
 what:	63271
 when:	2013.10.14
 where:	http://archives.aisne.fr
@@ -2170,13 +2170,13 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid cu-ciesin
 
 naa:
-who:	Archives départementales des Vosges (=) AD88
+who:	Archives dÃ©partementales des Vosges (=) AD88
 what:	50275
 when:	2013.10.30
 where:	http://www.vosges-archives.com
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Rembert, Sébastien ||| srembert@cg88.fr |
+!contact: Rembert, SÃ©bastien ||| srembert@cg88.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
@@ -2207,17 +2207,17 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid usgcrp
 
 naa:
-who:	Archives départementales de l'Hérault (=) AD3
+who:	Archives dÃ©partementales de l'HÃ©rault (=) AD3
 what:	37279
 when:	2013.11.08
 where:	http://archives-pierresvives.herault.fr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Déhondt, Céline ||| edéhondt@cg34.fr |
+!contact: DÃ©hondt, CÃ©line ||| edÃ©hondt@cg34.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
-who:	Archives municipales d'Orléans (=) AMORLEAN
+who:	Archives municipales d'OrlÃ©ans (=) AMORLEAN
 what:	24625
 when:	2013.11.08
 where:	http://archives.orleans.fr
@@ -2244,7 +2244,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid landcarenz
 
 naa:
-who:	Archives départementales du Puy-de-Dôme (=) AD63
+who:	Archives dÃ©partementales du Puy-de-DÃ´me (=) AD63
 what:	72847
 when:	2013.11.21
 where:	http://www.archivesdepartementales.puydedome.fr
@@ -2254,7 +2254,7 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
-who:	Fundación Biblioteca Virtual Miguel de Cervantes (=) FBVMC
+who:	FundaciÃ³n Biblioteca Virtual Miguel de Cervantes (=) FBVMC
 what:	59851
 when:	2013.11.21
 where:	http://www.cervantesvirtual.com
@@ -2269,7 +2269,7 @@ when:	2013.12.04
 where:	http://www.laregion-culture.fr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
-!contact: Demé, Agnès ||| Deme.Agnes@cr-languedocroussillon.fr | +33 04 67 22 94 47
+!contact: DemÃ©, AgnÃ¨s ||| Deme.Agnes@cr-languedocroussillon.fr | +33 04 67 22 94 47
 
 naa:
 who:    University of Illinois Libraries (=) UIUCLIB
@@ -2290,7 +2290,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid kalbflei
 
 naa:
-who:	Bibliothèque publique d'information (=) Public Information Library (=) BPI
+who:	BibliothÃ¨que publique d'information (=) Public Information Library (=) BPI
 what:	34201
 when:	2014.01.03
 where:	http://www.bpi.fr
@@ -2318,13 +2318,13 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Parrend, Pierre | ECAM Strasbourg-Europe || pierre.parrend@ecam-strasbourg.eu | +33 (0) 3 90 40 09 63
 
 naa:
-who:	Archives départementales de l'Yonne (=) AD89
+who:	Archives dÃ©partementales de l'Yonne (=) AD89
 what:	56431
 when:	2014.01.17
 where:	http://archivesenligne.yonne-archives.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Brau, Pierre-Frédéric ||| pfbrau@cg89.fr |
+!contact: Brau, Pierre-FrÃ©dÃ©ric ||| pfbrau@cg89.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
@@ -2364,7 +2364,7 @@ how:    NP | (:unkn) unknown | 2014 |
 !contact: eziduserid globe
 
 naa:
-who:	Archives départementales d'Eure-et-Loir (=) AD28
+who:	Archives dÃ©partementales d'Eure-et-Loir (=) AD28
 what:	66007
 when:	2014.02.14
 where:	http://www.archives28.fr
@@ -2374,7 +2374,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 
 naa:
-who:	Archives du Musée Picasso (=) AMPICASSO
+who:	Archives du MusÃ©e Picasso (=) AMPICASSO
 what:	53353
 when:	2014.02.17
 where:	http://archives.museepicassoparis.fr
@@ -2384,7 +2384,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
-who:	Archives départementales de Tarn-et-Garonne (=) AD82
+who:	Archives dÃ©partementales de Tarn-et-Garonne (=) AD82
 what:	40357
 when:	2014.02.20
 where:	http://www.archivesdepartementales.cg82.fr
@@ -2438,7 +2438,7 @@ how:    NP | (:unkn) unknown | 2014 |
 !contact: eziduserid ligo
 
 naa:
-who:	Archives départementales des Ardennes (=) ADARDENN
+who:	Archives dÃ©partementales des Ardennes (=) ADARDENN
 what:	75583
 when:	2014.03.17
 where:	http://archives.cg08.fr
@@ -2457,7 +2457,7 @@ how:    NP | (:unkn) unknown | 2014 |
 !contact: eziduserid doiwustl
 
 naa:
-who:	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
+who:	Institut National de Physique NuclÃ©aire et de Physique des Particules du CNRS (=) IN2P3
 what:	62929
 when:	2014.03.21
 where:	http://www.in2p3.fr
@@ -2475,17 +2475,17 @@ how:    NP | (:unkn) unknown | 2014 |
 !contact: eziduserid tcia-ezid
 
 naa:
-who:	Archives départementales de l'Ille-et-Vilaine (=) AD35
+who:	Archives dÃ©partementales de l'Ille-et-Vilaine (=) AD35
 what:	49933
 when:	2014.03.21
 where:	http://archives.ille-et-vilaine.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Claudel, Céline ||| celine.claudel@cg35.fr |
-!contact: Aubrée, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
+!contact: Claudel, CÃ©line ||| celine.claudel@cg35.fr |
+!contact: AubrÃ©e, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
 
 naa:
-who:	Archives départementales des Yvelines (=) ADYVEL
+who:	Archives dÃ©partementales des Yvelines (=) ADYVEL
 what:	36937
 when:	2014.03.25
 where:	http://archives.yvelines.fr
@@ -2530,7 +2530,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: de Pape, Aldo ||| aldo.depape@aswegrow.org | +44 780 951 1065
 
 naa:
-who:	Université Lille 3 (=) University of Lille 3 (=) UL3
+who:	UniversitÃ© Lille 3 (=) University of Lille 3 (=) UL3
 what:	72505
 when:	2014.05.06
 where:	http://www.univ-lille3.fr
@@ -2602,13 +2602,13 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Bounds, Stephen | knowquestion Pty Ltd || sb@knowquestion.com.au | 0401 829 096
 
 naa:
-who:	Cité des Sciences et de l'industrie (=) CSI
+who:	CitÃ© des Sciences et de l'industrie (=) CSI
 what:	20521
 when:	2014.06.13
 where:	http://www.cite-sciences.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Contassot-Crublet, Barbara | Bibliothèque / Service Technologie de l'Information || barbara.contassot@universcience.fr | +33 01.40.05.71.49
+!contact: Contassot-Crublet, Barbara | BibliothÃ¨que / Service Technologie de l'Information || barbara.contassot@universcience.fr | +33 01.40.05.71.49
 
 naa:
 who:    University of Maryland Libraries (=) UMD
@@ -2620,13 +2620,13 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid umd
 
 naa:
-who:	Assemblée Nationale (=) National Assembly of France (=) ANF
+who:	AssemblÃ©e Nationale (=) National Assembly of France (=) ANF
 what:	69085
 when:	2014.06.17
 where:	http://www.assemblee-nationale.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Saudrais, Hélène ||| hsaudrais@assemblee-nationale.fr
+!contact: Saudrais, HÃ©lÃ¨ne ||| hsaudrais@assemblee-nationale.fr
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
@@ -2639,7 +2639,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid ucinlibs
 
 naa:
-who:	Cité Numérique de la Méditerranée (=) Digital City of the Mediterranean (=) CNM
+who:	CitÃ© NumÃ©rique de la MÃ©diterranÃ©e (=) Digital City of the Mediterranean (=) CNM
 what:	56089
 when:	2014.07.03
 where:	http://www.mmsh.univ-aix.fr/Pages/default.aspx
@@ -2720,7 +2720,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Bonicel, Matthieu | BnF || matthieu.bonicel@bnf.fr | +33 (0)1 55 93 75 34
 
 naa:
-who:	Archives municipales d'Armentières (=) AMARMENT
+who:	Archives municipales d'ArmentiÃ¨res (=) AMARMENT
 what:	30097
 when:	2014.07.25
 where:	http://www.ville-armentieres.fr/fr/page/dossier.php?dossier=42
@@ -2774,16 +2774,16 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid nmnh_rcis
 
 naa:
-who:	Archives départementales de la Meuse (=) ADMEUSE
+who:	Archives dÃ©partementales de la Meuse (=) ADMEUSE
 what:	52669
 when:	2014.08.19
 where:	http://archives.meuse.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Diwo, Gérard ||| diwo.g@cg55.fr | +3 3 29 79 01 89
+!contact: Diwo, GÃ©rard ||| diwo.g@cg55.fr | +3 3 29 79 01 89
 
 naa:
-who:	Archives départementales de l'Ardèche (=) AD07
+who:	Archives dÃ©partementales de l'ArdÃ¨che (=) AD07
 what:	39673
 when:	2014.09.11
 where:	http://www.ardeche.fr
@@ -2792,7 +2792,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Gargault, Franck ||| fgargault@ardeche.fr | +33 04 75 66 71 23
 
 naa:
-who:	Fédération et Ressources sur l'Antiquité (=) FRANTIQ
+who:	FÃ©dÃ©ration et Ressources sur l'AntiquitÃ© (=) FRANTIQ
 what:	26678
 when:	2014.09.19
 where:	http://www.frantiq.fr
@@ -2864,7 +2864,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid drum
 
 naa:
-who:	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
+who:	Revista de Arte, CiÃªncia e ComunicaÃ§Ã£o (=) ARTCIEN
 what:	14023
 when:	2014.10.26
 where:	http://www.artciencia.com
@@ -2879,7 +2879,7 @@ when:	2014.10.29
 where:	http://archives.bordeaux.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Robin, Vélleda ||| v.robin@mairie-bordeaux.fr |
+!contact: Robin, VÃ©lleda ||| v.robin@mairie-bordeaux.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
@@ -2889,7 +2889,7 @@ when:	2014.10.29
 where:	http://archives.rueilmalmaison.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Markidès, Clémentine ||| clementine.markides@mairie-rueilmalmaison.fr |
+!contact: MarkidÃ¨s, ClÃ©mentine ||| clementine.markides@mairie-rueilmalmaison.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
@@ -2911,13 +2911,13 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
-who:	Muséum d'Histoire Naturelle de Toulouse (=) MHNT
+who:	MusÃ©um d'Histoire Naturelle de Toulouse (=) MHNT
 what:	36254
 when:	2014.11.06
 where:	http://www.museum.toulouse.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Molinié, Christelle ||| christelle.molinie@mairie-toulouse.fr |
+!contact: MoliniÃ©, Christelle ||| christelle.molinie@mairie-toulouse.fr |
 
 naa:
 who:    DataMares (=) DATAMARES
@@ -2929,17 +2929,17 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid ucsd_datamares
 
 naa:
-who:	Archives départementales des Hautes-Alpes (=) ADHALPES
+who:	Archives dÃ©partementales des Hautes-Alpes (=) ADHALPES
 what:	23599
 when:	2014.11.14
 where:	http://www.archives05.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Chenard, Gaël ||| gael.chenard@cg05.fr |
+!contact: Chenard, GaÃ«l ||| gael.chenard@cg05.fr |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
-who:	Instituto de Etnomusicologia - Centro de Estudos em Música e Dança, Faculdade de Motricidade Humana (=) Institue of Ethnomusicology - Music and Dance Study Center, Faculty of Human Motricity (=) INETMDFMH
+who:	Instituto de Etnomusicologia - Centro de Estudos em MÃºsica e DanÃ§a, Faculdade de Motricidade Humana (=) Institue of Ethnomusicology - Music and Dance Study Center, Faculty of Human Motricity (=) INETMDFMH
 what:	10603
 when:	2014.12.09
 where:	http://www2.fcsh.unl.pt/inet/indexeng.html
@@ -2948,7 +2948,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Coquelin, Sophie ||| bolseira.fmh@gmail.com | +351-964545118
 
 naa:
-who:	Archives départementales de Maine-et-Loire (=) ADML
+who:	Archives dÃ©partementales de Maine-et-Loire (=) ADML
 what:	71821
 when:	2014.12.14
 where:	http://www.archives49.fr
@@ -2957,7 +2957,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Chevalier, Jean ||| jean.chevalier@cg49.fr | +33 2 41 80 80 06
 
 naa:
-who:	Bibliothèque Nationale du Royaume du Maroc (=) National Library of the Kingdom of Morocco (=) BNRM
+who:	BibliothÃ¨que Nationale du Royaume du Maroc (=) National Library of the Kingdom of Morocco (=) BNRM
 what:	45830
 when:	2014.12.19
 where:	http://www.bnrm.ma/bnrm
@@ -2975,13 +2975,13 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid dartmouthc
 
 naa:
-who:	Archives départementales de Meurthe et Moselle (=) ADMM
+who:	Archives dÃ©partementales de Meurthe et Moselle (=) ADMM
 what:	33175
 when:	2015.01.05
 where:	http://archivesenligne.cg54.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: Say Barbey, Hélène ||| hsay@cg54.fr |
+!contact: Say Barbey, HÃ©lÃ¨ne ||| hsay@cg54.fr |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
@@ -2994,13 +2994,13 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid nuigalway
 
 naa:
-who:	Bibliothèque numérique de Roubaix (=) BNROUBAIX
+who:	BibliothÃ¨que numÃ©rique de Roubaix (=) BNROUBAIX
 what:	20179
 when:	2015.01.06
 where:	http://www.bn-r.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: Pichenot, François ||| fpichenot@ville-roubaix.fr |
+!contact: Pichenot, FranÃ§ois ||| fpichenot@ville-roubaix.fr |
 
 naa:
 who:	Archives municipales de Villeurbanne (=) AMVE
@@ -3028,7 +3028,7 @@ when:	2015.01.14
 where:	http://archives.blois.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: PAVY, Frédéric ||| Frederic.PAVY@blois.fr |
+!contact: PAVY, FrÃ©dÃ©ric ||| Frederic.PAVY@blois.fr |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
@@ -3041,7 +3041,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid mbf_bioscience
 
 naa:
-who:	Archives départementales des Deux-Sèvres (=) ADDS
+who:	Archives dÃ©partementales des Deux-SÃ¨vres (=) ADDS
 what:	58825
 when:	2015.01.30
 where:	http://archives.deux-sevres.com
@@ -3068,7 +3068,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid ucb-lawlib
 
 naa:
-who:	Archives départementales de l'Aube (=) ADAUBE
+who:	Archives dÃ©partementales de l'Aube (=) ADAUBE
 what:	42751
 when:	2015.02.09
 where:	http://www.archives-aube.fr
@@ -3087,13 +3087,13 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid sb-chg
 
 naa:
-who:	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
+who:	BibliothÃ¨que municipale de Valenciennes (=) Valenciennes Library (=) BMV
 what:	29755
 when:	2015.02.13
 where:	http://www.bn-valenciennes.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
+!contact: GÃ©rard, CÃ©cile ||| cgerard@ville-valenciennes.fr |
 
 naa:
 who:    University of Texas at Austin (=) UTAUSTIN
@@ -3168,7 +3168,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Vinerean, Simona ||| editor@expertjournals.com |
 
 naa:
-who:	Archives départementales de la Haute-Saône (=) AD70
+who:	Archives dÃ©partementales de la Haute-SaÃ´ne (=) AD70
 what:	77977
 when:	2015.03.03
 where:	http://archives.cg70.fr
@@ -3178,7 +3178,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
-who:	Archives départementales des Hautes-Pyrénées (=) ADHP
+who:	Archives dÃ©partementales des Hautes-PyrÃ©nÃ©es (=) ADHP
 what:	64982
 when:	2015.03.04
 where:	http://www.archivesenligne65.fr
@@ -3197,7 +3197,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid mtstate
 
 naa:
-who:	Archives Départementales de la Haute-Vienne (=) ADHV
+who:	Archives DÃ©partementales de la Haute-Vienne (=) ADHV
 what:	52328
 when:	2015.03.10
 where:	http://www.archives-hautevienne.com
@@ -3207,7 +3207,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
-who:	Archives de la Ville et de l'Eurométropole de Strasbourg (=) AVES
+who:	Archives de la Ville et de l'EuromÃ©tropole de Strasbourg (=) AVES
 what:	39332
 when:	2015.03.10
 where:	http://archives.strasbourg.eu
@@ -3217,7 +3217,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
 
 naa:
-who:	Archives départementales de l'Eure (=) AD27
+who:	Archives dÃ©partementales de l'Eure (=) AD27
 what:	26335
 when:	2015.03.25
 where:	http://archives.cg27.fr
@@ -3244,14 +3244,14 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid duke_morpho
 
 naa:
-who:	Archives départementales de la Sarthe (=) AD72
+who:	Archives dÃ©partementales de la Sarthe (=) AD72
 what:	13339
 when:	2015.03.30
 where:	http://www.archives.sarthe.com
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
-!contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
+!contact: Hautbois, JÃ©rÃ´me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
 who:    Texas Advanced Computing Center (=) TACC
@@ -3341,11 +3341,11 @@ when:	2015.04.10
 where:	http://www.mairie-laval.fr/franc/archives/index.php
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: Libaud, Gaëtane ||| gaetane.libaud@laval.fr |
+!contact: Libaud, GaÃ«tane ||| gaetane.libaud@laval.fr |
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
 naa:
-who:	Archives départementales de la Charente (=) AD16
+who:	Archives dÃ©partementales de la Charente (=) AD16
 what:	61904
 when:	2015.04.10
 where:	http://www.archives16.fr
@@ -3355,13 +3355,13 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
-who:	Archives municipales de Béziers (=) AMBEZIERS
+who:	Archives municipales de BÃ©ziers (=) AMBEZIERS
 what:	48908
 when:	2015.04.19
 where:	http://www.ville-beziers.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
-!contact: Sanchez, Françoise ||| francoise.sanchez@ville-beziers.fr |
+!contact: Sanchez, FranÃ§oise ||| francoise.sanchez@ville-beziers.fr |
 !contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
 
 naa:
@@ -3419,7 +3419,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Leonard, Kendra ||| kendraprestonleonard@gmail.com |
 
 naa:
-who:	Espace Mendès France (=) EMF
+who:	Espace MendÃ¨s France (=) EMF
 what:	71480
 when:	2015.04.30
 where:	http://emf.fr
@@ -3446,7 +3446,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid stsci
 
 naa:
-who:	Archives Départementales des Alpes de Haute Provence (=) ADAHP
+who:	Archives DÃ©partementales des Alpes de Haute Provence (=) ADAHP
 what:	58484
 when:	2015.05.19
 where:	http://archivesenligne.archives04.fr
@@ -3465,7 +3465,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid uw_isolab
 
 naa:
-who:    Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
+who:    Ð Ð¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ð¹ ÐÐ¸Ð½Ð³Ð²Ð¸ÑÑÐ¸ÑÐµÑÐºÐ¸Ð¹ ÐÑÐ»Ð»ÐµÑÐµÐ½Ñ (=) Russian Linguistic Bulletin (=) RULB
 what:	45487
 when:	2015.05.22
 where:	http://rulb.org
@@ -3499,7 +3499,7 @@ where:	http://www.archives-ville-romans.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
-!contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+!contact: PÃ©tard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
 who:	Ohio Supercomputer Center (=) OSC
