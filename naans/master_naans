@@ -875,7 +875,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Hautbois, J√©r√¥me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
-who:	÷sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+who:	√ñsterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
 what:   58141
 when:	2010.12.03
 where:	http://www.onb.ac.at
@@ -2491,7 +2491,7 @@ when:	2014.03.25
 where:	http://archives.yvelines.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: …on, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
+!contact: √âon, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
 
 naa:
 who:    Statistics (ResearchCompendia.org) (=) STATSRC
@@ -2798,7 +2798,7 @@ when:	2014.09.19
 where:	http://www.frantiq.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Rousset, Miled | MOM-CNRS UniversitÈ Lyon2 || miled.rousset@mom.fr | +33-0472715896
+!contact: Rousset, Miled | MOM-CNRS Universit√© Lyon2 || miled.rousset@mom.fr | +33-0472715896
 
 naa:
 who:    University of New Mexico Libraries (=) UNMLIB

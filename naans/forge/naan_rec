@@ -11,7 +11,7 @@ if ($# < 2) then
 	echo "It also puts out a stub NAA record for the NAAN registry."
 	echo "Don't forget to update the date of the NAAN registry file."
 	echo ""
-	echo 'To unmint a NAAN (22222), use "/noid/nd/noid queue now 22222".'
+	echo 'To unmint a NAAN (22222), use "nog queue now 22222".'
 	exit 1
 endif
 
@@ -26,8 +26,11 @@ set last = "$5"
 set email = "$6"
 set phone = "$7"
 
-set ndcmd = /noid/nd/noid
-set mint = "$ndcmd mint 1"
+#set ndcmd = /noid/nd/noid
+#set ndcmd = nog
+# xxx for AWS conversion, mint and toss first 233 spings with
+#     nog -d ~/minters/n2t/naans mint 233
+set mint = "nog -d ~/minters/n2t/naans mint 1"
 #set ndcmd = "/noid/nd/noid mint 1"
 #set ndcmd = "echo id: 00001/8999a"
 
@@ -43,8 +46,8 @@ set id = `$mint | sed 's,^id: ,,'`			# remove initial 'id: '
 #if ("$partial" =~ 9* || "$partial" =~ 0*) then
 #if ("$id" =~ 9* || "$id" =~ 0*) then
 if ("$id" =~ [089]*) then
-	echo ECHO noid hold set $id
-	$ndcmd hold set $id
+	#echo ECHO noid hold set $id
+	#$ndcmd hold set $id
 	echo "Skipping id: $id".  Try again.
 	exit 1
 endif
