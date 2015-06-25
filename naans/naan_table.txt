@@ -61,7 +61,7 @@
 22573	ITHAKA (=) ITHAKA
 84133	Archives départementales de l'Allier (=) ADA
 71137	Archives départementales de la Côte-d'Or (=) ADCO
-58141	�sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+58141	Österreichische Nationalbibliothek (=) National Library of Austria (=) ONB
 45145	New York Public Library (=) NYPL
 34231	Purdue University (=) PU
 19153	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
@@ -349,6 +349,8 @@
 87913	Miami Project to Cure Paralysis (=) REGENBASE
 32491	Archives de la ville de Romans (=) AVROMANS
 19495	Ohio Supercomputer Center (=) OSC
+87914	Saint Edward's University (=) SEU
+68060	Andrews University (=) ANDREWSU
 97720	NAAN Reserved for Uniform Resource Names (=) URNS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS

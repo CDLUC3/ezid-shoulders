@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.06.01
+when:	2015.06.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:	http://bnf.fr/xxx/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -725,7 +725,7 @@ where:	http://www.archives.cotedor.fr
 how:	NP | (:unkn) unknown | 2010 |
 
 naa:
-who:	Österreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+who:	Ã–sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
 what:   58141
 when:	2010.12.03
 where:	http://www.onb.ac.at
@@ -2738,6 +2738,20 @@ who:	Ohio Supercomputer Center (=) OSC
 what:	19495
 when:	2015.06.01
 where:	https://osc.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Saint Edward's University (=) SEU
+what:   87914
+when:   2015.06.09
+where:	http://www.stedwards.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Andrews University (=) ANDREWSU
+what:	68060
+when:	2015.06.25
+where:	http://www.andrews.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:

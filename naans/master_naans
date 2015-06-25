@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.06.01
+when:	2015.06.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:	http://bnf.fr/xxx/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3518,6 +3518,15 @@ where:	http://www.stedwards.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid mondaylib
+
+naa:
+who:	Andrews University (=) ANDREWSU
+what:	68060
+when:	2015.06.25
+where:	http://www.andrews.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
 
 naa:
 who:	NAAN Reserved for Uniform Resource Names (=) URNS

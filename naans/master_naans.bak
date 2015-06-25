@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.04.30
+when:	2015.06.01
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:	http://bnf.fr/xxx/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -875,7 +875,7 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Hautbois, J√©r√¥me | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 
 naa:
-who:	÷sterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
+who:	√ñsterreichische Nationalbibliothek (=) National Library of Austria (=) ONB
 what:   58141
 when:	2010.12.03
 where:	http://www.onb.ac.at
@@ -2491,7 +2491,7 @@ when:	2014.03.25
 where:	http://archives.yvelines.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: …on, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
+!contact: √âon, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
 
 naa:
 who:    Statistics (ResearchCompendia.org) (=) STATSRC
@@ -2798,7 +2798,7 @@ when:	2014.09.19
 where:	http://www.frantiq.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Rousset, Miled | MOM-CNRS UniversitÈ Lyon2 || miled.rousset@mom.fr | +33-0472715896
+!contact: Rousset, Miled | MOM-CNRS Universit√© Lyon2 || miled.rousset@mom.fr | +33-0472715896
 
 naa:
 who:    University of New Mexico Libraries (=) UNMLIB
@@ -3509,6 +3509,24 @@ where:	https://osc.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
+
+naa:
+who:    Saint Edward's University (=) SEU
+what:   87914
+when:   2015.06.09
+where:	http://www.stedwards.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mondaylib
+
+naa:
+who:	Andrews University (=) ANDREWSU
+what:	68060
+when:	2015.06.25
+where:	http://www.andrews.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
 
 naa:
 who:	NAAN Reserved for Uniform Resource Names (=) URNS

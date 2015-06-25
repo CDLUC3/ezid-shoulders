@@ -267,7 +267,7 @@ contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
 contact: eziduserid tcia-ezid
 contact: Claudel, Céline ||| celine.claudel@cg35.fr |
 contact: Aubrée, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
-contact: �on, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
+contact: Éon, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
 contact: eziduserid cu-rescom
 contact: eziduserid sb-writ
 contact: Gomez, Joshua | USC Libaries || gomezjn@usc.edu |
@@ -302,7 +302,7 @@ contact: eziduserid crcl
 contact: eziduserid nmnh_rcis
 contact: Diwo, Gérard ||| diwo.g@cg55.fr | +3 3 29 79 01 89
 contact: Gargault, Franck ||| fgargault@ardeche.fr | +33 04 75 66 71 23
-contact: Rousset, Miled | MOM-CNRS Universit� Lyon2 || miled.rousset@mom.fr | +33-0472715896
+contact: Rousset, Miled | MOM-CNRS Université Lyon2 || miled.rousset@mom.fr | +33-0472715896
 contact: eziduserid unmlibrary
 contact: eziduserid minnesota
 contact: eziduserid ucsd_idashrepository
@@ -397,6 +397,8 @@ contact: eziduserid umiami_regenbase
 contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
+contact: eziduserid mondaylib
+contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
