@@ -71,7 +71,7 @@
 22573: ITHAKA    2010.11.18   # ITHAKA (modified Portico entry)
 84133: ADA       2010.11.22   # Les Archives Départementales de l'Allier
 71137: ADCO      2010.11.25   # Archives départementales de la Côte-d'Or
-58141: ONB       2010.12.03   # �sterreichische Nationalbibliothek
+58141: ONB       2010.12.03   # Österreichische Nationalbibliothek
 45145: NYPL      2010.12.18   # New York Public Library
 34231: PU        2011.01.24   # Purdue University [DERIVED FROM 10.4231!!]
 19153: CNDP      2011.02.12   # Centre national de documentation pédagogique
@@ -551,6 +551,10 @@ c3012  # University of Illinois Libraries
 87914: SEU       2015.06.09   # Saint Edward's University (xxx)
 10.17914  # Saint Edward's University
 68060: ANDREWSU  2015.06.25   # Andrews University
+55063: MEDIAGD   2015.06.26   # Médiathèques du Grand Dole
+87915: CNS       2015.06.26   # Center for Nanotechnology in Society (xxx)
+10.17915  # Center for Nanotechnology in Society
+
 
 
 

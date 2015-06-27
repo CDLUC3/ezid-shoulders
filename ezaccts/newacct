@@ -1,21 +1,23 @@
-todays_date: 06/08/2015
+todays_date: 06/26/2015
 realm: CDL
 submitters_name: Joan Starr
-acct_name: mondaylib
-acct_email: pongracz@stedwards.edu
-primary_contact: Pongracz Sennyey
-contact_email: pongracz@stedwards.edu
-contact_phone: 512-448-8470
+acct_name: sb-cns
+acct_email: brandon.fastman@ucsb.edu
+primary_contact: Brandon Fastman
+contact_email: brandon.fastman@ucsb.edu
+contact_phone: 805-893-8850
 contact_fax:
-org: Saint Edward's University
-org_acroynm: SEU
-org_www: http://www.stedwards.edu/
-mailing_address1: 3001 So Congress Ave
-mailing_address2:
-mailing_city: Austin
-mailing_state: TX
-mailing_zip: 78704
+org: Center for Nanotechnology in Society
+org_acroynm: CNS
+org_www: www.cns.ucsb.edu
+mailing_address1: UCSB ISBER-CNS
+mailing_address2: Mail Code 2150
+mailing_city: Santa Barbara
+mailing_state: CA
+mailing_zip: 93106-2150
 mailing_country: USA
 identifiers: DOIs and ARKs
-identifier_plans: DOIs will be assigned to documents uploaded to the Institutional Repository.
-comments: For John: Default setup%0D%0AFor Joan: Our 1st figshare acct.
+created_before: NO
+internal_identifiers: NO
+identifier_plans: CNS: Our primary concern is having our publications be citable and accessionable.
+comments: notes: I wrote to CNS abt CrossRef and they want to use CR service.%0D%0AJohn: standard setup w prefix and minter, CrossRef enable.

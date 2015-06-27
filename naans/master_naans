@@ -3529,6 +3529,24 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
 
 naa:
+who:	Médiathèques du Grand Dole (=) Media Libraries of Greater Dole (=) MEDIAGD
+what:	55063
+when:	2015.06.26
+where:	http://mediatheques.grand-dole.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Corne, Emilie ||| emilie.corne@grand-dole.fr | +44 3 84 69 03 11
+
+naa:
+who:    Center for Nanotechnology in Society (=) CNS
+what:   87915
+when:   2015.06.26
+where:	www.cns.ucsb.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid sb-cns
+
+naa:
 who:	NAAN Reserved for Uniform Resource Names (=) URNS
 what:	97720
 when:	2011.11.15
