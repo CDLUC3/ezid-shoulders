@@ -1,25 +1,13 @@
 #! /bin/bash
 sourcedir=`dirname $0`
 
-#deliverydir=/noid/apache/htdocs
-# xxx temporary deliverydir -- remove next line soon
-olddeliverydir=/noid/apache/htdocs
-
-#deliverydir=ezid@ias-ezid-prd.cdlib.org:shoulders
 deliverydir=$HOME/sv/cur/apache2/htdocs/e/pop/ezid
 
 # Backup from old copy
 cp -p $deliverydir/master_shoulders.txt $sourcedir/master_shoulders.txt.bak
 
-# xxx remove these lines
-#cp $deliverydir/master_shoulders.txt $sourcedir/master_shoulders.txt.bak
-#cp $sourcedir/master_shoulders.txt $deliverydir
-
-# xxx temporary old location -- remove next line soon
-scp $sourcedir/master_shoulders.txt noid@noid.cdlib.org:$olddeliverydir
-
 # Push to place where EZID will pick it up.
-# xxx kludge -- for now, copy to read-protected area for just "ezid" populator
+# xxx kludge -- for now, copy to read-protected area for just "ezid" populator;
 #               what about later for other populators (eg, oca)?
 #
 cp -p $sourcedir/master_shoulders.txt $deliverydir
