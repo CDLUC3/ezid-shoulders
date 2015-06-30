@@ -95,7 +95,24 @@
 # Allocate by popping the top of the stack (ie, remove and use,
 #    but confirm with "~/naans/forge/doip_mint mint")
 # Stack top->
-# 10.17916 10.17917 10.17918 10.17919 10.17920 10.18112 10.18113 10.18114 10.18115 10.18116 10.18117 10.18118 10.18119 10.18120 10.18121 10.18122 10.18123 10.18124 10.18125 10.18126 10.18127 10.18128 10.18129 10.18130 10.18131
+# 10.17917 10.17918 10.17919 10.17920 10.18112 10.18113 10.18114 10.18115 10.18116 10.18117 10.18118 10.18119 10.18120 10.18121 10.18122 10.18123 10.18124 10.18125 10.18126 10.18127 10.18128 10.18129 10.18130 10.18131
+
+:: ark:/87916/c7
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/87916/c7
+
+:: doi:10.17916/C6
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/c7916/c6
+datacenter: CDL.ICIS
 
 :: ark:/87915/n7
 type: shoulder

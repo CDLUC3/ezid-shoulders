@@ -3547,6 +3547,25 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid sb-cns
 
 naa:
+who:    International Center for Integrative Systems Inc. (=) ICIS
+what:   87916
+when:   2015.06.30
+where:	http://www.integrativesystems.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid icis
+
+naa:
+who:	Archives de la Loire Atlantique (=) ADLATL
+what:	42067
+when:	2015.06.30
+where:	http://archives.loire-atlantique.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: LETHIEC, Cyrille ||| Cyrille.LETHIEC@loire-atlantique.fr |
+!contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+
+naa:
 who:	NAAN Reserved for Uniform Resource Names (=) URNS
 what:	97720
 when:	2011.11.15
