@@ -192,7 +192,6 @@ contact: eziduserid caltech
 contact: eziduserid broad
 contact: eziduserid caltech_sl
 contact: eziduserid hdataverse
-contact: eziduserid OneOcean
 contact: eziduserid iupui
 contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
 contact: eziduserid uw_esci
@@ -394,12 +393,48 @@ contact: eziduserid uw_isolab
 contact: Miller, Anna ||| editors@rulb.org |
 contact: eziduserid caltech_wormbase
 contact: eziduserid umiami_regenbase
-contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr | Phone
+contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr |
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
 contact: eziduserid mondaylib
 contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
-contact: Kunze, John | California Digital Library || jak@ucop.edu
+contact: Corne, Emilie ||| emilie.corne@grand-dole.fr | +44 3 84 69 03 11
+contact: eziduserid sb-cns
+contact: eziduserid icis
+contact: LETHIEC, Cyrille ||| Cyrille.LETHIEC@loire-atlantique.fr |
+contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+contact: Ştefănigă, Sebastian ||| sebastian.stefaniga@e-uvt.ro | +40 0256 592 731
+contact: eziduserid nci
+contact: eziduserid drexeldata
+contact: eziduserid eixid
+contact: eziduserid pubref
+contact: eziduserid openfmri
+contact: eziduserid ucd-lucklab
+contact: eziduserid pittezid
+contact: eziduserid umms-candi
+contact: eziduserid uc-geer
+contact: Chattopadhyay, Arka ||| sanglapthejournal@gmail.com |
+contact: eziduserid facebase
+contact: eziduserid isi-isrd
+contact: eziduserid nci_asset
+contact: eziduserid boisedoi
+contact: eziduserid lccnetwork
+contact: eziduserid aep
+contact: Sepulveda, Jean José ||| sepulvedajj@mairie-aixenprovence.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
+contact: eziduserid ipums
+contact: Pavoletti, Beppe ||| giuseppe.pavoletti@regione.liguria.it | +39-0105484616
+contact: eziduserid nci_bioconductor
+contact: Bowen, Alan ||| bowen@IRCPS.org |
+contact: Garrett, Edward | pinedrop.london || edward@pinedrop.com |
+contact: Rousset, Miled | MOM-CNRS Université Lyon2 || miled.rousset@mom.fr | +33-0472715896
+contact: Weber, Ann ||| anne.weber@mines-paristech.fr |
+contact: eziduserid uvalib
+contact: Carlier, Aurore ||| aurore.carlier@lasan.be | +32-081/840203
+contact: Leboucher, Elise ||| Elise.Leboucher@culture.gouv.fr |
+contact: Bailly, Laurence ||| laurence.bailly@ain.fr |
+contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
+contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

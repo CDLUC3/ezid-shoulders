@@ -130,7 +130,7 @@
 87277	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 87278	University of Utah (=) UUTAH
 87279	Ocean Observatory Initiative (=) OOI
-31807	Open Cloud Consortium (=) OCC
+31807	Open Commons Consortium (=) OCC
 87280	University of California Irvine (=) UCIRVINE
 87281	Johns Hopkins University (=) JHU
 18811	Archives municipales de LYON (=) AMLYON
@@ -170,21 +170,20 @@
 87303	Sage Bionetworks (=) SAGEBIO
 57115	Archives départementales de la Manche (=) ADMANCHE
 87907	California Institute of Technology (=) CALTECH
-87908	Broad Institute of MIT and Harvard (=) BROAD
+77908	Broad Institute of MIT and Harvard (=) BROAD
 87909	CalTech Seismological Laboratory (=) SEISMOLAB
 87910	Harvard University (=) HARVARD
-87911	OneOcean (=) ONEOCEAN
 87912	Indiana University Purdue University Indianapolis (=) IUPUI
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 87913	UW eScience Institute (=) UWESCIENCE
-85967	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
+88113	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
 87914	International Federation of Digital Seismograph Networks (=) FDSN
 31123	Fondation Maison des Sciences de l'Homme (=) FMSH
-87915	UW College of the Environment Climate Impacts Group (=) UWCIG
+77915	UW College of the Environment Climate Impacts Group (=) UWCIG
 87916	Columbia University Library/Information Services (=) CUL/IS
 18127	Archives départementales du Val-d'Oise (=) ADVO
 79687	San Francisco Symphony (=) SFSYMPH
-87917	NASA Center for Climate Simulation (=) NCCS
+77917	NASA Center for Climate Simulation (=) NCCS
 66691	Musée des Augustins (=) MDA
 53695	American Numismatic Society (=) ANS
 87919	Advanced Graphics Lab (=) AGL
@@ -251,7 +250,7 @@
 87944	U.S. Fish and Wildlife Service (=) USFWS
 33517	Grains Research and Development Corporation (=) GRDC
 20521	Cité des Sciences et de l'industrie (=) CSI
-87945	University of Maryland Libraries (=) UMD
+83016	University of Maryland Libraries (=) UMD
 69085	Assemblée Nationale (=) National Assembly of France (=) ANF
 87945	University of Cincinnati Libraries (=) CIN
 56089	Cité Numérique de la Méditerranée (=) Digital City of the Mediterranean (=) CNM
@@ -277,7 +276,7 @@
 85147	iDASH Repository (=) IDASHREPOSITORY
 83018	Globus.org (=) GLOBUS
 83019	MyGeoHub (=) MYGEOHUB
-83020	Purdue Polytechnic Institute (=) PURPOLY
+88114	Purdue Polytechnic Institute (=) PURPOLY
 83020	Data Repository for the University of Minnesota (=) DRUM
 14023	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
 75241	Archives municipales de Bordeaux (=) AMBDEAUX
@@ -314,7 +313,7 @@
 16759	Sprint Investify (=) INVESTIFY
 77977	Archives départementales de la Haute-Saône (=) AD70
 64982	Archives départementales des Hautes-Pyrénées (=) ADHP
-85788	Montana State University (=) MSU
+75788	Montana State University (=) MSU
 52328	Archives Départementales de la Haute-Vienne (=) ADHV
 39332	Archives de la Ville et de l'Eurométropole de Strasbourg (=) AVES
 26335	Archives départementales de l'Eure (=) AD27
@@ -341,17 +340,48 @@
 22915	The Silent Film Sound & Music Archive (=) SFSMA
 71480	Espace Mendès France (=) EMF
 87908	UC San Diego Department of Biomedical Informatics (=) DBMICLD
-87909	Space Telescope Science Institute (=) STSCI
+77909	Space Telescope Science Institute (=) STSCI
 58484	Archives Départementales des Alpes de Haute Provence (=) ADAHP
 87911	University of Washington IsoLab (=) UWISOLAB
 45487	Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
-87912	Caltech Biology (=) WORMBASE
-87913	Miami Project to Cure Paralysis (=) REGENBASE
+77912	Caltech Biology (=) WORMBASE
+77913	Miami Project to Cure Paralysis (=) REGENBASE
 32491	Archives de la ville de Romans (=) AVROMANS
 19495	Ohio Supercomputer Center (=) OSC
-87914	Saint Edward's University (=) SEU
+77914	Saint Edward's University (=) SEU
 68060	Andrews University (=) ANDREWSU
-97720	NAAN Reserved for Uniform Resource Names (=) URNS
+55063	Médiathèques du Grand Dole (=) Media Libraries of Greater Dole (=) MEDIAGD
+87915	Center for Nanotechnology in Society (=) CNS
+77916	International Center for Integrative Systems Inc. (=) ICIS
+42067	Archives de la Loire Atlantique (=) ADLATL
+29071	Universitatea de Vest din Timişoara (=) West University of Timisoara (=) UVTRO
+87917	National Cancer Institute, NIH (=) NCIP
+87918	Drexel University Libraries (=) DRXLDATA
+77919	Entrepreneur & Innovation Exchange (=) EIX
+77920	PubRef.org (=) PUBREF
+88112	Openfmri (=) OPENFMRI
+88115	Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
+88117	University of Pittsburgh (=) PITT
+88116	UMass Medical School-CANDI (=) UMMSCAND
+88118	Geotechnical Extreme Events Reconnaissance (=) GEER
+16076	Sanglap: Journal of Literary and Cultural Inquiry (=) SANGLAP
+88119	Facebase Consortium (=) FACEBASE
+88120	USC ISI Informatics Systems Research Division (=) ISRD
+88121	National Cancer Institute, NIH (=) NCIP
+88122	Boise State University (=) BOISESTATE
+88123	Landscape Conservation Cooperative (=) LCC
+88124	Antarctic Environments Portal (=) AEP
+77636	Archives Municipales Aix En Provence (=) AMAEP
+88128	IPUMS (=) IPUMS
+64639	Biblioteca Digitale Ligure (=) Ligurian Digital Library (=) BDL
+88129	National Cancer Institute, Bioconductor (=) NCIB
+51643	Institute for Research in Classical Philosophy and Science (=) IRCPS
+38647	Bibliography on the Architecture of Ancient Theater (=) BAAT
+25652	École nationale supérieure des mines de Paris (=) ENSMINES
+88130	University of Virginia (=) UVA
+12998	Société archéologique de Namur (=) SAN
+87211	Laboratoire de Recherche des Monuments Historiques (=) LRMH
+74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

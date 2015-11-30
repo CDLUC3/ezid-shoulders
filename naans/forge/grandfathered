@@ -557,6 +557,77 @@ c3012  # University of Illinois Libraries
 87916: ICIS      2015.06.30   # International Center for Integrative Systems Inc. (xxx)
 10.17916  # International Center for Integrative Systems Inc.
 42067: ADLATL    2015.06.30   # Archives de la Loire Atlantique
+29071: UVTRO     2015.07.01   # Universitatea de Vest din Timişoara
+87917: NCIP      2015.07.09   # National Cancer Institute, NIH (xxx)
+10.17917  # National Cancer Institute, NIH
+#30781: KOWSAR    2015.07.09   # Kowsar Publishing (re-instated after original request 2014.02.03 with withdrawn due to concerns about our violating US sanctions against Iran)
+87918: DRXLDATA  2015.07.13   # Drexel University Libraries (xxx)
+10.17918  # Drexel University Libraries
+77919: EIX       2015.07.15   # Entrepreneur & Innovation Exchange (xxx)
+10.17919  # Entrepreneur & Innovation Exchange
+77920: PUBREF    2015.07.17   # PubRef.org (xxx)
+10.17920  # PubRef.org
+88112: OPENFMRI  2015.07.27   # Openfmri (xxx)
+10.18112  # Openfmri
+88115: LUCKLAB   2015.08.13   # Laboratory for Basic and Translational Cognitive Neuroscience (xxx)
+10.18115  # Laboratory for Basic and Translational Cognitive Neuroscience
+88117: PITT      2015.08.13   # University of Pittsburgh (xxx)
+10.18117  # University of Pittsburgh
+88116: UMMSCAND  2015.08.26   # UMass Medical School-CANDI (xxx)
+10.18116  # UMass Medical School-CANDI
+88118: GEER      2015.08.28   # Geotechnical Extreme Events Reconnaissance (xxx)
+10.18118  # Geotechnical Extreme Events Reconnaissance
+16076: SANGLAP   2015.08.28   # Sanglap: Journal of Literary and Cultural Inquiry
+88119: FACEBASE  2015.09.08   # Facebase Consortium (xxx)
+10.18119  # Facebase Consortium
+88120: ISRD      2015.09.08   # USC ISI Informatics Systems Research Division (xxx)
+10.18120  # USC ISI Informatics Systems Research Division
+88121: NCIP      2015.09.08   # National Cancer Institute, NIH (xxx)
+10.18121  # National Cancer Institute, NIH
+88122: BOISESTATE 2015.09.08   # Boise State University (xxx)
+10.18122  # Boise State University
+88123: LCC       2015.09.29   # Landscape Conservation Cooperatives (xxx)
+10.18123  # Landscape Conservation Cooperatives
+88124: AEP  2015.09.29   # Antarctic Environments Portal (xxx)
+10.18124  # Antarctic Environments Portal
+77636: AMAEP     2015.09.11   # Archives Municipales Aix En Provence
+88128: IPUMS     2015.09.29   # IPUMS (xxx)
+10.18128  # IPUMS
+
+88125: DATACTR3  2015.09.10   # Temporary Name: Data Center 3 (xxx)
+10.18125  # Temporary Name: Data Center 3
+88126: DATACTR4  2015.09.10   # Temporary Name: Data Center 4 (xxx)
+10.18126  # Temporary Name: Data Center 4
+88127: DATACTR5  2015.09.10   # Temporary Name: Data Center 5 (xxx)
+10.18127  # Temporary Name: Data Center 5
+64639: BDL       2015.10.11   # Biblioteca Digitale Ligure
+88129: NCIB      2015.10.20   # National Cancer Institute, Bioconductor (xxx)
+10.18129  # National Cancer Institute, Bioconductor
+51643: IRCPS     2015.11.17   # Institute for Research in Classical Philosophy and Science
+38647: BAAT      2015.11.18   # Bibliography on the architecture of ancient theater
+25652: MINES     2015.11.18   # École nationale supérieure des mines de Paris
+88130: UVA       2015.11.19   # University of Virginia (xxx)
+10.18130  # University of Virginia
+12998: SAN       2015.11.20   # Société archéologique de Namur
+87211: LRMH      2015.11.23   # Laboratoire de Recherche des Monuments Historiques
+74215: PDLAIN    2015.11.30   # Service Ressources patrimoniales et culturelles du département de l'Ain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -564,14 +635,31 @@ c3012  # University of Illinois Libraries
 
 
 # ==== add new entries above this line ====
+# Awaiting word on whether to re-activate
+!naa:
+!who:	Kowsar Publishing Corporation (=) KOWSAR
+!what:	30781
+!when:	2015.07.09
+!where:	http://www.kowsarcorp.com
+!how:	NP | (:unkn) unknown | 2015 |
+!!why:	ARK
+!!contact: Ahmadpour-B., Mahyar ||| ahmadpour@mykowsar.com |
+
 #
-# xxx withdrawn/rescinded (sanctions against Iran)
-# 30781: KOWSAR    2014.02.03   # Kowsar Publishing
-# naa:
-# who:	Kowsar Publishing Corporation (=) KOWSAR
-# what:	30781
-# when:	2014.02.03
-# where:	http://www.kowsarcorp.com
-# how:	NP | (:unkn) unknown | 2014 |
-# !why:	ARK
-# !contact: Ahmadpour-B., Mahyar ||| ahmadpour@mykowsar.com |
+# From: jakkbl@gmail.com [mailto:jakkbl@gmail.com] On Behalf Of John Kunze
+# Sent: Thursday, July 09, 2015 10:41 AM
+# To: Joan Starr
+# Cc: Kurt Ewoldsen; Greg Janée
+# Subject: Re: National Persistent Identifier for Digital Objects system
+# of National Library and Archives of Islamic Republic of Iran
+#  
+#  For the record, I explained to Laine that that asking for a NAAN a bit
+#  more than just an information request.
+#   
+#  I generate a unique number and create a 5-line record with that
+#  number, their org name, website, and contact person and email.
+#  That's one-time thing and we usually never hear from an org again
+#  except maybe once more to steer them to software or services.
+#    
+#  She thought that this was a pretty harmless activity and we didn't
+#  need to ask the OGC.

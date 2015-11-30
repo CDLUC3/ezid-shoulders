@@ -1,40 +1,17 @@
 # // Procedure
-#  Current procedures straddle n2t.net and noid.cdlib.org.
-#  Start at n2t.net and run shoulders/forge/ezidnewacct for instructions.
-
-# xxx do better replication for this file
+#
+# Start at n2t@ias-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
+# follow the instructions.
 
 # Prefixes listed at mds.datacite.org under "CDL" account
 # Prefix brought in from CrossRef 2012.01.02
 #-> 10.3334
 # Original prefixes belonging to CDL/EZID
 #-> 10.5062 ... 10.5069
-# Other prefixes belonging to CDL/EZID
-#-> 10.6067 10.6068 10.6069 10.6070 10.6071 10.6072 10.6073 10.6074 10.6075 10.6076 10.6077 10.6078 10.6079 10.6080 10.6081 10.6082 10.6083 10.6084 10.6085 10.6086 
-# Per 2012.03.15 email from Frauke Ziedorn:
-#-> 10.7264 through 10.7303
-# Per 2012.10.01 email from Frauke Ziedorn:
-#-> 10.7907 - 10.7946
-# CDL Prefixes Per 2014.03.24 email from Frauke Ziedorn:
-#-> 10.15138 - 10.15147
-# Purdue prefixes -- use these when setting up a Purdue user account
-#-> 10.13010 - 10.13028
-# CDL Prefixes Per 2014.10.13 email from Frauke Ziedorn:
-#-> 10.15779 10.15780 10.15781 10.15782 10.15783 10.15784 10.15785 10.15786 10.15787 10.15788
 
 # Default account set up: one DOI shoulder+minter and one ARK shoulder+minter
-# NAANs and Prefixes no longer need to be at highest leve of an org, eg, a
+# NAANs and Prefixes no longer need to be at highest level of an org, eg, a
 # campus library can register as a library and not necessarily as the campus
-
-# === old steps below
-#  1.  ./mint_doip mint	for DOI prefix -> "Dfix"
-#  2.  make "Afix" with s/^b/8/	to derive ARK prefix/naan (Afix)
-#				eg, Dfix=b1234 becomes Afix=81234 
-#  3.  ./mint_shdr mint		for DOI shoulder -> Dshdr
-#  4.  ./mint_shdr mint		for ARK shoulder -> Ashdr
-#  5.  ./make_shdr Dfix/Dshdr	to make DOI minter
-#  6.  ./make_shdr Afix/Ashdr	to make ARK minter
-#  7.  record in master_shoulders, master_naans (ARKs), grandfathered
 
 # XXX bug in unmint: (in queue first/now):
 #     while everything in "now" comes after everything in "first"
@@ -43,41 +20,22 @@
 #    => XXX need a real FIFO queue  (with dates and comments would be good)
 #    => XXX must be able to inspect the queues!
 
-# Start adding data center name as CDL.X where X is 8 chars max, all ucase.
-# This file now available for Greg to harvest from
-#   http://noid.cdlib.org/master_shoulders.txt
-
+# Add data center name as CDL.X or PURDUE.X where X is 8 chars max, all ucase.
 # xxx data center should be derived from group name, not user name?
-# new cNNNN (purdue) NAANs     # 10.13010 - 10.13028
 
-# ark:/83012/c6 doi:10.13012/C5 ark:/83012/j5 doi:10.13012/J4
-# 83012/c6 10.13012/C5 83012/j5 10.13012/J4
-# 10.13012/C5 10.13012/J4
-
+# ==== Flags ====
+#
 # Use "is_supershoulder: true" to mark a shoulder that encompasses at
 # least one other shoulder, eg, ark:/99999/ encompasses ark:/99999/fk4.
-
-#The way it works is that each empty shoulder will also accommodate a
-#minter that just happens to mint strings starting with their NAAN
-#extended by a couple of fixed characters, which you can infer from the
-#end of their minter URLs:
-# 
-# 1. ark:/87925/h1
-# 2. doi:10.7925/h0
-# 3. ark:/87929/h9
-# 4. doi:10.7929/h8
 #
-#The change for them would be in the UI, where the extra "Minter"
-#shoulder wouldn't be a separate item in their menu of choices.  (Greg,
-#any other changes for them, eg, in their API procedures?)
-#
-#This would be simpler than using the supershoulder flag, which is
-#really designed for a NAAN that's shared between different users.
+# Use "prefix_shares_datacenter: true" to mark a shoulder legitimately
+# assigned to more than one datacenter.  Both these flags suppress error
+# or warning messages that would otherwise occur during validation.
 
 # ======== Add new shoulders after this line ============
 
-# xxx all new prefixes can be assigned to either CDL or Purdue
-# yyy add "crossref: true" to make EZID deposit metadata with CrossRef
+# NOTE: all new prefixes can be assigned to either CDL or Purdue
+# xxx add "crossref: true" to make EZID deposit metadata with CrossRef
 
 # To remove a shoulder from the system, remove it from this file, install,
 # and reload EZID as usual.  This will generate an EZID exception alert,
@@ -88,14 +46,421 @@
 # for that owner and silence further exceptions.
 
 # Combined Purdue and CDL prefixes.
-# xxx unassigned CDL-only prefixes:  7918
-# xxx OneOcean NAAN (delete it, and minter?): 87911
-# xxx former OneOcean prefix and minter now can be released:
-# xxx     10.7911
-# Allocate by popping the top of the stack (ie, remove and use,
-#    but confirm with "~/naans/forge/doip_mint mint")
-# Stack top->
-# 10.17916 10.17917 10.17918 10.17919 10.17920 10.18112 10.18113 10.18114 10.18115 10.18116 10.18117 10.18118 10.18119 10.18120 10.18121 10.18122 10.18123 10.18124 10.18125 10.18126 10.18127 10.18128 10.18129 10.18130 10.18131
+# xxx unassigned CDL-only prefixes:  10.7918
+#
+# Allocate a prefix by popping off the top of the stack (next).
+# STACKTOP
+# 10.18130 10.18131 10.18430 10.18431 10.18432 10.18433 10.18434 10.18435 10.18436 10.18437 10.18438 10.18439 
+
+######## note: generic accounts section delimited with lines like these ########
+# make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
+# make_ezacct purdue 10.18126 p6 "" p7 < ezaccts/newacct > out
+# make_ezacct cdl 10.18125 d2 "" d8 < ezaccts/newacct > out
+# make_ezacct cdl 10.18124 d4 "" d5 < ezaccts/newacct > out
+# make_ezacct cdl 10.18123 d6 "" d7 < ezaccts/newacct > out
+
+# Default shoulder selection: pick one letter and one digit (not 0 or 1).
+# To pick the DOI shoulder digit, start with last prefix digit.
+# To pick the ARK shoulder digit, start with second to last prefix digit.
+# To pick letter for both shoulders, start with a non-vowel, non-ell
+# letter from the org acronym.  (what if none?)
+# Iterate: change digit until first shoulder that doesn't exist -> Done
+# ZZZ AVOID digits 0 and 1 in shoulders!
+# Copy: make_ezacct cdl 10.xxxxx p6 "" p7 < ezaccts/newacct > out
+# Copy: make_ezacct -n purdue 10.18128 - "" - < ezaccts/newacct > out
+# make_ezacct purdue 10.18129 b9 "" b2 < ezaccts/newacct > out
+
+:: doi:10.4231/H4
+type: shoulder
+manager: ezid
+#eziduser: datacenterhub
+name: datacenterhub
+date: 2015.11.17
+minter: https://n2t.net/a/ezid/m/ark/b4231/h4
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+
+:: ark:/88129/b2
+type: shoulder
+manager: ezid
+#eziduser: nci_bioconductor
+name: National Cancer Institute, Bioconductor
+date: 2015.10.20
+minter: https://n2t.net/a/ezid/m/ark/88129/b2
+
+:: doi:10.18129/B9
+type: shoulder
+manager: ezid
+#eziduser: nci_bioconductor
+name: National Cancer Institute, Bioconductor
+date: 2015.10.20
+minter: https://n2t.net/a/ezid/m/ark/c8129/b9
+datacenter: PURDUE.NCIB
+
+:: doi:10.7283/P2
+type: shoulder
+manager: ezid
+#eziduser: unavco
+name: UNAVCO-P2
+date: 2015.10.14
+minter: https://n2t.net/a/ezid/m/ark/b7283/p2
+datacenter: CDL.UNAVCO
+
+:: doi:10.7283/R3
+type: shoulder
+manager: ezid
+#eziduser: unavco-tls
+name: UNAVCO-TLS
+date: 2015.10.14
+minter: https://n2t.net/a/ezid/m/ark/b7283/r3
+datacenter: CDL.UNAVCO
+
+:: ark:/88128/
+type: shoulder
+manager: ezid
+#eziduser: ipums
+name: IPUMS
+date: 2015.09.29
+minter: 
+
+:: doi:10.18128/
+type: shoulder
+manager: ezid
+#eziduser: ipums
+name: IPUMS
+date: 2015.09.29
+minter: 
+datacenter: PURDUE.IPUMS
+
+######## start of generic accounts section ########
+
+:: ark:/88127/p8
+type: shoulder
+manager: ezid
+#eziduser: datactr5
+name: Temporary Name: Data Center 5
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/88127/p8
+
+:: doi:10.18127/P2
+type: shoulder
+manager: ezid
+#eziduser: datactr5
+name: Temporary Name: Data Center 5
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/c8127/p2
+datacenter: PURDUE.DATACTR5
+
+:: ark:/88126/p7
+type: shoulder
+manager: ezid
+#eziduser: datactr4
+name: Temporary Name: Data Center 4
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/88126/p7
+
+:: doi:10.18126/P6
+type: shoulder
+manager: ezid
+#eziduser: datactr4
+name: Temporary Name: Data Center 4
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/c8126/p6
+datacenter: PURDUE.DATACTR4
+
+:: ark:/88125/d8
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Temporary Name: Data Center 3
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/88125/d8
+
+:: doi:10.18125/D2
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Temporary Name: Data Center 3
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/c8125/d2
+datacenter: CDL.DATACTR3
+
+######## end of generic accounts section ########
+
+:: ark:/88124/d5
+type: shoulder
+manager: ezid
+#eziduser: aep
+name: Antarctic Environments Portal
+date: 2015.09.23
+minter: https://n2t.net/a/ezid/m/ark/88124/d5
+
+:: doi:10.18124/D4
+type: shoulder
+manager: ezid
+#eziduser: aep
+name: Antarctic Environments Portal
+date: 2015.09.23
+minter: https://n2t.net/a/ezid/m/ark/c8124/d4
+datacenter: CDL.AEP
+
+:: ark:/88123/d7
+type: shoulder
+manager: ezid
+#eziduser: lccnetwork
+name: Landscape Conservation Cooperative
+date: 2015.09.15
+minter: https://n2t.net/a/ezid/m/ark/88123/d7
+
+:: doi:10.18123/D6
+type: shoulder
+manager: ezid
+#eziduser: lccnetwork
+name: Landscape Conservation Cooperative
+date: 2015.09.15
+minter: https://n2t.net/a/ezid/m/ark/c8123/d6
+datacenter: CDL.LCC
+
+:: ark:/88122/b8
+type: shoulder
+manager: ezid
+#eziduser: boisedoi
+name: Boise State University
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88122/b8
+
+:: doi:10.18122/B2
+type: shoulder
+manager: ezid
+#eziduser: boisedoi
+name: Boise State University
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8122/b2
+datacenter: CDL.BOISESTA
+
+:: ark:/88121/n7
+type: shoulder
+manager: ezid
+#eziduser: nci_asset
+name: National Cancer Institute, NIH
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88121/n7
+
+:: doi:10.18121/N2
+type: shoulder
+manager: ezid
+#eziduser: nci_asset
+name: National Cancer Institute, NIH
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8121/n2
+datacenter: PURDUE.NCIP
+
+:: ark:/88120/r8
+type: shoulder
+manager: ezid
+#eziduser: isi-isrd
+name: USC ISI Informatics Systems Research Division
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88120/r8
+
+:: doi:10.18120/R2
+type: shoulder
+manager: ezid
+#eziduser: isi-isrd
+name: USC ISI Informatics Systems Research Division
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8120/r2
+datacenter: CDL.ISRD
+
+:: ark:/88119/f7
+type: shoulder
+manager: ezid
+#eziduser: facebase
+name: Facebase Consortium
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88119/f7
+
+:: doi:10.18119/F9
+type: shoulder
+manager: ezid
+#eziduser: facebase
+name: Facebase Consortium
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8119/f9
+datacenter: CDL.FACEBASE
+
+:: ark:/88118/p7
+type: shoulder
+manager: ezid
+#eziduser: uc-geer
+name: Geotechnical Extreme Events Reconnaissance
+date: 2015.08.28
+minter: https://n2t.net/a/ezid/m/ark/88118/p7
+
+:: doi:10.18118/G6
+type: shoulder
+manager: ezid
+#eziduser: uc-geer
+name: Geotechnical Extreme Events Reconnaissance
+date: 2015.08.28
+minter: https://n2t.net/a/ezid/m/ark/c8118/g6
+datacenter: CDL.GEER
+
+:: ark:/88116/c8
+type: shoulder
+manager: ezid
+#eziduser: umms-candi
+name: UMass Medical School-CANDI
+date: 2015.08.26
+minter: https://n2t.net/a/ezid/m/ark/88116/c8
+
+:: doi:10.18116/C6
+type: shoulder
+manager: ezid
+#eziduser: umms-candi
+name: UMass Medical School-CANDI
+date: 2015.08.26
+minter: https://n2t.net/a/ezid/m/ark/c8116/c6
+datacenter: CDL.UMMSCAND
+
+:: ark:/88117/p7
+type: shoulder
+manager: ezid
+#eziduser: pittezid
+name: University of Pittsburgh
+date: 2015.08.13
+minter: https://n2t.net/a/ezid/m/ark/88117/p7
+
+:: doi:10.18117/P6
+type: shoulder
+manager: ezid
+#eziduser: pittezid
+name: University of Pittsburgh
+date: 2015.08.13
+minter: https://n2t.net/a/ezid/m/ark/c8117/p6
+datacenter: CDL.PITT
+crossref: true
+
+:: ark:/88115/d6
+type: shoulder
+manager: ezid
+#eziduser: ucd-lucklab
+name: Laboratory for Basic and Translational Cognitive Neuroscience
+date: 2015.08.13
+minter: https://n2t.net/a/ezid/m/ark/88115/d6
+
+:: doi:10.18115/D5
+type: shoulder
+manager: ezid
+#eziduser: ucd-lucklab
+name: Laboratory for Basic and Translational Cognitive Neuroscience
+date: 2015.08.13
+minter: https://n2t.net/a/ezid/m/ark/c8115/d5
+datacenter: CDL.LUCKLAB
+
+:: ark:/88112/p8
+type: shoulder
+manager: ezid
+#eziduser: openfmri
+name: Openfmri
+date: 2015.07.27
+minter: https://n2t.net/a/ezid/m/ark/88112/p8
+
+:: doi:10.18112/P2
+type: shoulder
+manager: ezid
+#eziduser: openfmri
+name: Openfmri
+date: 2015.07.27
+minter: https://n2t.net/a/ezid/m/ark/c8112/p2
+datacenter: CDL.OPENFMRI
+
+:: ark:/77920/p2
+type: shoulder
+manager: ezid
+#eziduser: pubref
+name: PubRef.org
+date: 2015.07.17
+minter: https://n2t.net/a/ezid/m/ark/77920/p2
+
+:: doi:10.17920/P9
+type: shoulder
+manager: ezid
+#eziduser: pubref
+name: PubRef.org
+date: 2015.07.17
+minter: https://n2t.net/a/ezid/m/ark/c7920/p9
+datacenter: CDL.PUBREF
+
+:: ark:/77919/x7
+type: shoulder
+manager: ezid
+#eziduser: eixid
+name: Entrepreneur & Innovation Exchange
+date: 2015.07.15
+minter: https://n2t.net/a/ezid/m/ark/77919/x7
+
+:: doi:10.17919/X9
+type: shoulder
+manager: ezid
+#eziduser: eixid
+name: Entrepreneur & Innovation Exchange
+date: 2015.07.15
+minter: https://n2t.net/a/ezid/m/ark/c7919/x9
+datacenter: CDL.EIX
+crossref: true
+
+:: ark:/87918/d9
+type: shoulder
+manager: ezid
+#eziduser: drexeldata
+name: Drexel University Libraries
+date: 2015.07.13
+minter: https://n2t.net/a/ezid/m/ark/87918/d9
+
+:: doi:10.17918/D8
+type: shoulder
+manager: ezid
+#eziduser: drexeldata
+name: Drexel University Libraries
+date: 2015.07.13
+minter: https://n2t.net/a/ezid/m/ark/c7918/d8
+datacenter: CDL.DRXLDATA
+
+:: ark:/87917/c9
+type: shoulder
+manager: ezid
+#eziduser: nciphub
+name: National Cancer Informatics Program Hub, NIH
+date: 2015.07.09
+minter: https://n2t.net/a/ezid/m/ark/87917/c9
+
+:: doi:10.17917/C7
+type: shoulder
+manager: ezid
+#eziduser: nciphub
+name: National Cancer Informatics Program Hub, NIH
+date: 2015.07.09
+minter: https://n2t.net/a/ezid/m/ark/c7917/c7
+datacenter: PURDUE.NCIPH
+
+:: ark:/77916/c7
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/77916/c7
+
+:: doi:10.17916/C6
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/c7916/c6
+datacenter: CDL.ICIS
 
 :: ark:/87915/n7
 type: shoulder
@@ -115,13 +480,13 @@ minter: https://n2t.net/a/ezid/m/ark/c7915/n5
 datacenter: CDL.CNS
 crossref: true
 
-:: ark:/87914/s4
+:: ark:/77914/s4
 type: shoulder
 manager: ezid
 #eziduser: mondaylib
 name: Saint Edward's University
 date: 2015.06.09
-minter: https://n2t.net/a/ezid/m/ark/87914/s4
+minter: https://n2t.net/a/ezid/m/ark/77914/s4
 
 :: doi:10.17914/S9
 type: shoulder
@@ -139,7 +504,7 @@ manager: ezid
 name: IUPUI University Library Data
 date: 2015.05.29
 minter: https://n2t.net/a/ezid/m/ark/b7912/d2
-datacenter: CDL.IUPUI
+datacenter: PURDUE.IUPUI
 
 :: doi:10.7912/C2
 type: shoulder
@@ -148,7 +513,7 @@ manager: ezid
 name: IUPUI University Library
 date: 2015.05.29
 minter: https://n2t.net/a/ezid/m/ark/b7912/c2
-datacenter: CDL.IUPUI
+datacenter: PURDUE.IUPUI
 
 :: doi:10.5967/P9
 type: shoulder
@@ -157,15 +522,16 @@ manager: ezid
 name: Indiana University Pervasive Technology Institute
 date: 2015.05.29
 minter: https://n2t.net/a/ezid/m/ark/b5967/p9
-datacenter: PURDUE.EZID
+datacenter: PURDUE.PTI
+prefix_shares_datacenter: true
 
-:: ark:/87913/r7
+:: ark:/77913/r7
 type: shoulder
 manager: ezid
 #eziduser: umiami_regenbase
 name: Miami Project to Cure Paralysis
 date: 2015.05.27
-minter: https://n2t.net/a/ezid/m/ark/87913/r7
+minter: https://n2t.net/a/ezid/m/ark/77913/r7
 
 :: doi:10.17913/R3
 type: shoulder
@@ -176,13 +542,13 @@ date: 2015.05.27
 minter: https://n2t.net/a/ezid/m/ark/c7913/r3
 datacenter: CDL.REGENBAS
 
-:: ark:/87912/w7
+:: ark:/77912/w7
 type: shoulder
 manager: ezid
 #eziduser: caltech_wormbase
 name: Caltech Biology
 date: 2015.05.26
-minter: https://n2t.net/a/ezid/m/ark/87912/w7
+minter: https://n2t.net/a/ezid/m/ark/77912/w7
 
 :: doi:10.17912/W2
 type: shoulder
@@ -193,6 +559,7 @@ date: 2015.05.26
 minter: https://n2t.net/a/ezid/m/ark/c7912/w2
 datacenter: CDL.WORMBASE
 
+# ARK NAAN formerly used by OneOcean
 :: ark:/87911/s7
 type: shoulder
 manager: ezid
@@ -201,6 +568,7 @@ name: University of Washington IsoLab
 date: 2015.05.20
 minter: https://n2t.net/a/ezid/m/ark/87911/s7
 
+# DOI Prefix formerly used by OneOcean
 :: doi:10.17911/S9
 type: shoulder
 manager: ezid
@@ -230,6 +598,7 @@ datacenter: CDL.DATABRAR
 :: ark:/87936/b7
 type: shoulder
 manager: ezid
+#eziduser: wustl_cbi
 name: WUSTL Center for Biomedical Informatics
 date: 2015.05.13
 minter: https://n2t.net/a/ezid/m/ark/87936/b7
@@ -237,18 +606,19 @@ minter: https://n2t.net/a/ezid/m/ark/87936/b7
 :: doi:10.7936/B6
 type: shoulder
 manager: ezid
+#eziduser: wustl_cbi
 name: WUSTL Center for Biomedical Informatics
 date: 2015.05.13
 minter: https://n2t.net/a/ezid/m/ark/b7936/b6
 datacenter: CDL.WUSTL
 
-:: ark:/87909/t7
+:: ark:/77909/t7
 type: shoulder
 manager: ezid
 #eziduser: stsci
 name: Space Telescope Science Institute
 date: 2015.05.11
-minter: https://n2t.net/a/ezid/m/ark/87909/t7
+minter: https://n2t.net/a/ezid/m/ark/77909/t7
 
 :: doi:10.17909/
 type: shoulder
@@ -310,7 +680,7 @@ manager: ezid
 name: Registry of Research Repositories
 date: 2015.04.24
 minter: https://n2t.net/a/ezid/m/ark/c7616/r3
-datacenter: CDL.RE3DATA
+datacenter: PURDUE.RE3DATA
 
 :: ark:/87615/c5
 type: shoulder
@@ -377,6 +747,7 @@ datacenter: CDL.IRIS
 # of 2015.03.13; replaces retired minter 13030/p4
 type: shoulder
 manager: ezid
+#eziduser: eschol_harvester
 name: Open Access Policy
 date: 2015.04.06
 minter: https://n2t.net/a/ezid/m/ark/13030/p8
@@ -386,6 +757,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/p8
 # of 2015.03.13; replaces retired minter 87924/r3
 type: shoulder
 manager: ezid
+#eziduser: duke_ddr
 name: Duke Digital Repository
 date: 2015.04.06
 minter: https://n2t.net/a/ezid/m/ark/87924/r4
@@ -535,7 +907,7 @@ manager: ezid
 #eziduser: cos
 name: Center for Open Science
 date: 2015.03.31
-minter: 
+minter:
 
 :: doi:10.17605/
 type: shoulder
@@ -543,13 +915,14 @@ manager: ezid
 #eziduser: cos
 name: Center for Open Science
 date: 2015.03.31
-minter: 
+minter:
 datacenter: CDL.COS
 
 :: ark:/65665/
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: nmnh_ris
 name: National Museum of Natural History, Smithsonian Institution - empty shoulder
 date: 2015.03.31
 minter:
@@ -588,6 +961,15 @@ date: 2015.03.30
 minter:
 datacenter: CDL.TACC
 
+:: doi:10.17603/DS2
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe
+date: 2015.09.29
+minter: https://n2t.net/a/ezid/m/ark/c7603/ds2
+datacenter: CDL.TACC
+
 :: ark:/87603/c7
 type: shoulder
 manager: ezid
@@ -608,6 +990,7 @@ datacenter: CDL.TACC
 :: ark:/87602/m4
 type: shoulder
 manager: ezid
+#eziduser: duke_morpho
 name: Morphosource Project
 date: 2015.03.26
 minter: https://n2t.net/a/ezid/m/ark/87602/m4
@@ -615,6 +998,7 @@ minter: https://n2t.net/a/ezid/m/ark/87602/m4
 :: doi:10.17602/M2
 type: shoulder
 manager: ezid
+#eziduser: duke_morpho
 name: Morphosource Project
 date: 2015.03.26
 minter: https://n2t.net/a/ezid/m/ark/c7602/m2
@@ -623,6 +1007,7 @@ datacenter: CDL.MORPHOSO
 :: doi:10.7931/L1
 type: shoulder
 manager: ezid
+#eziduser: lcnz_lri
 name: LandcareNZ Land Resource Information
 date: 2015.03.20
 minter: https://n2t.net/a/ezid/m/ark/b7931/l1
@@ -632,6 +1017,7 @@ datacenter: CDL.LCRNZ
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: unkentucky
 name: University of Kentucky Libraries (Semantic)
 date: 2015.03.20
 minter:
@@ -640,6 +1026,7 @@ datacenter: CDL.UKY
 :: ark:/19153/p4
 type: shoulder
 manager: ezid
+#eziduser: cndp-crdp
 name: Parcours EGO-PAC
 date: 2015.03.16
 minter: https://n2t.net/a/ezid/m/ark/19153/p4
@@ -647,21 +1034,24 @@ minter: https://n2t.net/a/ezid/m/ark/19153/p4
 :: doi:10.7290/D6
 type: shoulder
 manager: ezid
-name: UTK Digital Library Program
+#eziduser: utk_dlp
+name: University of Tennessee Digital Library Program
 date: 2015.03.09
 minter: https://n2t.net/a/ezid/m/ark/b7290/d6
 datacenter: CDL.UTENN
 
-:: ark:/85788/m4
+:: ark:/75788/m4
 type: shoulder
 manager: ezid
+#eziduser: mtstate
 name: Montana State University
 date: 2015.03.04
-minter: https://n2t.net/a/ezid/m/ark/85788/m4
+minter: https://n2t.net/a/ezid/m/ark/75788/m4
 
 :: doi:10.15788/M2
 type: shoulder
 manager: ezid
+#eziduser: mtstate
 name: Montana State University
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/c5788/m2
@@ -670,6 +1060,7 @@ datacenter: CDL.MSU
 :: ark:/85787/vtt1
 type: shoulder
 manager: ezid
+#eziduser: vtti_ezid
 name: Virginia Tech Transportation Institute
 date: 2015.02.26
 minter: https://n2t.net/a/ezid/m/ark/85787/vtt1
@@ -677,6 +1068,7 @@ minter: https://n2t.net/a/ezid/m/ark/85787/vtt1
 :: doi:10.15787/VTT1
 type: shoulder
 manager: ezid
+#eziduser: vtti_ezid
 name: Virginia Tech Transportation Institute
 date: 2015.02.26
 minter: https://n2t.net/a/ezid/m/ark/c5787/vtt1
@@ -685,6 +1077,7 @@ datacenter: CDL.VTTI
 :: ark:/85786/m4
 type: shoulder
 manager: ezid
+#eziduser: wyu_libs
 name: University of Wyoming Libraries
 date: 2015.02.23
 minter: https://n2t.net/a/ezid/m/ark/85786/m4
@@ -692,6 +1085,7 @@ minter: https://n2t.net/a/ezid/m/ark/85786/m4
 :: doi:10.15786/M2
 type: shoulder
 manager: ezid
+#eziduser: wyu_libs
 name: University of Wyoming Libraries
 date: 2015.02.23
 minter: https://n2t.net/a/ezid/m/ark/c5786/m2
@@ -700,36 +1094,41 @@ datacenter: CDL.UWYO
 :: ark:/85785/
 type: shoulder
 manager: ezid
+#eziduser: sbgrid
 name: Harvard Medical School
 date: 2015.02.18
-minter: 
+minter:
 
 :: doi:10.15785/
 type: shoulder
 manager: ezid
+#eziduser: sbgrid
 name: Harvard Medical School
 date: 2015.02.18
-minter: 
+minter:
 datacenter: CDL.SBGRID
 
 :: ark:/85784/
 type: shoulder
 manager: ezid
+#eziduser: cu-idea
 name: Interdisciplinary Earth Data Alliance
 date: 2015.02.18
-minter: 
+minter:
 
 :: doi:10.15784/
 type: shoulder
 manager: ezid
+#eziduser: cu-idea
 name: Interdisciplinary Earth Data Alliance
 date: 2015.02.18
-minter: 
+minter:
 datacenter: CDL.IEDA
 
 :: ark:/85783/c9
 type: shoulder
 manager: ezid
+#eziduser: dartcrawda
 name: CRAWDAD
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/85783/c9
@@ -737,6 +1136,7 @@ minter: https://n2t.net/a/ezid/m/ark/85783/c9
 :: doi:10.15783/C7
 type: shoulder
 manager: ezid
+#eziduser: dartcrawda
 name: CRAWDAD
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/c5783/c7
@@ -745,6 +1145,7 @@ datacenter: CDL.CRAWDAD
 :: ark:/85782/d8
 type: shoulder
 manager: ezid
+#eziduser: ucsd_d3r
 name: Drug Design Data (D3R) Resource
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/85782/d8
@@ -752,6 +1153,7 @@ minter: https://n2t.net/a/ezid/m/ark/85782/d8
 :: doi:10.15782/D6
 type: shoulder
 manager: ezid
+#eziduser: ucsd_d3r
 name: Drug Design Data (D3R) Resource
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/c5782/d6
@@ -760,6 +1162,7 @@ datacenter: CDL.D3R
 :: ark:/85781/t4
 type: shoulder
 manager: ezid
+#eziduser: utaustin
 name: University of Texas at Austin
 date: 2015.02.17
 minter: https://n2t.net/a/ezid/m/ark/85781/t4
@@ -767,6 +1170,7 @@ minter: https://n2t.net/a/ezid/m/ark/85781/t4
 :: doi:10.15781/T2
 type: shoulder
 manager: ezid
+#eziduser: utaustin
 name: University of Texas at Austin
 date: 2015.02.17
 minter: https://n2t.net/a/ezid/m/ark/c5781/t2
@@ -775,6 +1179,7 @@ datacenter: CDL.UTAUSTIN
 :: doi:10.7264/D3
 type: shoulder
 manager: ezid
+#eziduser: oregondata
 name: University of Oregon Data
 date: 2015.02.12
 minter: https://n2t.net/a/ezid/m/ark/b7264/d3
@@ -783,6 +1188,7 @@ datacenter: CDL.UOREGON
 :: ark:/85788/g4
 type: shoulder
 manager: ezid
+#eziduser: sb-chg
 name: UCSB Climate Hazards Group, Dept of Geography
 date: 2015.02.11
 minter: https://n2t.net/a/ezid/m/ark/85788/g4
@@ -790,6 +1196,7 @@ minter: https://n2t.net/a/ezid/m/ark/85788/g4
 :: doi:10.15780/G2
 type: shoulder
 manager: ezid
+#eziduser: sb-chg
 name: UCSB Climate Hazards Group, Dept of Geography
 date: 2015.02.11
 minter: https://n2t.net/a/ezid/m/ark/c5780/g2
@@ -798,6 +1205,7 @@ datacenter: CDL.SBGEOG
 :: ark:/85779/j4
 type: shoulder
 manager: ezid
+#eziduser: ucb-lawlib
 name: Berkeley Law Library
 date: 2015.02.07
 minter: https://n2t.net/a/ezid/m/ark/85779/j4
@@ -805,6 +1213,7 @@ minter: https://n2t.net/a/ezid/m/ark/85779/j4
 :: doi:10.15779/Z38
 type: shoulder
 manager: ezid
+#eziduser: ucb-lawlib
 name: Berkeley Law School Journals
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/c5779/z38
@@ -814,6 +1223,7 @@ crossref: true
 :: doi:10.15779/J2
 type: shoulder
 manager: ezid
+#eziduser: ucb-lawlib
 name: Berkeley Law Library
 date: 2015.02.07
 minter: https://n2t.net/a/ezid/m/ark/c5779/j2
@@ -823,6 +1233,7 @@ crossref: true
 :: ark:/83028/m4
 type: shoulder
 manager: ezid
+#eziduser: umassmed
 name: UMass Medical School
 date: 2015.02.04
 minter: https://n2t.net/a/ezid/m/ark/83028/m4
@@ -830,6 +1241,7 @@ minter: https://n2t.net/a/ezid/m/ark/83028/m4
 :: doi:10.13028/M2
 type: shoulder
 manager: ezid
+#eziduser: umassmed
 name: UMass Medical School
 date: 2015.02.04
 minter: https://n2t.net/a/ezid/m/ark/c3028/m2
@@ -838,6 +1250,7 @@ datacenter: CDL.UMWLSL
 :: ark:/83027/m4
 type: shoulder
 manager: ezid
+#eziduser: mbf-bioscience
 name: MBF Bioscience
 date: 2015.01.27
 minter: https://n2t.net/a/ezid/m/ark/83027/m4
@@ -845,14 +1258,16 @@ minter: https://n2t.net/a/ezid/m/ark/83027/m4
 :: doi:10.13027/
 type: shoulder
 manager: ezid
+#eziduser: mbf-bioscience
 name: MBF Bioscience
 date: 2015.01.27
-minter: 
+minter:
 datacenter: CDL.MBFBIO
 
 :: ark:/10945/t4
 type: shoulder
 manager: ezid
+#eziduser: teachpitch
 name: TeachPitch
 date: 2015.01.21
 minter: https://n2t.net/a/ezid/m/ark/10945/t4
@@ -860,6 +1275,7 @@ minter: https://n2t.net/a/ezid/m/ark/10945/t4
 :: doi:10.5070/P2
 type: shoulder
 manager: ezid
+#eziduser: eschol-harvester
 name: eScholarship: California Jrnl of Politics and Policy
 date: 2014.01.14
 minter: https://n2t.net/a/ezid/m/ark/b5070/p2
@@ -869,6 +1285,7 @@ crossref: true
 :: ark:/83026/c4
 type: shoulder
 manager: ezid
+#eziduser: physionet
 name: MIT Laboratory of Computational Physiology
 date: 2015.01.13
 minter: https://n2t.net/a/ezid/m/ark/83026/c4
@@ -876,6 +1293,7 @@ minter: https://n2t.net/a/ezid/m/ark/83026/c4
 :: doi:10.13026/C2
 type: shoulder
 manager: ezid
+#eziduser: physionet
 name: MIT Laboratory of Computational Physiology
 date: 2015.01.13
 minter: https://n2t.net/a/ezid/m/ark/c3026/c2
@@ -884,6 +1302,7 @@ datacenter: CDL.MITLCP
 :: doi:10.13025/D3
 type: shoulder
 manager: ezid
+#eziduser: nuig-duanaire
 name: National University of Ireland, Galway Dataverse
 date: 2015.01.08
 minter: https://n2t.net/a/ezid/m/ark/c3025/d3
@@ -892,6 +1311,7 @@ datacenter: CDL.NUIGAL
 :: ark:/83025/s4
 type: shoulder
 manager: ezid
+#eziduser: nuigalway
 name: National University of Ireland, Galway
 date: 2015.01.06
 minter: https://n2t.net/a/ezid/m/ark/83025/s4
@@ -899,6 +1319,7 @@ minter: https://n2t.net/a/ezid/m/ark/83025/s4
 :: doi:10.13025/S8
 type: shoulder
 manager: ezid
+#eziduser: nuigalway
 name: National University of Ireland, Galway
 date: 2015.01.06
 minter: https://n2t.net/a/ezid/m/ark/c3025/s8
@@ -907,6 +1328,7 @@ datacenter: CDL.NUIGAL
 :: ark:/83024/d4
 type: shoulder
 manager: ezid
+#eziduser: dartmouthc
 name: Dartmouth College Library
 date: 2014.12.19
 minter: https://n2t.net/a/ezid/m/ark/83024/d4
@@ -914,6 +1336,7 @@ minter: https://n2t.net/a/ezid/m/ark/83024/d4
 :: doi:10.13024/D2
 type: shoulder
 manager: ezid
+#eziduser: dartmouthc
 name: Dartmouth College Library
 date: 2014.12.19
 minter: https://n2t.net/a/ezid/m/ark/c3024/d2
@@ -924,13 +1347,15 @@ datacenter: CDL.DARTLIB
 :: ark:/99152/p0
 type: shoulder
 manager: ezid
+#eziduser: opencontext
 name: OpenContext PeriodO
 date: 2015.01.26
-minter: 
+minter:
 
 :: doi:10.7291/D1
 type: shoulder
 manager: ezid
+#eziduser: ucsc-lib
 name: UCSC Dash
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b7291/d1
@@ -939,6 +1364,7 @@ datacenter: CDL.UCSC
 :: doi:10.7941/D1
 type: shoulder
 manager: ezid
+#eziduser: lbnl-lib
 name: LBNL Dash
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b7941/d1
@@ -947,6 +1373,7 @@ datacenter: CDL.LBNL
 :: doi:10.5070/S8
 type: shoulder
 manager: ezid
+#eziduser: eschol-harvester
 name: eScholarship
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b5070/s8
@@ -956,6 +1383,7 @@ crossref: true
 :: ark:/16417/k4
 type: shoulder
 manager: ezid
+#eziduser: unkentucky
 name: University of Kentucky Libraries
 date: 2014.11.21
 minter: https://n2t.net/a/ezid/m/ark/16417/k4
@@ -963,6 +1391,7 @@ minter: https://n2t.net/a/ezid/m/ark/16417/k4
 :: doi:10.13023/K2
 type: shoulder
 manager: ezid
+#eziduser: unkentucky
 name: University of Kentucky Libraries (Random)
 date: 2014.11.21
 minter: https://n2t.net/a/ezid/m/ark/c3023/k2
@@ -971,6 +1400,7 @@ datacenter: CDL.UKY
 :: doi:10.13012/M3
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: Materials Data Facility
 date: 2014.11.20
 minter: https://n2t.net/a/ezid/m/ark/c3012/m3
@@ -981,6 +1411,7 @@ type: shoulder
 # XXX make validate-shoulders accept "retired_ezid" as manager value
 manager: oca
 # Retired from ezid
+#eziduser: none
 name: Duke Digital Repository (Retired Minter)
 date: 2014.11.19
 minter: https://n2t.net/a/ezid/m/ark/87924/r3
@@ -988,6 +1419,7 @@ minter: https://n2t.net/a/ezid/m/ark/87924/r3
 :: ark:/83022/m4
 type: shoulder
 manager: ezid
+#eziduser: ucsd_datamares
 name: DataMares
 date: 2014.11.10
 minter: https://n2t.net/a/ezid/m/ark/83022/m4
@@ -995,6 +1427,7 @@ minter: https://n2t.net/a/ezid/m/ark/83022/m4
 :: doi:10.13022/M3
 type: shoulder
 manager: ezid
+#eziduser: ucsd_datamares
 name: DataMares
 date: 2014.11.10
 minter: https://n2t.net/a/ezid/m/ark/c3022/m3
@@ -1003,6 +1436,7 @@ datacenter: CDL.DATAMARE
 :: ark:/83021/g9
 type: shoulder
 manager: ezid
+#eziduser: masonlib
 name: George Mason University
 date: 2014.11.04
 minter: https://n2t.net/a/ezid/m/ark/83021/g9
@@ -1010,6 +1444,7 @@ minter: https://n2t.net/a/ezid/m/ark/83021/g9
 :: doi:10.13021/G8
 type: shoulder
 manager: ezid
+#eziduser: masonlib
 name: George Mason University
 date: 2014.11.04
 minter: https://n2t.net/a/ezid/m/ark/c3021/g8
@@ -1018,6 +1453,7 @@ datacenter: CDL.GMU
 :: ark:/83020/d8
 type: shoulder
 manager: ezid
+#eziduser: drum
 name: Data Repository for the University of Minnesota
 date: 2014.10.14
 minter: https://n2t.net/a/ezid/m/ark/83020/d8
@@ -1025,29 +1461,33 @@ minter: https://n2t.net/a/ezid/m/ark/83020/d8
 :: doi:10.13020/D6
 type: shoulder
 manager: ezid
+#eziduser: drum
 name: Data Repository for the University of Minnesota
 date: 2014.10.14
 minter: https://n2t.net/a/ezid/m/ark/c3020/d6
 datacenter: PURDUE.DRUM
 
-:: ark:/83020/p7
+:: ark:/88114/p7
 type: shoulder
 manager: ezid
+#eziduser: purduepoly
 name: Purdue Polytechnic Institute
 date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/83020/p7
+minter: https://n2t.net/a/ezid/m/ark/88114/p7
 
-:: doi:10.13020/P5
+:: doi:10.18114/P5
 type: shoulder
 manager: ezid
+#eziduser: purduepoly
 name: Purdue Polytechnic Institute
 date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/c3020/p5
+minter: https://n2t.net/a/ezid/m/ark/c8114/p5
 datacenter: PURDUE.PURPOLY
 
 :: ark:/83019/m4
 type: shoulder
 manager: ezid
+#eziduser: mygeohub
 name: MyGeoHub
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/83019/m4
@@ -1056,28 +1496,35 @@ minter: https://n2t.net/a/ezid/m/ark/83019/m4
 type: shoulder
 manager: ezid
 name: MyGeoHub
+#eziduser: mygeohub
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c3019/m2
 datacenter: PURDUE.MYGEOHUB
 
+# inactive
 :: ark:/83018/g4
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Globus.org
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/83018/g4
 
+# inactive
 :: doi:10.13018/G2
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Globus.org
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c3018/g2
-datacenter: PURDUE.GLOBUS
+#this datacenter doesn't show in DataCite
+datacenter: CDL.GLOBUS
 
 :: ark:/85147/j4
 type: shoulder
 manager: ezid
+#eziduser: ucsd_idashrepository
 name: iDASH Repository
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/85147/j4
@@ -1085,6 +1532,7 @@ minter: https://n2t.net/a/ezid/m/ark/85147/j4
 :: doi:10.15147/J2
 type: shoulder
 manager: ezid
+#eziduser: ucsd_idashrepository
 name: iDASH Repository
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c5147/j2
@@ -1093,6 +1541,7 @@ datacenter: CDL.IDASHREP
 :: ark:/83017/m4
 type: shoulder
 manager: ezid
+#eziduser: minnesota
 name: University of Minnesota Libraries
 date: 2014.10.09
 minter: https://n2t.net/a/ezid/m/ark/83017/m4
@@ -1100,6 +1549,7 @@ minter: https://n2t.net/a/ezid/m/ark/83017/m4
 :: doi:10.13017/M2
 type: shoulder
 manager: ezid
+#eziduser: minnesota
 name: University of Minnesota Libraries
 date: 2014.10.09
 minter: https://n2t.net/a/ezid/m/ark/c3017/m2
@@ -1108,14 +1558,17 @@ datacenter: PURDUE.UMN
 :: doi:10.15146/R3
 type: shoulder
 manager: ezid
+#eziduser: dataone
 name: DataONE Dash
 date: 2014.09.24
 minter: https://n2t.net/a/ezid/m/ark/c5146/r3
 datacenter: CDL.UNMLIB
+prefix_shares_datacenter: true
 
 :: ark:/85145/m7
 type: shoulder
 manager: ezid
+#eziduser: unmlibrary
 name: University of New Mexico Libraries
 date: 2014.09.24
 minter: https://n2t.net/a/ezid/m/ark/85145/m7
@@ -1123,14 +1576,17 @@ minter: https://n2t.net/a/ezid/m/ark/85145/m7
 :: doi:10.15145/M6
 type: shoulder
 manager: ezid
+#eziduser: unmlibrary
 name: University of New Mexico Libraries
 date: 2014.09.24
 minter: https://n2t.net/a/ezid/m/ark/c5145/m6
 datacenter: CDL.UNMLIB
+prefix_shares_datacenter: true
 
 :: doi:10.7907/S4
 type: shoulder
 manager: ezid
+#eziduser: oanaluca
 name: Caltech Scholar
 date: 2014.09.17
 minter: https://n2t.net/a/ezid/m/ark/b7907/s4
@@ -1139,6 +1595,7 @@ datacenter: CDL.CALTECH
 :: ark:/87907/s9
 type: shoulder
 manager: ezid
+#eziduser: oanaluca
 name: Caltech Scholar
 date: 2014.09.16
 minter: https://n2t.net/a/ezid/m/ark/87907/s9
@@ -1146,14 +1603,17 @@ minter: https://n2t.net/a/ezid/m/ark/87907/s9
 :: doi:10.5060/D8
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: UCOP Dash
 date: 2014.09.16
 minter: https://n2t.net/a/ezid/m/ark/b5060/d8
 datacenter: CDL.CDL
+prefix_shares_datacenter: true
 
 :: doi:10.6071/M3
 type: shoulder
 manager: ezid
+#eziduser: ucmlibrary
 name: UCM Dash
 date: 2014.09.16
 minter: https://n2t.net/a/ezid/m/ark/b6071/m3
@@ -1163,6 +1623,7 @@ datacenter: CDL.UCM
 type: shoulder
 # XXX make validate-shoulders accept "retired_ezid" as manager value
 manager: oca
+#eziduser: none
 name: Open Access Policy (Retired Minter)
 date: 2014.09.04
 minter: https://n2t.net/a/ezid/m/ark/13030/p4
@@ -1170,6 +1631,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/p4
 :: ark:/65665/n6
 type: shoulder
 manager: ezid
+#eziduser: nmnh_rcis
 name: National Museum of Natural History, Smithsonian Institution
 date: 2014.08.18
 minter: https://n2t.net/a/ezid/m/ark/65665/n6
@@ -1177,21 +1639,24 @@ minter: https://n2t.net/a/ezid/m/ark/65665/n6
 :: ark:/85144/
 type: shoulder
 manager: ezid
+#eziduser: crcl
 name: Center for Research in Computational Linguistics
 date: 2014.08.12
-minter: 
+minter:
 
 :: doi:10.15144/
 type: shoulder
 manager: ezid
+#eziduser: crcl
 name: Center for Research in Computational Linguistics
 date: 2014.08.12
-minter: 
+minter:
 datacenter: CDL.CRCL
 
 :: ark:/85143/c4
 type: shoulder
 manager: ezid
+#eziduser: acsess
 name: Alliance for Crops, Soils, and Environmental Science Societies
 date: 2014.07.30
 minter: https://n2t.net/a/ezid/m/ark/85143/c4
@@ -1199,14 +1664,16 @@ minter: https://n2t.net/a/ezid/m/ark/85143/c4
 :: doi:10.15143/C3
 type: shoulder
 manager: ezid
+#eziduser: acsess
 name: Alliance for Crops, Soils, and Environmental Science Societies
 date: 2014.07.30
 minter: https://n2t.net/a/ezid/m/ark/c5143/c3
-datacenter: CDL.ACSESS
+datacenter: PURDUE.ACSESS
 
 :: ark:/85142/t4
 type: shoulder
 manager: ezid
+#eziduser: usulibrary
 name: Utah State University Merrill-Cazier Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/85142/t4
@@ -1214,6 +1681,7 @@ minter: https://n2t.net/a/ezid/m/ark/85142/t4
 :: doi:10.15142/T3
 type: shoulder
 manager: ezid
+#eziduser: usulibrary
 name: Utah State University Merrill-Cazier Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5142/t3
@@ -1222,6 +1690,7 @@ datacenter: CDL.USU
 :: ark:/85141/s6
 type: shoulder
 manager: ezid
+#eziduser: ucd-ssds
 name: UC Davis, Social Science Data Service
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/85141/s6
@@ -1229,6 +1698,7 @@ minter: https://n2t.net/a/ezid/m/ark/85141/s6
 :: doi:10.15141/S5
 type: shoulder
 manager: ezid
+#eziduser: ucd-ssds
 name: UC Davis, Social Science Data Service
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5141/s5
@@ -1237,6 +1707,7 @@ datacenter: CDL.UCD-SSDS
 :: ark:/85140/d4
 type: shoulder
 manager: ezid
+#eziduser: ucd-library
 name: University of California, Davis, University Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/85140/d4
@@ -1244,6 +1715,7 @@ minter: https://n2t.net/a/ezid/m/ark/85140/d4
 :: doi:10.15140/D3
 type: shoulder
 manager: ezid
+#eziduser: ucd-library
 name: University of California, Davis, University Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5140/d3
@@ -1252,6 +1724,7 @@ datacenter: CDL.UCDAVIS
 :: ark:/85139/s4
 type: shoulder
 manager: ezid
+#eziduser: odumunc
 name: Odum Institute for Research in Social Science
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/85139/s4
@@ -1259,6 +1732,7 @@ minter: https://n2t.net/a/ezid/m/ark/85139/s4
 :: doi:10.15139/S3
 type: shoulder
 manager: ezid
+#eziduser: odumunc
 name: Odum Institute for Research in Social Science
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5139/s3
@@ -1275,6 +1749,7 @@ minter: https://n2t.net/a/ezid/m/ark/85138/g4
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: noaa-gmd
 name: NOAA Global Monitoring Division
 date: 2014.11.06
 minter:
@@ -1283,6 +1758,7 @@ datacenter: CDL.NOAA-GMD
 :: doi:10.15138/G3
 type: shoulder
 manager: ezid
+#eziduser: noa-gmd
 name: NOAA Global Monitoring Division Minter
 date: 2014.07.18
 minter: https://n2t.net/a/ezid/m/ark/c5138/g3
@@ -1291,6 +1767,7 @@ datacenter: CDL.NOAA-GMD
 :: doi:10.6078/D1
 type: shoulder
 manager: ezid
+#eziduser: ucberkeley
 name: UCB Dash
 date: 2014.07.17
 minter: https://n2t.net/a/ezid/m/ark/b6078/d1
@@ -1299,6 +1776,7 @@ datacenter: CDL.UCB
 :: doi:10.7280/D1
 type: shoulder
 manager: ezid
+#eziduser:uci
 name: UCI Dash
 date: 2014.07.17
 minter: https://n2t.net/a/ezid/m/ark/b7280/d1
@@ -1307,6 +1785,7 @@ datacenter: CDL.UCI
 :: ark:/81184/c2
 type: shoulder
 manager: ezid
+#eziduser: cmu-ezid
 name: Carnegie Mellon University Libraries
 date: 2014.07.11
 minter: https://n2t.net/a/ezid/m/ark/81184/c2
@@ -1314,14 +1793,16 @@ minter: https://n2t.net/a/ezid/m/ark/81184/c2
 :: doi:10.1184/
 type: shoulder
 manager: ezid
+#eziduser: cmu-ezid
 name: Carnegie Mellon University Libraries
 date: 2014.07.11
-minter: 
+minter:
 datacenter: CDL.CMU
 
 :: ark:/87946/p3
 type: shoulder
 manager: ezid
+#eziduser: iplant
 name: iPlant Collaborative
 date: 2014.07.08
 minter: https://n2t.net/a/ezid/m/ark/87946/p3
@@ -1329,6 +1810,7 @@ minter: https://n2t.net/a/ezid/m/ark/87946/p3
 :: doi:10.7946/P2
 type: shoulder
 manager: ezid
+#eziduser: iplant
 name: iPlant Collaborative
 date: 2014.07.08
 minter: https://n2t.net/a/ezid/m/ark/b7946/p2
@@ -1337,6 +1819,7 @@ datacenter: CDL.IPLANT
 :: ark:/87945/c3
 type: shoulder
 manager: ezid
+#eziduser: ucinlibs
 name: University of Cincinnati Libraries
 date: 2014.06.25
 minter: https://n2t.net/a/ezid/m/ark/87945/c3
@@ -1345,6 +1828,7 @@ minter: https://n2t.net/a/ezid/m/ark/87945/c3
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: ucinlibs
 name: University of Cincinnati Libraries
 date: 2014.06.25
 minter:
@@ -1353,6 +1837,7 @@ datacenter: CDL.CIN
 :: doi:10.7945/C2
 type: shoulder
 manager: ezid
+#eziduser: ucinlibs
 name: University of Cincinnati Libraries Minter
 date: 2014.06.25
 minter: https://n2t.net/a/ezid/m/ark/b7945/c2
@@ -1361,6 +1846,7 @@ datacenter: CDL.CIN
 :: ark:/88435/dsp01
 type: shoulder
 manager: ezid
+#eziduser: pudiglib
 name: Princeton University Library
 date: 2014.06.20
 minter: https://n2t.net/a/ezid/m/ark/88435/dsp01
@@ -1369,6 +1855,7 @@ minter: https://n2t.net/a/ezid/m/ark/88435/dsp01
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: pudiglib
 name: PUL Digital Collections
 date: 2014.06.20
 minter: https://n2t.net/a/ezid/m/ark/88435/dc
@@ -1376,6 +1863,7 @@ minter: https://n2t.net/a/ezid/m/ark/88435/dc
 :: ark:/83016/m3
 type: shoulder
 manager: ezid
+#eziduser: umd
 name: University of Maryland Libraries
 date: 2014.06.13
 minter: https://n2t.net/a/ezid/m/ark/83016/m3
@@ -1383,6 +1871,7 @@ minter: https://n2t.net/a/ezid/m/ark/83016/m3
 :: doi:10.13016/M2
 type: shoulder
 manager: ezid
+#eziduser: umd
 name: University of Maryland Libraries
 date: 2014.06.13
 minter: https://n2t.net/a/ezid/m/ark/c3016/m2
@@ -1391,6 +1880,7 @@ datacenter: PURDUE.UMD
 :: ark:/87944/w4
 type: shoulder
 manager: ezid
+#eziduser: usfws-sw
 name: U.S. Fish and Wildlife Service
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/87944/w4
@@ -1398,6 +1888,7 @@ minter: https://n2t.net/a/ezid/m/ark/87944/w4
 :: doi:10.7944/W3
 type: shoulder
 manager: ezid
+#eziduser: usfws-sw
 name: U.S. Fish and Wildlife Service
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/b7944/w3
@@ -1406,6 +1897,7 @@ datacenter: CDL.USFWS
 :: ark:/87943/t4
 type: shoulder
 manager: ezid
+#eziduser: lbnl-openmsi
 name: LBNL OpenMSI
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/87943/t4
@@ -1413,6 +1905,7 @@ minter: https://n2t.net/a/ezid/m/ark/87943/t4
 :: doi:10.7943/T3
 type: shoulder
 manager: ezid
+#eziduser: lbnl-openmsi
 name: LBNL OpenMSI
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/b7943/t3
@@ -1421,6 +1914,7 @@ datacenter: CDL.LBNLOMSI
 :: doi:10.5068/D1
 type: shoulder
 manager: ezid
+#eziduser: ucla-library
 name: UCLA Dash
 date: 2014.06.05
 minter: https://n2t.net/a/ezid/m/ark/b5068/d1
@@ -1429,6 +1923,7 @@ datacenter: CDL.UCLA
 :: doi:10.13015/J4
 type: shoulder
 manager: ezid
+#eziduser: artlas
 name: ARTLAS/Purdue University
 date: 2014.06.04
 minter: https://n2t.net/a/ezid/m/ark/c3015/j4
@@ -1437,6 +1932,7 @@ datacenter: PURDUE.ARTLAS
 :: ark:/12345/
 type: shoulder
 manager: ezid
+#eziduser: admin
 name: Examples Shoulder
 date: 2014.05.27
 minter: https://n2t.net/a/ezid/m/ark/12345/fk8
@@ -1444,21 +1940,24 @@ minter: https://n2t.net/a/ezid/m/ark/12345/fk8
 :: ark:/87942/
 type: shoulder
 manager: ezid
+#eziduser: ucsd_cchdo
 name: CLIVAR & Carbon Hydrographic Data Office
 date: 2014.05.21
-minter: 
+minter:
 
 :: doi:10.7942/
 type: shoulder
 manager: ezid
+#eziduser: ucsd_cchdo
 name: CLIVAR & Carbon Hydrographic Data Office
 date: 2014.05.21
-minter: 
+minter:
 datacenter: CDL.CCHDO
 
 :: ark:/87941/t2
 type: shoulder
 manager: ezid
+#eziduser: lbnl-lib
 name: Lawrence Berkeley National Laboratory
 date: 2014.05.09
 minter: https://n2t.net/a/ezid/m/ark/87941/t2
@@ -1466,6 +1965,7 @@ minter: https://n2t.net/a/ezid/m/ark/87941/t2
 :: doi:10.7941/S9
 type: shoulder
 manager: ezid
+#eziduser: lbnl-lib
 name: Lawrence Berkeley National Laboratory
 date: 2014.05.09
 minter: https://n2t.net/a/ezid/m/ark/b7941/s9
@@ -1474,6 +1974,7 @@ datacenter: CDL.LBNL
 :: doi:10.7914/D1
 type: shoulder
 manager: ezid
+#eziduser: fdsn
 name: FDSN Publications
 date: 2014.04.30
 minter: https://n2t.net/a/ezid/m/ark/b7914/d1
@@ -1482,6 +1983,7 @@ datacenter: CDL.FDSN
 :: ark:/85967/s8
 type: shoulder
 manager: ezid
+#eziduser: iusead
 name: Indiana University Sustainable Environment-Actionable Data (SEAD)
 date: 2014.04.22
 minter: https://n2t.net/a/ezid/m/ark/85967/s8
@@ -1489,6 +1991,7 @@ minter: https://n2t.net/a/ezid/m/ark/85967/s8
 :: ark:/87940/m4
 type: shoulder
 manager: ezid
+#eziduser: sb-writ
 name: UCSB Writing Program
 date: 2014.04.16
 minter: https://n2t.net/a/ezid/m/ark/87940/m4
@@ -1496,6 +1999,7 @@ minter: https://n2t.net/a/ezid/m/ark/87940/m4
 :: doi:10.7940/M3
 type: shoulder
 manager: ezid
+#eziduser: sb-writ
 name: UCSB Writing Program
 date: 2014.04.16
 minter: https://n2t.net/a/ezid/m/ark/b7940/m3
@@ -1504,14 +2008,17 @@ datacenter: CDL.WRITPRO
 :: doi:10.7939/DVN
 type: shoulder
 manager: ezid
+#eziduser: ualberta
 name: University of Alberta Libraries
 date: 2014.04.09
 minter:
 datacenter: CDL.UAL
+crossref: true
 
 :: ark:/87938/m2
 type: shoulder
 manager: ezid
+#eziduser: cu-rescom
 name: Statistics (ResearchCompendia.org)
 date: 2014.04.03
 minter: https://n2t.net/a/ezid/m/ark/87938/m2
@@ -1519,22 +2026,25 @@ minter: https://n2t.net/a/ezid/m/ark/87938/m2
 :: doi:10.7938/M1
 type: shoulder
 manager: ezid
+#eziduser: cu-rescom
 name: Statistics (ResearchCompendia.org)
 date: 2014.04.03
 minter: https://n2t.net/a/ezid/m/ark/b7938/m1
 datacenter: PURDUE.STATSRC
 
-:: doi:10.13014/S1
+:: doi:10.18113/S1
 type: shoulder
 manager: ezid
+#eziduser: ss1
 name: Penn State ScholarSphere
 date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/c3014/s1
+minter: https://n2t.net/a/ezid/m/ark/c8113/s1
 datacenter: PURDUE.PSIEE
 
 :: ark:/87937/m0
 type: shoulder
 manager: ezid
+#eziduser: tcia-ezid
 name: The Cancer Imaging Archive
 date: 2014.03.21
 minter: https://n2t.net/a/ezid/m/ark/87937/m0
@@ -1542,6 +2052,7 @@ minter: https://n2t.net/a/ezid/m/ark/87937/m0
 :: doi:10.7937/K9
 type: shoulder
 manager: ezid
+#eziduser: tcia-ezid
 name: The Cancer Imaging Archive
 date: 2014.03.21
 minter: https://n2t.net/a/ezid/m/ark/b7937/k9
@@ -1550,6 +2061,7 @@ datacenter: CDL.TCIA
 :: ark:/87936/k8
 type: shoulder
 manager: ezid
+#eziduser: doiwustl
 name: Washington University in St. Louis
 date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/87936/k8
@@ -1557,6 +2069,7 @@ minter: https://n2t.net/a/ezid/m/ark/87936/k8
 :: doi:10.7936/K7
 type: shoulder
 manager: ezid
+#eziduser: doiwustl
 name: Washington University in St. Louis
 date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/b7936/k7
@@ -1565,6 +2078,7 @@ datacenter: CDL.WUSTL
 :: ark:/87935/k6
 type: shoulder
 manager: ezid
+#eziduser: caltech_ligo
 name: LIGO Open Science Center
 date: 2014.03.13
 minter: https://n2t.net/a/ezid/m/ark/87935/k6
@@ -1572,6 +2086,7 @@ minter: https://n2t.net/a/ezid/m/ark/87935/k6
 :: doi:10.7935/K5
 type: shoulder
 manager: ezid
+#eziduser: caltech_ligo
 name: LIGO Open Science Center
 date: 2014.03.13
 minter: https://n2t.net/a/ezid/m/ark/b7935/k5
@@ -1580,6 +2095,7 @@ datacenter: CDL.LIGO
 :: ark:/87934/
 type: shoulder
 manager: ezid
+#eziduser: morphobank
 name: MorphoBank
 date: 2014.03.13
 minter:
@@ -1587,6 +2103,7 @@ minter:
 :: doi:10.7934/
 type: shoulder
 manager: ezid
+#eziduser: morphobank
 name: MorphoBank
 date: 2014.03.13
 minter:
@@ -1595,14 +2112,17 @@ datacenter: CDL.MORPHOBA
 :: doi:10.4231/K4
 type: shoulder
 manager: ezid
+#eziduser: purdue_admin
 name: Purdue University Joint Transportation Research Program
 date: 2014.02.27
 minter: https://n2t.net/a/ezid/m/ark/b4231/k4
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 :: ark:/83014/k3
 type: shoulder
 manager: ezid
+#eziduser: cors
 name: University of Nebraska-Lincoln Libraries
 date: 2014.02.27
 minter: https://n2t.net/a/ezid/m/ark/83014/k3
@@ -1610,6 +2130,7 @@ minter: https://n2t.net/a/ezid/m/ark/83014/k3
 :: doi:10.13014/K2
 type: shoulder
 manager: ezid
+#eziduser: cors
 name: University of Nebraska-Lincoln Libraries
 date: 2014.02.27
 minter: https://n2t.net/a/ezid/m/ark/c3014/k2
@@ -1618,6 +2139,7 @@ datacenter: PURDUE.UNL
 :: ark:/87933/j9
 type: shoulder
 manager: ezid
+#eziduser: globe
 name: Laboratory for Anthropogenic Landscape Ecology
 date: 2014.02.13
 minter: https://n2t.net/a/ezid/m/ark/87933/j9
@@ -1625,6 +2147,7 @@ minter: https://n2t.net/a/ezid/m/ark/87933/j9
 :: doi:10.7933/K1
 type: shoulder
 manager: ezid
+#eziduser: globe
 name: Laboratory for Anthropogenic Landscape Ecology
 date: 2014.02.13
 minter: https://n2t.net/a/ezid/m/ark/b7933/k1
@@ -1633,6 +2156,7 @@ datacenter: CDL.LALEUMBC
 :: ark:/87932/k0
 type: shoulder
 manager: ezid
+#eziduser: ucb-bsl
 name: Berkeley Seismological Laboratory
 date: 2014.02.13
 minter: https://n2t.net/a/ezid/m/ark/87932/k0
@@ -1640,6 +2164,7 @@ minter: https://n2t.net/a/ezid/m/ark/87932/k0
 :: doi:10.7932/
 type: shoulder
 manager: ezid
+#eziduser: ucb-bsl
 name: Berkeley Seismological Laboratory
 date: 2014.02.13
 minter:
@@ -1648,22 +2173,27 @@ datacenter: CDL.BSL
 :: doi:10.13012/J8
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: University of Illinois Libraries
 date: 2014.01.27
 minter: https://n2t.net/a/ezid/m/ark/c3012/j8
 datacenter: PURDUE.UIUCLIB
 
+# inactive
 :: doi:10.13013/J6
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Intrepid Bioinformatics
 date: 2013.12.17
 minter: https://n2t.net/a/ezid/m/ark/c3013/j6
 datacenter: PURDUE.INTBIO
 
+# inactive
 :: ark:/83013/j7
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Intrepid Bioinformatics
 date: 2013.12.17
 minter: https://n2t.net/a/ezid/m/ark/83013/j7
@@ -1671,6 +2201,7 @@ minter: https://n2t.net/a/ezid/m/ark/83013/j7
 :: doi:10.13012/C5
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: University of Illinois Libraries IDEALS
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/c3012/c5
@@ -1679,6 +2210,7 @@ datacenter: PURDUE.UIUCLIB
 :: ark:/83012/c6
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: University of Illinois Libraries IDEALS
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/83012/c6
@@ -1686,6 +2218,7 @@ minter: https://n2t.net/a/ezid/m/ark/83012/c6
 :: doi:10.13012/J4
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: University of Illinois Libraries NADP
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/c3012/j4
@@ -1694,6 +2227,7 @@ datacenter: PURDUE.UIUCLIB
 :: ark:/83012/j5
 type: shoulder
 manager: ezid
+#eziduser: uiuc-lib
 name: University of Illinois Libraries NADP
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/83012/j5
@@ -1701,6 +2235,7 @@ minter: https://n2t.net/a/ezid/m/ark/83012/j5
 :: ark:/87931/j3
 type: shoulder
 manager: ezid
+#eziduser: landcarenz
 name: Landcare Research New Zealand Ltd
 date: 2013.11.20
 minter: https://n2t.net/a/ezid/m/ark/87931/j3
@@ -1708,6 +2243,7 @@ minter: https://n2t.net/a/ezid/m/ark/87931/j3
 :: doi:10.7931/DL1
 type: shoulder
 manager: ezid
+#eziduser: lcnz_lib
 name: LandcareNZ Digital Library
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/b7931/dl1
@@ -1716,6 +2252,7 @@ datacenter: CDL.LCRNZ
 :: doi:10.7931/P1
 type: shoulder
 manager: ezid
+#eziduser: lcnz_pnd
 name: LandcareNZ Plant Names Database
 date: 2015.01.05
 minter: https://n2t.net/a/ezid/m/ark/b7931/p1
@@ -1724,6 +2261,7 @@ datacenter: CDL.LCRNZ
 :: doi:10.7931/V1
 type: shoulder
 manager: ezid
+#eziduser: lcnz_nvs
 name: LandcareNZ National Vegetation Survey
 date: 2014.12.15
 minter: https://n2t.net/a/ezid/m/ark/b7931/v1
@@ -1732,6 +2270,7 @@ datacenter: CDL.LCRNZ
 :: doi:10.7931/B1
 type: shoulder
 manager: ezid
+#eziduser: lcnz_efl
 name: LandcareNZ eFlora
 date: 2014.12.15
 minter: https://n2t.net/a/ezid/m/ark/b7931/b1
@@ -1740,6 +2279,7 @@ datacenter: CDL.LCRNZ
 :: doi:10.7931/J2
 type: shoulder
 manager: ezid
+#eziduser: landcarenz
 name: Landcare Research New Zealand Ltd
 date: 2013.11.20
 minter: https://n2t.net/a/ezid/m/ark/b7931/j2
@@ -1748,6 +2288,7 @@ datacenter: CDL.LCRNZ
 :: ark:/87930/j1
 type: shoulder
 manager: ezid
+#eziduser: usgcrp
 name: U.S. Global Change Research Program/UCAR
 date: 2013.11.08
 minter: https://n2t.net/a/ezid/m/ark/87930/j1
@@ -1755,6 +2296,7 @@ minter: https://n2t.net/a/ezid/m/ark/87930/j1
 :: doi:10.7930/J0
 type: shoulder
 manager: ezid
+#eziduser: usgcrp
 name: U.S. Global Change Research Program/UCAR
 date: 2013.11.08
 minter: https://n2t.net/a/ezid/m/ark/b7930/j0
@@ -1764,6 +2306,7 @@ datacenter: CDL.USGCRP
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: issda
 name: Irish Social Science Data Archive (ISSDA)
 date: 2013.11.05
 minter:
@@ -1771,6 +2314,7 @@ minter:
 :: ark:/87929/h9
 type: shoulder
 manager: ezid
+#eziduser: issda
 name: Irish Social Science Data Archive (ISSDA) Minter
 date: 2013.11.05
 minter: https://n2t.net/a/ezid/m/ark/87929/h9
@@ -1779,6 +2323,7 @@ minter: https://n2t.net/a/ezid/m/ark/87929/h9
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: issda
 name: Irish Social Science Data Archive (ISSDA)
 date: 2013.11.05
 minter:
@@ -1787,6 +2332,7 @@ datacenter: CDL.ISSDA
 :: doi:10.7929/H8
 type: shoulder
 manager: ezid
+#eziduser: issda
 name: Irish Social Science Data Archive (ISSDA) Minter
 date: 2013.11.05
 minter: https://n2t.net/a/ezid/m/ark/b7929/h8
@@ -1795,6 +2341,7 @@ datacenter: CDL.ISSDA
 :: ark:/87928/h7
 type: shoulder
 manager: ezid
+#eziduser: ucb_ist_rit
 name: UC Berkeley Research IT
 date: 2013.11.05
 minter: https://n2t.net/a/ezid/m/ark/87928/h7
@@ -1802,6 +2349,7 @@ minter: https://n2t.net/a/ezid/m/ark/87928/h7
 :: doi:10.7928/H6
 type: shoulder
 manager: ezid
+#eziduser: ucb_ist_rit
 name: UC Berkeley Research IT
 date: 2013.11.05
 minter: https://n2t.net/a/ezid/m/ark/b7928/h6
@@ -1810,6 +2358,7 @@ datacenter: CDL.UCBRIT
 :: ark:/87927/h5
 type: shoulder
 manager: ezid
+#eziduser: cu_ciesin
 name: Center for International Earth Science Information Network (CIESIN)
 date: 2013.10.28
 minter: https://n2t.net/a/ezid/m/ark/87927/h5
@@ -1817,6 +2366,7 @@ minter: https://n2t.net/a/ezid/m/ark/87927/h5
 :: doi:10.7927/H4
 type: shoulder
 manager: ezid
+#eziduser: cu_ciesin
 name: Center for International Earth Science Information Network (CIESIN)
 date: 2013.10.28
 minter: https://n2t.net/a/ezid/m/ark/b7927/h4
@@ -1825,6 +2375,7 @@ datacenter: CDL.CIESIN
 :: ark:/87926/h3
 type: shoulder
 manager: ezid
+#eziduser: middlebury
 name: Middlebury College
 date: 2013.10.28
 minter: https://n2t.net/a/ezid/m/ark/87926/h3
@@ -1832,6 +2383,7 @@ minter: https://n2t.net/a/ezid/m/ark/87926/h3
 :: doi:10.7926/H2
 type: shoulder
 manager: ezid
+#eziduser: middlebury
 name: Middlebury College
 date: 2013.10.28
 minter: https://n2t.net/a/ezid/m/ark/b7926/h2
@@ -1841,6 +2393,7 @@ datacenter: CDL.MDY
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: ucdlibrary
 name: University College Dublin
 date: 2013.10.18
 minter:
@@ -1848,6 +2401,7 @@ minter:
 :: ark:/87925/h1
 type: shoulder
 manager: ezid
+#eziduser: ucdlibrary
 name: University College Dublin Minter
 date: 2013.10.18
 minter: https://n2t.net/a/ezid/m/ark/87925/h1
@@ -1856,6 +2410,7 @@ minter: https://n2t.net/a/ezid/m/ark/87925/h1
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: ucdlibrary
 name: University College Dublin
 date: 2013.10.18
 minter:
@@ -1864,6 +2419,7 @@ datacenter: CDL.UCDIRL
 :: doi:10.7925/H0
 type: shoulder
 manager: ezid
+#eziduser: ucdlibrary
 name: University College Dublin Minter
 date: 2013.10.18
 minter: https://n2t.net/a/ezid/m/ark/b7925/h0
@@ -1872,6 +2428,7 @@ datacenter: CDL.UCDIRL
 :: ark:/87924/g9
 type: shoulder
 manager: ezid
+#eziduser: duke_lib
 name: Duke University
 date: 2013.10.14
 minter: https://n2t.net/a/ezid/m/ark/87924/g9
@@ -1879,29 +2436,16 @@ minter: https://n2t.net/a/ezid/m/ark/87924/g9
 :: doi:10.7924/G8
 type: shoulder
 manager: ezid
+#eziduser: duke_lib
 name: Duke University
 date: 2013.10.14
 minter: https://n2t.net/a/ezid/m/ark/b7924/g8
 datacenter: CDL.DUL
 
-:: ark:/83011/g7
-type: shoulder
-manager: ezid
-name: Network for Earthquake Engineering Simulation (NEES)
-date: 2013.10.07
-minter: https://n2t.net/a/ezid/m/ark/83011/g7
-
-:: doi:10.13011/G6
-type: shoulder
-manager: ezid
-name: Network for Earthquake Engineering Simulation (NEES)
-date: 2013.10.07
-minter: https://n2t.net/a/ezid/m/ark/c3011/g6
-datacenter: PURDUE.NEES
-
 :: ark:/87923/g5
 type: shoulder
 manager: ezid
+#eziduser: uidaho
 name: Northwest Knowledge Network (NKN)
 date: 2013.10.02
 minter: https://n2t.net/a/ezid/m/ark/87923/g5
@@ -1909,6 +2453,7 @@ minter: https://n2t.net/a/ezid/m/ark/87923/g5
 :: doi:10.7923/G4
 type: shoulder
 manager: ezid
+#eziduser: uidaho
 name: Northwest Knowledge Network (NKN)
 date: 2013.10.02
 minter: https://n2t.net/a/ezid/m/ark/b7923/g4
@@ -1917,6 +2462,7 @@ datacenter: CDL.NKN
 :: ark:/21198/z1
 type: shoulder
 manager: ezid
+#eziduser: ucla-library
 name: UCLA Digital Library
 date: 2013.10.02
 minter: https://n2t.net/a/ezid/m/ark/21198/z1
@@ -1924,6 +2470,7 @@ minter: https://n2t.net/a/ezid/m/ark/21198/z1
 :: ark:/87922/g3
 type: shoulder
 manager: ezid
+#eziduser: ucb-its
 name: UC Berkeley Institute of Transportation Studies (ITS)
 date: 2013.09.30
 minter: https://n2t.net/a/ezid/m/ark/87922/g3
@@ -1931,6 +2478,7 @@ minter: https://n2t.net/a/ezid/m/ark/87922/g3
 :: doi:10.7922/G2
 type: shoulder
 manager: ezid
+#eziduser: ucb-its
 name: UC Berkeley Institute of Transportation Studies (ITS)
 date: 2013.09.30
 minter: https://n2t.net/a/ezid/m/ark/b7922/g2
@@ -1939,6 +2487,7 @@ datacenter: CDL.UCBITS
 :: ark:/87920/f9
 type: shoulder
 manager: ezid
+#eziduser: cams
 name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
 date: 2013.09.09
 minter: https://n2t.net/a/ezid/m/ark/87920/f9
@@ -1946,6 +2495,7 @@ minter: https://n2t.net/a/ezid/m/ark/87920/f9
 :: doi:10.7920/F8
 type: shoulder
 manager: ezid
+#eziduser: cams
 name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
 date: 2013.09.09
 minter: https://n2t.net/a/ezid/m/ark/b7920/f8
@@ -1954,6 +2504,7 @@ datacenter: CDL.CAMS
 :: ark:/87921/g1
 type: shoulder
 manager: ezid
+#eziduser: renci
 name: RENCI (Renaissance Computing Institute)
 date: 2013.09.09
 minter: https://n2t.net/a/ezid/m/ark/87921/g1
@@ -1961,6 +2512,7 @@ minter: https://n2t.net/a/ezid/m/ark/87921/g1
 :: doi:10.7921/G0
 type: shoulder
 manager: ezid
+#eziduser: renci
 name: RENCI (Renaissance Computing Institute)
 date: 2013.09.09
 minter: https://n2t.net/a/ezid/m/ark/b7921/g0
@@ -1969,6 +2521,7 @@ datacenter: CDL.RENCI
 :: ark:/87919/f5
 type: shoulder
 manager: ezid
+#eziduser: sb-mirage_agl
 name: UCSB Advanced Graphics Lab
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/87919/f5
@@ -1976,6 +2529,7 @@ minter: https://n2t.net/a/ezid/m/ark/87919/f5
 :: doi:10.7919/F4
 type: shoulder
 manager: ezid
+#eziduser: sb-mirage_agl
 name: UCSB Advanced Graphics Lab
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/b7919/f4
@@ -1984,6 +2538,7 @@ datacenter: CDL.UCSBAGL
 :: ark:/83010/f7
 type: shoulder
 manager: ezid
+#eziduser: umbs
 name: University of Michigan Biological Station (UMBS)
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/83010/f7
@@ -1991,6 +2546,7 @@ minter: https://n2t.net/a/ezid/m/ark/83010/f7
 :: doi:10.13010/F6
 type: shoulder
 manager: ezid
+#eziduser: umbs
 name: University of Michigan Biological Station (UMBS)
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/c3010/f6
@@ -1999,21 +2555,24 @@ datacenter: PURDUE.UMBS
 :: doi:10.5063/
 type: shoulder
 manager: ezid
+#eziduser: sb-nceas
 name: National Center for Ecological Analysis and Synthesis (NCEAS)
 date: 2013.08.29
 minter: https://n2t.net/a/ezid/m/ark/b5063/f1
 datacenter: CDL.NCEAS
 
-:: ark:/87917/f0
+:: ark:/77917/f0
 type: shoulder
 manager: ezid
+#eziduser: nasa-nccs
 name: NASA Center for Climate Simulation (NCCS)
 date: 2013.08.02
-minter: https://n2t.net/a/ezid/m/ark/87917/f0
+minter: https://n2t.net/a/ezid/m/ark/77917/f0
 
 :: doi:10.7917/D7
 type: shoulder
 manager: ezid
+#eziduser: nasa-nccs
 name: NASA Center for Climate Simulation (NCCS)
 date: 2013.08.02
 minter: https://n2t.net/a/ezid/m/ark/b7917/d7
@@ -2024,6 +2583,7 @@ datacenter: CDL.NCCS
 :: ark:/99999/fk8
 type: shoulder
 manager: ezid
+#eziduser: apitest
 name: ARK Test (non-expiring)
 date: 2013.07.16
 minter: https://n2t.net/a/ezid/m/ark/99999/fk8
@@ -2049,6 +2609,7 @@ minter: https://n2t.net/a/ezid/m/ark/99999/fk8
 :: ark:/87916/d9
 type: shoulder
 manager: ezid
+#eziduser: columbia
 name: Columbia University Libraries/Information Services (CUL/IS)
 date: 2013.06.27
 minter: https://n2t.net/a/ezid/m/ark/87916/d9
@@ -2056,22 +2617,25 @@ minter: https://n2t.net/a/ezid/m/ark/87916/d9
 :: doi:10.7916/D8
 type: shoulder
 manager: ezid
+#eziduser: columbia
 name: Columbia University Libraries/Information Services (CUL/IS)
 date: 2013.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7916/d8
 datacenter: CDL.CULIS
 crossref: true
 
-:: ark:/87915/d6
+:: ark:/77915/d6
 type: shoulder
 manager: ezid
+#eziduser: uw-cig
 name: University of Washington College of the Environment Climate Impacts Group (CIG)
 date: 2013.06.27
-minter: https://n2t.net/a/ezid/m/ark/87915/d6
+minter: https://n2t.net/a/ezid/m/ark/77915/d6
 
 :: doi:10.7915/CIG
 type: shoulder
 manager: ezid
+#eziduser: uw-cig
 name: University of Washington College of the Environment Climate Impacts Group (CIG)
 date: 2013.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7915/cig
@@ -2080,6 +2644,7 @@ datacenter: CDL.UWCIG
 :: ark:/87914/d4
 type: shoulder
 manager: ezid
+#eziduser: fdsn
 name: International Federation of Digital Seismograph Networks (FDSN)
 date: 2013.06.18
 minter: https://n2t.net/a/ezid/m/ark/87914/d4
@@ -2088,39 +2653,45 @@ minter: https://n2t.net/a/ezid/m/ark/87914/d4
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: fdsn
 name: International Federation of Digital Seismograph Networks (FDSN)
 date: 2013.06.18
 minter:
 datacenter: CDL.FDSN
 
-# corrected from 85967; c7 minter produces different strings now
-:: ark:/83014/c7
+# re-created 2015.07.28
+:: ark:/88113/c7
 type: shoulder
 manager: ezid
+#eziduser: datacommon
 name: Penn State Institutes of Energy and the Environment/PSU Data Commons
 date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/83014/c7
+minter: https://n2t.net/a/ezid/m/ark/88113/c7
 
-# corrected from b5967; d3 minter produces different strings now
-:: doi:10.13014/D3
+# re-created 2015.07.28
+:: doi:10.18113/D3
 type: shoulder
 manager: ezid
+#eziduser: datacommon
 name: Penn State Institutes of Energy and the Environment/PSU Data Commons
 date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/c3014/d3
+minter: https://n2t.net/a/ezid/m/ark/c8113/d3
 datacenter: PURDUE.PSIEE
 
 :: doi:10.5967/D3
 type: shoulder
 manager: ezid
+#eziduser: datacommon
 name: {legacy} Penn State Institutes of Energy and the Environment/PSU Data Commons
 date: 2013.06.18
 minter:
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 :: ark:/87913/d2
 type: shoulder
 manager: ezid
+#eziduser: uw_esci
 name: University of Washington eScience Institute
 date: 2013.06.05
 minter: https://n2t.net/a/ezid/m/ark/87913/d2
@@ -2128,6 +2699,7 @@ minter: https://n2t.net/a/ezid/m/ark/87913/d2
 :: doi:10.7913/D1
 type: shoulder
 manager: ezid
+#eziduser: uw_esci
 name: University of Washington eScience Institute
 date: 2013.06.05
 minter: https://n2t.net/a/ezid/m/ark/b7913/d1
@@ -2136,6 +2708,7 @@ datacenter: CDL.UWESCI
 :: ark:/87912/d0
 type: shoulder
 manager: ezid
+#eziduser: iupui
 name: Indiana University-Purdue University Indianapolis
 date: 2013.05.22
 minter: https://n2t.net/a/ezid/m/ark/87912/d0
@@ -2143,22 +2716,16 @@ minter: https://n2t.net/a/ezid/m/ark/87912/d0
 :: doi:10.7912/C9
 type: shoulder
 manager: ezid
+#eziduser: iupui
 name: Indiana University-Purdue University Indianapolis
 date: 2013.05.22
 minter: https://n2t.net/a/ezid/m/ark/b7912/c9
-datacenter: CDL.IUPUI
-
-:: doi:10.7911/
-type: shoulder
-manager: ezid
-name: OneOcean
-date: 2013.05.03
-minter: https://n2t.net/a/ezid/m/ark/b7911/cc0
-datacenter: CDL.ONEOCEAN
+datacenter: PURDUE.IUPUI
 
 :: ark:/87910/DVN1
 type: shoulder
 manager: ezid
+#eziduser: hdataverse
 name: Harvard Dataverse
 date: 2013.04.30
 minter:
@@ -2166,6 +2733,7 @@ minter:
 :: doi:10.7910/DVN
 type: shoulder
 manager: ezid
+#eziduser: hdataverse
 name: Harvard Dataverse
 date: 2013.04.30
 minter:
@@ -2174,6 +2742,7 @@ datacenter: CDL.DATAVERS
 :: ark:/87909/c4
 type: shoulder
 manager: ezid
+#eziduser: caltech_sl
 name: Caltech Seismological Laboratory
 date: 2013.04.29
 minter: https://n2t.net/a/ezid/m/ark/87909/c4
@@ -2181,21 +2750,24 @@ minter: https://n2t.net/a/ezid/m/ark/87909/c4
 :: doi:10.7909/C3
 type: shoulder
 manager: ezid
+#eziduser: caltech_sl
 name: Caltech Seismological Laboratory
 date: 2013.04.29
 minter: https://n2t.net/a/ezid/m/ark/b7909/c3
 datacenter: CDL.SEISMOLA
 
-:: ark:/87908/c2
+:: ark:/77908/c2
 type: shoulder
 manager: ezid
+#eziduser: broad
 name: Broad Institute of MIT and Harvard
 date: 2013.04.24
-minter: https://n2t.net/a/ezid/m/ark/87908/c2
+minter: https://n2t.net/a/ezid/m/ark/77908/c2
 
 :: doi:10.7908/C1
 type: shoulder
 manager: ezid
+#eziduser: broad
 name: Broad Institute of MIT and Harvard
 date: 2013.04.24
 minter: https://n2t.net/a/ezid/m/ark/b7908/c1
@@ -2204,6 +2776,7 @@ datacenter: CDL.BROAD
 :: ark:/87907/c0
 type: shoulder
 manager: ezid
+#eziduser: caltech
 name: California Institute of Technology (Caltech)
 date: 2013.04.15
 minter: https://n2t.net/a/ezid/m/ark/87907/c0
@@ -2211,6 +2784,7 @@ minter: https://n2t.net/a/ezid/m/ark/87907/c0
 :: doi:10.7907/Z9
 type: shoulder
 manager: ezid
+#eziduser: caltech
 name: California Institute of Technology (Caltech)
 date: 2013.04.15
 minter: https://n2t.net/a/ezid/m/ark/b7907/z9
@@ -2219,6 +2793,7 @@ datacenter: CDL.CALTECH
 :: ark:/87303/z4
 type: shoulder
 manager: ezid
+#eziduser: sagebio
 name: Sage Bionetworks
 date: 2013.04.10
 minter: https://n2t.net/a/ezid/m/ark/87303/z4
@@ -2226,6 +2801,7 @@ minter: https://n2t.net/a/ezid/m/ark/87303/z4
 :: doi:10.7303/
 type: shoulder
 manager: ezid
+#eziduser: sagebio
 name: Sage Bionetworks
 date: 2013.04.10
 minter:
@@ -2234,6 +2810,7 @@ datacenter: CDL.SAGEBIO
 :: ark:/87301/z1
 type: shoulder
 manager: ezid
+#eziduser: brownidsvc
 name: Brown University Library
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/87301/z1
@@ -2241,6 +2818,7 @@ minter: https://n2t.net/a/ezid/m/ark/87301/z1
 :: doi:10.7301/Z0
 type: shoulder
 manager: ezid
+#eziduser: brownidsvc
 name: Brown University Library
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7301/z0
@@ -2249,6 +2827,7 @@ datacenter: CDL.BUL
 :: ark:/87300/x9
 type: shoulder
 manager: ezid
+#eziduser: ucsd_onelab
 name: UCSD OneLab
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/87300/x9
@@ -2256,6 +2835,7 @@ minter: https://n2t.net/a/ezid/m/ark/87300/x9
 :: doi:10.7300/X8
 type: shoulder
 manager: ezid
+#eziduser: ucsd_onelab
 name: UCSD OneLab
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7300/x8
@@ -2264,6 +2844,7 @@ datacenter: CDL.ONELAB
 :: ark:/87302/z3
 type: shoulder
 manager: ezid
+#eziduser: umich
 name: University of Michigan Library
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/87302/z3
@@ -2271,6 +2852,7 @@ minter: https://n2t.net/a/ezid/m/ark/87302/z3
 :: doi:10.7302/Z2
 type: shoulder
 manager: ezid
+#eziduser: umich
 name: University of Michigan Library
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7302/z2
@@ -2279,6 +2861,7 @@ datacenter: PURDUE.UMICH
 :: doi:10.7299/X7
 type: shoulder
 manager: ezid
+#eziduser: ucb-mvz
 name: UC Berkeley Museum of Vertebrate Zoology
 date: 2013.03.25
 minter: https://n2t.net/a/ezid/m/ark/b7299/x7
@@ -2287,6 +2870,7 @@ datacenter: CDL.UCBMVZ
 :: ark:/21547/
 type: shoulder
 manager: ezid
+#eziduser: bcid
 name: Biocode Commons
 date: 2013.03.23
 minter:
@@ -2294,6 +2878,7 @@ minter:
 :: ark:/87299/x6
 type: shoulder
 manager: ezid
+#eziduser: ucb-mvz
 name: UC Berkeley Museum of Vertebrate Zoology
 date: 2013.03.20
 minter: https://n2t.net/a/ezid/m/ark/87299/x6
@@ -2301,6 +2886,7 @@ minter: https://n2t.net/a/ezid/m/ark/87299/x6
 :: ark:/87298/x5
 type: shoulder
 manager: ezid
+#eziduser: cornellib
 name: Cornell University Library
 date: 2013.03.11
 minter: https://n2t.net/a/ezid/m/ark/87298/x5
@@ -2308,6 +2894,7 @@ minter: https://n2t.net/a/ezid/m/ark/87298/x5
 :: doi:10.7298/X4
 type: shoulder
 manager: ezid
+#eziduser: cornellib
 name: Cornell University Library
 date: 2013.03.11
 minter: https://n2t.net/a/ezid/m/ark/b7298/x4
@@ -2316,6 +2903,7 @@ datacenter: CDL.CUL
 :: ark:/87296/x1
 type: shoulder
 manager: ezid
+#eziduser: ucsd_elrap
 name: Edom Lowlands Regional Archaeology Project
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/87296/x1
@@ -2323,6 +2911,7 @@ minter: https://n2t.net/a/ezid/m/ark/87296/x1
 :: doi:10.7296/X0
 type: shoulder
 manager: ezid
+#eziduser: ucsd_elrap
 name: Edom Lowlands Regional Archaeology Project
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/b7296/x0
@@ -2331,6 +2920,7 @@ datacenter: CDL.ELRAP
 :: ark:/87297/x3
 type: shoulder
 manager: ezid
+#eziduser: ucb-ling
 name: UC Berkeley Department of Linguistics
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/87297/x3
@@ -2338,6 +2928,7 @@ minter: https://n2t.net/a/ezid/m/ark/87297/x3
 :: doi:10.7297/X2
 type: shoulder
 manager: ezid
+#eziduser: ucb-ling
 name: UC Berkeley Department of Linguistics
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/b7297/x2
@@ -2346,6 +2937,7 @@ datacenter: CDL.UCBLING
 :: ark:/87295/w8
 type: shoulder
 manager: ezid
+#eziduser: ucsd_crbs
 name: Center for Research in Biological Systems
 date: 2013.03.04
 minter: https://n2t.net/a/ezid/m/ark/87295/w8
@@ -2353,6 +2945,7 @@ minter: https://n2t.net/a/ezid/m/ark/87295/w8
 :: doi:10.7295/W9
 type: shoulder
 manager: ezid
+#eziduser: ucsd_crbs
 name: Center for Research in Biological Systems
 date: 2013.03.04
 minter: https://n2t.net/a/ezid/m/ark/b7295/w9
@@ -2361,15 +2954,18 @@ datacenter: CDL.CRBS
 :: doi:10.6075/W7
 type: shoulder
 manager: ezid
+#eziduser: ucsd_rcidc
 name: UCSD Research Cyberinfrastructure Data Curation
 date: 2013.02.21
 minter: https://n2t.net/a/ezid/m/ark/b6075/w7
 datacenter: CDL.RCIDC
+prefix_shares_datacenter: true
 
 # reserved for SNAC (facebook for dead people) Tingle/Pitti/Larson
 :: ark:/99166/w6
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Social Networks and Archival Context (SNAC) Project
 date: 2013.02.12
 minter: https://n2t.net/a/ezid/m/ark/99166/w6
@@ -2377,6 +2973,7 @@ minter: https://n2t.net/a/ezid/m/ark/99166/w6
 :: ark:/87293/w3
 type: shoulder
 manager: ezid
+#eziduser: benchfly
 name: BenchFly
 date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/87293/w3
@@ -2384,6 +2981,7 @@ minter: https://n2t.net/a/ezid/m/ark/87293/w3
 :: doi:10.7293/W2
 type: shoulder
 manager: ezid
+#eziduser: benchfly
 name: BenchFly
 date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/b7293/w2
@@ -2392,6 +2990,7 @@ datacenter: CDL.BENCHFLY
 :: ark:/87294/w5
 type: shoulder
 manager: ezid
+#eziduser: vtlib
 name: Virginia Tech University Libraries
 date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/87294/w5
@@ -2399,6 +2998,7 @@ minter: https://n2t.net/a/ezid/m/ark/87294/w5
 :: doi:10.7294/W4
 type: shoulder
 manager: ezid
+#eziduser: vtlib
 name: Virginia Tech University Libraries
 date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/b7294/w4
@@ -2407,6 +3007,7 @@ datacenter: CDL.VTLIB
 :: ark:/87292/w1
 type: shoulder
 manager: ezid
+#eziduser: ezbaeri11
 name: Bay Area Environmental Research (BAER) Institute
 date: 2013.01.28
 minter: https://n2t.net/a/ezid/m/ark/87292/w1
@@ -2414,6 +3015,7 @@ minter: https://n2t.net/a/ezid/m/ark/87292/w1
 :: doi:10.7292/W0
 type: shoulder
 manager: ezid
+#eziduser: ezbaeri11
 name: Bay Area Environmental Research (BAER) Institute
 date: 2013.01.28
 minter: https://n2t.net/a/ezid/m/ark/b7292/w0
@@ -2422,6 +3024,7 @@ datacenter: CDL.BAER
 :: doi:10.7291/V9
 type: shoulder
 manager: ezid
+#eziduser: ucsd-lib
 name: UCSC Library
 date: 2013.01.23
 minter: https://n2t.net/a/ezid/m/ark/b7291/v9
@@ -2430,6 +3033,7 @@ datacenter: CDL.UCSC
 :: ark:/87290/v8
 type: shoulder
 manager: ezid
+#eziduser: tkn
 name: University of Tennessee
 date: 2013.01.18
 minter: https://n2t.net/a/ezid/m/ark/87290/v8
@@ -2437,14 +3041,17 @@ minter: https://n2t.net/a/ezid/m/ark/87290/v8
 :: doi:10.7290/V7
 type: shoulder
 manager: ezid
+#eziduser: tkn
 name: University of Tennessee
 date: 2013.01.18
 minter: https://n2t.net/a/ezid/m/ark/b7290/v7
 datacenter: CDL.UTENN
+crossref: true
 
 :: ark:/87289/v6
 type: shoulder
 manager: ezid
+#eziduser: noaa-edm
 name: US National Oceanic and Atmospheric Administration (NOAA)
 date: 2013.01.18
 minter: https://n2t.net/a/ezid/m/ark/87289/v6
@@ -2452,6 +3059,7 @@ minter: https://n2t.net/a/ezid/m/ark/87289/v6
 :: doi:10.7289/V5
 type: shoulder
 manager: ezid
+#eziduser: noaa-edm
 name: US National Oceanic and Atmospheric Administration (NOAA)
 date: 2013.01.18
 minter: https://n2t.net/a/ezid/m/ark/b7289/v5
@@ -2460,6 +3068,7 @@ datacenter: CDL.NOAA
 :: doi:10.7288/V4
 type: shoulder
 manager: ezid
+#eziduser: ucsd_earthref
 name: EarthRef
 date: 2012.12.17
 minter: https://n2t.net/a/ezid/m/ark/b7288/v4
@@ -2468,6 +3077,7 @@ datacenter: CDL.EARTHREF
 :: ark:/87286/
 type: shoulder
 manager: ezid
+#eziduser: ucb-bcid
 name: Biocode Commons (UCB only)
 date: 2012.12.06
 minter:
@@ -2475,6 +3085,7 @@ minter:
 :: doi:10.7286/
 type: shoulder
 manager: ezid
+#eziduser: ucb-bcid
 name: Biocode Commons (UCB only)
 date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
@@ -2483,6 +3094,7 @@ datacenter: CDL.BIOCODE
 :: ark:/87287/v3
 type: shoulder
 manager: ezid
+#eziduser: peerj
 name: PeerJ
 date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/87287/v3
@@ -2490,6 +3102,7 @@ minter: https://n2t.net/a/ezid/m/ark/87287/v3
 :: doi:10.7287/
 type: shoulder
 manager: ezid
+#eziduser: peerj
 name: PeerJ
 date: 2012.12.06
 minter:
@@ -2498,6 +3111,7 @@ datacenter: CDL.PEERJ
 :: ark:/34231/v0
 type: shoulder
 manager: ezid
+#eziduser: purdue-cc
 name: Purdue University CyberCenter
 date: 2012.11.16
 minter: https://n2t.net/a/ezid/m/ark/34231/v0
@@ -2505,14 +3119,17 @@ minter: https://n2t.net/a/ezid/m/ark/34231/v0
 :: doi:10.4231/T9
 type: shoulder
 manager: ezid
+#eziduser: purdue-cc
 name: Purdue University CyberCenter
 date: 2012.11.16
 minter: https://n2t.net/a/ezid/m/ark/b4231/t9
-datacenter: PURDUE.EZID
+datacenter: PURDUE.PURDUECC
+prefix_shares_datacenter: true
 
 :: ark:/87285/t8
 type: shoulder
 manager: ezid
+#eziduser: ucsd-cmmap
 name: Center for Multiscale Modeling of Atmospheric Processes
 date: 2012.11.10
 minter: https://n2t.net/a/ezid/m/ark/87285/t8
@@ -2520,6 +3137,7 @@ minter: https://n2t.net/a/ezid/m/ark/87285/t8
 :: doi:10.7285/T7
 type: shoulder
 manager: ezid
+#eziduser: ucsd-cmmap
 name: Center for Multiscale Modeling of Atmospheric Processes
 date: 2012.11.10
 minter: https://n2t.net/a/ezid/m/ark/b7285/t7
@@ -2528,6 +3146,7 @@ datacenter: CDL.CMMAP
 :: ark:/87284/
 type: shoulder
 manager: ezid
+#eziduser: rvdata_us
 name: Rolling Deck to Repository Program
 date: 2012.10.04
 minter:
@@ -2535,6 +3154,7 @@ minter:
 :: doi:10.7284/
 type: shoulder
 manager: ezid
+#eziduser: rvdata_us
 name: Rolling Deck to Repository Program
 date: 2012.10.04
 minter:
@@ -2543,6 +3163,7 @@ datacenter: CDL.R2R
 :: ark:/15230/t4
 type: shoulder
 manager: ezid
+#eziduser: rucore
 name: Rutgers University Library
 date: 2012.09.21
 minter: https://n2t.net/a/ezid/m/ark/15230/t4
@@ -2550,6 +3171,7 @@ minter: https://n2t.net/a/ezid/m/ark/15230/t4
 :: doi:10.7282/T3
 type: shoulder
 manager: ezid
+#eziduser: rucore
 name: Rutgers University Library
 date: 2012.09.21
 minter: https://n2t.net/a/ezid/m/ark/b7282/t3
@@ -2558,6 +3180,7 @@ datacenter: CDL.RUTGERS
 :: ark:/87283/t6
 type: shoulder
 manager: ezid
+#eziduser: unavco
 name: UNAVCO
 date: 2012.09.21
 minter: https://n2t.net/a/ezid/m/ark/87283/t6
@@ -2565,6 +3188,7 @@ minter: https://n2t.net/a/ezid/m/ark/87283/t6
 :: doi:10.7283/T5
 type: shoulder
 manager: ezid
+#eziduser: unavco
 name: UNAVCO
 date: 2012.09.21
 minter: https://n2t.net/a/ezid/m/ark/b7283/t5
@@ -2573,6 +3197,7 @@ datacenter: CDL.UNAVCO
 :: ark:/87281/t2
 type: shoulder
 manager: ezid
+#eziduser: jhudms
 name: Johns Hopkins University Data Archive
 date: 2012.09.13
 minter: https://n2t.net/a/ezid/m/ark/87281/t2
@@ -2580,6 +3205,7 @@ minter: https://n2t.net/a/ezid/m/ark/87281/t2
 :: doi:10.7281/T1
 type: shoulder
 manager: ezid
+#eziduser: jhudms
 name: Johns Hopkins University Data Archive
 date: 2012.09.13
 minter: https://n2t.net/a/ezid/m/ark/b7281/t1
@@ -2588,6 +3214,7 @@ datacenter: CDL.JHU
 :: ark:/87280/t0
 type: shoulder
 manager: ezid
+#eziduser: uci
 name: UC Irvine Library
 date: 2012.09.10
 minter: https://n2t.net/a/ezid/m/ark/87280/t0
@@ -2595,6 +3222,7 @@ minter: https://n2t.net/a/ezid/m/ark/87280/t0
 :: doi:10.7280/S9
 type: shoulder
 manager: ezid
+#eziduser: uci
 name: UC Irvine Library
 date: 2012.09.10
 minter: https://n2t.net/a/ezid/m/ark/b7280/s9
@@ -2603,6 +3231,7 @@ datacenter: CDL.UCI
 :: ark:/87279/s8
 type: shoulder
 manager: ezid
+#eziduser: ucsd_ooi
 name: UCSD Ocean Observatory Initiative
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/87279/s8
@@ -2610,6 +3239,7 @@ minter: https://n2t.net/a/ezid/m/ark/87279/s8
 :: doi:10.7279/S7
 type: shoulder
 manager: ezid
+#eziduser: ucsd_ooi
 name: UCSD Ocean Observatory Initiative
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/b7279/s7
@@ -2617,6 +3247,7 @@ datacenter: CDL.UCSDOOI
 
 :: ark:/87278/s6
 type: shoulder
+#eziduser: uofutah
 manager: ezid
 name: University of Utah
 date: 2012.08.16
@@ -2625,6 +3256,7 @@ minter: https://n2t.net/a/ezid/m/ark/87278/s6
 :: doi:10.7278/S5
 type: shoulder
 manager: ezid
+#eziduser: uofutah
 name: University of Utah
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/b7278/s5
@@ -2633,6 +3265,7 @@ datacenter: CDL.UUTAH
 :: ark:/87277/s4
 type: shoulder
 manager: ezid
+#eziduser: iucns
 name: Indiana University Cyberinfrastructure for Network Science Center
 date: 2012.08.11
 minter: https://n2t.net/a/ezid/m/ark/87277/s4
@@ -2640,6 +3273,7 @@ minter: https://n2t.net/a/ezid/m/ark/87277/s4
 :: doi:10.7277/S3
 type: shoulder
 manager: ezid
+#eziduser: iucns
 name: Indiana University Cyberinfrastructure for Network Science Center
 date: 2012.08.11
 minter: https://n2t.net/a/ezid/m/ark/b7277/s3
@@ -2648,6 +3282,7 @@ datacenter: PURDUE.IUCNS
 :: ark:/87276/s2
 type: shoulder
 manager: ezid
+#eziduser: uw_csde
 name: University of Washington Center for Studies in Demography and Ecology
 date: 2012.08.07
 minter: https://n2t.net/a/ezid/m/ark/87276/s2
@@ -2655,6 +3290,7 @@ minter: https://n2t.net/a/ezid/m/ark/87276/s2
 :: doi:10.7276/S1
 type: shoulder
 manager: ezid
+#eziduser: uw_csde
 name: University of Washington Center for Studies in Demography and Ecology
 date: 2012.08.07
 minter: https://n2t.net/a/ezid/m/ark/b7276/s1
@@ -2663,6 +3299,7 @@ datacenter: CDL.UWCSDE
 :: ark:/34231/s0
 type: shoulder
 manager: ezid
+#eziduser: nanohub
 name: nanoHUB
 date: 2012.08.01
 minter: https://n2t.net/a/ezid/m/ark/34231/s0
@@ -2670,14 +3307,17 @@ minter: https://n2t.net/a/ezid/m/ark/34231/s0
 :: doi:10.4231/R9
 type: shoulder
 manager: ezid
+#eziduser: nanohub
 name: nanoHUB
 date: 2012.08.01
 minter: https://n2t.net/a/ezid/m/ark/b4231/r9
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 :: ark:/34231/r8
 type: shoulder
 manager: ezid
+#eziduser: purr
 name: Purdue University Research Repository (PURR)
 date: 2012.08.01
 minter: https://n2t.net/a/ezid/m/ark/34231/r8
@@ -2685,14 +3325,17 @@ minter: https://n2t.net/a/ezid/m/ark/34231/r8
 :: doi:10.4231/R7
 type: shoulder
 manager: ezid
+#eziduser: purr
 name: Purdue University Research Repository (PURR)
 date: 2012.08.01
 minter: https://n2t.net/a/ezid/m/ark/b4231/r7
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 :: ark:/87275/r6
 type: shoulder
 manager: ezid
+#eziduser: umamherst
 name: UMass Amherst
 date: 2012.07.24
 minter: https://n2t.net/a/ezid/m/ark/87275/r6
@@ -2700,6 +3343,7 @@ minter: https://n2t.net/a/ezid/m/ark/87275/r6
 :: doi:10.7275/R5
 type: shoulder
 manager: ezid
+#eziduser: umamherst
 name: UMass Amherst
 date: 2012.07.24
 minter: https://n2t.net/a/ezid/m/ark/b7275/r5
@@ -2708,6 +3352,7 @@ datacenter: CDL.UMA
 :: ark:/87274/r4
 type: shoulder
 manager: ezid
+#eziduser: notredame
 name: University of Notre Dame
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/87274/r4
@@ -2715,6 +3360,7 @@ minter: https://n2t.net/a/ezid/m/ark/87274/r4
 :: doi:10.7274/R0
 type: shoulder
 manager: ezid
+#eziduser: notredame
 name: University of Notre Dame
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/b7274/r0
@@ -2723,6 +3369,7 @@ datacenter: PURDUE.UND
 :: ark:/87273/q8
 type: shoulder
 manager: ezid
+#eziduser: doiwustl
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/87273/q8
@@ -2730,6 +3377,7 @@ minter: https://n2t.net/a/ezid/m/ark/87273/q8
 :: doi:10.7273/Q9
 type: shoulder
 manager: ezid
+#eziduser: doiwustl
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/b7273/q9
@@ -2738,6 +3386,7 @@ datacenter: CDL.WSU
 :: ark:/87272/q7
 type: shoulder
 manager: ezid
+#eziduser: datashare
 name: UCSF Clinical & Translational Science Institute (CTSI)
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/87272/q7
@@ -2745,6 +3394,7 @@ minter: https://n2t.net/a/ezid/m/ark/87272/q7
 :: doi:10.7272/Q6
 type: shoulder
 manager: ezid
+#eziduser: datashare
 name: UCSF Clinical & Translational Science Institute (CTSI)
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/b7272/q6
@@ -2753,6 +3403,7 @@ datacenter: CDL.UCSFCTSI
 :: ark:/29114/q5
 type: shoulder
 manager: ezid
+#eziduser: ucsf
 name: UCSF
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/29114/q5
@@ -2760,6 +3411,7 @@ minter: https://n2t.net/a/ezid/m/ark/29114/q5
 :: doi:10.7271/Q4
 type: shoulder
 manager: ezid
+#eziduser: ucsf
 name: UCSF
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/b7271/q4
@@ -2768,6 +3420,7 @@ datacenter: CDL.UCSFLIB
 :: ark:/90135/q1
 type: shoulder
 manager: ezid
+#eziduser: dataone
 name: ONEShare Data Service
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/90135/q1
@@ -2775,6 +3428,7 @@ minter: https://n2t.net/a/ezid/m/ark/90135/q1
 :: ark:/87270/q3
 type: shoulder
 manager: ezid
+#eziduser: ucsd_mgilson
 name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/87270/q3
@@ -2782,6 +3436,7 @@ minter: https://n2t.net/a/ezid/m/ark/87270/q3
 :: doi:10.7270/Q2
 type: shoulder
 manager: ezid
+#eziduser: ucsd_mgilson
 name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/b7270/q2
@@ -2790,6 +3445,7 @@ datacenter: CDL.UCSDSSPP
 :: ark:/13030/q0
 type: shoulder
 manager: ezid
+#eziduser: escol_harvester
 name: eScholarship
 date: 2012.06.28
 minter: https://n2t.net/a/ezid/m/ark/13030/q0
@@ -2797,6 +3453,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/q0
 :: ark:/84246/p7
 type: shoulder
 manager: ezid
+#eziduser: ucsd_jhelly
 name: California Coastal Atlas
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/84246/p7
@@ -2804,6 +3461,7 @@ minter: https://n2t.net/a/ezid/m/ark/84246/p7
 :: doi:10.4246/
 type: shoulder
 manager: ezid
+#eziduser: ucsd_jhelly
 name: California Coastal Atlas
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
@@ -2812,6 +3470,7 @@ datacenter: CDL.UCSDCCA
 :: ark:/87269/p4
 type: shoulder
 manager: ezid
+#eziduser: ESIPCommon
 name: Federation of Earth Science Information Partners (ESIP) Commons
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/87269/p4
@@ -2819,6 +3478,7 @@ minter: https://n2t.net/a/ezid/m/ark/87269/p4
 :: doi:10.7269/P3
 type: shoulder
 manager: ezid
+#eziduser: ESIPCommon
 name: Federation of Earth Science Information Partners (ESIP) Commons
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7269/p3
@@ -2827,14 +3487,17 @@ datacenter: CDL.ESIP
 :: doi:10.5967/P8
 type: shoulder
 manager: ezid
+#eziduser: iud21
 name: Indiana University Data to Insight
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b5967/p8
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 :: ark:/87268/p2
 type: shoulder
 manager: ezid
+#eziduser: ucr-bcoe
 name: UC Riverside Bourns College of Engineering
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/87268/p2
@@ -2842,6 +3505,7 @@ minter: https://n2t.net/a/ezid/m/ark/87268/p2
 :: doi:10.7268/P1
 type: shoulder
 manager: ezid
+#eziduser: ucr-bcoe
 name: UC Riverside Bourns College of Engineering
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7268/p1
@@ -2850,6 +3514,7 @@ datacenter: CDL.UCRBCOE
 :: ark:/87267/p0
 type: shoulder
 manager: ezid
+#eziduser: oregonstate
 name: Oregon State University
 date: 2012.06.21
 minter: https://n2t.net/a/ezid/m/ark/87267/p0
@@ -2857,6 +3522,7 @@ minter: https://n2t.net/a/ezid/m/ark/87267/p0
 :: doi:10.7267/N9
 type: shoulder
 manager: ezid
+#eziduser: oregonstate
 name: Oregon State University
 date: 2012.06.21
 minter: https://n2t.net/a/ezid/m/ark/b7267/n9
@@ -2865,6 +3531,7 @@ datacenter: CDL.OSU
 :: ark:/87266/n8
 type: shoulder
 manager: ezid
+#eziduser: griidc
 name: Harte Research Institute
 date: 2012.06.08
 minter: https://n2t.net/a/ezid/m/ark/87266/n8
@@ -2872,6 +3539,7 @@ minter: https://n2t.net/a/ezid/m/ark/87266/n8
 :: doi:10.7266/N7
 type: shoulder
 manager: ezid
+#eziduser: griidc
 name: Harte Research Institute
 date: 2012.06.08
 minter: https://n2t.net/a/ezid/m/ark/b7266/n7
@@ -2880,6 +3548,7 @@ datacenter: CDL.HRI
 :: ark:/87265/n6
 type: shoulder
 manager: ezid
+#eziduser: nsidc
 name: National Snow & Ice Data Center (NSIDC)
 date: 2012.05.30
 minter: https://n2t.net/a/ezid/m/ark/87265/n6
@@ -2887,6 +3556,7 @@ minter: https://n2t.net/a/ezid/m/ark/87265/n6
 :: doi:10.7265/N5
 type: shoulder
 manager: ezid
+#eziduser: nsidc
 name: National Snow & Ice Data Center (NSIDC)
 date: 2012.05.30
 minter: https://n2t.net/a/ezid/m/ark/b7265/n5
@@ -2895,6 +3565,7 @@ datacenter: CDL.NSIDC
 :: ark:/86086/n2
 type: shoulder
 manager: ezid
+#eziduser: ucrlibrary
 name: UC Riverside
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/86086/n2
@@ -2902,6 +3573,7 @@ minter: https://n2t.net/a/ezid/m/ark/86086/n2
 :: doi:10.6086/N1
 type: shoulder
 manager: ezid
+#eziduser: ucrlibrary
 name: UC Riverside
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/b6086/n1
@@ -2910,6 +3582,7 @@ datacenter: CDL.UCR
 :: ark:/87264/n4
 type: shoulder
 manager: ezid
+#eziduser: uoregon
 name: University of Oregon
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/87264/n4
@@ -2917,6 +3590,7 @@ minter: https://n2t.net/a/ezid/m/ark/87264/n4
 :: doi:10.7264/N3
 type: shoulder
 manager: ezid
+#eziduser: uoregon
 name: University of Oregon
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/b7264/n3
@@ -2925,6 +3599,7 @@ datacenter: CDL.UOREGON
 :: ark:/86085/n0
 type: shoulder
 manager: ezid
+#eziduser: sb-pisco
 name: Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
 date: 2012.05.22
 minter: https://n2t.net/a/ezid/m/ark/86085/n0
@@ -2932,6 +3607,7 @@ minter: https://n2t.net/a/ezid/m/ark/86085/n0
 :: doi:10.6085/
 type: shoulder
 manager: ezid
+#eziduser: sp-pisco
 name: Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
 date: 2012.05.22
 minter:
@@ -2940,6 +3616,7 @@ datacenter: CDL.PISCO
 :: ark:/86084/m8
 type: shoulder
 manager: ezid
+#eziduser: digitalsci
 name: Digital Science
 date: 2012.05.17
 minter: https://n2t.net/a/ezid/m/ark/86084/m8
@@ -2947,6 +3624,7 @@ minter: https://n2t.net/a/ezid/m/ark/86084/m8
 :: doi:10.6084/M9
 type: shoulder
 manager: ezid
+#eziduser: digitalsci
 name: Digital Science
 date: 2012.05.17
 minter: https://n2t.net/a/ezid/m/ark/b6084/m9
@@ -2955,14 +3633,17 @@ datacenter: CDL.DIGSCI
 :: doi:10.6078/M7
 type: shoulder
 manager: ezid
+#eziduser: opencontext
 name: OpenContext
 date: 2012.05.04
 minter: https://n2t.net/a/ezid/m/ark/b6078/m7
 datacenter: CDL.OCONTEXT
+prefix_shares_datacenter: true
 
 :: ark:/47881/m6
 type: shoulder
 manager: ezid
+#eziduser: bulyon1
 name: University of Lyon
 date: 2012.04.13
 minter: https://n2t.net/a/ezid/m/ark/47881/m6
@@ -2970,30 +3651,37 @@ minter: https://n2t.net/a/ezid/m/ark/47881/m6
 :: doi:10.5967/K9
 type: shoulder
 manager: ezid
+#eziduser: iuhtrc
 name: HathiTrust Research Center
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b5967/k9
-datacenter: PURDUE.EZID
+datacenter: PURDUE.HTRC
+prefix_shares_datacenter: true
 
 :: doi:10.5967/K8
 type: shoulder
 manager: ezid
+#eziduser: iusw
 name: Indiana University IUScholarWorks
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b5967/k8
-datacenter: PURDUE.EZID
+datacenter: PURDUE.IUSW
+prefix_shares_datacenter: true
 
 :: doi:10.5967/M0
 type: shoulder
 manager: ezid
+#eziduser: iusead
 name: Indiana University Sustainable Environment-Actionable Data (SEAD)
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b5967/m0
-datacenter: PURDUE.EZID
+datacenter: PURDUE.IUSEAD
+prefix_shares_datacenter: true
 
 :: ark:/85967/k7
 type: shoulder
 manager: ezid
+#eziduser: indianau
 name: Indiana University
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/85967/k7
@@ -3001,6 +3689,7 @@ minter: https://n2t.net/a/ezid/m/ark/85967/k7
 :: ark:/86083/m3
 type: shoulder
 manager: ezid
+#eziduser: ohsu_libr
 name: Oregon Health & Science University
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/86083/m3
@@ -3008,6 +3697,7 @@ minter: https://n2t.net/a/ezid/m/ark/86083/m3
 :: doi:10.6083/M4
 type: shoulder
 manager: ezid
+#eziduser: ohsu_libr
 name: Oregon Health & Science University
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b6083/m4
@@ -3016,6 +3706,7 @@ datacenter: CDL.OHSU
 :: ark:/61001/m2
 type: shoulder
 manager: ezid
+#eziduser: uchicago
 name: University of Chicago
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/61001/m2
@@ -3023,6 +3714,7 @@ minter: https://n2t.net/a/ezid/m/ark/61001/m2
 :: doi:10.6082/M1
 type: shoulder
 manager: ezid
+#eziduser: uchicago
 name: University of Chicago
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b6082/m1
@@ -3032,20 +3724,25 @@ datacenter: PURDUE.UCHIG
 :: ark:/13030/k6
 type: shoulder
 manager: ezid
+#eziduser: cdldsc
 name: UC Berkeley/Digital Special Collections
 date: 2012.03.28
 minter: https://n2t.net/a/ezid/m/ark/13030/k6
 
+#note from Joan--account has been cancelled!!
 :: ark:/86081/k5
 type: shoulder
 manager: ezid
+#eziduser: none
 name: UCSD Nieh Lab
 date: 2012.03.28
 minter: https://n2t.net/a/ezid/m/ark/86081/k5
 
+#note from Joan--account has been cancelled!!
 :: doi:10.6081/K4
 type: shoulder
 manager: ezid
+#eziduser: none
 name: UCSD Nieh Lab
 date: 2012.03.28
 minter: https://n2t.net/a/ezid/m/ark/b6081/k4
@@ -3054,20 +3751,15 @@ datacenter: CDL.UCSDBIO
 :: ark:/86080/k3
 type: shoulder
 manager: ezid
+#eziduser: ucb-crcns.org
 name: Collaborative Research in Computational Neuroscience (CRCNS)
 date: 2012.03.12
 minter: https://n2t.net/a/ezid/m/ark/86080/k3
 
-:: ark:/86079/k1
-type: shoulder
-manager: ezid
-name: UCLA Department of Ecology and Evolutionary Biology
-date: 2012.03.12
-minter: https://n2t.net/a/ezid/m/ark/86079/k1
-
 :: doi:10.6080/K0
 type: shoulder
 manager: ezid
+#eziduser: ucb-crcns.org
 name: Collaborative Research in Computational Neuroscience (CRCNS)
 date: 2012.03.08
 minter: https://n2t.net/a/ezid/m/ark/b6080/k0
@@ -3076,6 +3768,7 @@ datacenter: CDL.UCBCRCNS
 :: doi:10.6075/J0
 type: shoulder
 manager: ezid
+#eziduser: ucsdlib
 name: UCSD
 date: 2012.03.06
 minter: https://n2t.net/a/ezid/m/ark/b6075/j0
@@ -3084,6 +3777,7 @@ datacenter: CDL.UCSD
 :: ark:/86074/r3
 type: shoulder
 manager: ezid
+#eziduser: aasdata
 name: American Astronomical Society (AAS)
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/86074/r3
@@ -3091,6 +3785,7 @@ minter: https://n2t.net/a/ezid/m/ark/86074/r3
 :: doi:10.6074/D8
 type: shoulder
 manager: ezid
+#eziduser: aasdata
 name: American Astronomical Society (AAS)
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6074/d8
@@ -3099,6 +3794,7 @@ datacenter: CDL.AAS
 :: ark:/86077/j4
 type: shoulder
 manager: ezid
+#eziduser: ciser
 name: Cornell Institute for Social and Economic Research (CISER)
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/86077/j4
@@ -3106,6 +3802,7 @@ minter: https://n2t.net/a/ezid/m/ark/86077/j4
 :: doi:10.6077/J5
 type: shoulder
 manager: ezid
+#eziduser: ciser
 name: Cornell Institute for Social and Economic Research (CISER)
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6077/j5
@@ -3114,6 +3811,7 @@ datacenter: CDL.CISER
 :: ark:/86076/j6
 type: shoulder
 manager: ezid
+#eziduser: fhcrc
 name: Fred Hutchinson Cancer Research Center
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/86076/j6
@@ -3121,6 +3819,7 @@ minter: https://n2t.net/a/ezid/m/ark/86076/j6
 :: doi:10.6076/J7
 type: shoulder
 manager: ezid
+#eziduser: fhcrc
 name: Fred Hutchinson Cancer Research Center
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6076/j7
@@ -3129,6 +3828,7 @@ datacenter: CDL.FHCRC
 :: ark:/86073/
 type: shoulder
 manager: ezid
+#eziduser: lternet
 name: Long Term Ecological Research (LTER) Network
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/86073/j3
@@ -3136,6 +3836,7 @@ minter: https://n2t.net/a/ezid/m/ark/86073/j3
 :: doi:10.6073/
 type: shoulder
 manager: ezid
+#eziduser: lternet
 name: Long Term Ecological Research (LTER) Network
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6073/j1
@@ -3144,6 +3845,7 @@ datacenter: CDL.LTERNET
 :: doi:10.6078/J8
 type: shoulder
 manager: ezid
+#eziduser: ucblibrary
 name: UC Berkeley
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6078/j8
@@ -3152,6 +3854,7 @@ datacenter: CDL.UCB
 :: doi:10.6079/J9
 type: shoulder
 manager: ezid
+#eziduser: ucla-eeb1
 name: UCLA Department of Ecology and Evolutionary Biology
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6079/j9
@@ -3160,6 +3863,7 @@ datacenter: CDL.UCLAEEB
 :: ark:/86072/h9
 type: shoulder
 manager: ezid
+#eziduser: ucsd_signaling_gateway
 name: UCSD Signaling Gateway
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/86072/h9
@@ -3167,6 +3871,7 @@ minter: https://n2t.net/a/ezid/m/ark/86072/h9
 :: doi:10.6072/H0
 type: shoulder
 manager: ezid
+#eziduser: ucsd_signaling_gateway
 name: UCSD Signaling Gateway
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6072/h0
@@ -3175,6 +3880,7 @@ datacenter: CDL.SDSCSG
 :: ark:/86071/h7
 type: shoulder
 manager: ezid
+#eziduser: ucmlibrary
 name: UC Merced
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/86071/h7
@@ -3182,6 +3888,7 @@ minter: https://n2t.net/a/ezid/m/ark/86071/h7
 :: doi:10.6071/H8
 type: shoulder
 manager: ezid
+#eziduser: ucmlibrary
 name: UC Merced
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/b6071/h8
@@ -3193,6 +3900,7 @@ datacenter: CDL.UCM
 :: ark:/78428/h6
 type: shoulder
 manager: ezid
+#eziduser: uwlibs
 name: University of Washington
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/78428/h6
@@ -3200,6 +3908,7 @@ minter: https://n2t.net/a/ezid/m/ark/78428/h6
 :: doi:10.6069/H5
 type: shoulder
 manager: ezid
+#eziduser: uwlibs
 name: University of Washington
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/b6069/h5
@@ -3208,6 +3917,7 @@ datacenter: CDL.UWL
 :: ark:/86070/h3
 type: shoulder
 manager: ezid
+#eziduser: labarchives
 name: LabArchives
 date: 2012.02.29
 minter: https://n2t.net/a/ezid/m/ark/86070/h3
@@ -3215,6 +3925,7 @@ minter: https://n2t.net/a/ezid/m/ark/86070/h3
 :: doi:10.6070/H4
 type: shoulder
 manager: ezid
+#eziduser: labarchives
 name: LabArchives
 date: 2012.02.29
 minter: https://n2t.net/a/ezid/m/ark/b6070/h4
@@ -3223,6 +3934,7 @@ datacenter: CDL.LABARCH
 :: ark:/86068/
 type: shoulder
 manager: ezid
+#eziduser: data-planet
 name: Data-Planet
 date: 2012.02.21
 minter: https://n2t.net/a/ezid/m/ark/86068/h1
@@ -3230,6 +3942,7 @@ minter: https://n2t.net/a/ezid/m/ark/86068/h1
 :: doi:10.6068/
 type: shoulder
 manager: ezid
+#eziduser: data-planet
 name: Data-Planet
 date: 2012.02.21
 minter: https://n2t.net/a/ezid/m/ark/b6068/h2
@@ -3238,6 +3951,7 @@ datacenter: CDL.DPLANET
 :: ark:/86067/xcv8
 type: shoulder
 manager: ezid
+#eziduser: xcv8
 name: Digital Antiquity
 date: 2012.02.21
 minter: https://n2t.net/a/ezid/m/ark/86067/xcv8
@@ -3245,6 +3959,7 @@ minter: https://n2t.net/a/ezid/m/ark/86067/xcv8
 :: doi:10.6067/XCV8
 type: shoulder
 manager: ezid
+#eziduser: xcv8
 name: Digital Antiquity
 date: 2012.02.21
 minter: https://n2t.net/a/ezid/m/ark/b6067/xcv8
@@ -3253,6 +3968,7 @@ datacenter: CDL.DIGANT
 :: ark:/85069/g8
 type: shoulder
 manager: ezid
+#eziduser: ucsd_opentopo
 name: OpenTopography Facility
 date: 2012.02.07
 minter: https://n2t.net/a/ezid/m/ark/85069/g8
@@ -3260,6 +3976,7 @@ minter: https://n2t.net/a/ezid/m/ark/85069/g8
 :: doi:10.5069/G9
 type: shoulder
 manager: ezid
+#eziduser: ucsd_opentopo
 name: OpenTopography Facility
 date: 2012.02.07
 minter: https://n2t.net/a/ezid/m/ark/b5069/g9
@@ -3268,6 +3985,7 @@ datacenter: CDL.SDSCOT
 :: ark:/85067/g6
 type: shoulder
 manager: ezid
+#eziduser: eosdis
 name: NASA Goddard Space Flight Center (GSFC)
 date: 2012.01.24
 minter: https://n2t.net/a/ezid/m/ark/85067/g6
@@ -3275,6 +3993,7 @@ minter: https://n2t.net/a/ezid/m/ark/85067/g6
 :: doi:10.5067/
 type: shoulder
 manager: ezid
+#eziduser: eosdis
 name: NASA Goddard Space Flight Center (GSFC)
 date: 2012.01.24
 minter: https://n2t.net/a/ezid/m/ark/b5067/g7
@@ -3283,6 +4002,7 @@ datacenter: CDL.NASAGSFC
 :: ark:/21198/r2
 type: shoulder
 manager: ezid
+#eziduser: ucla-library
 name: UCLA Library
 date: 2012.01.17
 minter: https://n2t.net/a/ezid/m/ark/21198/r2
@@ -3290,6 +4010,7 @@ minter: https://n2t.net/a/ezid/m/ark/21198/r2
 :: doi:10.5068/G5
 type: shoulder
 manager: ezid
+#eziduser: ucla-library
 name: UCLA
 date: 2012.01.17
 minter: https://n2t.net/a/ezid/m/ark/b5068/g5
@@ -3298,6 +4019,7 @@ datacenter: CDL.UCLA
 :: ark:/38305/g4
 type: shoulder
 manager: ezid
+#eziduser: ucsc-lib
 name: UCSC Grateful Dead Archive
 date: 2011.12.16
 minter: https://n2t.net/a/ezid/m/ark/38305/g4
@@ -3305,6 +4027,7 @@ minter: https://n2t.net/a/ezid/m/ark/38305/g4
 :: ark:/13030/fq
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: DPR Legacy
 date: 2011.12.13
 minter:
@@ -3312,6 +4035,7 @@ minter:
 :: ark:/85065/d7
 type: shoulder
 manager: ezid
+#eziduser: ncar_library
 name: National Center for Atmospheric Research (NCAR)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/85065/d7
@@ -3319,6 +4043,7 @@ minter: https://n2t.net/a/ezid/m/ark/85065/d7
 :: doi:10.5065/D6
 type: shoulder
 manager: ezid
+#eziduser: ncar_library
 name: National Center for Atmospheric Research (NCAR)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/b5065/d6
@@ -3327,6 +4052,7 @@ datacenter: CDL.NCAR
 :: ark:/83334/f9
 type: shoulder
 manager: ezid
+#eziduser: ornldaac
 name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/83334/f9
@@ -3334,6 +4060,7 @@ minter: https://n2t.net/a/ezid/m/ark/83334/f9
 :: doi:10.3334/
 type: shoulder
 manager: ezid
+#eziduser: ornldaac
 name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
 date: 2011.12.13
 minter:
@@ -3342,6 +4069,7 @@ datacenter: CDL.ORNL
 :: ark:/85066/f8
 type: shoulder
 manager: ezid
+#eziduser: usgs
 name: USGS Core Science Analytics and Synthesis (CSAS)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/85066/f8
@@ -3349,6 +4077,7 @@ minter: https://n2t.net/a/ezid/m/ark/85066/f8
 :: doi:10.5066/F7
 type: shoulder
 manager: ezid
+#eziduser: usgs
 name: USGS Core Science Analytics and Synthesis (CSAS)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/b5066/f7
@@ -3357,6 +4086,7 @@ datacenter: CDL.USGS
 :: ark:/85064/f5
 type: shoulder
 manager: ezid
+#eziduser: qdr_cqrm
 name: Consortium for Qualitative Research Methods
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/85064/f5
@@ -3364,6 +4094,7 @@ minter: https://n2t.net/a/ezid/m/ark/85064/f5
 :: doi:10.5064/F6
 type: shoulder
 manager: ezid
+#eziduser: qdr_cqrm
 name: Consortium for Qualitative Research Methods
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/b5064/f6
@@ -3372,6 +4103,7 @@ datacenter: CDL.QDR
 :: ark:/85063/f2
 type: shoulder
 manager: ezid
+#eziduser: sb-nceas
 name: National Center for Ecological Analysis and Synthesis (NCEAS)
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/85063/f2
@@ -3379,6 +4111,7 @@ minter: https://n2t.net/a/ezid/m/ark/85063/f2
 :: doi:10.5062/F4
 type: shoulder
 manager: ezid
+#eziduser: sb-library
 name: UCSB
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/b5062/f4
@@ -3387,6 +4120,7 @@ datacenter: CDL.UCSB
 :: ark:/48907/f3
 type: shoulder
 manager: ezid
+#eziduser: sb-bren
 name: UCSB
 date: 2011.11.15
 minter: https://n2t.net/a/ezid/m/ark/48907/f3
@@ -3394,6 +4128,7 @@ minter: https://n2t.net/a/ezid/m/ark/48907/f3
 :: ark:/38305/f1
 type: shoulder
 manager: ezid
+#eziduser: ucsd-lib
 name: UCSC Library
 date: 2011.11.06
 minter: https://n2t.net/a/ezid/m/ark/38305/f1
@@ -3401,6 +4136,7 @@ minter: https://n2t.net/a/ezid/m/ark/38305/f1
 :: ark:/28722/d9
 type: shoulder
 manager: ezid
+#eziduser: ucberkeley
 name: UC Berkeley
 date: 2011.09.20
 minter: https://n2t.net/a/ezid/m/ark/28722/d9
@@ -3408,15 +4144,18 @@ minter: https://n2t.net/a/ezid/m/ark/28722/d9
 :: doi:10.5072/FK2
 type: shoulder
 manager: ezid
+#eziduser: apitest
 name: DOI Test
 date: 2011.08.18
 minter: https://n2t.net/a/ezid/m/ark/b5072/fk2
 datacenter: CDL.CDL
 crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/21198/r1
 type: shoulder
 manager: ezid
+#eziduser: ucla-library
 name: UCLA
 date: 2011.06.24
 minter: https://n2t.net/a/ezid/m/ark/21198/r1
@@ -3425,50 +4164,23 @@ minter: https://n2t.net/a/ezid/m/ark/21198/r1
 :: ark:/99999/fk4
 type: shoulder
 manager: ezid
+#eziduser: admin
 name: ARK Test
 date: 2011.06.22
 minter: https://n2t.net/a/ezid/m/ark/99999/fk4
 
-:: ark:/13030/p5
-type: shoulder
-manager: ezid
-name: NASA Heliophysics Data Environment
-date: 2011.03.02
-minter: https://n2t.net/a/ezid/m/ark/13030/p5
-
-:: doi:10.5060/D5
-type: shoulder
-manager: ezid
-name: NASA Heliophysics Data Environment
-date: 2011.03.02
-minter: https://n2t.net/a/ezid/m/ark/b5060/d5
-datacenter: CDL.CDL
-
-:: ark:/87911/c8
-type: shoulder
-manager: ezid
-name: OneOcean
-date: 2011.03.02
-minter: https://n2t.net/a/ezid/m/ark/87911/c8
-
 :: ark:/19153/b2
 type: shoulder
 manager: ezid
+#eziduser: cndp-crdp
 name: CRDP academie d'Aix-Marseille
 date: 2011.03.01
 minter: https://n2t.net/a/ezid/m/ark/19153/b2
 
-:: doi:10.5060/D4
-type: shoulder
-manager: ezid
-name: {legacy} ESIP Preservation and Stewardship Cluster
-date: 2011.02.18
-minter:
-datacenter: CDL.CDL
-
 :: ark:/34231/c6
 type: shoulder
 manager: ezid
+#eziduser: purduelib
 name: Purdue Libraries
 date: 2011.01.24
 minter: https://n2t.net/a/ezid/m/ark/34231/c6
@@ -3476,15 +4188,18 @@ minter: https://n2t.net/a/ezid/m/ark/34231/c6
 :: doi:10.4231/D3
 type: shoulder
 manager: ezid
+#eziduser: purduelib
 name: Purdue Libraries
 date: 2011.01.24
 minter: https://n2t.net/a/ezid/m/ark/b4231/d3
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 # j2 for admin/auxiliary stuff (eg, service agreements, "owner collections")
 :: ark:/13030/j2
 type: shoulder
 manager: ezid
+#eziduser: admin
 name: CDL Auxiliary
 date: 2010.09.10
 minter: https://n2t.net/a/ezid/m/ark/13030/j2
@@ -3493,6 +4208,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/j2
 :: ark:/13030/m5
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: Merritt
 date: 2010.09.10
 minter: https://n2t.net/a/ezid/m/ark/13030/m5
@@ -3500,6 +4216,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/m5
 :: ark:/13030/c7
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: EZID
 date: 2010.09.09
 minter: https://n2t.net/a/ezid/m/ark/13030/c7
@@ -3507,6 +4224,7 @@ minter: https://n2t.net/a/ezid/m/ark/13030/c7
 :: ark:/99166/p9
 type: shoulder
 manager: ezid
+#eziduser: ? admin?
 name: CDL Agent
 date: 2010.09.01
 minter: https://n2t.net/a/ezid/m/ark/99166/p9
@@ -3514,6 +4232,7 @@ minter: https://n2t.net/a/ezid/m/ark/99166/p9
 :: ark:/28722/k2
 type: shoulder
 manager: ezid
+#eziduser: opencontext
 name: OpenContext
 date: 2010.02.01
 minter: https://n2t.net/a/ezid/m/ark/28722/k2
@@ -3521,6 +4240,7 @@ minter: https://n2t.net/a/ezid/m/ark/28722/k2
 # Content for zz and vf from CDL DPR conversion in 2013
 :: ark:/13030/vf
 type: shoulder
+#eziduser: merritt
 manager: ezid
 name: Legacy arkpreserve
 date: 2009.03.09
@@ -3528,6 +4248,7 @@ minter:
 
 :: ark:/13030/qt
 type: shoulder
+#eziduser: eschol_harvester 
 manager: ezid
 name: eScholarship Legacy
 date: 2007.06.01
@@ -3537,6 +4258,7 @@ minter:
 :: ark:/13030/ft
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Online Archive of California (OAC) Legacy ft
 date: 2007.06.01
 minter:
@@ -3544,6 +4266,7 @@ minter:
 :: ark:/13030/tf
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Online Archive of California (OAC) Legacy tf
 date: 2007.06.01
 minter:
@@ -3552,6 +4275,7 @@ minter:
 :: ark:/13030/kt
 type: shoulder
 manager: ezid
+#eziduser: none
 name: Online Archive of California (OAC)
 date: 2007.06.01
 minter:
@@ -3560,6 +4284,7 @@ minter:
 :: ark:/13030/hb
 type: shoulder
 manager: ezid
+#eziduser: ucblibrary
 name: UC Berkeley Legacy Library
 date: 2007.06.01
 minter:
@@ -3568,6 +4293,7 @@ minter:
 :: ark:/28722/bk
 type: shoulder
 manager: ezid
+#eziduser: ucblibrary
 name: UC Berkeley Legacy Library bk
 date: 2007.06.01
 minter:
@@ -3576,6 +4302,7 @@ minter:
 :: ark:/21198/zz
 type: shoulder
 manager: ezid
+#eziduser: none
 name: UCLA Legacy
 date: 2007.06.01
 minter:
@@ -3583,12 +4310,14 @@ minter:
 :: ark:/13030/c8
 type: shoulder
 manager: ezid
+#eziduser: cdldsc
 name: CDL Digital Special Collections
 minter: https://n2t.net/a/ezid/m/ark/13030/c8
 
 :: doi:10.5061/
 type: shoulder
 manager: ezid
+#eziduser: dryad
 name: Dryad
 minter: https://n2t.net/a/ezid/m/ark/b5061/rd8
 datacenter: CDL.DRYAD
@@ -3597,50 +4326,35 @@ datacenter: CDL.DRYAD
 :: doi:10.5060/D2
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: EZID
 minter: https://n2t.net/a/ezid/m/ark/b5060/d2
 datacenter: CDL.CDL
-
-# contact: Mills, Garey ||| gmills@library.berkeley.edu | +1 510-643-4092
-:: ark:/28722/tst
-type: shoulder
-manager: ezid
-name: UC Berkeley Legacy Library tst
-minter:
+prefix_shares_datacenter: true
 
 :: ark:/20775/
 type: shoulder
 manager: ezid
+#eziduser: merritt
 name: UCSD
 minter:
-
-# urn naan: 97720
-:: urn:uuid:
-type: shoulder
-manager: ezid
-name: UUID URN
-minter:
-
-:: doi:10.5060/XCV8
-type: shoulder
-manager: ezid
-name: {legacy} Digital Antiquity
-minter:
-datacenter: CDL.CDL
 
 :: doi:10.4231/
 type: shoulder
 is_supershoulder: true
 manager: ezid
+#eziduser: purdue_admin
 name: {legacy} Purdue Libraries
 minter:
 datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
 
 # contact: Miller, Robert
 # contact: Bromley, Hank
 :: ark:/13960/t
 type: shoulder
 manager: oca
+#eziduser: none
 name: Open Content Alliance
 minter:
 
@@ -3648,6 +4362,7 @@ minter:
 :: ark:/13030/sw1
 type: shoulder
 manager: other
+#eziduser: none
 name: CDL Web Archiving System
 minter:
 
@@ -3656,6 +4371,7 @@ minter:
 :: ark:/13030/bn
 type: shoulder
 manager: other
+#eziduser: none
 name: ?1?
 minter:
 
@@ -3664,12 +4380,14 @@ minter:
 #type: shoulder
 #is_supershoulder: true
 #manager: other
+#eziduser: none
 #name: ?2?
 #minter:
 
 :: ark:/13030/g3
 type: shoulder
 manager: other
+#eziduser: none
 name: EZID binder ids
 minter:
 

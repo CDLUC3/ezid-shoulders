@@ -39,13 +39,23 @@ set url = `echo $url | sed 's,^\([^h]\),http://\1,'`	# start with 'http://'
 
 # XXXX add ability to 'hold' a user-supplied NAAN
 
-set id = `$mint | sed 's,^id: ,,'`			# remove initial 'id: '
+# remove initial 's: ' (formerly 'id: ') xxx delete old id: substitution
+set id = `$mint | sed -e 's,^s: ,,' -e 's,^id: ,,'`
 #set partial = `echo $id | sed 's,^00001/,,'`
+
+# Critical test to see if the NAAN exists, eg, created by processes used
+# for deriving NAANs from DOI Prefixes.
+set exists = `bash -c "naan exists $id" && echo 1`
+if ("$exists" == 1) then
+	echo "NAAN $id exists -- skipping.  Try again."
+	exit 1
+endif
 
 # Criteria go here.
 #if ("$partial" =~ 9* || "$partial" =~ 0*) then
 #if ("$id" =~ 9* || "$id" =~ 0*) then
-if ("$id" =~ [089]*) then
+#if ("$id" =~ [089]*) then	# old (8) setting to avoid colliding with EZID
+if ("$id" =~ [09]*) then
 	#echo ECHO noid hold set $id
 	#$ndcmd hold set $id
 	echo "Skipping id: $id".  Try again.

@@ -10,9 +10,9 @@ be found at <https://confluence.ucop.edu/display/UC3/EZID+Operations>.
 
 3. If a new DataCite datacenter is required, create it and assign it
 the necessary prefix(es).  Use the PURDUE allocator password and PURDUE.*
-( $(wegnpw purdueadmin) ) instead of CDL.* if appropriate.
+( "$(wegnpw purdueadmin)" ) instead of CDL.* if appropriate.
 
-   ./mdsadmin $(wegnpw cdladmin) create CDL.BUL 'Brown University Library' \
+   ezmdsadmin "$(wegnpw cdladmin)" create CDL.BUL 'Brown University Library' \
       10.1234 10.5678 ...
 
 4. Operationally test any newly-added or modified shoulders by listing
@@ -20,9 +20,9 @@ them on the command line.  Note that testing a DOI shoulder requires
 the password of the shoulder's DataCite allocator, which can be given
 with the -d {ALLOCATOR_PASSWORD} option.
 
- ./validate-shoulders master_shoulders.txt -m ezid:$(wegnpw ezid) ark:/12345/foo
+ ./validate-shoulders master_shoulders.txt -m "ezid:$(wegnpw ezid)" ark:/12345/foo
 
- ./validate-shoulders master_shoulders.txt -m ezid:$(wegnpw ezid) -d $(wegnpw cdladmin) doi:10.1234/BAR
+ ./validate-shoulders master_shoulders.txt -m "ezid:$(wegnpw ezid)" -d "$(wegnpw cdladmin)" doi:10.1234/BAR
 
 5. Install new shoulder file.  This will place the previously-installed
 shoulder file in master_shoulders.txt.bak in this directory.
@@ -31,7 +31,7 @@ shoulder file in master_shoulders.txt.bak in this directory.
 
 6. Reload all EZID instances to make them aware of the change.
 
-   ./reload-all $(wegnpw ezidadmin)
+   ./reload-all "$(wegnpw ezidadmin)"
 
 ===========
 For all other matters, login to mds.datacite.org as either "cdl" or "purdue".

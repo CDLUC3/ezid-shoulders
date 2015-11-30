@@ -1,9 +1,9 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.06.25
+when:	2015.11.30
 where:	http://cdlib.org/uc3/naan_registry.txt
-where:	http://bnf.fr/xxx/naan_registry.txt
+where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
 huh:	utf-8
 
@@ -1208,10 +1208,10 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	Open Cloud Consortium (=) OCC
+who:	Open Commons Consortium (=) OCC
 what:	31807
 when:	2012.08.22
-where:	http://opencloudconsortium.org
+where:	http://occ-data.org
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
@@ -1489,7 +1489,7 @@ how:	NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    Broad Institute of MIT and Harvard (=) BROAD
-what:   87908
+what:   77908
 when:   2013.04.24
 where:  http://www.broadinstitute.org
 how:    NP | (:unkn) unknown | 2013 |
@@ -1507,13 +1507,6 @@ what:   87910
 when:   2013.04.30
 where:  http://www.harvard.edu
 how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    OneOcean (=) ONEOCEAN
-what:   87911
-when:   2013.05.03
-where:	http://www.oneoceancorp.com
-how:	NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    Indiana University Purdue University Indianapolis (=) IUPUI
@@ -1538,7 +1531,7 @@ how:    NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
-what:   85967
+what:   88113
 when:   2013.06.18
 where:  http://escience.washington.edu
 how:    NP | (:unkn) unknown | 2013 |
@@ -1559,7 +1552,7 @@ how:	NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    UW College of the Environment Climate Impacts Group (=) UWCIG
-what:   87915
+what:   77915
 when:   2013.06.27
 where:  http://cses.washington.edu/cig
 how:    NP | (:unkn) unknown | 2013 |
@@ -1587,7 +1580,7 @@ how:	NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    NASA Center for Climate Simulation (=) NCCS
-what:   87917
+what:   77917
 when:   2013.08.02
 where:  http://www.nccs.nasa.gov
 how:    NP | (:unkn) unknown | 2013 |
@@ -2056,7 +2049,7 @@ how:	NP | (:unkn) unknown | 2014 |
 
 naa:
 who:    University of Maryland Libraries (=) UMD
-what:   87945
+what:   83016
 when:   2014.06.13
 where:	http://www.lib.umd.edu
 how:	NP | (:unkn) unknown | 2014 |
@@ -2238,7 +2231,7 @@ how:	NP | (:unkn) unknown | 2014 |
 
 naa:
 who:    Purdue Polytechnic Institute (=) PURPOLY
-what:   83020
+what:   88114
 when:   2014.10.14
 where:	https://polytechhub.org
 how:	NP | (:unkn) unknown | 2014 |
@@ -2497,7 +2490,7 @@ how:	NP | (:unkn) unknown | 2015 |
 
 naa:
 who:    Montana State University (=) MSU
-what:   85788
+what:   75788
 when:   2015.03.04
 where:	www.montana.edu
 how:	NP | (:unkn) unknown | 2015 |
@@ -2686,7 +2679,7 @@ how:	NP | (:unkn) unknown | 2015 |
 
 naa:
 who:    Space Telescope Science Institute (=) STSCI
-what:   87909
+what:   77909
 when:   2015.05.11
 where:	http://www.stsci.edu
 how:	NP | (:unkn) unknown | 2015 |
@@ -2714,14 +2707,14 @@ how:	NP | (:unkn) unknown | 2015 |
 
 naa:
 who:    Caltech Biology (=) WORMBASE
-what:   87912
+what:   77912
 when:   2015.05.26
 where:	http://www.wormbase.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
 who:    Miami Project to Cure Paralysis (=) REGENBASE
-what:   87913
+what:   77913
 when:   2015.05.27
 where:	http://regenbase.org
 how:	NP | (:unkn) unknown | 2015 |
@@ -2742,7 +2735,7 @@ how:	NP | (:unkn) unknown | 2015 |
 
 naa:
 who:    Saint Edward's University (=) SEU
-what:   87914
+what:   77914
 when:   2015.06.09
 where:	http://www.stedwards.edu
 how:	NP | (:unkn) unknown | 2015 |
@@ -2755,11 +2748,231 @@ where:	http://www.andrews.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:	NAAN Reserved for Uniform Resource Names (=) URNS
-what:	97720
-when:	2011.11.15
-where:	http://n2t.net
-how:	NP | NR, OP | 2011 |
+who:	Médiathèques du Grand Dole (=) Media Libraries of Greater Dole (=) MEDIAGD
+what:	55063
+when:	2015.06.26
+where:	http://mediatheques.grand-dole.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Center for Nanotechnology in Society (=) CNS
+what:   87915
+when:   2015.06.26
+where:	www.cns.ucsb.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    International Center for Integrative Systems Inc. (=) ICIS
+what:   77916
+when:   2015.06.30
+where:	http://www.integrativesystems.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Archives de la Loire Atlantique (=) ADLATL
+what:	42067
+when:	2015.06.30
+where:	http://archives.loire-atlantique.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Universitatea de Vest din Timişoara (=) West University of Timisoara (=) UVTRO
+what:	29071
+when:	2015.07.01
+where:	http://www.uvt.ro
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    National Cancer Institute, NIH (=) NCIP
+what:   87917
+when:   2015.07.09
+where:	www.cancer.gov
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Drexel University Libraries (=) DRXLDATA
+what:   87918
+when:   2015.07.13
+where:	www.library.drexel.data
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Entrepreneur & Innovation Exchange (=) EIX
+what:   77919
+when:   2015.07.15
+where:	https://eiexchange.com
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    PubRef.org (=) PUBREF
+what:   77920
+when:   2015.07.17
+where:	https://pubref.org/v1/home
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Openfmri (=) OPENFMRI
+what:   88112
+when:   2015.07.27
+where:	http://www.openfmri.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
+what:   88115
+when:   2015.08.13
+where:	http://mindbrain.ucdavis.edu/labs/luck-lab
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    University of Pittsburgh (=) PITT
+what:   88117
+when:   2015.08.13
+where:	http://www.library.pitt.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    UMass Medical School-CANDI (=) UMMSCAND
+what:   88116
+when:   2015.08.26
+where:	http://www.umassmed.edu/psychiatry/candi
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Geotechnical Extreme Events Reconnaissance (=) GEER
+what:   88118
+when:   2015.08.28
+where:	geerassociation.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Sanglap: Journal of Literary and Cultural Inquiry (=) SANGLAP
+what:	16076
+when:	2015.08.28
+where:	http://sanglap-journal.in
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Facebase Consortium (=) FACEBASE
+what:   88119
+when:   2015.09.08
+where:	https://www.facebase.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    USC ISI Informatics Systems Research Division (=) ISRD
+what:   88120
+when:   2015.09.08
+where:	http://www.isi.edu/research/informatics
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    National Cancer Institute, NIH (=) NCIP
+what:   88121
+when:   2015.09.08
+where:	www.cancer.gov
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Boise State University (=) BOISESTATE
+what:   88122
+when:   2015.09.08
+where:	scholarworks.boisestate.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Landscape Conservation Cooperative (=) LCC
+what:   88123
+when:   2015.09.29
+where:	http://http://lccnetwork.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Antarctic Environments Portal (=) AEP
+what:   88124
+when:   2015.09.29
+where:	https://www.environments.aq
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Archives Municipales Aix En Provence (=) AMAEP
+what:	77636
+when:	2015.09.11
+where:	http://aix.arkotheque.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    IPUMS (=) IPUMS
+what:   88128
+when:   2015.09.29
+where:	https://www.pop.umn.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Biblioteca Digitale Ligure (=) Ligurian Digital Library (=) BDL
+what:	64639
+when:	2015.10.11
+where:	http://bibliotecadigitale.regione.liguria.it
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    National Cancer Institute, Bioconductor (=) NCIB
+what:   88129
+when:   2015.10.20
+where:	http://www.cancer.gov
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Institute for Research in Classical Philosophy and Science (=) IRCPS
+what:	51643
+when:	2015.11.17
+where:	http://www.ircps.org
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Bibliography on the Architecture of Ancient Theater (=) BAAT
+what:	38647
+when:	2015.11.18
+where:	http://www.iraa.mom.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	École nationale supérieure des mines de Paris (=) ENSMINES
+what:	25652
+when:	2015.11.18
+where:	https://ark.mines-paristech.fr
+how:	NP | NR, OP, CC | 2015 | https://patrimoine.mines-paristech.fr/ark/policy
+
+naa:
+who:    University of Virginia (=) UVA
+what:   88130
+when:   2015.11.19
+where:	http://www.virginia.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Société archéologique de Namur (=) SAN
+what:	12998
+when:	2015.11.20
+where:	http://www.lasan.be
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Laboratoire de Recherche des Monuments Historiques (=) LRMH
+what:	87211
+when:	2015.11.23
+where:	http://www.lrmh.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
+what:	74215
+when:	2015.11.30
+where:	http://patrimoines.ain.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+
+
 
 naa:
 who:	Metadata Terms (=) TERMS
