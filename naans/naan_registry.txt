@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.11.30
+when:	2015.12.01
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2969,6 +2969,20 @@ who:	Service Ressources patrimoniales et culturelles du département de l'Ain (=
 what:	74215
 when:	2015.11.30
 where:	http://patrimoines.ain.fr
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:    Galter Health Sciences Library, Northwestern University (=) GHSL
+what:   88131
+when:   2015.11.30
+where:	https://galter.northwestern.edu
+how:	NP | (:unkn) unknown | 2015 |
+
+naa:
+who:	Mappemonde (=) MAPPEM
+what:	61219
+when:	2015.12.01
+where:	http://mappemonde.mgm.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 

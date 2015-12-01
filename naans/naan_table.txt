@@ -382,6 +382,8 @@
 12998	Société archéologique de Namur (=) SAN
 87211	Laboratoire de Recherche des Monuments Historiques (=) LRMH
 74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
+88131	Galter Health Sciences Library, Northwestern University (=) GHSL
+61219	Mappemonde (=) MAPPEM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -50,7 +50,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.18130 10.18131 10.18430 10.18431 10.18432 10.18433 10.18434 10.18435 10.18436 10.18437 10.18438 10.18439 
+# 10.18131 10.18430 10.18431 10.18432 10.18433 10.18434 10.18435 10.18436 10.18437 10.18438 10.18439 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -69,6 +69,24 @@
 # Copy: make_ezacct cdl 10.xxxxx p6 "" p7 < ezaccts/newacct > out
 # Copy: make_ezacct -n purdue 10.18128 - "" - < ezaccts/newacct > out
 # make_ezacct purdue 10.18129 b9 "" b2 < ezaccts/newacct > out
+# make_ezacct cdl 10.18130 v3 "" v8 < ezaccts/newacct > out
+
+:: ark:/88130/v8
+type: shoulder
+manager: ezid
+#eziduser: uvalib
+name: University of Virginia
+date: 2015.11.19
+minter: https://n2t.net/a/ezid/m/ark/88130/v8
+
+:: doi:10.18130/V3
+type: shoulder
+manager: ezid
+#eziduser: uvalib
+name: University of Virginia
+date: 2015.11.19
+minter: https://n2t.net/a/ezid/m/ark/c8130/v3
+datacenter: CDL.UVA
 
 :: doi:10.4231/H4
 type: shoulder
@@ -79,7 +97,6 @@ date: 2015.11.17
 minter: https://n2t.net/a/ezid/m/ark/b4231/h4
 datacenter: PURDUE.EZID
 prefix_shares_datacenter: true
-
 
 :: ark:/88129/b2
 type: shoulder

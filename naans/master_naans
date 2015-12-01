@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.11.30
+when:	2015.12.01
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3811,6 +3811,24 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Bailly, Laurence ||| laurence.bailly@ain.fr |
 !contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
 !contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
+
+naa:
+who:    Galter Health Sciences Library, Northwestern University (=) GHSL
+what:   88131
+when:   2015.11.30
+where:	https://galter.northwestern.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid galterlibrary
+
+naa:
+who:	Mappemonde (=) MAPPEM
+what:	61219
+when:	2015.12.01
+where:	http://mappemonde.mgm.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
