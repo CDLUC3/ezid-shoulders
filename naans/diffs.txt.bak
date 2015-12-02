@@ -1,6 +1,6 @@
-diff -r dbd2c56861ca naans/master_naans
+diff -r 6332a4881f6f naans/master_naans
 --- a/naans/master_naans	Tue Jun 30 12:15:30 2015 -0700
-+++ b/naans/master_naans	Mon Nov 30 04:26:04 2015 -0800
++++ b/naans/master_naans	Tue Dec 01 03:59:59 2015 -0800
 @@ -5,3 +5,3 @@
  where:	http://cdlib.org/uc3/naan_registry.txt
 -where:	http://bnf.fr/xxx/naan_registry.txt
@@ -356,6 +356,24 @@ diff -r dbd2c56861ca naans/master_naans
 +!contact: Bailly, Laurence ||| laurence.bailly@ain.fr |
 +!contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
 +!contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
++
++naa:
++who:    Galter Health Sciences Library, Northwestern University (=) GHSL
++what:   88131
++when:   2015.11.30
++where:	https://galter.northwestern.edu
++how:	NP | (:unkn) unknown | 2015 |
++!why:   EZID ARK
++!contact: eziduserid galterlibrary
++
++naa:
++who:	Mappemonde (=) MAPPEM
++what:	61219
++when:	2015.12.01
++where:	http://mappemonde.mgm.fr
++how:	NP | (:unkn) unknown | 2015 |
++!why:	ARK
++!contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
 +
 +#!naa:
 +#!who:    Temporary Name: Data Center 3 (=) DATACTR3
