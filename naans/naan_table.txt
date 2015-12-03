@@ -384,6 +384,8 @@
 74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
 88131	Galter Health Sciences Library, Northwestern University (=) GHSL
 61219	Mappemonde (=) MAPPEM
+88430	UVA Minor Lab (=) MINORLAB
+48223	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

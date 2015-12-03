@@ -437,6 +437,8 @@ contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
 contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
 contact: eziduserid galterlibrary
 contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
+contact: eziduserid uva-minorl
+contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

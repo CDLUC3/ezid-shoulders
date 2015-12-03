@@ -42,8 +42,8 @@ vmsg:
 mnaans = master_naans
 mod_date:
 	@perl -p000 -i'.bak' -e 'BEGIN { $$today = `date "+%Y.%m.%d"`; }' \
-		-e 's/^(erc:.*when:\s*)([^\n]*\n)/$$1$$today/s and $$ok++;' \n
-		-e 'END { $ok or print "ERROR -- mod_date failure\n"; }' \
+		-e 's/^(erc:.*when:\s*)([^\n]*\n)/$$1$$today/s and $$ok++;' \
+		-e 'END { $$ok or print "ERROR -- mod_date failure\n"; }' \
 			$(mnaans)
 	@if [ `diff $(mnaans).bak $(mnaans) | wc -l` -gt '4' ] ; then \
 		echo PANIC -- mod_date target changed more than expected: ; \
@@ -205,6 +205,7 @@ prod = jak@www.cdlib.org
 # list below, eg, forge/grandfathered .
 #
 replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
+	@hg id > previous.announce
 	@echo "$(stage) "
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
 	@echo "$(prod) "
@@ -249,6 +250,7 @@ Questions to jak@ucop.edu\n\
 #		echo $(announcement) | cat - diffs.txt.$(TODAY)
 
 announce:
+	@hg id > previous.announce
 	@(NAME="N2T Role Account"; export NAME; \
 		perl -e 'print $(announcement)' | cat - diffs.txt \
 		| mailx -s 'NAAN registry updated' -c "$(ccremote)" $(remote))
