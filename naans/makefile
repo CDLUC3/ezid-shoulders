@@ -12,12 +12,13 @@ TODAY = `date "+%Y.%m.%d"`
 #ALL = $(FILES) replicate
 .PHONY: print_usage $(ALL) vmsg umsg mod_date
 
+#	@echo "today is $(TODAY)"
+
 print_usage:
 	@echo 'Usage:'
 	@echo ''
-	@echo "today is $(TODAY)"
 	@echo '   $ make diffs.txt   # BEFORE "all", if you plan to "announce"'
-	@echo '   $ make all         # to create derivative files and replicate'
+	@echo '   $ make all         # make extra files, publish NAAN registry, and replicate'
 	@echo '   $ make announce    # email diffs to folks at replica sites'
 	@echo ''
 	@echo 'Some other useful targets; invoke with "make <target>":'
