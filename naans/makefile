@@ -64,7 +64,7 @@ umsg:
 #	@scp $^ $(stage):/cdlib/apache/htdocs/services/uc3/ 
 
 commit:
-	hg commit -m 'probably new NAAN entries'
+	hg commit -m 'probably just new NAAN entries'
 
 # Private stuff
 #
@@ -207,9 +207,9 @@ prod = jak@www.cdlib.org
 # list below, eg, forge/grandfathered .
 #
 replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
-	@echo "Publising to $(stage) "
+	@echo "Publishing to $(stage) "
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
-	@echo "Publising to $(prod) "
+	@echo "Publishing to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
 	hg push
 
