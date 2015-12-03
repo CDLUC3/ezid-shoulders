@@ -7,7 +7,7 @@
 
 FILES = private public
 #FILES = private public shoulders
-ALL = $(FILES) commit
+ALL = $(FILES) commit replicate
 TODAY = `date "+%Y.%m.%d"`
 #ALL = $(FILES) replicate
 .PHONY: print_usage $(ALL) vmsg umsg mod_date
@@ -17,8 +17,7 @@ print_usage:
 	@echo ''
 	@echo "today is $(TODAY)"
 	@echo '   $ make diffs.txt   # BEFORE "all", if you plan to "announce"'
-	@echo '   $ make all         # to create derivative files'
-	@echo '   $ make replicate   # update the CDL website'
+	@echo '   $ make all         # to create derivative files and replicate'
 	@echo '   $ make announce    # email diffs to folks at replica sites'
 	@echo ''
 	@echo 'Some other useful targets; invoke with "make <target>":'
@@ -65,7 +64,7 @@ umsg:
 #	@scp $^ $(stage):/cdlib/apache/htdocs/services/uc3/ 
 
 commit:
-	hg commit -m 'new NAAN entries'
+	hg commit -m 'probably new NAAN entries'
 
 # Private stuff
 #
@@ -193,22 +192,24 @@ naan_redirects.txt: naan_registry.txt
 			$^ > $@
 
 # xxx some dumb bug keeps wiping out the diffs.txt, so we save a dated version
+# xxx previous.announce is, for now, an aid for creating diffs manually
 diffs.txt: master_naans
-	@hg diff -U 1 $^ > $@
+	hg diff -U 1 $^ > $@
+	@echo "See 'previous.announce' for changeset id from last announced diffs."
 	#@cp $@ $@.$(TODAY)
 
 # change 'jak' to your login if you're not 'jak'
 stage = jak@cdlib-stage.cdlib.org
 prod = jak@www.cdlib.org
 
+# xxx this is actually a kind of "publish" as much as "replicate"
 # The hg push below "replicates" any files that aren't on the dependency
 # list below, eg, forge/grandfathered .
 #
 replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
-	@hg id > previous.announce
-	@echo "$(stage) "
+	@echo "Publising to $(stage) "
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
-	@echo "$(prod) "
+	@echo "Publising to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
 	hg push
 
