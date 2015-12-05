@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.12.03
+when:	2015.12.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3856,6 +3856,15 @@ where:	eaei.lbl.gov
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid lbnl-eaei
+
+naa:
+who:	Université de Haute-Alsace (=) UHA
+what:	35228
+when:	2015.12.05
+where:	http://www.scd.uha.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

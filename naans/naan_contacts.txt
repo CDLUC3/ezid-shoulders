@@ -440,6 +440,7 @@ contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
 contact: eziduserid uva-minorl
 contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
 contact: eziduserid lbnl-eaei
+contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

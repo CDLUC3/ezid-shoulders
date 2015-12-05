@@ -387,6 +387,7 @@
 88430	UVA Minor Lab (=) MINORLAB
 48223	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 88431	Energy Analysis and Environmental Impacts (=) EAEI
+35228	Université de Haute-Alsace (=) UHA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

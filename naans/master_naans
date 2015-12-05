@@ -3857,6 +3857,15 @@ how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid lbnl-eaei
 
+naa:
+who:	Université de Haute-Alsace (=) UHA
+what:	35228
+when:	2015.12.05
+where:	http://www.scd.uha.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125
