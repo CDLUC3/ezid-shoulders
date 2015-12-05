@@ -3848,6 +3848,15 @@ how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
 
+naa:
+who:    Energy Analysis and Environmental Impacts (=) EAEI
+what:   88431
+when:   2015.12.05
+where:	eaei.lbl.gov
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid lbnl-eaei
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125

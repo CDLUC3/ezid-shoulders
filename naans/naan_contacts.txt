@@ -439,6 +439,7 @@ contact: eziduserid galterlibrary
 contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
 contact: eziduserid uva-minorl
 contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
+contact: eziduserid lbnl-eaei
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
