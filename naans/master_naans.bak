@@ -3866,6 +3866,33 @@ how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 
+naa:
+who:    Univ Chicago Materials Data Facility (=) MDF
+what:   88126
+when:   2015.12.08
+where:	www.materialsdatafacility.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid mdf
+
+naa:
+who:    Southern California Ocean Observing System (=) SCCOOS
+what:   88436
+when:   2015.12.09
+where:	sccoos.org
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_sccoos
+
+naa:
+who:    Coastal Data Information Program (=) CDIP
+what:   88437
+when:   2015.12.09
+where:	cdip.ucsd.edu
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_cdip
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125
@@ -3874,15 +3901,6 @@ how:	NP | (:unkn) unknown | 2015 |
 #!how:	NP | (:unkn) unknown | 2015 |
 #!!why:   EZID ARK
 #!!contact: eziduserid datactr3
-
-#!naa:
-#!who:    Temporary Name: Data Center 4 (=) DATACTR4
-#!what:   88126
-#!when:   2015.09.10
-#!where:	http://datactr4.example.org
-#!how:	NP | (:unkn) unknown | 2015 |
-#!!why:   EZID ARK
-#!!contact: eziduserid datactr4
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
