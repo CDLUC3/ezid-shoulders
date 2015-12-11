@@ -172,7 +172,7 @@
 87907	California Institute of Technology (=) CALTECH
 77908	Broad Institute of MIT and Harvard (=) BROAD
 87909	CalTech Seismological Laboratory (=) SEISMOLAB
-87910	Harvard University (=) HARVARD
+87910	Databrary (=) DATABRARY
 87912	Indiana University Purdue University Indianapolis (=) IUPUI
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 87913	UW eScience Institute (=) UWESCIENCE
@@ -391,6 +391,7 @@
 88126	Univ Chicago Materials Data Facility (=) MDF
 88436	Southern California Ocean Observing System (=) SCCOOS
 88437	Coastal Data Information Program (=) CDIP
+88434	National Institute of Standards and Technology (=) NIST
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

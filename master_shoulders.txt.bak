@@ -50,7 +50,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.18436 10.18437 10.18438 10.18439 
+# 10.18437 10.18438 10.18439 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -67,7 +67,64 @@
 # Iterate: change digit until first shoulder that doesn't exist -> Done
 # ZZZ AVOID digits 0 and 1 in shoulders!
 # make_ezacct purdue 10.18432 m2 "" m3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18435 b5 "" - < ezaccts/newacct > out
+# make_ezacct cdl 10.18436 s6 "" s3 < ezaccts/newacct > out
+# make_ezacct cdl 10.18437 c7 "" c3 < ezaccts/newacct > out
+# make_ezacct cdl 10.18438 b8 - - < ezaccts/newacct > out
+
+:: doi:10.18438/B8
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta EBLIP Journal
+date: 2015.12.10
+minter: https://n2t.net/a/ezid/m/ark/c8438/b8
+datacenter: CDL.EBLIPJOU
+crossref: true
+
+:: doi:10.6086/D1
+type: shoulder
+manager: ezid
+#eziduser: ucrlibrary
+name: UC Riverside DASH
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/b6086/d1
+datacenter: CDL.UCR
+
+# Coastal Data Information Program
+:: ark:/88437/c3
+type: shoulder
+manager: ezid
+#eziduser: ucsd_cdip
+name: UCSD CDIP
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/88437/c3
+
+:: doi:10.18437/C7
+type: shoulder
+manager: ezid
+#eziduser: ucsd_cdip
+name: UCSD CDIP
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/c8437/c7
+datacenter: CDL.CDIP
+
+# Southern California Ocean Observing System
+:: ark:/88436/s3
+type: shoulder
+manager: ezid
+#eziduser: ucsd_sccoos
+name: UCSD SCCOOS
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/88436/s3
+
+:: doi:10.18436/S6
+type: shoulder
+manager: ezid
+#eziduser: ucsd_sccoos
+name: UCSD SCCOOS
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/c8436/s6
+datacenter: CDL.SCCOOS
 
 :: doi:10.18435/B5
 type: shoulder

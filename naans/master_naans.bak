@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.12.05
+when:	2015.12.09
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1889,13 +1889,13 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid caltech_sl
 
 naa:
-who:    Harvard University (=) HARVARD
+who:    Databrary (=) DATABRARY
 what:   87910
-when:   2013.04.30
-where:  http://www.harvard.edu
-how:    NP | (:unkn) unknown | 2013 |
+when:   2015.05.14
+where:  https://www.databrary.org
+how:    NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
-!contact: eziduserid hdataverse
+!contact: eziduserid nyu_databrary
 
 naa:
 who:    Indiana University Purdue University Indianapolis (=) IUPUI
@@ -3892,6 +3892,15 @@ where:	cdip.ucsd.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid ucsd_cdip
+
+naa:
+who:    National Institute of Standards and Technology (=) NIST
+what:   88434
+when:   2015.12.11
+where:	www.nist.gov
+how:	NP | (:unkn) unknown | 2015 |
+!why:   EZID ARK
+!contact: eziduserid nist
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

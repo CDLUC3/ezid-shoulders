@@ -50,7 +50,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.18437 10.18438 10.18439 
+# 10.18439 10.18732 10.18733 10.18734 10.18735 10.18736 10.18737 10.18738 10.18739 10.18740 10.18741 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -69,6 +69,35 @@
 # make_ezacct purdue 10.18432 m2 "" m3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18436 s6 "" s3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18437 c7 "" c3 < ezaccts/newacct > out
+# make_ezacct cdl 10.18438 b8 - - < ezaccts/newacct > out
+# make_ezacct cdl 10.18434 t4 "" t3 < ezaccts/newacct > out
+
+:: ark:/88434/t3
+type: shoulder
+manager: ezid
+#eziduser: nist
+name: National Institute of Standards and Technology
+date: 2015.12.11
+minter: https://n2t.net/a/ezid/m/ark/88434/t3
+
+:: doi:10.18434/T4
+type: shoulder
+manager: ezid
+#eziduser: nist
+name: National Institute of Standards and Technology
+date: 2015.12.11
+minter: https://n2t.net/a/ezid/m/ark/c8434/t4
+datacenter: CDL.NIST
+
+:: doi:10.18438/B8
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta EBLIP Journal
+date: 2015.12.10
+minter: https://n2t.net/a/ezid/m/ark/c8438/b8
+datacenter: CDL.EBLIPJOU
+crossref: true
 
 :: doi:10.6086/D1
 type: shoulder
@@ -2874,14 +2903,6 @@ name: Indiana University-Purdue University Indianapolis
 date: 2013.05.22
 minter: https://n2t.net/a/ezid/m/ark/b7912/c9
 datacenter: PURDUE.IUPUI
-
-:: ark:/87910/DVN1
-type: shoulder
-manager: ezid
-#eziduser: hdataverse
-name: Harvard Dataverse
-date: 2013.04.30
-minter:
 
 :: doi:10.7910/DVN
 type: shoulder

@@ -191,7 +191,7 @@ contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 
 contact: eziduserid caltech
 contact: eziduserid broad
 contact: eziduserid caltech_sl
-contact: eziduserid hdataverse
+contact: eziduserid nyu_databrary
 contact: eziduserid iupui
 contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
 contact: eziduserid uw_esci
@@ -444,6 +444,7 @@ contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 contact: eziduserid mdf
 contact: eziduserid ucsd_sccoos
 contact: eziduserid ucsd_cdip
+contact: eziduserid nist
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
