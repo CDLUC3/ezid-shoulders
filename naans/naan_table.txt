@@ -392,6 +392,7 @@
 88436	Southern California Ocean Observing System (=) SCCOOS
 88437	Coastal Data Information Program (=) CDIP
 88434	National Institute of Standards and Technology (=) NIST
+22574	Archives Départementales de la Vendée (=) ADVENDEE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

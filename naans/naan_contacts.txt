@@ -445,6 +445,7 @@ contact: eziduserid mdf
 contact: eziduserid ucsd_sccoos
 contact: eziduserid ucsd_cdip
 contact: eziduserid nist
+contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

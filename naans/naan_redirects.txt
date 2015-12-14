@@ -393,6 +393,7 @@ RedirectMatch ^/((ark:/88126)|88126/?)(.*)$ www.materialsdatafacility.org/$2$3
 RedirectMatch ^/((ark:/88436)|88436/?)(.*)$ sccoos.org/$2$3
 RedirectMatch ^/((ark:/88437)|88437/?)(.*)$ cdip.ucsd.edu/$2$3
 RedirectMatch ^/((ark:/88434)|88434/?)(.*)$ www.nist.gov/$2$3
+RedirectMatch ^/((ark:/22574)|22574/?)(.*)$ http://www.vendee.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

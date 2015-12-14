@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.12.11
+when:	2015.12.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3901,6 +3901,15 @@ where:	www.nist.gov
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid nist
+
+naa:
+who:	Archives Départementales de la Vendée (=) ADVENDEE
+what:	22574
+when:	2015.12.14
+where:	http://www.vendee.fr
+how:	NP | (:unkn) unknown | 2015 |
+!why:	ARK
+!contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
