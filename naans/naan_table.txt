@@ -394,6 +394,7 @@
 88434	National Institute of Standards and Technology (=) NIST
 22574	Archives Départementales de la Vendée (=) ADVENDEE
 88439	Open Geospatial Consortium (=) OGC
+83791	Archives municipales de Saumur (=) AMSAUMUR
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

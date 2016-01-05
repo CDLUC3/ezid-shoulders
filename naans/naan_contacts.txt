@@ -447,6 +447,8 @@ contact: eziduserid ucsd_cdip
 contact: eziduserid nist
 contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
 contact: eziduserid ogc
+contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
+contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

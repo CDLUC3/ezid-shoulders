@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2015.12.14
+when:	2015.12.17
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3919,6 +3919,16 @@ where:	www.opengeospatial.org
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid ogc
+
+naa:
+who:	Archives municipales de Saumur (=) AMSAUMUR
+what:	83791
+when:	2016.01.05
+where:	http://archives.ville-saumur.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
+!contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
