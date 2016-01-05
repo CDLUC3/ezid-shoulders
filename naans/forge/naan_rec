@@ -75,6 +75,10 @@ if ("$phone" == "")   set phone = Phone
 echo "Append this line to the 'grandfathered' file:"
 printf "${id}: %-9s $date   # $institution\n" $acro
 
+echo
+echo "Finally, do"
+echo "    (cd ~n2t/shoulders/naans; make all)"
+
 echo "\
 naa:\
 who:	$institution (=) $acro\
