@@ -3930,6 +3930,15 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
+naa:
+who:	Bibliothèque nationale de Luxembourg (=) National Library of Luxembourg (=) BNL
+what:	70795
+when:	2016.01.09
+where:	http://bnl.etat.lu
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu | Phone
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125
