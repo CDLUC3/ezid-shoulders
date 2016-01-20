@@ -330,8 +330,8 @@ b7927  # Center for International Earth Science Information Network
 b7928  # UC Berkeley Research IT
 87929: ISSDA     2013.11.05   # Irish Social Science Data Archive (xxx)
 b7929  # Irish Social Science Data Archive
-87930: USGCRP    2013.11.08   # U.S. Global Change Research Program/UCAR (xxx)
-b7930  # US Global Change Research Program/UCAR
+87930: USGCRP    2013.11.08   # U.S. Global Change Research Program (xxx)
+b7930  # US Global Change Research Program
 37279: AD3       2013.11.08   # Archives Départementales de l'Hérault
 24625: AMORLEANS 2013.11.08   # Archives municipales d'Orléans
 11629: UNCR      2013.11.08   # Universidad Nacional de Costa Rica
@@ -634,7 +634,8 @@ c3012  # University of Illinois Libraries
 10.18439  # Open Geospatial Consortium
 83791: AMSAUMUR  2016.01.05   # Archives municipales de Saumur
 70795: BNL       2016.01.09   # Bibliothèque nationale de Luxembourg
-
+88734: LBNLJCAP/CSD 2016.01.19   # Joint Center for Artificial Photosynthesis in Chemical Sciences Division (xxx)
+10.18734  # Joint Center for Artificial Photosynthesis in Chemical Sciences Division
 
 
 

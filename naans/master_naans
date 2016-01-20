@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.01.09
+when:	2016.01.19
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2189,7 +2189,7 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid issda
 
 naa:
-who:    US Global Change Research Program/UCAR (=) USGCRP
+who:    US Global Change Research Program (=) USGCRP
 what:   87930
 when:   2013.11.08
 where:  http://globalchange.gov
@@ -3938,6 +3938,15 @@ where:	http://bnl.etat.lu
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu | Phone
+
+naa:
+who:    Joint Center for Artificial Photosynthesis in Chemical Sciences Division (=) LBNLJCAP
+what:   88734
+when:   2016.01.19
+where:	solarfuelshub.org
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid lbnl-jcap
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
