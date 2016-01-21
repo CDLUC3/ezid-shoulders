@@ -451,6 +451,8 @@ contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu | Phone
 contact: eziduserid lbnl-jcap
+contact: eziduserid biocaddie
+contact: Le Monnier, Olivier ||| olivier.lemonnier |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

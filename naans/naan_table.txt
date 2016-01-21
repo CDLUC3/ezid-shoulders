@@ -397,6 +397,8 @@
 83791	Archives municipales de Saumur (=) AMSAUMUR
 70795	Bibliothèque nationale de Luxembourg (=) National Library of Luxembourg (=) BNL
 88734	Joint Center for Artificial Photosynthesis in Chemical Sciences Division (=) LBNLJCAP
+57799	bioCADDIE (=) BIOCADDIE
+44804	Université de Caen Normandie (=) UCN
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

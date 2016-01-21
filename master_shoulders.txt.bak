@@ -85,7 +85,7 @@
 type: shoulder
 manager: ezid
 #eziduser: lbnl-jcap
-name: Joint Center for Artificial Photosynthesis in Chemical Sciences Division
+name: LBNL JCAP/CSD
 date: 2016.01.19
 minter: https://n2t.net/a/ezid/m/ark/88734/p3
 
@@ -93,7 +93,7 @@ minter: https://n2t.net/a/ezid/m/ark/88734/p3
 type: shoulder
 manager: ezid
 #eziduser: lbnl-jcap
-name: Joint Center for Artificial Photosynthesis in Chemical Sciences Division
+name: LBNL JCAP/CSD
 date: 2016.01.19
 minter: https://n2t.net/a/ezid/m/ark/c8734/p4
 datacenter: CDL.LBNLJCAP

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.01.19
+when:	2016.01.21
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3947,6 +3947,24 @@ where:	solarfuelshub.org
 how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid lbnl-jcap
+
+naa:
+who:    bioCADDIE (=) BIOCADDIE
+what:   57799
+when:   2016.01.20
+where:	http://biocaddie.org
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK only
+!contact: eziduserid biocaddie
+
+naa:
+who:	Université de Caen Normandie (=) UCN
+what:	44804
+when:	2016.01.21
+where:	http://www.unicaen.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Le Monnier, Olivier ||| olivier.lemonnier |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

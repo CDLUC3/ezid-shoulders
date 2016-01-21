@@ -24,6 +24,11 @@ with the -d {ALLOCATOR_PASSWORD} option.
 
  ./validate-shoulders master_shoulders.txt -m "ezid:$(wegnpw ezid)" -d "$(wegnpw cdladmin)" doi:10.1234/BAR
 
++++
++++ BETTER: valsh ark:/12345/foo doi:10.1234/BAR
++++     OR: valsh -p ark:/12345/foo doi:10.1234/BAR
++++
+
 5. Install new shoulder file.  This will place the previously-installed
 shoulder file in master_shoulders.txt.bak in this directory.
 
