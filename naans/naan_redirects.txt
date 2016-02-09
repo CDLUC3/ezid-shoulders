@@ -401,6 +401,7 @@ RedirectMatch ^/((ark:/88734)|88734/?)(.*)$ solarfuelshub.org/$2$3
 RedirectMatch ^/((ark:/57799)|57799/?)(.*)$ http://biocaddie.org/$2$3
 RedirectMatch ^/((ark:/44804)|44804/?)(.*)$ http://www.unicaen.fr/$2$3
 RedirectMatch ^/((ark:/88735)|88735/?)(.*)$ http://simtk.org/$2$3
+RedirectMatch ^/((ark:/88736)|88736/?)(.*)$ https://library.lafayette.edu/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

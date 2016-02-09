@@ -454,6 +454,7 @@ contact: eziduserid lbnl-jcap
 contact: eziduserid biocaddie
 contact: Le Monnier, Olivier ||| olivier.lemonnier |
 contact: eziduserid simtk
+contact: eziduserid lafcollib
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

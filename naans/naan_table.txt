@@ -400,6 +400,7 @@
 57799	bioCADDIE (=) BIOCADDIE
 44804	Université de Caen Normandie (=) UCN
 88735	SimTK (=) SIMTK
+88736	Lafayette College Library (=) LAFCOLLIB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

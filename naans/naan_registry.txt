@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.02.08
+when:	2016.02.09
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3095,6 +3095,13 @@ who:    SimTK (=) SIMTK
 what:   88735
 when:   2016.02.08
 where:	http://simtk.org
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    Lafayette College Library (=) LAFCOLLIB
+what:   88736
+when:   2016.02.09
+where:	https://library.lafayette.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 

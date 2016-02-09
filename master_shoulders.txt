@@ -55,7 +55,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.18736 10.18737 10.18738 10.18739 10.18740 10.18741 
+# 10.18737 10.18738 10.18739 10.18740 10.18741 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -82,6 +82,33 @@
 # make_ezacct cdl 10.18734 p4 "" p3 < ezaccts/newacct > out
 # make_ezacct cdl - "" 57799 b9 < ezaccts/newacct > out
 # make_ezacct cdl 10.18735 s5 "" s3 < ezaccts/newacct > out
+# make_ezacct cdl 10.18736 c6 "" c3 < ezaccts/newacct > out
+
+:: ark:/88736/c3
+type: shoulder
+manager: ezid
+#eziduser: lafcollib
+name: Lafayette College Libr
+date: 2016.02.09
+minter: https://n2t.net/a/ezid/m/ark/88736/c3
+
+:: doi:10.18736/C6
+type: shoulder
+manager: ezid
+#eziduser: lafcollib
+name: Lafayette College Libr
+date: 2016.02.09
+minter: https://n2t.net/a/ezid/m/ark/c8736/c6
+datacenter: CDL.LAFCOLLI
+
+:: doi:10.6071/Z7
+type: shoulder
+manager: ezid
+#eziduser: ucmlibrary
+name: UCM SSCZO
+date: 2016.02.08
+minter: https://n2t.net/a/ezid/m/ark/b6071/z7
+datacenter: CDL.UCM
 
 :: ark:/88735/s3
 type: shoulder
