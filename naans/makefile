@@ -87,6 +87,12 @@ mn.asc: master_naans
 naan_emails.txt: naan_contacts.txt
 	@perl -lne '/([^@ ]+@[^ ]+)/ and print $$1;' $^ > $@
 
+naan_ezid_date.txt: master_naans
+	@perl -000 -n \
+		-e '/^!why:\s*(.*)/m and print "$$1\t";' \
+		-e '/who:\s*(.*)\s*what:\s*(\d+)\s*when:\s*(.*)/ and ' \
+		-e	'print "$$3\t$$2\t$$1\n";' $^ > $@
+
 # Public stuff
 #
 # Create naan_registry.txt, public base used for most other derivatives.

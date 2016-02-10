@@ -84,6 +84,14 @@
 # make_ezacct cdl 10.18735 s5 "" s3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18736 c6 "" c3 < ezaccts/newacct > out
 
+:: ark:/28722/h2
+type: shoulder
+manager: ezid
+#eziduser: ucberkeley
+name: UC Berkeley Library – HathiTrust/UCB
+date: 2016.02.10
+minter: https://n2t.net/a/ezid/m/ark/28722/h2
+
 :: ark:/88736/c3
 type: shoulder
 manager: ezid
@@ -4709,3 +4717,1102 @@ manager: other
 name: EZID binder ids
 minter:
 
+:: datacite:CDL.AAS
+type: datacenter
+manager: ezid
+name: American Astronomical Society
+
+:: datacite:CDL.AEP
+type: datacenter
+manager: ezid
+name: Antarctic Environments Portal
+
+:: datacite:CDL.ARIJOURN
+type: datacenter
+manager: ezid
+name: UAlberta ARI Journal
+
+:: datacite:CDL.AUL
+type: datacenter
+manager: ezid
+name: American University Library
+
+:: datacite:CDL.BAER
+type: datacenter
+manager: ezid
+name: Bay Area Environmental Research (BAER) Institute
+
+:: datacite:CDL.BENCHFLY
+type: datacenter
+manager: ezid
+name: BenchFly
+
+:: datacite:CDL.BIOCODE
+type: datacenter
+manager: ezid
+name: Biocode Commons
+
+:: datacite:CDL.BOISESTA
+type: datacenter
+manager: ezid
+name: Boise State University
+
+:: datacite:CDL.BROAD
+type: datacenter
+manager: ezid
+name: Broad Institute of MIT and Harvard
+
+:: datacite:CDL.BSL
+type: datacenter
+manager: ezid
+name: Berkeley Seismological Laboratory
+
+:: datacite:CDL.BUL
+type: datacenter
+manager: ezid
+name: Brown University Library
+
+:: datacite:CDL.CALTECH
+type: datacenter
+manager: ezid
+name: California Institute of Technology (Caltech)
+
+:: datacite:CDL.CAMS
+type: datacenter
+manager: ezid
+name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
+
+:: datacite:CDL.CCHDO
+type: datacenter
+manager: ezid
+name: CLIVAR and Carbon Hydrographic Data Office
+
+:: datacite:CDL.CDIP
+type: datacenter
+manager: ezid
+name: UCSD CDIP
+
+:: datacite:CDL.CDL
+type: datacenter
+manager: ezid
+name: California Digital Library
+
+:: datacite:CDL.CIESIN
+type: datacenter
+manager: ezid
+name: Center for International Earth Science Information Network (CIESIN)
+
+:: datacite:CDL.CIN
+type: datacenter
+manager: ezid
+name: University of Cincinnati Libraries
+
+:: datacite:CDL.CISER
+type: datacenter
+manager: ezid
+name: Cornell Institute for Social and Economic Research (CISER)
+
+:: datacite:CDL.CMMAP
+type: datacenter
+manager: ezid
+name: Center for Multiscale Modeling of Atmospheric Processes
+
+:: datacite:CDL.CMU
+type: datacenter
+manager: ezid
+name: Carnegie Mellon University Libraries
+
+:: datacite:CDL.CNS
+type: datacenter
+manager: ezid
+name: Center for Nanotechnology in Society
+
+:: datacite:CDL.COS
+type: datacenter
+manager: ezid
+name: Center for Open Science
+
+:: datacite:CDL.CPIJOURN
+type: datacenter
+manager: ezid
+name: UAlberta CPI Journal
+
+:: datacite:CDL.CRAWDAD
+type: datacenter
+manager: ezid
+name: CRAWDAD
+
+:: datacite:CDL.CRBS
+type: datacenter
+manager: ezid
+name: Center for Research in Biological Systems
+
+:: datacite:CDL.CRCL
+type: datacenter
+manager: ezid
+name: Center for Research in Computational Linguistics
+
+:: datacite:CDL.CUL
+type: datacenter
+manager: ezid
+name: Cornell University Library
+
+:: datacite:CDL.CULIS
+type: datacenter
+manager: ezid
+name: Columbia University Libraries/Information Services (CUL/IS)
+
+:: datacite:CDL.D3R
+type: datacenter
+manager: ezid
+name: Drug Design Data (D3R) Resource
+
+:: datacite:CDL.DARTLIB
+type: datacenter
+manager: ezid
+name: Dartmouth College Library
+
+:: datacite:CDL.DATABRAR
+type: datacenter
+manager: ezid
+name: Databrary
+
+:: datacite:CDL.DATACTR3
+type: datacenter
+manager: ezid
+name: Temporary Name: Data Center 3
+
+:: datacite:CDL.DATAMARE
+type: datacenter
+manager: ezid
+name: DataMares
+
+:: datacite:CDL.DATAVERS
+type: datacenter
+manager: ezid
+name: Harvard Dataverse
+
+:: datacite:CDL.DBMICLD
+type: datacenter
+manager: ezid
+name: UC San Diego Department of Biomedical Informatics
+
+:: datacite:CDL.DIGANT
+type: datacenter
+manager: ezid
+name: Digital Antiquity
+
+:: datacite:CDL.DIGSCI
+type: datacenter
+manager: ezid
+name: Digital Science
+
+:: datacite:CDL.DPLANET
+type: datacenter
+manager: ezid
+name: Data-Planet
+
+:: datacite:CDL.DRXLDATA
+type: datacenter
+manager: ezid
+name: Drexel University Libraries
+
+:: datacite:CDL.DRYAD
+type: datacenter
+manager: ezid
+name: Dryad
+
+:: datacite:CDL.DUL
+type: datacenter
+manager: ezid
+name: Duke University
+
+:: datacite:CDL.EAEI
+type: datacenter
+manager: ezid
+name: Energy Analysis and Environmental Impacts
+
+:: datacite:CDL.EARTHREF
+type: datacenter
+manager: ezid
+name: EarthRef
+
+:: datacite:CDL.EBLIPJOU
+type: datacenter
+manager: ezid
+name: UAlberta EBLIP Journal
+
+:: datacite:CDL.EIX
+type: datacenter
+manager: ezid
+name: Entrepreneur & Innovation Exchange
+
+:: datacite:CDL.ELRAP
+type: datacenter
+manager: ezid
+name: Edom Lowlands Regional Archaeology Project
+
+:: datacite:CDL.ESCHOL
+type: datacenter
+manager: ezid
+name: eScholarship
+
+:: datacite:CDL.ESIP
+type: datacenter
+manager: ezid
+name: Federation of Earth Science Information Partners (ESIP) Commons
+
+:: datacite:CDL.FACEBASE
+type: datacenter
+manager: ezid
+name: Facebase Consortium
+
+:: datacite:CDL.FDSN
+type: datacenter
+manager: ezid
+name: International Federation of Digital Seismograph Networks (FDSN)
+
+:: datacite:CDL.FHCRC
+type: datacenter
+manager: ezid
+name: Fred Hutchinson Cancer Research Center
+
+:: datacite:CDL.GEER
+type: datacenter
+manager: ezid
+name: Geotechnical Extreme Events Reconnaissance
+
+:: datacite:CDL.GLOBUS
+type: datacenter
+manager: ezid
+name: Globus.org
+
+:: datacite:CDL.GMU
+type: datacenter
+manager: ezid
+name: George Mason University
+
+:: datacite:CDL.HRI
+type: datacenter
+manager: ezid
+name: Harte Research Institute
+
+:: datacite:CDL.HSSAJOUR
+type: datacenter
+manager: ezid
+name: UAlberta HSSA Journal
+
+:: datacite:CDL.ICA
+type: datacenter
+manager: ezid
+name: UTA Institute of Classical Archaeology
+
+:: datacite:CDL.ICIS
+type: datacenter
+manager: ezid
+name: International Center for Integrative Systems Inc.
+
+:: datacite:CDL.IDASHREP
+type: datacenter
+manager: ezid
+name: iDASH Repository
+
+:: datacite:CDL.IEDA
+type: datacenter
+manager: ezid
+name: Interdisciplinary Earth Data Alliance
+
+:: datacite:CDL.IPLANT
+type: datacenter
+manager: ezid
+name: iPlant Collaborative (at University of Arizona)
+
+:: datacite:CDL.IRIS
+type: datacenter
+manager: ezid
+name: Incorporated Research Institutions for Seismology
+
+:: datacite:CDL.ISRD
+type: datacenter
+manager: ezid
+name: USC ISI Informatics Systems Research Division
+
+:: datacite:CDL.ISSDA
+type: datacenter
+manager: ezid
+name: Irish Social Science Data Archive (ISSDA)
+
+:: datacite:CDL.JHU
+type: datacenter
+manager: ezid
+name: Johns Hopkins University Data Archive
+
+:: datacite:CDL.JPPSJOUR
+type: datacenter
+manager: ezid
+name: UAlberta JPPS Journal
+
+:: datacite:CDL.LABARCH
+type: datacenter
+manager: ezid
+name: LabArchives
+
+:: datacite:CDL.LAFCOLLI
+type: datacenter
+manager: ezid
+name: Lafayette College Library
+
+:: datacite:CDL.LALEUMBC
+type: datacenter
+manager: ezid
+name: Laboratory for Anthropogenic Landscape Ecology
+
+:: datacite:CDL.LBNL
+type: datacenter
+manager: ezid
+name: Lawrence Berkeley National Laboratory
+
+:: datacite:CDL.LBNLJCAP
+type: datacenter
+manager: ezid
+name: Joint Center for Artificial Photosynthesis in Chemical Sciences Division
+
+:: datacite:CDL.LBNLOMSI
+type: datacenter
+manager: ezid
+name: LBNL OpenMSI
+
+:: datacite:CDL.LCC
+type: datacenter
+manager: ezid
+name: Landscape Conservation Cooperative
+
+:: datacite:CDL.LCRNZ
+type: datacenter
+manager: ezid
+name: Landcare Research New Zealand Ltd
+
+:: datacite:CDL.LIBUNC
+type: datacenter
+manager: ezid
+name: UNC Library - Resource Description and Management
+
+:: datacite:CDL.LIGO
+type: datacenter
+manager: ezid
+name: LIGO Open Science Center
+
+:: datacite:CDL.LTERNET
+type: datacenter
+manager: ezid
+name: Long Term Ecological Research (LTER) Network
+
+:: datacite:CDL.LUCKLAB
+type: datacenter
+manager: ezid
+name: Laboratory for Basic and Translational Cognitive Neuroscience
+
+:: datacite:CDL.MBFBIO
+type: datacenter
+manager: ezid
+name: MBF Bioscience
+
+:: datacite:CDL.MDY
+type: datacenter
+manager: ezid
+name: Middlebury College
+
+:: datacite:CDL.MINORLAB
+type: datacenter
+manager: ezid
+name: UVA Minor Lab
+
+:: datacite:CDL.MITLCP
+type: datacenter
+manager: ezid
+name: MIT Laboratory of Computational Physiology
+
+:: datacite:CDL.MLA
+type: datacenter
+manager: ezid
+name: Modern Language Association
+
+:: datacite:CDL.MORPHOBA
+type: datacenter
+manager: ezid
+name: MorphoBank
+
+:: datacite:CDL.MORPHOSO
+type: datacenter
+manager: ezid
+name: Morphosource Project
+
+:: datacite:CDL.MSU
+type: datacenter
+manager: ezid
+name: Montana State University
+
+:: datacite:CDL.NASAGSFC
+type: datacenter
+manager: ezid
+name: NASA Goddard Space Flight Center (GSFC)
+
+:: datacite:CDL.NCAR
+type: datacenter
+manager: ezid
+name: National Center for Atmospheric Research (NCAR)
+
+:: datacite:CDL.NCCS
+type: datacenter
+manager: ezid
+name: NASA Center for Climate Simulation (NCCS)
+
+:: datacite:CDL.NCEAS
+type: datacenter
+manager: ezid
+name: National Center for Ecological Analysis and Synthesis (NCEAS)
+
+:: datacite:CDL.NIST
+type: datacenter
+manager: ezid
+name: National Institute of Standards and Technology
+
+:: datacite:CDL.NKN
+type: datacenter
+manager: ezid
+name: Northwest Knowledge Network (NKN)
+
+:: datacite:CDL.NOAA
+type: datacenter
+manager: ezid
+name: US National Oceanic and Atmospheric Administration (NOAA)
+
+:: datacite:CDL.NOAA-GMD
+type: datacenter
+manager: ezid
+name: NOAA Global Monitoring Division
+
+:: datacite:CDL.NSIDC
+type: datacenter
+manager: ezid
+name: National Snow & Ice Data Center (NSIDC)
+
+:: datacite:CDL.NUIGAL
+type: datacenter
+manager: ezid
+name: National University of Ireland, Galway
+
+:: datacite:CDL.NYU
+type: datacenter
+manager: ezid
+name: New York University Libraries (on behalf of New York University)
+
+:: datacite:CDL.OCONTEXT
+type: datacenter
+manager: ezid
+name: Open Context
+
+:: datacite:CDL.ODUMUNC
+type: datacenter
+manager: ezid
+name: Odum Institute for Research in Social Science
+
+:: datacite:CDL.OGC
+type: datacenter
+manager: ezid
+name: Open Geospatial Consortium
+
+:: datacite:CDL.OHSU
+type: datacenter
+manager: ezid
+name: Oregon Health & Science University
+
+:: datacite:CDL.ONELAB
+type: datacenter
+manager: ezid
+name: UCSD OneLab
+
+:: datacite:CDL.OPENFMRI
+type: datacenter
+manager: ezid
+name: Openfmri
+
+:: datacite:CDL.ORNL
+type: datacenter
+manager: ezid
+name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
+
+:: datacite:CDL.OSU
+type: datacenter
+manager: ezid
+name: Oregon State University
+
+:: datacite:CDL.PEERJ
+type: datacenter
+manager: ezid
+name: PeerJ
+
+:: datacite:CDL.PGERR
+type: datacenter
+manager: ezid
+name: UTA Petroleum Engineering
+
+:: datacite:CDL.PISCO
+type: datacenter
+manager: ezid
+name: Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
+
+:: datacite:CDL.PITT
+type: datacenter
+manager: ezid
+name: University of Pittsburgh
+
+:: datacite:CDL.PQR
+type: datacenter
+manager: ezid
+name: Pitt Quantum Repository
+
+:: datacite:CDL.PUBREF
+type: datacenter
+manager: ezid
+name: PubRef.org
+
+:: datacite:CDL.QDR
+type: datacenter
+manager: ezid
+name: Consortium for Qualitative Research Methods
+
+:: datacite:CDL.R2R
+type: datacenter
+manager: ezid
+name: Rolling Deck to Repository Program
+
+:: datacite:CDL.RCIDC
+type: datacenter
+manager: ezid
+name: UCSD Research Cyberinfrastructure Data Curation
+
+:: datacite:CDL.REGENBAS
+type: datacenter
+manager: ezid
+name: Miami Project to Cure Paralysis
+
+:: datacite:CDL.RENCI
+type: datacenter
+manager: ezid
+name: RENCI (Renaissance Computing Institute)
+
+:: datacite:CDL.RUTGERS
+type: datacenter
+manager: ezid
+name: Rutgers University Library
+
+:: datacite:CDL.SAGEBIO
+type: datacenter
+manager: ezid
+name: Sage Bionetworks
+
+:: datacite:CDL.SBGEOG
+type: datacenter
+manager: ezid
+name: UCSB Climate Hazards Group, Dept of Geography
+
+:: datacite:CDL.SBGRID
+type: datacenter
+manager: ezid
+name: Harvard Medical School
+
+:: datacite:CDL.SCCOOS
+type: datacenter
+manager: ezid
+name: UCSD SCCOOS
+
+:: datacite:CDL.SDSCOT
+type: datacenter
+manager: ezid
+name: OpenTopography Facility
+
+:: datacite:CDL.SDSCSG
+type: datacenter
+manager: ezid
+name: UCSD Signaling Gateway
+
+:: datacite:CDL.SEISMOLA
+type: datacenter
+manager: ezid
+name: Caltech Seismological Laboratory
+
+:: datacite:CDL.SEU
+type: datacenter
+manager: ezid
+name: Saint Edward's University
+
+:: datacite:CDL.SIMTK
+type: datacenter
+manager: ezid
+name: SimTK
+
+:: datacite:CDL.STSCI
+type: datacenter
+manager: ezid
+name: Space Telescope Science Institute
+
+:: datacite:CDL.TACC
+type: datacenter
+manager: ezid
+name: Texas Advanced Computing Center
+
+:: datacite:CDL.TCIA
+type: datacenter
+manager: ezid
+name: The Cancer Imaging Archive
+
+:: datacite:CDL.UAL
+type: datacenter
+manager: ezid
+name: University of Alberta Libraries
+
+:: datacite:CDL.UCB
+type: datacenter
+manager: ezid
+name: UC Berkeley
+
+:: datacite:CDL.UCBCRCNS
+type: datacenter
+manager: ezid
+name: Collaborative Research in Computational Neuroscience (CRCNS)
+
+:: datacite:CDL.UCBITS
+type: datacenter
+manager: ezid
+name: UC Berkeley Institute of Transportation Studies (ITS)
+
+:: datacite:CDL.UCBLAWLB
+type: datacenter
+manager: ezid
+name: Berkeley Law Library
+
+:: datacite:CDL.UCBLING
+type: datacenter
+manager: ezid
+name: UC Berkeley Department of Linguistics
+
+:: datacite:CDL.UCBMVZ
+type: datacenter
+manager: ezid
+name: UC Berkeley Museum of Vertebrate Zoology
+
+:: datacite:CDL.UCBRIT
+type: datacenter
+manager: ezid
+name: UC Berkeley Research IT
+
+:: datacite:CDL.UCD-SSDS
+type: datacenter
+manager: ezid
+name: UC Davis, Social Science Data Service
+
+:: datacite:CDL.UCDAVIS
+type: datacenter
+manager: ezid
+name: University of California, Davis, University Library
+
+:: datacite:CDL.UCDIRL
+type: datacenter
+manager: ezid
+name: University College Dublin
+
+:: datacite:CDL.UCI
+type: datacenter
+manager: ezid
+name: UC Irvine Library
+
+:: datacite:CDL.UCLA
+type: datacenter
+manager: ezid
+name: UCLA
+
+:: datacite:CDL.UCLAEEB
+type: datacenter
+manager: ezid
+name: UCLA Department of Ecology and Evolutionary Biology
+
+:: datacite:CDL.UCM
+type: datacenter
+manager: ezid
+name: UC Merced
+
+:: datacite:CDL.UCR
+type: datacenter
+manager: ezid
+name: UC Riverside
+
+:: datacite:CDL.UCRBCOE
+type: datacenter
+manager: ezid
+name: UC Riverside Bourns College of Engineering
+
+:: datacite:CDL.UCSB
+type: datacenter
+manager: ezid
+name: UCSB
+
+:: datacite:CDL.UCSBAGL
+type: datacenter
+manager: ezid
+name: UCSB Advanced Graphics Lab
+
+:: datacite:CDL.UCSC
+type: datacenter
+manager: ezid
+name: UCSC
+
+:: datacite:CDL.UCSD
+type: datacenter
+manager: ezid
+name: UCSD
+
+:: datacite:CDL.UCSDBIO
+type: datacenter
+manager: ezid
+name: UCSD Nieh Lab
+
+:: datacite:CDL.UCSDCCA
+type: datacenter
+manager: ezid
+name: California Coastal Atlas
+
+:: datacite:CDL.UCSDOOI
+type: datacenter
+manager: ezid
+name: UCSD Ocean Observatory Initiative
+
+:: datacite:CDL.UCSDSSPP
+type: datacenter
+manager: ezid
+name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
+
+:: datacite:CDL.UCSFCTSI
+type: datacenter
+manager: ezid
+name: UCSF Clinical & Translational Science Institute (CTSI)
+
+:: datacite:CDL.UCSFLIB
+type: datacenter
+manager: ezid
+name: UCSF
+
+:: datacite:CDL.UKY
+type: datacenter
+manager: ezid
+name: University of Kentucky Libraries
+
+:: datacite:CDL.UMA
+type: datacenter
+manager: ezid
+name: UMass Amherst
+
+:: datacite:CDL.UMIAMI
+type: datacenter
+manager: ezid
+name: University of Miami Libraries
+
+:: datacite:CDL.UMMSCAND
+type: datacenter
+manager: ezid
+name: UMass Medical School-CANDI
+
+:: datacite:CDL.UMWLSL
+type: datacenter
+manager: ezid
+name: University of Massachusetts Medical School
+
+:: datacite:CDL.UNAVCO
+type: datacenter
+manager: ezid
+name: UNAVCO
+
+:: datacite:CDL.UNMLIB
+type: datacenter
+manager: ezid
+name: University of New Mexico Libraries
+
+:: datacite:CDL.UOA
+type: datacenter
+manager: ezid
+name: University of Auckland
+
+:: datacite:CDL.UOREGON
+type: datacenter
+manager: ezid
+name: University of Oregon
+
+:: datacite:CDL.USFWS
+type: datacenter
+manager: ezid
+name: U.S. Fish and Wildlife Service
+
+:: datacite:CDL.USGCRP
+type: datacenter
+manager: ezid
+name: U.S. Global Change Research Program/UCAR
+
+:: datacite:CDL.USGS
+type: datacenter
+manager: ezid
+name: USGS Core Science Analytics and Synthesis (CSAS)
+
+:: datacite:CDL.USU
+type: datacenter
+manager: ezid
+name: Utah State University Merrill-Cazier Library
+
+:: datacite:CDL.UTAUSTIN
+type: datacenter
+manager: ezid
+name: University of Texas at Austin
+
+:: datacite:CDL.UTENN
+type: datacenter
+manager: ezid
+name: University of Tennessee
+
+:: datacite:CDL.UUTAH
+type: datacenter
+manager: ezid
+name: University of Utah
+
+:: datacite:CDL.UVA
+type: datacenter
+manager: ezid
+name: University of Virginia
+
+:: datacite:CDL.UWCIG
+type: datacenter
+manager: ezid
+name: University of Washington College of the Environment Climate Impacts Group (CIG)
+
+:: datacite:CDL.UWCSDE
+type: datacenter
+manager: ezid
+name: University of Washington Center for Studies in Demography and Ecology
+
+:: datacite:CDL.UWESCI
+type: datacenter
+manager: ezid
+name: University of Washington eScience Institute
+
+:: datacite:CDL.UWISOLAB
+type: datacenter
+manager: ezid
+name: University of Washington IsoLab
+
+:: datacite:CDL.UWL
+type: datacenter
+manager: ezid
+name: University of Washington
+
+:: datacite:CDL.UWYO
+type: datacenter
+manager: ezid
+name: University of Wyoming Libraries
+
+:: datacite:CDL.VAMPJOUR
+type: datacenter
+manager: ezid
+name: UAlberta VAMP Journal
+
+:: datacite:CDL.VTLIB
+type: datacenter
+manager: ezid
+name: Virginia Tech University Libraries
+
+:: datacite:CDL.VTTI
+type: datacenter
+manager: ezid
+name: Virginia Tech Transportation Institute
+
+:: datacite:CDL.WORMBASE
+type: datacenter
+manager: ezid
+name: Caltech Biology
+
+:: datacite:CDL.WRITPRO
+type: datacenter
+manager: ezid
+name: UCSB Writing Program
+
+:: datacite:CDL.WSU
+type: datacenter
+manager: ezid
+name: Washington State University
+
+:: datacite:CDL.WUSTL
+type: datacenter
+manager: ezid
+name: Washington University in St. Louis
+
+:: datacite:PURDUE.ACSESS
+type: datacenter
+manager: ezid
+name: Alliance for Crops, Soils, and Environmental Science Societies
+
+:: datacite:PURDUE.ARTLAS
+type: datacenter
+manager: ezid
+name: ARTLAS/Purdue University
+
+:: datacite:PURDUE.CCC
+type: datacenter
+manager: ezid
+name: Chicago Collections Consortium
+
+:: datacite:PURDUE.DATACTR5
+type: datacenter
+manager: ezid
+name: Temporary Name: Data Center 5
+
+:: datacite:PURDUE.DRUM
+type: datacenter
+manager: ezid
+name: Data Repository for the University of Minnesota
+
+:: datacite:PURDUE.EZID
+type: datacenter
+manager: ezid
+name: Purdue University
+
+:: datacite:PURDUE.GHSL
+type: datacenter
+manager: ezid
+name: Galter Health Sciences Library, Northwestern University
+
+:: datacite:PURDUE.HTRC
+type: datacenter
+manager: ezid
+name: HathiTrust Research Center
+
+:: datacite:PURDUE.INTBIO
+type: datacenter
+manager: ezid
+name: Intrepid Bioinformatics
+
+:: datacite:PURDUE.IPUMS
+type: datacenter
+manager: ezid
+name: IPUMS
+
+:: datacite:PURDUE.IUCNS
+type: datacenter
+manager: ezid
+name: Indiana University Cyberinfrastructure for Network Science Center
+
+:: datacite:PURDUE.IUPUI
+type: datacenter
+manager: ezid
+name: Indiana University-Purdue University Indianapolis
+
+:: datacite:PURDUE.IUSEAD
+type: datacenter
+manager: ezid
+name: Indiana University Sustainable Environment-Actionable Data (SEAD)
+
+:: datacite:PURDUE.IUSW
+type: datacenter
+manager: ezid
+name: Indiana University IUScholarWorks
+
+:: datacite:PURDUE.MDF
+type: datacenter
+manager: ezid
+name: Univ Chicago Materials Data Facility
+
+:: datacite:PURDUE.MYGEOHUB
+type: datacenter
+manager: ezid
+name: MyGeoHub
+
+:: datacite:PURDUE.NCIB
+type: datacenter
+manager: ezid
+name: National Cancer Institute, Bioconductor
+
+:: datacite:PURDUE.NCIP
+type: datacenter
+manager: ezid
+name: National Cancer Institute, NIH
+
+:: datacite:PURDUE.NCIPH
+type: datacenter
+manager: ezid
+name: National Cancer Informatics Program Hub, NIH
+
+:: datacite:PURDUE.PSIEE
+type: datacenter
+manager: ezid
+name: Penn State Institutes of Energy and the Environment/PSU Data Commons
+
+:: datacite:PURDUE.PTI
+type: datacenter
+manager: ezid
+name: Indiana University Pervasive Technology Institute
+
+:: datacite:PURDUE.PURDUECC
+type: datacenter
+manager: ezid
+name: Purdue University CyberCenter
+
+:: datacite:PURDUE.PURPOLY
+type: datacenter
+manager: ezid
+name: Purdue Polytechnic Institute
+
+:: datacite:PURDUE.RE3DATA
+type: datacenter
+manager: ezid
+name: Registry of Research Repositories
+
+:: datacite:PURDUE.STATSRC
+type: datacenter
+manager: ezid
+name: Statistics (ResearchCompendia.org)
+
+:: datacite:PURDUE.UCHIG
+type: datacenter
+manager: ezid
+name: University of Chicago
+
+:: datacite:PURDUE.UIUCLIB
+type: datacenter
+manager: ezid
+name: University of Illinois Libraries
+
+:: datacite:PURDUE.UMBS
+type: datacenter
+manager: ezid
+name: University of Michigan Biological Station (UMBS)
+
+:: datacite:PURDUE.UMD
+type: datacenter
+manager: ezid
+name: University of Maryland Libraries
+
+:: datacite:PURDUE.UMICH
+type: datacenter
+manager: ezid
+name: University of Michigan Library
+
+:: datacite:PURDUE.UMN
+type: datacenter
+manager: ezid
+name: University of Minnesota Libraries
+
+:: datacite:PURDUE.UND
+type: datacenter
+manager: ezid
+name: University of Notre Dame
+
+:: datacite:PURDUE.UNL
+type: datacenter
+manager: ezid
+name: University of Nebraska-Lincoln Libraries
