@@ -449,12 +449,15 @@ contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
 contact: eziduserid ogc
 contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
-contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu | Phone
+contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu |
 contact: eziduserid lbnl-jcap
 contact: eziduserid biocaddie
 contact: Le Monnier, Olivier ||| olivier.lemonnier |
 contact: eziduserid simtk
 contact: eziduserid lafcollib
+contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
+contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
+contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

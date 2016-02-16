@@ -401,6 +401,9 @@
 44804	Université de Caen Normandie (=) UCN
 88735	SimTK (=) SIMTK
 88736	Lafayette College Library (=) LAFCOLLIB
+32150	Durham University Library (=) DURUL
+19154	Durham Cathedral Library (=) DURCL
+80371	Ushaw College Library (=) USHAWCL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
