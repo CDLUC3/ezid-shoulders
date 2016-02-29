@@ -405,6 +405,8 @@ RedirectMatch ^/((ark:/88736)|88736/?)(.*)$ https://library.lafayette.edu/$2$3
 RedirectMatch ^/((ark:/32150)|32150/?)(.*)$ http://n2t.durham.ac.uk/$2$3
 RedirectMatch ^/((ark:/19154)|19154/?)(.*)$ http://n2t.durham.ac.uk/$2$3
 RedirectMatch ^/((ark:/80371)|80371/?)(.*)$ http://n2t.durham.ac.uk/$2$3
+RedirectMatch ^/((ark:/88737)|88737/?)(.*)$ web.library.emory.edu/$2$3
+RedirectMatch ^/((ark:/88738)|88738/?)(.*)$ http://tdl.org/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

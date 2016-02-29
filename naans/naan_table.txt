@@ -404,6 +404,8 @@
 32150	Durham University Library (=) DURUL
 19154	Durham Cathedral Library (=) DURCL
 80371	Ushaw College Library (=) USHAWCL
+88737	Emory University (=) EMU
+88738	Texas Digital Library (=) TDL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

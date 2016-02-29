@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.02.16
+when:	2016.02.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4010,6 +4010,24 @@ where:	http://n2t.durham.ac.uk
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
+
+naa:
+who:    Emory University (=) EMU
+what:   88737
+when:   2016.02.17
+where:	web.library.emory.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid emory
+
+naa:
+who:    Texas Digital Library (=) TDL
+what:   88738
+when:   2016.02.29
+where:	http://tdl.org
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid tdl
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
