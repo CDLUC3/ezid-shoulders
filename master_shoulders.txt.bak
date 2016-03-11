@@ -55,7 +55,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.18738 10.18739 10.18740 10.18741 
+# 10.20352 10.20353 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -84,6 +84,94 @@
 # make_ezacct cdl 10.18735 s5 "" s3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18736 c6 "" c3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18737 m7 "" m3 < ezaccts/newacct > out
+# make_ezacct cdl 10.18738 t8 "" t7 < ezaccts/newacct > out
+# make_ezacct cdl 10.18739 a2 "" - < ezaccts/newacct > out
+# make_ezacct cdl 10.18740 s4 "" - < ezaccts/newacct > out
+# make_ezacct cdl 10.18741 p9 "" - < ezaccts/newacct > out
+
+:: ark:/54379/t7
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: University of Alberta Libraries
+date: 2016.03.10
+minter: https://n2t.net/a/ezid/m/ark/54379/t7
+
+:: datacite:CDL.PCOEJOUR
+type: datacenter
+manager: ezid
+name: UAlberta Journal of Professional Continuing and Online Education
+
+:: doi:10.18741/P9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Journal of Professional Continuing and Online Education
+date: 2016.03.10
+minter: https://n2t.net/a/ezid/m/ark/c8741/p9
+datacenter: CDL.PCOEJOUR
+crossref: true
+
+:: datacite:CDL.SSJOURNA
+type: datacenter
+manager: ezid
+name: UAlberta Socialist Studies Journal
+
+:: doi:10.18740/S4
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Socialist Studies Journal
+date: 2016.03.07
+minter: https://n2t.net/a/ezid/m/ark/c8740/s4
+datacenter: CDL.SSJOURNA
+crossref: true
+
+:: datacite:CDL.NSFADC
+type: datacenter
+manager: ezid
+name: NSF Arctic Data Center
+
+:: doi:10.18739/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: sb-nceas
+name: NSF Arctic Data Center
+date: 2016.03.07
+minter:
+datacenter: CDL.NSFADC
+
+:: doi:10.18739/A2
+type: shoulder
+manager: ezid
+#eziduser: sb-nceas
+name: NSF Arctic Data Center Minter
+date: 2016.03.07
+minter: https://n2t.net/a/ezid/m/ark/c8739/a2
+datacenter: CDL.NSFADC
+
+:: ark:/88738/t7
+type: shoulder
+manager: ezid
+#eziduser: tdl
+name: Texas Digital Library
+date: 2016.02.29
+minter: https://n2t.net/a/ezid/m/ark/88738/t7
+
+:: datacite:CDL.TDL
+type: datacenter
+manager: ezid
+name: Texas Digital Library
+
+:: doi:10.18738/T8
+type: shoulder
+manager: ezid
+#eziduser: tdl
+name: Texas Digital Library
+date: 2016.02.29
+minter: https://n2t.net/a/ezid/m/ark/c8738/t8
+datacenter: CDL.TDL
 
 :: ark:/88737/m3
 type: shoulder

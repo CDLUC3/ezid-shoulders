@@ -406,6 +406,7 @@
 80371	Ushaw College Library (=) USHAWCL
 88737	Emory University (=) EMU
 88738	Texas Digital Library (=) TDL
+80352	UCLA Civil and Environmental Engineering (=) UCLACEE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
