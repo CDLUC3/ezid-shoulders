@@ -55,7 +55,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20352 10.20353 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
+# 10.20353 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -74,20 +74,33 @@
 # letter from the org acronym.  (what if none?)
 # Iterate: change digit until first shoulder that doesn't exist -> Done
 # ZZZ AVOID digits 0 and 1 in shoulders!
-# make_ezacct purdue 10.18432 m2 "" m3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18436 s6 "" s3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18437 c7 "" c3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18434 t4 "" t3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18439 g9 "" g4 < ezaccts/newacct > out
-# make_ezacct cdl 10.18734 p4 "" p3 < ezaccts/newacct > out
 # make_ezacct cdl - "" 57799 b9 < ezaccts/newacct > out
-# make_ezacct cdl 10.18735 s5 "" s3 < ezaccts/newacct > out
-# make_ezacct cdl 10.18736 c6 "" c3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18737 m7 "" m3 < ezaccts/newacct > out
 # make_ezacct cdl 10.18738 t8 "" t7 < ezaccts/newacct > out
-# make_ezacct cdl 10.18739 a2 "" - < ezaccts/newacct > out
-# make_ezacct cdl 10.18740 s4 "" - < ezaccts/newacct > out
 # make_ezacct cdl 10.18741 p9 "" - < ezaccts/newacct > out
+# make_ezacct cdl 10.20352 c2 "" c5 < ezaccts/newacct > out
+
+:: ark:/80352/c5
+type: shoulder
+manager: ezid
+#eziduser: ucla_ngl
+name: UCLA Civil and Environmental Engineering
+date: 2016.03.11
+minter: https://n2t.net/a/ezid/m/ark/80352/c5
+
+:: datacite:CDL.UCLACEE
+type: datacenter
+manager: ezid
+name: UCLA Civil and Environmental Engineering
+
+:: doi:10.20352/C2
+type: shoulder
+manager: ezid
+#eziduser: ucla_ngl
+name: UCLA Civil and Environmental Engineering
+date: 2016.03.11
+minter: https://n2t.net/a/ezid/m/ark/d0352/c2
+datacenter: CDL.UCLACEE
 
 :: ark:/54379/t7
 type: shoulder
