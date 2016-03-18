@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.03.16
+when:	2016.03.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4046,6 +4046,15 @@ where:	www.ucolick.org
 how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid ucolick
+
+naa:
+who:    Berkeley Linguistics Society (=) UCBBLS
+what:   80354
+when:   2016.03.18
+where:	linguistics.berkeley.edu/bls
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid ucb-bls
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

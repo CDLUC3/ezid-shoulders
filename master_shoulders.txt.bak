@@ -55,7 +55,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20353 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
+# 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -79,6 +79,30 @@
 # make_ezacct cdl 10.18738 t8 "" t7 < ezaccts/newacct > out
 # make_ezacct cdl 10.18741 p9 "" - < ezaccts/newacct > out
 # make_ezacct cdl 10.20352 c2 "" c5 < ezaccts/newacct > out
+# make_ezacct cdl 10.20353 k3 "" k5 < ezaccts/newacct > out
+
+:: ark:/80353/k5
+type: shoulder
+manager: ezid
+#eziduser: ucolick
+name: UC Observatories
+date: 2016.03.16
+minter: https://n2t.net/a/ezid/m/ark/80353/k5
+
+:: datacite:CDL.UCOLICK
+type: datacenter
+manager: ezid
+name: UC Observatories
+
+:: doi:10.20353/K3
+type: shoulder
+manager: ezid
+#eziduser: ucolick
+name: UC Observatories
+date: 2016.03.16
+minter: https://n2t.net/a/ezid/m/ark/d0353/k3
+datacenter: CDL.UCOLICK
+crossref: true
 
 :: ark:/80352/c5
 type: shoulder
