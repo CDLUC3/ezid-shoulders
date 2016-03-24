@@ -10,7 +10,7 @@ if [ $# -ne 1 ]; then echo "usage: $0 password"; exit 1; fi
 #CLIENT=`dirname $0`/client
 #CLIENT=ezcl
 # xxx next line is a kludge until we finish the transition from python2.6
-CLIENT="python2.7 /apps/n2t/local/bin/ezcl"
+CLIENT="python2.7 /apps/n2t/local/bin/ezcl -k"
 
 METADATA="datacite.title test datacite.creator test datacite.publisher\
  test datacite.publicationyear test"

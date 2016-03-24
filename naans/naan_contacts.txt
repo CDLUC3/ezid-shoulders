@@ -463,6 +463,7 @@ contact: eziduserid tdl
 contact: eziduserid ucla_ngl
 contact: eziduserid ucolick
 contact: eziduserid ucb-bls
+contact: eziduserid umd_ascl
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

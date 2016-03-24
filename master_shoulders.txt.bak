@@ -55,7 +55,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20354 10.20355 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
+# 10.20356 10.20357 10.20358 10.20359 10.20360 10.20361
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -80,6 +80,70 @@
 # make_ezacct cdl 10.18741 p9 "" - < ezaccts/newacct > out
 # make_ezacct cdl 10.20352 c2 "" c5 < ezaccts/newacct > out
 # make_ezacct cdl 10.20353 k3 "" k5 < ezaccts/newacct > out
+# make_ezacct cdl 10.20354 b4 "" b3 < ezaccts/newacct > out
+
+# XXXXXX on creating a new data center, recyle these first
+# datacenter queue to rename/recycle: CDL.PCOEJOUR CDL.SSJOURNA CDL.CPIJOURN CDL.ARIJOURN
+#
+# xxx discontinued -- in queue to rename
+#:: datacite:CDL.PCOEJOUR
+#type: datacenter
+#manager: ezid
+#name: UAlberta Journal of Professional Continuing and Online Education
+#
+# xxx discontinued -- in queue to rename
+#:: datacite:CDL.SSJOURNA
+#type: datacenter
+#manager: ezid
+#name: UAlberta Socialist Studies Journal
+#
+# xxx discontinued -- in queue to rename
+#:: datacite:CDL.ARIJOURN
+#type: datacenter
+#manager: ezid
+#name: UAlberta ARI Journal
+#
+# xxx discontinued -- in queue to rename
+#:: datacite:CDL.CPIJOURN
+#type: datacenter
+#manager: ezid
+#name: UAlberta CPI Journal
+
+:: doi:10.20355/C5
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Journal of Contemporary Issues in Education
+date: 2016.03.22
+minter: https://n2t.net/a/ezid/m/ark/d0355/c5
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: ark:/80354/b3
+type: shoulder
+manager: ezid
+#eziduser: ucb-bls
+name: Berkeley Linguistics Society
+date: 2016.03.18
+minter: https://n2t.net/a/ezid/m/ark/80354/b3
+
+#:: datacite:CDL.UCBBLS
+#type: datacenter
+#manager: ezid
+#name: Berkeley Linguistics Society
+
+:: doi:10.20354/B4
+type: shoulder
+manager: ezid
+#eziduser: ucb-bls
+name: Berkeley Linguistics Society
+date: 2016.03.18
+minter: https://n2t.net/a/ezid/m/ark/d0354/b4
+#datacenter: CDL.UCBBLS
+datacenter: CDL.UCBLING
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/80353/k5
 type: shoulder
@@ -134,11 +198,6 @@ name: University of Alberta Libraries
 date: 2016.03.10
 minter: https://n2t.net/a/ezid/m/ark/54379/t7
 
-:: datacite:CDL.PCOEJOUR
-type: datacenter
-manager: ezid
-name: UAlberta Journal of Professional Continuing and Online Education
-
 :: doi:10.18741/P9
 type: shoulder
 manager: ezid
@@ -146,13 +205,10 @@ manager: ezid
 name: UAlberta Journal of Professional Continuing and Online Education
 date: 2016.03.10
 minter: https://n2t.net/a/ezid/m/ark/c8741/p9
-datacenter: CDL.PCOEJOUR
+#datacenter: CDL.PCOEJOUR
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
 crossref: true
-
-:: datacite:CDL.SSJOURNA
-type: datacenter
-manager: ezid
-name: UAlberta Socialist Studies Journal
 
 :: doi:10.18740/S4
 type: shoulder
@@ -161,7 +217,9 @@ manager: ezid
 name: UAlberta Socialist Studies Journal
 date: 2016.03.07
 minter: https://n2t.net/a/ezid/m/ark/c8740/s4
-datacenter: CDL.SSJOURNA
+#datacenter: CDL.SSJOURNA
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
 crossref: true
 
 :: datacite:CDL.NSFADC
@@ -343,7 +401,9 @@ manager: ezid
 name: UAlberta CPI Journal
 date: 2016.01.04
 minter: https://n2t.net/a/ezid/m/ark/c8733/c3
-datacenter: CDL.CPIJOURN
+#datacenter: CDL.CPIJOURN
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
 crossref: true
 
 :: doi:10.18732/H2
@@ -472,7 +532,9 @@ manager: ezid
 name: UAlberta ARI Journal
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/c8432/r2
-datacenter: CDL.ARIJOURN
+#datacenter: CDL.ARIJOURN
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
 crossref: true
 
 :: ark:/88126/m3
@@ -2496,6 +2558,7 @@ name: University of Alberta Libraries
 date: 2014.04.09
 minter:
 datacenter: CDL.UAL
+prefix_shares_datacenter: true
 crossref: true
 
 :: ark:/87938/m2
@@ -3408,6 +3471,7 @@ name: UC Berkeley Department of Linguistics
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/b7297/x2
 datacenter: CDL.UCBLING
+prefix_shares_datacenter: true
 
 :: ark:/87295/w8
 type: shoulder
@@ -4876,11 +4940,6 @@ type: datacenter
 manager: ezid
 name: Antarctic Environments Portal
 
-:: datacite:CDL.ARIJOURN
-type: datacenter
-manager: ezid
-name: UAlberta ARI Journal
-
 :: datacite:CDL.AUL
 type: datacenter
 manager: ezid
@@ -4980,11 +5039,6 @@ name: Center for Nanotechnology in Society
 type: datacenter
 manager: ezid
 name: Center for Open Science
-
-:: datacite:CDL.CPIJOURN
-type: datacenter
-manager: ezid
-name: UAlberta CPI Journal
 
 :: datacite:CDL.CRAWDAD
 type: datacenter
