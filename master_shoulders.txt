@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20357 10.20358 10.20359 10.20360 10.20361
+# 10.20358 10.20359 10.20360 10.20361
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -96,14 +96,10 @@
 # make_ezacct cdl 10.20354 b4 "" b3 < ezaccts/newacct > out
 # make_ezacct purdue 10.20356 c4 "" s5 < ezaccts/newacct > out
 
+# make_ezacct cdl 10.20357 d7 "" s3 < ezaccts/newacct > out
+
 # XXXXXX on creating a new data center, recyle these first
-# datacenter queue to rename/recycle: CDL.PCOEJOUR CDL.SSJOURNA CDL.CPIJOURN CDL.ARIJOURN
-#
-# xxx discontinued -- in queue to rename
-#:: datacite:CDL.PCOEJOUR
-#type: datacenter
-#manager: ezid
-#name: UAlberta Journal of Professional Continuing and Online Education
+# datacenter queue to rename/recycle: CDL.SSJOURNA CDL.CPIJOURN CDL.ARIJOURN
 #
 # xxx discontinued -- in queue to rename
 #:: datacite:CDL.SSJOURNA
@@ -122,6 +118,28 @@
 #type: datacenter
 #manager: ezid
 #name: UAlberta CPI Journal
+
+:: ark:/80357/s3
+type: shoulder
+manager: ezid
+#eziduser: 
+name: SDSU Library
+date: 2016.03.29
+minter: https://n2t.net/a/ezid/m/ark/80357/s3
+
+:: datacite:CDL.SDSULIB
+type: datacenter
+manager: ezid
+name: San Diego State University Library
+
+:: doi:10.20357/D7
+type: shoulder
+manager: ezid
+#eziduser: 
+name: SDSU Library
+date: 2016.03.29
+minter: https://n2t.net/a/ezid/m/ark/d0357/d7
+datacenter: CDL.SDSULIB
 
 :: ark:/80356/s5
 type: shoulder
@@ -327,7 +345,7 @@ crossref: true
 type: shoulder
 manager: ezid
 #eziduser: ucberkeley
-name: UC Berkeley Library – HathiTrust/UCB
+name: UC Berkeley Library - HathiTrust/UCB
 date: 2016.02.10
 minter: https://n2t.net/a/ezid/m/ark/28722/h2
 

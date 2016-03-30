@@ -160,6 +160,40 @@ def validateIdentifier (identifier):
   else:
     return None
 
+def validateShoulder (shoulder):
+  """
+  Returns True if the supplied string is a valid shoulder, which is to
+  say, if the string is a certain allowable prefix of a qualified,
+  syntactically valid identifier.
+  """
+  # Strategy: a shoulder is valid if adding a single character yields
+  # a valid identifier.
+  if shoulder.startswith("ark:/"):
+    id = shoulder[5:] + "x"
+    return validateArk(id) == id
+  elif shoulder.startswith("doi:"):
+    id = shoulder[4:] + "X"
+    return validateDoi(id) == id
+  elif shoulder == "urn:uuid:":
+    return True
+  else:
+    return False
+
+datacenterSymbolRE = re.compile(
+  "^([A-Z][-A-Z0-9]{0,6}[A-Z0-9])\.([A-Z][-A-Z0-9]{0,6}[A-Z0-9])$", re.I)
+maxDatacenterSymbolLength = 17
+
+def validateDatacenter (symbol):
+  """
+  If the supplied string (e.g., "CDL.BUL") is a valid DataCite
+  datacenter symbol, returns the canonical form of the symbol (namely,
+  uppercased).  Otherwise, returns None.
+  """
+  if datacenterSymbolRE.match(symbol) and symbol[-1] != "\n":
+    return symbol.upper()
+  else:
+    return None
+
 def _percentEncodeCdr (m):
   s = m.group(0)
   return s[0] + "".join("%%%02x" % ord(c) for c in s[1:])
@@ -374,6 +408,15 @@ def formatException (exception):
   s = oneLine(str(exception)).strip()
   if len(s) > 0: s = ": " + s
   return type(exception).__name__ + s
+
+_illegalAsciiCharsRE = re.compile("[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\xFF]")
+
+def validateAsciiSafeCharset (s):
+  """
+  Returns true if the given ASCII string contains only non-control
+  7-bit characters.
+  """
+  return _illegalAsciiCharsRE.search(s) == None
 
 # The following definitions are taken from the XML 1.1 specification.
 # The characters we consider illegal include restricted and
