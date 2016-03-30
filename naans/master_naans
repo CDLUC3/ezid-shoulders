@@ -4092,6 +4092,15 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid lbnl-cesd
 
+naa:
+who:    UTA Dolph Briscoe Center (=) BRISCOE
+what:   80359
+when:   2016.03.30
+where:	http://www.cah.utexas.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid uta_briscoe
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125

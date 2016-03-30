@@ -467,6 +467,7 @@ contact: eziduserid umd_ascl
 contact: eziduserid 
 contact: Gruttemeier, Herbert ||| Herbert.GRUTTEMEIER@inist.fr | 33(0)3 83 50 47 59
 contact: eziduserid lbnl-cesd
+contact: eziduserid uta_briscoe
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

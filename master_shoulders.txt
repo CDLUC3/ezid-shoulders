@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20359 10.20360 10.20361
+# 10.20360 10.20361 10.21220 10.21221 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -96,11 +96,11 @@
 # make_ezacct cdl 10.20354 b4 "" b3 < ezaccts/newacct > out
 # make_ezacct purdue 10.20356 c4 "" s5 < ezaccts/newacct > out
 # make_ezacct cdl 10.20357 d7 "" s3 < ezaccts/newacct > out
-
 # make_ezacct cdl 10.20358 c8 "" s5 < ezaccts/newacct > out
+# make_ezacct cdl 10.20359 t6 "" d3 < ezaccts/newacct > out
 
 # XXXXXX on creating a new data center, recyle these first
-# datacenter queue to rename/recycle: CDL.CPIJOURN CDL.ARIJOURN
+# datacenter queue to rename/recycle: CDL.ARIJOURN CDL.CPIJOURN
 #
 # xxx discontinued -- in queue to rename
 #:: datacite:CDL.ARIJOURN
@@ -114,11 +114,29 @@
 #manager: ezid
 #name: UAlberta CPI Journal
 
+:: ark:/80359/d3
+type: shoulder
+manager: ezid
+#eziduser: uta_briscoe
+name: UTA Dolph Briscoe Center
+date: 2016.03.30
+minter: https://n2t.net/a/ezid/m/ark/80359/d3
+
+:: doi:10.20359/T6
+type: shoulder
+manager: ezid
+#eziduser: uta_briscoe
+name: UTA Dolph Briscoe Center
+date: 2016.03.30
+minter: https://n2t.net/a/ezid/m/ark/d0359/t6
+datacenter: CDL.UTAUSTIN
+prefix_shares_datacenter: true
+
 :: ark:/80358/s5
 type: shoulder
 manager: ezid
 #eziduser: lbnl-cesd
-name: LBNL Climate & Ecosystems Science Division
+name: LBNL CESD
 date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/80358/s5
 
@@ -131,7 +149,7 @@ name: LBNL Climate and Ecosystems Science Division
 type: shoulder
 manager: ezid
 #eziduser: lbnl-cesd
-name: LBNL Climate & Ecosystems Science Division
+name: LBNL CESD
 date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/d0358/c8
 datacenter: CDL.LBNLCESD
@@ -1777,6 +1795,7 @@ name: University of Texas at Austin
 date: 2015.02.17
 minter: https://n2t.net/a/ezid/m/ark/c5781/t2
 datacenter: CDL.UTAUSTIN
+prefix_shares_datacenter: true
 
 :: doi:10.7264/D3
 type: shoulder
