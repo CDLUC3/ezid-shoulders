@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.03.24
+when:	2016.03.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4073,6 +4073,15 @@ where:	http://library.sdsu.edu
 how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid 
+
+naa:
+who:	Institut de l'information scientifique et technique (=) Institute for scientific and technical information (=) INIST
+what:	67375
+when:	2016.03.30
+where:	http://www.inist.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Gruttemeier, Herbert ||| Herbert.GRUTTEMEIER@inist.fr | 33(0)3 83 50 47 59
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

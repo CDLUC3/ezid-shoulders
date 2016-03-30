@@ -265,6 +265,7 @@ Roxana.Popistasu@bnl.etat.lu
 olli.lyytinen@durham.ac.uk
 olli.lyytinen@durham.ac.uk
 olli.lyytinen@durham.ac.uk
+Herbert.GRUTTEMEIER@inist.fr
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu
