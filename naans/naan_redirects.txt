@@ -413,6 +413,7 @@ RedirectMatch ^/((ark:/80354)|80354/?)(.*)$ linguistics.berkeley.edu/bls/$2$3
 RedirectMatch ^/((ark:/80356)|80356/?)(.*)$ http://ascl.net/$2$3
 RedirectMatch ^/((ark:/80357)|80357/?)(.*)$ http://library.sdsu.edu/$2$3
 RedirectMatch ^/((ark:/67375)|67375/?)(.*)$ http://www.inist.fr/$2$3
+RedirectMatch ^/((ark:/80358)|80358/?)(.*)$ http://esd.lbl.gov/our-divisions/climate-ecosystem-sciences/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
