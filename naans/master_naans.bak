@@ -4101,6 +4101,15 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid uta_briscoe
 
+naa:
+who:    College of William & Mary Libraries (=) WMLIB
+what:   81220
+when:   2016.04.07
+where:	https://swem.wm.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid wmlibdigi
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
 #!what:   88125

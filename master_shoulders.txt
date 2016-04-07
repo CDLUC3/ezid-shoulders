@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.20360 10.20361 10.21220 10.21221 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21221 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -98,21 +98,63 @@
 # make_ezacct cdl 10.20357 d7 "" s3 < ezaccts/newacct > out
 # make_ezacct cdl 10.20358 c8 "" s5 < ezaccts/newacct > out
 # make_ezacct cdl 10.20359 t6 "" d3 < ezaccts/newacct > out
+# make_ezacct cdl 10.20360 g2 "" - < ezaccts/newacct > out
+# make_ezacct cdl 10.20361 k3 "" - < ezaccts/newacct > out
+# after this, the realm arg to make_ezacct was no longer needed
+# make_ezacct -n 10.21220 m2 "" w2 < ezaccts/newacct > out
 
-# XXXXXX on creating a new data center, recyle these first
-# datacenter queue to rename/recycle: CDL.ARIJOURN CDL.CPIJOURN
-#
-# xxx discontinued -- in queue to rename
-#:: datacite:CDL.ARIJOURN
-#type: datacenter
-#manager: ezid
-#name: UAlberta ARI Journal
+# XXXXXX on creating a new data center, recyle this first
+# datacenter queue to rename/recycle: CDL.CPIJOURN
 #
 # xxx discontinued -- in queue to rename
 #:: datacite:CDL.CPIJOURN
 #type: datacenter
 #manager: ezid
 #name: UAlberta CPI Journal
+
+:: ark:/81220/w2
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: College of William & Mary Libraries
+date: 2016.04.07
+minter: https://n2t.net/a/ezid/m/ark/81220/w2
+
+:: datacite:CDL.WMLIB
+type: datacenter
+manager: ezid
+name: College of William & Mary Libraries
+
+:: doi:10.21220/M2
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: College of William & Mary Libraries
+date: 2016.04.07
+minter: https://n2t.net/a/ezid/m/ark/d1220/m2
+datacenter: CDL.WMLIB
+
+:: doi:10.20361/G2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Deakin Revw of Childrens Lit
+date: 2016.03.31
+minter: https://n2t.net/a/ezid/m/ark/d0361/g2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.20360/G2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Language and Literacy
+date: 2016.03.31
+minter: https://n2t.net/a/ezid/m/ark/d0360/g2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/80359/d3
 type: shoulder
