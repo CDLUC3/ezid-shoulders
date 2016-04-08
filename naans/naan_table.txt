@@ -415,6 +415,7 @@
 80358	LBNL Climate & Ecosystems Science Division (=) LBNLCESD
 80359	UTA Dolph Briscoe Center (=) BRISCOE
 81220	College of William & Mary Libraries (=) WMLIB
+54380	Bibliothèque Municipale d'Angers (=) BMA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
