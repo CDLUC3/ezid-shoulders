@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.08
+when:	2016.04.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4118,6 +4118,15 @@ where:	http://bm.angers.fr
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr | Phone
+
+naa:
+who:    SDSU Computer Science (=) SDSUCS
+what:   81221
+when:   2016.04.14
+where:	http://www.cs.sdsu.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid sdsu_edwards
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

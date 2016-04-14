@@ -470,6 +470,7 @@ contact: eziduserid lbnl-cesd
 contact: eziduserid uta_briscoe
 contact: eziduserid wmlibdigi
 contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr | Phone
+contact: eziduserid sdsu_edwards
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
