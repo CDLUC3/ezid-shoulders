@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21221 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -105,15 +105,65 @@
 # Starting here, the realm arg to make_ezacct was no longer needed
 # make_ezacct -n 10.21220 m2 "" w2 < ezaccts/newacct > out
 # make_ezacct -n 10.13012 b2 "" - < ezaccts/newacct > out
+# make_ezacct -n 10.21221 c2 "" s4 < ezaccts/newacct > out
 
-# XXXXXX on creating a new data center, recyle this first
-# datacenter queue to rename/recycle: CDL.CPIJOURN
-#
-# xxx discontinued -- in queue to rename
-#:: datacite:CDL.CPIJOURN
-#type: datacenter
-#manager: ezid
-#name: UAlberta CPI Journal
+:: ark:/81221/s4
+type: shoulder
+manager: ezid
+#eziduser: sdsu_edwards
+name: SDSU Computer Science
+date: 2016.04.14
+minter: https://n2t.net/a/ezid/m/ark/81221/s4
+
+:: datacite:CDL.SDSUCS
+type: datacenter
+manager: ezid
+name: SDSU Computer Science
+
+:: doi:10.21221/C2
+type: shoulder
+manager: ezid
+#eziduser: sdsu_edwards
+name: SDSU Computer Science
+date: 2016.04.14
+minter: https://n2t.net/a/ezid/m/ark/d1221/c2
+datacenter: CDL.SDSUCS
+
+:: doi:10.21220/S2
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - Arts & Sciences
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/s2
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/B3
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - Mason School of Business
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/b3
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/W4
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - School of Education
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/w4
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/V5
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - VIMS
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/v5
+datacenter: CDL.WMLIB
 
 :: doi:10.13012/B2
 type: shoulder

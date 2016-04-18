@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.14
+when:	2016.04.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3214,6 +3214,13 @@ who:    SDSU Computer Science (=) SDSUCS
 what:   81221
 when:   2016.04.14
 where:	http://www.cs.sdsu.edu
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    ORCID, Inc (=) ORCID
+what:   81222
+when:   2016.04.18
+where:	http://orcid.org
 how:	NP | (:unkn) unknown | 2016 |
 
 

@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21222 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21223 10.21224 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -106,6 +106,29 @@
 # make_ezacct -n 10.21220 m2 "" w2 < ezaccts/newacct > out
 # make_ezacct -n 10.13012 b2 "" - < ezaccts/newacct > out
 # make_ezacct -n 10.21221 c2 "" s4 < ezaccts/newacct > out
+# make_ezacct -n 10.21222 d2 "" r7 < ezaccts/newacct > out
+
+:: ark:/81222/r7
+type: shoulder
+manager: ezid
+#eziduser: orcid-doi
+name: ORCID, Inc
+date: 2016.04.18
+minter: https://n2t.net/a/ezid/m/ark/81222/r7
+
+:: datacite:CDL.ORCID
+type: datacenter
+manager: ezid
+name: ORCID, Inc
+
+:: doi:10.21222/D2
+type: shoulder
+manager: ezid
+#eziduser: orcid-doi
+name: ORCID, Inc
+date: 2016.04.18
+minter: https://n2t.net/a/ezid/m/ark/d1222/d2
+datacenter: CDL.ORCID
 
 :: ark:/81221/s4
 type: shoulder
