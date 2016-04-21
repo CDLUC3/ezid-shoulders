@@ -474,6 +474,10 @@ contact: eziduserid sdsu_edwards
 contact: eziduserid orcid-doi
 contact: Lemaire, Olivier ||| olivier.lemaire@ymagis.com |
 contact: Bruno, Fernando ||| fernando.bruno@ufrgs.br |
+contact: RAVEREAU, Mylene ||| mylene.ravereau@enc-sorbonne.fr |
+contact: Michaud, Yanice ||| yanice.michaud@ville-chateaudolonne.fr |
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Concha, Alvin ||| alvinconcha@spmcpapers.com |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

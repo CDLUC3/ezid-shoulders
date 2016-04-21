@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.20
+when:	2016.04.21
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4154,6 +4154,34 @@ where:	http://www.pgdesign.ufrgs.br
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Bruno, Fernando ||| fernando.bruno@ufrgs.br |
+
+naa:
+who:	Bibliothèque Interuniversitaire de la Sorbonne (=) Sorbonne Library (=) BIS
+what:	15733
+when:	2016.04.21
+where:	http://www.bibliotheque.sorbonne.fr/biu
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: RAVEREAU, Mylene ||| mylene.ravereau@enc-sorbonne.fr |
+
+naa:
+who:	Archives Municipales de la ville de Château d'Olonne (=) OLONNE
+what:	89947
+when:	2016.04.21
+where:	http://archives.lechateaudolonne.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Michaud, Yanice ||| yanice.michaud@ville-chateaudolonne.fr |
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
+naa:
+who:	Southern Philippines Medical Center (=) SPMC
+what:	76951
+when:	2016.04.21
+where:	http://spmc.doh.gov.ph
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Concha, Alvin ||| alvinconcha@spmcpapers.com |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

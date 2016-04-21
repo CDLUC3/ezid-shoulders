@@ -420,6 +420,9 @@
 81222	ORCID, Inc (=) ORCID
 41726	Eclair Preservation S.A.S. (=) ECLAIR
 28730	Programa de Pós-Graduação em Design - Universidade Federal do Rio Grande do Sul (=) Graduate Program in Design of Federal University of Rio Grande do Sul (=) PPGD
+15733	Bibliothèque Interuniversitaire de la Sorbonne (=) Sorbonne Library (=) BIS
+89947	Archives Municipales de la ville de Château d'Olonne (=) OLONNE
+76951	Southern Philippines Medical Center (=) SPMC
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
