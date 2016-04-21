@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.18
+when:	2016.04.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4117,7 +4117,7 @@ when:	2016.04.08
 where:	http://bm.angers.fr
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
-!contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr | Phone
+!contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr |
 
 naa:
 who:    SDSU Computer Science (=) SDSUCS
@@ -4136,6 +4136,24 @@ where:	http://orcid.org
 how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid orcid-doi
+
+naa:
+who:	Eclair Preservation S.A.S. (=) ECLAIR
+what:	41726
+when:	2016.04.20
+where:	http://eclair.digital
+how:	FP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Lemaire, Olivier ||| olivier.lemaire@ymagis.com |
+
+naa:
+who:	Programa de Pós-Graduação em Design - Universidade Federal do Rio Grande do Sul (=) Graduate Program in Design of Federal University of Rio Grande do Sul (=) PPGD
+what:	28730
+when:	2016.04.20
+where:	http://www.pgdesign.ufrgs.br
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Bruno, Fernando ||| fernando.bruno@ufrgs.br |
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

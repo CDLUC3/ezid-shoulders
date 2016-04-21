@@ -469,9 +469,11 @@ contact: Gruttemeier, Herbert ||| Herbert.GRUTTEMEIER@inist.fr | 33(0)3 83 50 47
 contact: eziduserid lbnl-cesd
 contact: eziduserid uta_briscoe
 contact: eziduserid wmlibdigi
-contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr | Phone
+contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr |
 contact: eziduserid sdsu_edwards
 contact: eziduserid orcid-doi
+contact: Lemaire, Olivier ||| olivier.lemaire@ymagis.com |
+contact: Bruno, Fernando ||| fernando.bruno@ufrgs.br |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
