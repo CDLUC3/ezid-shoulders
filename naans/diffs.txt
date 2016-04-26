@@ -1,29 +1,16 @@
-diff -r c58b3242c01e naans/master_naans
---- a/naans/master_naans	Wed Dec 02 04:46:59 2015 -0800
-+++ b/naans/master_naans	Thu Dec 03 03:51:43 2015 -0800
-@@ -3,3 +3,3 @@
- what:	Name Assigning Authority Number (NAAN) Registry
--when:	2015.12.02
-+when:	2015.12.03
- where:	http://cdlib.org/uc3/naan_registry.txt
-@@ -3832,2 +3832,20 @@
+diff -r e76a35af34df naans/master_naans
+--- a/naans/master_naans	Thu Apr 21 10:22:15 2016 -0700
++++ b/naans/master_naans	Tue Apr 26 11:10:07 2016 -0700
+@@ -4185,2 +4185,12 @@
  
 +naa:
-+who:    UVA Minor Lab (=) MINORLAB
-+what:   88430
-+when:   2015.12.03
-+where:	http:/olenka.med.virginia.edu/CrystUVa
-+how:	NP | (:unkn) unknown | 2015 |
-+!why:   EZID ARK
-+!contact: eziduserid uva-minorl
-+
-+naa:
-+who:	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
-+what:	48223
-+when:	2015.12.03
-+where:	http://www.unesco.org
-+how:	NP | (:unkn) unknown | 2015 |
++who:	Archives de Monaco (=) MONACO
++what:	63956
++when:	2016.04.26
++where:	http://archives.mairie.mc
++how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
++!contact: Baranes-Ferry, Coralie ||| contact@mairie.mc | +377 93 15 29 65
++!contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 +
  #!naa:

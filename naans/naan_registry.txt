@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.21
+when:	2016.04.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3256,6 +3256,13 @@ who:	Southern Philippines Medical Center (=) SPMC
 what:	76951
 when:	2016.04.21
 where:	http://spmc.doh.gov.ph
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Archives de Monaco (=) MONACO
+what:	63956
+when:	2016.04.26
+where:	http://archives.mairie.mc
 how:	NP | (:unkn) unknown | 2016 |
 
 
