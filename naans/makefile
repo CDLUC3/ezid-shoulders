@@ -263,5 +263,6 @@ announce:
 	@(NAME="N2T Role Account"; export NAME; \
 		perl -e 'print $(announcement)' | cat - diffs.txt \
 		| mailx -s 'NAAN registry updated' -c "$(ccremote)" $(remote))
+	@echo "Sent announcement to < $(remote) >, with CC to < $(ccremote) >."
 
 # end of makefile

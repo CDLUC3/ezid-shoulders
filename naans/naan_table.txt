@@ -424,6 +424,7 @@
 89947	Archives Municipales de la ville de Château d'Olonne (=) OLONNE
 76951	Southern Philippines Medical Center (=) SPMC
 63956	Archives de Monaco (=) MONACO
+51302	Archives départementales de la Loire (=) ADLOIRE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

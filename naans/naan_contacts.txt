@@ -480,6 +480,8 @@ contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 0
 contact: Concha, Alvin ||| alvinconcha@spmcpapers.com |
 contact: Baranes-Ferry, Coralie ||| contact@mairie.mc | +377 93 15 29 65
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+contact: Herault, Jacky ||| jacky.herault@loire.fr |
+contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

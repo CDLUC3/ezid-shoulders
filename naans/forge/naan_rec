@@ -77,7 +77,7 @@ printf "${id}: %-9s $date   # $institution\n" $acro
 
 echo
 echo "Finally, do"
-echo "    (cd ~n2t/shoulders/naans; make diffs.txt all announce) xxxmake all)"
+echo "    (cd ~n2t/shoulders/naans; make diffs.txt all announce)"
 
 echo "\
 naa:\

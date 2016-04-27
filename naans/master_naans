@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.26
+when:	2016.04.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4192,6 +4192,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Baranes-Ferry, Coralie ||| contact@mairie.mc | +377 93 15 29 65
 !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+
+naa:
+who:	Archives départementales de la Loire (=) ADLOIRE
+what:	51302
+when:	2016.04.27
+where:	http://www.loire.fr/jcms/ci_526798/archives-departementales
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Herault, Jacky ||| jacky.herault@loire.fr |
+!contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
