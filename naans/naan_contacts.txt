@@ -478,10 +478,12 @@ contact: RAVEREAU, Mylene ||| mylene.ravereau@enc-sorbonne.fr |
 contact: Michaud, Yanice ||| yanice.michaud@ville-chateaudolonne.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Concha, Alvin ||| alvinconcha@spmcpapers.com |
-contact: Baranes-Ferry, Coralie ||| contact@mairie.mc | +377 93 15 29 65
+contact: Baranes-Ferry, Coralie ||| cbaranes@mairie.mc | +377 93 15 29 65
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: Herault, Jacky ||| jacky.herault@loire.fr |
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
+contact: Simon, Agnès ||| agnes.a.simon@culture.gouv.fr |
+contact: eziduserid riu_admin
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

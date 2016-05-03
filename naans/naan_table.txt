@@ -425,6 +425,8 @@
 76951	Southern Philippines Medical Center (=) SPMC
 63956	Archives de Monaco (=) MONACO
 51302	Archives départementales de la Loire (=) ADLOIRE
+38306	Archives nationales de France (=) French National Archives (=) ANFRANCE
+81223	Potato Center (=) CIP
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.27
+when:	2016.05.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3255,7 +3255,7 @@ naa:
 who:	Southern Philippines Medical Center (=) SPMC
 what:	76951
 when:	2016.04.21
-where:	http://spmc.doh.gov.ph
+where:	http://ark.spmcpapers.com
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -3270,6 +3270,20 @@ who:	Archives départementales de la Loire (=) ADLOIRE
 what:	51302
 when:	2016.04.27
 where:	http://www.loire.fr/jcms/ci_526798/archives-departementales
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Archives nationales de France (=) French National Archives (=) ANFRANCE
+what:	38306
+when:	2016.04.28
+where:	http://www.archives-nationales.culture.gouv.fr
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    Potato Center (=) CIP
+what:   81223
+when:   2016.04.30
+where:	http://cipotato.org
 how:	NP | (:unkn) unknown | 2016 |
 
 

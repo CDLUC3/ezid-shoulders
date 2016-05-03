@@ -1,7 +1,7 @@
 #!/bin/tcsh -f
 
 if ($# < 2) then
-	echo "Usage:   $0 Acronym Website InstitutionName First Last Email Phone"
+	echo "Usage:   $0 Acronym Website InstitutionName First Last Email Phone Address"
 	echo "Example:"
 	echo ""
 	echo "    $ $0" 'OU http://ou.example.org "Oaksterdam University"'
@@ -25,6 +25,7 @@ set first = "$4"
 set last = "$5"
 set email = "$6"
 set phone = "$7"
+set address = "$8"
 
 #set ndcmd = /noid/nd/noid
 #set ndcmd = nog
@@ -70,7 +71,8 @@ set year = "`date +%Y`"
 if ("$first" == "")   set first = First
 if ("$last" == "")    set last = Last
 if ("$email" == "")   set email = Email
-if ("$phone" == "")   set phone = Phone
+if ("$phone" == "")   set phone = ""
+if ("$address" == "")   set address = ""
 
 echo "Append this line to the 'grandfathered' file:"
 printf "${id}: %-9s $date   # $institution\n" $acro
@@ -88,12 +90,13 @@ where:	$url\
 how:	NP | (:unkn) unknown | $year |\
 \!why:	ARK\
 \!contact: $last, $first ||| $email | $phone\
+\!address: $address\
 \
 " > new_naa
 cat new_naa >> recent_naas
 
 echo "\
-Hi XXX,\
+Hi $first,\
 \
 Thanks for your message.  The NAAN,\
 \
