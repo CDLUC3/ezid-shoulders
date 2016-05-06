@@ -1,36 +1,16 @@
-diff -r d5a6c986c026 naans/master_naans
---- a/naans/master_naans	Wed Apr 27 09:51:13 2016 -0700
-+++ b/naans/master_naans	Tue May 03 04:26:03 2016 -0700
-@@ -4180,3 +4180,3 @@
- when:	2016.04.21
--where:	http://spmc.doh.gov.ph
-+where:	http://ark.spmcpapers.com
- how:	NP | (:unkn) unknown | 2016 |
-@@ -4192,3 +4192,3 @@
- !why:	ARK
--!contact: Baranes-Ferry, Coralie ||| contact@mairie.mc | +377 93 15 29 65
-+!contact: Baranes-Ferry, Coralie ||| cbaranes@mairie.mc | +377 93 15 29 65
- !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
-@@ -4205,2 +4205,22 @@
+diff -r 511f034aca1e naans/master_naans
+--- a/naans/master_naans	Tue May 03 04:26:03 2016 -0700
++++ b/naans/master_naans	Fri May 06 10:41:43 2016 -0700
+@@ -4225,2 +4225,12 @@
  
 +naa:
-+who:	Archives nationales de France (=) French National Archives (=) ANFRANCE
-+what:	38306
-+when:	2016.04.28
-+where:	http://www.archives-nationales.culture.gouv.fr
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Simon, Agnès ||| agnes.a.simon@culture.gouv.fr |
-+!address: 59, rue Guynemer, 93393 Pierrefitte-sur-Seine, France
-+
-+naa:
-+who:    Potato Center (=) CIP
-+what:   81223
-+when:   2016.04.30
-+where:	http://cipotato.org
++who:    UC San Diego Philosophy Dept. (=) UCSDGRUSH
++what:   81224
++when:   2016.05.06
++where:	http://philosophy.ucsd.edu
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid riu_admin
-+!address: La Molina 1895, La Molina, Lima, Peru
++!contact: eziduserid ucsd_grush
++!address: 9500 Gilman Drive #0119 La Jolla CA 92023
 +
  #!naa:

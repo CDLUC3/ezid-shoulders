@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.05.03
+when:	2016.05.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3284,6 +3284,13 @@ who:    Potato Center (=) CIP
 what:   81223
 when:   2016.04.30
 where:	http://cipotato.org
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    UC San Diego Philosophy Dept. (=) UCSDGRUSH
+what:   81224
+when:   2016.05.06
+where:	http://philosophy.ucsd.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 

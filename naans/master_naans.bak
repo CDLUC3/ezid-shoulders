@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.04.27
+when:	2016.05.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4222,6 +4222,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid riu_admin
 !address: La Molina 1895, La Molina, Lima, Peru
+
+naa:
+who:    UC San Diego Philosophy Dept. (=) UCSDGRUSH
+what:   81224
+when:   2016.05.06
+where:	http://philosophy.ucsd.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_grush
+!address: 9500 Gilman Drive #0119 La Jolla CA 92023
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

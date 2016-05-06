@@ -484,6 +484,7 @@ contact: Herault, Jacky ||| jacky.herault@loire.fr |
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 contact: Simon, Agnès ||| agnes.a.simon@culture.gouv.fr |
 contact: eziduserid riu_admin
+contact: eziduserid ucsd_grush
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

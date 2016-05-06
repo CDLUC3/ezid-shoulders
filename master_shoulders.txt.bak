@@ -104,7 +104,7 @@
 type: shoulder
 manager: ezid
 #eziduser: riu_admin
-name: Potato Center
+name: International Potato Center
 date: 2016.04.30
 minter: https://n2t.net/a/ezid/m/ark/81223/c2
 
@@ -117,7 +117,7 @@ name: Potato Center
 type: shoulder
 manager: ezid
 #eziduser: riu_admin
-name: Potato Center
+name: International Potato Center
 date: 2016.04.30
 minter: https://n2t.net/a/ezid/m/ark/d1223/p3
 datacenter: CDL.CIP
