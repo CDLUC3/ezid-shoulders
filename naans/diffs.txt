@@ -1,16 +1,44 @@
-diff -r 511f034aca1e naans/master_naans
---- a/naans/master_naans	Tue May 03 04:26:03 2016 -0700
-+++ b/naans/master_naans	Fri May 06 10:41:43 2016 -0700
-@@ -4225,2 +4225,12 @@
+diff -r 5aa5f48021c3 naans/master_naans
+--- a/naans/master_naans	Fri May 06 10:41:43 2016 -0700
++++ b/naans/master_naans	Mon May 16 15:07:38 2016 -0700
+@@ -642,6 +642,6 @@
+ when:	2009.07.22
+-where:	http://www.uh.edu
++where:	https://id.lib.uh.edu
+ how:	NP | (:unkn) unknown | 2009 |
+ !why:   ARK
+-!contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
++!contact: Weidner, Andrew ||| ajweidner@uh.edu | +1 713-743-9686
+ 
+@@ -4235,5 +4235,25 @@
  
 +naa:
-+who:    UC San Diego Philosophy Dept. (=) UCSDGRUSH
-+what:   81224
-+when:   2016.05.06
-+where:	http://philosophy.ucsd.edu
++who:    IEEE (=) IEEE
++what:   81227
++when:   2016.05.16
++where:	https://www.ieee.org
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid ucsd_grush
-+!address: 9500 Gilman Drive #0119 La Jolla CA 92023
++!contact: eziduserid dataport
++!address: 445 Hoes Lane  Piscataway, NJ 08854
++
++naa:
++who:    UCSD Metabolomics Workbench (=) UCSDMW
++what:   81228
++when:   2016.05.16
++where:	http://www.metabolomicsworkbench.org
++how:	NP | (:unkn) unknown | 2016 |
++!why:   EZID ARK
++!contact: eziduserid ucsd_mwb
++!address: 9500 Gilman Drive #435  La Jolla, CA 92093
 +
  #!naa:
+ #!who:    Temporary Name: Data Center 3 (=) DATACTR3
+-#!what:   88125
++#!what:   88125  XXX check if still unassigned on registration
+ #!when:   2015.09.10
+@@ -4246,3 +4266,3 @@
+ #!who:    Temporary Name: Data Center 5 (=) DATACTR5
+-#!what:   88127
++#!what:   88127  XXX check if still unassigned on registration
+ #!when:   2015.09.10

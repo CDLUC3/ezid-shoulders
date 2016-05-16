@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.05.06
+when:	2016.05.16
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -640,10 +640,10 @@ naa:
 who:	University of Houston (=) UHOUSTON
 what:	84475
 when:	2009.07.22
-where:	http://www.uh.edu
+where:	https://id.lib.uh.edu
 how:	NP | (:unkn) unknown | 2009 |
 !why:   ARK
-!contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
+!contact: Weidner, Andrew ||| ajweidner@uh.edu | +1 713-743-9686
 
 naa:
 who:	Consejo Superior de Investigaciones Científicas (=) Spanish National Research Council (=) CSIC
@@ -4233,9 +4233,29 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: eziduserid ucsd_grush
 !address: 9500 Gilman Drive #0119 La Jolla CA 92023
 
+naa:
+who:    IEEE (=) IEEE
+what:   81227
+when:   2016.05.16
+where:	https://www.ieee.org
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid dataport
+!address: 445 Hoes Lane  Piscataway, NJ 08854
+
+naa:
+who:    UCSD Metabolomics Workbench (=) UCSDMW
+what:   81228
+when:   2016.05.16
+where:	http://www.metabolomicsworkbench.org
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid ucsd_mwb
+!address: 9500 Gilman Drive #435  La Jolla, CA 92093
+
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
-#!what:   88125
+#!what:   88125  XXX check if still unassigned on registration
 #!when:   2015.09.10
 #!where:	http://datactr3.example.org
 #!how:	NP | (:unkn) unknown | 2015 |
@@ -4244,7 +4264,7 @@ how:	NP | (:unkn) unknown | 2016 |
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
-#!what:   88127
+#!what:   88127  XXX check if still unassigned on registration
 #!when:   2015.09.10
 #!where:	http://datactr5.example.org
 #!how:	NP | (:unkn) unknown | 2015 |

@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21225 10.21226 10.21227 10.21228 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -100,6 +100,81 @@
 # make_ezacct -n 10.21222 d2 "" r7 < ezaccts/newacct > out
 # make_ezacct -n 10.21223 p3 "" c2 < ezaccts/newacct > out
 # make_ezacct -n 10.21224 p4 "" h2 < ezaccts/newacct > out
+# make_ezacct -n 10.21225 d5 "" - < ezaccts/newacct > out
+# make_ezacct -n 10.21226 t2 "" - < ezaccts/newacct > out
+# make_ezacct -n 10.21227 h2 "" h7 < ezaccts/newacct > out
+# make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
+# make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
+
+:: ark:/81228/w2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_mwb
+name: UCSD Metabolomics Workbench
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/81228/w2
+
+:: doi:10.21228/M8
+type: shoulder
+manager: ezid
+#eziduser: ucsd_mwb
+name: UCSD Metabolomics Workbench
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/d1228/m8
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: ark:/88435/r5
+type: shoulder
+manager: ezid
+#eziduser: pudiglib
+name: Princeton University Open Access Repository
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/88435/r5
+
+:: ark:/81227/h7
+type: shoulder
+manager: ezid
+#eziduser: dataport
+name: IEEE
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/81227/h7
+
+:: datacite:PURDUE.IEEE
+type: datacenter
+manager: ezid
+name: IEEE
+
+:: doi:10.21227/H2
+type: shoulder
+manager: ezid
+#eziduser: dataport
+name: IEEE
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/d1227/h2
+datacenter: PURDUE.IEEE
+
+:: doi:10.21226/T2
+type: shoulder
+manager: ezid
+#eziduser: 
+name: UAlberta East West Jrnl of Ukrainian Studies
+date: 2016.05.11
+minter: https://n2t.net/a/ezid/m/ark/d1226/t2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21225/D5
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Jrnl of University Continuing Education
+date: 2016.05.11
+minter: https://n2t.net/a/ezid/m/ark/d1225/d5
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/81224/h2
 type: shoulder
@@ -2230,6 +2305,7 @@ name: George Mason University
 date: 2014.11.04
 minter: https://n2t.net/a/ezid/m/ark/c3021/g8
 datacenter: CDL.GMU
+crossref: true
 
 :: ark:/83020/d8
 type: shoulder

@@ -36,7 +36,7 @@ RedirectMatch ^/((ark:/48907)|48907/?)(.*)$ http://library.ucsb.edu/$2$3
 RedirectMatch ^/((ark:/36253)|36253/?)(.*)$ http://www.eastmanhouse.org/$2$3
 RedirectMatch ^/((ark:/23257)|23257/?)(.*)$ http://www.appstate.edu/$2$3
 RedirectMatch ^/((ark:/10261)|10261/?)(.*)$ http://www.jmberlin.de/$2$3
-RedirectMatch ^/((ark:/84475)|84475/?)(.*)$ http://www.uh.edu/$2$3
+RedirectMatch ^/((ark:/84475)|84475/?)(.*)$ https://id.lib.uh.edu/$2$3
 RedirectMatch ^/((ark:/71479)|71479/?)(.*)$ http://www.csic.es/$2$3
 RedirectMatch ^/((ark:/58483)|58483/?)(.*)$ http://www.somme.fr/$2$3
 RedirectMatch ^/((ark:/45829)|45829/?)(.*)$ http://biu-cujas.univ-paris1.fr/$2$3
@@ -429,6 +429,8 @@ RedirectMatch ^/((ark:/51302)|51302/?)(.*)$ http://www.loire.fr/jcms/ci_526798/a
 RedirectMatch ^/((ark:/38306)|38306/?)(.*)$ http://www.archives-nationales.culture.gouv.fr/$2$3
 RedirectMatch ^/((ark:/81223)|81223/?)(.*)$ http://cipotato.org/$2$3
 RedirectMatch ^/((ark:/81224)|81224/?)(.*)$ http://philosophy.ucsd.edu/$2$3
+RedirectMatch ^/((ark:/81227)|81227/?)(.*)$ https://www.ieee.org/$2$3
+RedirectMatch ^/((ark:/81228)|81228/?)(.*)$ http://www.metabolomicsworkbench.org/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

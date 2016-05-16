@@ -37,7 +37,7 @@ contact: XXX Koch, Lisa | Davidson Library University of California | lkoch@libr
 contact: Donahue, Ryan ||| RDonahue@geh.org
 contact: Mitchem, Pam | Belk Library & Information Commons || pricemtchemp@appstate.edu | +1 828-262-8472
 contact: Sonnemann, Ulrike | Leiterin Bibliothek || u.sonnemann@jmberlin.de | +49 25993-564 
-contact: XXX Chen, Mingyu ||| mchen6@central.uh.edu | +1 713-743-8988
+contact: Weidner, Andrew ||| ajweidner@uh.edu | +1 713-743-9686
 contact: Santamarina, Carolina ||| carolina@bib.csic.es | +34 91-568 16 79
 contact: De Solan, Olivier ||| o.desolan@SOMME.FR | +33 3 60 03 49 50
 contact: Renard, Catherine ||| Catherine.Renard@univ-paris1.fr
@@ -485,6 +485,8 @@ contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 
 contact: Simon, Agnès ||| agnes.a.simon@culture.gouv.fr |
 contact: eziduserid riu_admin
 contact: eziduserid ucsd_grush
+contact: eziduserid dataport
+contact: eziduserid ucsd_mwb
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
