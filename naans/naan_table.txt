@@ -430,6 +430,7 @@
 81224	UC San Diego Philosophy Dept. (=) UCSDGRUSH
 81227	IEEE (=) IEEE
 81228	UCSD Metabolomics Workbench (=) UCSDMW
+81229	UCSB ECE Dept Mostofi Lab (=) UCSBECE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

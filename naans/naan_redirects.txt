@@ -431,6 +431,7 @@ RedirectMatch ^/((ark:/81223)|81223/?)(.*)$ http://cipotato.org/$2$3
 RedirectMatch ^/((ark:/81224)|81224/?)(.*)$ http://philosophy.ucsd.edu/$2$3
 RedirectMatch ^/((ark:/81227)|81227/?)(.*)$ https://www.ieee.org/$2$3
 RedirectMatch ^/((ark:/81228)|81228/?)(.*)$ http://www.metabolomicsworkbench.org/$2$3
+RedirectMatch ^/((ark:/81229)|81229/?)(.*)$ http://www.ece.ucsb.edu/~ymostofi/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

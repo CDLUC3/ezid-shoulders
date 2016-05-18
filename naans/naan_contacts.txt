@@ -487,6 +487,7 @@ contact: eziduserid riu_admin
 contact: eziduserid ucsd_grush
 contact: eziduserid dataport
 contact: eziduserid ucsd_mwb
+contact: eziduserid sb-mostofi
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

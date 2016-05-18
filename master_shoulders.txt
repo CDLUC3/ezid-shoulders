@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -105,6 +105,50 @@
 # make_ezacct -n 10.21227 h2 "" h7 < ezaccts/newacct > out
 # make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
 # make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
+# make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
+
+:: ark:/81229/m2
+type: shoulder
+manager: ezid
+#eziduser: sb-mostofi
+name: UCSB ECE Dept Mostofi Lab
+date: 2016.05.18
+minter: https://n2t.net/a/ezid/m/ark/81229/m2
+
+:: doi:10.21229/M9
+type: shoulder
+manager: ezid
+#eziduser: sb-mostofi
+name: UCSB ECE Dept Mostofi Lab
+date: 2016.05.18
+minter: https://n2t.net/a/ezid/m/ark/d1229/m9
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
+
+:: ark:/87603/n9
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe No Minter
+date: 2016.05.18
+minter:
+
+:: doi:10.17603/N6
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe No Minter
+date: 2016.05.18
+minter:
+datacenter: CDL.TACC
+
+:: ark:/87603/ds2
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe Minter
+date: 2016.05.17
+minter: https://n2t.net/a/ezid/m/ark/87603/ds2
 
 :: ark:/81228/w2
 type: shoulder
@@ -124,13 +168,13 @@ minter: https://n2t.net/a/ezid/m/ark/d1228/m8
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
-:: ark:/88435/r5
+:: ark:/88435/pr1
 type: shoulder
 manager: ezid
 #eziduser: pudiglib
 name: Princeton University Open Access Repository
-date: 2016.05.16
-minter: https://n2t.net/a/ezid/m/ark/88435/r5
+date: 2016.05.17
+minter: https://n2t.net/a/ezid/m/ark/88435/pr1
 
 :: ark:/81227/h7
 type: shoulder
@@ -1820,7 +1864,7 @@ datacenter: CDL.TACC
 type: shoulder
 manager: ezid
 #eziduser: uta_tacc
-name: DesignSafe
+name: DesignSafe Minter
 date: 2015.09.29
 minter: https://n2t.net/a/ezid/m/ark/c7603/ds2
 datacenter: CDL.TACC
@@ -4979,6 +5023,7 @@ name: UCSB
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/b5062/f4
 datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/48907/f3
 type: shoulder
