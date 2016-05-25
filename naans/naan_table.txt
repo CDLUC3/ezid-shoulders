@@ -431,6 +431,8 @@
 81227	IEEE (=) IEEE
 81228	UCSD Metabolomics Workbench (=) UCSDMW
 81229	UCSB ECE Dept Mostofi Lab (=) UCSBECE
+81231	University of Wisconsin-Madison (=) UWISC
+25309	Woodbury University School of Architecture (=) WUSA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -488,6 +488,8 @@ contact: eziduserid ucsd_grush
 contact: eziduserid dataport
 contact: eziduserid ucsd_mwb
 contact: eziduserid sb-mostofi
+contact: eziduserid uwisc
+contact: Branda, Ewan ||| Ewan.Branda@woodbury.edu | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

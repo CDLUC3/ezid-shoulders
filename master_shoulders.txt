@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -106,6 +106,41 @@
 # make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
 # make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
 # make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
+# make_ezacct -n 10.21230 f3 "" - < ezaccts/newacct > out
+# make_ezacct -n 10.21231 m3 "" m2 < ezaccts/newacct > out
+
+:: ark:/81231/m2
+type: shoulder
+manager: ezid
+#eziduser: uwisc
+name: University of Wisconsin-Madison
+date: 2016.05.25
+minter: https://n2t.net/a/ezid/m/ark/81231/m2
+
+:: datacite:PURDUE.UWISC
+type: datacenter
+manager: ezid
+name: University of Wisconsin-Madison
+
+:: doi:10.21231/M3
+type: shoulder
+manager: ezid
+#eziduser: uwisc
+name: University of Wisconsin-Madison
+date: 2016.05.25
+minter: https://n2t.net/a/ezid/m/ark/d1231/m3
+datacenter: PURDUE.UWISC
+
+:: doi:10.21230/F3
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta REEFMM
+date: 2016.05.24
+minter: https://n2t.net/a/ezid/m/ark/d1230/f3
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/81229/m2
 type: shoulder

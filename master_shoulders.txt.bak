@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21229 10.21230 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21231 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -105,6 +105,37 @@
 # make_ezacct -n 10.21227 h2 "" h7 < ezaccts/newacct > out
 # make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
 # make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
+# make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
+# make_ezacct -n 10.21230 f3 "" - < ezaccts/newacct > out
+
+:: doi:10.21230/F3
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta REEFMM
+date: 2016.05.24
+minter: https://n2t.net/a/ezid/m/ark/d1230/f3
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: ark:/81229/m2
+type: shoulder
+manager: ezid
+#eziduser: sb-mostofi
+name: UCSB ECE Dept Mostofi Lab
+date: 2016.05.18
+minter: https://n2t.net/a/ezid/m/ark/81229/m2
+
+:: doi:10.21229/M9
+type: shoulder
+manager: ezid
+#eziduser: sb-mostofi
+name: UCSB ECE Dept Mostofi Lab
+date: 2016.05.18
+minter: https://n2t.net/a/ezid/m/ark/d1229/m9
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/87603/n9
 type: shoulder
@@ -5004,6 +5035,7 @@ name: UCSB
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/b5062/f4
 datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/48907/f3
 type: shoulder
