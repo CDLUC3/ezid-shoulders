@@ -490,6 +490,11 @@ contact: eziduserid ucsd_mwb
 contact: eziduserid sb-mostofi
 contact: eziduserid uwisc
 contact: Branda, Ewan ||| Ewan.Branda@woodbury.edu | 
+contact: eziduserid uwisc_ecosis
+contact: eziduserid uwisc_neotoma
+contact: eziduserid wisc_icecube
+contact: eziduserid sepeditors
+contact: eziduserid dtic-ci
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

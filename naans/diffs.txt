@@ -1,26 +1,56 @@
-diff -r 9371d63ba3e6 naans/master_naans
---- a/naans/master_naans	Wed May 18 16:50:59 2016 -0700
-+++ b/naans/master_naans	Wed May 25 11:54:07 2016 -0700
-@@ -4265,2 +4265,22 @@
+diff -r 56bfc4ae4f26 naans/master_naans
+--- a/naans/master_naans	Wed May 25 11:54:07 2016 -0700
++++ b/naans/master_naans	Thu May 26 15:30:06 2016 -0700
+@@ -4285,2 +4285,52 @@
  
 +naa:
-+who:    University of Wisconsin-Madison (=) UWISC
-+what:   81231
-+when:   2016.05.25
-+where:	https://www.library.wisc.edu
++who:    UWisc EcoSIS (=) ECOSIS
++what:   81232
++when:   2016.05.26
++where:	https://ecosis.org
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid uwisc
-+!address: Memorial Library, Room 443D, 728 State St., Madison, WI 53706
++!contact: eziduserid uwisc_ecosis
++!address: Department of Forest & Wildlife Ecology, University of Wisconsin-Madison, 1630 Linden Drive, Madison, WI 53706-1598
 +
 +naa:
-+who:	Woodbury University School of Architecture (=) WUSA
-+what:	25309
-+when:	2016.05.25
-+where:	http://architecture.woodbury.edu
++who:    UWisc Neotoma Paleological Database (=) NEOTOMA
++what:   81233
++when:   2016.05.26
++where:	http://neotomadb.org
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Branda, Ewan ||| Ewan.Branda@woodbury.edu | 
-+!address: 7500 N Glenoaks Blvd, Burbank, CA 91504
++!why:   EZID ARK
++!contact: eziduserid uwisc_neotoma
++!address: 550 N Park St, Madison WI 53715
++
++naa:
++who:    UWisc IceCube Astrophysics Center (=) WIPAC
++what:   81234
++when:   2016.05.26
++where:	https://wipac.wisc.edu
++how:	NP | (:unkn) unknown | 2016 |
++!why:   EZID ARK
++!contact: eziduserid wisc_icecube
++!address: 222 W Washington Ave, Suite 500, Madison WI, 53703
++
++naa:
++who:    Stanford Encyclopedia of Philosophy (=) SEP
++what:   81235
++when:   2016.05.26
++where:	http://plato.stanford.edu
++how:	NP | (:unkn) unknown | 2016 |
++!why:   EZID ARK
++!contact: eziduserid sepeditors
++!address: 202 Cordura Hall  Stanford University  Stanford, CA 94305-4115
++
++naa:
++who:    Defense Technical Information Center (DTIC) (=) DTIC
++what:   81236
++when:   2016.05.26
++where:	http://www.dtic.mil
++how:	NP | (:unkn) unknown | 2016 |
++!why:   EZID ARK
++!contact: eziduserid dtic-ci
++!address: 8725 John J. Kingman Rd.  Ft. Belvoir, VA 22060
 +
  #!naa:

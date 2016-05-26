@@ -433,6 +433,11 @@
 81229	UCSB ECE Dept Mostofi Lab (=) UCSBECE
 81231	University of Wisconsin-Madison (=) UWISC
 25309	Woodbury University School of Architecture (=) WUSA
+81232	UWisc EcoSIS (=) ECOSIS
+81233	UWisc Neotoma Paleological Database (=) NEOTOMA
+81234	UWisc IceCube Astrophysics Center (=) WIPAC
+81235	Stanford Encyclopedia of Philosophy (=) SEP
+81236	Defense Technical Information Center (DTIC) (=) DTIC
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
