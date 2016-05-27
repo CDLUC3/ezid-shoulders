@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.05.26
+when:	2016.05.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3361,6 +3361,13 @@ who:    Defense Technical Information Center (DTIC) (=) DTIC
 what:   81236
 when:   2016.05.26
 where:	http://www.dtic.mil
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Hachette Livre (=) HACHETTE
+what:	12313
+when:	2016.05.27
+where:	http://www.hachette.com
 how:	NP | (:unkn) unknown | 2016 |
 
 
