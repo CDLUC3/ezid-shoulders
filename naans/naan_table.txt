@@ -439,6 +439,7 @@
 81235	Stanford Encyclopedia of Philosophy (=) SEP
 81236	Defense Technical Information Center (DTIC) (=) DTIC
 12313	Hachette Livre (=) HACHETTE
+81238	UCSD Scripps Spray Plotting (=) UCSDIDG
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

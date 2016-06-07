@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21237 10.21238 10.21239 
+# 10.21239 10.21414 10.21415 10.21416 10.21417 10.21418 10.21419 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -89,20 +89,6 @@
 # ZZZ AVOID digits 0 and 1 in shoulders!
 
 # A record of recent make_ezacct invocations:
-# make_ezacct cdl 10.20354 b4 "" b3 < ezaccts/newacct > out
-# make_ezacct purdue 10.20356 c4 "" s5 < ezaccts/newacct > out
-# make_ezacct cdl 10.20360 g2 "" - < ezaccts/newacct > out
-# make_ezacct cdl 10.20361 k3 "" - < ezaccts/newacct > out
-# Starting here, the realm arg to make_ezacct was no longer needed
-# make_ezacct -n 10.21220 m2 "" w2 < ezaccts/newacct > out
-# make_ezacct -n 10.13012 b2 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21221 c2 "" s4 < ezaccts/newacct > out
-# make_ezacct -n 10.21222 d2 "" r7 < ezaccts/newacct > out
-# make_ezacct -n 10.21223 p3 "" c2 < ezaccts/newacct > out
-# make_ezacct -n 10.21224 p4 "" h2 < ezaccts/newacct > out
-# make_ezacct -n 10.21225 d5 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21226 t2 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21227 h2 "" h7 < ezaccts/newacct > out
 # make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
 # make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
 # make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
@@ -114,6 +100,37 @@
 # icecube  make_ezacct -n 10.21234 b4 "" b8 < ezaccts/newacct > out
 # stanford make_ezacct -n 10.21235 - "" - < ezaccts/newacct > out
 # dtic     make_ezacct -n 10.21236 d6 "" t3 < ezaccts/newacct > out
+# cliodyna make_ezacct -n 10.21237 c7 "" - < ezaccts/newacct > out
+# ucsdspra make_ezacct -n 10.21238 s8 "" s3 < ezaccts/newacct > out
+
+:: ark:/81238/s3
+type: shoulder
+manager: ezid
+#eziduser: ucsd_spray
+name: UCSD Scripps Spray Plotting
+date: 2016.06.07
+minter: https://n2t.net/a/ezid/m/ark/81238/s3
+
+:: doi:10.21238/S8
+type: shoulder
+manager: ezid
+#eziduser: ucsd_spray
+name: UCSD Scripps Spray Plotting
+date: 2016.06.07
+minter: https://n2t.net/a/ezid/m/ark/d1238/s8
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.21237/C7
+type: shoulder
+manager: ezid
+#eziduser: ucr-jclio
+name: Cliodynamics Journal
+date: 2016.05.31
+minter: https://n2t.net/a/ezid/m/ark/d1237/c7
+datacenter: CDL.UCR
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/81236/t3
 type: shoulder
@@ -972,6 +989,7 @@ name: UC Riverside DASH
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/b6086/d1
 datacenter: CDL.UCR
+prefix_shares_datacenter: true
 
 # Coastal Data Information Program
 :: ark:/88437/c3
@@ -4624,6 +4642,7 @@ name: UC Riverside
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/b6086/n1
 datacenter: CDL.UCR
+prefix_shares_datacenter: true
 
 :: ark:/87264/n4
 type: shoulder

@@ -1,16 +1,16 @@
-diff -r 2324b673e159 naans/master_naans
---- a/naans/master_naans	Thu May 26 15:30:06 2016 -0700
-+++ b/naans/master_naans	Fri May 27 08:45:20 2016 -0700
-@@ -4335,2 +4335,12 @@
+diff -r 8cc8ffa133e2 naans/master_naans
+--- a/naans/master_naans	Fri May 27 08:45:21 2016 -0700
++++ b/naans/master_naans	Tue Jun 07 13:43:02 2016 -0700
+@@ -4345,2 +4345,12 @@
  
 +naa:
-+who:	Hachette Livre (=) HACHETTE
-+what:	12313
-+when:	2016.05.27
-+where:	http://www.hachette.com
++who:    UCSD Scripps Spray Plotting (=) UCSDIDG
++what:   81238
++when:   2016.06.07
++where:	http://spray.ucsd.edu
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Audrain, Luc ||| laudrain@hachette-livre.fr | +33 (0) 1 43 92 33 02
-+!address: 58, rue Jean Bleuzen, 92170 Vanves, France
++!why:   EZID ARK
++!contact: eziduserid ucsd_spray
++!address: 9500 Gilman Dr, La Jolla, CA 92093
 +
  #!naa:

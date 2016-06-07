@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21232 10.21233 10.21234 10.21235 10.21236 10.21237 10.21238 10.21239 
+# 10.21238 10.21239 10.21414 10.21415 10.21416 10.21417 10.21418 10.21419 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -89,25 +89,127 @@
 # ZZZ AVOID digits 0 and 1 in shoulders!
 
 # A record of recent make_ezacct invocations:
-# make_ezacct cdl 10.20354 b4 "" b3 < ezaccts/newacct > out
-# make_ezacct purdue 10.20356 c4 "" s5 < ezaccts/newacct > out
-# make_ezacct cdl 10.20360 g2 "" - < ezaccts/newacct > out
-# make_ezacct cdl 10.20361 k3 "" - < ezaccts/newacct > out
-# Starting here, the realm arg to make_ezacct was no longer needed
-# make_ezacct -n 10.21220 m2 "" w2 < ezaccts/newacct > out
-# make_ezacct -n 10.13012 b2 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21221 c2 "" s4 < ezaccts/newacct > out
-# make_ezacct -n 10.21222 d2 "" r7 < ezaccts/newacct > out
-# make_ezacct -n 10.21223 p3 "" c2 < ezaccts/newacct > out
-# make_ezacct -n 10.21224 p4 "" h2 < ezaccts/newacct > out
-# make_ezacct -n 10.21225 d5 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21226 t2 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21227 h2 "" h7 < ezaccts/newacct > out
 # make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
 # make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
 # make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
 # make_ezacct -n 10.21230 f3 "" - < ezaccts/newacct > out
 # make_ezacct -n 10.21231 m3 "" m2 < ezaccts/newacct > out
+# Starting here, added a brief mnemonic tag in front of command
+# ecosis   make_ezacct -n 10.21232 c2 "" d6 < ezaccts/newacct > out
+# neotoma  make_ezacct -n 10.21233 n3 "" n7 < ezaccts/newacct > out
+# icecube  make_ezacct -n 10.21234 b4 "" b8 < ezaccts/newacct > out
+# stanford make_ezacct -n 10.21235 - "" - < ezaccts/newacct > out
+# dtic     make_ezacct -n 10.21236 d6 "" t3 < ezaccts/newacct > out
+# cliodyna make_ezacct -n 10.21237 c7 "" - < ezaccts/newacct > out
+
+:: doi:10.21237/C7
+type: shoulder
+manager: ezid
+#eziduser: ucr-jclio
+name: Cliodynamics Journal
+date: 2016.05.31
+minter: https://n2t.net/a/ezid/m/ark/d1237/c7
+datacenter: CDL.UCR
+crossref: true
+prefix_shares_datacenter: true
+
+:: ark:/81236/t3
+type: shoulder
+manager: ezid
+#eziduser: dtic-ci
+name: Defense Technical Information Center (DTIC)
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/81236/t3
+
+:: datacite:CDL.DTIC
+type: datacenter
+manager: ezid
+name: Defense Technical Information Center (DTIC)
+
+:: doi:10.21236/D6
+type: shoulder
+manager: ezid
+#eziduser: dtic-ci
+name: Defense Technical Information Center (DTIC)
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/d1236/d6
+datacenter: CDL.DTIC
+
+:: ark:/81235/
+type: shoulder
+manager: ezid
+#eziduser: sepeditors
+name: Stanford Encyclopedia of Philosophy
+date: 2016.05.26
+minter: 
+
+:: datacite:CDL.SEP
+type: datacenter
+manager: ezid
+name: Stanford Encyclopedia of Philosophy
+
+:: doi:10.21235/
+type: shoulder
+manager: ezid
+#eziduser: sepeditors
+name: Stanford Encyclopedia of Philosophy
+date: 2016.05.26
+minter: 
+datacenter: CDL.SEP
+
+:: ark:/81234/b8
+type: shoulder
+manager: ezid
+#eziduser: wisc_icecube
+name: UWisc IceCube Astrophysics Center
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/81234/b8
+
+:: doi:10.21234/B4
+type: shoulder
+manager: ezid
+#eziduser: wisc_icecube
+name: UWisc IceCube Astrophysics Center
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/d1234/b4
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
+
+:: ark:/81233/n7
+type: shoulder
+manager: ezid
+#eziduser: uwisc_neotoma
+name: UWisc Neotoma Paleological Database
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/81233/n7
+
+:: doi:10.21233/N3
+type: shoulder
+manager: ezid
+#eziduser: uwisc_neotoma
+name: UWisc Neotoma Paleological Database
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/d1233/n3
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
+
+:: ark:/81232/d6
+type: shoulder
+manager: ezid
+#eziduser: uwisc_ecosis
+name: UWisc EcoSIS
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/81232/d6
+
+:: doi:10.21232/C2
+type: shoulder
+manager: ezid
+#eziduser: uwisc_ecosis
+name: UWisc EcoSIS
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/d1232/c2
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
 
 :: ark:/81231/m2
 type: shoulder
@@ -130,6 +232,7 @@ name: University of Wisconsin-Madison
 date: 2016.05.25
 minter: https://n2t.net/a/ezid/m/ark/d1231/m3
 datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
 
 :: doi:10.21230/F3
 type: shoulder
@@ -867,6 +970,7 @@ name: UC Riverside DASH
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/b6086/d1
 datacenter: CDL.UCR
+prefix_shares_datacenter: true
 
 # Coastal Data Information Program
 :: ark:/88437/c3
@@ -4519,6 +4623,7 @@ name: UC Riverside
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/b6086/n1
 datacenter: CDL.UCR
+prefix_shares_datacenter: true
 
 :: ark:/87264/n4
 type: shoulder
