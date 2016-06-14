@@ -497,6 +497,10 @@ contact: eziduserid sepeditors
 contact: eziduserid dtic-ci
 contact: Audrain, Luc ||| laudrain@hachette-livre.fr | +33 (0) 1 43 92 33 02
 contact: eziduserid ucsd_spray
+contact: Berthoix, Michaël ||| mberthoix@maskott.com |
+contact: Redon, Brigitte ||| bredon@itop.fr | +33(0)9 70 72 29 29
+contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 392
+contact: eziduserid invemarodi
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

@@ -440,6 +440,10 @@
 81236	Defense Technical Information Center (DTIC) (=) DTIC
 12313	Hachette Livre (=) HACHETTE
 81238	UCSD Scripps Spray Plotting (=) UCSDIDG
+86527	Maskott (=) MASKOTT
+73532	ITOP éducation (=) ITOP
+60878	eduMedia (=) EDUMEDIA
+81239	Marine and Coastal Research Institute of Columbia (=) INVEMAR
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

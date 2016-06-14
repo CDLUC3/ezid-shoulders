@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.07
+when:	2016.06.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3375,6 +3375,34 @@ who:    UCSD Scripps Spray Plotting (=) UCSDIDG
 what:   81238
 when:   2016.06.07
 where:	http://spray.ucsd.edu
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Maskott (=) MASKOTT
+what:	86527
+when:	2016.06.14
+where:	http://www.maskott.com
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	ITOP éducation (=) ITOP
+what:	73532
+when:	2016.06.14
+where:	http://www.itopeducation.fr
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	eduMedia (=) EDUMEDIA
+what:	60878
+when:	2016.06.14
+where:	https://www.edumedia-sciences.com
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    Marine and Coastal Research Institute of Columbia (=) INVEMAR
+what:   81239
+when:   2016.06.14
+where:	http://www.invemar.org.co
 how:	NP | (:unkn) unknown | 2016 |
 
 

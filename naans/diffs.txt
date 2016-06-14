@@ -1,16 +1,46 @@
-diff -r 8cc8ffa133e2 naans/master_naans
---- a/naans/master_naans	Fri May 27 08:45:21 2016 -0700
-+++ b/naans/master_naans	Tue Jun 07 13:43:02 2016 -0700
-@@ -4345,2 +4345,12 @@
+diff -r 438c852941df naans/master_naans
+--- a/naans/master_naans	Tue Jun 07 13:43:02 2016 -0700
++++ b/naans/master_naans	Tue Jun 14 14:17:07 2016 -0700
+@@ -4355,2 +4355,42 @@
  
 +naa:
-+who:    UCSD Scripps Spray Plotting (=) UCSDIDG
-+what:   81238
-+when:   2016.06.07
-+where:	http://spray.ucsd.edu
++who:	Maskott (=) MASKOTT
++what:	86527
++when:	2016.06.14
++where:	http://www.maskott.com
++how:	NP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Berthoix, Michaël ||| mberthoix@maskott.com |
++!address: 21 avenue des Belges, 43000 Le Puy en Velay, France
++
++naa:
++who:	ITOP éducation (=) ITOP
++what:	73532
++when:	2016.06.14
++where:	http://www.itopeducation.fr
++how:	NP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Redon, Brigitte ||| bredon@itop.fr | +33(0)9 70 72 29 29
++!address: Route de l'Orme des Merisiers - Parc des Algorithmes, Immeuble Platon - 91190 Saint-Aubin, France
++
++naa:
++who:	eduMedia (=) EDUMEDIA
++what:	60878
++when:	2016.06.14
++where:	https://www.edumedia-sciences.com
++how:	NP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 392
++!address: 8 rue Borie, 33300 Bordeaux, France
++
++naa:
++who:    Marine and Coastal Research Institute of Columbia (=) INVEMAR
++what:   81239
++when:   2016.06.14
++where:	http://www.invemar.org.co
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid ucsd_spray
-+!address: 9500 Gilman Dr, La Jolla, CA 92093
++!contact: eziduserid invemarodi
++!address: Calle 25 No. 2-55, Playa Salguero,  Santa Marta D.T.C.H., Colombia
 +
  #!naa:

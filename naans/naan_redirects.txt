@@ -441,6 +441,10 @@ RedirectMatch ^/((ark:/81235)|81235/?)(.*)$ http://plato.stanford.edu/$2$3
 RedirectMatch ^/((ark:/81236)|81236/?)(.*)$ http://www.dtic.mil/$2$3
 RedirectMatch ^/((ark:/12313)|12313/?)(.*)$ http://www.hachette.com/$2$3
 RedirectMatch ^/((ark:/81238)|81238/?)(.*)$ http://spray.ucsd.edu/$2$3
+RedirectMatch ^/((ark:/86527)|86527/?)(.*)$ http://www.maskott.com/$2$3
+RedirectMatch ^/((ark:/73532)|73532/?)(.*)$ http://www.itopeducation.fr/$2$3
+RedirectMatch ^/((ark:/60878)|60878/?)(.*)$ https://www.edumedia-sciences.com/$2$3
+RedirectMatch ^/((ark:/81239)|81239/?)(.*)$ http://www.invemar.org.co/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

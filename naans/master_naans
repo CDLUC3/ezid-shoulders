@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.07
+when:	2016.06.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4352,6 +4352,46 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid ucsd_spray
 !address: 9500 Gilman Dr, La Jolla, CA 92093
+
+naa:
+who:	Maskott (=) MASKOTT
+what:	86527
+when:	2016.06.14
+where:	http://www.maskott.com
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Berthoix, Michaël ||| mberthoix@maskott.com |
+!address: 21 avenue des Belges, 43000 Le Puy en Velay, France
+
+naa:
+who:	ITOP éducation (=) ITOP
+what:	73532
+when:	2016.06.14
+where:	http://www.itopeducation.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Redon, Brigitte ||| bredon@itop.fr | +33(0)9 70 72 29 29
+!address: Route de l'Orme des Merisiers - Parc des Algorithmes, Immeuble Platon - 91190 Saint-Aubin, France
+
+naa:
+who:	eduMedia (=) EDUMEDIA
+what:	60878
+when:	2016.06.14
+where:	https://www.edumedia-sciences.com
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 392
+!address: 8 rue Borie, 33300 Bordeaux, France
+
+naa:
+who:    Marine and Coastal Research Institute of Columbia (=) INVEMAR
+what:   81239
+when:   2016.06.14
+where:	http://www.invemar.org.co
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid invemarodi
+!address: Calle 25 No. 2-55, Playa Salguero,  Santa Marta D.T.C.H., Colombia
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3
