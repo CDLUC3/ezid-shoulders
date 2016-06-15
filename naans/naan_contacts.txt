@@ -501,6 +501,7 @@ contact: Berthoix, Michaël ||| mberthoix@maskott.com |
 contact: Redon, Brigitte ||| bredon@itop.fr | +33(0)9 70 72 29 29
 contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 392
 contact: eziduserid invemarodi
+contact: Laborde, Jean-Marie ||| jean-marie.laborde@cabri.com | +33 (0)4 76 43 97 00
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

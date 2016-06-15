@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.14
+when:	2016.06.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3403,6 +3403,13 @@ who:    Marine and Coastal Research Institute of Columbia (=) INVEMAR
 what:   81239
 when:   2016.06.14
 where:	http://www.invemar.org.co
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Cabrilog SAS (=) CABRILOG
+what:	47882
+when:	2016.06.15
+where:	http://www.cabri.com
 how:	NP | (:unkn) unknown | 2016 |
 
 
