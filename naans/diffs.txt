@@ -1,16 +1,16 @@
-diff -r f64e9a2d0ee4 naans/master_naans
---- a/naans/master_naans	Tue Jun 14 14:17:07 2016 -0700
-+++ b/naans/master_naans	Wed Jun 15 13:11:45 2016 -0700
-@@ -4395,2 +4395,12 @@
+diff -r 4e4837d9dfd0 naans/master_naans
+--- a/naans/master_naans	Wed Jun 15 13:11:45 2016 -0700
++++ b/naans/master_naans	Mon Jun 20 10:24:21 2016 -0700
+@@ -4405,2 +4405,12 @@
  
 +naa:
-+who:	Cabrilog SAS (=) CABRILOG
-+what:	47882
-+when:	2016.06.15
-+where:	http://www.cabri.com
++who:	Encyclopædia Universalis (=) ENCYCLOU
++what:	34885
++when:	2016.06.20
++where:	http://www.encyclopaedia-universalis.fr/contacts
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Laborde, Jean-Marie ||| jean-marie.laborde@cabri.com | +33 (0)4 76 43 97 00
-+!address: 122 avenue du Vercors, 38600 Fontaine, France
++!contact: Boiteux, Eric ||| eboiteux@universalis.fr |
++!address: 88 ter avenue du Général Leclerc, 92100 Boulogne-Billancourt, France
 +
  #!naa:

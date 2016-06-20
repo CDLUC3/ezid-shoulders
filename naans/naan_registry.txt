@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.15
+when:	2016.06.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3410,6 +3410,13 @@ who:	Cabrilog SAS (=) CABRILOG
 what:	47882
 when:	2016.06.15
 where:	http://www.cabri.com
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Encyclopædia Universalis (=) ENCYCLOU
+what:	34885
+when:	2016.06.20
+where:	http://www.encyclopaedia-universalis.fr/contacts
 how:	NP | (:unkn) unknown | 2016 |
 
 

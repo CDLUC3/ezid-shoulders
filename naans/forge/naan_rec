@@ -105,6 +105,11 @@ Thanks for your message.  The NAAN,\
 has been registered for the $institution and you may begin\
 using it immediately.\
 \
+Please note that $id is intended for assigning ARKs to content\
+that your institution directly curates or creates.  In case you work with\
+other institutions that use your tools and services for content that they\
+curate or create, those institutions should obtain their own NAANs.\
+\
 In thinking about how to manage the namespace, you may find it helpful\
 to consider the usual practice of partitioning it with reserved prefixes\
 of, say 1-5 characters, eg, names of the form "'"'"ark:/$id/xt3...."'"'" for\

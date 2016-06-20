@@ -212,13 +212,15 @@ prod = jak@www.cdlib.org
 
 # xxx this is actually a kind of "publish" as much as "replicate"
 # The hg push below "replicates" any files that aren't on the dependency
-# list below, eg, forge/grandfathered .
+# list below, eg, forge/grandfathered.  yyy using this step to copy most
+# current copy of NAAN registry to where running resolver can find it.
 #
 replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
 	@echo "Publishing to $(stage) "
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
 	@echo "Publishing to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
+	cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/
 	hg push
 
 #remote = jak@ucop.edu
