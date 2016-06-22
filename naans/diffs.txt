@@ -1,16 +1,16 @@
-diff -r 4e4837d9dfd0 naans/master_naans
---- a/naans/master_naans	Wed Jun 15 13:11:45 2016 -0700
-+++ b/naans/master_naans	Mon Jun 20 10:24:21 2016 -0700
-@@ -4405,2 +4405,12 @@
+diff -r 912feb4c913c naans/master_naans
+--- a/naans/master_naans	Mon Jun 20 10:24:21 2016 -0700
++++ b/naans/master_naans	Wed Jun 22 14:24:31 2016 -0700
+@@ -4415,2 +4415,12 @@
  
 +naa:
-+who:	Encyclopædia Universalis (=) ENCYCLOU
-+what:	34885
-+when:	2016.06.20
-+where:	http://www.encyclopaedia-universalis.fr/contacts
++who:    Southern Illinois University Edwardsville (=) SIUE
++what:   81414
++when:   2016.06.22
++where:	http://www.siue.edu/lovejoylibrary
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Boiteux, Eric ||| eboiteux@universalis.fr |
-+!address: 88 ter avenue du Général Leclerc, 92100 Boulogne-Billancourt, France
++!why:   EZID ARK
++!contact: eziduserid lovejoy
++!address: Library and Info. Services, Campus Box 1063, 30 Hairpin Drive, Edwardsville, IL 62026
 +
  #!naa:

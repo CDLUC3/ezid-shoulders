@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.15
+when:	2016.06.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4412,6 +4412,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Boiteux, Eric ||| eboiteux@universalis.fr |
 !address: 88 ter avenue du Général Leclerc, 92100 Boulogne-Billancourt, France
+
+naa:
+who:    Southern Illinois University Edwardsville (=) SIUE
+what:   81414
+when:   2016.06.22
+where:	http://www.siue.edu/lovejoylibrary
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid lovejoy
+!address: Library and Info. Services, Campus Box 1063, 30 Hairpin Drive, Edwardsville, IL 62026
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

@@ -446,6 +446,7 @@
 81239	Marine and Coastal Research Institute of Columbia (=) INVEMAR
 47882	Cabrilog SAS (=) CABRILOG
 34885	Encyclopædia Universalis (=) ENCYCLOU
+81414	Southern Illinois University Edwardsville (=) SIUE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
