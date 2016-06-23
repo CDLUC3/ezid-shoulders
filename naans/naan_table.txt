@@ -447,6 +447,7 @@
 47882	Cabrilog SAS (=) CABRILOG
 34885	Encyclopædia Universalis (=) ENCYCLOU
 81414	Southern Illinois University Edwardsville (=) SIUE
+81415	TalkBank (=) TALKBANK
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
