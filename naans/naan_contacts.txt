@@ -505,6 +505,7 @@ contact: Laborde, Jean-Marie ||| jean-marie.laborde@cabri.com | +33 (0)4 76 43 9
 contact: Boiteux, Eric ||| eboiteux@universalis.fr |
 contact: eziduserid lovejoy
 contact: eziduserid talkbank
+contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

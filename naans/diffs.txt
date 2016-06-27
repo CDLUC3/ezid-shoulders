@@ -1,16 +1,16 @@
-diff -r 12c9c03e6ca9 naans/master_naans
---- a/naans/master_naans	Wed Jun 22 14:24:31 2016 -0700
-+++ b/naans/master_naans	Thu Jun 23 14:00:22 2016 -0700
-@@ -4425,2 +4425,12 @@
+diff -r e19fb0f0116a naans/master_naans
+--- a/naans/master_naans	Thu Jun 23 14:00:22 2016 -0700
++++ b/naans/master_naans	Mon Jun 27 11:02:11 2016 -0700
+@@ -4435,2 +4435,12 @@
  
 +naa:
-+who:    TalkBank (=) TALKBANK
-+what:   81415
-+when:   2016.06.23
-+where:	http://talkbank.org
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:   EZID ARK
-+!contact: eziduserid talkbank
-+!address: c/o Brian MacWhinney  CMU-Psychology  5000 Forbes Ave Pittsburgh. PA 15213
++who:	Editis Éducation & Référence (=) EDITIS
++what:	21889
++when:	2016.06.27
++where:	http://www.editis.fr
++how:	FP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
++!address: 30 Place d’Italie, Paris, France
 +
  #!naa:
