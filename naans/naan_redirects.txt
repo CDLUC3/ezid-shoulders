@@ -450,6 +450,7 @@ RedirectMatch ^/((ark:/34885)|34885/?)(.*)$ http://www.encyclopaedia-universalis
 RedirectMatch ^/((ark:/81414)|81414/?)(.*)$ http://www.siue.edu/lovejoylibrary/$2$3
 RedirectMatch ^/((ark:/81415)|81415/?)(.*)$ http://talkbank.org/$2$3
 RedirectMatch ^/((ark:/21889)|21889/?)(.*)$ http://www.editis.fr/$2$3
+RedirectMatch ^/((ark:/83108)|83108/?)(.*)$ http://www.tpm-agglo.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.23
+when:	2016.06.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4442,6 +4442,16 @@ how:	FP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 !address: 30 Place d’Italie, Paris, France
+
+naa:
+who:	Toulon Provence Méditerranée (=) TPM
+what:	83108
+when:	2016.06.28
+where:	http://www.tpm-agglo.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
+!address: 107 Boulevard Henri Fabre - CS 30536, 83041 TOULON Cedex 09, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

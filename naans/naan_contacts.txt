@@ -506,6 +506,7 @@ contact: Boiteux, Eric ||| eboiteux@universalis.fr |
 contact: eziduserid lovejoy
 contact: eziduserid talkbank
 contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
+contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

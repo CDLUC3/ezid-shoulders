@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.06.27
+when:	2016.06.28
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3439,6 +3439,13 @@ what:	21889
 when:	2016.06.27
 where:	http://www.editis.fr
 how:	FP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Toulon Provence Méditerranée (=) TPM
+what:	83108
+when:	2016.06.28
+where:	http://www.tpm-agglo.fr
+how:	NP | (:unkn) unknown | 2016 |
 
 
 
