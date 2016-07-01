@@ -95,6 +95,8 @@ how:	NP | (:unkn) unknown | $year |\
 " > new_naa
 cat new_naa >> recent_naas
 
+# XXX when/if this text is converted to hypertext, use this link for
+# the ezid.cdlib.org homepage http://bit.ly/1Q5dKH0
 echo "\
 Hi $first,\
 \
@@ -125,7 +127,7 @@ There is a public discussion group for ARKs (Archival Resource Keys) at\
 \
 intended for people interested in sharing with and learning from others\
 about how ARKs have been or could be used in identifier applications.\
-There is also a service called EZID (http://n2t.net/ezid) that you may\
+There is also a service called EZID (http://ezid.cdlib.org) that you may\
 wish to use to manage your namespace, which includes minting and resolving\
 ARKs, DOIs, and other identifiers, as well as maintaining metadata.\
 Please contact joan.starr@ucop.edu if you are interested in EZID.\
