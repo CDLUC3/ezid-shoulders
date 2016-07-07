@@ -1,26 +1,16 @@
-diff -r 07ea3291fc09 naans/master_naans
---- a/naans/master_naans	Mon Jun 27 11:02:11 2016 -0700
-+++ b/naans/master_naans	Thu Jun 30 17:28:38 2016 -0700
-@@ -4445,2 +4445,22 @@
+diff -r bb8da9362df5 naans/master_naans
+--- a/naans/master_naans	Thu Jun 30 17:31:06 2016 -0700
++++ b/naans/master_naans	Wed Jul 06 18:39:27 2016 -0700
+@@ -4465,2 +4465,12 @@
  
 +naa:
-+who:	Toulon Provence Méditerranée (=) TPM
-+what:	83108
-+when:	2016.06.28
-+where:	http://www.tpm-agglo.fr
-+how:	NP | (:unkn) unknown | 2016 |
++who:	Association Sésamath (=) SESAMATH
++what:	70454
++when:	2016.07.06
++where:	http://www.sesamath.net
++how:	FP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
-+!address: 107 Boulevard Henri Fabre - CS 30536, 83041 TOULON Cedex 09, France
-+
-+naa:
-+who:    UW Information Technology Services (=) UWITS
-+what:   81416
-+when:   2016.06.29
-+where:	http://www.washington.edu/uwit
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:   EZID ARK
-+!contact: eziduserid uw_rw
-+!address: University of Washington Libraries  Box 352900  Seattle, WA 9895
++!contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
++!address: 1350 Route des fruitiers - Les Planards - 26600 Erôme - France
 +
  #!naa:
