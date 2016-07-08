@@ -1,16 +1,16 @@
-diff -r bb8da9362df5 naans/master_naans
---- a/naans/master_naans	Thu Jun 30 17:31:06 2016 -0700
-+++ b/naans/master_naans	Wed Jul 06 18:39:27 2016 -0700
-@@ -4465,2 +4465,12 @@
+diff -r a608c4febbf3 naans/master_naans
+--- a/naans/master_naans	Wed Jul 06 18:39:27 2016 -0700
++++ b/naans/master_naans	Fri Jul 08 10:55:57 2016 -0700
+@@ -4475,2 +4475,12 @@
  
 +naa:
-+who:	Association Sésamath (=) SESAMATH
-+what:	70454
-+when:	2016.07.06
-+where:	http://www.sesamath.net
-+how:	FP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
-+!address: 1350 Route des fruitiers - Les Planards - 26600 Erôme - France
++who:    Adaptive Biotechnologies (=) ADAPTIVE
++what:   81417
++when:   2016.07.08
++where:	http://www.adaptivebiotech.com
++how:	NP | (:unkn) unknown | 2016 |
++!why:   EZID ARK
++!contact: eziduserid adaptive
++!address: 1551 Eastlake Ave E #200  Seattle, WA 98102
 +
  #!naa:

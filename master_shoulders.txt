@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21417 10.21418 10.21419 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
+# 10.21418 10.21419 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -106,6 +106,29 @@
 # siue     make_ezacct -n 10.21414 t4 "" d2 < ezaccts/newacct > out
 # talkbank make_ezacct -n 10.21415 t5 "" b4 < ezaccts/newacct > out
 # uwits    make_ezacct -n 10.21416 t6 "" s4 < ezaccts/newacct > out
+# adaptive make_ezacct -n 10.21417 b7 "" b4 < ezaccts/newacct > out
+
+:: ark:/81417/b4
+type: shoulder
+manager: ezid
+#eziduser: adaptive
+name: Adaptive Biotechnologies
+date: 2016.07.08
+minter: https://n2t.net/a/ezid/m/ark/81417/b4
+
+:: datacite:CDL.ADAPTIVE
+type: datacenter
+manager: ezid
+name: Adaptive Biotechnologies
+
+:: doi:10.21417/B7
+type: shoulder
+manager: ezid
+#eziduser: adaptive
+name: Adaptive Biotechnologies
+date: 2016.07.08
+minter: https://n2t.net/a/ezid/m/ark/d1417/b7
+datacenter: CDL.ADAPTIVE
 
 :: ark:/81416/s4
 type: shoulder

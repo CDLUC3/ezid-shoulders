@@ -509,6 +509,7 @@ contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 contact: eziduserid uw_rw
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
+contact: eziduserid adaptive
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
