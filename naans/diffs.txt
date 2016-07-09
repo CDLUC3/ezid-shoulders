@@ -1,16 +1,16 @@
-diff -r a608c4febbf3 naans/master_naans
---- a/naans/master_naans	Wed Jul 06 18:39:27 2016 -0700
-+++ b/naans/master_naans	Fri Jul 08 10:55:57 2016 -0700
-@@ -4475,2 +4475,12 @@
+diff -r 2c35e8ea370d naans/master_naans
+--- a/naans/master_naans	Fri Jul 08 10:55:57 2016 -0700
++++ b/naans/master_naans	Sat Jul 09 07:52:12 2016 -0700
+@@ -4485,2 +4485,12 @@
  
 +naa:
-+who:    Adaptive Biotechnologies (=) ADAPTIVE
-+what:   81417
-+when:   2016.07.08
-+where:	http://www.adaptivebiotech.com
++who:    UCB Geotechnical Engineering Research (=) UCBGT
++what:   81418
++when:   2016.07.09
++where:	http://www.ce.berkeley.edu/programs/geo
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid adaptive
-+!address: 1551 Eastlake Ave E #200  Seattle, WA 98102
++!contact: eziduserid ucb-geotech
++!address: 750 Davis Hall  UC Berkeley  94720-1710
 +
  #!naa:

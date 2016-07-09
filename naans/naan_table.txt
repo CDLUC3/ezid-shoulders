@@ -453,6 +453,7 @@
 81416	UW Information Technology Services (=) UWITS
 70454	Association Sésamath (=) SESAMATH
 81417	Adaptive Biotechnologies (=) ADAPTIVE
+81418	UCB Geotechnical Engineering Research (=) UCBGT
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
