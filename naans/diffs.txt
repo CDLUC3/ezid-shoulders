@@ -1,16 +1,16 @@
-diff -r 2c35e8ea370d naans/master_naans
---- a/naans/master_naans	Fri Jul 08 10:55:57 2016 -0700
-+++ b/naans/master_naans	Sat Jul 09 07:52:12 2016 -0700
-@@ -4485,2 +4485,12 @@
+diff -r 193f3afa11d8 naans/master_naans
+--- a/naans/master_naans	Sat Jul 09 07:52:12 2016 -0700
++++ b/naans/master_naans	Wed Jul 13 06:34:05 2016 -0700
+@@ -4495,2 +4495,12 @@
  
 +naa:
-+who:    UCB Geotechnical Engineering Research (=) UCBGT
-+what:   81418
-+when:   2016.07.09
-+where:	http://www.ce.berkeley.edu/programs/geo
++who:    University of Washington Bothell (=) UWB
++what:   81419
++when:   2016.07.13
++where:	https://www.uwb.edu
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid ucb-geotech
-+!address: 750 Davis Hall  UC Berkeley  94720-1710
++!contact: eziduserid uw_bothell
++!address: Box 358500, 18115 Campus Way NE,  Bothell, WA
 +
  #!naa:

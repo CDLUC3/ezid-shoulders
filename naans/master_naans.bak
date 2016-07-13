@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.07.08
+when:	2016.07.09
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4492,6 +4492,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid ucb-geotech
 !address: 750 Davis Hall  UC Berkeley  94720-1710
+
+naa:
+who:    University of Washington Bothell (=) UWB
+what:   81419
+when:   2016.07.13
+where:	https://www.uwb.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:   EZID ARK
+!contact: eziduserid uw_bothell
+!address: Box 358500, 18115 Campus Way NE,  Bothell, WA
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

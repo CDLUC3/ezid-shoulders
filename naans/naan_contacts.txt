@@ -511,6 +511,7 @@ contact: eziduserid uw_rw
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
 contact: eziduserid adaptive
 contact: eziduserid ucb-geotech
+contact: eziduserid uw_bothell
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

@@ -455,6 +455,7 @@ RedirectMatch ^/((ark:/81416)|81416/?)(.*)$ http://www.washington.edu/uwit/$2$3
 RedirectMatch ^/((ark:/70454)|70454/?)(.*)$ http://www.sesamath.net/$2$3
 RedirectMatch ^/((ark:/81417)|81417/?)(.*)$ http://www.adaptivebiotech.com/$2$3
 RedirectMatch ^/((ark:/81418)|81418/?)(.*)$ http://www.ce.berkeley.edu/programs/geo/$2$3
+RedirectMatch ^/((ark:/81419)|81419/?)(.*)$ https://www.uwb.edu/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

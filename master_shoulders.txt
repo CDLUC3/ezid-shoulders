@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21419 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
+# 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -108,6 +108,29 @@
 # uwits    make_ezacct -n 10.21416 t6 "" s4 < ezaccts/newacct > out
 # adaptive make_ezacct -n 10.21417 b7 "" b4 < ezaccts/newacct > out
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
+# usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
+
+:: ark:/81419/b2
+type: shoulder
+manager: ezid
+#eziduser: uw_bothell
+name: University of Washington Bothell
+date: 2016.07.13
+minter: https://n2t.net/a/ezid/m/ark/81419/b2
+
+:: datacite:CDL.UWB
+type: datacenter
+manager: ezid
+name: University of Washington Bothell
+
+:: doi:10.21419/B9
+type: shoulder
+manager: ezid
+#eziduser: uw_bothell
+name: University of Washington Bothell
+date: 2016.07.13
+minter: https://n2t.net/a/ezid/m/ark/d1419/b9
+datacenter: CDL.UWB
 
 :: ark:/81418/g4
 type: shoulder
