@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.07.09
+when:	2016.07.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4502,6 +4502,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid uw_bothell
 !address: Box 358500, 18115 Campus Way NE,  Bothell, WA
+
+naa:
+who:	Saint-Gobain (=) STGOBAIN
+what:	57458
+when:	2016.07.25
+where:	https://www.saint-gobain.com
+how:	FP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
+!address: 18 Avenue d'Alsace, 92400 Courbevoie, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 3 (=) DATACTR3

@@ -1,16 +1,16 @@
-diff -r 193f3afa11d8 naans/master_naans
---- a/naans/master_naans	Sat Jul 09 07:52:12 2016 -0700
-+++ b/naans/master_naans	Wed Jul 13 06:34:05 2016 -0700
-@@ -4495,2 +4495,12 @@
+diff -r 18ce7a572b62 naans/master_naans
+--- a/naans/master_naans	Wed Jul 13 06:34:05 2016 -0700
++++ b/naans/master_naans	Mon Jul 25 14:58:48 2016 -0700
+@@ -4505,2 +4505,12 @@
  
 +naa:
-+who:    University of Washington Bothell (=) UWB
-+what:   81419
-+when:   2016.07.13
-+where:	https://www.uwb.edu
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:   EZID ARK
-+!contact: eziduserid uw_bothell
-+!address: Box 358500, 18115 Campus Way NE,  Bothell, WA
++who:	Saint-Gobain (=) STGOBAIN
++what:	57458
++when:	2016.07.25
++where:	https://www.saint-gobain.com
++how:	FP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
++!address: 18 Avenue d'Alsace, 92400 Courbevoie, France
 +
  #!naa:
