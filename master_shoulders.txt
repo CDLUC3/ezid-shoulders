@@ -110,6 +110,25 @@
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
 
+# from temporary NAAN created 2015.09.10
+:: ark:/88125/d8
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Vermont Monitoring Cooperative
+date: 2016.07.18
+minter: https://n2t.net/a/ezid/m/ark/88125/d8
+
+# from temporary data center DATACTR3 created 2015.09.10
+:: doi:10.18125/D2
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Vermont Monitoring Cooperative
+date: 2016.07.18
+minter: https://n2t.net/a/ezid/m/ark/c8125/d2
+datacenter: CDL.VMC
+
 :: ark:/81419/b2
 type: shoulder
 manager: ezid
@@ -1390,23 +1409,6 @@ name: Temporary Name: PURDUE Data Center 5
 date: 2015.09.10
 minter: https://n2t.net/a/ezid/m/ark/c8127/p2
 datacenter: PURDUE.DATACTR5
-
-:: ark:/88125/d8
-type: shoulder
-manager: ezid
-#eziduser: datactr3
-name: Temporary Name: CDL Data Center 3
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/88125/d8
-
-:: doi:10.18125/D2
-type: shoulder
-manager: ezid
-#eziduser: datactr3
-name: Temporary Name: CDL Data Center 3
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/c8125/d2
-datacenter: CDL.DATACTR3
 
 ######## end of generic accounts section ########
 
@@ -5776,10 +5778,10 @@ type: datacenter
 manager: ezid
 name: Databrary
 
-:: datacite:CDL.DATACTR3
+:: datacite:CDL.VMC
 type: datacenter
 manager: ezid
-name: Temporary Name: Data Center 3
+name: Vermont Monitoring Cooperative
 
 :: datacite:CDL.DATAMARE
 type: datacenter

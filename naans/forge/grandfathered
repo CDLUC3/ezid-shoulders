@@ -594,8 +594,6 @@ c3012  # University of Illinois Libraries
 88128: IPUMS     2015.09.29   # IPUMS (xxx)
 10.18128  # IPUMS
 
-88125: DATACTR3  2015.09.10   # Temporary Name: Data Center 3 (xxx)
-10.18125  # Temporary Name: Data Center 3
 88126: DATACTR4  2015.09.10   # Temporary Name: Data Center 4 (xxx)
 10.18126  # Temporary Name: Data Center 4
 88127: DATACTR5  2015.09.10   # Temporary Name: Data Center 5 (xxx)
@@ -727,6 +725,8 @@ c3012  # University of Illinois Libraries
 81419: UWB       2016.07.13   # University of Washington Bothell (xxx)
 10.21419  # University of Washington Bothell
 57458: STGOBAIN  2016.07.25   # Saint-Gobain
+88125: VMC       2016.07.18   # Vermont Monitoring Cooperative (xxx)
+10.18125  # Vermont Monitoring Cooperative
 
 
 
