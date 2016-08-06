@@ -458,6 +458,7 @@ RedirectMatch ^/((ark:/81418)|81418/?)(.*)$ http://www.ce.berkeley.edu/programs/
 RedirectMatch ^/((ark:/81419)|81419/?)(.*)$ https://www.uwb.edu/$2$3
 RedirectMatch ^/((ark:/88125)|88125/?)(.*)$ http://www.uvm.edu/vmc/$2$3
 RedirectMatch ^/((ark:/57458)|57458/?)(.*)$ https://www.saint-gobain.com/$2$3
+RedirectMatch ^/((ark:/44461)|44461/?)(.*)$ http://sites.dartmouth.edu/RemixBrut/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

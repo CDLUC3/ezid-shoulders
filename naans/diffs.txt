@@ -1,27 +1,17 @@
-diff -r 0cca030105de naans/master_naans
---- a/naans/master_naans	Mon Jul 25 14:58:48 2016 -0700
-+++ b/naans/master_naans	Thu Jul 28 16:51:20 2016 -0700
-@@ -4506,2 +4506,11 @@
- naa:
-+who:    Vermont Monitoring Cooperative (=) VMC
-+what:   88125
-+when:   2016.07.18
-+where:	http://www.uvm.edu/vmc
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:   EZID ARK
-+!contact: eziduserid datactr3
-+
+diff -r 0ec5ef891711 naans/master_naans
+--- a/naans/master_naans	Thu Jul 28 16:51:20 2016 -0700
++++ b/naans/master_naans	Sat Aug 06 11:16:33 2016 -0700
+@@ -4524,2 +4524,13 @@
+ 
 +naa:
- who:	Saint-Gobain (=) STGOBAIN
-@@ -4516,11 +4525,2 @@
++who:	Remix the Manuscript (=) RMXMANU
++what:	44461
++when:	2016.08.06
++where:	http://sites.dartmouth.edu/RemixBrut
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK-only
++!contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
++!contact: eziduserid dartremix
++!address: 210A Reed Hall  Hanover, NH 03755
++
  #!naa:
--#!who:    Temporary Name: Data Center 3 (=) DATACTR3
--#!what:   88125  XXX check if still unassigned on registration
--#!when:   2015.09.10
--#!where:	http://datactr3.example.org
--#!how:	NP | (:unkn) unknown | 2015 |
--#!!why:   EZID ARK
--#!!contact: eziduserid datactr3
--
--#!naa:
- #!who:    Temporary Name: Data Center 5 (=) DATACTR5

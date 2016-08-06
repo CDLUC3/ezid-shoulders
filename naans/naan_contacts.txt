@@ -514,6 +514,8 @@ contact: eziduserid ucb-geotech
 contact: eziduserid uw_bothell
 contact: eziduserid datactr3
 contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
+contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
+contact: eziduserid dartremix
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
