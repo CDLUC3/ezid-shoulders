@@ -1,17 +1,16 @@
-diff -r 0ec5ef891711 naans/master_naans
---- a/naans/master_naans	Thu Jul 28 16:51:20 2016 -0700
-+++ b/naans/master_naans	Sat Aug 06 11:16:33 2016 -0700
-@@ -4524,2 +4524,13 @@
+diff -r c9474a386405 naans/master_naans
+--- a/naans/master_naans	Sat Aug 06 11:16:33 2016 -0700
++++ b/naans/master_naans	Mon Aug 08 15:11:17 2016 -0700
+@@ -4535,2 +4535,12 @@
  
 +naa:
-+who:	Remix the Manuscript (=) RMXMANU
-+what:	44461
-+when:	2016.08.06
-+where:	http://sites.dartmouth.edu/RemixBrut
++who:    GNS Science (=) GNS
++what:   81420
++when:   2016.08.08
++where:	http://www.gns.cri.nz
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	EZID ARK-only
-+!contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
-+!contact: eziduserid dartremix
-+!address: 210A Reed Hall  Hanover, NH 03755
++!why:   EZID ARK
++!contact: eziduserid gns_science
++!address: P.O. Box 30-368  Lower Hutt 5040  New Zealand
 +
  #!naa:

@@ -458,6 +458,7 @@
 88125	Vermont Monitoring Cooperative (=) VMC
 57458	Saint-Gobain (=) STGOBAIN
 44461	Remix the Manuscript (=) RMXMANU
+81420	GNS Science (=) GNS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

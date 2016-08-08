@@ -109,6 +109,15 @@
 # adaptive make_ezacct -n 10.21417 b7 "" b4 < ezaccts/newacct > out
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
+# remixman naan_rec ... ; make_shdr ark:/44461/r4
+
+:: ark:/44461/r4
+type: shoulder
+manager: ezid
+#eziduser: dartremix
+name: Dartmouth Remix the Manuscript
+date: 2016.08.06
+minter: https://n2t.net/a/ezid/m/ark/44461/r4
 
 # from temporary NAAN created 2015.09.10
 :: ark:/88125/d8

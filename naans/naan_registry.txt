@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.08.06
+when:	2016.08.08
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3501,6 +3501,13 @@ who:	Remix the Manuscript (=) RMXMANU
 what:	44461
 when:	2016.08.06
 where:	http://sites.dartmouth.edu/RemixBrut
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:    GNS Science (=) GNS
+what:   81420
+when:   2016.08.08
+where:	http://www.gns.cri.nz
 how:	NP | (:unkn) unknown | 2016 |
 
 
