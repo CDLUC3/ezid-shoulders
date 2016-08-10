@@ -517,6 +517,8 @@ contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
 contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
 contact: eziduserid dartremix
 contact: eziduserid gns_science
+contact: eziduserid icrisat
+contact: eziduserid ucsd_ida
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

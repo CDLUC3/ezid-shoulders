@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21420 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
+# 10.21421 10.21422 10.21423 10.21424 10.21425 10.21426 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -110,6 +110,29 @@
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
 # remixman naan_rec ... ; make_shdr ark:/44461/r4
+# gns      make_ezacct -n 10.21420 g2 "" n4 < ezaccts/newacct > out
+
+:: ark:/81420/n4
+type: shoulder
+manager: ezid
+#eziduser: gns_science
+name: GNS Science
+date: 2016.08.08
+minter: https://n2t.net/a/ezid/m/ark/81420/n4
+
+:: datacite:CDL.GNS
+type: datacenter
+manager: ezid
+name: GNS Science
+
+:: doi:10.21420/G2
+type: shoulder
+manager: ezid
+#eziduser: gns_science
+name: GNS Science
+date: 2016.08.08
+minter: https://n2t.net/a/ezid/m/ark/d1420/g2
+datacenter: CDL.GNS
 
 :: ark:/44461/r4
 type: shoulder
