@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.08.10
+when:	2016.08.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4563,6 +4563,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:   EZID ARK
 !contact: eziduserid ucsd_ida
 !address: 9500 Gilman Drive #0225   La Jolla, CA 92023-0225
+
+naa:
+who:	Médiathèque du Grand Troyes (=) MGT
+what:	31465
+when:	2016.08.18
+where:	http://www.mediatheque.grand-troyes.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Naddeo, Etienne ||| etienne.naddeo@grand-troyes.fr | +33 (0)325435638
+!address: 7 rue des Filles Dieu, 10088 Troyes Cedex, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

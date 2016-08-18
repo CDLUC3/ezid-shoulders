@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.08.10
+when:	2016.08.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3523,6 +3523,13 @@ who:    UCSD Scripps Project IDA, Inst. for Geophysics and Planetary Physics (=)
 what:   81422
 when:   2016.08.10
 where:	http://ida.ucsd.edu
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Médiathèque du Grand Troyes (=) MGT
+what:	31465
+when:	2016.08.18
+where:	http://www.mediatheque.grand-troyes.fr
 how:	NP | (:unkn) unknown | 2016 |
 
 
