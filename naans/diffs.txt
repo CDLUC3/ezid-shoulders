@@ -1,16 +1,16 @@
-diff -r 13906b3b25d2 naans/master_naans
---- a/naans/master_naans	Wed Aug 10 16:17:03 2016 -0700
-+++ b/naans/master_naans	Thu Aug 18 13:57:51 2016 -0700
-@@ -4566,2 +4566,12 @@
+diff -r 8872f4fbd4e7 naans/master_naans
+--- a/naans/master_naans	Thu Aug 18 13:57:51 2016 -0700
++++ b/naans/master_naans	Mon Aug 22 17:07:31 2016 -0700
+@@ -4576,2 +4576,12 @@
  
 +naa:
-+who:	Médiathèque du Grand Troyes (=) MGT
-+what:	31465
-+when:	2016.08.18
-+where:	http://www.mediatheque.grand-troyes.fr
++who:    Texas A&M University Libraries (=) TAMUL
++what:   81423
++when:   2016.08.22
++where:	http://library.tamu.edu
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Naddeo, Etienne ||| etienne.naddeo@grand-troyes.fr | +33 (0)325435638
-+!address: 7 rue des Filles Dieu, 10088 Troyes Cedex, France
++!why:   EZID ARK
++!contact: eziduserid tamu_ezid
++!address: Sterling C. Evans Library  5000 TAMU  College Station, TX 77843-5000
 +
  #!naa:

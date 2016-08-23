@@ -520,6 +520,7 @@ contact: eziduserid gns_science
 contact: eziduserid icrisat
 contact: eziduserid ucsd_ida
 contact: Naddeo, Etienne ||| etienne.naddeo@grand-troyes.fr | +33 (0)325435638
+contact: eziduserid tamu_ezid
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
