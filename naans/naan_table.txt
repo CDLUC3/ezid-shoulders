@@ -462,6 +462,7 @@
 81422	UCSD Scripps Project IDA, Inst. for Geophysics and Planetary Physics (=) PROJECTIDA
 31465	Médiathèque du Grand Troyes (=) MGT
 81423	Texas A&M University Libraries (=) TAMUL
+81424	Earth Research Institute (=) ERI
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

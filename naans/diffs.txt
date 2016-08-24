@@ -1,16 +1,16 @@
-diff -r 8872f4fbd4e7 naans/master_naans
---- a/naans/master_naans	Thu Aug 18 13:57:51 2016 -0700
-+++ b/naans/master_naans	Mon Aug 22 17:07:31 2016 -0700
-@@ -4576,2 +4576,12 @@
+diff -r 55902718c0e4 naans/master_naans
+--- a/naans/master_naans	Mon Aug 22 17:07:31 2016 -0700
++++ b/naans/master_naans	Wed Aug 24 11:03:43 2016 -0700
+@@ -4586,2 +4586,12 @@
  
 +naa:
-+who:    Texas A&M University Libraries (=) TAMUL
-+what:   81423
-+when:   2016.08.22
-+where:	http://library.tamu.edu
++who:    Earth Research Institute (=) ERI
++what:   81424
++when:   2016.08.24
++where:	https://www.eri.ucsb.edu
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:   EZID ARK
-+!contact: eziduserid tamu_ezid
-+!address: Sterling C. Evans Library  5000 TAMU  College Station, TX 77843-5000
++!contact: eziduserid sb-eri
++!address: 6832 Ellison Hall  University of California  Santa Barbara, CA 93106-3060
 +
  #!naa:
