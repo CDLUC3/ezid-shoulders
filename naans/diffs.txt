@@ -1,16 +1,43 @@
-diff -r 55902718c0e4 naans/master_naans
---- a/naans/master_naans	Mon Aug 22 17:07:31 2016 -0700
-+++ b/naans/master_naans	Wed Aug 24 11:03:43 2016 -0700
-@@ -4586,2 +4586,12 @@
+diff -r 725eea4c2a05 naans/master_naans
+--- a/naans/master_naans	Wed Aug 24 11:03:43 2016 -0700
++++ b/naans/master_naans	Tue Aug 30 17:11:33 2016 -0700
+@@ -758,3 +758,3 @@
+ naa:
+-who:	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
++who:	Lo CIRDÒC - Mediatèca occitana (=) CIRDOC
+ what:	64981
+@@ -1677,3 +1677,4 @@
+ where:  http://www.benchfly.com
+-how:    NP | (:unkn) unknown | 2013 |
++how:    FP | (:unkn) unknown | 2013 |
++!why:   EZID ARK
+ #!contact: eziduser benchfly
+@@ -4443,3 +4444,3 @@
+ !contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
+-!address: 30 Place d’Italie, Paris, France
++!address: 30 Place d'Italie, Paris, France
+ 
+@@ -4546,4 +4547,3 @@
+ naa:
+-who:    International Crops Research Institute for the Semi-Arid Tropics
+-(ICRISAT) (=) ICRISAT
++who:    International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) (=) ICRISAT
+ what:   81421
+@@ -4554,3 +4554,3 @@
+ !contact: eziduserid icrisat
+-!address: Patancheru|Greater Hyderabad  Telangana State – 502 324, India
++!address: Patancheru|Greater Hyderabad, Telangana State - 502 324, India
+ 
+@@ -4596,2 +4596,12 @@
  
 +naa:
-+who:    Earth Research Institute (=) ERI
-+what:   81424
-+when:   2016.08.24
-+where:	https://www.eri.ucsb.edu
++who:	Paris Sciences et Lettres (=) PSL
++what:	18469
++when:	2016.08.30
++where:	http://www.univ-psl.fr
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:   EZID ARK
-+!contact: eziduserid sb-eri
-+!address: 6832 Ellison Hall  University of California  Santa Barbara, CA 93106-3060
++!why:	ARK
++!contact: Aucher, Laurent ||| laurent.aucher@univ-psl.fr | +33 1 85 76 08 61
++!address: 33 rue Censier - 75005 Paris, France
 +
  #!naa:

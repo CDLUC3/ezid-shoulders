@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.08.24
+when:	2016.08.30
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -634,7 +634,7 @@ where:	http://www.hu-berlin.de
 how:	NP | (:unkn) unknown | 2010 |
 
 naa:
-who:	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
+who:	Lo CIRDÒC - Mediatèca occitana (=) CIRDOC
 what:	64981
 when:	2010.06.21
 where:	http://www.locirdoc.fr
@@ -1338,7 +1338,7 @@ who:    BenchFly (=) BENCHFLY
 what:   87293
 when:   2013.02.11
 where:  http://www.benchfly.com
-how:    NP | (:unkn) unknown | 2013 |
+how:    FP | (:unkn) unknown | 2013 |
 
 naa:
 who:    University Libraries, Virginia Tech (=) VTLIB
@@ -3511,8 +3511,7 @@ where:	http://www.gns.cri.nz
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    International Crops Research Institute for the Semi-Arid Tropics
-(ICRISAT) (=) ICRISAT
+who:    International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) (=) ICRISAT
 what:   81421
 when:   2016.08.10
 where:	http://www.icrisat.org
@@ -3544,6 +3543,13 @@ who:    Earth Research Institute (=) ERI
 what:   81424
 when:   2016.08.24
 where:	https://www.eri.ucsb.edu
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Paris Sciences et Lettres (=) PSL
+what:	18469
+when:	2016.08.30
+where:	http://www.univ-psl.fr
 how:	NP | (:unkn) unknown | 2016 |
 
 

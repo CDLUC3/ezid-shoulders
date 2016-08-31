@@ -48,7 +48,7 @@
 29413	University of Pennsylvania (=) UPENN
 16417	University of Kentucky Libraries (=) UKY
 77635	Humboldt-Universität zu Berlin (=) Humboldt University Berlin (=) HUB
-64981	Lo CIRDÒC – Mediatèca occitana (=) CIRDOC
+64981	Lo CIRDÒC - Mediatèca occitana (=) CIRDOC
 51985	University of Illinois at Urbana Champaign (=) UIUC
 38989	The George Washington University (=) GWU
 25993	Archives départementales du Doubs (=) ADDOUBS
@@ -459,10 +459,12 @@
 57458	Saint-Gobain (=) STGOBAIN
 44461	Remix the Manuscript (=) RMXMANU
 81420	GNS Science (=) GNS
+81421	International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) (=) ICRISAT
 81422	UCSD Scripps Project IDA, Inst. for Geophysics and Planetary Physics (=) PROJECTIDA
 31465	Médiathèque du Grand Troyes (=) MGT
 81423	Texas A&M University Libraries (=) TAMUL
 81424	Earth Research Institute (=) ERI
+18469	Paris Sciences et Lettres (=) PSL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
