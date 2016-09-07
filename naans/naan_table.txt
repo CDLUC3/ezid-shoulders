@@ -465,6 +465,7 @@
 81423	Texas A&M University Libraries (=) TAMUL
 81424	Earth Research Institute (=) ERI
 18469	Paris Sciences et Lettres (=) PSL
+80030	Journal of Mechanical Engineering and Biomechanics (=) JMEB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

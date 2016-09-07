@@ -7,6 +7,7 @@ if ($# < 2) then
 	echo "    $ $0" 'OU http://ou.example.org "Oaksterdam University"'
 	echo "    98765: OU        2010.04.09   # Oaksterdam University"
 	echo ""
+	echo "See https://goo.gl/forms/bmckLSPpbzpZ5dix1 for alternate input."
 	echo "which you copy onto the end of the 'grandfathered' file."
 	echo "It also puts out a stub NAA record for the NAAN registry."
 	echo "Don't forget to update the date of the NAAN registry file."
@@ -79,6 +80,7 @@ printf "${id}: %-9s $date   # $institution\n" $acro
 
 echo
 echo "Finally, do"
+echo "  admegn validate_naans &&"
 echo "    (cd ~n2t/shoulders/naans; make diffs.txt all announce)"
 
 echo "\
@@ -100,7 +102,7 @@ cat new_naa >> recent_naas
 echo "\
 Hi $first,\
 \
-Thanks for your message.  The NAAN,\
+Thanks for your request.  The NAAN,\
 \
 	$id\
 \
@@ -150,7 +152,7 @@ Oakland, CA  94612     fax: 510 893 5212     Office of the President\
 echo "Response template being sent to $notify."
 
 #mail -s 'naan response' $notify < new_naa_response
-(echo "Subject: naan response ($first)"; \
+(echo "Subject: NAAN request: $acro"; \
  echo "Content-type: text/plain; charset=UTF-8"; \
  echo ""; \
  cat new_naa_response ) | sendmail $notify

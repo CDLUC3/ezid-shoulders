@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.08.30
+when:	2016.09.07
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1677,7 +1677,7 @@ when:   2013.02.11
 where:  http://www.benchfly.com
 how:    FP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
-#!contact: eziduser benchfly
+!contact: eziduser benchfly
 
 naa:
 who:    University Libraries, Virginia Tech (=) VTLIB
@@ -4603,6 +4603,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Aucher, Laurent ||| laurent.aucher@univ-psl.fr | +33 1 85 76 08 61
 !address: 33 rue Censier - 75005 Paris, France
+
+naa:
+who:	Journal of Mechanical Engineering and Biomechanics (=) JMEB
+what:	80030
+when:	2016.09.07
+where:	http://jmeb.in
+how:	FP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Kaur, Rasmeet ||| jmeb.editor@gmail.com |
+!address: 43 Chandi Ki Taksal, Jaipur, India
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

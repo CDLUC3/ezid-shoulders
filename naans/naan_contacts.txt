@@ -165,6 +165,7 @@ contact: EZID userid noaa-edm
 contact: EZID userid tkn
 contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
 contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
+contact: eziduser benchfly
 contact: eziduserid vtlib
 contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
@@ -523,6 +524,7 @@ contact: Naddeo, Etienne ||| etienne.naddeo@grand-troyes.fr | +33 (0)325435638
 contact: eziduserid tamu_ezid
 contact: eziduserid sb-eri
 contact: Aucher, Laurent ||| laurent.aucher@univ-psl.fr | +33 1 85 76 08 61
+contact: Kaur, Rasmeet ||| jmeb.editor@gmail.com |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
