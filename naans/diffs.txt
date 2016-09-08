@@ -1,21 +1,26 @@
-diff -r 492d80d565b3 naans/master_naans
---- a/naans/master_naans	Tue Aug 30 17:11:33 2016 -0700
-+++ b/naans/master_naans	Wed Sep 07 10:21:56 2016 -0700
-@@ -1679,3 +1679,3 @@
- !why:   EZID ARK
--#!contact: eziduser benchfly
-+!contact: eziduser benchfly
- 
-@@ -4606,2 +4606,12 @@
+diff -r 6a941d1ecbcf naans/master_naans
+--- a/naans/master_naans	Wed Sep 07 10:21:57 2016 -0700
++++ b/naans/master_naans	Thu Sep 08 15:22:10 2016 -0700
+@@ -4616,2 +4616,22 @@
  
 +naa:
-+who:	Journal of Mechanical Engineering and Biomechanics (=) JMEB
-+what:	80030
-+when:	2016.09.07
-+where:	http://jmeb.in
-+how:	FP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Kaur, Rasmeet ||| jmeb.editor@gmail.com |
-+!address: 43 Chandi Ki Taksal, Jaipur, India
++who:	Dublin Institute of Technology (=) DIT
++what:	81427
++when:	2016.09.08
++where:	http://www.dit.ie
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK
++!contact: eziduserid dit_yvonned
++!address: c/o DIT Library Services  Rathmines Rd.  Dublin 6, Ireland
++
++naa:
++who:	PubPub (=) PUB
++what:	81428
++when:	2016.09.08
++where:	https://www.pubpub.org
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK
++!contact: eziduserid pubpub
++!address: 75 Amherst St, E14-348K  Cambridge, MA 02139
 +
  #!naa:

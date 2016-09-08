@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21427 10.21428 10.21429 10.21430 10.21431 10.21432 10.21433
+# 10.21429 10.21430 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -117,6 +117,82 @@
 # eri      make_ezacct -n 10.21424 r4 "" r2 < ezaccts/newacct > out
 # ucmfront make_ezacct -n 10.21425 f5 "" - < ezaccts/newacct > out
 # ucmbioge make_ezacct -n 10.21426 b6 "" - < ezaccts/newacct > out
+# dit      make_ezacct -n 10.21427 d7 "" t2 < ezaccts/newacct > out
+# pubpub   make_ezacct -n 10.21428 p8 "" b2 < ezaccts/newacct > out
+
+:: ark:/81428/b2
+type: shoulder
+manager: ezid
+#eziduser: pubpub
+name: PubPub
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/81428/b2
+
+:: ark:/81428/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: pubpub
+name: PubPub no minter
+date: 2016.09.08
+minter:
+
+:: datacite:CDL.PUB
+type: datacenter
+manager: ezid
+name: PubPub
+
+:: doi:10.21428/P8
+type: shoulder
+manager: ezid
+#eziduser: pubpub
+name: PubPub
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/d1428/p8
+datacenter: CDL.PUB
+crossref: true
+
+:: doi:10.21428/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: pubpub
+name: PubPub no minter
+date: 2016.09.08
+minter:
+datacenter: CDL.PUB
+crossref: true
+
+:: doi:10.1184/R1/
+type: shoulder
+manager: ezid
+#eziduser: cmu-ezid
+name: Carnegie Mellon figshare
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/b1184/r1/
+datacenter: CDL.CMU
+
+:: ark:/81427/t2
+type: shoulder
+manager: ezid
+#eziduser: dit_yvonned
+name: Dublin Institute of Technology
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/81427/t2
+
+:: datacite:CDL.DIT
+type: datacenter
+manager: ezid
+name: Dublin Institute of Technology
+
+:: doi:10.21427/D7
+type: shoulder
+manager: ezid
+#eziduser: dit_yvonned
+name: Dublin Institute of Technology
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/d1427/d7
+datacenter: CDL.DIT
 
 :: doi:10.21426/B6
 type: shoulder
@@ -3166,6 +3242,7 @@ minter: https://n2t.net/a/ezid/m/ark/81184/c2
 
 :: doi:10.1184/
 type: shoulder
+is_supershoulder: true
 manager: ezid
 #eziduser: cmu-ezid
 name: Carnegie Mellon University Libraries
