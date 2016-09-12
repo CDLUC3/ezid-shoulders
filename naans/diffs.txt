@@ -1,26 +1,16 @@
-diff -r 6a941d1ecbcf naans/master_naans
---- a/naans/master_naans	Wed Sep 07 10:21:57 2016 -0700
-+++ b/naans/master_naans	Thu Sep 08 15:22:10 2016 -0700
-@@ -4616,2 +4616,22 @@
+diff -r 69d0a53640ad naans/master_naans
+--- a/naans/master_naans	Thu Sep 08 15:22:10 2016 -0700
++++ b/naans/master_naans	Sun Sep 11 22:26:15 2016 -0700
+@@ -4636,2 +4636,12 @@
  
 +naa:
-+who:	Dublin Institute of Technology (=) DIT
-+what:	81427
-+when:	2016.09.08
-+where:	http://www.dit.ie
++who:	US Dept of Interior Climate Science Centers (=) CSC
++what:	81429
++when:	2016.09.11
++where:	https://nccwsc.usgs.gov
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:	EZID ARK
-+!contact: eziduserid dit_yvonned
-+!address: c/o DIT Library Services  Rathmines Rd.  Dublin 6, Ireland
-+
-+naa:
-+who:	PubPub (=) PUB
-+what:	81428
-+when:	2016.09.08
-+where:	https://www.pubpub.org
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:	EZID ARK
-+!contact: eziduserid pubpub
-+!address: 75 Amherst St, E14-348K  Cambridge, MA 02139
++!contact: eziduserid nccwsccsc
++!address: NCCWSC   12201 Sunrise Valley Drive, MS 516   Reston VA, 20192
 +
  #!naa:
