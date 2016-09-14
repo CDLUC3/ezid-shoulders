@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21430 10.21431 10.21432 10.21433
+# 10.21431 10.21432 10.21433
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -120,6 +120,29 @@
 # dit      make_ezacct -n 10.21427 d7 "" t2 < ezaccts/newacct > out
 # pubpub   make_ezacct -n 10.21428 p8 "" b2 < ezaccts/newacct > out
 # nccw     make_ezacct -n 10.21429 c9 "" s2 < ezaccts/newacct > out
+# immport  make_ezacct -n 10.21430 m3 "" p4 < ezaccts/newacct > out
+
+:: ark:/81430/p4
+type: shoulder
+manager: ezid
+#eziduser: ucsf_immPort
+name: UCSF ImmPort
+date: 2016.09.13
+minter: https://n2t.net/a/ezid/m/ark/81430/p4
+
+:: datacite:CDL.IMMPORT
+type: datacenter
+manager: ezid
+name: UCSF ImmPort
+
+:: doi:10.21430/M3
+type: shoulder
+manager: ezid
+#eziduser: ucsf_immPort
+name: UCSF ImmPort
+date: 2016.09.13
+minter: https://n2t.net/a/ezid/m/ark/d1430/m3
+datacenter: CDL.IMMPORT
 
 :: ark:/81429/s2
 type: shoulder

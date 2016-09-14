@@ -469,6 +469,7 @@
 81427	Dublin Institute of Technology (=) DIT
 81428	PubPub (=) PUB
 81429	US Dept of Interior Climate Science Centers (=) CSC
+81430	UCSF ImmPort (=) IMMPORT
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
