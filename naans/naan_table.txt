@@ -470,6 +470,7 @@
 81428	PubPub (=) PUB
 81429	US Dept of Interior Climate Science Centers (=) CSC
 81430	UCSF ImmPort (=) IMMPORT
+81431	University of Pennsylvania Libraries (=) UPENNLIB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

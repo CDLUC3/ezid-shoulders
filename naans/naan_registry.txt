@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.09.13
+when:	2016.09.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3585,6 +3585,13 @@ who:	UCSF ImmPort (=) IMMPORT
 what:	81430
 when:	2016.09.13
 where:	http://www.immport.org
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	University of Pennsylvania Libraries (=) UPENNLIB
+what:	81431
+when:	2016.09.15
+where:	http://www.library.upenn.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 
