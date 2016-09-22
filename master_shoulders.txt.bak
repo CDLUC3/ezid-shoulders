@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21431 10.21432 10.21433
+# 10.21968 10.21969 10.21970 10.21971 10.21972 10.21973 10.21974 10.21975 10.21976 10.21977 10.21978 10.21979 10.21980 10.21981 10.21982 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -121,6 +121,50 @@
 # pubpub   make_ezacct -n 10.21428 p8 "" b2 < ezaccts/newacct > out
 # nccw     make_ezacct -n 10.21429 c9 "" s2 < ezaccts/newacct > out
 # immport  make_ezacct -n 10.21430 m3 "" p4 < ezaccts/newacct > out
+# upennlib make_ezacct 10.21431 p4 "" p3 < ezaccts/newacct > out
+
+:: doi:10.21433/B3
+type: shoulder
+manager: ezid
+#eziduser: ucblibrary
+name: UC Berkeley eScholarship Content
+date: 2016.09.16
+minter: https://n2t.net/a/ezid/m/ark/d1433/b3
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: doi:10.21432/T2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Jrnl of Learning and Technology
+date: 2016.09.16
+minter: https://n2t.net/a/ezid/m/ark/d1432/t2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: ark:/81431/p3
+type: shoulder
+manager: ezid
+#eziduser: upennlib
+name: University of Pennsylvania Libraries
+date: 2016.09.15
+minter: https://n2t.net/a/ezid/m/ark/81431/p3
+
+:: datacite:CDL.UPENNLIB
+type: datacenter
+manager: ezid
+name: University of Pennsylvania Libraries
+
+:: doi:10.21431/P4
+type: shoulder
+manager: ezid
+#eziduser: upennlib
+name: University of Pennsylvania Libraries
+date: 2016.09.15
+minter: https://n2t.net/a/ezid/m/ark/d1431/p4
+datacenter: CDL.UPENNLIB
 
 :: ark:/81430/p4
 type: shoulder

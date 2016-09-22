@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.09.13
+when:	2016.09.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4663,6 +4663,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	EZID ARK
 !contact: eziduserid upennlib
 !address: 3420 Walnut St  Philadelphia, PA  19104-6206
+
+naa:
+who:	University of Michigan Medical School DLHS-DLKS (=) DLHSDLKS
+what:	67034
+when:	2016.09.22
+where:	https://lhs.medicine.umich.edu/division-learning-knowledge-systems
+how:	NP | (:unkn) unknown | 2016 |
+!why:	EZID ARK-only
+!contact: Flynn, Allen ||| ajflynn@med.umich.edu | +1 734-615-0839
+!address: 300 North Ingalls Street, 11th Floor, Suite 1161
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
