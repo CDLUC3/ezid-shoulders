@@ -531,6 +531,7 @@ contact: eziduserid nccwsccsc
 contact: eziduserid ucsf_immPort
 contact: eziduserid upennlib
 contact: Flynn, Allen ||| ajflynn@med.umich.edu | +1 734-615-0839
+contact: Poupeau, Gautier ||| gpoupeau@ina.fr |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
