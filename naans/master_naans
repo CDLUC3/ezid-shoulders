@@ -4695,6 +4695,17 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: 1, rue du Ballon, CS 50749 59034 Lille, France
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
+naa:
+who:	Communauté d'agglomération de Mantes-en-Yvelines (=) CAMY
+what:	28045
+when:	2016.10.06
+where:	http://www.camy-info.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Bouchée, Damien ||| damien.bouchee@gpseo.fr | 
+!address: Rue des Pierrettes, 78200 Magnanville, France
+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration

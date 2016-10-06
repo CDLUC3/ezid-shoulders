@@ -534,6 +534,8 @@ contact: Flynn, Allen ||| ajflynn@med.umich.edu | +1 734-615-0839
 contact: Poupeau, Gautier ||| gpoupeau@ina.fr |
 contact: Kaleba, Vincent ||| vkaleba@lillemetropole.fr | 
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Bouchée, Damien ||| damien.bouchee@gpseo.fr | 
+contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
