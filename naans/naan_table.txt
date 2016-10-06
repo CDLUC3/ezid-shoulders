@@ -473,6 +473,7 @@
 81431	University of Pennsylvania Libraries (=) UPENNLIB
 67034	University of Michigan Medical School DLHS-DLKS (=) DLHSDLKS
 54037	Institut national de l'audiovisuel (=) INA
+41041	Archives de la Métropole Européenne de Lille (=) MEL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

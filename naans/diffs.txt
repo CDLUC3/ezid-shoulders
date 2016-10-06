@@ -1,16 +1,17 @@
-diff -r cbac6bd36139 naans/master_naans
---- a/naans/master_naans	Thu Sep 22 13:19:43 2016 -0700
-+++ b/naans/master_naans	Fri Sep 23 22:05:38 2016 -0700
-@@ -4676,2 +4676,12 @@
+diff -r 9d31055b950c naans/master_naans
+--- a/naans/master_naans	Fri Sep 23 22:05:38 2016 -0700
++++ b/naans/master_naans	Thu Oct 06 11:24:10 2016 -0700
+@@ -4686,2 +4686,13 @@
  
 +naa:
-+who:    Institut national de l'audiovisuel (=) INA
-+what:   54037
-+when:   2016.09.23
-+where:  http://www.ina.fr
-+how:    FP | (:unkn) unknown | 2016 |
-+!why:   ARK
-+!contact: Poupeau, Gautier ||| gpoupeau@ina.fr |
-+!address: 4 avenue de l'Europe, 94366 Bry-sur-Marne Cedex
++who:	Archives de la Métropole Européenne de Lille (=) MEL
++what:	41041
++when:	2016.10.06
++where:	http://www.lillemetropole.fr
++how:	NP | (:unkn) unknown | 2016 |
++!why:	ARK
++!contact: Kaleba, Vincent ||| vkaleba@lillemetropole.fr | 
++!address: 1, rue du Ballon, CS 50749 59034 Lille, France
++!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 +
  #!naa:

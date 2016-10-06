@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.09.23
+when:	2016.10.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3607,6 +3607,13 @@ what:   54037
 when:   2016.09.23
 where:  http://www.ina.fr
 how:    FP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Archives de la Métropole Européenne de Lille (=) MEL
+what:	41041
+when:	2016.10.06
+where:	http://www.lillemetropole.fr
+how:	NP | (:unkn) unknown | 2016 |
 
 
 naa:
