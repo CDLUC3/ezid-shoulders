@@ -536,6 +536,7 @@ contact: Kaleba, Vincent ||| vkaleba@lillemetropole.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Bouchée, Damien ||| damien.bouchee@gpseo.fr | 
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+contact: Radio, Erik ||| radio@email.arizona.edu |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

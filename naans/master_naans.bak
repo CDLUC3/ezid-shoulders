@@ -4706,6 +4706,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: Rue des Pierrettes, 78200 Magnanville, France
 !contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 
+naa:
+who:    University of Arizona Libraries (=) UAL
+what:   15050
+when:   2016.10.07
+where:  library.arizona.edu
+how:    NP | (:unkn) unknown | 2016 |
+!why:   ARK
+!contact: Radio, Erik ||| radio@email.arizona.edu |
+!address: 1510 E University Blvd, Tucson, AZ 85719
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration

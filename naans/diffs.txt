@@ -1,17 +1,16 @@
-diff -r 5b51879d5699 naans/master_naans
---- a/naans/master_naans	Thu Oct 06 11:24:10 2016 -0700
-+++ b/naans/master_naans	Thu Oct 06 11:37:19 2016 -0700
-@@ -4697,2 +4697,13 @@
+diff -r 557b79bb8321 naans/master_naans
+--- a/naans/master_naans	Thu Oct 06 11:37:19 2016 -0700
++++ b/naans/master_naans	Fri Oct 07 11:46:51 2016 -0700
+@@ -4708,2 +4708,12 @@
  
 +naa:
-+who:	Communauté d'agglomération de Mantes-en-Yvelines (=) CAMY
-+what:	28045
-+when:	2016.10.06
-+where:	http://www.camy-info.fr
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Bouchée, Damien ||| damien.bouchee@gpseo.fr | 
-+!address: Rue des Pierrettes, 78200 Magnanville, France
-+!contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
++who:    University of Arizona Libraries (=) UAL
++what:   15050
++when:   2016.10.07
++where:  library.arizona.edu
++how:    NP | (:unkn) unknown | 2016 |
++!why:   ARK
++!contact: Radio, Erik ||| radio@email.arizona.edu |
++!address: 1510 E University Blvd, Tucson, AZ 85719
 +
  #!naa:
