@@ -537,6 +537,8 @@ contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 0
 contact: Bouchée, Damien ||| damien.bouchee@gpseo.fr | 
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Radio, Erik ||| radio@email.arizona.edu |
+contact: eziduserid uwisc_mdsilber
+contact: eziduserid uwisc_law
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

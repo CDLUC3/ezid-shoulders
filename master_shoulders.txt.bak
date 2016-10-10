@@ -122,6 +122,17 @@
 # nccw     make_ezacct -n 10.21429 c9 "" s2 < ezaccts/newacct > out
 # immport  make_ezacct -n 10.21430 m3 "" p4 < ezaccts/newacct > out
 # upennlib make_ezacct 10.21431 p4 "" p3 < ezaccts/newacct > out
+# kgrid    naans/forge/naan_rec DLHSDLKS https://lhs.medicine.umich.edu/division-learning-knowledge-systems "University of Michigan Medical School Dept of Learning Health Sciences Div of Learning and Knowledge Systems" Allen Flynn ajflynn@med.umich.edu "+1 734-615-0839" "300 North Ingalls Street, 11th Floor, Suite 1161"
+#          then constructed shoulder from new_naa file
+#          then did: make_shdr ark:/67034/k4
+
+:: ark:/67034/k4
+type: shoulder
+manager: ezid
+#eziduser: kgrid
+date:	2016.09.22
+name:	UMichigan Medical School DLHS-DLKS
+minter: https://n2t.net/a/ezid/m/ark/67034/k4
 
 :: doi:10.21433/B3
 type: shoulder

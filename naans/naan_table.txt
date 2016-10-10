@@ -476,6 +476,8 @@
 41041	Archives de la Métropole Européenne de Lille (=) MEL
 28045	Communauté d'agglomération de Mantes-en-Yvelines (=) CAMY
 15050	University of Arizona Libraries (=) UAL
+81968	University of Wisconsin German Program (=) UWISGERMAN
+81969	University of Wisconsin Law School Library (=) UWISCLAW
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

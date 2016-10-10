@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.10.07
+when:	2016.10.10
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4715,6 +4715,26 @@ how:    NP | (:unkn) unknown | 2016 |
 !why:   ARK
 !contact: Radio, Erik ||| radio@email.arizona.edu |
 !address: 1510 E University Blvd, Tucson, AZ 85719
+
+naa:
+who:	University of Wisconsin German Program (=) UWISGERMAN
+what:	81968
+when:	2016.10.10
+where:	http://german.wisc.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:	EZID ARK
+!contact: eziduserid uwisc_mdsilber
+!address: German Program  818 Van Hise Hall  University of Wisconsin Madison, WI 53706
+
+naa:
+who:	University of Wisconsin Law School Library (=) UWISCLAW
+what:	81969
+when:	2016.10.10
+where:	http://library.law.wisc.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:	EZID ARK
+!contact: eziduserid uwisc_law
+!address: 975 Bascom Mall   Madison, WI 53706
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

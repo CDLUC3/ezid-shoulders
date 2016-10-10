@@ -1,16 +1,26 @@
-diff -r 557b79bb8321 naans/master_naans
---- a/naans/master_naans	Thu Oct 06 11:37:19 2016 -0700
-+++ b/naans/master_naans	Fri Oct 07 11:46:51 2016 -0700
-@@ -4708,2 +4708,12 @@
+diff -r 503b5d6685dc naans/master_naans
+--- a/naans/master_naans	Fri Oct 07 11:46:51 2016 -0700
++++ b/naans/master_naans	Mon Oct 10 15:59:21 2016 -0700
+@@ -4718,2 +4718,22 @@
  
 +naa:
-+who:    University of Arizona Libraries (=) UAL
-+what:   15050
-+when:   2016.10.07
-+where:  library.arizona.edu
-+how:    NP | (:unkn) unknown | 2016 |
-+!why:   ARK
-+!contact: Radio, Erik ||| radio@email.arizona.edu |
-+!address: 1510 E University Blvd, Tucson, AZ 85719
++who:	University of Wisconsin German Program (=) UWISGERMAN
++what:	81968
++when:	2016.10.10
++where:	http://german.wisc.edu
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK
++!contact: eziduserid uwisc_mdsilber
++!address: German Program  818 Van Hise Hall  University of Wisconsin Madison, WI 53706
++
++naa:
++who:	University of Wisconsin Law School Library (=) UWISCLAW
++what:	81969
++when:	2016.10.10
++where:	http://library.law.wisc.edu
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK
++!contact: eziduserid uwisc_law
++!address: 975 Bascom Mall   Madison, WI 53706
 +
  #!naa:
