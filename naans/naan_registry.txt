@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.10.10
+when:	2016.10.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3642,6 +3642,13 @@ what:	81969
 when:	2016.10.10
 where:	http://library.law.wisc.edu
 how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Éditions JOCATOP (=) JOCATOP
+what:	89606
+when:	2016.10.11
+where:	https://jocatop.fr
+how:	FP | (:unkn) unknown | 2016 |
 
 
 naa:

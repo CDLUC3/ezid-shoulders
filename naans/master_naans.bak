@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.10.07
+when:	2016.10.10
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4735,6 +4735,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	EZID ARK
 !contact: eziduserid uwisc_law
 !address: 975 Bascom Mall   Madison, WI 53706
+
+naa:
+who:	Éditions JOCATOP (=) JOCATOP
+what:	89606
+when:	2016.10.11
+where:	https://jocatop.fr
+how:	FP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: BERNARD, Maximilien ||| maximilien.bernard@jocatop.fr | 
+!address: 950 Route de Réalpanier, 84310 Morières-Les-Avignon, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
