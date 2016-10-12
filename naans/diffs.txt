@@ -1,16 +1,16 @@
-diff -r 0f470744a98c naans/master_naans
---- a/naans/master_naans	Mon Oct 10 15:59:21 2016 -0700
-+++ b/naans/master_naans	Tue Oct 11 07:04:44 2016 -0700
-@@ -4738,2 +4738,12 @@
+diff -r 2bae70482a4f naans/master_naans
+--- a/naans/master_naans	Tue Oct 11 12:26:58 2016 -0700
++++ b/naans/master_naans	Wed Oct 12 08:10:23 2016 -0700
+@@ -4748,2 +4748,12 @@
  
 +naa:
-+who:	Éditions JOCATOP (=) JOCATOP
-+what:	89606
-+when:	2016.10.11
-+where:	https://jocatop.fr
-+how:	FP | (:unkn) unknown | 2016 |
++who:	Archives nationales de Luxembourg (=) ANL
++what:	76610
++when:	2016.10.12
++where:	http://www.anlux.public.lu
++how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: BERNARD, Maximilien ||| maximilien.bernard@jocatop.fr | 
-+!address: 950 Route de Réalpanier, 84310 Morières-Les-Avignon, France
++!contact: Thill, Joel ||| support@an.etat.lu | 
++!address: Plâteau du Saint-Esprit, L-1475 Luxembourg
 +
  #!naa:

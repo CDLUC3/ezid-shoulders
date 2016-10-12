@@ -479,6 +479,7 @@
 81968	University of Wisconsin German Program (=) UWISGERMAN
 81969	University of Wisconsin Law School Library (=) UWISCLAW
 89606	Éditions JOCATOP (=) JOCATOP
+76610	Archives nationales de Luxembourg (=) ANL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
