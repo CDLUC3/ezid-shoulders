@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.10.11
+when:	2016.10.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4747,7 +4747,7 @@ how:	FP | (:unkn) unknown | 2016 |
 !address: 950 Route de Réalpanier, 84310 Morières-Les-Avignon, France
 
 naa:
-who:	Archives nationales de Luxembourg (=) ANL
+who:	Archives nationales de Luxembourg (=) ANLUX
 what:	76610
 when:	2016.10.12
 where:	http://www.anlux.public.lu
@@ -4755,6 +4755,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Thill, Joel ||| support@an.etat.lu | 
 !address: Plâteau du Saint-Esprit, L-1475 Luxembourg
+
+naa:
+who:    Euro France Médias (=) EFM
+what:   63613
+when:   2016.10.14
+where:  https://www.euro-france-medias.com
+how:    NP | (:unkn) unknown | 2016 |
+!why:   ARK
+!contact: Fournier, Eric (Président) ||| production@euro-france.tv |
+!address: 172 Grande Rue 92380, Garches, FRANCE
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

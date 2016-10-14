@@ -87,12 +87,14 @@ EOT
 		exit 1;
 	# XXX form doesn't ask for Acronym (should it ever?)
 	my $orgname = $h->{'Organization name'} || '';
-	my $acronym = $h->{'Acronym'} || '';
+	my $acronym = $h->{'Organization acronym preferred:'} || '';
 	unless ($acronym) {
 		$acronym = $orgname;
 		# drop stop words in English, French, and Spanish
 		$acronym =~ s/\b(?:the|and|of|l[ae']|et|d[eu']|des)\b//g;
 		# stop possessive 's' from showing up in the acronym
+		# XXX bug: non-ascii being mistaken for word boundaries?
+		#     eg, who:    Euro France Médias (=) EFM?D
 		$acronym =~ s/\b's\b//g;
 		$acronym =~ s/\b(.).*?\b/\U$1/g;	# first letter
 		$acronym =~ s/\s+//g;			# remove spaces
