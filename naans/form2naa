@@ -87,7 +87,7 @@ EOT
 		exit 1;
 	# XXX form doesn't ask for Acronym (should it ever?)
 	my $orgname = $h->{'Organization name'} || '';
-	my $acronym = $h->{'Organization acronym preferred:'} || '';
+	my $acronym = $h->{'Organization acronym preferred'} || '';
 	unless ($acronym) {
 		$acronym = $orgname;
 		# drop stop words in English, French, and Spanish
@@ -98,8 +98,8 @@ EOT
 		$acronym =~ s/\b's\b//g;
 		$acronym =~ s/\b(.).*?\b/\U$1/g;	# first letter
 		$acronym =~ s/\s+//g;			# remove spaces
-		$acronym = uc $acronym;
 	}
+	$acronym = uc $acronym;
 	my $phone = $h->{'Phone'} || '';
 	my $bmodel = $h->{'Organization status'} || '';
 	$bmodel = $bmodel =~ /For profit/

@@ -543,6 +543,7 @@ contact: BERNARD, Maximilien ||| maximilien.bernard@jocatop.fr |
 contact: Thill, Joel ||| support@an.etat.lu | 
 contact: Fournier, Eric (Président) ||| production@euro-france.tv |
 contact: eziduserid nds
+contact: Gromesova, Martina ||| shpf2@wanadoo.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
