@@ -1,16 +1,16 @@
-diff -r feab00e88551 naans/master_naans
---- a/naans/master_naans	Wed Oct 19 14:25:31 2016 -0700
-+++ b/naans/master_naans	Thu Oct 20 15:39:15 2016 -0700
-@@ -4778,2 +4778,12 @@
+diff -r 9eff2b9042af naans/master_naans
+--- a/naans/master_naans	Thu Oct 20 15:39:15 2016 -0700
++++ b/naans/master_naans	Tue Oct 25 09:16:34 2016 -0700
+@@ -4788,2 +4788,12 @@
  
 +naa:
-+who:	Société de l'Histoire du Protestantisme Français (=) SHPF
-+what:	50617
-+when:	2016.10.20
-+where:	http://www.shpf.fr
++who:	UCSB English Department (=) AYLIU
++what:	81972
++when:	2016.10.25
++where:	http://liu.english.ucsb.edu
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Gromesova, Martina ||| shpf2@wanadoo.fr | 
-+!address: 54 Rue des Saints-Pères, 75007 Paris
++!why:	EZID ARK
++!contact: eziduserid sb-ayliu
++!address: Department of English  University of California, Santa Barbara, CA 93163170
 +
  #!naa:
