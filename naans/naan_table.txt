@@ -484,6 +484,7 @@
 81970	National Data Service (=) NDS
 50617	Société de l'Histoire du Protestantisme Français (=) SHPF
 81972	UCSB English Department (=) AYLIU
+37621	Archives départementales d'Indre-et-Loire (=) AD37
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

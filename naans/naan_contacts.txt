@@ -545,6 +545,7 @@ contact: Fournier, Eric (Président) ||| production@euro-france.tv |
 contact: eziduserid nds
 contact: Gromesova, Martina ||| shpf2@wanadoo.fr | 
 contact: eziduserid sb-ayliu
+contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
