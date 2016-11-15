@@ -1,16 +1,26 @@
-diff -r 3bb03b979afd naans/master_naans
---- a/naans/master_naans	Tue Oct 25 09:16:34 2016 -0700
-+++ b/naans/master_naans	Mon Nov 14 08:51:23 2016 -0800
-@@ -4798,2 +4798,12 @@
+diff -r fb02fcaab4f7 naans/master_naans
+--- a/naans/master_naans	Mon Nov 14 08:51:24 2016 -0800
++++ b/naans/master_naans	Tue Nov 15 12:41:03 2016 -0800
+@@ -4808,2 +4808,22 @@
  
 +naa:
-+who:	Archives départementales d'Indre-et-Loire (=) AD37
-+what:	37621
-+when:	2016.11.14
-+where:	http://archives.cg37.fr/index_archive.php
++who:	Archives départementales de la Drôme (=) AD26
++what:	24626
++when:	2016.11.15
++where:	http://archives.ladrome.fr
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr | 
-+!address: 6 rue des Usulines 37000 Tours
++!contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
++!address: 14 Rue de la Manutention, 26000 Valence; France
++
++naa:
++who:	University of California Natural Reserve System (=) UCNRS
++what:	81973
++when:	2016.11.15
++where:	http://www.ucnrs.org
++how:	NP | (:unkn) unknown | 2016 |
++!why:	EZID ARK
++!contact: eziduserid nrsinfomgr
++!address: UC Natural Reserve System  1111 Franklin Ave, 6th Floor Oakland, CA 94607
 +
  #!naa:

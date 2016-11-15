@@ -130,6 +130,18 @@
 # nds      make_ezacct 10.21970 n9 "" n7 < ezaccts/newacct > out
 # sb-ayliu make_ezacct 10.21972 g2 "" g7 < ezaccts/newacct > out
 
+:: doi:10.5195/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: pittezid
+name: University of Pittsburgh Publications
+date: 2016.11.01
+minter:
+datacenter: CDL.PITT
+prefix_shares_datacenter: true
+crossref: true
+
 :: ark:/81972/g7
 type: shoulder
 manager: ezid
@@ -1986,6 +1998,7 @@ name: University of Pittsburgh
 date: 2015.08.13
 minter: https://n2t.net/a/ezid/m/ark/c8117/p6
 datacenter: CDL.PITT
+prefix_shares_datacenter: true
 crossref: true
 
 :: ark:/88115/d6

@@ -486,6 +486,8 @@ RedirectMatch ^/((ark:/81970)|81970/?)(.*)$ http://www.nationaldataservice.org/$
 RedirectMatch ^/((ark:/50617)|50617/?)(.*)$ http://www.shpf.fr/$2$3
 RedirectMatch ^/((ark:/81972)|81972/?)(.*)$ http://liu.english.ucsb.edu/$2$3
 RedirectMatch ^/((ark:/37621)|37621/?)(.*)$ http://archives.cg37.fr/index_archive.php/$2$3
+RedirectMatch ^/((ark:/24626)|24626/?)(.*)$ http://archives.ladrome.fr/$2$3
+RedirectMatch ^/((ark:/81973)|81973/?)(.*)$ http://www.ucnrs.org/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

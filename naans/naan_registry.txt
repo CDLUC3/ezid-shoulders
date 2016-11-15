@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.11.14
+when:	2016.11.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3690,6 +3690,20 @@ who:	Archives départementales d'Indre-et-Loire (=) AD37
 what:	37621
 when:	2016.11.14
 where:	http://archives.cg37.fr/index_archive.php
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Archives départementales de la Drôme (=) AD26
+what:	24626
+when:	2016.11.15
+where:	http://archives.ladrome.fr
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	University of California Natural Reserve System (=) UCNRS
+what:	81973
+when:	2016.11.15
+where:	http://www.ucnrs.org
 how:	NP | (:unkn) unknown | 2016 |
 
 

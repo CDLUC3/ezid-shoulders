@@ -546,6 +546,8 @@ contact: eziduserid nds
 contact: Gromesova, Martina ||| shpf2@wanadoo.fr | 
 contact: eziduserid sb-ayliu
 contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr | 
+contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
+contact: eziduserid nrsinfomgr
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
