@@ -548,6 +548,7 @@ contact: eziduserid sb-ayliu
 contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr | 
 contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
 contact: eziduserid nrsinfomgr
+contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

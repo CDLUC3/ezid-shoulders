@@ -1,26 +1,16 @@
-diff -r fb02fcaab4f7 naans/master_naans
---- a/naans/master_naans	Mon Nov 14 08:51:24 2016 -0800
-+++ b/naans/master_naans	Tue Nov 15 12:41:03 2016 -0800
-@@ -4808,2 +4808,22 @@
+diff -r 2099fc5f058f naans/master_naans
+--- a/naans/master_naans	Tue Nov 15 12:41:04 2016 -0800
++++ b/naans/master_naans	Wed Nov 16 07:14:34 2016 -0800
+@@ -4828,2 +4828,12 @@
  
 +naa:
-+who:	Archives départementales de la Drôme (=) AD26
-+what:	24626
-+when:	2016.11.15
-+where:	http://archives.ladrome.fr
++who:	Archives départementales du Tarn (=) AD81
++what:	11972
++when:	2016.11.16
++where:	http://archives.tarn.fr
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
-+!address: 14 Rue de la Manutention, 26000 Valence; France
-+
-+naa:
-+who:	University of California Natural Reserve System (=) UCNRS
-+what:	81973
-+when:	2016.11.15
-+where:	http://www.ucnrs.org
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:	EZID ARK
-+!contact: eziduserid nrsinfomgr
-+!address: UC Natural Reserve System  1111 Franklin Ave, 6th Floor Oakland, CA 94607
++!contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
++!address: 1 Avenue de la Verrerie 81013 ALBI Cedex 9
 +
  #!naa:

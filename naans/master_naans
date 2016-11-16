@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.11.15
+when:	2016.11.16
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4825,6 +4825,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	EZID ARK
 !contact: eziduserid nrsinfomgr
 !address: UC Natural Reserve System  1111 Franklin Ave, 6th Floor Oakland, CA 94607
+
+naa:
+who:	Archives départementales du Tarn (=) AD81
+what:	11972
+when:	2016.11.16
+where:	http://archives.tarn.fr
+how:	NP | (:unkn) unknown | 2016 |
+!why:	ARK
+!contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
+!address: 1 Avenue de la Verrerie 81013 ALBI Cedex 9
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
