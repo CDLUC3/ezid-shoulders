@@ -1,16 +1,16 @@
-diff -r 2099fc5f058f naans/master_naans
---- a/naans/master_naans	Tue Nov 15 12:41:04 2016 -0800
-+++ b/naans/master_naans	Wed Nov 16 07:14:34 2016 -0800
-@@ -4828,2 +4828,12 @@
+diff -r fae1d5b0b948 naans/master_naans
+--- a/naans/master_naans	Wed Nov 16 07:14:41 2016 -0800
++++ b/naans/master_naans	Wed Nov 16 17:26:25 2016 -0800
+@@ -4838,2 +4838,12 @@
  
 +naa:
-+who:	Archives départementales du Tarn (=) AD81
-+what:	11972
++who:	Virginia Commonwealth University (=) VCU
++what:	81974
 +when:	2016.11.16
-+where:	http://archives.tarn.fr
++where:	http://www.vcu.edu
 +how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
-+!address: 1 Avenue de la Verrerie 81013 ALBI Cedex 9
++!why:	EZID ARK
++!contact: eziduserid vculibraries
++!address: VCU Libraries  901 Park Ave., P.O. Box 842033  Richmond, VA 23284-2033
 +
  #!naa:

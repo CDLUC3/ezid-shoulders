@@ -4836,6 +4836,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
 !address: 1 Avenue de la Verrerie 81013 ALBI Cedex 9
 
+naa:
+who:	Virginia Commonwealth University (=) VCU
+what:	81974
+when:	2016.11.16
+where:	http://www.vcu.edu
+how:	NP | (:unkn) unknown | 2016 |
+!why:	EZID ARK
+!contact: eziduserid vculibraries
+!address: VCU Libraries  901 Park Ave., P.O. Box 842033  Richmond, VA 23284-2033
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration
