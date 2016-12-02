@@ -550,6 +550,8 @@ contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr |
 contact: eziduserid nrsinfomgr
 contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
 contact: eziduserid vculibraries
+contact: Babois, Agnès ||| a.babois@crlbn.fr | 
+contact: Mansum, Jan van ||| jan.van.mansum@dans.knaw.nl | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

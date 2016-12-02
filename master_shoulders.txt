@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21975 10.21976 10.21977 10.21978 10.21979 10.21980 10.21981 10.21982 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+# 10.21976 10.21977 10.21978 10.21979 10.21980 10.21981 10.21982 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -131,6 +131,21 @@
 # sb-ayliu make_ezacct 10.21972 g2 "" g7 < ezaccts/newacct > out
 # ucnrs    make_ezacct 10.21973 n3 "" r7 < ezaccts/newacct > out
 # vcu      make_ezacct 10.21974 v4 "" c9 < ezaccts/newacct > out
+# ucsdlib  make_ezacct 10.21975 h5 - - < ezaccts/newacct > out
+
+:: datacite:CDL.UCSDHLAB
+type: datacenter
+manager: ezid
+name: UCSD Hydraulics Laboratory
+
+:: doi:10.21975/H5
+type: shoulder
+manager: ezid
+#eziduser: ucsd_dalden
+name: UCSD Hydraulics Laboratory
+date: 2016.12.01
+minter: https://n2t.net/a/ezid/m/ark/d1975/h5
+datacenter: CDL.UCSDHLAB
 
 :: ark:/81974/c9
 type: shoulder
@@ -764,6 +779,7 @@ name: Defense Technical Information Center (no minter)
 date: 2016.06.09
 minter:
 datacenter: CDL.DTIC
+crossref: true
 
 :: ark:/81238/s3
 type: shoulder
@@ -815,6 +831,7 @@ name: Defense Technical Information Center (DTIC)
 date: 2016.05.26
 minter: https://n2t.net/a/ezid/m/ark/d1236/d6
 datacenter: CDL.DTIC
+crossref: true
 
 :: ark:/81235/
 type: shoulder
