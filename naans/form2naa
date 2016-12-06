@@ -106,7 +106,7 @@ EOT
 		? 'FP' : 'NP';
 
 	my $URL = $h->{'Organization base URL'};
-	$URL =~ s,/+\s*$,,;
+	$URL =~ s,[./]+\s*$,,;
 	my $email = $h->{'Contact email address'};
 	my $address = $h->{'Organization address'};
 	my $provider = $h->{'Service provider'} || '';
@@ -117,6 +117,7 @@ EOT
 	$other and
 		print STDERR "Note other info: $other\n";
 	my $naan = 'XXXXX';
+	# XXX to email response, include raw form info as original request
 	unless ($no_naan_generation) {
 		my $naan_rec = "$ENV{HOME}/shoulders/naans/forge/naan_rec ";
 		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname" "$lastname" "$email" "" "$address"@;

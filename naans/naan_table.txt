@@ -491,6 +491,7 @@
 81974	Virginia Commonwealth University (=) VCU
 86186	Centre Régional des Lettres (=) NORMANNIA
 73189	Data Archiving and Networked Services (=) DANSKNAW
+60193	Médiathèque de Bayonne (=) MBAYONNE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

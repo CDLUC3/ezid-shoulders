@@ -1,26 +1,16 @@
-diff -r 040ae5f6b586 naans/master_naans
---- a/naans/master_naans	Wed Nov 16 17:26:25 2016 -0800
-+++ b/naans/master_naans	Fri Dec 02 10:59:42 2016 -0800
-@@ -4848,2 +4848,22 @@
+diff -r e2154f59e3e3 naans/master_naans
+--- a/naans/master_naans	Fri Dec 02 10:59:42 2016 -0800
++++ b/naans/master_naans	Tue Dec 06 09:27:55 2016 -0800
+@@ -4868,2 +4868,12 @@
  
 +naa:
-+who:	Centre Régional des Lettres (=) NORMANNIA
-+what:	86186
-+when:	2016.12.02
-+where:	http://normannia.info
++who:	Médiathèque de Bayonne (=) MBAYONNE
++what:	60193
++when:	2016.12.06
++where:	http://www.mediatheque.bayonne.fr
 +how:	NP | (:unkn) unknown | 2016 |
 +!why:	ARK
-+!contact: Babois, Agnès ||| a.babois@crlbn.fr | 
-+!address: Unicité - 14 rue Alfred Kastler CS 75438 - 14054 Caen Cedex 4
-+
-+naa:
-+who:	Data Archiving and Networked Services (=) DANSKNAW
-+what:	73189
-+when:	2016.12.02
-+where:	https://dans.knaw.nl
-+how:	NP | (:unkn) unknown | 2016 |
-+!why:	ARK
-+!contact: Mansum, Jan van ||| jan.van.mansum@dans.knaw.nl | 
-+!address: Anna van Saksenlaan 51, 2593 HW Den Haag, Netherlands
++!contact: Blin, Isabelle ||| i.blin@bayonne.fr | 
++!address: 10 rue des Gouverneurs, 64100 Bayonne, France
 +
  #!naa:

@@ -552,6 +552,7 @@ contact: Gautrand, Valérie ||| archives.tarn@tarn.fr |
 contact: eziduserid vculibraries
 contact: Babois, Agnès ||| a.babois@crlbn.fr | 
 contact: Mansum, Jan van ||| jan.van.mansum@dans.knaw.nl | 
+contact: Blin, Isabelle ||| i.blin@bayonne.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
