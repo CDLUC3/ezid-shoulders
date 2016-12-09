@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.12.06
+when:	2016.12.09
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3739,6 +3739,13 @@ who:	Médiathèque de Bayonne (=) MBAYONNE
 what:	60193
 when:	2016.12.06
 where:	http://www.mediatheque.bayonne.fr
+how:	NP | (:unkn) unknown | 2016 |
+
+naa:
+who:	Climate, Atmospheric Science and Physical Oceanography (=) CASPO
+what:	81976
+when:	2016.12.09
+where:	https://scripps.ucsd.edu/caspo
 how:	NP | (:unkn) unknown | 2016 |
 
 

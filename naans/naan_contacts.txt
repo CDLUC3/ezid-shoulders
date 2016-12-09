@@ -553,6 +553,7 @@ contact: eziduserid vculibraries
 contact: Babois, Agnès ||| a.babois@crlbn.fr | 
 contact: Mansum, Jan van ||| jan.van.mansum@dans.knaw.nl | 
 contact: Blin, Isabelle ||| i.blin@bayonne.fr | 
+contact: eziduserid ucsd_talley
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
