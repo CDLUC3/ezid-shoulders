@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2016.12.09
+when:	2016.12.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4895,6 +4895,16 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Grandhomme, Mireille ||| mireille.grandhomme@ville-cannes.fr | 
 !address: 1, Avenue de Jean de Noailles, 06400 Cannes, France
+
+naa:
+who:	Center for Sustainability Research and Consultancy (=) CSRC
+what:	34202
+when:	2017.01.03
+where:	http://globalcsrc.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Siddiqui, Sulaman Hafeez ||| research@globalscsrc.org | 
+!address: First Floor, Naseer Building No 581, Outside Pakgate Multan 60000 Punjab Pakistan
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

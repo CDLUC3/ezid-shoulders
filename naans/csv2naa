@@ -4,7 +4,6 @@ use 5.006;
 use strict;
 use warnings;
 
-use Text::ParseWords;
 use YAML;
 use Encode;
 
@@ -77,40 +76,18 @@ EOT
 		"warning: non-ascii punctuation: ", encode('utf8', $_), "\n")
 			for (@uchars);
 
-	# CSV fields:
-	# "Timestamp","Contact name:","Contact email address:","Organization name:","Position in organization:","Organization address:","Organization base URL:","Organization status:","Service provider:","Organization acronym preferred:","Other information:"
-	my $timestamp;			# unused field if it's a CSV parse
-	my $h;				# hash if it's a YAML parse
-	my ($fullname, $email, $orgname, $role, $address,
-		$URL, $ostatus, $provider, $acronym, $other);
-	my ($firstname, $lastname);
-	if (m/,.*,.*,.*,.*,/) {	# if there are at least 5 commas on a line
-		(			# assume input is in CSV-format
-			$timestamp,			# unused field
-			$fullname, $email, $orgname, $role, $address,
-				$URL, $ostatus, $provider, $acronym, $other
-		) = Text::ParseWords::parse_line(',', 0, $_);
-	}
-	else {
-		$h = Load($_);		# YAML parse, returning hash reference
-		$fullname = $h->{'Contact name'} || '';
-		$orgname = $h->{'Organization name'} || '';
-		$acronym = $h->{'Organization acronym preferred'} || '';
-		$ostatus = $h->{'Organization status'} || '';
-		$URL = $h->{'Organization base URL'};
-		$email = $h->{'Contact email address'};
-		$address = $h->{'Organization address'};
-		$provider = $h->{'Service provider'} || '';
-		$role = $h->{'Position in organization'} || '';
-		$other = $h->{'Other information'} || '';
-	}
+	my $h = Load($_);	# YAML parse, returning hash reference
 	# yyy check if YAML strips surrounding whitespace
 
 	# Get part of personal name (just a guess, so bears checking)
-	($firstname, $lastname) = $fullname =~ /^\s*(.+)\s+(\S+)\s*$/ or
+	my $fullname = $h->{'Contact name'} || '';
+	my ($firstname, $lastname) = $fullname =~ /^\s*(.+)\s+(\S+)\s*$/ or
 		print(STDERR "error: couldn't parse personal name '",
 			$fullname, "'\n"),
 		exit 1;
+	# XXX form doesn't ask for Acronym (should it ever?)
+	my $orgname = $h->{'Organization name'} || '';
+	my $acronym = $h->{'Organization acronym preferred'} || '';
 	unless ($acronym) {
 		$acronym = $orgname;
 		# drop stop words in English, French, and Spanish
@@ -123,19 +100,22 @@ EOT
 		$acronym =~ s/\s+//g;			# remove spaces
 	}
 	$acronym = uc $acronym;
-	my $bmodel =
-		($ostatus eq 'For profit' ? 'FP' :
-		($ostatus eq 'Not-for-profit' ? 'NP' :
-			"ORGSTATUS: $ostatus"));
-	$URL =~ s,[./]+\s*$,,;		# remove terminal / or . if any
-	$URL =~ m,^https?://, or
-		$URL = 'http://' . $URL;	# clothe a naked hostname
+	my $phone = $h->{'Phone'} || '';
+	my $bmodel = $h->{'Organization status'} || '';
+	$bmodel = $bmodel =~ /For profit/
+		? 'FP' : 'NP';
+
+	my $URL = $h->{'Organization base URL'};
+	$URL =~ s,[./]+\s*$,,;
+	my $email = $h->{'Contact email address'};
+	my $address = $h->{'Organization address'};
+	my $provider = $h->{'Service provider'} || '';
+	my $role = $h->{'Position in organization'} || '';
 	$provider and
 		$provider = "\n!provider: $provider";
-	$other =~ /./ and		# if it has real content
-		print STDERR "Note other info: |$other|\n";
-
-	# generated field
+	my $other = $h->{'Other information'} || '';
+	$other and
+		print STDERR "Note other info: $other\n";
 	my $naan = 'XXXXX';
 	# XXX to email response, include raw form info as original request
 	unless ($no_naan_generation) {
