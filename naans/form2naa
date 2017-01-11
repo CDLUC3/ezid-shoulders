@@ -18,8 +18,10 @@ q|$cmd - convert a NAAN request form to a registry entry
 
 Usage:	$cmd [ -n ] FormFile
 
-where FormFile names a YAML-ish file containing a filled-out form, often
-pasted from an email sent by https://goo.gl/forms/bmckLSPpbzpZ5dix1 .
+where FormFile contains form data in either YAML-ish or CSV format.  The
+data may have been created with https://goo.gl/forms/bmckLSPpbzpZ5dix1 
+and delivered either by downloading a CSV file or pasting from an email
+generated from the filled-out form.
 
 The FormFile may be given as '-' to name stdin.  The optional -n argument
 prevents generation of a new NAAN, but does show the rest of the entry as

@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21978 10.21979 10.21980 10.21981 10.21982 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+# 10.21979 10.21980 10.21981 10.21982 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -134,6 +134,17 @@
 # ucsdlib  make_ezacct 10.21975 h5 - - < ezaccts/newacct > out
 # caspo    make_ezacct 10.21976 c6 "" p7 < ezaccts/newacct > out
 # uci      make_ezacct -n 10.21977 d9 - - < ezaccts/newacct > out
+# ucla-pds make_ezacct -n 10.21978 p8 - - < ezaccts/newacct > out
+
+:: doi:10.21978/P8
+type: shoulder
+manager: ezid
+#eziduser: ucla-pds
+name: Planetary Data System
+date: 2017.01.04
+minter: https://n2t.net/a/ezid/m/ark/d1978/p8
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: doi:10.21977/D9
 type: shoulder
@@ -3694,6 +3705,7 @@ name: UCLA Dash
 date: 2014.06.05
 minter: https://n2t.net/a/ezid/m/ark/b5068/d1
 datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: doi:10.13015/J4
 type: shoulder
@@ -5810,6 +5822,7 @@ name: UCLA
 date: 2012.01.17
 minter: https://n2t.net/a/ezid/m/ark/b5068/g5
 datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: ark:/38305/g4
 type: shoulder

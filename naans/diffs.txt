@@ -1,16 +1,16 @@
-diff -r 8da32cf58ee6 naans/master_naans
---- a/naans/master_naans	Thu Dec 15 10:09:58 2016 -0800
-+++ b/naans/master_naans	Tue Jan 03 08:27:53 2017 -0800
-@@ -4898,2 +4898,12 @@
+diff -r 9303bab60563 naans/master_naans
+--- a/naans/master_naans	Tue Jan 03 08:27:54 2017 -0800
++++ b/naans/master_naans	Wed Jan 11 07:31:55 2017 -0800
+@@ -4908,2 +4908,12 @@
  
 +naa:
-+who:	Center for Sustainability Research and Consultancy (=) CSRC
-+what:	34202
-+when:	2017.01.03
-+where:	http://globalcsrc.org
++who:	Ecole Nationale Supérieure d'Arts et Métiers (=) ENSAM
++what:	21548
++when:	2017.01.11
++where:	http://ensam.eu
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Siddiqui, Sulaman Hafeez ||| research@globalscsrc.org | 
-+!address: First Floor, Naseer Building No 581, Outside Pakgate Multan 60000 Punjab Pakistan
++!contact: Basset, Mylène ||| mylene.basset@ensam.eu | 
++!address: 151 boulevard de l'Hôpital, 75013 PARIS, France
 +
  #!naa:

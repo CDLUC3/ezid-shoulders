@@ -556,6 +556,7 @@ contact: Blin, Isabelle ||| i.blin@bayonne.fr |
 contact: eziduserid ucsd_talley
 contact: Grandhomme, Mireille ||| mireille.grandhomme@ville-cannes.fr | 
 contact: Siddiqui, Sulaman Hafeez ||| research@globalscsrc.org | 
+contact: Basset, Mylène ||| mylene.basset@ensam.eu | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
