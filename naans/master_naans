@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.11
+when:	2017.01.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4915,6 +4915,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Basset, Mylène ||| mylene.basset@ensam.eu | 
 !address: 151 boulevard de l'Hôpital, 75013 PARIS, France
+
+naa:
+who:	Nanyang Technological University (=) NTU
+what:	81979
+when:	2017.01.12
+where:	www.ntu.edu.sg
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid ntu-drdata
+!address: Lee Wee Nam Library, 50 Nanyang Avenue Singapore 639798
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

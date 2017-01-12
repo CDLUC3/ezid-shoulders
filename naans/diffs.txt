@@ -1,16 +1,16 @@
-diff -r 9303bab60563 naans/master_naans
---- a/naans/master_naans	Tue Jan 03 08:27:54 2017 -0800
-+++ b/naans/master_naans	Wed Jan 11 07:31:55 2017 -0800
-@@ -4908,2 +4908,12 @@
+diff -r 0e2b56644406 naans/master_naans
+--- a/naans/master_naans	Wed Jan 11 07:31:56 2017 -0800
++++ b/naans/master_naans	Thu Jan 12 15:50:19 2017 -0800
+@@ -4918,2 +4918,12 @@
  
 +naa:
-+who:	Ecole Nationale Supérieure d'Arts et Métiers (=) ENSAM
-+what:	21548
-+when:	2017.01.11
-+where:	http://ensam.eu
++who:	Nanyang Technological University (=) NTU
++what:	81979
++when:	2017.01.12
++where:	www.ntu.edu.sg
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Basset, Mylène ||| mylene.basset@ensam.eu | 
-+!address: 151 boulevard de l'Hôpital, 75013 PARIS, France
++!why:	EZID ARK
++!contact: eziduserid ntu-drdata
++!address: Lee Wee Nam Library, 50 Nanyang Avenue Singapore 639798
 +
  #!naa:
