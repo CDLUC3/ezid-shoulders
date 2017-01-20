@@ -497,6 +497,8 @@
 34202	Center for Sustainability Research and Consultancy (=) CSRC
 21548	Ecole Nationale Supérieure d'Arts et Métiers (=) ENSAM
 81979	Nanyang Technological University (=) NTU
+81981	University of Iowa (=) UIOWA
+81982	University of Michigan Dept of EEC (=) UMGRSS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

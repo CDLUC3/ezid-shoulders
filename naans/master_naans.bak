@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.11
+when:	2017.01.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4925,6 +4925,26 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid ntu-drdata
 !address: Lee Wee Nam Library, 50 Nanyang Avenue Singapore 639798
+
+naa:
+who:	University of Iowa (=) UIOWA
+what:	81981
+when:	2017.01.20
+where:	http://www.lib.uiowa.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid uiowa
+!address: 100 Main Library, 125 West Washington St.  Iowa City, IA 52242-1420
+
+naa:
+who:	University of Michigan Dept of EEC (=) UMGRSS
+what:	81982
+when:	2017.01.20
+where:	http://rscl-grss.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid um_rsclid
+!address: Fawwaz Ulaby  1301 Beal Ave  Ann Arbor, MI 48109-2122
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

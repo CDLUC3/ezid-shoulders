@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.12
+when:	2017.01.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3774,6 +3774,20 @@ who:	Nanyang Technological University (=) NTU
 what:	81979
 when:	2017.01.12
 where:	www.ntu.edu.sg
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	University of Iowa (=) UIOWA
+what:	81981
+when:	2017.01.20
+where:	http://www.lib.uiowa.edu
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	University of Michigan Dept of EEC (=) UMGRSS
+what:	81982
+when:	2017.01.20
+where:	http://rscl-grss.org
 how:	NP | (:unkn) unknown | 2017 |
 
 
