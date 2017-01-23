@@ -1,26 +1,16 @@
-diff -r c55a31692794 naans/master_naans
---- a/naans/master_naans	Thu Jan 12 15:50:19 2017 -0800
-+++ b/naans/master_naans	Fri Jan 20 13:14:07 2017 -0800
-@@ -4928,2 +4928,22 @@
+diff -r 9e6f8df67c1e naans/master_naans
+--- a/naans/master_naans	Fri Jan 20 13:14:08 2017 -0800
++++ b/naans/master_naans	Sun Jan 22 16:34:55 2017 -0800
+@@ -4948,2 +4948,12 @@
  
 +naa:
-+who:	University of Iowa (=) UIOWA
-+what:	81981
-+when:	2017.01.20
-+where:	http://www.lib.uiowa.edu
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid uiowa
-+!address: 100 Main Library, 125 West Washington St.  Iowa City, IA 52242-1420
-+
-+naa:
-+who:	University of Michigan Dept of EEC (=) UMGRSS
-+what:	81982
-+when:	2017.01.20
-+where:	http://rscl-grss.org
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid um_rsclid
-+!address: Fawwaz Ulaby  1301 Beal Ave  Ann Arbor, MI 48109-2122
++who:	Cadmos (=) CADMOS
++what:	82765
++when:	2017.01.22
++where:	http://www.texteimage.com
++how:	FP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
++!address: 40 rue Armand Carel, 74019 Paris, France
 +
  #!naa:

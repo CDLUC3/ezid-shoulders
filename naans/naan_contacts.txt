@@ -560,6 +560,7 @@ contact: Basset, Mylène ||| mylene.basset@ensam.eu |
 contact: eziduserid ntu-drdata
 contact: eziduserid uiowa
 contact: eziduserid um_rsclid
+contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
