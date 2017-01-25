@@ -1,16 +1,16 @@
-diff -r 9e6f8df67c1e naans/master_naans
---- a/naans/master_naans	Fri Jan 20 13:14:08 2017 -0800
-+++ b/naans/master_naans	Sun Jan 22 16:34:55 2017 -0800
-@@ -4948,2 +4948,12 @@
+diff -r 2311cbe4691f naans/master_naans
+--- a/naans/master_naans	Sun Jan 22 16:34:56 2017 -0800
++++ b/naans/master_naans	Wed Jan 25 11:51:55 2017 -0800
+@@ -4958,2 +4958,12 @@
  
 +naa:
-+who:	Cadmos (=) CADMOS
-+what:	82765
-+when:	2017.01.22
-+where:	http://www.texteimage.com
-+how:	FP | (:unkn) unknown | 2017 |
++who:	Archives du Musée du quai Branly Jacques Chirac (=) MQB
++what:	69769
++when:	2017.01.25
++where:	http://docmuseale.quaibranly.fr
++how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
-+!address: 40 rue Armand Carel, 74019 Paris, France
++!contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
++!address: 222 rue de l'Université 75007 PARIS
 +
  #!naa:

@@ -500,6 +500,7 @@
 81981	University of Iowa (=) UIOWA
 81982	University of Michigan Dept of EEC (=) UMGRSS
 82765	Cadmos (=) CADMOS
+69769	Archives du Musée du quai Branly Jacques Chirac (=) MQB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
