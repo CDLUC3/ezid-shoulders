@@ -57,7 +57,7 @@ endif
 #if ("$partial" =~ 9* || "$partial" =~ 0*) then
 #if ("$id" =~ 9* || "$id" =~ 0*) then
 #if ("$id" =~ [089]*) then	# old (8) setting to avoid colliding with EZID
-if ("$id" =~ [09]*) then
+if ("$id" =~ [089]*) then	# 8 too, often used for EZID DOI+ARK accounts
 	#echo ECHO noid hold set $id
 	#$ndcmd hold set $id
 	echo "Skipping id: $id".  Try again.

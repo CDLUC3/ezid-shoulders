@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.25
+when:	2017.01.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3802,6 +3802,13 @@ who:	Archives du Musée du quai Branly Jacques Chirac (=) MQB
 what:	69769
 when:	2017.01.25
 where:	http://docmuseale.quaibranly.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	UW Institute for Learning & Brain Sciences (=) UWILABS
+what:	81983
+when:	2017.01.26
+where:	http://ilabs.washington.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 

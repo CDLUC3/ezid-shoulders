@@ -1,16 +1,16 @@
-diff -r 2311cbe4691f naans/master_naans
---- a/naans/master_naans	Sun Jan 22 16:34:56 2017 -0800
-+++ b/naans/master_naans	Wed Jan 25 11:51:55 2017 -0800
-@@ -4958,2 +4958,12 @@
+diff -r b9a4fa5d0ada naans/master_naans
+--- a/naans/master_naans	Wed Jan 25 11:51:55 2017 -0800
++++ b/naans/master_naans	Thu Jan 26 15:31:15 2017 -0800
+@@ -4968,2 +4968,12 @@
  
 +naa:
-+who:	Archives du Musée du quai Branly Jacques Chirac (=) MQB
-+what:	69769
-+when:	2017.01.25
-+where:	http://docmuseale.quaibranly.fr
++who:	UW Institute for Learning & Brain Sciences (=) UWILABS
++what:	81983
++when:	2017.01.26
++where:	http://ilabs.washington.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
-+!address: 222 rue de l'Université 75007 PARIS
++!why:	EZID ARK
++!contact: eziduserid uw_i-labsout
++!address: Campus Box 357988  Seattle, WA 981-7988
 +
  #!naa:
