@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.26
+when:	2017.02.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4975,6 +4975,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid uw_i-labsout
 !address: Campus Box 357988  Seattle, WA 981-7988
+
+naa:
+who:	Journal of Zoology Studies (=) JOZS
+what:	56773
+when:	2017.02.06
+where:	http://www.journalofzoology.com
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
+!address: D-16/414, Sector-7, Rohini, Delhi-110085, India
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

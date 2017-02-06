@@ -7,7 +7,7 @@
 
 FILES = private public
 #FILES = private public shoulders
-ALL = $(FILES) commit replicate
+ALL = $(FILES) commit replicate prefixes
 TODAY = `date "+%Y.%m.%d"`
 #ALL = $(FILES) replicate
 .PHONY: print_usage $(ALL) vmsg umsg mod_date
@@ -222,6 +222,12 @@ replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
 	cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/
 	hg push
+
+prefix_files = $(HOME)/shoulders/n2tadds.yaml \
+	$(HOME)/sv/cur/build/eggnog/t/n2t/prefixes/prefixes.yaml
+
+prefixes: $(prefix_files)
+	cp -p $(prefix_files) $(HOME)/sv/cur/apache2/htdocs/e/
 
 # test values
 remote = jak@ucop.edu jkunze@ucop.edu

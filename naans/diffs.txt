@@ -1,16 +1,16 @@
-diff -r b9a4fa5d0ada naans/master_naans
---- a/naans/master_naans	Wed Jan 25 11:51:55 2017 -0800
-+++ b/naans/master_naans	Thu Jan 26 15:31:15 2017 -0800
-@@ -4968,2 +4968,12 @@
+diff -r 6ddec81e6aeb naans/master_naans
+--- a/naans/master_naans	Thu Jan 26 15:31:16 2017 -0800
++++ b/naans/master_naans	Mon Feb 06 15:21:54 2017 -0800
+@@ -4978,2 +4978,12 @@
  
 +naa:
-+who:	UW Institute for Learning & Brain Sciences (=) UWILABS
-+what:	81983
-+when:	2017.01.26
-+where:	http://ilabs.washington.edu
++who:	Journal of Zoology Studies (=) JOZS
++what:	56773
++when:	2017.02.06
++where:	http://www.journalofzoology.com
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid uw_i-labsout
-+!address: Campus Box 357988  Seattle, WA 981-7988
++!why:	ARK
++!contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
++!address: D-16/414, Sector-7, Rohini, Delhi-110085, India
 +
  #!naa:

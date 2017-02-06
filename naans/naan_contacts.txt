@@ -563,6 +563,7 @@ contact: eziduserid um_rsclid
 contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
 contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
 contact: eziduserid uw_i-labsout
+contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

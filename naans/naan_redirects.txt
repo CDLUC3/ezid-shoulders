@@ -503,6 +503,7 @@ RedirectMatch ^/((ark:/81982)|81982/?)(.*)$ http://rscl-grss.org/$2$3
 RedirectMatch ^/((ark:/82765)|82765/?)(.*)$ http://www.texteimage.com/$2$3
 RedirectMatch ^/((ark:/69769)|69769/?)(.*)$ http://docmuseale.quaibranly.fr/$2$3
 RedirectMatch ^/((ark:/81983)|81983/?)(.*)$ http://ilabs.washington.edu/$2$3
+RedirectMatch ^/((ark:/56773)|56773/?)(.*)$ http://www.journalofzoology.com/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
