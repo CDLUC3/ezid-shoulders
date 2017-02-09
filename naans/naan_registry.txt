@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.06
+when:	2017.02.09
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -308,7 +308,7 @@ naa:
 who:	California Digital Library (=) CDLIB
 what:	13030
 when:	2002.07.12
-where:	http://www.cdlib.org
+where:	http://n2t.net
 how:	NP | NR, OP, CC | 2002 | http://www.cdlib.org/inside/diglib/ark/
 
 naa:
@@ -350,7 +350,7 @@ naa:
 who:	Internet Archive (=) IA
 what:	13960
 when:	2004.08.29
-where:	http://www.archive.org
+where:	http://n2t.net
 how:	NP | NR, OP, CC | 2004 |
 
 naa:
@@ -371,7 +371,7 @@ naa:
 who:	University of North Texas (=) UNT
 what:	67531
 when:	2004.10.07
-where:	http://www.library.unt.edu
+where:	http://digital.library.unt.edu
 how:	NP | (:unkn) unknown | 2004 |
 
 naa:
@@ -3014,7 +3014,7 @@ where:	http://www.scd.uha.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    Univ Chicago Materials Data Facility (=) MDF
+who:    University of Chicago Materials Data Facility (=) MDF
 what:   88126
 when:   2015.12.08
 where:	www.materialsdatafacility.org
@@ -3816,6 +3816,13 @@ who:	Journal of Zoology Studies (=) JOZS
 what:	56773
 when:	2017.02.06
 where:	http://www.journalofzoology.com
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	University of Illinois at Chicago (=) UIC
+what:	81984
+when:	2017.02.09
+where:	http://library.uic.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 

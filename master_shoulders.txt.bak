@@ -68,7 +68,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21983 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+# 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -139,6 +139,25 @@
 # uci-jetem   make_ezacct -n 10.21980 j8 - -  < ezaccts/newacct > out
 # uiowa       make_ezacct -n 10.21981 m8 "" w9  < ezaccts/newacct > out
 # um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
+# uw_i-labs   make_ezacct -n 10.21983 b3 "" r8  < ezaccts/newacct > out
+
+:: ark:/81983/r8
+type: shoulder
+manager: ezid
+#eziduser: uw_i-labsout
+name: UW Institute for Learning & Brain Sciences
+date: 2017.01.26
+minter: https://n2t.net/a/ezid/m/ark/81983/r8
+
+:: doi:10.21983/B3
+type: shoulder
+manager: ezid
+#eziduser: uw_i-labsout
+name: UW Institute for Learning & Brain Sciences
+date: 2017.01.26
+minter: https://n2t.net/a/ezid/m/ark/d1983/b3
+datacenter: CDL.UWL
+prefix_shares_datacenter: true
 
 :: ark:/81982/r2
 type: shoulder

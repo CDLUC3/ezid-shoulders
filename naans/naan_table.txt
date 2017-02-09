@@ -388,7 +388,7 @@
 48223	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 88431	Energy Analysis and Environmental Impacts (=) EAEI
 35228	Université de Haute-Alsace (=) UHA
-88126	Univ Chicago Materials Data Facility (=) MDF
+88126	University of Chicago Materials Data Facility (=) MDF
 88436	Southern California Ocean Observing System (=) SCCOOS
 88437	Coastal Data Information Program (=) CDIP
 88434	National Institute of Standards and Technology (=) NIST
@@ -503,6 +503,7 @@
 69769	Archives du Musée du quai Branly Jacques Chirac (=) MQB
 81983	UW Institute for Learning & Brain Sciences (=) UWILABS
 56773	Journal of Zoology Studies (=) JOZS
+81984	University of Illinois at Chicago (=) UIC
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

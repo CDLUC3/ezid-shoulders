@@ -1,16 +1,36 @@
-diff -r 6ddec81e6aeb naans/master_naans
---- a/naans/master_naans	Thu Jan 26 15:31:16 2017 -0800
-+++ b/naans/master_naans	Mon Feb 06 15:21:54 2017 -0800
-@@ -4978,2 +4978,12 @@
+diff -r 14e760df0105 naans/master_naans
+--- a/naans/master_naans	Mon Feb 06 15:21:54 2017 -0800
++++ b/naans/master_naans	Thu Feb 09 11:40:50 2017 -0800
+@@ -327,3 +327,3 @@
+ when:	2002.07.12
+-where:	http://www.cdlib.org
++where:	http://n2t.net
+ how:	NP | NR, OP, CC | 2002 | http://www.cdlib.org/inside/diglib/ark/
+@@ -384,3 +384,3 @@
+ when:	2004.08.29
+-where:	http://www.archive.org
++where:	http://n2t.net
+ how:	NP | NR, OP, CC | 2004 |
+@@ -414,3 +414,3 @@
+ when:	2004.10.07
+-where:	http://www.library.unt.edu
++where:	http://digital.library.unt.edu
+ how:	NP | (:unkn) unknown | 2004 |
+@@ -3870,3 +3870,3 @@
+ naa:
+-who:    Univ Chicago Materials Data Facility (=) MDF
++who:    University of Chicago Materials Data Facility (=) MDF
+ what:   88126
+@@ -4988,2 +4988,12 @@
  
 +naa:
-+who:	Journal of Zoology Studies (=) JOZS
-+what:	56773
-+when:	2017.02.06
-+where:	http://www.journalofzoology.com
++who:	University of Illinois at Chicago (=) UIC
++what:	81984
++when:	2017.02.09
++where:	http://library.uic.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
-+!address: D-16/414, Sector-7, Rohini, Delhi-110085, India
++!why:	EZID ARK
++!contact: eziduserid uic
++!address: 801 S. Morgan  Chicago, IL 60607
 +
  #!naa:

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.01.26
+when:	2017.02.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -325,7 +325,7 @@ naa:
 who:	California Digital Library (=) CDLIB
 what:	13030
 when:	2002.07.12
-where:	http://www.cdlib.org
+where:	http://n2t.net
 how:	NP | NR, OP, CC | 2002 | http://www.cdlib.org/inside/diglib/ark/
 !why:   ARK
 !contact: Kunze, John ||| jak@ucop.edu | +1 510-987-9231
@@ -382,7 +382,7 @@ naa:
 who:	Internet Archive (=) IA
 what:	13960
 when:	2004.08.29
-where:	http://www.archive.org
+where:	http://n2t.net
 how:	NP | NR, OP, CC | 2004 |
 !why:   ARK
 #!contact: Stack, Michael || 2004-2007 | stack@archive.org
@@ -412,7 +412,7 @@ naa:
 who:	University of North Texas (=) UNT
 what:	67531
 when:	2004.10.07
-where:	http://www.library.unt.edu
+where:	http://digital.library.unt.edu
 how:	NP | (:unkn) unknown | 2004 |
 !why:   ARK
 !contact: Hartman, Cathy ||| chartman@library.unt.edu
@@ -3868,7 +3868,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 
 naa:
-who:    Univ Chicago Materials Data Facility (=) MDF
+who:    University of Chicago Materials Data Facility (=) MDF
 what:   88126
 when:   2015.12.08
 where:	www.materialsdatafacility.org
@@ -4985,6 +4985,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
 !address: D-16/414, Sector-7, Rohini, Delhi-110085, India
+
+naa:
+who:	University of Illinois at Chicago (=) UIC
+what:	81984
+when:	2017.02.09
+where:	http://library.uic.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid uic
+!address: 801 S. Morgan  Chicago, IL 60607
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
