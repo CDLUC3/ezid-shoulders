@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.09
+when:	2017.02.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4995,6 +4995,17 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid uic
 !address: 801 S. Morgan  Chicago, IL 60607
+
+naa:
+who:	Archives départementales de la Dordogne (=) ADDORD
+what:	43778
+when:	2017.02.13
+where:	http://archives.dordogne.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Bordas, Denis ||| d.bordas@dordogne.fr | 
+!contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
+!address: 9, rue Littré 24000 Périgueux
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

@@ -565,6 +565,8 @@ contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr |
 contact: eziduserid uw_i-labsout
 contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
 contact: eziduserid uic
+contact: Bordas, Denis ||| d.bordas@dordogne.fr | 
+contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

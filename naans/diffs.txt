@@ -1,36 +1,17 @@
-diff -r 14e760df0105 naans/master_naans
---- a/naans/master_naans	Mon Feb 06 15:21:54 2017 -0800
-+++ b/naans/master_naans	Thu Feb 09 11:40:50 2017 -0800
-@@ -327,3 +327,3 @@
- when:	2002.07.12
--where:	http://www.cdlib.org
-+where:	http://n2t.net
- how:	NP | NR, OP, CC | 2002 | http://www.cdlib.org/inside/diglib/ark/
-@@ -384,3 +384,3 @@
- when:	2004.08.29
--where:	http://www.archive.org
-+where:	http://n2t.net
- how:	NP | NR, OP, CC | 2004 |
-@@ -414,3 +414,3 @@
- when:	2004.10.07
--where:	http://www.library.unt.edu
-+where:	http://digital.library.unt.edu
- how:	NP | (:unkn) unknown | 2004 |
-@@ -3870,3 +3870,3 @@
- naa:
--who:    Univ Chicago Materials Data Facility (=) MDF
-+who:    University of Chicago Materials Data Facility (=) MDF
- what:   88126
-@@ -4988,2 +4988,12 @@
+diff -r 26e5e4b959f4 naans/master_naans
+--- a/naans/master_naans	Thu Feb 09 11:40:50 2017 -0800
++++ b/naans/master_naans	Mon Feb 13 07:49:50 2017 -0800
+@@ -4998,2 +4998,13 @@
  
 +naa:
-+who:	University of Illinois at Chicago (=) UIC
-+what:	81984
-+when:	2017.02.09
-+where:	http://library.uic.edu
++who:	Archives départementales de la Dordogne (=) ADDORD
++what:	43778
++when:	2017.02.13
++where:	http://archives.dordogne.fr
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid uic
-+!address: 801 S. Morgan  Chicago, IL 60607
++!why:	ARK
++!contact: Bordas, Denis ||| d.bordas@dordogne.fr | 
++!contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
++!address: 9, rue Littré 24000 Périgueux
 +
  #!naa:

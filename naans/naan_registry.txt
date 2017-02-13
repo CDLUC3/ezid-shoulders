@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.09
+when:	2017.02.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3823,6 +3823,13 @@ who:	University of Illinois at Chicago (=) UIC
 what:	81984
 when:	2017.02.09
 where:	http://library.uic.edu
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Archives départementales de la Dordogne (=) ADDORD
+what:	43778
+when:	2017.02.13
+where:	http://archives.dordogne.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 
