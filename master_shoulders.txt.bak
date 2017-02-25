@@ -37,13 +37,19 @@
 # NOTE: all new prefixes can be assigned to either CDL or Purdue
 # xxx add "crossref: true" to make EZID deposit metadata with CrossRef
 
-# To remove a shoulder from the system, remove it from this file, install,
-# and reload EZID as usual.  This will generate an EZID exception alert,
-# which you can ignore, but tell other alert recipients (Greg) that
-# you're working on it. Then go to the EZID UI, login as admin, go to the
-# admin tab and then the groups tab. Choose the group owner to see the
-# remaining shoulders, and hit "Save". This will update the LDAP record
-# for that owner and silence further exceptions.
+# To remove a shoulder from the system, login to the EZID UI as "admin",
+# go to the admin tab and then the groups tab.  Look up that shoulder,
+# and you'll see that it's being referenced by an EZID user and group.
+# Delete the references and hit Save.  Finally, come back and remove it
+# from this file, install, and reload EZID as usual.
+# 
+# Deleting the shoulder from the shoulder database without deleting those
+# references first (in the EZID admin) will cause the update to the
+# shoulder database (and all future updates) to be rejected by EZID.
+# Everything will be fine again after you complete the first step, but
+# meanwhile tell other alert recipients (Greg) that you're working on it.
+#
+# 2017.02.01 removed ark:/13030/q0 (escholarship)
 
 # To move DOIs between datacenters:
 # 1. Adjust shoulders to use new datacenter
@@ -68,7 +74,7 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21984 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+# 10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -140,6 +146,29 @@
 # uiowa       make_ezacct -n 10.21981 m8 "" w9  < ezaccts/newacct > out
 # um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
 # uw_i-labs   make_ezacct -n 10.21983 b3 "" r8  < ezaccts/newacct > out
+# uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
+
+:: ark:/81984/c8
+type: shoulder
+manager: ezid
+#eziduser: uic
+name: University of Illinois at Chicago
+date: 2017.02.09
+minter: https://n2t.net/a/ezid/m/ark/81984/c8
+
+:: datacite:PURDUE.UIC
+type: datacenter
+manager: ezid
+name: University of Illinois at Chicago
+
+:: doi:10.21984/C4
+type: shoulder
+manager: ezid
+#eziduser: uic
+name: University of Illinois at Chicago
+date: 2017.02.09
+minter: https://n2t.net/a/ezid/m/ark/d1984/c4
+datacenter: PURDUE.UIC
 
 :: ark:/81983/r8
 type: shoulder
@@ -2624,6 +2653,8 @@ datacenter: CDL.IRIS
 :: ark:/13030/p8
 # Minter recreated due to re-seeding error uncovered during Amazon migration
 # of 2015.03.13; replaces retired minter 13030/p4
+# Internal escholarship arks for Grouped OA Publication Records.
+# Should be no refs found in the wild.
 type: shoulder
 manager: ezid
 #eziduser: eschol_harvester
@@ -4868,6 +4899,7 @@ type: shoulder
 manager: ezid
 #eziduser: none
 name: Social Networks and Archival Context (SNAC) Project
+redirect: 303 http://socialarchive.iath.virginia.edu/ark:$id
 date: 2013.02.12
 minter: https://n2t.net/a/ezid/m/ark/99166/w6
 
@@ -5343,14 +5375,6 @@ name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/b7270/q2
 datacenter: CDL.UCSDSSPP
-
-:: ark:/13030/q0
-type: shoulder
-manager: ezid
-#eziduser: escol_harvester
-name: eScholarship
-date: 2012.06.28
-minter: https://n2t.net/a/ezid/m/ark/13030/q0
 
 :: ark:/84246/p7
 type: shoulder
@@ -6156,6 +6180,8 @@ date: 2009.03.09
 minter:
 
 :: ark:/13030/qt
+# Main escholarship shoulder
+# redirect: escholarship.org/uc/item/$blade
 type: shoulder
 #eziduser: eschol_harvester 
 manager: ezid

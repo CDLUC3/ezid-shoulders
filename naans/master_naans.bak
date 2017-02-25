@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.09
+when:	2017.02.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5006,6 +5006,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: Bordas, Denis ||| d.bordas@dordogne.fr | 
 !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 !address: 9, rue Littré 24000 Périgueux
+
+naa:
+who:	Bibliothèques de Nancy (=) BIBSN
+what:	31124
+when:	2017.02.25
+where:	http://entrepotsillonlorrain.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Nunes, Eric ||| eric.nunes@mairie-nancy.fr | 
+!address: 43, rue Stanislas 54000 Nancy
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
