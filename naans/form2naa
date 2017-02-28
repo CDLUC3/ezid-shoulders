@@ -9,7 +9,7 @@ use YAML;
 use Encode;
 
 # Author:  John A. Kunze, jak@ucop.edu, California Digital Library
-# Copyright (c) 2016 UC Regents
+# Copyright (c) 2016-2017 UC Regents
 
 my $cmd = $0;
 $cmd =~ s,.*/,,;		# drop path part
@@ -53,15 +53,21 @@ EOT
 
 # main
 {
+	#binmode(STDOUT, ":utf8");
+	use open qw/:std :utf8/;
 	my $no_naan_generation = 0;
-	$#ARGV >= 0 and $ARGV[0] eq '-n' and
-		$no_naan_generation = 1,
-		shift;
 	$#ARGV < 0 and
 		print($usage_text),
 		exit 0;
+	$ARGV[0] eq '-n' and
+		$no_naan_generation = 1,
+		shift;
 	$ARGV[0] eq '-' and
 		shift;
+	$ARGV[0] =~ /^-/ and
+		print("Unknown option: $ARGV[0]\n"),
+		print($usage_text),
+		exit 1;
 
 	# Get parts of today's date
 	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();

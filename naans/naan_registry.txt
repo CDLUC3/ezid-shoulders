@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.25
+when:	2017.02.28
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3836,6 +3836,13 @@ naa:
 who:	Bibliothèques de Nancy (=) BIBSN
 what:	31124
 when:	2017.02.25
+where:	http://entrepotsillonlorrain.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Bibliothèque multimédia intercommunale d'Epinal (=) BMIE
+what:	18128
+when:	2017.02.28
 where:	http://entrepotsillonlorrain.fr
 how:	NP | (:unkn) unknown | 2017 |
 

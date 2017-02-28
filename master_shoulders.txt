@@ -148,6 +148,14 @@
 # uw_i-labs   make_ezacct -n 10.21983 b3 "" r8  < ezaccts/newacct > out
 # uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
 
+:: ark:/28722/s7
+type: shoulder
+manager: ezid
+#eziduser: ucb-gis
+name: UCB Library Systems Office
+date: 2017.02.28
+minter: https://n2t.net/a/ezid/m/ark/28722/s7
+
 :: doi:10.21423/R1
 type: shoulder
 manager: ezid

@@ -1,16 +1,16 @@
-diff -r ad2207c0cfbc naans/master_naans
---- a/naans/master_naans	Mon Feb 13 07:49:50 2017 -0800
-+++ b/naans/master_naans	Sat Feb 25 02:38:58 2017 -0800
-@@ -5009,2 +5009,12 @@
+diff -r 3f04e68b6b28 naans/master_naans
+--- a/naans/master_naans	Sat Feb 25 02:38:58 2017 -0800
++++ b/naans/master_naans	Tue Feb 28 06:35:09 2017 -0800
+@@ -5019,2 +5019,12 @@
  
 +naa:
-+who:	Bibliothèques de Nancy (=) BIBSN
-+what:	31124
-+when:	2017.02.25
++who:	Bibliothèque multimédia intercommunale d'Epinal (=) BMIE
++what:	18128
++when:	2017.02.28
 +where:	http://entrepotsillonlorrain.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Nunes, Eric ||| eric.nunes@mairie-nancy.fr | 
-+!address: 43, rue Stanislas 54000 Nancy
++!contact: Armbruster, Sophie ||| sophie.armbruster@bmi.agglo-epinal.fr | 
++!address: 48 rue Saint-Michel 88000 Epinal, France
 +
  #!naa:
