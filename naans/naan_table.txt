@@ -507,6 +507,7 @@
 43778	Archives départementales de la Dordogne (=) ADDORD
 31124	Bibliothèques de Nancy (=) BIBSN
 18128	Bibliothèque multimédia intercommunale d'Epinal (=) BMIE
+79345	Bibliothèques-Médiathèques de Metz (=) BMM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

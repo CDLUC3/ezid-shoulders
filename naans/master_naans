@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.02.28
+when:	2017.03.01
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5026,6 +5026,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Armbruster, Sophie ||| sophie.armbruster@bmi.agglo-epinal.fr | 
 !address: 48 rue Saint-Michel 88000 Epinal, France
+
+naa:
+who:	Bibliothèques-Médiathèques de Metz (=) BMM
+what:	79345
+when:	2017.03.01
+where:	http://entrepotsillonlorrain.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: DONCQUE, Marie-Paule ||| mpdoncque@mairie-metz.fr | 
+!address: 1 cour Elie Fleur 57000 METZ
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

@@ -1,16 +1,16 @@
-diff -r 3f04e68b6b28 naans/master_naans
---- a/naans/master_naans	Sat Feb 25 02:38:58 2017 -0800
-+++ b/naans/master_naans	Tue Feb 28 06:35:09 2017 -0800
-@@ -5019,2 +5019,12 @@
+diff -r d66263bc9935 naans/master_naans
+--- a/naans/master_naans	Tue Feb 28 06:35:10 2017 -0800
++++ b/naans/master_naans	Wed Mar 01 03:50:23 2017 -0800
+@@ -5029,2 +5029,12 @@
  
 +naa:
-+who:	Bibliothèque multimédia intercommunale d'Epinal (=) BMIE
-+what:	18128
-+when:	2017.02.28
++who:	Bibliothèques-Médiathèques de Metz (=) BMM
++what:	79345
++when:	2017.03.01
 +where:	http://entrepotsillonlorrain.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Armbruster, Sophie ||| sophie.armbruster@bmi.agglo-epinal.fr | 
-+!address: 48 rue Saint-Michel 88000 Epinal, France
++!contact: DONCQUE, Marie-Paule ||| mpdoncque@mairie-metz.fr | 
++!address: 1 cour Elie Fleur 57000 METZ
 +
  #!naa:
