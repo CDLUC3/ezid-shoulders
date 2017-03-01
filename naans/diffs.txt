@@ -1,16 +1,16 @@
-diff -r d66263bc9935 naans/master_naans
---- a/naans/master_naans	Tue Feb 28 06:35:10 2017 -0800
-+++ b/naans/master_naans	Wed Mar 01 03:50:23 2017 -0800
-@@ -5029,2 +5029,12 @@
+diff -r 512bc0c56169 naans/master_naans
+--- a/naans/master_naans	Wed Mar 01 03:50:23 2017 -0800
++++ b/naans/master_naans	Wed Mar 01 10:47:14 2017 -0800
+@@ -5039,2 +5039,12 @@
  
 +naa:
-+who:	Bibliothèques-Médiathèques de Metz (=) BMM
-+what:	79345
++who:	Bibliothèque municipale de Grenoble (=) BMG
++what:	66349
 +when:	2017.03.01
-+where:	http://entrepotsillonlorrain.fr
++where:	http://catalogue.bm-grenoble.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: DONCQUE, Marie-Paule ||| mpdoncque@mairie-metz.fr | 
-+!address: 1 cour Elie Fleur 57000 METZ
++!contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr | 
++!address: 12, boulevard Maréchal Lyautey, BP 1095, 38021 Grenoble Cedex 1, France
 +
  #!naa:

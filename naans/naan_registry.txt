@@ -3853,6 +3853,13 @@ when:	2017.03.01
 where:	http://entrepotsillonlorrain.fr
 how:	NP | (:unkn) unknown | 2017 |
 
+naa:
+who:	Bibliothèque municipale de Grenoble (=) BMG
+what:	66349
+when:	2017.03.01
+where:	http://catalogue.bm-grenoble.fr
+how:	NP | (:unkn) unknown | 2017 |
+
 
 naa:
 who:	Metadata Terms (=) TERMS

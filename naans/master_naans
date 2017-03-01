@@ -5037,6 +5037,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: DONCQUE, Marie-Paule ||| mpdoncque@mairie-metz.fr | 
 !address: 1 cour Elie Fleur 57000 METZ
 
+naa:
+who:	Bibliothèque municipale de Grenoble (=) BMG
+what:	66349
+when:	2017.03.01
+where:	http://catalogue.bm-grenoble.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr | 
+!address: 12, boulevard Maréchal Lyautey, BP 1095, 38021 Grenoble Cedex 1, France
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration
