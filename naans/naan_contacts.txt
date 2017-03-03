@@ -571,6 +571,7 @@ contact: Nunes, Eric ||| eric.nunes@mairie-nancy.fr |
 contact: Armbruster, Sophie ||| sophie.armbruster@bmi.agglo-epinal.fr | 
 contact: DONCQUE, Marie-Paule ||| mpdoncque@mairie-metz.fr | 
 contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr | 
+contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

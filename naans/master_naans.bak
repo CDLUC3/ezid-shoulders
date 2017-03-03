@@ -5047,6 +5047,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr | 
 !address: 12, boulevard Maréchal Lyautey, BP 1095, 38021 Grenoble Cedex 1, France
 
+naa:
+who:	Musée gallo-romain de Lyon (=) MGRL
+what:	53354
+when:	2017.03.03
+where:	http://www.museegalloromain.grandlyon.com
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com | 
+!address: 17 rue Cléberg, 69005 Lyon, France
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration

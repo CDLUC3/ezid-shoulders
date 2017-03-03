@@ -509,6 +509,7 @@
 18128	Bibliothèque multimédia intercommunale d'Epinal (=) BMIE
 79345	Bibliothèques-Médiathèques de Metz (=) BMM
 66349	Bibliothèque municipale de Grenoble (=) BMG
+53354	Musée gallo-romain de Lyon (=) MGRL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

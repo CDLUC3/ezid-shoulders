@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.01
+when:	2017.03.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5046,6 +5046,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr | 
 !address: 12, boulevard Maréchal Lyautey, BP 1095, 38021 Grenoble Cedex 1, France
+
+naa:
+who:	Musée gallo-romain de Lyon (=) MGRL
+what:	53354
+when:	2017.03.03
+where:	http://www.museegalloromain.grandlyon.com
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com | 
+!address: 17 rue Cléberg, 69005 Lyon, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

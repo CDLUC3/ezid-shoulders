@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.01
+when:	2017.03.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3858,6 +3858,13 @@ who:	Bibliothèque municipale de Grenoble (=) BMG
 what:	66349
 when:	2017.03.01
 where:	http://catalogue.bm-grenoble.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Musée gallo-romain de Lyon (=) MGRL
+what:	53354
+when:	2017.03.03
+where:	http://www.museegalloromain.grandlyon.com
 how:	NP | (:unkn) unknown | 2017 |
 
 
