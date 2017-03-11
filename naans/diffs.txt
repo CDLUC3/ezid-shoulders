@@ -1,16 +1,16 @@
-diff -r 43fa98ec6b34 naans/master_naans
---- a/naans/master_naans	Wed Mar 01 10:47:14 2017 -0800
-+++ b/naans/master_naans	Fri Mar 03 15:31:52 2017 -0800
-@@ -5049,2 +5049,12 @@
+diff -r 82fa39499dce naans/master_naans
+--- a/naans/master_naans	Fri Mar 03 15:31:53 2017 -0800
++++ b/naans/master_naans	Sat Mar 11 07:37:34 2017 -0800
+@@ -5059,2 +5059,12 @@
  
 +naa:
-+who:	Musée gallo-romain de Lyon (=) MGRL
-+what:	53354
-+when:	2017.03.03
-+where:	http://www.museegalloromain.grandlyon.com
++who:	Northwestern University (=) NUL
++what:	81985
++when:	2017.03.11
++where:	http://www.library.northwestern.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com | 
-+!address: 17 rue Cléberg, 69005 Lyon, France
++!why:	EZID ARK
++!contact: eziduserid nu-lib
++!address: 1970 Campus Dr.  Evanston, IL 60208
 +
  #!naa:

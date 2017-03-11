@@ -74,7 +74,8 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
-# 10.21222 (to recycle, along with naan 81222 and cdl.orcid datacenter)    10.21985 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+#10.21222 (to recycle, along with naan 81222 and cdl.orcid datacenter)
+# 10.21986 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -147,8 +148,33 @@
 # um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
 # uw_i-labs   make_ezacct -n 10.21983 b3 "" r8  < ezaccts/newacct > out
 # uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
+# nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 
-# !!! NB: ark and doi shoulders get the same mini-shoulder (eg, x5 and X5)
+# rename make_shdr refs to make_minter refs
+# !!! NB: set up ark and doi shoulders to get the same mini-shoulder
+#     (eg, x5 and X5)
+
+:: ark:/81985/n2
+type: shoulder
+manager: ezid
+#eziduser: nu-lib
+name: NorthwesternUniv
+date: 2017.03.11
+minter: https://n2t.net/a/ezid/m/ark/81985/n2
+
+:: datacite:PURDUE.NUL
+type: datacenter
+manager: ezid
+name: Northwestern University
+
+:: doi:10.21985/N2
+type: shoulder
+manager: ezid
+#eziduser: nu-lib
+name: NorthwesternUniv
+date: 2017.03.11
+minter: https://n2t.net/a/ezid/m/ark/d1985/n2
+datacenter: PURDUE.NUL
 
 :: ark:/87946/
 type: shoulder
@@ -156,8 +182,8 @@ is_supershoulder: true
 manager: ezid
 #eziduser: iplant
 name: CyVerse Empty
-date: 2017.03.02
-minter:
+date: 2017.03.06
+minter: https://n2t.net/a/ezid/m/ark/87946/NULL
 
 :: doi:10.7946/
 type: shoulder
@@ -165,8 +191,8 @@ is_supershoulder: true
 manager: ezid
 #eziduser: iplant
 name: CyVerse Empty
-date: 2017.03.02
-minter:
+date: 2017.03.06
+minter: https://n2t.net/a/ezid/m/ark/b7946/NULL
 datacenter: CDL.IPLANT
 
 :: ark:/28722/s7
