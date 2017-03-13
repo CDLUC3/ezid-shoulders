@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.11
+when:	2017.03.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3872,6 +3872,13 @@ who:	Northwestern University (=) NUL
 what:	81985
 when:	2017.03.11
 where:	http://www.library.northwestern.edu
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Archives départementales des Bouches du Rhône (=) AD13
+what:	40700
+when:	2017.03.13
+where:	http://www.archives13.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 
