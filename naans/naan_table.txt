@@ -512,6 +512,7 @@
 53354	Musée gallo-romain de Lyon (=) MGRL
 81985	Northwestern University (=) NUL
 40700	Archives départementales des Bouches du Rhône (=) AD13
+27704	Lelivrescolaire.fr Editions (=) LLS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

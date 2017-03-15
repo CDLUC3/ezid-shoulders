@@ -574,6 +574,7 @@ contact: Hatt, Guillaume ||| guillaume.hatt@bm-grenoble.fr |
 contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com | 
 contact: eziduserid nu-lib
 contact: Benedetti, Julien ||| julien.benedetti@cg13.fr | 
+contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
