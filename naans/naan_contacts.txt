@@ -575,6 +575,7 @@ contact: GRIOT, Christine ||| documentation.museegalloromain@grandlyon.com |
 contact: eziduserid nu-lib
 contact: Benedetti, Julien ||| julien.benedetti@cg13.fr | 
 contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr | 
+contact: eziduserid ucsd_caida
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

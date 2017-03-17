@@ -1,16 +1,16 @@
-diff -r 6843fce7ba9f naans/master_naans
---- a/naans/master_naans	Mon Mar 13 15:25:51 2017 -0700
-+++ b/naans/master_naans	Wed Mar 15 07:14:59 2017 -0700
-@@ -5079,2 +5079,12 @@
+diff -r 44db02a4d16b naans/master_naans
+--- a/naans/master_naans	Wed Mar 15 07:14:59 2017 -0700
++++ b/naans/master_naans	Fri Mar 17 11:04:05 2017 -0700
+@@ -5089,2 +5089,12 @@
  
 +naa:
-+who:	Lelivrescolaire.fr Editions (=) LLS
-+what:	27704
-+when:	2017.03.15
-+where:	http://www.lelivrescolaire.fr
-+how:	FP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr | 
-+!address: 14 Rue Rhin et Danube, 69009 Lyon, France
++who:	SDSC Center for Applied Internet Data and Analysis (=) CAIDA
++what:	81986
++when:	2017.03.17
++where:	http://www.caida.org
++how:	NP | (:unkn) unknown | 2017 |
++!why:	EZID ARK
++!contact: eziduserid ucsd_caida
++!address: 9500 Gilman #0505  La Jolla, CA 92093-0505
 +
  #!naa:

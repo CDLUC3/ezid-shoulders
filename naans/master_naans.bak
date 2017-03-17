@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.13
+when:	2017.03.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5086,6 +5086,16 @@ how:	FP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr | 
 !address: 14 Rue Rhin et Danube, 69009 Lyon, France
+
+naa:
+who:	SDSC Center for Applied Internet Data and Analysis (=) CAIDA
+what:	81986
+when:	2017.03.17
+where:	http://www.caida.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid ucsd_caida
+!address: 9500 Gilman #0505  La Jolla, CA 92093-0505
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
