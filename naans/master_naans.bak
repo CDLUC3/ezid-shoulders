@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.15
+when:	2017.03.17
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5096,6 +5096,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid ucsd_caida
 !address: 9500 Gilman #0505  La Jolla, CA 92093-0505
+
+naa:
+who:	Institute for Research on Innovation and Science (=) IRISINK
+what:	81987
+when:	2017.03.22
+where:	http://iris.isr.umich.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid iris_ink
+!address: 426 Thompson St, Rm. 3304 Ann Arbor MI 48106-1248
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

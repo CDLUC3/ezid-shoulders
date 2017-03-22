@@ -75,7 +75,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 # STACKTOP
 #10.21222 (to recycle, along with naan 81222 and cdl.orcid datacenter)
-# 10.21987 10.21988 10.21989 10.21990 10.21991 10.21992 
+# 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -150,10 +150,33 @@
 # uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
 # nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 # sdsc-caida  make_ezacct -n 10.21986 s6 "" s6  < ezaccts/newacct > out
+# iris        make_ezacct -n 10.21987 r7 "" r7  < ezaccts/newacct > out
 
 # rename make_shdr refs to make_minter refs
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
+
+:: ark:/81987/r7
+type: shoulder
+manager: ezid
+#eziduser: iris_ink
+name: Inst for Research on Innov and Science
+date: 2017.03.22
+minter: https://n2t.net/a/ezid/m/ark/81987/r7
+
+:: datacite:PURDUE.IRISINK
+type: datacenter
+manager: ezid
+name: Institute for Research on Innovation and Science
+
+:: doi:10.21987/R7
+type: shoulder
+manager: ezid
+#eziduser: iris_ink
+name: Inst for Research on Innov and Science
+date: 2017.03.22
+minter: https://n2t.net/a/ezid/m/ark/d1987/r7
+datacenter: PURDUE.IRISINK
 
 :: ark:/81986/s6
 type: shoulder

@@ -1,16 +1,16 @@
-diff -r 44db02a4d16b naans/master_naans
---- a/naans/master_naans	Wed Mar 15 07:14:59 2017 -0700
-+++ b/naans/master_naans	Fri Mar 17 11:04:05 2017 -0700
-@@ -5089,2 +5089,12 @@
+diff -r 35b9b198c2b7 naans/master_naans
+--- a/naans/master_naans	Fri Mar 17 11:04:05 2017 -0700
++++ b/naans/master_naans	Wed Mar 22 14:32:06 2017 -0700
+@@ -5099,2 +5099,12 @@
  
 +naa:
-+who:	SDSC Center for Applied Internet Data and Analysis (=) CAIDA
-+what:	81986
-+when:	2017.03.17
-+where:	http://www.caida.org
++who:	Institute for Research on Innovation and Science (=) IRISINK
++what:	81987
++when:	2017.03.22
++where:	http://iris.isr.umich.edu
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	EZID ARK
-+!contact: eziduserid ucsd_caida
-+!address: 9500 Gilman #0505  La Jolla, CA 92093-0505
++!contact: eziduserid iris_ink
++!address: 426 Thompson St, Rm. 3304 Ann Arbor MI 48106-1248
 +
  #!naa:

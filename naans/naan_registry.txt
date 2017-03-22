@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.17
+when:	2017.03.22
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3893,6 +3893,13 @@ who:	SDSC Center for Applied Internet Data and Analysis (=) CAIDA
 what:	81986
 when:	2017.03.17
 where:	http://www.caida.org
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Institute for Research on Innovation and Science (=) IRISINK
+what:	81987
+when:	2017.03.22
+where:	http://iris.isr.umich.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 
