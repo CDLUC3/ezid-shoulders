@@ -1,16 +1,16 @@
-diff -r 35b9b198c2b7 naans/master_naans
---- a/naans/master_naans	Fri Mar 17 11:04:05 2017 -0700
-+++ b/naans/master_naans	Wed Mar 22 14:32:06 2017 -0700
-@@ -5099,2 +5099,12 @@
+diff -r 16c13ec78549 naans/master_naans
+--- a/naans/master_naans	Wed Mar 22 14:32:06 2017 -0700
++++ b/naans/master_naans	Thu Mar 23 15:51:23 2017 -0700
+@@ -5109,2 +5109,12 @@
  
 +naa:
-+who:	Institute for Research on Innovation and Science (=) IRISINK
-+what:	81987
-+when:	2017.03.22
-+where:	http://iris.isr.umich.edu
++who:	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
++what:	14707
++when:	2017.03.23
++where:	http://argonnaute.u-paris10.fr
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid iris_ink
-+!address: 426 Thompson St, Rm. 3304 Ann Arbor MI 48106-1248
++!why:	ARK
++!contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
++!address: 6 allée de l'Université, 92001 NANTERRE Cedex
 +
  #!naa:

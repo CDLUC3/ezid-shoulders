@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.17
+when:	2017.03.22
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5106,6 +5106,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid iris_ink
 !address: 426 Thompson St, Rm. 3304 Ann Arbor MI 48106-1248
+
+naa:
+who:	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
+what:	14707
+when:	2017.03.23
+where:	http://argonnaute.u-paris10.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
+!address: 6 allée de l'Université, 92001 NANTERRE Cedex
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

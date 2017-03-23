@@ -577,6 +577,7 @@ contact: Benedetti, Julien ||| julien.benedetti@cg13.fr |
 contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr | 
 contact: eziduserid ucsd_caida
 contact: eziduserid iris_ink
+contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
