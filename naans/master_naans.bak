@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.22
+when:	2017.03.23
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5116,6 +5116,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
 !address: 6 allée de l'Université, 92001 NANTERRE Cedex
+
+naa:
+who:	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
+what:	75925
+when:	2017.03.27
+where:	http://www.ini.usc.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
+!address: 2025 Zonal Ave., Los Angeles, CA 90033
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

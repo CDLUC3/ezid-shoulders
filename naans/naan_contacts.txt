@@ -578,6 +578,7 @@ contact: Banon, Jonathan ||| jonathan.banon@lelivrescolaire.fr |
 contact: eziduserid ucsd_caida
 contact: eziduserid iris_ink
 contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
+contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

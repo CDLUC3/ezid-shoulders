@@ -326,6 +326,7 @@ documentation.museegalloromain@grandlyon.com
 julien.benedetti@cg13.fr
 jonathan.banon@lelivrescolaire.fr
 loic.jacquard@bdic.fr
+kcrawford@loni.usc.edu
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu

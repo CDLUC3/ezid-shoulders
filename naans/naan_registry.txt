@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.23
+when:	2017.03.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3907,6 +3907,13 @@ who:	Bibliothèque de Documentation internationale contemporaine (=) Library of 
 what:	14707
 when:	2017.03.23
 where:	http://argonnaute.u-paris10.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
+what:	75925
+when:	2017.03.27
+where:	http://www.ini.usc.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 

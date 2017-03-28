@@ -1,16 +1,16 @@
-diff -r 16c13ec78549 naans/master_naans
---- a/naans/master_naans	Wed Mar 22 14:32:06 2017 -0700
-+++ b/naans/master_naans	Thu Mar 23 15:51:23 2017 -0700
-@@ -5109,2 +5109,12 @@
+diff -r c60439eb4aed naans/master_naans
+--- a/naans/master_naans	Thu Mar 23 15:51:23 2017 -0700
++++ b/naans/master_naans	Mon Mar 27 17:23:11 2017 -0700
+@@ -5119,2 +5119,12 @@
  
 +naa:
-+who:	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
-+what:	14707
-+when:	2017.03.23
-+where:	http://argonnaute.u-paris10.fr
++who:	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
++what:	75925
++when:	2017.03.27
++where:	http://www.ini.usc.edu
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
-+!address: 6 allée de l'Université, 92001 NANTERRE Cedex
++!contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
++!address: 2025 Zonal Ave., Los Angeles, CA 90033
 +
  #!naa:
