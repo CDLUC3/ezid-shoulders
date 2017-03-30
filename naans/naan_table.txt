@@ -105,7 +105,6 @@
 10987	University of Prince Edward Island (=) UPEI
 47881	Université Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
 35227	Archives départementales des Landes (=) Landes Departmental Archives (=) ADLANDES
-86084	Digital Science (=) DIGSCI
 86085	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
 22231	Archives départementales de l'Ain (=) ADAIN
 86086	University of California Riverside (=) UCRIVERSIDE
@@ -517,6 +516,7 @@
 81987	Institute for Research on Innovation and Science (=) IRISINK
 14707	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
 75925	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
+62930	University of Nevada, Las Vegas University Libraries (=) UNLV
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

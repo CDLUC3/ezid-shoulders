@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.23
+when:	2017.03.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1276,15 +1276,6 @@ where:	http://www.archives.landes.org
 how:	NP | NR, OP | 2012 |
 !why:   ARK
 !contact: Cardoso, Patrick ||| Patrick.CARDOSO@CG40.FR | +33 (0)5.58.05.40.40 / 8033
-
-naa:
-who:	Digital Science (=) DIGSCI
-what:	86084
-when:	2012.05.17
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:   EZID ARK
-!contact: EZID userid figshare
 
 naa:
 who:	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
@@ -5126,6 +5117,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
 !address: 2025 Zonal Ave., Los Angeles, CA 90033
+
+naa:
+who:	University of Nevada, Las Vegas University Libraries (=) UNLV
+what:	62930
+when:	2017.03.30
+where:	http://www.library.unlv.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK only
+!contact: Shein, Cyndi ||| cyndi.shein@unlv.edu | +1 702-895-2209
+!address: 4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

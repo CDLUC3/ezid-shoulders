@@ -1,16 +1,28 @@
-diff -r c60439eb4aed naans/master_naans
---- a/naans/master_naans	Thu Mar 23 15:51:23 2017 -0700
-+++ b/naans/master_naans	Mon Mar 27 17:23:11 2017 -0700
-@@ -5119,2 +5119,12 @@
+diff -r 35987645c87e naans/master_naans
+--- a/naans/master_naans	Mon Mar 27 17:23:11 2017 -0700
++++ b/naans/master_naans	Thu Mar 30 16:54:05 2017 -0700
+@@ -1280,11 +1280,2 @@
+ naa:
+-who:	Digital Science (=) DIGSCI
+-what:	86084
+-when:	2012.05.17
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:   EZID ARK
+-!contact: EZID userid figshare
+-
+-naa:
+ who:	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
+@@ -5129,2 +5120,12 @@
  
 +naa:
-+who:	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
-+what:	75925
-+when:	2017.03.27
-+where:	http://www.ini.usc.edu
++who:	University of Nevada, Las Vegas University Libraries (=) UNLV
++what:	62930
++when:	2017.03.30
++where:	http://www.library.unlv.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
-+!address: 2025 Zonal Ave., Los Angeles, CA 90033
++!why:	EZID ARK only
++!contact: Shein, Cyndi ||| cyndi.shein@unlv.edu | +1 702-895-2209
++!address: 4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001
 +
  #!naa:

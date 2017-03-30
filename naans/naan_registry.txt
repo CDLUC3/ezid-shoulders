@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.03.27
+when:	2017.03.30
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1031,13 +1031,6 @@ what:	35227
 when:	2012.04.24
 where:	http://www.archives.landes.org
 how:	NP | NR, OP | 2012 |
-
-naa:
-who:	Digital Science (=) DIGSCI
-what:	86084
-when:	2012.05.17
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
 
 naa:
 who:	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
@@ -3914,6 +3907,13 @@ who:	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
 what:	75925
 when:	2017.03.27
 where:	http://www.ini.usc.edu
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	University of Nevada, Las Vegas University Libraries (=) UNLV
+what:	62930
+when:	2017.03.30
+where:	http://www.library.unlv.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 

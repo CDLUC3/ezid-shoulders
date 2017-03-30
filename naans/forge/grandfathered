@@ -115,7 +115,6 @@
 10987: UPEI      2012.04.05   # University of Prince Edward Island
 47881: UCBL      2012.04.13   # Université Claude Bernard Lyon 1
 35227: ADLANDES  2012.04.24   # Archives départementales des Landes
-86084: DIGSCI    2012.05.17   # Digital Science (figshare) (xxx)
 86085: PISCO     2012.05.22   # Partnership for Interdisciplinary Studies of Coastal Oceans (xxx)
 22231: ADAIN     2012.05.26   # Archives départementales de l'Ain
 86086: UCRIVERSIDE 2012.05.26 # University of California Riverside (xxx)
@@ -787,6 +786,7 @@ c3012  # University of Illinois Libraries
 10.21986  # SDSC Center for Applied Internet Data and Analysis
 81987: IRISINK  2017.03.22   # Institute for Research on Innovation and Science (xxx)
 10.21987  # Institute for Research on Innovation and Science
+62930: UNLV     2017.03.30   # University of Nevada, Las Vegas University Libraries
 
 
 
