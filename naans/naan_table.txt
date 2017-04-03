@@ -517,6 +517,7 @@
 14707	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
 75925	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
 62930	University of Nevada, Las Vegas University Libraries (=) UNLV
+50276	France Televisions (=) FTVE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

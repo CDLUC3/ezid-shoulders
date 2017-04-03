@@ -579,6 +579,7 @@ contact: eziduserid iris_ink
 contact: Tardy, Cécile ||| loic.jacquard@bdic.fr | 
 contact: Crawford, Karen ||| kcrawford@loni.usc.edu | 
 contact: Shein, Cyndi ||| cyndi.shein@unlv.edu | +1 702-895-2209
+contact: Garrigues, Sandrine ||| sandrine.garrigues@francetv.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

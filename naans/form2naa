@@ -215,8 +215,10 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	$mday = sprintf("%02d", $mday);
 
 	local $/;		# set input mode to slurp whole file at once
-	$_ = <>;		# slurp file from stdin or from named arg
-	s/(:?)\t+/: /g;		# YAML needs : and forbids tab-for-space
+	$_ = <>;		# slurp entire file from stdin or named arg
+	s/(:?)\t+/: /g and	# YAML needs : and forbids tab-for-space, and
+		# as long as we're not doing CSV fields, elide \n in front of
+		s/\n([^:]*)$/ $1/m;	# lines with no colon (a contin. line)
 
 	# Flag annoying non-ascii punctuation (eg, ' and -)
 	my @uchars = split '', decode('utf8', $_);
