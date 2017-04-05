@@ -1,0 +1,16 @@
+diff -r 29b77a067fee naans/master_naans
+--- a/naans/master_naans	Wed Apr 05 09:38:14 2017 -0700
++++ b/naans/master_naans	Wed Apr 05 09:39:59 2017 -0700
+@@ -5140,2 +5140,12 @@
+ 
++naa:
++who:	Tropy (=) TROPY
++what:	37280
++when:	2017.04.05
++where:	http://tropy.org
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Takats, Sean ||| sean@digitalscholar.org | 
++!address: 8300 Boone Blvd, Suite 500, Vienna VA 22182
++
+ #!naa:
