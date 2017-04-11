@@ -416,7 +416,6 @@
 81220	College of William & Mary Libraries (=) WMLIB
 54380	Bibliothèque Municipale d'Angers (=) BMA
 81221	SDSU Computer Science (=) SDSUCS
-81222	ORCID, Inc (=) ORCID
 41726	Eclair Preservation S.A.S. (=) ECLAIR
 28730	Programa de Pós-Graduação em Design - Universidade Federal do Rio Grande do Sul (=) Graduate Program in Design of Federal University of Rio Grande do Sul (=) PPGD
 15733	Bibliothèque Interuniversitaire de la Sorbonne (=) Sorbonne Library (=) BIS
@@ -519,6 +518,7 @@
 62930	University of Nevada, Las Vegas University Libraries (=) UNLV
 50276	France Televisions (=) FTVE
 37280	Tropy (=) TROPY
+81222	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

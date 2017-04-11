@@ -73,8 +73,11 @@
 # xxx unassigned CDL-only prefixes:  10.7918
 #
 # Allocate a prefix by popping off the top of the stack (next).
+
 # STACKTOP
-#10.21222 (to recycle, along with naan 81222 and cdl.orcid datacenter)
+# xxx RECYCLE ark:/86084/m8 (Digital Science)
+# xxx RECYCLE doi:10.13018/G2, ark:/83018/g4 and CDL.GLOBUS
+# xxx RECYCLE 10.21222 (along with naan 81222 and CDL.ORCID datacenter)
 # 10.21988 10.21989 10.21990 10.21991 10.21992 
 
 ######## note: generic accounts section delimited with lines like these ########
@@ -151,10 +154,28 @@
 # nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 # sdsc-caida  make_ezacct -n 10.21986 s6 "" s6  < ezaccts/newacct > out
 # iris        make_ezacct -n 10.21987 r7 "" r7  < ezaccts/newacct > out
+# unlvezid naans/forge/naan_rec UNLV http://www.library.unlv.edu "University of Nevada, Las Vegas University Libraries" Cyndi Shein cyndi.shein@unlv.edu "+1 702-895-2209" "4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001"
 
 # rename make_shdr refs to make_minter refs
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
+
+:: ark:/62930/v3
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library
+date: 2017.03.30
+minter: https://n2t.net/a/ezid/m/ark/62930/v3
+
+:: ark:/62930/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library No Minter
+date: 2017.03.30
+minter:
 
 :: ark:/81987/r7
 type: shoulder
@@ -1400,6 +1421,7 @@ type: datacenter
 manager: ezid
 name: ORCID, Inc
 
+# to RECYCLE
 :: doi:10.21222/D2
 type: shoulder
 manager: ezid
@@ -3528,17 +3550,6 @@ name: Globus.org
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/83018/g4
 
-# inactive
-:: doi:10.13018/G2
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Globus.org
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/c3018/g2
-#this datacenter doesn't show in DataCite
-datacenter: CDL.GLOBUS
-
 :: ark:/85147/j4
 type: shoulder
 manager: ezid
@@ -5646,23 +5657,6 @@ date: 2012.05.22
 minter:
 datacenter: CDL.PISCO
 
-:: ark:/86084/m8
-type: shoulder
-manager: ezid
-#eziduser: digitalsci
-name: Digital Science
-date: 2012.05.17
-minter: https://n2t.net/a/ezid/m/ark/86084/m8
-
-:: doi:10.6084/M9
-type: shoulder
-manager: ezid
-#eziduser: digitalsci
-name: Digital Science
-date: 2012.05.17
-minter: https://n2t.net/a/ezid/m/ark/b6084/m9
-datacenter: CDL.DIGSCI
-
 :: doi:10.6078/M7
 type: shoulder
 manager: ezid
@@ -6607,11 +6601,6 @@ type: datacenter
 manager: ezid
 name: Digital Antiquity
 
-:: datacite:CDL.DIGSCI
-type: datacenter
-manager: ezid
-name: Digital Science
-
 :: datacite:CDL.DPLANET
 type: datacenter
 manager: ezid
@@ -6691,6 +6680,18 @@ name: Geotechnical Extreme Events Reconnaissance
 type: datacenter
 manager: ezid
 name: Globus.org
+
+# xxx to RECYCLE
+# inactive
+:: doi:10.13018/G2
+type: shoulder
+manager: ezid
+#eziduser: none
+name: Globus.org
+date: 2014.10.13
+minter: https://n2t.net/a/ezid/m/ark/c3018/g2
+#this datacenter doesn't show in DataCite
+datacenter: CDL.GLOBUS
 
 :: datacite:CDL.GMU
 type: datacenter

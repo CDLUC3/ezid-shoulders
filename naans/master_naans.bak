@@ -4121,15 +4121,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: eziduserid sdsu_edwards
 
 naa:
-who:    ORCID, Inc (=) ORCID
-what:   81222
-when:   2016.04.18
-where:	http://orcid.org
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid orcid-doi
-
-naa:
 who:	Eclair Preservation S.A.S. (=) ECLAIR
 what:	41726
 when:	2016.04.20
@@ -5147,6 +5138,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Takats, Sean ||| sean@digitalscholar.org | 
 !address: 8300 Boone Blvd, Suite 500, Vienna VA 22182
+
+naa:
+who:	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
+what:	81222
+when:	2017.04.11
+where:	http://www.cee.ucla.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid ucla_uclageo
+!address: 5731 Boelter Hall  Department of Civil and Environmental Engineering  University of California, Los Angeles, CA 90095-1593
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

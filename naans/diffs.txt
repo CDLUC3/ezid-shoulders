@@ -1,16 +1,28 @@
-diff -r 29b77a067fee naans/master_naans
---- a/naans/master_naans	Wed Apr 05 09:38:14 2017 -0700
-+++ b/naans/master_naans	Wed Apr 05 09:39:59 2017 -0700
-@@ -5140,2 +5140,12 @@
+diff -r e05810f4ab96 naans/master_naans
+--- a/naans/master_naans	Wed Apr 05 09:39:59 2017 -0700
++++ b/naans/master_naans	Tue Apr 11 14:48:09 2017 -0700
+@@ -4123,11 +4123,2 @@
+ naa:
+-who:    ORCID, Inc (=) ORCID
+-what:   81222
+-when:   2016.04.18
+-where:	http://orcid.org
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:   EZID ARK
+-!contact: eziduserid orcid-doi
+-
+-naa:
+ who:	Eclair Preservation S.A.S. (=) ECLAIR
+@@ -5150,2 +5141,12 @@
  
 +naa:
-+who:	Tropy (=) TROPY
-+what:	37280
-+when:	2017.04.05
-+where:	http://tropy.org
++who:	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
++what:	81222
++when:	2017.04.11
++where:	http://www.cee.ucla.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Takats, Sean ||| sean@digitalscholar.org | 
-+!address: 8300 Boone Blvd, Suite 500, Vienna VA 22182
++!why:	EZID ARK
++!contact: eziduserid ucla_uclageo
++!address: 5731 Boelter Hall  Department of Civil and Environmental Engineering  University of California, Los Angeles, CA 90095-1593
 +
  #!naa:

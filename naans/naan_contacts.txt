@@ -471,7 +471,6 @@ contact: eziduserid uta_briscoe
 contact: eziduserid wmlibdigi
 contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr |
 contact: eziduserid sdsu_edwards
-contact: eziduserid orcid-doi
 contact: Lemaire, Olivier ||| olivier.lemaire@ymagis.com |
 contact: Bruno, Fernando ||| fernando.bruno@ufrgs.br |
 contact: RAVEREAU, Mylene ||| mylene.ravereau@enc-sorbonne.fr |
@@ -581,6 +580,7 @@ contact: Crawford, Karen ||| kcrawford@loni.usc.edu |
 contact: Shein, Cyndi ||| cyndi.shein@unlv.edu | +1 702-895-2209
 contact: Garrigues, Sandrine ||| sandrine.garrigues@francetv.fr | 
 contact: Takats, Sean ||| sean@digitalscholar.org | 
+contact: eziduserid ucla_uclageo
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

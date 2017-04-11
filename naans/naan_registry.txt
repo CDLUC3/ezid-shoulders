@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.04.05
+when:	2017.04.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3210,13 +3210,6 @@ where:	http://www.cs.sdsu.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    ORCID, Inc (=) ORCID
-what:   81222
-when:   2016.04.18
-where:	http://orcid.org
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	Eclair Preservation S.A.S. (=) ECLAIR
 what:	41726
 when:	2016.04.20
@@ -3928,6 +3921,13 @@ who:	Tropy (=) TROPY
 what:	37280
 when:	2017.04.05
 where:	http://tropy.org
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
+what:	81222
+when:	2017.04.11
+where:	http://www.cee.ucla.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 
