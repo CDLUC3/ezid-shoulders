@@ -1,28 +1,16 @@
-diff -r e05810f4ab96 naans/master_naans
---- a/naans/master_naans	Wed Apr 05 09:39:59 2017 -0700
-+++ b/naans/master_naans	Tue Apr 11 14:48:09 2017 -0700
-@@ -4123,11 +4123,2 @@
- naa:
--who:    ORCID, Inc (=) ORCID
--what:   81222
--when:   2016.04.18
--where:	http://orcid.org
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid orcid-doi
--
--naa:
- who:	Eclair Preservation S.A.S. (=) ECLAIR
-@@ -5150,2 +5141,12 @@
+diff -r 9fecbe181353 naans/master_naans
+--- a/naans/master_naans	Tue Apr 11 14:48:10 2017 -0700
++++ b/naans/master_naans	Wed Apr 19 14:31:40 2017 -0700
+@@ -5151,2 +5151,12 @@
  
 +naa:
-+who:	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
-+what:	81222
-+when:	2017.04.11
-+where:	http://www.cee.ucla.edu
++who:	Gaussian, Inc. (=) GAUSSIAN
++what:	81988
++when:	2017.04.19
++where:	http://gaussian.com
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	EZID ARK
-+!contact: eziduserid ucla_uclageo
-+!address: 5731 Boelter Hall  Department of Civil and Environmental Engineering  University of California, Los Angeles, CA 90095-1593
++!contact: eziduserid ginc-doi
++!address: 340 Quinnipiac St.  Bldg. 40  Wallingford, CT  06492
 +
  #!naa:

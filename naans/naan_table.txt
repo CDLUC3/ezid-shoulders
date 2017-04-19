@@ -519,6 +519,7 @@
 50276	France Televisions (=) FTVE
 37280	Tropy (=) TROPY
 81222	UCLA Dept of Civil & Environmental Engineering - Geotechnical Engineering Research Group (=) UCLACEEGEO
+81988	Gaussian, Inc. (=) GAUSSIAN
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -581,6 +581,7 @@ contact: Shein, Cyndi ||| cyndi.shein@unlv.edu | +1 702-895-2209
 contact: Garrigues, Sandrine ||| sandrine.garrigues@francetv.fr | 
 contact: Takats, Sean ||| sean@digitalscholar.org | 
 contact: eziduserid ucla_uclageo
+contact: eziduserid ginc-doi
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
