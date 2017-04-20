@@ -290,7 +290,7 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	# XXX to email response, include raw form info as original request
 	unless ($no_naan_generation) {
 		my $naan_rec = "$ENV{HOME}/shoulders/naans/forge/naan_rec ";
-		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname" "$lastname" "$email" "" "$address"@;
+		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname ($role)" "$lastname" "$email" "" "$address"@;
 		$naan = `$cmd`;
 		chop $naan;
 		#$naan = forge/naan_rec Acronym Website InstitutionName First Last Email Phone Address

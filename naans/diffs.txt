@@ -1,16 +1,16 @@
-diff -r 9fecbe181353 naans/master_naans
---- a/naans/master_naans	Tue Apr 11 14:48:10 2017 -0700
-+++ b/naans/master_naans	Wed Apr 19 14:31:40 2017 -0700
-@@ -5151,2 +5151,12 @@
+diff -r 48c56148fe98 naans/master_naans
+--- a/naans/master_naans	Wed Apr 19 14:31:40 2017 -0700
++++ b/naans/master_naans	Wed Apr 19 19:23:07 2017 -0700
+@@ -5161,2 +5161,12 @@
  
 +naa:
-+who:	Gaussian, Inc. (=) GAUSSIAN
-+what:	81988
++who:	University of Florida Interdisciplinary Center for Biotechnology Research (=) UFICBR
++what:	24283
 +when:	2017.04.19
-+where:	http://gaussian.com
++where:	http://biotech.ufl.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid ginc-doi
-+!address: 340 Quinnipiac St.  Bldg. 40  Wallingford, CT  06492
++!why:	ARK
++!contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl.edu | 
++!address: UF ICBR, 2033 Mowry Rd, Gainesville, FL 32610
 +
  #!naa:

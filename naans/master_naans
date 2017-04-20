@@ -5159,6 +5159,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: eziduserid ginc-doi
 !address: 340 Quinnipiac St.  Bldg. 40  Wallingford, CT  06492
 
+naa:
+who:	University of Florida Interdisciplinary Center for Biotechnology Research (=) UFICBR
+what:	24283
+when:	2017.04.19
+where:	http://biotech.ufl.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl.edu | 
+!address: UF ICBR, 2033 Mowry Rd, Gainesville, FL 32610
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration

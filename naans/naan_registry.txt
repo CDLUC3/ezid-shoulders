@@ -3937,6 +3937,13 @@ when:	2017.04.19
 where:	http://gaussian.com
 how:	NP | (:unkn) unknown | 2017 |
 
+naa:
+who:	University of Florida Interdisciplinary Center for Biotechnology Research (=) UFICBR
+what:	24283
+when:	2017.04.19
+where:	http://biotech.ufl.edu
+how:	NP | (:unkn) unknown | 2017 |
+
 
 naa:
 who:	Metadata Terms (=) TERMS
