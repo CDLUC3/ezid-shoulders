@@ -583,6 +583,7 @@ contact: Takats, Sean ||| sean@digitalscholar.org |
 contact: eziduserid ucla_uclageo
 contact: eziduserid ginc-doi
 contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl.edu | 
+contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

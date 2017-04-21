@@ -5169,6 +5169,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl.edu | 
 !address: UF ICBR, 2033 Mowry Rd, Gainesville, FL 32610
 
+naa:
+who:	Bibliothèque de l'observatoire de Paris (=) OBSPM
+what:	11287
+when:	2017.04.21
+where:	https://bibnum.obspm.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
+!address: 61 avenue de l'Observatoire 75014 Paris
+
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
 #!what:   88127  XXX check if still unassigned on registration
