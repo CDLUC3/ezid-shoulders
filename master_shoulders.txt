@@ -77,8 +77,9 @@
 
 # STACKTOP
 # xxx RECYCLE ark:/86084/m8 (Digital Science)
-# xxx RECYCLE doi:10.13018/G2, ark:/83018/g4 (GLOBUS)
-# 10.21989 10.21990 10.21991 10.21992 
+# xxx RECYCLE ark:/83018/g4 (GLOBUS)
+# xxx RECYCLE ark:/83011/g7 (PURDUE.NEES) doi:10.13011/G6 (NEES) (minters gone)
+# 10.21990 10.21991 10.21992 
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
 # when removing, remember to
@@ -164,10 +165,47 @@
 # unlvezid naans/forge/naan_rec UNLV http://www.library.unlv.edu "University of Nevada, Las Vegas University Libraries" Cyndi Shein cyndi.shein@unlv.edu "+1 702-895-2209" "4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001"
 # ucla_ceegeo make_ezacct -n 10.21222 c2 "" c2  < ezaccts/newacct > out
 # guassian    make_ezacct -n 10.21988 g8 "" g8  < ezaccts/newacct > out
+# uw/ssec     make_shdr -n doi:10.21231/S2
+# uwisc_bmrb  make_ezacct -n 10.13018 - - -  < ezaccts/newacct > out
+# dartmouth   make_ezacct -n 10.21989 d9 - -  < ezaccts/newacct > out
 
 # rename make_shdr refs to make_minter refs
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
+
+:: doi:10.21989/D9
+type: shoulder
+manager: ezid
+#eziduser: dartdataverse
+name: Dartmouth TDI
+date: 2017.04.26
+minter: https://n2t.net/a/ezid/m/ark/d1989/d9
+datacenter: CDL.DARTLIB
+prefix_shares_datacenter: true
+
+:: datacite:PURDUE.UWBMRB
+type: datacenter
+manager: ezid
+name: UW-Biological Magnetic Resonance Bank
+
+:: doi:10.13018/
+type: shoulder
+manager: ezid
+#eziduser: uwisc_bmrb
+name: UWisc BMRB
+date: 2017.04.25
+minter:
+datacenter: PURDUE.UWBMRB
+
+:: doi:10.21231/S2
+type: shoulder
+manager: ezid
+#eziduser: uwisc_evaeborbas
+name: UWisc SSEC
+date: 2017.04.24
+minter: https://n2t.net/a/ezid/m/ark/d1231/s2
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
 
 :: ark:/81988/g8
 type: shoulder
@@ -3406,6 +3444,7 @@ name: Dartmouth College Library
 date: 2014.12.19
 minter: https://n2t.net/a/ezid/m/ark/c3024/d2
 datacenter: CDL.DARTLIB
+prefix_shares_datacenter: true
 
 # This shoulder is designed to support the single ARK, ark:/99152/p0,
 # which is registered mainly to support suffix passthrough.
@@ -3567,14 +3606,14 @@ date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c3019/m2
 datacenter: PURDUE.MYGEOHUB
 
-# inactive
-:: ark:/83018/g4
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Globus.org
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/83018/g4
+## inactive
+#:: ark:/83018/g4
+#type: shoulder
+#manager: ezid
+##eziduser: none
+#name: Globus.org
+#date: 2014.10.13
+#minter: https://n2t.net/a/ezid/m/ark/83018/g4
 
 :: ark:/85147/j4
 type: shoulder
@@ -6702,23 +6741,23 @@ type: datacenter
 manager: ezid
 name: Geotechnical Extreme Events Reconnaissance
 
-# xxx to RECYCLE
-:: datacite:CDL.GLOBUS
-type: datacenter
-manager: ezid
-name: Globus.org
-
-# xxx to RECYCLE
-# inactive
-:: doi:10.13018/G2
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Globus.org
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/c3018/g2
-#this datacenter doesn't show in DataCite
-datacenter: CDL.GLOBUS
+## xxx to RECYCLE
+#:: datacite:CDL.GLOBUS
+#type: datacenter
+#manager: ezid
+#name: Globus.org
+#
+## xxx to RECYCLE
+## inactive
+#:: doi:10.13018/G2
+#type: shoulder
+#manager: ezid
+##eziduser: none
+#name: Globus.org
+#date: 2014.10.13
+#minter: https://n2t.net/a/ezid/m/ark/c3018/g2
+##this datacenter doesn't show in DataCite
+#datacenter: CDL.GLOBUS
 
 :: datacite:CDL.GMU
 type: datacenter

@@ -431,8 +431,8 @@ c3012  # University of Illinois Libraries
 10.13017  # University of Minnesota Libraries
 85147: IDASHREPOSITORY 2014.10.13   # iDASH Repository (xxx)
 10.15147  # iDASH Repository
-83018: GLOBUS    2014.10.13   # Globus.org (xxx)
-10.13018  # Globus.org
+#83018: GLOBUS    2014.10.13   # Globus.org (xxx)
+#10.13018  # Globus.org
 83019: MYGEOHUB  2014.10.13   # MyGeoHub (xxx)
 10.13019  # MyGeoHub
 83020: PURPOLY   2014.10.14   # Purdue Polytechnic Institute (xxx)

@@ -273,7 +273,6 @@
 85145	University of New Mexico Libraries (=) UNMLIB
 83017	University of Minnesota Libraries (=) UMN
 85147	iDASH Repository (=) IDASHREPOSITORY
-83018	Globus.org (=) GLOBUS
 83019	MyGeoHub (=) MYGEOHUB
 88114	Purdue Polytechnic Institute (=) PURPOLY
 83020	Data Repository for the University of Minnesota (=) DRUM
@@ -522,6 +521,7 @@
 81988	Gaussian, Inc. (=) GAUSSIAN
 24283	University of Florida Interdisciplinary Center for Biotechnology Research (=) UFICBR
 11287	Bibliothèque de l'observatoire de Paris (=) OBSPM
+72506	Archives départementales du Finistère (=) AD29
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -19,7 +19,7 @@ RedirectMatch ^/((ark:/88435)|88435/?)(.*)$ http://diglib.princeton.edu/$2$3
 RedirectMatch ^/((ark:/78428)|78428/?)(.*)$ http://u.washington.edu/$2$3
 RedirectMatch ^/((ark:/89901)|89901/?)(.*)$ http://www.arkivnamnden.org/$2$3
 RedirectMatch ^/((ark:/80444)|80444/?)(.*)$ http://nwda.wsulibs.wsu.edu/$2$3
-RedirectMatch ^/((ark:/25593)|25593/?)(.*)$ http://id.library.emory.edu/$2$3
+RedirectMatch ^/((ark:/25593)|25593/?)(.*)$ http://pid.emory.edu/$2$3
 RedirectMatch ^/((ark:/25031)|25031/?)(.*)$ http://www.lib.ku.edu/$2$3
 RedirectMatch ^/((ark:/78319)|78319/?)(.*)$ http://www.google.com/$2$3
 RedirectMatch ^/((ark:/17101)|17101/?)(.*)$ http://www.ceh.ac.uk/$2$3
@@ -31,7 +31,7 @@ RedirectMatch ^/((ark:/26677)|26677/?)(.*)$ http://collectionscanada.ca/$2$3
 RedirectMatch ^/((ark:/13681)|13681/?)(.*)$ http://www.cmbv.fr/$2$3
 RedirectMatch ^/((ark:/87895)|87895/?)(.*)$ http://www.cines.fr/$2$3
 RedirectMatch ^/((ark:/74899)|74899/?)(.*)$ http://www.bibliotheque.toulouse.fr/$2$3
-RedirectMatch ^/((ark:/61903)|61903/?)(.*)$ http://www.familysearch.org/$2$3
+RedirectMatch ^/((ark:/61903)|61903/?)(.*)$ https://familysearch.org/$2$3
 RedirectMatch ^/((ark:/48907)|48907/?)(.*)$ http://library.ucsb.edu/$2$3
 RedirectMatch ^/((ark:/36253)|36253/?)(.*)$ http://www.eastmanhouse.org/$2$3
 RedirectMatch ^/((ark:/23257)|23257/?)(.*)$ http://www.appstate.edu/$2$3
@@ -274,7 +274,6 @@ RedirectMatch ^/((ark:/26678)|26678/?)(.*)$ http://www.frantiq.fr/$2$3
 RedirectMatch ^/((ark:/85145)|85145/?)(.*)$ library.unm.edu/$2$3
 RedirectMatch ^/((ark:/83017)|83017/?)(.*)$ www.lib.umn.edu/$2$3
 RedirectMatch ^/((ark:/85147)|85147/?)(.*)$ http://idash.ucsd.edu/$2$3
-RedirectMatch ^/((ark:/83018)|83018/?)(.*)$ www.globus.org/$2$3
 RedirectMatch ^/((ark:/83019)|83019/?)(.*)$ mygeohub.org/$2$3
 RedirectMatch ^/((ark:/88114)|88114/?)(.*)$ https://polytechhub.org/$2$3
 RedirectMatch ^/((ark:/83020)|83020/?)(.*)$ www.lib.umn.edu/$2$3
@@ -523,6 +522,7 @@ RedirectMatch ^/((ark:/81222)|81222/?)(.*)$ http://www.cee.ucla.edu/$2$3
 RedirectMatch ^/((ark:/81988)|81988/?)(.*)$ http://gaussian.com/$2$3
 RedirectMatch ^/((ark:/24283)|24283/?)(.*)$ http://biotech.ufl.edu/$2$3
 RedirectMatch ^/((ark:/11287)|11287/?)(.*)$ https://bibnum.obspm.fr/$2$3
+RedirectMatch ^/((ark:/72506)|72506/?)(.*)$ http://www.archives-finistere.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

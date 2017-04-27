@@ -1,16 +1,38 @@
-diff -r 6f49cc836278 naans/master_naans
---- a/naans/master_naans	Wed Apr 19 19:23:07 2017 -0700
-+++ b/naans/master_naans	Fri Apr 21 09:23:58 2017 -0700
-@@ -5171,2 +5171,12 @@
+diff -r bf44fcaa88f3 naans/master_naans
+--- a/naans/master_naans	Fri Apr 21 09:23:58 2017 -0700
++++ b/naans/master_naans	Thu Apr 27 11:47:45 2017 -0700
+@@ -489,3 +489,3 @@
+ when:	2006.01.12
+-where:	http://id.library.emory.edu
++where:	http://pid.emory.edu
+ how:	NP | (:unkn) unknown | 2006 |
+@@ -597,3 +597,3 @@
+ when:	2009.02.13
+-where:	http://www.familysearch.org
++where:	https://familysearch.org
+ how:	NP | (:unkn) unknown | 2009 |
+@@ -2813,11 +2813,2 @@
+ naa:
+-who:    Globus.org (=) GLOBUS
+-what:   83018
+-when:   2014.10.13
+-where:	www.globus.org
+-how:	NP | (:unkn) unknown | 2014 |
+-!why:   EZID ARK
+-!contact: eziduserid globus
+-
+-naa:
+ who:    MyGeoHub (=) MYGEOHUB
+@@ -5181,2 +5172,12 @@
  
 +naa:
-+who:	Bibliothèque de l'observatoire de Paris (=) OBSPM
-+what:	11287
-+when:	2017.04.21
-+where:	https://bibnum.obspm.fr
++who:	Archives départementales du Finistère (=) AD29
++what:	72506
++when:	2017.04.27
++where:	http://www.archives-finistere.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
-+!address: 61 avenue de l'Observatoire 75014 Paris
++!contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
++!address: 5 allée Henri Bourde de la Rogerie 29000 Quimper. FRANCE
 +
  #!naa:

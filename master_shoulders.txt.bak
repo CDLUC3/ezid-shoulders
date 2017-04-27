@@ -38,10 +38,11 @@
 # xxx add "crossref: true" to make EZID deposit metadata with CrossRef
 
 # To remove a shoulder from the system, login to the EZID UI as "admin",
-# go to the admin tab and then the groups tab.  Look up that shoulder,
-# and you'll see that it's being referenced by an EZID user and group.
-# Delete the references and hit Save.  Finally, come back and remove it
-# from this file, install, and reload EZID as usual.
+# go to the DASHBOARD tab and select the ADMINISTRATION button.  Then
+# go to the Users line/button (and later visit the Groups line/button):
+# look up the user, untick the shoulder checkboxes, and Save.  For Groups,
+# find the shoulders and move them back up out of the group.  Finally, come
+# back and remove them from this file, install, and reload EZID as usual.
 # 
 # Deleting the shoulder from the shoulder database without deleting those
 # references first (in the EZID admin) will cause the update to the
@@ -76,10 +77,15 @@
 
 # STACKTOP
 # xxx RECYCLE ark:/86084/m8 (Digital Science)
-# xxx RECYCLE doi:10.13018/G2, ark:/83018/g4 (GLOBUS)
-# 10.21988 10.21989 10.21990 10.21991 10.21992 
+# xxx RECYCLE ark:/83018/g4 (GLOBUS)
+# 10.21989 10.21990 10.21991 10.21992 
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
+# when removing, remember to
+#     (1) make_shdr --remove ... to drop minters,
+#     (2) remove each shoulder file entry and datacenter entry,
+#     (3) and remove old NAAN entry
+
 
 ######## note: generic accounts section delimited with lines like these ########
 # make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
@@ -157,13 +163,59 @@
 # iris        make_ezacct -n 10.21987 r7 "" r7  < ezaccts/newacct > out
 # unlvezid naans/forge/naan_rec UNLV http://www.library.unlv.edu "University of Nevada, Las Vegas University Libraries" Cyndi Shein cyndi.shein@unlv.edu "+1 702-895-2209" "4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001"
 # ucla_ceegeo make_ezacct -n 10.21222 c2 "" c2  < ezaccts/newacct > out
+# guassian    make_ezacct -n 10.21988 g8 "" g8  < ezaccts/newacct > out
+# uw/ssec     make_shdr -n doi:10.21231/S2
+# uwisc_bmrb  make_ezacct -n 10.13018 - - -  < ezaccts/newacct > out
 
 # rename make_shdr refs to make_minter refs
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
-# when removing, remember to (1) make_shdr --remove ... to drop minters
-#                  and (2) remove each shoulder file entry and datacenter entry
-# xxx RECYCLE 10.21222 (along with naan 81222)
+
+:: datacite:PURDUE.UWBMRB
+type: datacenter
+manager: ezid
+name: UW-Biological Magnetic Resonance Bank
+
+:: doi:10.13018/
+type: shoulder
+manager: ezid
+#eziduser: uwisc_bmrb
+name: UWisc BMRB
+date: 2017.04.25
+minter:
+datacenter: PURDUE.UWBMRB
+
+:: doi:10.21231/S2
+type: shoulder
+manager: ezid
+#eziduser: uwisc_evaeborbas
+name: UWisc SSEC
+date: 2017.04.24
+minter: https://n2t.net/a/ezid/m/ark/d1231/s2
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
+
+:: ark:/81988/g8
+type: shoulder
+manager: ezid
+#eziduser: ginc-doi
+name: Gaussian Inc
+date: 2017.04.19
+minter: https://n2t.net/a/ezid/m/ark/81988/g8
+
+:: datacite:PURDUE.GAUSSIAN
+type: datacenter
+manager: ezid
+name: Gaussian, Inc.
+
+:: doi:10.21988/G8
+type: shoulder
+manager: ezid
+#eziduser: ginc-doi
+name: Gaussian Inc
+date: 2017.04.19
+minter: https://n2t.net/a/ezid/m/ark/d1988/g8
+datacenter: PURDUE.GAUSSIAN
 
 :: ark:/81222/c2
 type: shoulder
@@ -3541,14 +3593,14 @@ date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c3019/m2
 datacenter: PURDUE.MYGEOHUB
 
-# inactive
-:: ark:/83018/g4
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Globus.org
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/83018/g4
+## inactive
+#:: ark:/83018/g4
+#type: shoulder
+#manager: ezid
+##eziduser: none
+#name: Globus.org
+#date: 2014.10.13
+#minter: https://n2t.net/a/ezid/m/ark/83018/g4
 
 :: ark:/85147/j4
 type: shoulder
@@ -6676,23 +6728,23 @@ type: datacenter
 manager: ezid
 name: Geotechnical Extreme Events Reconnaissance
 
-# xxx to RECYCLE
-:: datacite:CDL.GLOBUS
-type: datacenter
-manager: ezid
-name: Globus.org
-
-# xxx to RECYCLE
-# inactive
-:: doi:10.13018/G2
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Globus.org
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/c3018/g2
-#this datacenter doesn't show in DataCite
-datacenter: CDL.GLOBUS
+## xxx to RECYCLE
+#:: datacite:CDL.GLOBUS
+#type: datacenter
+#manager: ezid
+#name: Globus.org
+#
+## xxx to RECYCLE
+## inactive
+#:: doi:10.13018/G2
+#type: shoulder
+#manager: ezid
+##eziduser: none
+#name: Globus.org
+#date: 2014.10.13
+#minter: https://n2t.net/a/ezid/m/ark/c3018/g2
+##this datacenter doesn't show in DataCite
+#datacenter: CDL.GLOBUS
 
 :: datacite:CDL.GMU
 type: datacenter

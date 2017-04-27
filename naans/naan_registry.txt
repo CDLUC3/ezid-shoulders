@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.04.21
+when:	2017.04.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -427,7 +427,7 @@ naa:
 who:	Emory University (=) EMORY
 what:	25593
 when:	2006.01.12
-where:	http://id.library.emory.edu
+where:	http://pid.emory.edu
 how:	NP | (:unkn) unknown | 2006 |
 
 naa:
@@ -511,7 +511,7 @@ naa:
 who:	Family Search (=) FS
 what:	61903
 when:	2009.02.13
-where:	http://www.familysearch.org
+where:	https://familysearch.org
 how:	NP | (:unkn) unknown | 2009 |
 
 naa:
@@ -2206,13 +2206,6 @@ who:    iDASH Repository (=) IDASHREPOSITORY
 what:   85147
 when:   2014.10.13
 where:	http://idash.ucsd.edu
-how:	NP | (:unkn) unknown | 2014 |
-
-naa:
-who:    Globus.org (=) GLOBUS
-what:   83018
-when:   2014.10.13
-where:	www.globus.org
 how:	NP | (:unkn) unknown | 2014 |
 
 naa:
@@ -3949,6 +3942,13 @@ who:	Bibliothèque de l'observatoire de Paris (=) OBSPM
 what:	11287
 when:	2017.04.21
 where:	https://bibnum.obspm.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Archives départementales du Finistère (=) AD29
+what:	72506
+when:	2017.04.27
+where:	http://www.archives-finistere.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 
