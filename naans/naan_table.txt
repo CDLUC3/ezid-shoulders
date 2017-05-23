@@ -522,6 +522,7 @@
 24283	University of Florida Interdisciplinary Center for Biotechnology Research (=) UFICBR
 11287	Bibliothèque de l'observatoire de Paris (=) OBSPM
 72506	Archives départementales du Finistère (=) AD29
+86084	Blavatnik Archive Foundation (=) BAF
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

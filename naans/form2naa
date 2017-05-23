@@ -80,6 +80,7 @@ set id = `$mint | sed -e 's,^s: ,,' -e 's,^id: ,,'`
 
 # Critical test to see if the NAAN exists, eg, created by processes used
 # for deriving NAANs from DOI Prefixes.
+# XXX add warning if enough words in institutional name match an existing entry
 set exists = `bash -c "naan exists $id" && echo 1`	# naan is a perl script
 if ("$exists" == 1) then
 	echo "NAAN $id exists -- skipping.  Try again."

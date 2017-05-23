@@ -76,10 +76,9 @@
 # Allocate a prefix by popping off the top of the stack (next).
 
 # STACKTOP
-# xxx RECYCLE ark:/86084/m8 (Digital Science)
 # xxx RECYCLE ark:/83018/g4 (GLOBUS)
-# xxx RECYCLE ark:/83011/g7 (PURDUE.NEES) doi:10.13011/G6 (NEES) (minters gone)
-# 10.21990 10.21991 10.21992 
+# xxx RECYCLE ark:/83011/g7 (PURDUE.NEES) (minters gone)
+# 10.25333 10.25334 10.25335 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
 # when removing, remember to
@@ -168,10 +167,95 @@
 # uw/ssec     make_shdr -n doi:10.21231/S2
 # uwisc_bmrb  make_ezacct -n 10.13018 - - -  < ezaccts/newacct > out
 # dartmouth   make_ezacct -n 10.21989 d9 - -  < ezaccts/newacct > out
+# lbnl acdo   make_ezacct -n 10.21990 b9 - -  < ezaccts/newacct > out
+# ualberta    make_shdr doi:10.21991/C9; make_shdr doi:10.21992/T9; valsh doi:10.21991/C9 doi:10.21992/T9
+# um_mc       make_ezacct -n 10.13011 m3 - -  < ezaccts/newacct > out
+# cu-mill     make_ezacct -n 10.7916 c6 - -  < ezaccts/newacct > out
+# blavatnik   make_ezacct -n - - 86084 b4 < ezaccts/newacct > out
+#      ***    RECYCLING ark:/86084 (Digital Science)
+
+:: ark:/86084/b4
+type: shoulder
+manager: ezid
+#eziduser: blavatnik
+name: Blavatnik Archive
+date: 2017.05.23
+minter: https://n2t.net/a/ezid/m/ark/86084/b4
+
+:: doi:10.7916/C6
+type: shoulder
+manager: ezid
+#eziduser: cu-mill
+name: CIESEN MILL
+date: 2017.05.08
+minter: https://n2t.net/a/ezid/m/ark/b7916/c6
+datacenter: CDL.CULIS
+
+:: doi:10.13011/M3
+type: shoulder
+manager: ezid
+#eziduser: um_mc
+name: UMich Materials Commons
+date: 2017.05.08
+minter: https://n2t.net/a/ezid/m/ark/c3011/m3
+datacenter: PURDUE.UMICH
+prefix_shares_datacenter: true
+
+:: doi:10.21991/C9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Constitutional Forum Journal
+date: 2017.05.03
+minter: https://n2t.net/a/ezid/m/ark/d1991/c9
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21992/T9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta TranscUlturAl Journal
+date: 2017.05.03
+minter: https://n2t.net/a/ezid/m/ark/d1992/t9
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
 
 # rename make_shdr refs to make_minter refs
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
+
+:: doi:10.21990/B9
+type: shoulder
+manager: ezid
+#eziduser: lbnl-mwylie
+name: LBNL ACDO NERSC
+date: 2017.05.01
+minter: https://n2t.net/a/ezid/m/ark/d1990/b9
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
+
+:: doi:10.21990/C2
+type: shoulder
+manager: ezid
+#eziduser: lbnl-mwylie
+name: LBNL ACDO CRD
+date: 2017.05.01
+minter: https://n2t.net/a/ezid/m/ark/d1990/c2
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
+
+:: doi:10.21990/S9
+type: shoulder
+manager: ezid
+#eziduser: lbnl-mwylie
+name: LBNL ACDO ESnet
+date: 2017.05.01
+minter: https://n2t.net/a/ezid/m/ark/d1990/s9
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.21989/D9
 type: shoulder
@@ -3473,6 +3557,7 @@ name: LBNL Dash
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b7941/d1
 datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.5070/S8
 type: shoulder
@@ -4080,6 +4165,7 @@ name: Lawrence Berkeley National Laboratory
 date: 2014.05.09
 minter: https://n2t.net/a/ezid/m/ark/b7941/s9
 datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.7914/D1
 type: shoulder
@@ -4970,6 +5056,7 @@ name: University of Michigan Library
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7302/z2
 datacenter: PURDUE.UMICH
+prefix_shares_datacenter: true
 
 :: doi:10.7299/X7
 type: shoulder

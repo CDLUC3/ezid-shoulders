@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.04.27
+when:	2017.05.23
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5179,6 +5179,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
 !address: 5 allée Henri Bourde de la Rogerie 29000 Quimper. FRANCE
+
+naa:
+who:	Blavatnik Archive Foundation (=) BAF
+what:	86084
+when:	2017.05.23
+where:	http://www.blavatnikarchive.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid blavatnik
+!address: @BlavatnikArchiv  1633 Broadway, 4th Floor  New York, NY 10019
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
