@@ -194,7 +194,6 @@
 15049	Archives départementales du Morbihan (=) AD56
 87922	Institute of Transportation Studies, UC Berkeley (=) UCBITS
 87923	Northwest Knowledge Network, University of Idaho (=) NKN
-83011	Network for Earthquake Engineering Simulation (=) NEES
 76267	Lafayette College Libraries (=) LCL
 87924	Duke University (=) DUL
 63271	Archives départementales de l'Aisne (=) AD02
@@ -523,6 +522,7 @@
 11287	Bibliothèque de l'observatoire de Paris (=) OBSPM
 72506	Archives départementales du Finistère (=) AD29
 86084	Blavatnik Archive Foundation (=) BAF
+83011	Musée de Bretagne (=) MB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

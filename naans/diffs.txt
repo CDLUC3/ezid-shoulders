@@ -1,16 +1,28 @@
-diff -r 7e39680618b1 naans/master_naans
---- a/naans/master_naans	Thu Apr 27 11:47:46 2017 -0700
-+++ b/naans/master_naans	Tue May 23 13:50:42 2017 -0700
-@@ -5182,2 +5182,12 @@
+diff -r a707d22bee93 naans/master_naans
+--- a/naans/master_naans	Tue May 23 13:50:42 2017 -0700
++++ b/naans/master_naans	Tue Jun 06 12:55:16 2017 -0700
+@@ -2092,11 +2092,2 @@
+ naa:
+-who:    Network for Earthquake Engineering Simulation (=) NEES
+-what:   83011
+-when:   2013.10.07
+-where:  http://nees.org
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid nees
+-
+-naa:
+ who:	Lafayette College Libraries (=) LCL
+@@ -5192,2 +5183,12 @@
  
 +naa:
-+who:	Blavatnik Archive Foundation (=) BAF
-+what:	86084
-+when:	2017.05.23
-+where:	http://www.blavatnikarchive.org
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid blavatnik
-+!address: @BlavatnikArchiv  1633 Broadway, 4th Floor  New York, NY 10019
++who:    Musée de Bretagne (=) MB
++what:   83011
++when:   2017.06.06
++where:  http://www.musee-bretagne.fr
++how:    NP | (:unkn) unknown | 2017 |
++!why:   ARK
++!contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
++!address: 46 boulevard Magenta, CS 51318, 35011 Rennes Cedex, France
 +
  #!naa:

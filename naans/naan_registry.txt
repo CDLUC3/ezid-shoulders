@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.05.23
+when:	2017.06.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1653,13 +1653,6 @@ who:    Northwest Knowledge Network, University of Idaho (=) NKN
 what:   87923
 when:   2013.10.02
 where:  www.northwestknowledge.net
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    Network for Earthquake Engineering Simulation (=) NEES
-what:   83011
-when:   2013.10.07
-where:  http://nees.org
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -3957,6 +3950,13 @@ what:	86084
 when:	2017.05.23
 where:	http://www.blavatnikarchive.org
 how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:    Musée de Bretagne (=) MB
+what:   83011
+when:   2017.06.06
+where:  http://www.musee-bretagne.fr
+how:    NP | (:unkn) unknown | 2017 |
 
 
 naa:

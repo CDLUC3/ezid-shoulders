@@ -1,6 +1,6 @@
 # // Procedure
 #
-# Start at n2t@ias-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
+# Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
 # follow the instructions.
 
 # Prefixes listed at mds.datacite.org under "CDL" account
@@ -76,10 +76,8 @@
 # Allocate a prefix by popping off the top of the stack (next).
 
 # STACKTOP
-# xxx RECYCLE ark:/86084/m8 (Digital Science)
-# xxx RECYCLE ark:/83018/g4 (GLOBUS)
 # xxx RECYCLE ark:/83011/g7 (PURDUE.NEES) (minters gone)
-# 10.25333 10.25334 10.25335 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25335 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
 # when removing, remember to
@@ -172,6 +170,50 @@
 # ualberta    make_shdr doi:10.21991/C9; make_shdr doi:10.21992/T9; valsh doi:10.21991/C9 doi:10.21992/T9
 # um_mc       make_ezacct -n 10.13011 m3 - -  < ezaccts/newacct > out
 # cu-mill     make_ezacct -n 10.7916 c6 - -  < ezaccts/newacct > out
+# blavatnik   make_ezacct -n - - 86084 b4 < ezaccts/newacct > out
+#      ***    RECYCLING ark:/86084 (Digital Science)
+# oclcmrd     make_ezacct -n 10.25333 c3 83018 c8  < ezaccts/newacct > out
+# qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
+
+:: doi:10.25334/Q4
+type: shoulder
+manager: ezid
+#eziduser: pittqubes
+name: Pitt QUBES
+date: 2017.05.31
+minter: https://n2t.net/a/ezid/m/ark/d5334/q4
+datacenter: CDL.PITT
+prefix_shares_datacenter: true
+
+:: ark:/83018/c8
+type: shoulder
+manager: ezid
+#eziduser: oclcmrd
+name: OCLC MRD
+date: 2017.05.25
+minter: https://n2t.net/a/ezid/m/ark/83018/c8
+
+:: datacite:PURDUE.OCLCMRD
+type: datacenter
+manager: ezid
+name: Membership and Research Division, OCLC, Inc.
+
+:: doi:10.25333/C3
+type: shoulder
+manager: ezid
+#eziduser: oclcmrd
+name: OCLC MRD
+date: 2017.05.24
+minter: https://n2t.net/a/ezid/m/ark/d5333/c3
+datacenter: PURDUE.OCLCMRD
+
+:: ark:/86084/b4
+type: shoulder
+manager: ezid
+#eziduser: blavatnik
+name: Blavatnik Archive
+date: 2017.05.23
+minter: https://n2t.net/a/ezid/m/ark/86084/b4
 
 :: doi:10.7916/C6
 type: shoulder
@@ -369,13 +411,23 @@ name: SDSC CAIDA
 date: 2017.03.17
 minter: https://n2t.net/a/ezid/m/ark/81986/s6
 
-:: doi:10.21986/S6
+:: doi:10.21986/S6.CAIDA
+type: shoulder
+manager: ezid
+#eziduser: ucsd_caida
+name: SDSC CAIDA Minter
+date: 2017.06.05
+minter: https://n2t.net/a/ezid/m/ark/d1986/s6.caida
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.21986/CAIDA
 type: shoulder
 manager: ezid
 #eziduser: ucsd_caida
 name: SDSC CAIDA
-date: 2017.03.17
-minter: https://n2t.net/a/ezid/m/ark/d1986/s6
+date: 2017.06.05
+minter:
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -3681,15 +3733,6 @@ name: MyGeoHub
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c3019/m2
 datacenter: PURDUE.MYGEOHUB
-
-## inactive
-#:: ark:/83018/g4
-#type: shoulder
-#manager: ezid
-##eziduser: none
-#name: Globus.org
-#date: 2014.10.13
-#minter: https://n2t.net/a/ezid/m/ark/83018/g4
 
 :: ark:/85147/j4
 type: shoulder

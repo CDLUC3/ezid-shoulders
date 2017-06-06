@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.05.23
+when:	2017.06.06
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2088,15 +2088,6 @@ where:  www.northwestknowledge.net
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid uidaho
-
-naa:
-who:    Network for Earthquake Engineering Simulation (=) NEES
-what:   83011
-when:   2013.10.07
-where:  http://nees.org
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid nees
 
 naa:
 who:	Lafayette College Libraries (=) LCL
@@ -5189,6 +5180,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid blavatnik
 !address: @BlavatnikArchiv  1633 Broadway, 4th Floor  New York, NY 10019
+
+naa:
+who:    Musée de Bretagne (=) MB
+what:   83011
+when:   2017.06.06
+where:  http://www.musee-bretagne.fr
+how:    NP | (:unkn) unknown | 2017 |
+!why:   ARK
+!contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
+!address: 46 boulevard Magenta, CS 51318, 35011 Rennes Cedex, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
