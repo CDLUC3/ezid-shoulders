@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+# xxx add ability to specify NAAN in form, and not generate NAAN, but
+# still send the email
+
 use 5.006;
 use strict;
 use warnings;

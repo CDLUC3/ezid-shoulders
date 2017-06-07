@@ -1,28 +1,16 @@
-diff -r a707d22bee93 naans/master_naans
---- a/naans/master_naans	Tue May 23 13:50:42 2017 -0700
-+++ b/naans/master_naans	Tue Jun 06 12:55:16 2017 -0700
-@@ -2092,11 +2092,2 @@
- naa:
--who:    Network for Earthquake Engineering Simulation (=) NEES
--what:   83011
--when:   2013.10.07
--where:  http://nees.org
--how:    NP | (:unkn) unknown | 2013 |
--!why:   EZID ARK
--!contact: eziduserid nees
--
--naa:
- who:	Lafayette College Libraries (=) LCL
-@@ -5192,2 +5183,12 @@
+diff -r 5e3633568f5f naans/master_naans
+--- a/naans/master_naans	Tue Jun 06 12:55:16 2017 -0700
++++ b/naans/master_naans	Wed Jun 07 02:13:40 2017 -0700
+@@ -5193,2 +5193,12 @@
  
 +naa:
-+who:    Musée de Bretagne (=) MB
-+what:   83011
-+when:   2017.06.06
-+where:  http://www.musee-bretagne.fr
-+how:    NP | (:unkn) unknown | 2017 |
-+!why:   ARK
-+!contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
-+!address: 46 boulevard Magenta, CS 51318, 35011 Rennes Cedex, France
++who:	Médiathèque Puzzle (=) PZZL
++what:	59852
++when:	2017.06.07
++where:	http://entrepotsillonlorrain.fr
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Isabelle, Personeni (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
++!address: 1 Place Malraux 57100 Thionville, France
 +
  #!naa:

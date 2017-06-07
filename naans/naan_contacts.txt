@@ -585,6 +585,7 @@ contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliothequ
 contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
 contact: eziduserid blavatnik
 contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
+contact: Isabelle, Personeni (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
