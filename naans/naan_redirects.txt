@@ -525,6 +525,7 @@ RedirectMatch ^/((ark:/72506)|72506/?)(.*)$ http://www.archives-finistere.fr/$2$
 RedirectMatch ^/((ark:/86084)|86084/?)(.*)$ http://www.blavatnikarchive.org/$2$3
 RedirectMatch ^/((ark:/83011)|83011/?)(.*)$ http://www.musee-bretagne.fr/$2$3
 RedirectMatch ^/((ark:/59852)|59852/?)(.*)$ http://entrepotsillonlorrain.fr/$2$3
+RedirectMatch ^/((ark:/85335)|85335/?)(.*)$ http://www.lib.msu.edu/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

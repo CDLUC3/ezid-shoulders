@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.07
+when:	2017.06.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5188,7 +5188,7 @@ when:   2017.06.06
 where:  http://www.musee-bretagne.fr
 how:    NP | (:unkn) unknown | 2017 |
 !why:   ARK
-!contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
+!contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
 !address: 46 boulevard Magenta, CS 51318, 35011 Rennes Cedex, France
 
 naa:
@@ -5198,8 +5198,18 @@ when:	2017.06.07
 where:	http://entrepotsillonlorrain.fr
 how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
-!contact: Isabelle, Personeni (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
+!contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
 !address: 1 Place Malraux 57100 Thionville, France
+
+naa:
+who:	Michigan State University Libraries (=) MSUL
+what:	85335
+when:	2017.06.15
+where:	http://www.lib.msu.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid msulib
+!address: 366 W. Circle Dr.  East Lansing, MI 48824
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

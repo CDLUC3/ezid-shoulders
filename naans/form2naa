@@ -292,6 +292,9 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	# generated field
 	my $naan = 'XXXXX';
 	# XXX to email response, include raw form info as original request
+	# xxx make sure $role doesn't end up in email
+	# xxx add email address to emailed response, plus note to cc joan
+	# xxx plus adjust subject line
 	unless ($no_naan_generation) {
 		my $naan_rec = "$ENV{HOME}/shoulders/naans/forge/naan_rec ";
 		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname ($role)" "$lastname" "$email" "" "$address"@;

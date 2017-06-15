@@ -76,14 +76,18 @@
 # Allocate a prefix by popping off the top of the stack (next).
 
 # STACKTOP
-# xxx RECYCLE ark:/83011/g7 (PURDUE.NEES) (minters gone)
 # 10.25335 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# xxx datacenter created by mistake: CDL.LBNLCRD (should be deleted)
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
 #     (2) remove each shoulder file entry and datacenter entry,
 #     (3) and remove old NAAN entry
+
+# rename make_shdr refs to make_minter refs
+# !!! NB: set up ark and doi shoulders to get the same mini-shoulder
+#     (eg, x5 and X5)
 
 
 ######## note: generic accounts section delimited with lines like these ########
@@ -174,6 +178,17 @@
 #      ***    RECYCLING ark:/86084 (Digital Science)
 # oclcmrd     make_ezacct -n 10.25333 c3 83018 c8  < ezaccts/newacct > out
 # qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
+# lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
+
+:: doi:10.21990/R2
+type: shoulder
+manager: ezid
+#eziduser: lbnl-peisert
+name: LBNL CRD
+date: 2017.06.08
+minter: https://n2t.net/a/ezid/m/ark/d1990/r2
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.25334/Q4
 type: shoulder
@@ -255,10 +270,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1992/t9
 datacenter: CDL.UAL
 crossref: true
 prefix_shares_datacenter: true
-
-# rename make_shdr refs to make_minter refs
-# !!! NB: set up ark and doi shoulders to get the same mini-shoulder
-#     (eg, x5 and X5)
 
 :: doi:10.21990/B9
 type: shoulder
@@ -411,16 +422,6 @@ name: SDSC CAIDA
 date: 2017.03.17
 minter: https://n2t.net/a/ezid/m/ark/81986/s6
 
-:: doi:10.21986/S6.CAIDA
-type: shoulder
-manager: ezid
-#eziduser: ucsd_caida
-name: SDSC CAIDA Minter
-date: 2017.06.05
-minter: https://n2t.net/a/ezid/m/ark/d1986/s6.caida
-datacenter: CDL.UCSD
-prefix_shares_datacenter: true
-
 :: doi:10.21986/CAIDA
 type: shoulder
 manager: ezid
@@ -428,6 +429,16 @@ manager: ezid
 name: SDSC CAIDA
 date: 2017.06.05
 minter:
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.21986/S6.CAIDA
+type: shoulder
+manager: ezid
+#eziduser: ucsd_caida
+name: SDSC CAIDA Minter
+date: 2017.06.05
+minter: https://n2t.net/a/ezid/m/ark/d1986/s6.caida
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 

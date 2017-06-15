@@ -584,8 +584,9 @@ contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl
 contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
 contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
 contact: eziduserid blavatnik
-contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
-contact: Isabelle, Personeni (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
+contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
+contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
+contact: eziduserid msulib
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

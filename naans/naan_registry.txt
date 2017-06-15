@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.07
+when:	2017.06.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3963,6 +3963,13 @@ who:	Médiathèque Puzzle (=) PZZL
 what:	59852
 when:	2017.06.07
 where:	http://entrepotsillonlorrain.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Michigan State University Libraries (=) MSUL
+what:	85335
+when:	2017.06.15
+where:	http://www.lib.msu.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 
