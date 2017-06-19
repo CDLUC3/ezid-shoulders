@@ -39,10 +39,11 @@
 
 # To remove a shoulder from the system, login to the EZID UI as "admin",
 # go to the DASHBOARD tab and select the ADMINISTRATION button.  Then
-# go to the Users line/button (and later visit the Groups line/button):
-# look up the user, untick the shoulder checkboxes, and Save.  For Groups,
-# find the shoulders and move them back up out of the group.  Finally, come
-# back and remove them from this file, install, and reload EZID as usual.
+# go to the Groups line/button, look for the group, then visit any users
+# the reference the shoulder, untick their shoulder reference and Save,
+# Then in the Group, find the shoulders and "move" (up-arrow) them back
+# up out of the group (to the available shoulders).  Finally, come back
+# and remove them from this file, install, and reload EZID as usual.
 # 
 # Deleting the shoulder from the shoulder database without deleting those
 # references first (in the EZID admin) will cause the update to the
@@ -76,7 +77,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 
 # STACKTOP
-# 10.25335 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 # xxx datacenter created by mistake: CDL.LBNLCRD (should be deleted)
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
@@ -179,6 +180,29 @@
 # oclcmrd     make_ezacct -n 10.25333 c3 83018 c8  < ezaccts/newacct > out
 # qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
+# msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
+
+:: ark:/85335/m5
+type: shoulder
+manager: ezid
+#eziduser: msulib
+name: MSU Libraries
+date: 2017.06.15
+minter: https://n2t.net/a/ezid/m/ark/85335/m5
+
+:: datacite:PURDUE.MSUL
+type: datacenter
+manager: ezid
+name: Michigan State University Libraries
+
+:: doi:10.25335/M5
+type: shoulder
+manager: ezid
+#eziduser: msulib
+name: MSU Libraries
+date: 2017.06.15
+minter: https://n2t.net/a/ezid/m/ark/d5335/m5
+datacenter: PURDUE.MSUL
 
 :: doi:10.21990/R2
 type: shoulder
@@ -414,13 +438,22 @@ date: 2017.03.22
 minter: https://n2t.net/a/ezid/m/ark/d1987/r7
 datacenter: PURDUE.IRISINK
 
-:: ark:/81986/s6
+#:: ark:/81986/s6.caida
+#type: shoulder
+#manager: ezid
+##eziduser: ucsd_caida
+#name: SDSC CAIDA Minter
+#date: 2017.06.15
+#minter: https://n2t.net/a/ezid/m/ark/81986/s6.caida
+#xxx no minter created yet, waiting for ticket
+
+:: ark:/81986/caida
 type: shoulder
 manager: ezid
 #eziduser: ucsd_caida
 name: SDSC CAIDA
-date: 2017.03.17
-minter: https://n2t.net/a/ezid/m/ark/81986/s6
+date: 2017.06.15
+minter:
 
 :: doi:10.21986/CAIDA
 type: shoulder

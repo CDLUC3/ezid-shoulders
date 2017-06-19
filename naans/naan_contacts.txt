@@ -587,6 +587,7 @@ contact: eziduserid blavatnik
 contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
 contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
 contact: eziduserid msulib
+contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

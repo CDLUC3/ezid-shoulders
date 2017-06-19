@@ -1,25 +1,16 @@
-diff -r 87f1f5e80369 naans/master_naans
---- a/naans/master_naans	Wed Jun 07 02:13:40 2017 -0700
-+++ b/naans/master_naans	Thu Jun 15 02:20:51 2017 -0700
-@@ -5190,3 +5190,3 @@
- !why:   ARK
--!contact: Martin-Adam, Fabienne (Responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
-+!contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
- !address: 46 boulevard Magenta, CS 51318, 35011 Rennes Cedex, France
-@@ -5200,5 +5200,15 @@
- !why:	ARK
--!contact: Isabelle, Personeni (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
-+!contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
- !address: 1 Place Malraux 57100 Thionville, France
+diff -r 01cc95b5f8ef naans/master_naans
+--- a/naans/master_naans	Thu Jun 15 02:20:51 2017 -0700
++++ b/naans/master_naans	Mon Jun 19 14:59:52 2017 -0700
+@@ -5213,2 +5213,12 @@
  
 +naa:
-+who:	Michigan State University Libraries (=) MSUL
-+what:	85335
-+when:	2017.06.15
-+where:	http://www.lib.msu.edu
++who:	CNRS Images (=) CNRSIMAGES
++what:	46856
++when:	2017.06.19
++where:	http://www.cnrs.fr/cnrs-images
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid msulib
-+!address: 366 W. Circle Dr.  East Lansing, MI 48824
++!why:	ARK
++!contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr | 
++!address: 1 place Aristide Briand, 92190 Meudon, France
 +
  #!naa:

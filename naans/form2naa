@@ -238,12 +238,15 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	my ($fullname, $email, $orgname, $role, $address,
 		$URL, $ostatus, $provider, $acronym, $other);
 	my ($firstname, $lastname);
+	# xxx very flawed test -- do real csv parse instead
 	if (m/,.*,.*,.*,.*,/) {	# if there are at least 5 commas on a line
 		(			# assume input is in CSV-format
 			$timestamp,			# unused field
 			$fullname, $email, $orgname, $role, $address,
 				$URL, $ostatus, $provider, $acronym, $other
 		) = Text::ParseWords::parse_line(',', 0, $_);
+		# xxx should limit to number of fields, eg, in face of
+		# texty "Other info"
 	}
 	else {
 		$h = Load($_);		# YAML parse, returning hash reference
