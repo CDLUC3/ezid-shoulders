@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.19
+when:	2017.06.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5220,6 +5220,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr | 
 !address: 1 place Aristide Briand, 92190 Meudon, France
+
+naa:
+who:	ARTE France Développement (=) EDUCARTE
+what:	33859
+when:	2017.06.20
+where:	http://educ.arte.tv
+how:	FP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
+!address: 8 rue Marceau 92785 Issy les Moulineaux cedex 9
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

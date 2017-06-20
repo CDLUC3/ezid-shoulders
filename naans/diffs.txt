@@ -1,16 +1,16 @@
-diff -r 01cc95b5f8ef naans/master_naans
---- a/naans/master_naans	Thu Jun 15 02:20:51 2017 -0700
-+++ b/naans/master_naans	Mon Jun 19 14:59:52 2017 -0700
-@@ -5213,2 +5213,12 @@
+diff -r 7f5754bcdbe4 naans/master_naans
+--- a/naans/master_naans	Mon Jun 19 14:59:53 2017 -0700
++++ b/naans/master_naans	Tue Jun 20 13:58:24 2017 -0700
+@@ -5223,2 +5223,12 @@
  
 +naa:
-+who:	CNRS Images (=) CNRSIMAGES
-+what:	46856
-+when:	2017.06.19
-+where:	http://www.cnrs.fr/cnrs-images
-+how:	NP | (:unkn) unknown | 2017 |
++who:	ARTE France Développement (=) EDUCARTE
++what:	33859
++when:	2017.06.20
++where:	http://educ.arte.tv
++how:	FP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr | 
-+!address: 1 place Aristide Briand, 92190 Meudon, France
++!contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
++!address: 8 rue Marceau 92785 Issy les Moulineaux cedex 9
 +
  #!naa:

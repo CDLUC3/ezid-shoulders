@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.19
+when:	2017.06.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3978,6 +3978,13 @@ what:	46856
 when:	2017.06.19
 where:	http://www.cnrs.fr/cnrs-images
 how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	ARTE France Développement (=) EDUCARTE
+what:	33859
+when:	2017.06.20
+where:	http://educ.arte.tv
+how:	FP | (:unkn) unknown | 2017 |
 
 
 naa:
