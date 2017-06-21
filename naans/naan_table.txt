@@ -527,6 +527,7 @@
 85335	Michigan State University Libraries (=) MSUL
 46856	CNRS Images (=) CNRSIMAGES
 33859	ARTE France Développement (=) EDUCARTE
+20863	ARTE France (=) ARTEFRANCE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

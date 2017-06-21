@@ -1,16 +1,16 @@
-diff -r 7f5754bcdbe4 naans/master_naans
---- a/naans/master_naans	Mon Jun 19 14:59:53 2017 -0700
-+++ b/naans/master_naans	Tue Jun 20 13:58:24 2017 -0700
-@@ -5223,2 +5223,12 @@
+diff -r 94df7cc3012d naans/master_naans
+--- a/naans/master_naans	Tue Jun 20 13:58:25 2017 -0700
++++ b/naans/master_naans	Wed Jun 21 02:11:20 2017 -0700
+@@ -5233,2 +5233,12 @@
  
 +naa:
-+who:	ARTE France Développement (=) EDUCARTE
-+what:	33859
-+when:	2017.06.20
-+where:	http://educ.arte.tv
-+how:	FP | (:unkn) unknown | 2017 |
++who:	ARTE France (=) ARTEFRANCE
++what:	20863
++when:	2017.06.21
++where:	http://edutheque.arte.tv
++how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
 +!contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
-+!address: 8 rue Marceau 92785 Issy les Moulineaux cedex 9
++!address: 8 rue Marceau 92785 Issy les moulineaux Cedex 9, France
 +
  #!naa:

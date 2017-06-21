@@ -589,6 +589,7 @@ contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-t
 contact: eziduserid msulib
 contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr | 
 contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
+contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
