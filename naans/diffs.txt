@@ -1,16 +1,8 @@
-diff -r 94df7cc3012d naans/master_naans
---- a/naans/master_naans	Tue Jun 20 13:58:25 2017 -0700
-+++ b/naans/master_naans	Wed Jun 21 02:11:20 2017 -0700
-@@ -5233,2 +5233,12 @@
- 
-+naa:
-+who:	ARTE France (=) ARTEFRANCE
-+what:	20863
-+when:	2017.06.21
-+where:	http://edutheque.arte.tv
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
-+!address: 8 rue Marceau 92785 Issy les moulineaux Cedex 9, France
-+
- #!naa:
+diff -r b002efbb33bb naans/master_naans
+--- a/naans/master_naans	Wed Jun 21 02:11:21 2017 -0700
++++ b/naans/master_naans	Thu Jun 22 01:19:25 2017 -0700
+@@ -4374,3 +4374,3 @@
+ when:	2016.06.20
+-where:	http://www.encyclopaedia-universalis.fr/contacts
++where:	http://ark.universalis-edu.com
+ how:	NP | (:unkn) unknown | 2016 |

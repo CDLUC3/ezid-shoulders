@@ -442,7 +442,7 @@ RedirectMatch ^/((ark:/73532)|73532/?)(.*)$ http://www.itopeducation.fr/$2$3
 RedirectMatch ^/((ark:/60878)|60878/?)(.*)$ https://www.edumedia-sciences.com/$2$3
 RedirectMatch ^/((ark:/81239)|81239/?)(.*)$ http://www.invemar.org.co/$2$3
 RedirectMatch ^/((ark:/47882)|47882/?)(.*)$ http://www.cabri.com/$2$3
-RedirectMatch ^/((ark:/34885)|34885/?)(.*)$ http://www.encyclopaedia-universalis.fr/contacts/$2$3
+RedirectMatch ^/((ark:/34885)|34885/?)(.*)$ http://ark.universalis-edu.com/$2$3
 RedirectMatch ^/((ark:/81414)|81414/?)(.*)$ http://www.siue.edu/lovejoylibrary/$2$3
 RedirectMatch ^/((ark:/81415)|81415/?)(.*)$ http://talkbank.org/$2$3
 RedirectMatch ^/((ark:/21889)|21889/?)(.*)$ http://www.editis.fr/$2$3
