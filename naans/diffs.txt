@@ -1,8 +1,16 @@
-diff -r b002efbb33bb naans/master_naans
---- a/naans/master_naans	Wed Jun 21 02:11:21 2017 -0700
-+++ b/naans/master_naans	Thu Jun 22 01:19:25 2017 -0700
-@@ -4374,3 +4374,3 @@
- when:	2016.06.20
--where:	http://www.encyclopaedia-universalis.fr/contacts
-+where:	http://ark.universalis-edu.com
- how:	NP | (:unkn) unknown | 2016 |
+diff -r eb308dcb7c46 naans/master_naans
+--- a/naans/master_naans	Thu Jun 22 01:19:25 2017 -0700
++++ b/naans/master_naans	Mon Jun 26 08:07:36 2017 -0700
+@@ -5243,2 +5243,12 @@
+ 
++naa:
++who:	Literati (=) LIT
++what:	69428
++when:	2017.06.26
++where:	http://literati.ro
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Nasulea, Christian (President) ||| christian@nasulea.ro | 
++!address: Republicii 202, Comarnic, Prahova, ROMANIA
++
+ #!naa:
