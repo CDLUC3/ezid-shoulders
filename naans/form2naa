@@ -2,6 +2,7 @@
 
 # xxx add ability to specify NAAN in form, and not generate NAAN, but
 # still send the email
+# xxx enforce acronym uniqueness
 
 use 5.006;
 use strict;

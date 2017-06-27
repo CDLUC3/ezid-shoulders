@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.22
+when:	2017.06.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5250,6 +5250,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Nasulea, Christian (President) ||| christian@nasulea.ro | 
 !address: Republicii 202, Comarnic, Prahova, ROMANIA
+
+naa:
+who:	Institut national du sport, de l'expertise et de la performance (=) INSEP
+what:	56432
+when:	2017.06.27
+where:	http://sportdocs.insep.fr/flora_insep
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of the unit archives, libraries, publishing house)) ||| anne-solweig.gremillet@insep.fr | 
+!address: 11 avenue du Tremblay, 75012 Paris, France
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

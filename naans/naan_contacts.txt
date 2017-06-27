@@ -591,6 +591,7 @@ contact: Christmann, Anne-Lise (archivist) ||| anne-lise.christmann@cnrs.fr |
 contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
 contact: Ghienne, Caroline (VOD manager) ||| c-ghienne@artefrance.fr | 
 contact: Nasulea, Christian (President) ||| christian@nasulea.ro | 
+contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of the unit archives, libraries, publishing house)) ||| anne-solweig.gremillet@insep.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

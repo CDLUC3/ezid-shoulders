@@ -1,16 +1,16 @@
-diff -r eb308dcb7c46 naans/master_naans
---- a/naans/master_naans	Thu Jun 22 01:19:25 2017 -0700
-+++ b/naans/master_naans	Mon Jun 26 08:07:36 2017 -0700
-@@ -5243,2 +5243,12 @@
+diff -r 6de8ef899e73 naans/master_naans
+--- a/naans/master_naans	Mon Jun 26 08:07:36 2017 -0700
++++ b/naans/master_naans	Tue Jun 27 07:41:38 2017 -0700
+@@ -5253,2 +5253,12 @@
  
 +naa:
-+who:	Literati (=) LIT
-+what:	69428
-+when:	2017.06.26
-+where:	http://literati.ro
++who:	Institut national du sport, de l'expertise et de la performance (=) INSEP
++what:	56432
++when:	2017.06.27
++where:	http://sportdocs.insep.fr/flora_insep
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Nasulea, Christian (President) ||| christian@nasulea.ro | 
-+!address: Republicii 202, Comarnic, Prahova, ROMANIA
++!contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of the unit archives, libraries, publishing house)) ||| anne-solweig.gremillet@insep.fr | 
++!address: 11 avenue du Tremblay, 75012 Paris, France
 +
  #!naa:
