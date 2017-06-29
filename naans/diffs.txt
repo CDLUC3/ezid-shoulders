@@ -1,16 +1,16 @@
-diff -r 6de8ef899e73 naans/master_naans
---- a/naans/master_naans	Mon Jun 26 08:07:36 2017 -0700
-+++ b/naans/master_naans	Tue Jun 27 07:41:38 2017 -0700
-@@ -5253,2 +5253,12 @@
+diff -r 93f34d2e53ed naans/master_naans
+--- a/naans/master_naans	Tue Jun 27 07:41:38 2017 -0700
++++ b/naans/master_naans	Thu Jun 29 07:25:11 2017 -0700
+@@ -5263,2 +5263,12 @@
  
 +naa:
-+who:	Institut national du sport, de l'expertise et de la performance (=) INSEP
-+what:	56432
-+when:	2017.06.27
-+where:	http://sportdocs.insep.fr/flora_insep
++who:	Cité de l'architecture et du patrimoine (=) City of Architecture and Heritage (=) CAP
++what:	43435
++when:	2017.06.29
++where:	http://citedelarchitecture.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of the unit archives, libraries, publishing house)) ||| anne-solweig.gremillet@insep.fr | 
-+!address: 11 avenue du Tremblay, 75012 Paris, France
++!contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchitecture.fr | 
++!address: 1, place du Trocadéro et du 11 Novembre - 75016 PARIS - France
 +
  #!naa:

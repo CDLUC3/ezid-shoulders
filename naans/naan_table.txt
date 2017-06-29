@@ -530,6 +530,7 @@
 20863	ARTE France (=) ARTEFRANCE
 69428	Literati (=) LIT
 56432	Institut national du sport, de l'expertise et de la performance (=) INSEP
+43435	Cité de l'architecture et du patrimoine (=) City of Architecture and Heritage (=) CAP
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

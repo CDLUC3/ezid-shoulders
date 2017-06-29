@@ -531,6 +531,7 @@ RedirectMatch ^/((ark:/33859)|33859/?)(.*)$ http://educ.arte.tv/$2$3
 RedirectMatch ^/((ark:/20863)|20863/?)(.*)$ http://edutheque.arte.tv/$2$3
 RedirectMatch ^/((ark:/69428)|69428/?)(.*)$ http://literati.ro/$2$3
 RedirectMatch ^/((ark:/56432)|56432/?)(.*)$ http://sportdocs.insep.fr/flora_insep/$2$3
+RedirectMatch ^/((ark:/43435)|43435/?)(.*)$ http://citedelarchitecture.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
