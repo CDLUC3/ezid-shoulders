@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.29
+when:	2017.07.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4012,6 +4012,13 @@ who:	Cité de l'architecture et du patrimoine (=) City of Architecture and Herit
 what:	43435
 when:	2017.06.29
 where:	http://citedelarchitecture.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Archives départementales de l'Indre (=) ADINDRE
+what:	30439
+when:	2017.07.05
+where:	http://archives36.cg36.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 

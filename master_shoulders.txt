@@ -76,6 +76,8 @@
 #
 # Allocate a prefix by popping off the top of the stack (next).
 
+# xxxShoulders to recycle: ark:/87269/p4  ark:/77914/s4  doi:10.17914/S9
+# xxxNAANs/Prefixes to recycle: 87269  77914  
 # STACKTOP
 # 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 # xxx datacenter created by mistake: CDL.LBNLCRD (should be deleted)

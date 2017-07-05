@@ -1,16 +1,16 @@
-diff -r 93f34d2e53ed naans/master_naans
---- a/naans/master_naans	Tue Jun 27 07:41:38 2017 -0700
-+++ b/naans/master_naans	Thu Jun 29 07:25:11 2017 -0700
-@@ -5263,2 +5263,12 @@
+diff -r bd08d3d11e75 naans/master_naans
+--- a/naans/master_naans	Thu Jun 29 07:25:11 2017 -0700
++++ b/naans/master_naans	Wed Jul 05 09:43:28 2017 -0700
+@@ -5273,2 +5273,12 @@
  
 +naa:
-+who:	Cité de l'architecture et du patrimoine (=) City of Architecture and Heritage (=) CAP
-+what:	43435
-+when:	2017.06.29
-+where:	http://citedelarchitecture.fr
++who:	Archives départementales de l'Indre (=) ADINDRE
++what:	30439
++when:	2017.07.05
++where:	http://archives36.cg36.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchitecture.fr | 
-+!address: 1, place du Trocadéro et du 11 Novembre - 75016 PARIS - France
++!contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
++!address: 1, Pont Jeanne d'Arc, 36000 Châteauroux
 +
  #!naa:

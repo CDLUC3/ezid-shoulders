@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.06.27
+when:	2017.06.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5270,6 +5270,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchitecture.fr | 
 !address: 1, place du Trocadéro et du 11 Novembre - 75016 PARIS - France
+
+naa:
+who:	Archives départementales de l'Indre (=) ADINDRE
+what:	30439
+when:	2017.07.05
+where:	http://archives36.cg36.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
+!address: 1, Pont Jeanne d'Arc, 36000 Châteauroux
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5
