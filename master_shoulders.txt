@@ -79,7 +79,7 @@
 # xxxShoulders to recycle: ark:/87269/p4  ark:/77914/s4  doi:10.17914/S9
 # xxxNAANs/Prefixes to recycle: 87269  77914  
 # STACKTOP
-# 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 # xxx datacenter created by mistake: CDL.LBNLCRD (should be deleted)
 # xxx CDL.ORCID datacenter is now empty and can be dropped
 # xxx CDL.GLOBUS datacenter is now empty and can be dropped
@@ -183,6 +183,19 @@
 # qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
 # msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
+
+
+:: doi:10.25336/P6
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Studies in Population
+date: 2017.07.07
+minter: https://n2t.net/a/ezid/m/ark/d5336/p6
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
 
 :: ark:/85335/m5
 type: shoulder

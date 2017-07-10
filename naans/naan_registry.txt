@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.07.05
+when:	2017.07.10
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4019,6 +4019,13 @@ who:	Archives départementales de l'Indre (=) ADINDRE
 what:	30439
 when:	2017.07.05
 where:	http://archives36.cg36.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Fondation La main à la pâte (=) LAMAP
+what:	17443
+when:	2017.07.10
+where:	http://www.fondation-lamap.org
 how:	NP | (:unkn) unknown | 2017 |
 
 

@@ -438,14 +438,13 @@ date: 2017.03.22
 minter: https://n2t.net/a/ezid/m/ark/d1987/r7
 datacenter: PURDUE.IRISINK
 
-#:: ark:/81986/s6.caida
-#type: shoulder
-#manager: ezid
-##eziduser: ucsd_caida
-#name: SDSC CAIDA Minter
-#date: 2017.06.15
-#minter: https://n2t.net/a/ezid/m/ark/81986/s6.caida
-#xxx no minter created yet, waiting for ticket
+:: ark:/81986/s6.caida
+type: shoulder
+manager: ezid
+#eziduser: ucsd_caida
+name: SDSC CAIDA Minter
+date: 2017.06.15
+minter: https://n2t.net/a/ezid/m/ark/81986/s6.caida
 
 :: ark:/81986/caida
 type: shoulder

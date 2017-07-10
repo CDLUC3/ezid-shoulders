@@ -594,6 +594,7 @@ contact: Nasulea, Christian (President) ||| christian@nasulea.ro |
 contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of the unit archives, libraries, publishing house)) ||| anne-solweig.gremillet@insep.fr | 
 contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchitecture.fr | 
 contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
+contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

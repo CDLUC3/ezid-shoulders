@@ -1,16 +1,16 @@
-diff -r bd08d3d11e75 naans/master_naans
---- a/naans/master_naans	Thu Jun 29 07:25:11 2017 -0700
-+++ b/naans/master_naans	Wed Jul 05 09:43:28 2017 -0700
-@@ -5273,2 +5273,12 @@
+diff -r f623305df3d1 naans/master_naans
+--- a/naans/master_naans	Wed Jul 05 09:43:29 2017 -0700
++++ b/naans/master_naans	Mon Jul 10 13:59:37 2017 -0700
+@@ -5283,2 +5283,12 @@
  
 +naa:
-+who:	Archives départementales de l'Indre (=) ADINDRE
-+what:	30439
-+when:	2017.07.05
-+where:	http://archives36.cg36.fr
++who:	Fondation La main à la pâte (=) LAMAP
++what:	17443
++when:	2017.07.10
++where:	http://www.fondation-lamap.org
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
-+!address: 1, Pont Jeanne d'Arc, 36000 Châteauroux
++!contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
++!address: 43 rue de Rennes, 75006 Paris, France
 +
  #!naa:
