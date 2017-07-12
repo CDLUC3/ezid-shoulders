@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.07.10
+when:	2017.07.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4026,6 +4026,13 @@ who:	Fondation La main à la pâte (=) LAMAP
 what:	17443
 when:	2017.07.10
 where:	http://www.fondation-lamap.org
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
+what:	79004
+when:	2017.07.12
+where:	http://www.ign.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 

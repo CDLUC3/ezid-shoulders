@@ -595,6 +595,7 @@ contact: GREMILLET, Anne-Solweig (Responsable de l'unité info-doc / (head of th
 contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchitecture.fr | 
 contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
 contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
+contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

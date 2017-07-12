@@ -1,16 +1,16 @@
-diff -r f623305df3d1 naans/master_naans
---- a/naans/master_naans	Wed Jul 05 09:43:29 2017 -0700
-+++ b/naans/master_naans	Mon Jul 10 13:59:37 2017 -0700
-@@ -5283,2 +5283,12 @@
+diff -r 21437e5bca99 naans/master_naans
+--- a/naans/master_naans	Mon Jul 10 13:59:37 2017 -0700
++++ b/naans/master_naans	Wed Jul 12 08:32:46 2017 -0700
+@@ -5293,2 +5293,12 @@
  
 +naa:
-+who:	Fondation La main à la pâte (=) LAMAP
-+what:	17443
-+when:	2017.07.10
-+where:	http://www.fondation-lamap.org
++who:	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
++what:	79004
++when:	2017.07.12
++where:	http://www.ign.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
-+!address: 43 rue de Rennes, 75006 Paris, France
++!contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
++!address: 73 Avenue de Paris 94165 Saint-Mande CEDEX, FRANCE
 +
  #!naa:

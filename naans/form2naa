@@ -4,7 +4,7 @@
 #     still send the email
 # xxx enforce acronym uniqueness
 
-use 5.006;
+use 5.010;
 use strict;
 use warnings;
 
@@ -321,6 +321,65 @@ how:    $bmodel | (:unkn) unknown | $year |
 
 ";
 
+my $institution = $orgname;
+$institution =~ s/ \(=\).*//;	# if has secondary name reduce to primary name
+#Subject: NAAN request for $acronym
+
+my $pseudonaan = $naan;		# xxx lots of garbage in there
+$naan =~ s/Got id = (\d+).*/$1/s;		# xxx new change not tested!
+
+#open OUT, ">", "new_naa_response" or
+#	die("couldn't open new_naa_response file");
+open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
+	die("couldn't open pipe to email response");
+
+print OUT << "EOT";
+
+NEW TRIAL: intended for $email
+CC: Joan.Starr\@ucop.edu
+
+Hi $firstname,
+
+Thanks for your request. The NAAN,
+
+	$naan
+
+has been registered for the $institution and you may begin using it immediately.
+
+Please note that $naan is intended for assigning ARKs to content that your institution directly curates or creates. In case you work with other institutions that use your tools and services for content that they curate or create, those institutions should obtain their own NAANs.
+
+In thinking about how to manage the namespace, you may find it helpful to consider the usual practice of partitioning it with reserved prefixes of, say 1-5 characters, eg, names of the form "ark:/$naan/xt3...." for each "sub-publisher" in an organization. Opaque prefixes that only have meaning to information professionals are often a good idea and have precedent in schemes such as ISBN and ISSN.
+
+The ARK specification linked from [1] is currently the best guide for how to create URLs that comply with ARK rules, although it is fairly technical. There is a public discussion group for ARKs (Archival Resource Keys) at
+
+         https://groups.google.com/group/arks-forum
+
+intended for people interested in sharing with and learning from others about how ARKs have been or could be used in identifier applications. The best open source software for setting up your own ARK service implementation is currently Noid, available from cpan.org.
+
+There is also a service called EZID (https://ezid.cdlib.org) that you can use to manage your namespace, which includes minting and resolving ARKs, DOIs, and other identifiers, as well as maintaining metadata. Please contact Joan.Starr\@ucop.edu if you are interested in EZID.
+
+There's nothing else you need to do right now. As you may know, we're hoping to craft a small number of standardized statements for name assigning authority policy that organizations can use if they want to.
+
+-John
+
+[1] https://wiki.ucop.edu/display/Curation/ARK
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+John A. Kunze            jak\@ucop.edu      California Digital Library
+415 20th St, #406       +1 510 987 9231     University of California
+Oakland, CA  94612          \@jakkbl          Office of the President
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+EOT
+	close OUT;
+	exit 0;
+}
+
+__END__
+
+
+########
+
 #  Your Name:	Gautier Poupeau
 #  Contact email address:	gpoupeau@ina.fr
 #  Organization name:	Institut national de l'audiovisuel
@@ -333,6 +392,3 @@ how:    $bmodel | (:unkn) unknown | $year |
 #+!why:  EZID ARK-only
 #+!contact: Flynn, Allen ||| ajflynn@med.umich.edu | +1 734-615-0839
 #+!address: 300 North Ingalls Street, 11th Floor, Suite 1161
-
-	exit 0;
-}
