@@ -1360,15 +1360,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid ucr-­
 
 naa:
-who:	Federation of Earth Science Information Partners (=) ESIPFED
-what:	87269
-when:	2012.06.27
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid esipcommon
-
-naa:
 who:	California Coastal Atlas (=) UCSDCCA
 what:	84246
 when:	2012.06.27
@@ -5300,6 +5291,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
 !address: 73 Avenue de Paris 94165 Saint-Mande CEDEX, FRANCE
+
+naa:
+who:	Project Tycho (=) PROJTYCHO
+what:	87269
+when:	2017.07.12
+where:	https://www.tycho.pitt.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid pitttycho
+!address: A740 Crabtree Hall  130 DeSoto Street  Pittsburgh, PA 15261
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

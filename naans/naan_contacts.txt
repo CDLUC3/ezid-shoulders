@@ -127,7 +127,6 @@ contact: EZID userid griidc
 contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
 contact: EZID userid oregonstate
 contact: EZID userid ucr-­
-contact: EZID userid esipcommon
 contact: EZID userid ucsd_hellyj
 contact: Menard, Martha | Georgetown University CAM Program || mbmenard@gmail.com | 604.565.5669
 contact: Kunze, John | California Digital Library || jak@ucop.edu
@@ -596,6 +595,7 @@ contact: SAGOT, Renaud (Chief Information Officer) ||| renaud.sagot@citedelarchi
 contact: Gerardot, Anne (Web developper) ||| agerardot@indre.fr | 
 contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
 contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
+contact: eziduserid pitttycho
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

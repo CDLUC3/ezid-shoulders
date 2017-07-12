@@ -1,16 +1,28 @@
-diff -r 21437e5bca99 naans/master_naans
---- a/naans/master_naans	Mon Jul 10 13:59:37 2017 -0700
-+++ b/naans/master_naans	Wed Jul 12 08:32:46 2017 -0700
-@@ -5293,2 +5293,12 @@
+diff -r c1d160e57562 naans/master_naans
+--- a/naans/master_naans	Wed Jul 12 08:32:46 2017 -0700
++++ b/naans/master_naans	Wed Jul 12 16:57:50 2017 -0700
+@@ -1362,11 +1362,2 @@
+ naa:
+-who:	Federation of Earth Science Information Partners (=) ESIPFED
+-what:	87269
+-when:	2012.06.27
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid esipcommon
+-
+-naa:
+ who:	California Coastal Atlas (=) UCSDCCA
+@@ -5303,2 +5294,12 @@
  
 +naa:
-+who:	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
-+what:	79004
++who:	Project Tycho (=) PROJTYCHO
++what:	87269
 +when:	2017.07.12
-+where:	http://www.ign.fr
++where:	https://www.tycho.pitt.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
-+!address: 73 Avenue de Paris 94165 Saint-Mande CEDEX, FRANCE
++!why:	EZID ARK
++!contact: eziduserid pitttycho
++!address: A740 Crabtree Hall  130 DeSoto Street  Pittsburgh, PA 15261
 +
  #!naa:

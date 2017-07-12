@@ -66,6 +66,14 @@
 #    UAlberta JPPS Journal (CDL.JPPSJOUR) 416 DOIs prefix 10.18433/J3
 # Counts above are as of 2016.03.23
 
+# Shoulders to recycle:
+#    ark:/87269/p4 ark:/77914/s4 doi:10.17914/S9 ark:/86073/ doi:10.6073/
+# NAANs/Prefixes to recycle:
+#    87269  77914  86073
+# Datacenters to drop:
+#    CDL.LBNLCRD CDL.ORCID CDL.GLOBUS CDL.SEU CDL.LTERNET
+# XXXXXX
+
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
 # make_ezacct with "" and - for the ARK parts and ignore the fake ARK
@@ -75,12 +83,10 @@
 # xxx unassigned CDL-only prefixes:  10.7918
 #
 # Allocate a prefix by popping off the top of the stack (next).
-
+#
 # STACKTOP
-# 10.25336 10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
-# xxx datacenter created by mistake: CDL.LBNLCRD (should be deleted)
-# xxx CDL.ORCID datacenter is now empty and can be dropped
-# xxx CDL.GLOBUS datacenter is now empty and can be dropped
+#    10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+#
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
 #     (2) remove each shoulder file entry and datacenter entry,
@@ -181,6 +187,17 @@
 # qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
 # msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
+
+:: doi:10.25336/P6
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Studies in Population
+date: 2017.07.07
+minter: https://n2t.net/a/ezid/m/ark/d5336/p6
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/85335/m5
 type: shoulder
@@ -2750,22 +2767,22 @@ minter: https://n2t.net/a/ezid/m/ark/c7915/n5
 datacenter: CDL.CNS
 crossref: true
 
-:: ark:/77914/s4
-type: shoulder
-manager: ezid
-#eziduser: mondaylib
-name: Saint Edward's University
-date: 2015.06.09
-minter: https://n2t.net/a/ezid/m/ark/77914/s4
+#:: ark:/77914/s4
+#type: shoulder
+#manager: ezid
+##eziduser: mondaylib
+#name: Saint Edward's University
+#date: 2015.06.09
+#minter: https://n2t.net/a/ezid/m/ark/77914/s4
 
-:: doi:10.17914/S9
-type: shoulder
-manager: ezid
-#eziduser: mondaylib
-name: Saint Edward's University
-date: 2015.06.09
-minter: https://n2t.net/a/ezid/m/ark/c7914/s9
-datacenter: CDL.SEU
+#:: doi:10.17914/S9
+#type: shoulder
+#manager: ezid
+##eziduser: mondaylib
+#name: Saint Edward's University
+#date: 2015.06.09
+#minter: https://n2t.net/a/ezid/m/ark/c7914/s9
+#datacenter: CDL.SEU
 
 :: doi:10.7912/D2
 type: shoulder
@@ -5739,13 +5756,13 @@ date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
 datacenter: CDL.UCSDCCA
 
-:: ark:/87269/p4
-type: shoulder
-manager: ezid
-#eziduser: ESIPCommon
-name: Federation of Earth Science Information Partners (ESIP) Commons
-date: 2012.06.27
-minter: https://n2t.net/a/ezid/m/ark/87269/p4
+#:: ark:/87269/p4
+#type: shoulder
+#manager: ezid
+##eziduser: ESIPCommon
+#name: Federation of Earth Science Information Partners (ESIP) Commons
+#date: 2012.06.27
+#minter: https://n2t.net/a/ezid/m/ark/87269/p4
 
 :: doi:10.7269/P3
 type: shoulder
@@ -6082,22 +6099,22 @@ date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6076/j7
 datacenter: CDL.FHCRC
 
-:: ark:/86073/
-type: shoulder
-manager: ezid
-#eziduser: lternet
-name: Long Term Ecological Research (LTER) Network
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/86073/j3
+#:: ark:/86073/
+#type: shoulder
+#manager: ezid
+##eziduser: lternet
+#name: Long Term Ecological Research (LTER) Network
+#date: 2012.03.05
+#minter: https://n2t.net/a/ezid/m/ark/86073/j3
 
-:: doi:10.6073/
-type: shoulder
-manager: ezid
-#eziduser: lternet
-name: Long Term Ecological Research (LTER) Network
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/b6073/j1
-datacenter: CDL.LTERNET
+#:: doi:10.6073/
+#type: shoulder
+#manager: ezid
+##eziduser: lternet
+#name: Long Term Ecological Research (LTER) Network
+#date: 2012.03.05
+#minter: https://n2t.net/a/ezid/m/ark/b6073/j1
+#datacenter: CDL.LTERNET
 
 :: doi:10.6078/J8
 type: shoulder
@@ -7038,10 +7055,10 @@ type: datacenter
 manager: ezid
 name: LIGO Open Science Center
 
-:: datacite:CDL.LTERNET
-type: datacenter
-manager: ezid
-name: Long Term Ecological Research (LTER) Network
+#:: datacite:CDL.LTERNET
+#type: datacenter
+#manager: ezid
+#name: Long Term Ecological Research (LTER) Network
 
 :: datacite:CDL.LUCKLAB
 type: datacenter
@@ -7278,10 +7295,10 @@ type: datacenter
 manager: ezid
 name: Caltech Seismological Laboratory
 
-:: datacite:CDL.SEU
-type: datacenter
-manager: ezid
-name: Saint Edward's University
+#:: datacite:CDL.SEU
+#type: datacenter
+#manager: ezid
+#name: Saint Edward's University
 
 :: datacite:CDL.SIMTK
 type: datacenter

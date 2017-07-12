@@ -1096,13 +1096,6 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	Federation of Earth Science Information Partners (=) ESIPFED
-what:	87269
-when:	2012.06.27
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
 who:	California Coastal Atlas (=) UCSDCCA
 what:	84246
 when:	2012.06.27
@@ -4033,6 +4026,13 @@ who:	Institut National de l'Information Géographique et Forestière (=) The Nat
 what:	79004
 when:	2017.07.12
 where:	http://www.ign.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Project Tycho (=) PROJTYCHO
+what:	87269
+when:	2017.07.12
+where:	https://www.tycho.pitt.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 

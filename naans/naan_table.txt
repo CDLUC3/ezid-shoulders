@@ -114,7 +114,6 @@
 83449	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
 87267	Oregon State University (=) OSU
 87268	Bourns College of Engineering (=) BCOE
-87269	Federation of Earth Science Information Partners (=) ESIPFED
 84246	California Coastal Atlas (=) UCSDCCA
 70453	Massage Therapy Association of British Columbia (=) MTABC
 90135	ONEShare Data Service (=) ONESHARE
@@ -534,6 +533,7 @@
 30439	Archives départementales de l'Indre (=) ADINDRE
 17443	Fondation La main à la pâte (=) LAMAP
 79004	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
+87269	Project Tycho (=) PROJTYCHO
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

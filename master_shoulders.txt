@@ -42,8 +42,11 @@
 # go to the Groups line/button, look for the group, then visit any users
 # the reference the shoulder, untick their shoulder reference and Save,
 # Then in the Group, find the shoulders and "move" (up-arrow) them back
-# up out of the group (to the available shoulders).  Finally, come back
-# and remove them from this file, install, and reload EZID as usual.
+# up out of the group (to the available shoulders).
+# Then remove any shoulder minter with, eg,
+#     make_shdr --remove ark:/12345/x8
+# (Do that step before this next step.) Finally, come back and
+# remove them from this file, install, and reload EZID as usual.
 # 
 # Deleting the shoulder from the shoulder database without deleting those
 # references first (in the EZID admin) will cause the update to the
@@ -57,7 +60,7 @@
 # 1. Adjust shoulders to use new datacenter
 # 2. DataCite moves existing DOIs to new datacenter
 # 3. Greg changes "_datacenter" fields of existing DOIs to new datacenter
-# 4. Old datacenters can now be deleted or repurposed
+# 4. Old datacenters can be deleted or repurposed after move prefixes out
 #
 # xxx four candidate datacenters/prefixes to merge into CDL.UAL:
 #    UAlberta HSSA Journal (CDL.HSSAJOUR) 9 DOIs prefix 10.18732/H2
@@ -65,6 +68,14 @@
 #    UAlberta EBLIP Journal (CDL.EBLIPJOU) 905 DOIs prefix 10.18438/B8
 #    UAlberta JPPS Journal (CDL.JPPSJOUR) 416 DOIs prefix 10.18433/J3
 # Counts above are as of 2016.03.23
+
+# Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
+#    <>
+# NAANs/Prefixes to re-use:
+#    77914  86073
+# Datacenters to drop:
+#    CDL.LBNLCRD
+# XXXXXX
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -75,16 +86,9 @@
 # xxx unassigned CDL-only prefixes:  10.7918
 #
 # Allocate a prefix by popping off the top of the stack (next).
-
-# Shoulders to recycle:
-#    ark:/87269/p4 ark:/77914/s4 doi:10.17914/S9 ark:/86073/ doi:10.6073/
-# NAANs/Prefixes to recycle:
-#    87269  77914  86073
-# Datacenters to drop:
-#    CDL.LBNLCRD CDL.ORCID CDL.GLOBUS
 #
 # STACKTOP
-#    10.25337 10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+#    10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -186,6 +190,25 @@
 # qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
 # msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
+# pitttycho   make_ezacct -n 10.25337 t7 87269 t9 < ezaccts/newacct > out
+
+:: ark:/87269/t9
+type: shoulder
+manager: ezid
+#eziduser: pitttycho
+name: Pitt Project Tycho
+date: 2017.07.12
+minter: https://n2t.net/a/ezid/m/ark/87269/t9
+
+:: doi:10.25337/T7
+type: shoulder
+manager: ezid
+#eziduser: pitttycho
+name: Pitt Project Tycho
+date: 2017.07.12
+minter: https://n2t.net/a/ezid/m/ark/d5337/t7
+datacenter: CDL.PITT
+prefix_shares_datacenter: true
 
 :: doi:10.25336/P6
 type: shoulder
@@ -2765,23 +2788,6 @@ date: 2015.06.26
 minter: https://n2t.net/a/ezid/m/ark/c7915/n5
 datacenter: CDL.CNS
 crossref: true
-
-#:: ark:/77914/s4
-#type: shoulder
-#manager: ezid
-##eziduser: mondaylib
-#name: Saint Edward's University
-#date: 2015.06.09
-#minter: https://n2t.net/a/ezid/m/ark/77914/s4
-
-#:: doi:10.17914/S9
-#type: shoulder
-#manager: ezid
-##eziduser: mondaylib
-#name: Saint Edward's University
-#date: 2015.06.09
-#minter: https://n2t.net/a/ezid/m/ark/c7914/s9
-#datacenter: CDL.SEU
 
 :: doi:10.7912/D2
 type: shoulder
@@ -5755,14 +5761,6 @@ date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
 datacenter: CDL.UCSDCCA
 
-#:: ark:/87269/p4
-#type: shoulder
-#manager: ezid
-##eziduser: ESIPCommon
-#name: Federation of Earth Science Information Partners (ESIP) Commons
-#date: 2012.06.27
-#minter: https://n2t.net/a/ezid/m/ark/87269/p4
-
 :: doi:10.7269/P3
 type: shoulder
 manager: ezid
@@ -6097,23 +6095,6 @@ name: Fred Hutchinson Cancer Research Center
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6076/j7
 datacenter: CDL.FHCRC
-
-#:: ark:/86073/
-#type: shoulder
-#manager: ezid
-##eziduser: lternet
-#name: Long Term Ecological Research (LTER) Network
-#date: 2012.03.05
-#minter: https://n2t.net/a/ezid/m/ark/86073/j3
-
-#:: doi:10.6073/
-#type: shoulder
-#manager: ezid
-##eziduser: lternet
-#name: Long Term Ecological Research (LTER) Network
-#date: 2012.03.05
-#minter: https://n2t.net/a/ezid/m/ark/b6073/j1
-#datacenter: CDL.LTERNET
 
 :: doi:10.6078/J8
 type: shoulder
@@ -7294,10 +7275,10 @@ type: datacenter
 manager: ezid
 name: Caltech Seismological Laboratory
 
-:: datacite:CDL.SEU
-type: datacenter
-manager: ezid
-name: Saint Edward's University
+#:: datacite:CDL.SEU
+#type: datacenter
+#manager: ezid
+#name: Saint Edward's University
 
 :: datacite:CDL.SIMTK
 type: datacenter
