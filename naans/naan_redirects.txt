@@ -345,7 +345,7 @@ RedirectMatch ^/((ark:/77912)|77912/?)(.*)$ http://www.wormbase.org/$2$3
 RedirectMatch ^/((ark:/77913)|77913/?)(.*)$ http://regenbase.org/$2$3
 RedirectMatch ^/((ark:/32491)|32491/?)(.*)$ http://www.archives-ville-romans.fr/$2$3
 RedirectMatch ^/((ark:/19495)|19495/?)(.*)$ https://osc.edu/$2$3
-RedirectMatch ^/((ark:/77914)|77914/?)(.*)$ http://www.stedwards.edu/$2$3
+RedirectMatch ^/((ark:/77914)|77914/?)(.*)$ http://www.archives.caltech.edu/$2$3
 RedirectMatch ^/((ark:/68060)|68060/?)(.*)$ http://www.andrews.edu/$2$3
 RedirectMatch ^/((ark:/55063)|55063/?)(.*)$ http://mediatheques.grand-dole.fr/$2$3
 RedirectMatch ^/((ark:/87915)|87915/?)(.*)$ www.cns.ucsb.edu/$2$3

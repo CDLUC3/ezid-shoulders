@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.07.12
+when:	2017.08.02
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2706,11 +2706,11 @@ where:	https://osc.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    Saint Edward's University (=) SEU
-what:   77914
-when:   2015.06.09
-where:	http://www.stedwards.edu
-how:	NP | (:unkn) unknown | 2015 |
+who:	Caltech Archives (=) TECHARC
+what:	77914
+when:	2017.08.02
+where:	http://www.archives.caltech.edu
+how:	NP | (:unkn) unknown | 2017 |
 
 naa:
 who:	Andrews University (=) ANDREWSU

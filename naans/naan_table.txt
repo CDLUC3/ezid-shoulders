@@ -344,7 +344,7 @@
 77913	Miami Project to Cure Paralysis (=) REGENBASE
 32491	Archives de la ville de Romans (=) AVROMANS
 19495	Ohio Supercomputer Center (=) OSC
-77914	Saint Edward's University (=) SEU
+77914	Caltech Archives (=) TECHARC
 68060	Andrews University (=) ANDREWSU
 55063	Médiathèques du Grand Dole (=) Media Libraries of Greater Dole (=) MEDIAGD
 87915	Center for Nanotechnology in Society (=) CNS

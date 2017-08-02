@@ -3467,13 +3467,13 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Guilfoos, Brian ||| guilfoos@osc.edu | +1-614-292-2846
 
 naa:
-who:    Saint Edward's University (=) SEU
-what:   77914
-when:   2015.06.09
-where:	http://www.stedwards.edu
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid mondaylib
+who:	Caltech Archives (=) TECHARC
+what:	77914
+when:	2017.08.02
+where:	http://www.archives.caltech.edu
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK only
+!contact: eziduserid caltech_arc
 
 naa:
 who:	Andrews University (=) ANDREWSU

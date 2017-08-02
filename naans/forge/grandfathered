@@ -547,8 +547,8 @@ c3012  # University of Illinois Libraries
 10.17913  # Miami Project to Cure Paralysis
 32491: AVROMANS  2015.06.01   # Archives de la ville de Romans
 19495: OSC       2015.06.01   # Ohio Supercomputer Center
-87914: SEU       2015.06.09   # Saint Edward's University (xxx)
-10.17914  # Saint Edward's University
+#87914: SEU       2015.06.09   # Saint Edward's University (xxx)
+#10.17914  # Saint Edward's University
 68060: ANDREWSU  2015.06.25   # Andrews University
 55063: MEDIAGD   2015.06.26   # Médiathèques du Grand Dole
 87915: CNS       2015.06.26   # Center for Nanotechnology in Society (xxx)
@@ -794,6 +794,7 @@ c3012  # University of Illinois Libraries
 86084: BAF       2017.05.23   # Blavatnik Archive Foundation (xxx)
 85335: MSUL      2017.06.15   # Michigan State University Libraries (xxx)
 10.25335  # Michigan State University Libraries
+77914: TECHARC   2017.08.02   # Caltech Archives
 
 
 

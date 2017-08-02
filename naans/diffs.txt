@@ -1,28 +1,20 @@
-diff -r c1d160e57562 naans/master_naans
---- a/naans/master_naans	Wed Jul 12 08:32:46 2017 -0700
-+++ b/naans/master_naans	Wed Jul 12 16:57:50 2017 -0700
-@@ -1362,11 +1362,2 @@
+diff -r 4de34df26a05 naans/master_naans
+--- a/naans/master_naans	Wed Jul 12 16:57:50 2017 -0700
++++ b/naans/master_naans	Wed Aug 02 12:07:05 2017 -0700
+@@ -3469,9 +3469,9 @@
  naa:
--who:	Federation of Earth Science Information Partners (=) ESIPFED
--what:	87269
--when:	2012.06.27
--where:	http://n2t.net
--how:	NP | (:unkn) unknown | 2012 |
--!why:	EZID ARK
--!contact: EZID userid esipcommon
--
--naa:
- who:	California Coastal Atlas (=) UCSDCCA
-@@ -5303,2 +5294,12 @@
- 
-+naa:
-+who:	Project Tycho (=) PROJTYCHO
-+what:	87269
-+when:	2017.07.12
-+where:	https://www.tycho.pitt.edu
+-who:    Saint Edward's University (=) SEU
+-what:   77914
+-when:   2015.06.09
+-where:	http://www.stedwards.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid mondaylib
++who:	Caltech Archives (=) TECHARC
++what:	77914
++when:	2017.08.02
++where:	http://www.archives.caltech.edu
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid pitttycho
-+!address: A740 Crabtree Hall  130 DeSoto Street  Pittsburgh, PA 15261
-+
- #!naa:
++!why:	EZID ARK only
++!contact: eziduserid caltech_arc
+ 

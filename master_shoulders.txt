@@ -69,12 +69,15 @@
 #    UAlberta JPPS Journal (CDL.JPPSJOUR) 416 DOIs prefix 10.18433/J3
 # Counts above are as of 2016.03.23
 
+# Procedures for removing and transferring stuff:
+#   https://confluence.ucop.edu/display/DataCite/Transferring+a+client+from+EZID+to+another+provider
+
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
-#    <>
+#    < >
 # NAANs/Prefixes to re-use:
-#    77914  86073
+#    < 86073 >
 # Datacenters to drop:
-#    CDL.LBNLCRD
+#    < >
 # XXXXXX
 
 # To create a Prefix and data center without on an existing account,
@@ -88,7 +91,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 #
 # STACKTOP
-#    10.25338 10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+#    10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -191,6 +194,36 @@
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
 # msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
 # pitttycho   make_ezacct -n 10.25337 t7 87269 t9 < ezaccts/newacct > out
+# caltech_arc make_ezacct -n - - 77914 c4 < ezaccts/newacct > out
+#      ***    RECYCLING ark:/77914 (St. Edward's University)
+
+:: ark:/77914/c4
+type: shoulder
+manager: ezid
+#eziduser: caltech_arc
+name: Caltech Archives
+date: 2017.08.02
+minter: https://n2t.net/a/ezid/m/ark/77914/c4
+
+:: doi:10.25338/B8
+type: shoulder
+manager: ezid
+#eziduser: ucd-library
+name: UC Davis Bio Agr Eng Dash
+date: 2017.07.24
+minter: https://n2t.net/a/ezid/m/ark/d5338/b8
+datacenter: CDL.UCDAVIS
+prefix_shares_datacenter: true
+
+:: doi:10.14291/TCCON
+type: shoulder
+manager: ezid
+#eziduser: caltech_tccon
+name: Caltech TCCON
+date: 2017.07.17
+minter: 
+datacenter: CDL.CALTECH
+prefix_shares_datacenter: true
 
 :: ark:/87269/t9
 type: shoulder
@@ -922,6 +955,7 @@ name: UC Berkeley eScholarship Content
 date: 2016.09.16
 minter: https://n2t.net/a/ezid/m/ark/d1433/b3
 datacenter: CDL.UCB
+crossref: true
 prefix_shares_datacenter: true
 
 :: doi:10.21432/T2
@@ -3869,6 +3903,7 @@ name: Caltech Scholar
 date: 2014.09.17
 minter: https://n2t.net/a/ezid/m/ark/b7907/s4
 datacenter: CDL.CALTECH
+prefix_shares_datacenter: true
 
 :: ark:/87907/s9
 type: shoulder
@@ -3999,6 +4034,7 @@ name: University of California, Davis, University Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5140/d3
 datacenter: CDL.UCDAVIS
+prefix_shares_datacenter: true
 
 :: ark:/85139/s4
 type: shoulder
@@ -5087,6 +5123,7 @@ name: California Institute of Technology (Caltech)
 date: 2013.04.15
 minter: https://n2t.net/a/ezid/m/ark/b7907/z9
 datacenter: CDL.CALTECH
+prefix_shares_datacenter: true
 
 :: ark:/87303/z4
 type: shoulder
@@ -7034,11 +7071,6 @@ name: UNC Library - Resource Description and Management
 type: datacenter
 manager: ezid
 name: LIGO Open Science Center
-
-#:: datacite:CDL.LTERNET
-#type: datacenter
-#manager: ezid
-#name: Long Term Ecological Research (LTER) Network
 
 :: datacite:CDL.LUCKLAB
 type: datacenter
