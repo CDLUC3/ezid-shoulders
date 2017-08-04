@@ -534,6 +534,7 @@
 17443	Fondation La main à la pâte (=) LAMAP
 79004	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
 87269	Project Tycho (=) PROJTYCHO
+66008	Musée de l'Armée (=) MDA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
