@@ -22,14 +22,15 @@ q|$cmd - convert a NAAN request form to a registry entry
 
 Usage:	$cmd [ -n ] FormFile
 
-where FormFile contains form data in either YAML-ish or CSV format.  The
+where FormFile contains form data in either YAML-ish or CSV format. The
 data may have been created with https://goo.gl/forms/bmckLSPpbzpZ5dix1 
 and delivered either by downloading a CSV file or pasting from an email
 generated from the filled-out form.
 
-The FormFile may be given as '-' to name stdin.  The optional -n argument
-prevents generation of a new NAAN, but does show the rest of the entry as
-it would look except for a new NAAN.  As an example, the received form
+The FormFile may be given as '-' to name stdin. The optional -n argument
+("no execute") prevents generation of a new NAAN, but does show the rest
+of the entry as it would look except for a new NAAN.  As an example, the
+received form
 
   Contact name:	Gautier Poupeau
   Contact email address:	gpoupeau@ina.fr
@@ -147,12 +148,12 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 {
 	#binmode(STDOUT, ":utf8");
 	use open qw/:std :utf8/;
-	my $no_naan_generation = 0;
+	my $no_exec = 0;
 	$#ARGV < 0 and
 		print($usage_text),
 		exit 0;
 	$ARGV[0] eq '-n' and
-		$no_naan_generation = 1,
+		$no_exec = 1,
 		shift;
 	$ARGV[0] eq '-' and
 		shift;
@@ -247,7 +248,7 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	# xxx make sure $role doesn't end up in email
 	# xxx add email address to emailed response, plus note to cc joan
 	# xxx plus adjust subject line
-	unless ($no_naan_generation) {
+	unless ($no_exec) {
 		my $naan_rec = "$ENV{HOME}/shoulders/naans/forge/naan_rec ";
 		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname ($role)" "$lastname" "$email" "" "$address"@;
 		$naan = `$cmd`;
@@ -276,6 +277,10 @@ $institution =~ s/ \(=\).*//;	# if has secondary name reduce to primary name
 my $pseudonaan = $naan;		# xxx lots of garbage in there
 $naan =~ s/Got id = (\d+).*/$1/s;		# xxx new change not tested!
 
+
+$no_exec and
+	exit 0;			# nothing left to do
+
 #open OUT, ">", "new_naa_response" or
 #	die("couldn't open new_naa_response file");
 open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
@@ -288,7 +293,7 @@ open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
 print OUT << "EOT";
 
 NEW TRIAL: intended for $email
-CC: Joan.Starr\@ucop.edu
+CC: ezid\@ucop.edu
 
 Hi $firstname,
 
@@ -308,7 +313,7 @@ The ARK specification linked from [1] is currently the best guide for how to cre
 
 intended for people interested in sharing with and learning from others about how ARKs have been or could be used in identifier applications. The best open source software for setting up your own ARK service implementation is currently Noid, available from cpan.org.
 
-There is also a service called EZID (https://ezid.cdlib.org) that you can use to manage your namespace, which includes minting and resolving ARKs, DOIs, and other identifiers, as well as maintaining metadata. Please contact Joan.Starr\@ucop.edu if you are interested in EZID.
+There is also a service called EZID (https://ezid.cdlib.org) that you can use to manage your namespace, which includes minting and resolving ARKs, DOIs, and other identifiers, as well as maintaining metadata. Please contact ezid\@ucop.edu if you are interested in EZID.
 
 There's nothing else you need to do right now. As you may know, we're hoping to craft a small number of standardized statements for name assigning authority policy that organizations can use if they want to.
 

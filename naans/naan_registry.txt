@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.08.04
+when:	2017.08.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4040,6 +4040,20 @@ who:	Musée de l'Armée (=) MDA
 what:	66008
 when:	2017.08.04
 where:	https://basedescollections.musee-armee.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Philadelphia Museum of Art (=) PMA
+what:	53011
+when:	2017.08.08
+where:	http://philamuseum.org
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	edulib (=) EDULIB
+what:	40015
+when:	2017.08.29
+where:	https://www.edulib.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 

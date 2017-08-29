@@ -25,18 +25,15 @@
 
 # ==== Flags ====
 #
-# Use "is_supershoulder: true" to mark a shoulder that encompasses at
+# Add "is_supershoulder: true" to mark a shoulder that encompasses at
 # least one other shoulder, eg, ark:/99999/ encompasses ark:/99999/fk4.
-#
-# Use "prefix_shares_datacenter: true" to mark a shoulder legitimately
-# assigned to more than one datacenter.  Both these flags suppress error
-# or warning messages that would otherwise occur during validation.
+# Add "crossref: true" to make EZID deposit metadata with CrossRef.
+# Add "prefix_shares_datacenter: true" to mark a shoulder legitimately
+# assigned to more than one datacenter.
 
 # ======== Add new shoulders after this line ============
 
-# NOTE: all new prefixes can be assigned to either CDL or Purdue
-# xxx add "crossref: true" to make EZID deposit metadata with CrossRef
-
+# NOTE: all new prefixes can be assigned to either CDL or Purdue.
 # To remove a shoulder from the system, login to the EZID UI as "admin",
 # go to the DASHBOARD tab and select the ADMINISTRATION button.  Then
 # go to the Groups line/button, look for the group, then visit any users
@@ -77,7 +74,7 @@
 # NAANs/Prefixes to re-use:
 #    < 86073 >
 # Datacenters to drop:
-#    < >
+#    < CDL.FACEBASE >
 # XXXXXX
 
 # To create a Prefix and data center without on an existing account,
@@ -91,7 +88,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 #
 # STACKTOP
-#    10.25339 10.25340 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -102,16 +99,7 @@
 # !!! NB: set up ark and doi shoulders to get the same mini-shoulder
 #     (eg, x5 and X5)
 
-
 ######## note: generic accounts section delimited with lines like these ########
-# make_ezacct purdue 10.18127 p2 "" p8 < ezaccts/newacct > out
-# make_ezacct purdue 10.18126 p6 "" p7 < ezaccts/newacct > out
-# make_ezacct cdl 10.18125 d2 "" d8 < ezaccts/newacct > out
-# make_ezacct cdl 10.18124 d4 "" d5 < ezaccts/newacct > out
-# make_ezacct cdl 10.18123 d6 "" d7 < ezaccts/newacct > out
-
-# make_ezacct cdl 10.18732 h2 "" - < ezaccts/newacct88 > out
-# make_ezacct cdl 10.18733 c3 "" - < ezaccts/newacct89 > out
 
 # Default shoulder selection: pick one letter and one digit (not 1 or 1).
 # To pick the DOI shoulder digit, start with last prefix digit.
@@ -122,12 +110,6 @@
 # ZZZ AVOID digits 0 and 1 in shoulders!
 
 # A record of recent make_ezacct invocations:
-# make_ezacct -n - - 88435 r5 < ezaccts/newacct > out
-# make_ezacct -n 10.21228 m8 "" w2 < ezaccts/newacct > out
-# make_ezacct -n 10.21229 m9 "" m2 < ezaccts/newacct > out
-# make_ezacct -n 10.21230 f3 "" - < ezaccts/newacct > out
-# make_ezacct -n 10.21231 m3 "" m2 < ezaccts/newacct > out
-# Starting here, added a brief mnemonic tag in front of command
 # ecosis   make_ezacct -n 10.21232 c2 "" d6 < ezaccts/newacct > out
 # neotoma  make_ezacct -n 10.21233 n3 "" n7 < ezaccts/newacct > out
 # icecube  make_ezacct -n 10.21234 b4 "" b8 < ezaccts/newacct > out
@@ -196,6 +178,72 @@
 # pitttycho   make_ezacct -n 10.25337 t7 87269 t9 < ezaccts/newacct > out
 # caltech_arc make_ezacct -n - - 77914 c4 < ezaccts/newacct > out
 #      ***    RECYCLING ark:/77914 (St. Edward's University)
+# atmsips     make_ezacct -n 10.25339 - - -  < ezaccts/newacct > out
+# nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
+# ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
+
+:: ark:/87936/g6
+type: shoulder
+manager: ezid
+#eziduser: doiwustl
+name: WUSTL GIS
+date: 2017.08.24
+minter: https://n2t.net/a/ezid/m/ark/87936/g6
+
+:: ark:/62930/f1
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library Finding Aids
+date: 2017.08.23
+minter: https://n2t.net/a/ezid/m/ark/62930/f1
+
+:: doi:10.18119/N9
+type: shoulder
+manager: ezid
+#eziduser: ucsd_ndex
+name: UCSD NDEx
+date: 2017.08.22
+minter: https://n2t.net/a/ezid/m/ark/c8119/n9
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: ark:/81423/b1
+type: shoulder
+manager: ezid
+#eziduser: tamu_ezid
+name: Texas A&M Univ Batt
+date: 2017.08.08
+minter: https://n2t.net/a/ezid/m/ark/81423/b1
+
+:: doi:10.25340/R4
+type: shoulder
+manager: ezid
+#eziduser: ntu-research-data
+name: NTU Research Data
+date: 2017.08.07
+minter: https://n2t.net/a/ezid/m/ark/d5340/r4
+datacenter: PURDUE.NTU
+prefix_shares_datacenter: true
+
+:: doi:10.25339/
+type: shoulder
+manager: ezid
+#eziduser: uwisc_atmsips
+name: UWisc_SSEC_SIPS
+date: 2017.08.07
+minter:
+datacenter: PURDUE.UWISC
+prefix_shares_datacenter: true
+
+:: doi:10.21974/G7
+type: shoulder
+manager: ezid
+#eziduser: vculibraries
+name: VCU Graduate School ETDs
+date: 2017.08.04
+minter: https://n2t.net/a/ezid/m/ark/d1974/g7
+datacenter: CDL.VCU
 
 :: ark:/77914/c4
 type: shoulder
@@ -720,6 +768,7 @@ name: Nanyang Technological University
 date: 2017.01.12
 minter: https://n2t.net/a/ezid/m/ark/d1979/n9
 datacenter: PURDUE.NTU
+prefix_shares_datacenter: true
 
 :: doi:10.21978/P8
 type: shoulder
@@ -2622,15 +2671,6 @@ manager: ezid
 name: Facebase Consortium
 date: 2015.09.08
 minter: https://n2t.net/a/ezid/m/ark/88119/f7
-
-:: doi:10.18119/F9
-type: shoulder
-manager: ezid
-#eziduser: facebase
-name: Facebase Consortium
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/c8119/f9
-datacenter: CDL.FACEBASE
 
 :: ark:/88118/p7
 type: shoulder
@@ -5708,7 +5748,7 @@ datacenter: PURDUE.UND
 :: ark:/87273/q8
 type: shoulder
 manager: ezid
-#eziduser: doiwustl
+#eziduser: washstate
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/87273/q8
@@ -5716,7 +5756,7 @@ minter: https://n2t.net/a/ezid/m/ark/87273/q8
 :: doi:10.7273/Q9
 type: shoulder
 manager: ezid
-#eziduser: doiwustl
+#eziduser: washstate
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/b7273/q9
@@ -6918,11 +6958,6 @@ name: eScholarship
 type: datacenter
 manager: ezid
 name: Federation of Earth Science Information Partners (ESIP) Commons
-
-:: datacite:CDL.FACEBASE
-type: datacenter
-manager: ezid
-name: Facebase Consortium
 
 :: datacite:CDL.FDSN
 type: datacenter

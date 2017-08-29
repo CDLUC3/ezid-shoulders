@@ -1,16 +1,26 @@
-diff -r d391259291ce naans/master_naans
---- a/naans/master_naans	Wed Aug 02 12:07:05 2017 -0700
-+++ b/naans/master_naans	Fri Aug 04 06:48:05 2017 -0700
-@@ -5304,2 +5304,12 @@
+diff -r 02e44b349d68 naans/master_naans
+--- a/naans/master_naans	Fri Aug 04 06:48:05 2017 -0700
++++ b/naans/master_naans	Tue Aug 29 07:31:27 2017 -0700
+@@ -5314,2 +5314,22 @@
  
 +naa:
-+who:	Musée de l'Armée (=) MDA
-+what:	66008
-+when:	2017.08.04
-+where:	https://basedescollections.musee-armee.fr
++who:	Philadelphia Museum of Art (=) PMA
++what:	53011
++when:	2017.08.08
++where:	http://philamuseum.org
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Ndala, Xavier (In charge of the Online Collections project) ||| xavier.ndala@musee-armee.fr | 
-+!address: 129 rue de Grenelle, 75007 Paris
++!contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org | 
++!address: PO Box 7646, Philadelphia, PA 19101-7646
++
++naa:
++who:	edulib (=) EDULIB
++what:	40015
++when:	2017.08.29
++where:	https://www.edulib.fr
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
++!address: 5 allé de la 2nd DB, 75015 PARIS, FRANCE
 +
  #!naa:

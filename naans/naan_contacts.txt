@@ -597,6 +597,8 @@ contact: Hirtzig, Mathieu (Webmaster) ||| mathieu.hirtzig@fondation-lamap.org |
 contact: Vialle, Romain (Project Manager) ||| romain.vialle@ign.fr | 
 contact: eziduserid pitttycho
 contact: Ndala, Xavier (In charge of the Online Collections project) ||| xavier.ndala@musee-armee.fr | 
+contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org | 
+contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
