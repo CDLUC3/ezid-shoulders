@@ -293,7 +293,7 @@ open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
 print OUT << "EOT";
 
 NEW TRIAL: intended for $email
-CC: ezid\@ucop.edu
+CC: Joan.Starr\@ucop.edu
 
 Hi $firstname,
 

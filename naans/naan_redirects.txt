@@ -349,7 +349,6 @@ RedirectMatch ^/((ark:/77914)|77914/?)(.*)$ http://www.archives.caltech.edu/$2$3
 RedirectMatch ^/((ark:/68060)|68060/?)(.*)$ http://www.andrews.edu/$2$3
 RedirectMatch ^/((ark:/55063)|55063/?)(.*)$ http://mediatheques.grand-dole.fr/$2$3
 RedirectMatch ^/((ark:/87915)|87915/?)(.*)$ www.cns.ucsb.edu/$2$3
-RedirectMatch ^/((ark:/77916)|77916/?)(.*)$ http://www.integrativesystems.org/$2$3
 RedirectMatch ^/((ark:/42067)|42067/?)(.*)$ http://archives.loire-atlantique.fr/$2$3
 RedirectMatch ^/((ark:/29071)|29071/?)(.*)$ http://www.uvt.ro/$2$3
 RedirectMatch ^/((ark:/87917)|87917/?)(.*)$ www.cancer.gov/$2$3
@@ -538,6 +537,7 @@ RedirectMatch ^/((ark:/87269)|87269/?)(.*)$ https://www.tycho.pitt.edu/$2$3
 RedirectMatch ^/((ark:/66008)|66008/?)(.*)$ https://basedescollections.musee-armee.fr/$2$3
 RedirectMatch ^/((ark:/53011)|53011/?)(.*)$ http://philamuseum.org/$2$3
 RedirectMatch ^/((ark:/40015)|40015/?)(.*)$ https://www.edulib.fr/$2$3
+RedirectMatch ^/((ark:/27019)|27019/?)(.*)$ http://educlever.io/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

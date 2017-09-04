@@ -348,7 +348,6 @@
 68060	Andrews University (=) ANDREWSU
 55063	Médiathèques du Grand Dole (=) Media Libraries of Greater Dole (=) MEDIAGD
 87915	Center for Nanotechnology in Society (=) CNS
-77916	International Center for Integrative Systems Inc. (=) ICIS
 42067	Archives de la Loire Atlantique (=) ADLATL
 29071	Universitatea de Vest din Timişoara (=) West University of Timisoara (=) UVTRO
 87917	National Cancer Institute, NIH (=) NCIP
@@ -537,6 +536,7 @@
 66008	Musée de l'Armée (=) MDA
 53011	Philadelphia Museum of Art (=) PMA
 40015	edulib (=) EDULIB
+27019	Educlever (=) ECV
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -1,26 +1,28 @@
-diff -r 02e44b349d68 naans/master_naans
---- a/naans/master_naans	Fri Aug 04 06:48:05 2017 -0700
-+++ b/naans/master_naans	Tue Aug 29 07:31:27 2017 -0700
-@@ -5314,2 +5314,22 @@
+diff -r 72ee9c4b7e74 naans/master_naans
+--- a/naans/master_naans	Tue Aug 29 07:31:27 2017 -0700
++++ b/naans/master_naans	Mon Sep 04 06:44:27 2017 -0700
+@@ -3505,11 +3505,2 @@
+ naa:
+-who:    International Center for Integrative Systems Inc. (=) ICIS
+-what:   77916
+-when:   2015.06.30
+-where:	http://www.integrativesystems.org
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid icis
+-
+-naa:
+ who:	Archives de la Loire Atlantique (=) ADLATL
+@@ -5334,2 +5325,12 @@
  
 +naa:
-+who:	Philadelphia Museum of Art (=) PMA
-+what:	53011
-+when:	2017.08.08
-+where:	http://philamuseum.org
++who:	Educlever (=) ECV
++what:	27019
++when:	2017.09.04
++where:	http://educlever.io
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org | 
-+!address: PO Box 7646, Philadelphia, PA 19101-7646
-+
-+naa:
-+who:	edulib (=) EDULIB
-+what:	40015
-+when:	2017.08.29
-+where:	https://www.edulib.fr
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
-+!address: 5 allé de la 2nd DB, 75015 PARIS, FRANCE
++!contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
++!address: 59 Rue Benoît Malon, 94250 Gentilly, France
 +
  #!naa:

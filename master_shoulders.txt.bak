@@ -182,6 +182,25 @@
 # nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 
+# reserved 2013.02.12 for Social Networks and Archival Context (SNAC)
+#    ("facebook for dead people") Tingle/Pitti/Larson
+:: ark:/99166/w6
+type: shoulder
+manager: ezid
+#eziduser: cdldsc_snac
+name: SNAC
+redirect: 303 http://socialarchive.iath.virginia.edu/ark:$id
+date: 2017.08.29
+minter: https://n2t.net/a/ezid/m/ark/99166/w6
+
+:: ark:/87936/g6
+type: shoulder
+manager: ezid
+#eziduser: doiwustl
+name: WUSTL GIS
+date: 2017.08.24
+minter: https://n2t.net/a/ezid/m/ark/87936/g6
+
 :: ark:/62930/f1
 type: shoulder
 manager: ezid
@@ -5330,16 +5349,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6075/w7
 datacenter: CDL.RCIDC
 prefix_shares_datacenter: true
 
-# reserved for SNAC (facebook for dead people) Tingle/Pitti/Larson
-:: ark:/99166/w6
-type: shoulder
-manager: ezid
-#eziduser: none
-name: Social Networks and Archival Context (SNAC) Project
-redirect: 303 http://socialarchive.iath.virginia.edu/ark:$id
-date: 2013.02.12
-minter: https://n2t.net/a/ezid/m/ark/99166/w6
-
 :: ark:/87293/w3
 type: shoulder
 manager: ezid
@@ -5740,7 +5749,7 @@ datacenter: PURDUE.UND
 :: ark:/87273/q8
 type: shoulder
 manager: ezid
-#eziduser: doiwustl
+#eziduser: washstate
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/87273/q8
@@ -5748,7 +5757,7 @@ minter: https://n2t.net/a/ezid/m/ark/87273/q8
 :: doi:10.7273/Q9
 type: shoulder
 manager: ezid
-#eziduser: doiwustl
+#eziduser: washstate
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/b7273/q9

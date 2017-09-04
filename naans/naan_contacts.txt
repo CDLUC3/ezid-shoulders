@@ -397,7 +397,6 @@ contact: eziduserid caltech_arc
 contact: Koester, Eric ||| koester@andrews.edu | +1 269-471-3638
 contact: Corne, Emilie ||| emilie.corne@grand-dole.fr | +44 3 84 69 03 11
 contact: eziduserid sb-cns
-contact: eziduserid icis
 contact: LETHIEC, Cyrille ||| Cyrille.LETHIEC@loire-atlantique.fr |
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
 contact: Ştefănigă, Sebastian ||| sebastian.stefaniga@e-uvt.ro | +40 0256 592 731
@@ -599,6 +598,7 @@ contact: eziduserid pitttycho
 contact: Ndala, Xavier (In charge of the Online Collections project) ||| xavier.ndala@musee-armee.fr | 
 contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org | 
 contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
+contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
