@@ -1,16 +1,12 @@
-diff -r 8c98ad14feed naans/master_naans
---- a/naans/master_naans	Mon Sep 04 06:44:28 2017 -0700
-+++ b/naans/master_naans	Fri Sep 15 08:50:36 2017 -0700
-@@ -5335,2 +5335,12 @@
- 
-+naa:
-+who:	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
-+what:	14024
-+when:	2017.09.15
-+where:	http://liegemuseum.be
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
-+!address: 136 En Feronstrée, Liège, 4000, Belgium
-+
- #!naa:
+diff -r ace54be1175c naans/master_naans
+--- a/naans/master_naans	Fri Sep 15 08:50:36 2017 -0700
++++ b/naans/master_naans	Fri Sep 15 11:36:31 2017 -0700
+@@ -4383,6 +4383,6 @@
+ naa:
+-who:	Editis Éducation & Référence (=) EDITIS
++who:	Editis Pôle Éducation & Référence (=) EDITISPER
+ what:	21889
+ when:	2016.06.27
+-where:	http://www.editis.fr
++where:	http://www.editis-education.fr
+ how:	FP | (:unkn) unknown | 2016 |

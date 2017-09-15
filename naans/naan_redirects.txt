@@ -443,7 +443,7 @@ RedirectMatch ^/((ark:/47882)|47882/?)(.*)$ http://www.cabri.com/$2$3
 RedirectMatch ^/((ark:/34885)|34885/?)(.*)$ http://ark.universalis-edu.com/$2$3
 RedirectMatch ^/((ark:/81414)|81414/?)(.*)$ http://www.siue.edu/lovejoylibrary/$2$3
 RedirectMatch ^/((ark:/81415)|81415/?)(.*)$ http://talkbank.org/$2$3
-RedirectMatch ^/((ark:/21889)|21889/?)(.*)$ http://www.editis.fr/$2$3
+RedirectMatch ^/((ark:/21889)|21889/?)(.*)$ http://www.editis-education.fr/$2$3
 RedirectMatch ^/((ark:/83108)|83108/?)(.*)$ http://www.tpm-agglo.fr/$2$3
 RedirectMatch ^/((ark:/81416)|81416/?)(.*)$ http://www.washington.edu/uwit/$2$3
 RedirectMatch ^/((ark:/70454)|70454/?)(.*)$ http://www.sesamath.net/$2$3

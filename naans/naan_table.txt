@@ -442,7 +442,7 @@
 34885	Encyclopædia Universalis (=) ENCYCLOU
 81414	Southern Illinois University Edwardsville (=) SIUE
 81415	TalkBank (=) TALKBANK
-21889	Editis Éducation & Référence (=) EDITIS
+21889	Editis Pôle Éducation & Référence (=) EDITISPER
 83108	Toulon Provence Méditerranée (=) TPM
 81416	UW Information Technology Services (=) UWITS
 70454	Association Sésamath (=) SESAMATH
