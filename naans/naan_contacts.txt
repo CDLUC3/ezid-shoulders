@@ -599,6 +599,7 @@ contact: Ndala, Xavier (In charge of the Online Collections project) ||| xavier.
 contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org | 
 contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
 contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
+contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

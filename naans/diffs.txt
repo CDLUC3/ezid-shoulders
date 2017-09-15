@@ -1,28 +1,16 @@
-diff -r 72ee9c4b7e74 naans/master_naans
---- a/naans/master_naans	Tue Aug 29 07:31:27 2017 -0700
-+++ b/naans/master_naans	Mon Sep 04 06:44:27 2017 -0700
-@@ -3505,11 +3505,2 @@
- naa:
--who:    International Center for Integrative Systems Inc. (=) ICIS
--what:   77916
--when:   2015.06.30
--where:	http://www.integrativesystems.org
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid icis
--
--naa:
- who:	Archives de la Loire Atlantique (=) ADLATL
-@@ -5334,2 +5325,12 @@
+diff -r 8c98ad14feed naans/master_naans
+--- a/naans/master_naans	Mon Sep 04 06:44:28 2017 -0700
++++ b/naans/master_naans	Fri Sep 15 08:50:36 2017 -0700
+@@ -5335,2 +5335,12 @@
  
 +naa:
-+who:	Educlever (=) ECV
-+what:	27019
-+when:	2017.09.04
-+where:	http://educlever.io
++who:	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
++what:	14024
++when:	2017.09.15
++where:	http://liegemuseum.be
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
-+!address: 59 Rue Benoît Malon, 94250 Gentilly, France
++!contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
++!address: 136 En Feronstrée, Liège, 4000, Belgium
 +
  #!naa:

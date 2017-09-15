@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.09.04
+when:	2017.09.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4054,6 +4054,13 @@ who:	Educlever (=) ECV
 what:	27019
 when:	2017.09.04
 where:	http://educlever.io
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
+what:	14024
+when:	2017.09.15
+where:	http://liegemuseum.be
 how:	NP | (:unkn) unknown | 2017 |
 
 

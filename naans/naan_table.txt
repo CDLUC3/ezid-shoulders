@@ -537,6 +537,7 @@
 53011	Philadelphia Museum of Art (=) PMA
 40015	edulib (=) EDULIB
 27019	Educlever (=) ECV
+14024	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
