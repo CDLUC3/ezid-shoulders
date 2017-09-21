@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.09.15
+when:	2017.09.21
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -960,13 +960,6 @@ who:	Long-Term Ecological Research Network (=) LTERN
 what:	86073
 when:	2012.03.05
 where:	http://www.lternet.edu
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
-who:	American Astronomical Society (=) AAS
-what:	86074
-when:	2012.03.05
-where:	http://aas.org
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
@@ -4061,6 +4054,13 @@ who:	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=
 what:	14024
 when:	2017.09.15
 where:	http://liegemuseum.be
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
+what:	75584
+when:	2017.09.21
+where:	http://catalogue.bm-lyon.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 

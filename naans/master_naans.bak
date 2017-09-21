@@ -1187,15 +1187,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid lternet (James Brunt)
 
 naa:
-who:	American Astronomical Society (=) AAS
-what:	86074
-when:	2012.03.05
-where:	http://aas.org
-how:	NP | (:unkn) unknown | 2012 |
-!why:   EZID ARK
-!contact: EZID userid aasdata (Chris Biemesderfer)
-
-naa:
 who:	Cornell Institute for Social and Economic Research (=) CISER
 what:	86077
 when:	2012.03.05
@@ -5342,6 +5333,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
 !address: 136 En Feronstrée, Liège, 4000, Belgium
+
+naa:
+who:	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
+what:	75584
+when:	2017.09.21
+where:	http://catalogue.bm-lyon.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
+!address: 30 boulevard Vivier-Merle, 69003 Lyon, FRANCE
 
 #!naa:
 #!who:    Temporary Name: Data Center 5 (=) DATACTR5

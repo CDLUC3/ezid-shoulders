@@ -106,7 +106,6 @@ contact: EZID userid labarchives
 contact: EZID userid ucmlibrary (Emily Linn)
 contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
 contact: EZID userid lternet (James Brunt)
-contact: EZID userid aasdata (Chris Biemesderfer)
 contact: EZID userid ciser
 contact: EZID userid fhcrc
 contact: EZID userid ucla-eeb1
@@ -600,6 +599,7 @@ contact: Huang, Margaret (Digital Archivist) ||| margaret.huang@philamuseum.org 
 contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr | 
 contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
 contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
+contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

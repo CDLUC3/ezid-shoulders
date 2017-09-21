@@ -1,12 +1,28 @@
-diff -r ace54be1175c naans/master_naans
---- a/naans/master_naans	Fri Sep 15 08:50:36 2017 -0700
-+++ b/naans/master_naans	Fri Sep 15 11:36:31 2017 -0700
-@@ -4383,6 +4383,6 @@
+diff -r 462db53ecf00 naans/master_naans
+--- a/naans/master_naans	Fri Sep 15 11:36:31 2017 -0700
++++ b/naans/master_naans	Thu Sep 21 15:43:57 2017 -0700
+@@ -1189,11 +1189,2 @@
  naa:
--who:	Editis Éducation & Référence (=) EDITIS
-+who:	Editis Pôle Éducation & Référence (=) EDITISPER
- what:	21889
- when:	2016.06.27
--where:	http://www.editis.fr
-+where:	http://www.editis-education.fr
- how:	FP | (:unkn) unknown | 2016 |
+-who:	American Astronomical Society (=) AAS
+-what:	86074
+-when:	2012.03.05
+-where:	http://aas.org
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:   EZID ARK
+-!contact: EZID userid aasdata (Chris Biemesderfer)
+-
+-naa:
+ who:	Cornell Institute for Social and Economic Research (=) CISER
+@@ -5345,2 +5336,12 @@
+ 
++naa:
++who:	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
++what:	75584
++when:	2017.09.21
++where:	http://catalogue.bm-lyon.fr
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
++!address: 30 boulevard Vivier-Merle, 69003 Lyon, FRANCE
++
+ #!naa:

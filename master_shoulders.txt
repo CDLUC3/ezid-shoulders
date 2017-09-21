@@ -67,7 +67,7 @@
 # 3. Greg changes "_datacenter" fields of existing DOIs to new datacenter
 # 4. Old datacenters can be deleted or repurposed after move prefixes out
 #
-# xxx four candidate datacenters/prefixes to merge into CDL.UAL:
+# yyy four candidate datacenters/prefixes to merge into CDL.UAL:
 #    UAlberta HSSA Journal (CDL.HSSAJOUR) 9 DOIs prefix 10.18732/H2
 #    UAlberta VAMP Journal (CDL.VAMPJOUR) 6 DOIs prefix 10.18435/B5
 #    UAlberta EBLIP Journal (CDL.EBLIPJOU) 905 DOIs prefix 10.18438/B8
@@ -80,9 +80,9 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 86073 77916 10.17916 >
+#    < 86073 77916 10.21431 10.6074 86074 >
 # Datacenters to drop:
-#    < CDL.FACEBASE CDL.ICIS >
+#    < CDL.FACEBASE CDL.ICIS CDL.UPENNLIB CDL.AAS >
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -188,6 +188,17 @@
 # atmsips     make_ezacct -n 10.25339 - - -  < ezaccts/newacct > out
 # nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
+# ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
+
+:: doi:10.17916/P6
+type: shoulder
+manager: ezid
+#eziduser: ucpress
+name: UC Press
+date: 2017.09.15
+minter: https://n2t.net/a/ezid/m/ark/c7916/p6
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
 
 # reserved 2013.02.12 for Social Networks and Archival Context (SNAC)
 #    ("facebook for dead people") Tingle/Pitti/Larson
@@ -1043,20 +1054,6 @@ manager: ezid
 name: University of Pennsylvania Libraries
 date: 2016.09.15
 minter: https://n2t.net/a/ezid/m/ark/81431/p3
-
-:: datacite:CDL.UPENNLIB
-type: datacenter
-manager: ezid
-name: University of Pennsylvania Libraries
-
-:: doi:10.21431/P4
-type: shoulder
-manager: ezid
-#eziduser: upennlib
-name: University of Pennsylvania Libraries
-date: 2016.09.15
-minter: https://n2t.net/a/ezid/m/ark/d1431/p4
-datacenter: CDL.UPENNLIB
 
 :: ark:/81430/p4
 type: shoulder
@@ -6113,23 +6110,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6075/j0
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
-:: ark:/86074/r3
-type: shoulder
-manager: ezid
-#eziduser: aasdata
-name: American Astronomical Society (AAS)
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/86074/r3
-
-:: doi:10.6074/D8
-type: shoulder
-manager: ezid
-#eziduser: aasdata
-name: American Astronomical Society (AAS)
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/b6074/d8
-datacenter: CDL.AAS
-
 :: ark:/86077/j4
 type: shoulder
 manager: ezid
@@ -6719,11 +6699,6 @@ manager: other
 #eziduser: none
 name: EZID binder ids
 minter:
-
-:: datacite:CDL.AAS
-type: datacenter
-manager: ezid
-name: American Astronomical Society
 
 :: datacite:CDL.AEP
 type: datacenter

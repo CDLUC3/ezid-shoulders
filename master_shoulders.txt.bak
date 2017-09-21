@@ -1,7 +1,15 @@
-# // Procedure
+# // Set up procedure
 #
 # Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
 # follow the instructions.
+#
+# // Tear down procedure
+#
+# See https://confluence.ucop.edu/display/DataCite/Transferring+a+client+from+EZID+to+another+provider
+
+# // Former assignments
+# Former records (removed or overwritten) may sometimes be found in the
+# companion file, former_shoulders.txt.
 
 # Prefixes listed at mds.datacite.org under "CDL" account
 # Prefix brought in from CrossRef 2012.01.02
@@ -72,10 +80,9 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 86073 >
+#    < 86073 77916 >
 # Datacenters to drop:
-#    < CDL.FACEBASE >
-# XXXXXX
+#    < CDL.FACEBASE CDL.ICIS >
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -181,6 +188,17 @@
 # atmsips     make_ezacct -n 10.25339 - - -  < ezaccts/newacct > out
 # nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
+# ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
+
+:: doi:10.17916/P6
+type: shoulder
+manager: ezid
+#eziduser: ucpress
+name: UC Press
+date: 2017.09.15
+minter: https://n2t.net/a/ezid/m/ark/c7916/p6
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
 
 # reserved 2013.02.12 for Social Networks and Archival Context (SNAC)
 #    ("facebook for dead people") Tingle/Pitti/Larson
@@ -2838,23 +2856,6 @@ name: National Cancer Informatics Program Hub, NIH
 date: 2015.07.09
 minter: https://n2t.net/a/ezid/m/ark/c7917/c7
 datacenter: PURDUE.NCIPH
-
-:: ark:/77916/c7
-type: shoulder
-manager: ezid
-#eziduser: icis
-name: International Center for Integrative Systems Inc.
-date: 2015.06.30
-minter: https://n2t.net/a/ezid/m/ark/77916/c7
-
-:: doi:10.17916/C6
-type: shoulder
-manager: ezid
-#eziduser: icis
-name: International Center for Integrative Systems Inc.
-date: 2015.06.30
-minter: https://n2t.net/a/ezid/m/ark/c7916/c6
-datacenter: CDL.ICIS
 
 :: ark:/87915/n7
 type: shoulder
@@ -7012,11 +7013,6 @@ name: UAlberta HSSA Journal
 type: datacenter
 manager: ezid
 name: UTA Institute of Classical Archaeology
-
-:: datacite:CDL.ICIS
-type: datacenter
-manager: ezid
-name: International Center for Integrative Systems Inc.
 
 :: datacite:CDL.IDASHREP
 type: datacenter

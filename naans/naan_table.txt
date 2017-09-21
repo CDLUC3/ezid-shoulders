@@ -95,7 +95,6 @@
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
 86073	Long-Term Ecological Research Network (=) LTERN
-86074	American Astronomical Society (=) AAS
 86077	Cornell Institute for Social and Economic Research (=) CISER
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
 86079	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
@@ -538,6 +537,7 @@
 40015	edulib (=) EDULIB
 27019	Educlever (=) ECV
 14024	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
+75584	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
