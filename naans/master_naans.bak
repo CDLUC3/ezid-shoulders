@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.09.15
+when:	2017.09.21
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -538,7 +538,7 @@ how:	NP | (:unkn) unknown | 2007 |
 !contact: Blair, Charles | University of Chicago Library || chas@uchicago.edu | +1 773-702-8459,
 
 naa:
-who:	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
+who:	Bibliothèque et Archives Nationales du Québec (=) National Library and Archives of Quebec (=) BANQ
 what:	52327
 when:	2007.10.18
 where:	http://www.banq.qc.ca
@@ -1178,15 +1178,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
 
 naa:
-who:	Long-Term Ecological Research Network (=) LTERN
-what:	86073
-when:	2012.03.05
-where:	http://www.lternet.edu
-how:	NP | (:unkn) unknown | 2012 |
-!why:   EZID ARK
-!contact: EZID userid lternet (James Brunt)
-
-naa:
 who:	Cornell Institute for Social and Economic Research (=) CISER
 what:	86077
 when:	2012.03.05
@@ -1578,6 +1569,15 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
 !contact: EZID userid peerj
+
+naa:
+who:	Biocode Commons UC Berkeley (=) BIOCODEUCB
+what:	87286
+when:	2012.12.06
+where:	http://www.biocodecommons.org
+how:	NP | (:unkn) unknown | 2012 |
+!why:	ARK
+!contact: eziduserid ucb-bcid
 
 naa:
 who:	Archives départementales de la Vienne (=) ADV
@@ -2703,7 +2703,7 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid acsess
 
 naa:
-who:	College of American Pathologists (=) CAP
+who:	College of American Pathologists (=) CAPATH
 what:	78661
 when:	2014.08.08
 where:	http://www.cap.org
@@ -3348,7 +3348,7 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid re3data
 
 naa:
-who:	IEEE Publishing Technology (=) IEEE
+who:	IEEE Publishing Technology (=) IEEEPUB
 what:	35911
 when:	2015.04.24
 where:	http://ieee.org
@@ -3513,10 +3513,10 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Ştefănigă, Sebastian ||| sebastian.stefaniga@e-uvt.ro | +40 0256 592 731
 
 naa:
-who:    National Cancer Institute, NIH (=) NCIP
+who:    National Cancer Informatics Program Hub (=) NCIPHUB
 what:   87917
 when:   2015.07.09
-where:	www.cancer.gov
+where:	nciphub.org
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid nci
@@ -3959,7 +3959,7 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 
 naa:
-who:    Emory University (=) EMU
+who:    Emory University Library (=) EMORYLIB
 what:   88737
 when:   2016.02.17
 where:	web.library.emory.edu
@@ -5155,6 +5155,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: @BlavatnikArchiv  1633 Broadway, 4th Floor  New York, NY 10019
 
 naa:
+who:	Membership and Research Division, OCLC, Inc. (=) OCLCMRD
+what:	83018
+when:	2017.05.25
+where:	http://www.oclc.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid oclcmrd
+!address: 6565 Kilgour Pl.  Dublin, OH 43017
+
+naa:
 who:    Musée de Bretagne (=) MB
 what:   83011
 when:   2017.06.06
@@ -5285,7 +5295,7 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: A740 Crabtree Hall  130 DeSoto Street  Pittsburgh, PA 15261
 
 naa:
-who:	Musée de l'Armée (=) MDA
+who:	Musée de l'Armée (=) MDARMEE
 what:	66008
 when:	2017.08.04
 where:	https://basedescollections.musee-armee.fr
@@ -5344,14 +5354,24 @@ how:	NP | (:unkn) unknown | 2017 |
 !contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
 !address: 30 boulevard Vivier-Merle, 69003 Lyon, FRANCE
 
-#!naa:
-#!who:    Temporary Name: Data Center 5 (=) DATACTR5
-#!what:   88127  XXX check if still unassigned on registration
-#!when:   2015.09.10
-#!where:	http://datactr5.example.org
-#!how:	NP | (:unkn) unknown | 2015 |
-#!!why:   EZID ARK
-#!!contact: eziduserid datactr5
+naa:
+who:	Médiathèques d'Orléans (=) BMORLEANS
+what:	77916
+when:	2017.09.27
+where:	https://mediatheques.orleans.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
+
+naa:
+who:	The Kyoto University Museum (=) KYOTOUM
+what:	62587
+when:	2017.10.04
+where:	http://www.rra.museum.kyoto-u.ac.jp
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
+!address: Yoshida-Honmachi, Sakyo-ku, Kyoto, 606-8501, Japan
 
 naa:
 who:	Metadata Terms (=) TERMS

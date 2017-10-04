@@ -105,7 +105,6 @@ contact: EZID userid data-planet
 contact: EZID userid labarchives
 contact: EZID userid ucmlibrary (Emily Linn)
 contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
-contact: EZID userid lternet (James Brunt)
 contact: EZID userid ciser
 contact: EZID userid fhcrc
 contact: EZID userid ucla-eeb1
@@ -154,6 +153,7 @@ contact: EZID userid ucsd_cmmap
 contact: Binkley, Peter | Information Technology Services || peter.binkley@ualberta.ca | 780-492-3743
 contact: Laurent, Xavier ||| xavier.laurent@cg18.fr | +33 (0)2 48 55 82 60
 contact: EZID userid peerj
+contact: eziduserid ucb-bcid
 contact: Brémond, Pierre ||| PBremond@cg86.fr |
 contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
 contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
@@ -581,6 +581,7 @@ contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl
 contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
 contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
 contact: eziduserid blavatnik
+contact: eziduserid oclcmrd
 contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
 contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
 contact: eziduserid msulib
@@ -600,6 +601,8 @@ contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr |
 contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
 contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
 contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
+contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
+contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

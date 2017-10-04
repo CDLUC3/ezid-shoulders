@@ -1,28 +1,103 @@
-diff -r 462db53ecf00 naans/master_naans
---- a/naans/master_naans	Fri Sep 15 11:36:31 2017 -0700
-+++ b/naans/master_naans	Thu Sep 21 15:43:57 2017 -0700
-@@ -1189,11 +1189,2 @@
+diff -r 037780683bd2 naans/master_naans
+--- a/naans/master_naans	Thu Sep 21 15:43:57 2017 -0700
++++ b/naans/master_naans	Wed Oct 04 06:46:48 2017 -0700
+@@ -540,3 +540,3 @@
  naa:
--who:	American Astronomical Society (=) AAS
--what:	86074
+-who:	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
++who:	Bibliothèque et Archives Nationales du Québec (=) National Library and Archives of Quebec (=) BANQ
+ what:	52327
+@@ -1180,11 +1180,2 @@
+ naa:
+-who:	Long-Term Ecological Research Network (=) LTERN
+-what:	86073
 -when:	2012.03.05
--where:	http://aas.org
+-where:	http://www.lternet.edu
 -how:	NP | (:unkn) unknown | 2012 |
 -!why:   EZID ARK
--!contact: EZID userid aasdata (Chris Biemesderfer)
+-!contact: EZID userid lternet (James Brunt)
 -
 -naa:
  who:	Cornell Institute for Social and Economic Research (=) CISER
-@@ -5345,2 +5336,12 @@
- 
+@@ -1582,2 +1573,11 @@
+ naa:
++who:	Biocode Commons UC Berkeley (=) BIOCODEUCB
++what:	87286
++when:	2012.12.06
++where:	http://www.biocodecommons.org
++how:	NP | (:unkn) unknown | 2012 |
++!why:	ARK
++!contact: eziduserid ucb-bcid
++
 +naa:
-+who:	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
-+what:	75584
-+when:	2017.09.21
-+where:	http://catalogue.bm-lyon.fr
+ who:	Archives départementales de la Vienne (=) ADV
+@@ -2705,3 +2705,3 @@
+ naa:
+-who:	College of American Pathologists (=) CAP
++who:	College of American Pathologists (=) CAPATH
+ what:	78661
+@@ -3350,3 +3350,3 @@
+ naa:
+-who:	IEEE Publishing Technology (=) IEEE
++who:	IEEE Publishing Technology (=) IEEEPUB
+ what:	35911
+@@ -3515,6 +3515,6 @@
+ naa:
+-who:    National Cancer Institute, NIH (=) NCIP
++who:    National Cancer Informatics Program Hub (=) NCIPHUB
+ what:   87917
+ when:   2015.07.09
+-where:	www.cancer.gov
++where:	nciphub.org
+ how:	NP | (:unkn) unknown | 2015 |
+@@ -3961,3 +3961,3 @@
+ naa:
+-who:    Emory University (=) EMU
++who:    Emory University Library (=) EMORYLIB
+ what:   88737
+@@ -5157,2 +5157,12 @@
+ naa:
++who:	Membership and Research Division, OCLC, Inc. (=) OCLCMRD
++what:	83018
++when:	2017.05.25
++where:	http://www.oclc.org
++how:	NP | (:unkn) unknown | 2017 |
++!why:	EZID ARK
++!contact: eziduserid oclcmrd
++!address: 6565 Kilgour Pl.  Dublin, OH 43017
++
++naa:
+ who:    Musée de Bretagne (=) MB
+@@ -5287,3 +5297,3 @@
+ naa:
+-who:	Musée de l'Armée (=) MDA
++who:	Musée de l'Armée (=) MDARMEE
+ what:	66008
+@@ -5346,10 +5356,20 @@
+ 
+-#!naa:
+-#!who:    Temporary Name: Data Center 5 (=) DATACTR5
+-#!what:   88127  XXX check if still unassigned on registration
+-#!when:   2015.09.10
+-#!where:	http://datactr5.example.org
+-#!how:	NP | (:unkn) unknown | 2015 |
+-#!!why:   EZID ARK
+-#!!contact: eziduserid datactr5
++naa:
++who:	Médiathèques d'Orléans (=) BMORLEANS
++what:	77916
++when:	2017.09.27
++where:	https://mediatheques.orleans.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
-+!address: 30 boulevard Vivier-Merle, 69003 Lyon, FRANCE
++!contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
 +
- #!naa:
++naa:
++who:	The Kyoto University Museum (=) KYOTOUM
++what:	62587
++when:	2017.10.04
++where:	http://www.rra.museum.kyoto-u.ac.jp
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
++!address: Yoshida-Honmachi, Sakyo-ku, Kyoto, 606-8501, Japan
+ 

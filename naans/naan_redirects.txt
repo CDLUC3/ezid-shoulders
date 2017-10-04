@@ -95,7 +95,6 @@ RedirectMatch ^/((ark:/86068)|86068/?)(.*)$ http://www.conquestsystems.com/$2$3
 RedirectMatch ^/((ark:/86070)|86070/?)(.*)$ http://www.labarchives.com/$2$3
 RedirectMatch ^/((ark:/86071)|86071/?)(.*)$ http://ucmercedlibrary.info/$2$3
 RedirectMatch ^/((ark:/86072)|86072/?)(.*)$ http://www.signaling-gateway.org/$2$3
-RedirectMatch ^/((ark:/86073)|86073/?)(.*)$ http://www.lternet.edu/$2$3
 RedirectMatch ^/((ark:/86077)|86077/?)(.*)$ http://ciser.cornell.edu/$2$3
 RedirectMatch ^/((ark:/86076)|86076/?)(.*)$ http://www.fhcrc.org/$2$3
 RedirectMatch ^/((ark:/86079)|86079/?)(.*)$ http://www.eeb.ucla.edu/$2$3
@@ -139,6 +138,7 @@ RedirectMatch ^/((ark:/87285)|87285/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/54379)|54379/?)(.*)$ http://www.ualberta.ca/$2$3
 RedirectMatch ^/((ark:/41383)|41383/?)(.*)$ http://www.archives18.fr/$2$3
 RedirectMatch ^/((ark:/87287)|87287/?)(.*)$ http://n2t.net/$2$3
+RedirectMatch ^/((ark:/87286)|87286/?)(.*)$ http://www.biocodecommons.org/$2$3
 RedirectMatch ^/((ark:/28387)|28387/?)(.*)$ http://www.archives-vienne.cg86.fr/$2$3
 RedirectMatch ^/((ark:/15391)|15391/?)(.*)$ http://archives.ville-saint-denis.fr/$2$3
 RedirectMatch ^/((ark:/76609)|76609/?)(.*)$ http://www.mom.fr/$2$3
@@ -350,7 +350,7 @@ RedirectMatch ^/((ark:/55063)|55063/?)(.*)$ http://mediatheques.grand-dole.fr/$2
 RedirectMatch ^/((ark:/87915)|87915/?)(.*)$ www.cns.ucsb.edu/$2$3
 RedirectMatch ^/((ark:/42067)|42067/?)(.*)$ http://archives.loire-atlantique.fr/$2$3
 RedirectMatch ^/((ark:/29071)|29071/?)(.*)$ http://www.uvt.ro/$2$3
-RedirectMatch ^/((ark:/87917)|87917/?)(.*)$ www.cancer.gov/$2$3
+RedirectMatch ^/((ark:/87917)|87917/?)(.*)$ nciphub.org/$2$3
 RedirectMatch ^/((ark:/87918)|87918/?)(.*)$ www.library.drexel.data/$2$3
 RedirectMatch ^/((ark:/77919)|77919/?)(.*)$ https://eiexchange.com/$2$3
 RedirectMatch ^/((ark:/77920)|77920/?)(.*)$ https://pubref.org/v1/home/$2$3
@@ -520,6 +520,7 @@ RedirectMatch ^/((ark:/24283)|24283/?)(.*)$ http://biotech.ufl.edu/$2$3
 RedirectMatch ^/((ark:/11287)|11287/?)(.*)$ https://bibnum.obspm.fr/$2$3
 RedirectMatch ^/((ark:/72506)|72506/?)(.*)$ http://www.archives-finistere.fr/$2$3
 RedirectMatch ^/((ark:/86084)|86084/?)(.*)$ http://www.blavatnikarchive.org/$2$3
+RedirectMatch ^/((ark:/83018)|83018/?)(.*)$ http://www.oclc.org/$2$3
 RedirectMatch ^/((ark:/83011)|83011/?)(.*)$ http://www.musee-bretagne.fr/$2$3
 RedirectMatch ^/((ark:/59852)|59852/?)(.*)$ http://entrepotsillonlorrain.fr/$2$3
 RedirectMatch ^/((ark:/85335)|85335/?)(.*)$ http://www.lib.msu.edu/$2$3
@@ -539,6 +540,8 @@ RedirectMatch ^/((ark:/40015)|40015/?)(.*)$ https://www.edulib.fr/$2$3
 RedirectMatch ^/((ark:/27019)|27019/?)(.*)$ http://educlever.io/$2$3
 RedirectMatch ^/((ark:/14024)|14024/?)(.*)$ http://liegemuseum.be/$2$3
 RedirectMatch ^/((ark:/75584)|75584/?)(.*)$ http://catalogue.bm-lyon.fr/$2$3
+RedirectMatch ^/((ark:/77916)|77916/?)(.*)$ https://mediatheques.orleans.fr/$2$3
+RedirectMatch ^/((ark:/62587)|62587/?)(.*)$ http://www.rra.museum.kyoto-u.ac.jp/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

@@ -24,7 +24,7 @@
 17101	Centre for Ecology & Hydrology, UK (=) CEH
 65323	University of Calgary (=) UCALGARY
 61001	University of Chicago (=) UCHICAGO
-52327	Bibliothèque et Archives Nationales du Québec (=) National Libary and Archives of Quebec (=) BANQ
+52327	Bibliothèque et Archives Nationales du Québec (=) National Library and Archives of Quebec (=) BANQ
 39331	National Széchényi Library (=) National Library of Hungary (=) OSZK
 26677	Library and Archives Canada (=) Bibliothèque et Archives Canada (=) LAC
 13681	Centre de Musique Baroque de Versailles (=) CMBV
@@ -94,7 +94,6 @@
 86070	LabArchives (=) LABARCH
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
-86073	Long-Term Ecological Research Network (=) LTERN
 86077	Cornell Institute for Social and Economic Research (=) CISER
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
 86079	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
@@ -138,6 +137,7 @@
 54379	University of Alberta (=) UALBERTA
 41383	Archives départementales du Cher (=) ADCHER
 87287	Peerj (=) PEERJ
+87286	Biocode Commons UC Berkeley (=) BIOCODEUCB
 28387	Archives départementales de la Vienne (=) ADV
 15391	Archives municipales de Saint-Denis (=) AMSTDENIS
 76609	Maison de l'Orient et la Méditerranée (=) MOM
@@ -261,7 +261,7 @@
 30097	Archives municipales d'Armentières (=) AMARMENT
 17102	Canadian Writing Research Collaboratory (=) CWRC
 85143	Alliance for Crops, Soils, and Environmental Science Societies (=) ACSESS
-78661	College of American Pathologists (=) CAP
+78661	College of American Pathologists (=) CAPATH
 85144	Center for Research in Computational Linguistics (=) CRCL
 65665	National Museum of Natural History, Smithsonian Institution (=) USNMNH
 52669	Archives départementales de la Meuse (=) ADMEUSE
@@ -331,7 +331,7 @@
 87614	Pitt Quantum Repository (=) PQR
 87615	UNC Library - Resource Description and Management (=) LIBUNC
 87616	Registry of Research Repositories (=) RE3DATA
-35911	IEEE Publishing Technology (=) IEEE
+35911	IEEE Publishing Technology (=) IEEEPUB
 22915	The Silent Film Sound & Music Archive (=) SFSMA
 71480	Espace Mendès France (=) EMF
 87908	UC San Diego Department of Biomedical Informatics (=) DBMICLD
@@ -349,7 +349,7 @@
 87915	Center for Nanotechnology in Society (=) CNS
 42067	Archives de la Loire Atlantique (=) ADLATL
 29071	Universitatea de Vest din Timişoara (=) West University of Timisoara (=) UVTRO
-87917	National Cancer Institute, NIH (=) NCIP
+87917	National Cancer Informatics Program Hub (=) NCIPHUB
 87918	Drexel University Libraries (=) DRXLDATA
 77919	Entrepreneur & Innovation Exchange (=) EIX
 77920	PubRef.org (=) PUBREF
@@ -398,7 +398,7 @@
 32150	Durham University Library (=) DURUL
 19154	Durham Cathedral Library (=) DURCL
 80371	Ushaw College Library (=) USHAWCL
-88737	Emory University (=) EMU
+88737	Emory University Library (=) EMORYLIB
 88738	Texas Digital Library (=) TDL
 80352	UCLA Civil and Environmental Engineering (=) UCLACEE
 80353	UC Observatories (=) UCOLICK
@@ -519,6 +519,7 @@
 11287	Bibliothèque de l'observatoire de Paris (=) OBSPM
 72506	Archives départementales du Finistère (=) AD29
 86084	Blavatnik Archive Foundation (=) BAF
+83018	Membership and Research Division, OCLC, Inc. (=) OCLCMRD
 83011	Musée de Bretagne (=) MB
 59852	Médiathèque Puzzle (=) PZZL
 85335	Michigan State University Libraries (=) MSUL
@@ -532,12 +533,14 @@
 17443	Fondation La main à la pâte (=) LAMAP
 79004	Institut National de l'Information Géographique et Forestière (=) The National Institute of Geographic and Forest Information (=) IGN
 87269	Project Tycho (=) PROJTYCHO
-66008	Musée de l'Armée (=) MDA
+66008	Musée de l'Armée (=) MDARMEE
 53011	Philadelphia Museum of Art (=) PMA
 40015	edulib (=) EDULIB
 27019	Educlever (=) ECV
 14024	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
 75584	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
+77916	Médiathèques d'Orléans (=) BMORLEANS
+62587	The Kyoto University Museum (=) KYOTOUM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

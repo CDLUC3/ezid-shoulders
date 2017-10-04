@@ -80,9 +80,11 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 86073 77916 10.21431 10.6074 86074 >
+#    < 86073 10.21431 10.6074 86074 87292 >
+#  * after moving current NAAN entry to former_naans (delay move to when
+#    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
-#    < CDL.FACEBASE CDL.ICIS CDL.UPENNLIB CDL.AAS >
+#    <  >
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -189,6 +191,23 @@
 # nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 # ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
+
+:: ark:/81973/s3
+type: shoulder
+manager: ezid
+#eziduser: scirweb
+name: UC NRS Santa Cruz Island Reserve
+date: 2017.09.26
+minter: https://n2t.net/a/ezid/m/ark/81973/s3
+
+:: doi:10.21973/S3
+type: shoulder
+manager: ezid
+#eziduser: scirweb
+name: UC NRS Santa Cruz Island Reserve
+date: 2017.09.26
+minter: https://n2t.net/a/ezid/m/ark/d1973/s3
+datacenter: CDL.UCNRS
 
 :: doi:10.17916/P6
 type: shoulder
@@ -892,7 +911,7 @@ datacenter: CDL.VCU
 type: shoulder
 manager: ezid
 #eziduser: nrsinfomgr
-name: UC Natural Resource System
+name: UC Natural Reserve System
 date: 2016.11.15
 minter: https://n2t.net/a/ezid/m/ark/81973/r7
 
@@ -905,7 +924,7 @@ name: University of California Natural Reserve System
 type: shoulder
 manager: ezid
 #eziduser: nrsinfomgr
-name: UC Natural Resource System
+name: UC Natural Reserve System
 date: 2016.11.15
 minter: https://n2t.net/a/ezid/m/ark/d1973/n3
 datacenter: CDL.UCNRS
@@ -2572,27 +2591,6 @@ name: IPUMS
 date: 2015.09.29
 minter: 
 datacenter: PURDUE.IPUMS
-
-######## start of generic accounts section ########
-
-:: ark:/88127/p8
-type: shoulder
-manager: ezid
-#eziduser: datactr5
-name: Temporary Name: PURDUE Data Center 5
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/88127/p8
-
-:: doi:10.18127/P2
-type: shoulder
-manager: ezid
-#eziduser: datactr5
-name: Temporary Name: PURDUE Data Center 5
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/c8127/p2
-datacenter: PURDUE.DATACTR5
-
-######## end of generic accounts section ########
 
 :: ark:/88124/d5
 type: shoulder
@@ -5370,23 +5368,6 @@ date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/b7294/w4
 datacenter: CDL.VTLIB
 
-:: ark:/87292/w1
-type: shoulder
-manager: ezid
-#eziduser: ezbaeri11
-name: Bay Area Environmental Research (BAER) Institute
-date: 2013.01.28
-minter: https://n2t.net/a/ezid/m/ark/87292/w1
-
-:: doi:10.7292/W0
-type: shoulder
-manager: ezid
-#eziduser: ezbaeri11
-name: Bay Area Environmental Research (BAER) Institute
-date: 2013.01.28
-minter: https://n2t.net/a/ezid/m/ark/b7292/w0
-datacenter: CDL.BAER
-
 :: doi:10.7291/V9
 type: shoulder
 manager: ezid
@@ -6710,11 +6691,6 @@ type: datacenter
 manager: ezid
 name: American University Library
 
-:: datacite:CDL.BAER
-type: datacenter
-manager: ezid
-name: Bay Area Environmental Research (BAER) Institute
-
 :: datacite:CDL.BENCHFLY
 type: datacenter
 manager: ezid
@@ -7627,11 +7603,6 @@ name: ARTLAS/Purdue University
 type: datacenter
 manager: ezid
 name: Chicago Collections Consortium
-
-:: datacite:PURDUE.DATACTR5
-type: datacenter
-manager: ezid
-name: Temporary Name: Data Center 5
 
 :: datacite:PURDUE.DRUM
 type: datacenter
