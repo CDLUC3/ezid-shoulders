@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.09.21
+when:	2017.10.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5372,6 +5372,26 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
 !address: Yoshida-Honmachi, Sakyo-ku, Kyoto, 606-8501, Japan
+
+naa:
+who:	Effios (=) EFFIOS
+what:	49591
+when:	2017.10.05
+where:	http://frvirtuel.effios.fr
+how:	FP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Puimatto, Gérard (Associate) ||| gpuimatto@effios.fr | 
+!address: 76 avenue de Passy, 75016, Paris, FRANCE
+
+naa:
+who:	Archives Départementales du Jura (=) AD39
+what:	36595
+when:	2017.10.05
+where:	http://www.archives39.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: GIROD, Séverine (Patricia GUYARD) ||| sgirod@jura.fr | 
+!address: Impasse des Archives, 39570, Montmorot, FRANCE
 
 naa:
 who:	Metadata Terms (=) TERMS

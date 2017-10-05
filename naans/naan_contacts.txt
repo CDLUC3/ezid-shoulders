@@ -603,6 +603,8 @@ contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be
 contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
 contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
 contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
+contact: Puimatto, Gérard (Associate) ||| gpuimatto@effios.fr | 
+contact: GIROD, Séverine (Patricia GUYARD) ||| sgirod@jura.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

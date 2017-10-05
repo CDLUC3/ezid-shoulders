@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.04
+when:	2017.10.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4082,6 +4082,20 @@ who:	The Kyoto University Museum (=) KYOTOUM
 what:	62587
 when:	2017.10.04
 where:	http://www.rra.museum.kyoto-u.ac.jp
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Effios (=) EFFIOS
+what:	49591
+when:	2017.10.05
+where:	http://frvirtuel.effios.fr
+how:	FP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Archives Départementales du Jura (=) AD39
+what:	36595
+when:	2017.10.05
+where:	http://www.archives39.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:

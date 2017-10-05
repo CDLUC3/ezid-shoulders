@@ -541,6 +541,8 @@
 75584	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
 77916	Médiathèques d'Orléans (=) BMORLEANS
 62587	The Kyoto University Museum (=) KYOTOUM
+49591	Effios (=) EFFIOS
+36595	Archives Départementales du Jura (=) AD39
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
