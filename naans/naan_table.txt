@@ -543,6 +543,7 @@
 62587	The Kyoto University Museum (=) KYOTOUM
 49591	Effios (=) EFFIOS
 36595	Archives Départementales du Jura (=) AD39
+23600	Office français de protection des réfugiés et apatrides (=) OFPRA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

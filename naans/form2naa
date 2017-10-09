@@ -301,7 +301,7 @@ Thanks for your request. The NAAN,
 
 	$naan
 
-has been registered for the $institution and you may begin using it immediately.
+has been registered for "$institution" and you may begin using it immediately.
 
 Please note that $naan is intended for assigning ARKs to content that your institution directly curates or creates. In case you work with other institutions that use your tools and services for content that they curate or create, those institutions should obtain their own NAANs.
 

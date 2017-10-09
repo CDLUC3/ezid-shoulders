@@ -605,6 +605,7 @@ contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||
 contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
 contact: Puimatto, Gérard (Associate) ||| gpuimatto@effios.fr | 
 contact: GIROD, Séverine (Patricia GUYARD) ||| sgirod@jura.fr | 
+contact: Angoustures, Aline (Responsable de la Mission histoire et archives) ||| mission-histoire@ofpra.gouv.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

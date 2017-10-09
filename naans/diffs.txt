@@ -1,26 +1,16 @@
-diff -r 117e4b1e1525 naans/master_naans
---- a/naans/master_naans	Wed Oct 04 06:46:49 2017 -0700
-+++ b/naans/master_naans	Thu Oct 05 10:29:55 2017 -0700
-@@ -5376,2 +5376,22 @@
+diff -r 596936900835 naans/master_naans
+--- a/naans/master_naans	Thu Oct 05 10:29:56 2017 -0700
++++ b/naans/master_naans	Mon Oct 09 11:22:59 2017 -0700
+@@ -5396,2 +5396,12 @@
  naa:
-+who:	Effios (=) EFFIOS
-+what:	49591
-+when:	2017.10.05
-+where:	http://frvirtuel.effios.fr
-+how:	FP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Puimatto, Gérard (Associate) ||| gpuimatto@effios.fr | 
-+!address: 76 avenue de Passy, 75016, Paris, FRANCE
-+
-+naa:
-+who:	Archives Départementales du Jura (=) AD39
-+what:	36595
-+when:	2017.10.05
-+where:	http://www.archives39.fr
++who:	Office français de protection des réfugiés et apatrides (=) OFPRA
++what:	23600
++when:	2017.10.09
++where:	https://www.ofpra.gouv.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: GIROD, Séverine (Patricia GUYARD) ||| sgirod@jura.fr | 
-+!address: Impasse des Archives, 39570, Montmorot, FRANCE
++!contact: Angoustures, Aline (Responsable de la Mission histoire et archives) ||| mission-histoire@ofpra.gouv.fr | 
++!address: 201 rue Carnot, 94136 Fontenay-sous-bois cedex, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS
