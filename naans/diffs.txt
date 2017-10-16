@@ -1,16 +1,26 @@
-diff -r 596936900835 naans/master_naans
---- a/naans/master_naans	Thu Oct 05 10:29:56 2017 -0700
-+++ b/naans/master_naans	Mon Oct 09 11:22:59 2017 -0700
-@@ -5396,2 +5396,12 @@
+diff -r 272fa200054b naans/master_naans
+--- a/naans/master_naans	Mon Oct 09 11:22:59 2017 -0700
++++ b/naans/master_naans	Mon Oct 16 14:02:26 2017 -0700
+@@ -5406,2 +5406,22 @@
  naa:
-+who:	Office français de protection des réfugiés et apatrides (=) OFPRA
-+what:	23600
-+when:	2017.10.09
-+where:	https://www.ofpra.gouv.fr
++who:	Musée des Beaux-Arts de Rennes (=) MBAR
++what:	10946
++when:	2017.10.16
++where:	https://mba.rennes.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Angoustures, Aline (Responsable de la Mission histoire et archives) ||| mission-histoire@ofpra.gouv.fr | 
-+!address: 201 rue Carnot, 94136 Fontenay-sous-bois cedex, France
++!contact: Imbernon, Laurence (Curator) ||| l.imbernon@ville-rennes.fr | 
++!address: 20 Quai Émile Zola, 35000, Rennes, France
++
++naa:
++who:	Data and Service Center for the Humanities (=) DASCH
++what:	72163
++when:	2017.10.16
++where:	http://dasch.swiss
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
++!address: c/o Digital Humanities Lab, University of Basel, Bernoullistrasse 32, CH-4056 Basel, Switzerland
 +
 +naa:
  who:	Metadata Terms (=) TERMS

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.09
+when:	2017.10.16
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5402,6 +5402,26 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Angoustures, Aline (Responsable de la Mission histoire et archives) ||| mission-histoire@ofpra.gouv.fr | 
 !address: 201 rue Carnot, 94136 Fontenay-sous-bois cedex, France
+
+naa:
+who:	Musée des Beaux-Arts de Rennes (=) MBAR
+what:	10946
+when:	2017.10.16
+where:	https://mba.rennes.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Imbernon, Laurence (Curator) ||| l.imbernon@ville-rennes.fr | 
+!address: 20 Quai Émile Zola, 35000, Rennes, France
+
+naa:
+who:	Data and Service Center for the Humanities (=) DASCH
+what:	72163
+when:	2017.10.16
+where:	http://dasch.swiss
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
+!address: c/o Digital Humanities Lab, University of Basel, Bernoullistrasse 32, CH-4056 Basel, Switzerland
 
 naa:
 who:	Metadata Terms (=) TERMS

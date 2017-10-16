@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.09
+when:	2017.10.16
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4103,6 +4103,20 @@ who:	Office français de protection des réfugiés et apatrides (=) OFPRA
 what:	23600
 when:	2017.10.09
 where:	https://www.ofpra.gouv.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Musée des Beaux-Arts de Rennes (=) MBAR
+what:	10946
+when:	2017.10.16
+where:	https://mba.rennes.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Data and Service Center for the Humanities (=) DASCH
+what:	72163
+when:	2017.10.16
+where:	http://dasch.swiss
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
