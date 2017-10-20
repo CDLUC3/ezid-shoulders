@@ -1,26 +1,30 @@
-diff -r 272fa200054b naans/master_naans
---- a/naans/master_naans	Mon Oct 09 11:22:59 2017 -0700
-+++ b/naans/master_naans	Mon Oct 16 14:02:26 2017 -0700
-@@ -5406,2 +5406,22 @@
+diff -r c6fd5039c4cf naans/master_naans
+--- a/naans/master_naans	Mon Oct 16 14:02:26 2017 -0700
++++ b/naans/master_naans	Fri Oct 20 02:52:54 2017 -0700
+@@ -5357,9 +5357,10 @@
  naa:
-+who:	Musée des Beaux-Arts de Rennes (=) MBAR
-+what:	10946
-+when:	2017.10.16
-+where:	https://mba.rennes.fr
+-who:	Médiathèques d'Orléans (=) BMORLEANS
++who:	Médiathèques d'Orléans (=) MORLEANS
+ what:	77916
+ when:	2017.09.27
+-where:	https://mediatheques.orleans.fr
++where:	https://orleansmediatheques.fr
+ how:	NP | (:unkn) unknown | 2017 |
+ !why:	ARK
+-!contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
++!contact: AUZANNEAU, Jean-Michel (Directeur adjoint) ||| jean-michel.auzanneau@orleans-metropole.fr | +33 2-38-68-45-92
++!address: 1, place Gambetta, CS 74311 / 45043 Orléans, cedex 1, France
+ 
+@@ -5426,2 +5427,12 @@
+ naa:
++who:	American University of Beirut, University Libraries (=) AUB-UL
++what:	86073
++when:	2017.10.20
++where:	http://www.aub.edu.lb/ulibraries
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Imbernon, Laurence (Curator) ||| l.imbernon@ville-rennes.fr | 
-+!address: 20 Quai Émile Zola, 35000, Rennes, France
-+
-+naa:
-+who:	Data and Service Center for the Humanities (=) DASCH
-+what:	72163
-+when:	2017.10.16
-+where:	http://dasch.swiss
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
-+!address: c/o Digital Humanities Lab, University of Basel, Bernoullistrasse 32, CH-4056 Basel, Switzerland
++!why:	EZID ARK
++!contact: eziduserid aublib
++!address: American University of Beirut  University Libraries  Bliss Street  P.O. Box 11-0236  Riyad El-Solh, Beirut 11072020  LEBANON
 +
 +naa:
  who:	Metadata Terms (=) TERMS

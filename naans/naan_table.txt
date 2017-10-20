@@ -539,13 +539,14 @@
 27019	Educlever (=) ECV
 14024	Ville de Liège - Département de la Culture, des Musées et du Tourisme (=) VLG
 75584	Bibliothèque municipale de Lyon (=) Lyon public library (=) BMLYON
-77916	Médiathèques d'Orléans (=) BMORLEANS
+77916	Médiathèques d'Orléans (=) MORLEANS
 62587	The Kyoto University Museum (=) KYOTOUM
 49591	Effios (=) EFFIOS
 36595	Archives Départementales du Jura (=) AD39
 23600	Office français de protection des réfugiés et apatrides (=) OFPRA
 10946	Musée des Beaux-Arts de Rennes (=) MBAR
 72163	Data and Service Center for the Humanities (=) DASCH
+86073	American University of Beirut, University Libraries (=) AUB-UL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

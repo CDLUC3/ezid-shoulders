@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.16
+when:	2017.10.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5355,13 +5355,14 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: 30 boulevard Vivier-Merle, 69003 Lyon, FRANCE
 
 naa:
-who:	Médiathèques d'Orléans (=) BMORLEANS
+who:	Médiathèques d'Orléans (=) MORLEANS
 what:	77916
 when:	2017.09.27
-where:	https://mediatheques.orleans.fr
+where:	https://orleansmediatheques.fr
 how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
-!contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
+!contact: AUZANNEAU, Jean-Michel (Directeur adjoint) ||| jean-michel.auzanneau@orleans-metropole.fr | +33 2-38-68-45-92
+!address: 1, place Gambetta, CS 74311 / 45043 Orléans, cedex 1, France
 
 naa:
 who:	The Kyoto University Museum (=) KYOTOUM
@@ -5422,6 +5423,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
 !address: c/o Digital Humanities Lab, University of Basel, Bernoullistrasse 32, CH-4056 Basel, Switzerland
+
+naa:
+who:	American University of Beirut, University Libraries (=) AUB-UL
+what:	86073
+when:	2017.10.20
+where:	http://www.aub.edu.lb/ulibraries
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid aublib
+!address: American University of Beirut  University Libraries  Bliss Street  P.O. Box 11-0236  Riyad El-Solh, Beirut 11072020  LEBANON
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -601,13 +601,14 @@ contact: Alaime, Bertrand (CEO) ||| bertrand.alaime@edulib.fr |
 contact: Polese, Laurent (CTO) ||| laurent.polese@educlever.com | 
 contact: AMRI, Fawzi (Conseiller nouvelles technologies) ||| fawzi.amri@liege.be | 
 contact: Vicaire, Jean-Baptiste (Responsable Informatique) ||| bm@bm-lyon.fr | 
-contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
+contact: AUZANNEAU, Jean-Michel (Directeur adjoint) ||| jean-michel.auzanneau@orleans-metropole.fr | +33 2-38-68-45-92
 contact: Gotoh, Haruyoshi (archivist) ||| kurra-info@inet.museum.kyoto-u.ac.jp | 
 contact: Puimatto, Gérard (Associate) ||| gpuimatto@effios.fr | 
 contact: GIROD, Séverine (Patricia GUYARD) ||| sgirod@jura.fr | 
 contact: Angoustures, Aline (Responsable de la Mission histoire et archives) ||| mission-histoire@ofpra.gouv.fr | 
 contact: Imbernon, Laurence (Curator) ||| l.imbernon@ville-rennes.fr | 
 contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
+contact: eziduserid aublib
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
