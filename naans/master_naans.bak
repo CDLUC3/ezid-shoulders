@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.20
+when:	2017.10.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5453,6 +5453,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
 !address: Antigua Carretera a Pátzcuaro 8701, Ex-Hacienda de San José de La Huerta, 58190 Morelia, Mich, Mexico
+
+naa:
+who:	Archives de l'Université catholique de Louvain (=) AUCL
+what:	33176
+when:	2017.10.27
+where:	https://archives.uclouvain.be/atom
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
+!address: 3 Place Montesquieu - L2.06.03, Louvain-la-Neuve, B-1348, Belgium
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -1,26 +1,16 @@
-diff -r 4a7556ec8a58 naans/master_naans
---- a/naans/master_naans	Fri Oct 20 02:52:54 2017 -0700
-+++ b/naans/master_naans	Fri Oct 27 01:32:47 2017 -0700
-@@ -5437,2 +5437,22 @@
+diff -r 8437fb18baeb naans/master_naans
+--- a/naans/master_naans	Fri Oct 27 01:32:48 2017 -0700
++++ b/naans/master_naans	Fri Oct 27 06:16:55 2017 -0700
+@@ -5457,2 +5457,12 @@
  naa:
-+who:	Journal of Philosophical Criticism (=) JPC
-+what:	59167
++who:	Archives de l'Université catholique de Louvain (=) AUCL
++what:	33176
 +when:	2017.10.27
-+where:	http://www.journalpc.org
++where:	https://archives.uclouvain.be/atom
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
-+!address: Piazza Dante, 32, University of Catania, 95124, Catania, Italy
-+
-+naa:
-+who:	Universidad Nacional Autonoma de México campus Morelia (=) UNAMM
-+what:	46171
-+when:	2017.10.27
-+where:	http://www.morelia.unam.mx/campus
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
-+!address: Antigua Carretera a Pátzcuaro 8701, Ex-Hacienda de San José de La Huerta, 58190 Morelia, Mich, Mexico
++!contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
++!address: 3 Place Montesquieu - L2.06.03, Louvain-la-Neuve, B-1348, Belgium
 +
 +naa:
  who:	Metadata Terms (=) TERMS

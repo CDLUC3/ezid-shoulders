@@ -611,6 +611,7 @@ contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.c
 contact: eziduserid aublib
 contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
 contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
+contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

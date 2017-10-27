@@ -5455,6 +5455,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: Antigua Carretera a Pátzcuaro 8701, Ex-Hacienda de San José de La Huerta, 58190 Morelia, Mich, Mexico
 
 naa:
+who:	Archives de l'Université catholique de Louvain (=) AUCL
+what:	33176
+when:	2017.10.27
+where:	https://archives.uclouvain.be/atom
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
+!address: 3 Place Montesquieu - L2.06.03, Louvain-la-Neuve, B-1348, Belgium
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02
