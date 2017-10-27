@@ -609,6 +609,8 @@ contact: Angoustures, Aline (Responsable de la Mission histoire et archives) |||
 contact: Imbernon, Laurence (Curator) ||| l.imbernon@ville-rennes.fr | 
 contact: Rosenthaler, Lukas (Head of Institution) ||| lukas.rosenthaler@unibas.ch | 
 contact: eziduserid aublib
+contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
+contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

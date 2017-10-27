@@ -80,7 +80,9 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 86073 77916 10.21431 10.6074 86074 >
+#    < 86073* 10.21431 10.6074 86074 87292* >
+#  * after moving current NAAN entry to former_naans (delay move to when
+#    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
 #    < CDL.FACEBASE CDL.ICIS CDL.UPENNLIB CDL.AAS >
 
@@ -5387,23 +5389,6 @@ date: 2013.02.11
 minter: https://n2t.net/a/ezid/m/ark/b7294/w4
 datacenter: CDL.VTLIB
 
-:: ark:/87292/w1
-type: shoulder
-manager: ezid
-#eziduser: ezbaeri11
-name: Bay Area Environmental Research (BAER) Institute
-date: 2013.01.28
-minter: https://n2t.net/a/ezid/m/ark/87292/w1
-
-:: doi:10.7292/W0
-type: shoulder
-manager: ezid
-#eziduser: ezbaeri11
-name: Bay Area Environmental Research (BAER) Institute
-date: 2013.01.28
-minter: https://n2t.net/a/ezid/m/ark/b7292/w0
-datacenter: CDL.BAER
-
 :: doi:10.7291/V9
 type: shoulder
 manager: ezid
@@ -6726,11 +6711,6 @@ name: Antarctic Environments Portal
 type: datacenter
 manager: ezid
 name: American University Library
-
-:: datacite:CDL.BAER
-type: datacenter
-manager: ezid
-name: Bay Area Environmental Research (BAER) Institute
 
 :: datacite:CDL.BENCHFLY
 type: datacenter

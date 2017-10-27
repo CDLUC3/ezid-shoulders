@@ -1,30 +1,26 @@
-diff -r c6fd5039c4cf naans/master_naans
---- a/naans/master_naans	Mon Oct 16 14:02:26 2017 -0700
-+++ b/naans/master_naans	Fri Oct 20 02:52:54 2017 -0700
-@@ -5357,9 +5357,10 @@
+diff -r 4a7556ec8a58 naans/master_naans
+--- a/naans/master_naans	Fri Oct 20 02:52:54 2017 -0700
++++ b/naans/master_naans	Fri Oct 27 01:32:47 2017 -0700
+@@ -5437,2 +5437,22 @@
  naa:
--who:	Médiathèques d'Orléans (=) BMORLEANS
-+who:	Médiathèques d'Orléans (=) MORLEANS
- what:	77916
- when:	2017.09.27
--where:	https://mediatheques.orleans.fr
-+where:	https://orleansmediatheques.fr
- how:	NP | (:unkn) unknown | 2017 |
- !why:	ARK
--!contact: AUZANNEAU, Jean-Michel (Conservateur territorial des bibliothèques) ||| jmauzanneau@ville-orleans.fr | +33 2-38-68-45-92
-+!contact: AUZANNEAU, Jean-Michel (Directeur adjoint) ||| jean-michel.auzanneau@orleans-metropole.fr | +33 2-38-68-45-92
-+!address: 1, place Gambetta, CS 74311 / 45043 Orléans, cedex 1, France
- 
-@@ -5426,2 +5427,12 @@
- naa:
-+who:	American University of Beirut, University Libraries (=) AUB-UL
-+what:	86073
-+when:	2017.10.20
-+where:	http://www.aub.edu.lb/ulibraries
++who:	Journal of Philosophical Criticism (=) JPC
++what:	59167
++when:	2017.10.27
++where:	http://www.journalpc.org
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid aublib
-+!address: American University of Beirut  University Libraries  Bliss Street  P.O. Box 11-0236  Riyad El-Solh, Beirut 11072020  LEBANON
++!why:	ARK
++!contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
++!address: Piazza Dante, 32, University of Catania, 95124, Catania, Italy
++
++naa:
++who:	Universidad Nacional Autonoma de México campus Morelia (=) UNAMM
++what:	46171
++when:	2017.10.27
++where:	http://www.morelia.unam.mx/campus
++how:	NP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
++!address: Antigua Carretera a Pátzcuaro 8701, Ex-Hacienda de San José de La Huerta, 58190 Morelia, Mich, Mexico
 +
 +naa:
  who:	Metadata Terms (=) TERMS

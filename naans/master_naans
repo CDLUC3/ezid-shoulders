@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.20
+when:	2017.10.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5433,6 +5433,26 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	EZID ARK
 !contact: eziduserid aublib
 !address: American University of Beirut  University Libraries  Bliss Street  P.O. Box 11-0236  Riyad El-Solh, Beirut 11072020  LEBANON
+
+naa:
+who:	Journal of Philosophical Criticism (=) JPC
+what:	59167
+when:	2017.10.27
+where:	http://www.journalpc.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
+!address: Piazza Dante, 32, University of Catania, 95124, Catania, Italy
+
+naa:
+who:	Universidad Nacional Autonoma de México campus Morelia (=) UNAMM
+what:	46171
+when:	2017.10.27
+where:	http://www.morelia.unam.mx/campus
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
+!address: Antigua Carretera a Pátzcuaro 8701, Ex-Hacienda de San José de La Huerta, 58190 Morelia, Mich, Mexico
 
 naa:
 who:	Metadata Terms (=) TERMS
