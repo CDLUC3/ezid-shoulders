@@ -1,16 +1,17 @@
-diff -r 8437fb18baeb naans/master_naans
---- a/naans/master_naans	Fri Oct 27 01:32:48 2017 -0700
-+++ b/naans/master_naans	Fri Oct 27 06:16:55 2017 -0700
-@@ -5457,2 +5457,12 @@
+diff -r d9be5120b86b naans/master_naans
+--- a/naans/master_naans	Fri Oct 27 06:16:55 2017 -0700
++++ b/naans/master_naans	Mon Oct 30 10:43:54 2017 -0700
+@@ -5467,2 +5467,13 @@
  naa:
-+who:	Archives de l'Université catholique de Louvain (=) AUCL
-+what:	33176
-+when:	2017.10.27
-+where:	https://archives.uclouvain.be/atom
++who:	Archives départementales du Loiret (=) AD45
++what:	20522
++when:	2017.10.30
++where:	https://consultation.archives-loiret.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
-+!address: 3 Place Montesquieu - L2.06.03, Louvain-la-Neuve, B-1348, Belgium
++!contact: Vergne, Nicolas (Chef de projets (PPGP-DS2I-Service dématérialisation et modernisation)) ||| nicolas.vergne@loiret.fr | 
++!address: Cité Administrative Coligny, 131 rue du faubourg Bannier, 45000 ORLEANS, France
++!provider: Franck BERNARDET, franck@1egal2.com
 +
 +naa:
  who:	Metadata Terms (=) TERMS

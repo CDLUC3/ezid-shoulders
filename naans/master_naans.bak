@@ -5465,6 +5465,17 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: 3 Place Montesquieu - L2.06.03, Louvain-la-Neuve, B-1348, Belgium
 
 naa:
+who:	Archives départementales du Loiret (=) AD45
+what:	20522
+when:	2017.10.30
+where:	https://consultation.archives-loiret.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Vergne, Nicolas (Chef de projets (PPGP-DS2I-Service dématérialisation et modernisation)) ||| nicolas.vergne@loiret.fr | 
+!address: Cité Administrative Coligny, 131 rue du faubourg Bannier, 45000 ORLEANS, France
+!provider: Franck BERNARDET, franck@1egal2.com
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02

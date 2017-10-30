@@ -3,6 +3,7 @@
 # xxx add ability to specify NAAN in form, and not generate NAAN, but
 #     still send the email
 # xxx enforce acronym uniqueness
+# xxx $provider not currently making it into new_naa file
 
 use 5.010;
 use strict;
@@ -293,7 +294,7 @@ open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
 print OUT << "EOT";
 
 NEW TRIAL: intended for $email
-CC: Joan.Starr\@ucop.edu
+CC: Joan.Starr\@ucop.edu, $provider
 
 Hi $firstname,
 
