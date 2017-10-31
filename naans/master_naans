@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.30
+when:	2017.10.31
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5471,9 +5471,19 @@ when:	2017.10.30
 where:	https://consultation.archives-loiret.fr
 how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
-!contact: Vergne, Nicolas (Chef de projets (PPGP-DS2I-Service dématérialisation et modernisation)) ||| nicolas.vergne@loiret.fr | 
+!contact: CONTET, Amandine (Deputy Director) ||| amandine.contet@loiret.fr |
 !address: Cité Administrative Coligny, 131 rue du faubourg Bannier, 45000 ORLEANS, France
 !provider: Franck BERNARDET, franck@1egal2.com
+
+naa:
+who:	Tunisian National Library (=) TNL
+what:	68743
+when:	2017.10.31
+where:	http://www.bnt.nat.tn
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri@bnt.nat.tn | 
+!address: Bd 9 Avril 1938 - 1006 Tunis Bab Souika - B.P 42 Tunis - RP 1000
 
 naa:
 who:	Metadata Terms (=) TERMS

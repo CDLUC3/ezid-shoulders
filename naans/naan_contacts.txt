@@ -612,7 +612,8 @@ contact: eziduserid aublib
 contact: Vittorio, Massimo (Journal Manager) ||| massimo.vittorio@gmail.com | 
 contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com | 
 contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
-contact: Vergne, Nicolas (Chef de projets (PPGP-DS2I-Service dématérialisation et modernisation)) ||| nicolas.vergne@loiret.fr | 
+contact: CONTET, Amandine (Deputy Director) ||| amandine.contet@loiret.fr |
+contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri@bnt.nat.tn | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
