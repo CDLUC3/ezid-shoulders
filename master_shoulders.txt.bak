@@ -80,11 +80,11 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 86073* 10.21431 10.6074 86074 87292* >
+#    < 10.21431 10.6074 86074 87292 >
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
-#    < CDL.FACEBASE CDL.ICIS CDL.UPENNLIB CDL.AAS >
+#    <  >
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -191,6 +191,16 @@
 # nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 # ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
+# aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
+
+
+:: ark:/86073/b3
+type: shoulder
+manager: ezid
+#eziduser: aublib
+name: American University of Beirut
+date: 2017.10.20
+minter: https://n2t.net/a/ezid/m/ark/86073/b3
 
 :: ark:/81973/s3
 type: shoulder
@@ -2591,27 +2601,6 @@ name: IPUMS
 date: 2015.09.29
 minter: 
 datacenter: PURDUE.IPUMS
-
-######## start of generic accounts section ########
-
-:: ark:/88127/p8
-type: shoulder
-manager: ezid
-#eziduser: datactr5
-name: Temporary Name: PURDUE Data Center 5
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/88127/p8
-
-:: doi:10.18127/P2
-type: shoulder
-manager: ezid
-#eziduser: datactr5
-name: Temporary Name: PURDUE Data Center 5
-date: 2015.09.10
-minter: https://n2t.net/a/ezid/m/ark/c8127/p2
-datacenter: PURDUE.DATACTR5
-
-######## end of generic accounts section ########
 
 :: ark:/88124/d5
 type: shoulder
@@ -5828,15 +5817,6 @@ date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
 datacenter: CDL.UCSDCCA
 
-:: doi:10.7269/P3
-type: shoulder
-manager: ezid
-#eziduser: ESIPCommon
-name: Federation of Earth Science Information Partners (ESIP) Commons
-date: 2012.06.27
-minter: https://n2t.net/a/ezid/m/ark/b7269/p3
-datacenter: CDL.ESIP
-
 :: doi:10.5967/P8
 type: shoulder
 manager: ezid
@@ -6917,11 +6897,6 @@ type: datacenter
 manager: ezid
 name: eScholarship
 
-:: datacite:CDL.ESIP
-type: datacenter
-manager: ezid
-name: Federation of Earth Science Information Partners (ESIP) Commons
-
 :: datacite:CDL.FDSN
 type: datacenter
 manager: ezid
@@ -7624,11 +7599,6 @@ name: ARTLAS/Purdue University
 type: datacenter
 manager: ezid
 name: Chicago Collections Consortium
-
-:: datacite:PURDUE.DATACTR5
-type: datacenter
-manager: ezid
-name: Temporary Name: Data Center 5
 
 :: datacite:PURDUE.DRUM
 type: datacenter

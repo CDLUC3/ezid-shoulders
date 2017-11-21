@@ -136,7 +136,6 @@
 87285	Center for Multiscale Modeling of Atmospheric Processes (=) CMMAP
 54379	University of Alberta (=) UALBERTA
 41383	Archives départementales du Cher (=) ADCHER
-87287	Peerj (=) PEERJ
 87286	Biocode Commons UC Berkeley (=) BIOCODEUCB
 28387	Archives départementales de la Vienne (=) ADV
 15391	Archives municipales de Saint-Denis (=) AMSTDENIS
@@ -552,6 +551,7 @@
 33176	Archives de l'Université catholique de Louvain (=) AUCL
 20522	Archives départementales du Loiret (=) AD45
 68743	Tunisian National Library (=) TNL
+55747	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

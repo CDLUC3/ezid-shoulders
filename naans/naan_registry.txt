@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.31
+when:	2017.11.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1247,13 +1247,6 @@ who:	Archives départementales du Cher (=) ADCHER
 what:	41383
 when:	2012.11.28
 where:	http://www.archives18.fr
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
-who:	Peerj (=) PEERJ
-what:	87287
-when:	2012.12.06
-where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
@@ -4159,6 +4152,13 @@ who:	Tunisian National Library (=) TNL
 what:	68743
 when:	2017.10.31
 where:	http://www.bnt.nat.tn
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
+what:	55747
+when:	2017.11.20
+where:	http://www.patrimoinerural44.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:

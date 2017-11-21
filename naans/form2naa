@@ -228,8 +228,8 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 		#     eg, who:    Euro France Médias (=) EFM?D
 		$acronym =~ s/\b's\b//g;
 		$acronym =~ s/\b(.).*?\b/\U$1/g;	# first letter
-		$acronym =~ s/\s+//g;			# remove spaces
 	}
+	$acronym =~ s/\s+//g;			# remove spaces
 	$acronym = uc $acronym;
 	my $bmodel =
 		($ostatus eq 'For profit' ? 'FP' :

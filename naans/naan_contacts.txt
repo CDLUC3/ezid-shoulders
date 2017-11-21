@@ -152,7 +152,6 @@ contact: EZID userid rvdata_us
 contact: EZID userid ucsd_cmmap
 contact: Binkley, Peter | Information Technology Services || peter.binkley@ualberta.ca | 780-492-3743
 contact: Laurent, Xavier ||| xavier.laurent@cg18.fr | +33 (0)2 48 55 82 60
-contact: EZID userid peerj
 contact: eziduserid ucb-bcid
 contact: Brémond, Pierre ||| PBremond@cg86.fr |
 contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
@@ -614,6 +613,7 @@ contact: Arredondo, Claudia (Residente) ||| alex.belikov19@gmail.com |
 contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be | 
 contact: CONTET, Amandine (Deputy Director) ||| amandine.contet@loiret.fr |
 contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri@bnt.nat.tn | 
+contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

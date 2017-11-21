@@ -1,21 +1,28 @@
-diff -r 42724e3c44fc naans/master_naans
---- a/naans/master_naans	Mon Oct 30 10:43:54 2017 -0700
-+++ b/naans/master_naans	Tue Oct 31 09:21:59 2017 -0700
-@@ -5473,3 +5473,3 @@
- !why:	ARK
--!contact: Vergne, Nicolas (Chef de projets (PPGP-DS2I-Service dématérialisation et modernisation)) ||| nicolas.vergne@loiret.fr | 
-+!contact: CONTET, Amandine (Deputy Director) ||| amandine.contet@loiret.fr |
- !address: Cité Administrative Coligny, 131 rue du faubourg Bannier, 45000 ORLEANS, France
-@@ -5478,2 +5478,12 @@
+diff -r e997dac8748d naans/master_naans
+--- a/naans/master_naans	Tue Oct 31 09:22:00 2017 -0700
++++ b/naans/master_naans	Mon Nov 20 16:00:17 2017 -0800
+@@ -1564,11 +1564,2 @@
  naa:
-+who:	Tunisian National Library (=) TNL
-+what:	68743
-+when:	2017.10.31
-+where:	http://www.bnt.nat.tn
+-who:	Peerj (=) PEERJ
+-what:	87287
+-when:	2012.12.06
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid peerj
+-
+-naa:
+ who:	Biocode Commons UC Berkeley (=) BIOCODEUCB
+@@ -5488,2 +5479,12 @@
+ naa:
++who:	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
++what:	55747
++when:	2017.11.20
++where:	http://www.patrimoinerural44.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri@bnt.nat.tn | 
-+!address: Bd 9 Avril 1938 - 1006 Tunis Bab Souika - B.P 42 Tunis - RP 1000
++!contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
++!address: 81 rue Anne de Bretagne 44360 Vigneux-de-Bretagne, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

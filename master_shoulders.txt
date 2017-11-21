@@ -80,7 +80,7 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 10.21431 10.6074 86074 87292 >
+#    < 10.21431 10.6074 86074 87292 87287 >
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
@@ -192,7 +192,15 @@
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 # ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
 # aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
+# ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 
+:: ark:/86071/d2
+type: shoulder
+manager: ezid
+#eziduser: ucmlibrary
+name: UCM Library Digital Assets
+date: 2017.11.14
+minter: https://n2t.net/a/ezid/m/ark/86071/d2
 
 :: ark:/86073/b3
 type: shoulder
@@ -5448,14 +5456,6 @@ date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
 datacenter: CDL.BIOCODE
 
-:: ark:/87287/v3
-type: shoulder
-manager: ezid
-#eziduser: peerj
-name: PeerJ
-date: 2012.12.06
-minter: https://n2t.net/a/ezid/m/ark/87287/v3
-
 :: doi:10.7287/
 type: shoulder
 manager: ezid
@@ -5816,15 +5816,6 @@ name: California Coastal Atlas
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
 datacenter: CDL.UCSDCCA
-
-:: doi:10.7269/P3
-type: shoulder
-manager: ezid
-#eziduser: ESIPCommon
-name: Federation of Earth Science Information Partners (ESIP) Commons
-date: 2012.06.27
-minter: https://n2t.net/a/ezid/m/ark/b7269/p3
-datacenter: CDL.ESIP
 
 :: doi:10.5967/P8
 type: shoulder
@@ -6905,11 +6896,6 @@ name: Edom Lowlands Regional Archaeology Project
 type: datacenter
 manager: ezid
 name: eScholarship
-
-:: datacite:CDL.ESIP
-type: datacenter
-manager: ezid
-name: Federation of Earth Science Information Partners (ESIP) Commons
 
 :: datacite:CDL.FDSN
 type: datacenter
