@@ -80,7 +80,7 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 10.21431 10.6074 86074 87292 >
+#    < 10.21431 86074 87292 87287 >
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
@@ -192,7 +192,25 @@
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 # ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
 # aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
+# ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 
+:: doi:10.6074/D4
+type: shoulder
+manager: ezid
+#eziduser: eschol_harvester
+name: eschol DataCite
+date: 2017.11.27
+minter: https://n2t.net/a/ezid/m/ark/b6074/d4
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+
+:: ark:/86071/d2
+type: shoulder
+manager: ezid
+#eziduser: ucmlibrary
+name: UCM Library Digital Assets
+date: 2017.11.14
+minter: https://n2t.net/a/ezid/m/ark/86071/d2
 
 :: ark:/86073/b3
 type: shoulder
@@ -3655,6 +3673,7 @@ name: eScholarship: California Jrnl of Politics and Policy
 date: 2014.01.14
 minter: https://n2t.net/a/ezid/m/ark/b5070/p2
 datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
 crossref: true
 
 :: ark:/83026/c4
@@ -3750,11 +3769,12 @@ prefix_shares_datacenter: true
 :: doi:10.5070/S8
 type: shoulder
 manager: ezid
-#eziduser: eschol-harvester
+#eziduser: eschol_harvester
 name: eScholarship
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b5070/s8
 datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
 crossref: true
 
 :: ark:/16417/k4
@@ -5447,14 +5467,6 @@ name: Biocode Commons (UCB only)
 date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
 datacenter: CDL.BIOCODE
-
-:: ark:/87287/v3
-type: shoulder
-manager: ezid
-#eziduser: peerj
-name: PeerJ
-date: 2012.12.06
-minter: https://n2t.net/a/ezid/m/ark/87287/v3
 
 :: doi:10.7287/
 type: shoulder

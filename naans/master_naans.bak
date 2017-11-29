@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.10.31
+when:	2017.11.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5349,7 +5349,7 @@ naa:
 who:	Médiathèques d'Orléans (=) MORLEANS
 what:	77916
 when:	2017.09.27
-where:	https://orleansmediatheques.fr
+where:	https://mediatheques.orleans-metropole.fr
 how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: AUZANNEAU, Jean-Michel (Directeur adjoint) ||| jean-michel.auzanneau@orleans-metropole.fr | +33 2-38-68-45-92
@@ -5485,6 +5485,15 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
 !address: 81 rue Anne de Bretagne 44360 Vigneux-de-Bretagne, France
+
+naa:
+who:	Zapruder World (=) ZWJ
+what:	86074
+when:	2017.11.29
+where:	http://www.zapruderworld.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	EZID ARK
+!contact: eziduserid sb-zapwld
 
 naa:
 who:	Metadata Terms (=) TERMS

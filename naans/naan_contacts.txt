@@ -614,6 +614,7 @@ contact: Derauw, Caroline (Archiviste) ||| caroline.derauw@uclouvain.be |
 contact: CONTET, Amandine (Deputy Director) ||| amandine.contet@loiret.fr |
 contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri@bnt.nat.tn | 
 contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
+contact: eziduserid sb-zapwld
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

@@ -1,28 +1,20 @@
-diff -r e997dac8748d naans/master_naans
---- a/naans/master_naans	Tue Oct 31 09:22:00 2017 -0700
-+++ b/naans/master_naans	Mon Nov 20 16:00:17 2017 -0800
-@@ -1564,11 +1564,2 @@
+diff -r 8268a25361bd naans/master_naans
+--- a/naans/master_naans	Mon Nov 20 16:00:17 2017 -0800
++++ b/naans/master_naans	Wed Nov 29 15:33:52 2017 -0800
+@@ -5351,3 +5351,3 @@
+ when:	2017.09.27
+-where:	https://orleansmediatheques.fr
++where:	https://mediatheques.orleans-metropole.fr
+ how:	NP | (:unkn) unknown | 2017 |
+@@ -5489,2 +5489,11 @@
  naa:
--who:	Peerj (=) PEERJ
--what:	87287
--when:	2012.12.06
--where:	http://n2t.net
--how:	NP | (:unkn) unknown | 2012 |
--!why:	EZID ARK
--!contact: EZID userid peerj
--
--naa:
- who:	Biocode Commons UC Berkeley (=) BIOCODEUCB
-@@ -5488,2 +5479,12 @@
- naa:
-+who:	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
-+what:	55747
-+when:	2017.11.20
-+where:	http://www.patrimoinerural44.fr
++who:	Zapruder World (=) ZWJ
++what:	86074
++when:	2017.11.29
++where:	http://www.zapruderworld.org
 +how:	NP | (:unkn) unknown | 2017 |
-+!why:	ARK
-+!contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
-+!address: 81 rue Anne de Bretagne 44360 Vigneux-de-Bretagne, France
++!why:	EZID ARK
++!contact: eziduserid sb-zapwld
 +
 +naa:
  who:	Metadata Terms (=) TERMS

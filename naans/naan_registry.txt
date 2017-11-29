@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.11.20
+when:	2017.11.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4067,7 +4067,7 @@ naa:
 who:	Médiathèques d'Orléans (=) MORLEANS
 what:	77916
 when:	2017.09.27
-where:	https://orleansmediatheques.fr
+where:	https://mediatheques.orleans-metropole.fr
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
@@ -4159,6 +4159,13 @@ who:	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rur
 what:	55747
 when:	2017.11.20
 where:	http://www.patrimoinerural44.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Zapruder World (=) ZWJ
+what:	86074
+when:	2017.11.29
+where:	http://www.zapruderworld.org
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:

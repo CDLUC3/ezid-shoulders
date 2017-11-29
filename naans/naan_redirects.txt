@@ -539,7 +539,7 @@ RedirectMatch ^/((ark:/40015)|40015/?)(.*)$ https://www.edulib.fr/$2$3
 RedirectMatch ^/((ark:/27019)|27019/?)(.*)$ http://educlever.io/$2$3
 RedirectMatch ^/((ark:/14024)|14024/?)(.*)$ http://liegemuseum.be/$2$3
 RedirectMatch ^/((ark:/75584)|75584/?)(.*)$ http://catalogue.bm-lyon.fr/$2$3
-RedirectMatch ^/((ark:/77916)|77916/?)(.*)$ https://orleansmediatheques.fr/$2$3
+RedirectMatch ^/((ark:/77916)|77916/?)(.*)$ https://mediatheques.orleans-metropole.fr/$2$3
 RedirectMatch ^/((ark:/62587)|62587/?)(.*)$ http://www.rra.museum.kyoto-u.ac.jp/$2$3
 RedirectMatch ^/((ark:/49591)|49591/?)(.*)$ http://frvirtuel.effios.fr/$2$3
 RedirectMatch ^/((ark:/36595)|36595/?)(.*)$ http://www.archives39.fr/$2$3
@@ -553,6 +553,7 @@ RedirectMatch ^/((ark:/33176)|33176/?)(.*)$ https://archives.uclouvain.be/atom/$
 RedirectMatch ^/((ark:/20522)|20522/?)(.*)$ https://consultation.archives-loiret.fr/$2$3
 RedirectMatch ^/((ark:/68743)|68743/?)(.*)$ http://www.bnt.nat.tn/$2$3
 RedirectMatch ^/((ark:/55747)|55747/?)(.*)$ http://www.patrimoinerural44.fr/$2$3
+RedirectMatch ^/((ark:/86074)|86074/?)(.*)$ http://www.zapruderworld.org/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
