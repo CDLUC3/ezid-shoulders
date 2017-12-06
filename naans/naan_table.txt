@@ -553,6 +553,7 @@
 68743	Tunisian National Library (=) TNL
 55747	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
 86074	Zapruder World (=) ZWJ
+42752	Centre National d'Enseignement à Distance (=) CNED
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

@@ -554,6 +554,7 @@ RedirectMatch ^/((ark:/20522)|20522/?)(.*)$ https://consultation.archives-loiret
 RedirectMatch ^/((ark:/68743)|68743/?)(.*)$ http://www.bnt.nat.tn/$2$3
 RedirectMatch ^/((ark:/55747)|55747/?)(.*)$ http://www.patrimoinerural44.fr/$2$3
 RedirectMatch ^/((ark:/86074)|86074/?)(.*)$ http://www.zapruderworld.org/$2$3
+RedirectMatch ^/((ark:/42752)|42752/?)(.*)$ http://cned.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

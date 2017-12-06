@@ -1,20 +1,16 @@
-diff -r 8268a25361bd naans/master_naans
---- a/naans/master_naans	Mon Nov 20 16:00:17 2017 -0800
-+++ b/naans/master_naans	Wed Nov 29 15:33:52 2017 -0800
-@@ -5351,3 +5351,3 @@
- when:	2017.09.27
--where:	https://orleansmediatheques.fr
-+where:	https://mediatheques.orleans-metropole.fr
- how:	NP | (:unkn) unknown | 2017 |
-@@ -5489,2 +5489,11 @@
+diff -r 7ea35f73e698 naans/master_naans
+--- a/naans/master_naans	Wed Nov 29 15:33:52 2017 -0800
++++ b/naans/master_naans	Wed Dec 06 08:32:05 2017 -0800
+@@ -5498,2 +5498,12 @@
  naa:
-+who:	Zapruder World (=) ZWJ
-+what:	86074
-+when:	2017.11.29
-+where:	http://www.zapruderworld.org
-+how:	NP | (:unkn) unknown | 2017 |
-+!why:	EZID ARK
-+!contact: eziduserid sb-zapwld
++who:	Centre National d'Enseignement à Distance (=) CNED
++what:	42752
++when:	2017.12.06
++where:	http://cned.fr
++how:	FP | (:unkn) unknown | 2017 |
++!why:	ARK
++!contact: Laffon, Laurent (Project Manager) ||| laurent.laffon@cned.fr | 
++!address: CNED - Direction Générale, BP 80300, 86963 Futuroscope Chasseneuil Cedex, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

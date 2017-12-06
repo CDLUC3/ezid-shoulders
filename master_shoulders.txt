@@ -1,3 +1,5 @@
+# XXX to run before install, when Greg's finished: valsh doi:10.18734/P4 doi:10.20358/C8 doi:10.7943/T3 doi:10.17908/B8 doi:10.20352/C2 doi:10.21975/H5 doi:10.6081/K4 doi:10.7279/S7 doi:10.7300/X8 doi:10.7270/Q2 doi:10.7295/W9 doi:10.17915/N5
+
 # // Set up procedure
 #
 # Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
@@ -930,7 +932,8 @@ manager: ezid
 name: UCSD Hydraulics Laboratory
 date: 2016.12.01
 minter: https://n2t.net/a/ezid/m/ark/d1975/h5
-datacenter: CDL.UCSDHLAB
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/81974/c9
 type: shoulder
@@ -2017,7 +2020,8 @@ manager: ezid
 name: LBNL CESD
 date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/d0358/c8
-datacenter: CDL.LBNLCESD
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: ark:/80357/s3
 type: shoulder
@@ -2138,7 +2142,8 @@ manager: ezid
 name: UCLA Civil and Environmental Engineering
 date: 2016.03.11
 minter: https://n2t.net/a/ezid/m/ark/d0352/c2
-datacenter: CDL.UCLACEE
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: ark:/54379/t7
 type: shoulder
@@ -2343,7 +2348,8 @@ manager: ezid
 name: LBNL JCAP/CSD
 date: 2016.01.19
 minter: https://n2t.net/a/ezid/m/ark/c8734/p4
-datacenter: CDL.LBNLJCAP
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.18733/C3
 type: shoulder
@@ -2903,8 +2909,9 @@ manager: ezid
 name: Center for Nanotechnology in Society
 date: 2015.06.26
 minter: https://n2t.net/a/ezid/m/ark/c7915/n5
-datacenter: CDL.CNS
+datacenter: CDL.UCSB
 crossref: true
+prefix_shares_datacenter: true
 
 :: doi:10.7912/D2
 type: shoulder
@@ -3063,7 +3070,8 @@ manager: ezid
 name: UC San Diego Department of Biomedical Informatics
 date: 2015.05.11
 minter: https://n2t.net/a/ezid/m/ark/c7908/b8
-datacenter: CDL.DBMICLD
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: doi:10.7283/S2
 type: shoulder
@@ -4313,7 +4321,8 @@ manager: ezid
 name: LBNL OpenMSI
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/b7943/t3
-datacenter: CDL.LBNLOMSI
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.5068/D1
 type: shoulder
@@ -5259,7 +5268,8 @@ manager: ezid
 name: UCSD OneLab
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7300/x8
-datacenter: CDL.ONELAB
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87302/z3
 type: shoulder
@@ -5336,7 +5346,8 @@ manager: ezid
 name: Edom Lowlands Regional Archaeology Project
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/b7296/x0
-datacenter: CDL.ELRAP
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87297/x3
 type: shoulder
@@ -5371,7 +5382,8 @@ manager: ezid
 name: Center for Research in Biological Systems
 date: 2013.03.04
 minter: https://n2t.net/a/ezid/m/ark/b7295/w9
-datacenter: CDL.CRBS
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: doi:10.6075/W7
 type: shoulder
@@ -5632,7 +5644,8 @@ manager: ezid
 name: UCSD Ocean Observatory Initiative
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/b7279/s7
-datacenter: CDL.UCSDOOI
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87278/s6
 type: shoulder
@@ -5829,7 +5842,8 @@ manager: ezid
 name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/b7270/q2
-datacenter: CDL.UCSDSSPP
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/84246/p7
 type: shoulder
@@ -6094,7 +6108,8 @@ manager: ezid
 name: UCSD Nieh Lab
 date: 2012.03.28
 minter: https://n2t.net/a/ezid/m/ark/b6081/k4
-datacenter: CDL.UCSDBIO
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/86080/k3
 type: shoulder
