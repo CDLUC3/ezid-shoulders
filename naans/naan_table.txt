@@ -459,7 +459,6 @@
 18469	Paris Sciences et Lettres (=) PSL
 80030	Journal of Mechanical Engineering and Biomechanics (=) JMEB
 81427	Dublin Institute of Technology (=) DIT
-81428	PubPub (=) PUB
 81429	US Dept of Interior Climate Science Centers (=) CSC
 81430	UCSF ImmPort (=) IMMPORT
 81431	University of Pennsylvania Libraries (=) UPENNLIB
@@ -554,6 +553,7 @@
 55747	Fédération Départementale des Musées d'Agriculture et du Patrimoine Rural en Loire-Atlantique (=) FDMA44
 86074	Zapruder World (=) ZWJ
 42752	Centre National d'Enseignement à Distance (=) CNED
+30098	Bibliothèque municipale de Périgueux (=) BMPGX
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

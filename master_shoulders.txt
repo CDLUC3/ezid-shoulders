@@ -1,5 +1,3 @@
-# XXX to run before install, when Greg's finished: valsh doi:10.18734/P4 doi:10.20358/C8 doi:10.7943/T3 doi:10.17908/B8 doi:10.20352/C2 doi:10.21975/H5 doi:10.6081/K4 doi:10.7279/S7 doi:10.7300/X8 doi:10.7270/Q2 doi:10.7295/W9 doi:10.17915/N5
-
 # // Set up procedure
 #
 # Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
@@ -82,7 +80,7 @@
 # Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
 #    < >
 # NAANs/Prefixes to re-use:
-#    < 87292 87287 >
+#    < 87292 87287 81428 >
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
@@ -196,6 +194,14 @@
 # aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
 # ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
+
+:: ark:/99166/p3
+type: shoulder
+manager: ezid
+#eziduser: eschol_harvester
+name: eScholarship Agents
+date: 2017.12.13
+minter: https://n2t.net/a/ezid/m/ark/99166/p3
 
 :: ark:/86074/z4
 type: shoulder
@@ -920,11 +926,6 @@ minter: https://n2t.net/a/ezid/m/ark/c8434/m3
 datacenter: CDL.NIST
 prefix_shares_datacenter: true
 
-:: datacite:CDL.UCSDHLAB
-type: datacenter
-manager: ezid
-name: UCSD Hydraulics Laboratory
-
 :: doi:10.21975/H5
 type: shoulder
 manager: ezid
@@ -1167,49 +1168,6 @@ name: US Dept of Interior Climate Science Centers
 date: 2016.09.11
 minter: https://n2t.net/a/ezid/m/ark/d1429/c9
 datacenter: CDL.CSC
-
-:: ark:/81428/b2
-type: shoulder
-manager: ezid
-#eziduser: pubpub
-name: PubPub
-date: 2016.09.08
-minter: https://n2t.net/a/ezid/m/ark/81428/b2
-
-:: ark:/81428/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: pubpub
-name: PubPub no minter
-date: 2016.09.08
-minter:
-
-:: datacite:CDL.PUB
-type: datacenter
-manager: ezid
-name: PubPub
-
-:: doi:10.21428/P8
-type: shoulder
-manager: ezid
-#eziduser: pubpub
-name: PubPub
-date: 2016.09.08
-minter: https://n2t.net/a/ezid/m/ark/d1428/p8
-datacenter: CDL.PUB
-crossref: true
-
-:: doi:10.21428/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: pubpub
-name: PubPub no minter
-date: 2016.09.08
-minter:
-datacenter: CDL.PUB
-crossref: true
 
 :: doi:10.1184/R1/
 type: shoulder
@@ -2008,11 +1966,6 @@ name: LBNL CESD
 date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/80358/s5
 
-:: datacite:CDL.LBNLCESD
-type: datacenter
-manager: ezid
-name: LBNL Climate and Ecosystems Science Division
-
 :: doi:10.20358/C8
 type: shoulder
 manager: ezid
@@ -2129,11 +2082,6 @@ manager: ezid
 name: UCLA Civil and Environmental Engineering
 date: 2016.03.11
 minter: https://n2t.net/a/ezid/m/ark/80352/c5
-
-:: datacite:CDL.UCLACEE
-type: datacenter
-manager: ezid
-name: UCLA Civil and Environmental Engineering
 
 :: doi:10.20352/C2
 type: shoulder
@@ -6818,11 +6766,6 @@ type: datacenter
 manager: ezid
 name: Carnegie Mellon University Libraries
 
-:: datacite:CDL.CNS
-type: datacenter
-manager: ezid
-name: Center for Nanotechnology in Society
-
 :: datacite:CDL.COS
 type: datacenter
 manager: ezid
@@ -6832,11 +6775,6 @@ name: Center for Open Science
 type: datacenter
 manager: ezid
 name: CRAWDAD
-
-:: datacite:CDL.CRBS
-type: datacenter
-manager: ezid
-name: Center for Research in Biological Systems
 
 :: datacite:CDL.CRCL
 type: datacenter
@@ -6883,11 +6821,6 @@ type: datacenter
 manager: ezid
 name: Harvard Dataverse
 
-:: datacite:CDL.DBMICLD
-type: datacenter
-manager: ezid
-name: UC San Diego Department of Biomedical Informatics
-
 :: datacite:CDL.DIGANT
 type: datacenter
 manager: ezid
@@ -6932,11 +6865,6 @@ name: UAlberta EBLIP Journal
 type: datacenter
 manager: ezid
 name: Entrepreneur & Innovation Exchange
-
-:: datacite:CDL.ELRAP
-type: datacenter
-manager: ezid
-name: Edom Lowlands Regional Archaeology Project
 
 :: datacite:CDL.ESCHOL
 type: datacenter
@@ -7055,16 +6983,6 @@ name: Laboratory for Anthropogenic Landscape Ecology
 type: datacenter
 manager: ezid
 name: Lawrence Berkeley National Laboratory
-
-:: datacite:CDL.LBNLJCAP
-type: datacenter
-manager: ezid
-name: Joint Center for Artificial Photosynthesis in Chemical Sciences Division
-
-:: datacite:CDL.LBNLOMSI
-type: datacenter
-manager: ezid
-name: LBNL OpenMSI
 
 :: datacite:CDL.LCC
 type: datacenter
@@ -7205,11 +7123,6 @@ name: Open Geospatial Consortium
 type: datacenter
 manager: ezid
 name: Oregon Health & Science University
-
-:: datacite:CDL.ONELAB
-type: datacenter
-manager: ezid
-name: UCSD OneLab
 
 :: datacite:CDL.OPENFMRI
 type: datacenter
@@ -7451,25 +7364,10 @@ type: datacenter
 manager: ezid
 name: UCSD
 
-:: datacite:CDL.UCSDBIO
-type: datacenter
-manager: ezid
-name: UCSD Nieh Lab
-
 :: datacite:CDL.UCSDCCA
 type: datacenter
 manager: ezid
 name: California Coastal Atlas
-
-:: datacite:CDL.UCSDOOI
-type: datacenter
-manager: ezid
-name: UCSD Ocean Observatory Initiative
-
-:: datacite:CDL.UCSDSSPP
-type: datacenter
-manager: ezid
-name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 
 :: datacite:CDL.UCSFCTSI
 type: datacenter

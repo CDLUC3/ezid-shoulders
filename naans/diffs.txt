@@ -1,16 +1,29 @@
-diff -r 7ea35f73e698 naans/master_naans
---- a/naans/master_naans	Wed Nov 29 15:33:52 2017 -0800
-+++ b/naans/master_naans	Wed Dec 06 08:32:05 2017 -0800
-@@ -5498,2 +5498,12 @@
+diff -r 8ecd58131a8e naans/master_naans
+--- a/naans/master_naans	Wed Dec 06 08:32:05 2017 -0800
++++ b/naans/master_naans	Fri Dec 15 14:09:29 2017 -0800
+@@ -4555,12 +4555,2 @@
  naa:
-+who:	Centre National d'Enseignement à Distance (=) CNED
-+what:	42752
-+when:	2017.12.06
-+where:	http://cned.fr
-+how:	FP | (:unkn) unknown | 2017 |
+-who:	PubPub (=) PUB
+-what:	81428
+-when:	2016.09.08
+-where:	https://www.pubpub.org
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:	EZID ARK
+-!contact: eziduserid pubpub
+-!address: 75 Amherst St, E14-348K  Cambridge, MA 02139
+-
+-naa:
+ who:	US Dept of Interior Climate Science Centers (=) CSC
+@@ -5508,2 +5498,12 @@
+ naa:
++who:	Bibliothèque municipale de Périgueux (=) BMPGX
++what:	30098
++when:	2017.12.15
++where:	http://www.perigueux.fr
++how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Laffon, Laurent (Project Manager) ||| laurent.laffon@cned.fr | 
-+!address: CNED - Direction Générale, BP 80300, 86963 Futuroscope Chasseneuil Cedex, France
++!contact: Barbiche, Jean-Marie (Conservateur) ||| jean-marie.barbiche@perigueux.fr | 
++!address: 12 avenue Georges Pompidou, 24000 Périgueux, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

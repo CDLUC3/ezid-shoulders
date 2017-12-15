@@ -518,7 +518,6 @@ contact: eziduserid sb-eri
 contact: Aucher, Laurent ||| laurent.aucher@univ-psl.fr | +33 1 85 76 08 61
 contact: Kaur, Rasmeet ||| jmeb.editor@gmail.com |
 contact: eziduserid dit_yvonned
-contact: eziduserid pubpub
 contact: eziduserid nccwsccsc
 contact: eziduserid ucsf_immPort
 contact: eziduserid upennlib
@@ -616,6 +615,7 @@ contact: Khemiri, Hanene (Analyst and database administrator) ||| hanene.khemiri
 contact: REVERDY, Stéphanie (Special assistant for the valuation of rural heritage) ||| contact.fdma44@gmail.com | 
 contact: eziduserid sb-zapwld
 contact: Laffon, Laurent (Project Manager) ||| laurent.laffon@cned.fr | 
+contact: Barbiche, Jean-Marie (Conservateur) ||| jean-marie.barbiche@perigueux.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
