@@ -5516,6 +5516,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: Université Nice Sophia Antipolis - Parc Valrose - BP 2053 - 06101 Nice Cedex 2, France
 
 naa:
+who:	Bibliothèque Municipale à Vocation Régionale de Nice (=) BMVRNICE
+what:	78320
+when:	2017.12.22
+where:	http://www.bmvr.nice.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
+!address: 1 avenue Saint Jean Baptiste, 06364 Nice Cedex 4, France
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02

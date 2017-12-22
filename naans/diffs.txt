@@ -1,16 +1,16 @@
-diff -r 78d62911361e naans/master_naans
---- a/naans/master_naans	Fri Dec 15 14:09:29 2017 -0800
-+++ b/naans/master_naans	Fri Dec 22 05:41:03 2017 -0800
-@@ -5508,2 +5508,12 @@
+diff -r 2c5884ad6d9a naans/master_naans
+--- a/naans/master_naans	Fri Dec 22 05:41:03 2017 -0800
++++ b/naans/master_naans	Fri Dec 22 14:29:06 2017 -0800
+@@ -5518,2 +5518,12 @@
  naa:
-+who:	Université Côte d'Azur (=) UCA
-+what:	17103
++who:	Bibliothèque Municipale à Vocation Régionale de Nice (=) BMVRNICE
++what:	78320
 +when:	2017.12.22
-+where:	http://www.univ-cotedazur.fr
++where:	http://www.bmvr.nice.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Pollet, Joel (Librarian) ||| publication-scd@unice.fr | 
-+!address: Université Nice Sophia Antipolis - Parc Valrose - BP 2053 - 06101 Nice Cedex 2, France
++!contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
++!address: 1 avenue Saint Jean Baptiste, 06364 Nice Cedex 4, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS
