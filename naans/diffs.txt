@@ -1,29 +1,16 @@
-diff -r 8ecd58131a8e naans/master_naans
---- a/naans/master_naans	Wed Dec 06 08:32:05 2017 -0800
-+++ b/naans/master_naans	Fri Dec 15 14:09:29 2017 -0800
-@@ -4555,12 +4555,2 @@
+diff -r 78d62911361e naans/master_naans
+--- a/naans/master_naans	Fri Dec 15 14:09:29 2017 -0800
++++ b/naans/master_naans	Fri Dec 22 05:41:03 2017 -0800
+@@ -5508,2 +5508,12 @@
  naa:
--who:	PubPub (=) PUB
--what:	81428
--when:	2016.09.08
--where:	https://www.pubpub.org
--how:	NP | (:unkn) unknown | 2016 |
--!why:	EZID ARK
--!contact: eziduserid pubpub
--!address: 75 Amherst St, E14-348K  Cambridge, MA 02139
--
--naa:
- who:	US Dept of Interior Climate Science Centers (=) CSC
-@@ -5508,2 +5498,12 @@
- naa:
-+who:	Bibliothèque municipale de Périgueux (=) BMPGX
-+what:	30098
-+when:	2017.12.15
-+where:	http://www.perigueux.fr
++who:	Université Côte d'Azur (=) UCA
++what:	17103
++when:	2017.12.22
++where:	http://www.univ-cotedazur.fr
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Barbiche, Jean-Marie (Conservateur) ||| jean-marie.barbiche@perigueux.fr | 
-+!address: 12 avenue Georges Pompidou, 24000 Périgueux, France
++!contact: Pollet, Joel (Librarian) ||| publication-scd@unice.fr | 
++!address: Université Nice Sophia Antipolis - Parc Valrose - BP 2053 - 06101 Nice Cedex 2, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

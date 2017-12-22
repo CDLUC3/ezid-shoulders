@@ -554,6 +554,7 @@
 86074	Zapruder World (=) ZWJ
 42752	Centre National d'Enseignement à Distance (=) CNED
 30098	Bibliothèque municipale de Périgueux (=) BMPGX
+17103	Université Côte d'Azur (=) UCA
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

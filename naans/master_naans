@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.12.15
+when:	2017.12.22
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5504,6 +5504,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Barbiche, Jean-Marie (Conservateur) ||| jean-marie.barbiche@perigueux.fr | 
 !address: 12 avenue Georges Pompidou, 24000 Périgueux, France
+
+naa:
+who:	Université Côte d'Azur (=) UCA
+what:	17103
+when:	2017.12.22
+where:	http://www.univ-cotedazur.fr
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Pollet, Joel (Librarian) ||| publication-scd@unice.fr | 
+!address: Université Nice Sophia Antipolis - Parc Valrose - BP 2053 - 06101 Nice Cedex 2, France
 
 naa:
 who:	Metadata Terms (=) TERMS
