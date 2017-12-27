@@ -618,6 +618,7 @@ contact: Laffon, Laurent (Project Manager) ||| laurent.laffon@cned.fr |
 contact: Barbiche, Jean-Marie (Conservateur) ||| jean-marie.barbiche@perigueux.fr | 
 contact: Pollet, Joel (Librarian) ||| publication-scd@unice.fr | 
 contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
+contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

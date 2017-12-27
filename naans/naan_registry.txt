@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.12.22
+when:	2017.12.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4187,6 +4187,13 @@ who:	Bibliothèque Municipale à Vocation Régionale de Nice (=) BMVRNICE
 what:	78320
 when:	2017.12.22
 where:	http://www.bmvr.nice.fr
+how:	NP | (:unkn) unknown | 2017 |
+
+naa:
+who:	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
+what:	65324
+when:	2017.12.27
+where:	http://www.jaltcriticalthinking.org
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.12.22
+when:	2017.12.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5524,6 +5524,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
 !address: 1 avenue Saint Jean Baptiste, 06364 Nice Cedex 4, France
+
+naa:
+who:	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
+what:	65324
+when:	2017.12.27
+where:	http://www.jaltcriticalthinking.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
+!address: Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo 110-0016, Japan
 
 naa:
 who:	Metadata Terms (=) TERMS

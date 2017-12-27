@@ -5526,6 +5526,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: 1 avenue Saint Jean Baptiste, 06364 Nice Cedex 4, France
 
 naa:
+who:	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
+what:	65324
+when:	2017.12.27
+where:	http://www.jaltcriticalthinking.org
+how:	NP | (:unkn) unknown | 2017 |
+!why:	ARK
+!contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
+!address: Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo 110-0016, Japan
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02

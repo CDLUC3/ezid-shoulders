@@ -557,6 +557,7 @@ RedirectMatch ^/((ark:/42752)|42752/?)(.*)$ http://cned.fr/$2$3
 RedirectMatch ^/((ark:/30098)|30098/?)(.*)$ http://www.perigueux.fr/$2$3
 RedirectMatch ^/((ark:/17103)|17103/?)(.*)$ http://www.univ-cotedazur.fr/$2$3
 RedirectMatch ^/((ark:/78320)|78320/?)(.*)$ http://www.bmvr.nice.fr/$2$3
+RedirectMatch ^/((ark:/65324)|65324/?)(.*)$ http://www.jaltcriticalthinking.org/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

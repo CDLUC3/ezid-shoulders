@@ -1,16 +1,16 @@
-diff -r 2c5884ad6d9a naans/master_naans
---- a/naans/master_naans	Fri Dec 22 05:41:03 2017 -0800
-+++ b/naans/master_naans	Fri Dec 22 14:29:06 2017 -0800
-@@ -5518,2 +5518,12 @@
+diff -r 8f2dcf5bcbb9 naans/master_naans
+--- a/naans/master_naans	Fri Dec 22 14:29:06 2017 -0800
++++ b/naans/master_naans	Wed Dec 27 05:59:31 2017 -0800
+@@ -5528,2 +5528,12 @@
  naa:
-+who:	Bibliothèque Municipale à Vocation Régionale de Nice (=) BMVRNICE
-+what:	78320
-+when:	2017.12.22
-+where:	http://www.bmvr.nice.fr
++who:	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
++what:	65324
++when:	2017.12.27
++where:	http://www.jaltcriticalthinking.org
 +how:	NP | (:unkn) unknown | 2017 |
 +!why:	ARK
-+!contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
-+!address: 1 avenue Saint Jean Baptiste, 06364 Nice Cedex 4, France
++!contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
++!address: Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo 110-0016, Japan
 +
 +naa:
  who:	Metadata Terms (=) TERMS
