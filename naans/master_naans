@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2017.12.27
+when:	2018.01.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5534,6 +5534,16 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
 !address: Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo 110-0016, Japan
+
+naa:
+who:	Archives départementales du Calvados (=) ADCALVADOS
+what:	52329
+when:	2018.01.11
+where:	https://archives.calvados.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Olive, Elisabeth (assistant director and archivist) ||| archives@calvados.fr | 
+!address: 61 rue de Lion-sur-Mer, 14000 Caen, France
 
 naa:
 who:	Metadata Terms (=) TERMS

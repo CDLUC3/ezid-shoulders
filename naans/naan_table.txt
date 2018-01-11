@@ -557,6 +557,7 @@
 17103	Université Côte d'Azur (=) UCA
 78320	Bibliothèque Municipale à Vocation Régionale de Nice (=) BMVRNICE
 65324	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
+52329	Archives départementales du Calvados (=) ADCALVADOS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

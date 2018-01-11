@@ -1,16 +1,16 @@
-diff -r 8f2dcf5bcbb9 naans/master_naans
---- a/naans/master_naans	Fri Dec 22 14:29:06 2017 -0800
-+++ b/naans/master_naans	Wed Dec 27 05:59:31 2017 -0800
-@@ -5528,2 +5528,12 @@
+diff -r 4f7bf01cf48d naans/master_naans
+--- a/naans/master_naans	Wed Dec 27 05:59:31 2017 -0800
++++ b/naans/master_naans	Thu Jan 11 15:00:41 2018 -0800
+@@ -5538,2 +5538,12 @@
  naa:
-+who:	Japan Association for Language Teaching, Critical Thinking Special Interest Group (=) JALTCTSIG
-+what:	65324
-+when:	2017.12.27
-+where:	http://www.jaltcriticalthinking.org
-+how:	NP | (:unkn) unknown | 2017 |
++who:	Archives départementales du Calvados (=) ADCALVADOS
++what:	52329
++when:	2018.01.11
++where:	https://archives.calvados.fr
++how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
-+!address: Urban Edge Bldg 5F, 1-37-9 Taito, Taito-ku, Tokyo 110-0016, Japan
++!contact: Olive, Elisabeth (assistant director and archivist) ||| archives@calvados.fr | 
++!address: 61 rue de Lion-sur-Mer, 14000 Caen, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS
