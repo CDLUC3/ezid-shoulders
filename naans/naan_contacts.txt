@@ -620,6 +620,8 @@ contact: Pollet, Joel (Librarian) ||| publication-scd@unice.fr |
 contact: Rovis, Claudine (Chief cataloguer) ||| claudine.rovis@ville-nice.fr | 
 contact: Chu, Curtis (Editor-in-chief) ||| curtis2020@gmail.com | 
 contact: Olive, Elisabeth (assistant director and archivist) ||| archives@calvados.fr | 
+contact: Carpentier, Pascal (Chief Information Officer) ||| informatique@ecpad.fr | 
+contact: Rouger, Aude (In charge of digital communication) ||| a.rouger@brgm.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

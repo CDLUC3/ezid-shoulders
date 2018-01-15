@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.11
+when:	2018.01.15
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4201,6 +4201,20 @@ who:	Archives départementales du Calvados (=) ADCALVADOS
 what:	52329
 when:	2018.01.11
 where:	https://archives.calvados.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Établissement de Communication et de Production Audiovisuelle de la Défense (=) ECPAD
+what:	39674
+when:	2018.01.15
+where:	http://ecpad.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Bureau de Recherches Géologiques et Minières (=) French geological survey (=) BRGM
+what:	26679
+when:	2018.01.15
+where:	http://www.brgm.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:
