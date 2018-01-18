@@ -1,26 +1,16 @@
-diff -r 4a0ce01f9f7f naans/master_naans
---- a/naans/master_naans	Thu Jan 11 15:00:41 2018 -0800
-+++ b/naans/master_naans	Mon Jan 15 07:30:54 2018 -0800
-@@ -5548,2 +5548,22 @@
+diff -r 195f5fbd4ed3 naans/master_naans
+--- a/naans/master_naans	Mon Jan 15 07:30:55 2018 -0800
++++ b/naans/master_naans	Thu Jan 18 08:33:15 2018 -0800
+@@ -5568,2 +5568,12 @@
  naa:
-+who:	Établissement de Communication et de Production Audiovisuelle de la Défense (=) ECPAD
-+what:	39674
-+when:	2018.01.15
-+where:	http://ecpad.fr
++who:	Archives de Nîmes (=) ANIMES
++what:	13682
++when:	2018.01.18
++where:	http://archives.nimes-metropole.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Carpentier, Pascal (Chief Information Officer) ||| informatique@ecpad.fr | 
-+!address: 2/8 Route du Fort, 94205 Ivry-sur-Seine, France
-+
-+naa:
-+who:	Bureau de Recherches Géologiques et Minières (=) French geological survey (=) BRGM
-+what:	26679
-+when:	2018.01.15
-+where:	http://www.brgm.fr
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Rouger, Aude (In charge of digital communication) ||| a.rouger@brgm.fr | 
-+!address: BRGM, 3 avenue Claude-Guillemin - BP 36009, 45060 Orléans Cedex 2, France
++!contact: VAZEILLES, Patrick (Archiviste) ||| patrick.vazeilles@nimes.fr | 
++!address: Archives Municipales, 22 bis Rue Pradier, 30000 Nîmes, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

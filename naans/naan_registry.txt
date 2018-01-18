@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.15
+when:	2018.01.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4215,6 +4215,13 @@ who:	Bureau de Recherches Géologiques et Minières (=) French geological survey
 what:	26679
 when:	2018.01.15
 where:	http://www.brgm.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives de Nîmes (=) ANIMES
+what:	13682
+when:	2018.01.18
+where:	http://archives.nimes-metropole.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

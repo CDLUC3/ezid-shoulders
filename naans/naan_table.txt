@@ -560,6 +560,7 @@
 52329	Archives départementales du Calvados (=) ADCALVADOS
 39674	Établissement de Communication et de Production Audiovisuelle de la Défense (=) ECPAD
 26679	Bureau de Recherches Géologiques et Minières (=) French geological survey (=) BRGM
+13682	Archives de Nîmes (=) ANIMES
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
