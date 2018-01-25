@@ -1,16 +1,16 @@
-diff -r 195f5fbd4ed3 naans/master_naans
---- a/naans/master_naans	Mon Jan 15 07:30:55 2018 -0800
-+++ b/naans/master_naans	Thu Jan 18 08:33:15 2018 -0800
-@@ -5568,2 +5568,12 @@
+diff -r 047e40030fdc naans/master_naans
+--- a/naans/master_naans	Thu Jan 18 08:33:15 2018 -0800
++++ b/naans/master_naans	Thu Jan 25 12:15:55 2018 -0800
+@@ -5578,2 +5578,12 @@
  naa:
-+who:	Archives de Nîmes (=) ANIMES
-+what:	13682
-+when:	2018.01.18
-+where:	http://archives.nimes-metropole.fr
++who:	Archives municipales de Lille (=) AMLILLE
++what:	74900
++when:	2018.01.25
++where:	http://archives.lille.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: VAZEILLES, Patrick (Archiviste) ||| patrick.vazeilles@nimes.fr | 
-+!address: Archives Municipales, 22 bis Rue Pradier, 30000 Nîmes, France
++!contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
++!address: Hôtel de Ville, Place Augustin Laurent, BP 667, 59033 Lille Cedex, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

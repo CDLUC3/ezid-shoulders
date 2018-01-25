@@ -561,6 +561,7 @@
 39674	Établissement de Communication et de Production Audiovisuelle de la Défense (=) ECPAD
 26679	Bureau de Recherches Géologiques et Minières (=) French geological survey (=) BRGM
 13682	Archives de Nîmes (=) ANIMES
+74900	Archives municipales de Lille (=) AMLILLE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
