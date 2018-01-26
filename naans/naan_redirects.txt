@@ -563,6 +563,7 @@ RedirectMatch ^/((ark:/39674)|39674/?)(.*)$ http://ecpad.fr/$2$3
 RedirectMatch ^/((ark:/26679)|26679/?)(.*)$ http://www.brgm.fr/$2$3
 RedirectMatch ^/((ark:/13682)|13682/?)(.*)$ http://archives.nimes-metropole.fr/$2$3
 RedirectMatch ^/((ark:/74900)|74900/?)(.*)$ http://archives.lille.fr/$2$3
+RedirectMatch ^/((ark:/61905)|61905/?)(.*)$ http://www.artsdelamarionnette.eu/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

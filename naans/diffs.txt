@@ -1,16 +1,16 @@
-diff -r 047e40030fdc naans/master_naans
---- a/naans/master_naans	Thu Jan 18 08:33:15 2018 -0800
-+++ b/naans/master_naans	Thu Jan 25 12:15:55 2018 -0800
-@@ -5578,2 +5578,12 @@
+diff -r 07d15aa3ae33 naans/master_naans
+--- a/naans/master_naans	Thu Jan 25 12:15:55 2018 -0800
++++ b/naans/master_naans	Fri Jan 26 07:31:01 2018 -0800
+@@ -5588,2 +5588,12 @@
  naa:
-+who:	Archives municipales de Lille (=) AMLILLE
-+what:	74900
-+when:	2018.01.25
-+where:	http://archives.lille.fr
++who:	Institut International de la Marionnette (=) International Puppet Institute (=) IIM
++what:	61905
++when:	2018.01.26
++where:	http://www.artsdelamarionnette.eu
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
-+!address: Hôtel de Ville, Place Augustin Laurent, BP 667, 59033 Lille Cedex, France
++!contact: Fleury, Raphaèle (Head of the Research and Documentation center, project manager of the Web portal of Puppetry Arts (PAM)) ||| recherche.institut@marionnette.com | 
++!address: 7 Place Winston Churchill, 08000 Charleville-Mezieres, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

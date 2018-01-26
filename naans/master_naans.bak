@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.18
+when:	2018.01.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5584,6 +5584,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
 !address: Hôtel de Ville, Place Augustin Laurent, BP 667, 59033 Lille Cedex, France
+
+naa:
+who:	Institut International de la Marionnette (=) International Puppet Institute (=) IIM
+what:	61905
+when:	2018.01.26
+where:	http://www.artsdelamarionnette.eu
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Fleury, Raphaèle (Head of the Research and Documentation center, project manager of the Web portal of Puppetry Arts (PAM)) ||| recherche.institut@marionnette.com | 
+!address: 7 Place Winston Churchill, 08000 Charleville-Mezieres, France
 
 naa:
 who:	Metadata Terms (=) TERMS

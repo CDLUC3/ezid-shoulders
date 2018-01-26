@@ -624,6 +624,7 @@ contact: Carpentier, Pascal (Chief Information Officer) ||| informatique@ecpad.f
 contact: Rouger, Aude (In charge of digital communication) ||| a.rouger@brgm.fr | 
 contact: VAZEILLES, Patrick (Archiviste) ||| patrick.vazeilles@nimes.fr | 
 contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
+contact: Fleury, Raphaèle (Head of the Research and Documentation center, project manager of the Web portal of Puppetry Arts (PAM)) ||| recherche.institut@marionnette.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
