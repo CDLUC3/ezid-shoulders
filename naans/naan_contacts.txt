@@ -336,7 +336,6 @@ contact: Salach, Blandine ||| blandine.salach@cg10.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: eziduserid sb-chg
 contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
-contact: eziduserid utaustin
 contact: eziduserid ucsd_d3r
 contact: eziduserid dartcrawda
 contact: eziduserid cu-ieda
@@ -364,7 +363,6 @@ contact: eziduserid cos
 contact: eziduserid aulibrary
 contact: eziduserid ccc
 contact: eziduserid uoa
-contact: eziduserid uta_ica
 contact: eziduserid iris
 contact: eziduserid uta_peteng
 contact: Libaud, Gaëtane ||| gaetane.libaud@laval.fr |
@@ -448,11 +446,9 @@ contact: eziduserid lbnl-jcap
 contact: eziduserid biocaddie
 contact: Le Monnier, Olivier ||| olivier.lemonnier |
 contact: eziduserid simtk
-contact: eziduserid lafcollib
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
-contact: eziduserid emory
 contact: eziduserid tdl
 contact: eziduserid ucla_ngl
 contact: eziduserid ucolick
@@ -461,7 +457,6 @@ contact: eziduserid umd_ascl
 contact: eziduserid 
 contact: Gruttemeier, Herbert ||| Herbert.GRUTTEMEIER@inist.fr | 33(0)3 83 50 47 59
 contact: eziduserid lbnl-cesd
-contact: eziduserid uta_briscoe
 contact: eziduserid wmlibdigi
 contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr |
 contact: eziduserid sdsu_edwards
@@ -625,6 +620,7 @@ contact: Rouger, Aude (In charge of digital communication) ||| a.rouger@brgm.fr 
 contact: VAZEILLES, Patrick (Archiviste) ||| patrick.vazeilles@nimes.fr | 
 contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
 contact: Fleury, Raphaèle (Head of the Research and Documentation center, project manager of the Web portal of Puppetry Arts (PAM)) ||| recherche.institut@marionnette.com | 
+contact: Bailly, Rodolphe (Deputy Director of the Resources Center) ||| rbailly@cite-musique.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

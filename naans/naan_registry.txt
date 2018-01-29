@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.26
+when:	2018.01.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2377,13 +2377,6 @@ where:	http://www.bn-valenciennes.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    University of Texas at Austin (=) UTAUSTIN
-what:   85781
-when:   2015.02.17
-where:	www.utexas.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    Drug Design Data Resource (=) D3R
 what:   85782
 when:   2015.02.18
@@ -2535,13 +2528,6 @@ who:    University of Auckland (=) UOA
 what:   87608
 when:   2015.04.03
 where:	http://www.auckland.ac.nz/en.html
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    UTA Institute of Classical Archaeology (=) ICA
-what:   87610
-when:   2015.04.06
-where:	http://www.utexas.edu/cola/insts/ica
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -3049,13 +3035,6 @@ where:	http://simtk.org
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    Lafayette College Library (=) LAFCOLLIB
-what:   88736
-when:   2016.02.09
-where:	https://library.lafayette.edu
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	Durham University Library (=) DURUL
 what:	32150
 when:	2016.02.16
@@ -3074,13 +3053,6 @@ who:	Ushaw College Library (=) USHAWCL
 what:	80371
 when:	2016.02.16
 where:	http://n2t.durham.ac.uk
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
-who:    Emory University Library (=) EMORYLIB
-what:   88737
-when:   2016.02.17
-where:	web.library.emory.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -3137,13 +3109,6 @@ who:    LBNL Climate & Ecosystems Science Division (=) LBNLCESD
 what:   80358
 when:   2016.03.30
 where:	http://esd.lbl.gov/our-divisions/climate-ecosystem-sciences
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
-who:    UTA Dolph Briscoe Center (=) BRISCOE
-what:   80359
-when:   2016.03.30
-where:	http://www.cah.utexas.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -4236,6 +4201,13 @@ who:	Institut International de la Marionnette (=) International Puppet Institute
 what:	61905
 when:	2018.01.26
 where:	http://www.artsdelamarionnette.eu
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Cité de la musique - Philharmonie de Paris (=) CMPP
+what:	49250
+when:	2018.01.29
+where:	http://philharmoniedeparis.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

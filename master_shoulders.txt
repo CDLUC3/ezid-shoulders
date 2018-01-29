@@ -12,12 +12,6 @@
 # Former records (removed or overwritten) may sometimes be found in the
 # companion file, former_shoulders.txt.
 
-# Prefixes listed at mds.datacite.org under "CDL" account
-# Prefix brought in from CrossRef 2012.01.02
-#-> 10.3334
-# Original prefixes belonging to CDL/EZID
-#-> 10.5062 ... 10.5069
-
 # Default account set up: one DOI shoulder+minter and one ARK shoulder+minter
 # NAANs and Prefixes no longer need to be at highest level of an org, eg, a
 # campus library can register as a library and not necessarily as the campus
@@ -76,16 +70,22 @@
 # Counts above are as of 2016.03.23
 
 # Procedures for removing and transferring stuff:
-#   https://confluence.ucop.edu/display/DataCite/Transferring+a+client+from+EZID+to+another+provider
+#   https://confluence.ucop.edu/pages/viewpage.action?pageId=185207031
 
-# Shoulders to recycle (first do "make_shdr --remove ..." for any minter):
-#    < >
-# NAANs/Prefixes to re-use:
-#    < 87292 87287 81428 >
+# To remove an entire ezid account,
+# 1. For each shoulder, do: make_shdr --remove <shoulder_name>
+# 2. Move all shoulders and datacenter to former_shoulders file.
+# 3. Move NAAN entry to naans/former_naans file
+# 4. Add NAAN string to list below of NAANs to recycle.
+# 5. Reload EZID.
+
+# NAANs/Prefixes to re-use (don't forget to drop these from NAAN registry):
+#    < 87292 87287 81428 88736 88737 80359 87610 85781 >
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
 #    <  >
+# Prefixes also listed at mds.datacite.org under CDL and PURDUE accounts.
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -1513,7 +1513,6 @@ name: Defense Technical Information Center (no minter)
 date: 2016.06.09
 minter:
 datacenter: CDL.DTIC
-crossref: true
 
 :: ark:/81238/s3
 type: shoulder
@@ -1565,7 +1564,6 @@ name: Defense Technical Information Center (DTIC)
 date: 2016.05.26
 minter: https://n2t.net/a/ezid/m/ark/d1236/d6
 datacenter: CDL.DTIC
-crossref: true
 
 :: ark:/81235/
 type: shoulder
@@ -1695,14 +1693,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1229/m9
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
-:: ark:/87603/n9
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: DesignSafe No Minter
-date: 2016.05.18
-minter:
-
 :: doi:10.17603/N6
 type: shoulder
 manager: ezid
@@ -1711,14 +1701,6 @@ name: DesignSafe No Minter
 date: 2016.05.18
 minter:
 datacenter: CDL.TACC
-
-:: ark:/87603/ds2
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: DesignSafe Minter
-date: 2016.05.17
-minter: https://n2t.net/a/ezid/m/ark/87603/ds2
 
 :: ark:/81228/w2
 type: shoulder
@@ -1940,14 +1922,6 @@ minter: https://n2t.net/a/ezid/m/ark/d0360/g2
 datacenter: CDL.UAL
 crossref: true
 prefix_shares_datacenter: true
-
-:: ark:/80359/d3
-type: shoulder
-manager: ezid
-#eziduser: uta_briscoe
-name: UTA Dolph Briscoe Center
-date: 2016.03.30
-minter: https://n2t.net/a/ezid/m/ark/80359/d3
 
 :: doi:10.20359/T6
 type: shoulder
@@ -2172,29 +2146,6 @@ date: 2016.02.29
 minter: https://n2t.net/a/ezid/m/ark/c8738/t8
 datacenter: CDL.TDL
 
-:: ark:/88737/m3
-type: shoulder
-manager: ezid
-#eziduser: emory
-name: Emory University
-date: 2016.02.17
-minter: https://n2t.net/a/ezid/m/ark/88737/m3
-
-:: datacite:CDL.EMU
-type: datacenter
-manager: ezid
-name: Emory University
-
-:: doi:10.18737/M7
-type: shoulder
-manager: ezid
-#eziduser: emory
-name: Emory University
-date: 2016.02.17
-minter: https://n2t.net/a/ezid/m/ark/c8737/m7
-datacenter: CDL.EMU
-crossref: true
-
 :: ark:/28722/h2
 type: shoulder
 manager: ezid
@@ -2202,23 +2153,6 @@ manager: ezid
 name: UC Berkeley Library - HathiTrust/UCB
 date: 2016.02.10
 minter: https://n2t.net/a/ezid/m/ark/28722/h2
-
-:: ark:/88736/c3
-type: shoulder
-manager: ezid
-#eziduser: lafcollib
-name: Lafayette College Libr
-date: 2016.02.09
-minter: https://n2t.net/a/ezid/m/ark/88736/c3
-
-:: doi:10.18736/C6
-type: shoulder
-manager: ezid
-#eziduser: lafcollib
-name: Lafayette College Libr
-date: 2016.02.09
-minter: https://n2t.net/a/ezid/m/ark/c8736/c6
-datacenter: CDL.LAFCOLLI
 
 :: doi:10.6071/Z7
 type: shoulder
@@ -2530,7 +2464,6 @@ name: University of Virginia
 date: 2015.11.19
 minter: https://n2t.net/a/ezid/m/ark/c8130/v3
 datacenter: CDL.UVA
-crossref: true
 
 :: doi:10.4231/H4
 type: shoulder
@@ -2807,7 +2740,6 @@ name: Entrepreneur & Innovation Exchange
 date: 2015.07.15
 minter: https://n2t.net/a/ezid/m/ark/c7919/x9
 datacenter: CDL.EIX
-crossref: true
 
 :: ark:/87918/d9
 type: shoulder
@@ -3174,14 +3106,6 @@ date: 2015.04.06
 minter:
 datacenter: CDL.IRIS
 
-:: ark:/87610/t6
-type: shoulder
-manager: ezid
-#eziduser: uta_ica
-name: UTA Institute of Classical Archaeology
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/87610/t6
-
 :: doi:10.17610/T7
 type: shoulder
 manager: ezid
@@ -3363,15 +3287,6 @@ name: Morphosource Project
 date: 2015.03.26
 minter: https://n2t.net/a/ezid/m/ark/87602/m4
 
-:: doi:10.17602/M2
-type: shoulder
-manager: ezid
-#eziduser: duke_morpho
-name: Morphosource Project
-date: 2015.03.26
-minter: https://n2t.net/a/ezid/m/ark/c7602/m2
-datacenter: CDL.MORPHOSO
-
 :: doi:10.7931/L1
 type: shoulder
 manager: ezid
@@ -3526,14 +3441,6 @@ name: Drug Design Data (D3R) Resource
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/c5782/d6
 datacenter: CDL.D3R
-
-:: ark:/85781/t4
-type: shoulder
-manager: ezid
-#eziduser: utaustin
-name: University of Texas at Austin
-date: 2015.02.17
-minter: https://n2t.net/a/ezid/m/ark/85781/t4
 
 :: doi:10.15781/T2
 type: shoulder
@@ -4818,15 +4725,6 @@ name: Duke University
 date: 2013.10.14
 minter: https://n2t.net/a/ezid/m/ark/87924/g9
 
-:: doi:10.7924/G8
-type: shoulder
-manager: ezid
-#eziduser: duke_lib
-name: Duke University
-date: 2013.10.14
-minter: https://n2t.net/a/ezid/m/ark/b7924/g8
-datacenter: CDL.DUL
-
 :: ark:/87923/g5
 type: shoulder
 manager: ezid
@@ -5447,15 +5345,6 @@ name: Biocode Commons (UCB only)
 date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
 datacenter: CDL.BIOCODE
-
-:: doi:10.7287/
-type: shoulder
-manager: ezid
-#eziduser: peerj
-name: PeerJ
-date: 2012.12.06
-minter:
-datacenter: CDL.PEERJ
 
 :: ark:/34231/v0
 type: shoulder
@@ -6842,11 +6731,6 @@ type: datacenter
 manager: ezid
 name: Dryad
 
-:: datacite:CDL.DUL
-type: datacenter
-manager: ezid
-name: Duke University
-
 :: datacite:CDL.EAEI
 type: datacenter
 manager: ezid
@@ -6970,11 +6854,6 @@ type: datacenter
 manager: ezid
 name: LabArchives
 
-:: datacite:CDL.LAFCOLLI
-type: datacenter
-manager: ezid
-name: Lafayette College Library
-
 :: datacite:CDL.LALEUMBC
 type: datacenter
 manager: ezid
@@ -7039,11 +6918,6 @@ name: Modern Language Association
 type: datacenter
 manager: ezid
 name: MorphoBank
-
-:: datacite:CDL.MORPHOSO
-type: datacenter
-manager: ezid
-name: Morphosource Project
 
 :: datacite:CDL.MSU
 type: datacenter
@@ -7139,11 +7013,6 @@ name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC
 type: datacenter
 manager: ezid
 name: Oregon State University
-
-:: datacite:CDL.PEERJ
-type: datacenter
-manager: ezid
-name: PeerJ
 
 :: datacite:CDL.PGERR
 type: datacenter

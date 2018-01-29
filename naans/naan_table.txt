@@ -297,7 +297,6 @@
 42751	Archives départementales de l'Aube (=) ADAUBE
 85788	UCSB Climate Hazards Group, Dept of Geography (=) SBGEOG
 29755	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
-85781	University of Texas at Austin (=) UTAUSTIN
 85782	Drug Design Data Resource (=) D3R
 85783	CRAWDAD (=) CRAWDAD
 85784	Interdisciplinary Earth Data Alliance (=) IEDA
@@ -320,7 +319,6 @@
 87606	American University Library (=) AUL
 87607	Chicago Collections Consortium (=) CCC
 87608	University of Auckland (=) UOA
-87610	UTA Institute of Classical Archaeology (=) ICA
 87611	Incorporated Research Institutions for Seismology (=) IRIS
 87612	UTA Petroleum Engineering (=) PGERR
 74558	Archives municipales de Laval (=) AMLAVAL
@@ -393,11 +391,9 @@
 57799	bioCADDIE (=) BIOCADDIE
 44804	Université de Caen Normandie (=) UCN
 88735	SimTK (=) SIMTK
-88736	Lafayette College Library (=) LAFCOLLIB
 32150	Durham University Library (=) DURUL
 19154	Durham Cathedral Library (=) DURCL
 80371	Ushaw College Library (=) USHAWCL
-88737	Emory University Library (=) EMORYLIB
 88738	Texas Digital Library (=) TDL
 80352	UCLA Civil and Environmental Engineering (=) UCLACEE
 80353	UC Observatories (=) UCOLICK
@@ -406,7 +402,6 @@
 80357	San Diego State University Library (=) SDSULIB
 67375	Institut de l'information scientifique et technique (=) Institute for scientific and technical information (=) INIST
 80358	LBNL Climate & Ecosystems Science Division (=) LBNLCESD
-80359	UTA Dolph Briscoe Center (=) BRISCOE
 81220	College of William & Mary Libraries (=) WMLIB
 54380	Bibliothèque Municipale d'Angers (=) BMA
 81221	SDSU Computer Science (=) SDSUCS
@@ -563,6 +558,7 @@
 13682	Archives de Nîmes (=) ANIMES
 74900	Archives municipales de Lille (=) AMLILLE
 61905	Institut International de la Marionnette (=) International Puppet Institute (=) IIM
+49250	Cité de la musique - Philharmonie de Paris (=) CMPP
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
