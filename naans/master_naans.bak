@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.26
+when:	2018.01.29
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5559,6 +5559,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Bailly, Rodolphe (Deputy Director of the Resources Center) ||| rbailly@cite-musique.fr | 
 !address: 221 avenue Jean-Jaurès, 75019, Paris, France
+
+naa:
+who:	Réunion des musées nationaux - Grand Palais (=) RMNGP
+what:	36255
+when:	2018.02.01
+where:	http://grandpalais.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.fr | 
+!address: 254/256 rue de Bercy, 75012 Paris, France
 
 naa:
 who:	Metadata Terms (=) TERMS

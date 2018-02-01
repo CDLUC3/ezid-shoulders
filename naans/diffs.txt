@@ -1,76 +1,16 @@
-diff -r 6e6b8b707585 naans/master_naans
---- a/naans/master_naans	Fri Jan 26 07:31:01 2018 -0800
-+++ b/naans/master_naans	Mon Jan 29 14:49:00 2018 -0800
-@@ -3036,11 +3036,2 @@
+diff -r 8e1f7731c884 naans/master_naans
+--- a/naans/master_naans	Mon Jan 29 14:49:00 2018 -0800
++++ b/naans/master_naans	Thu Feb 01 11:15:29 2018 -0800
+@@ -5563,2 +5563,12 @@
  naa:
--who:    University of Texas at Austin (=) UTAUSTIN
--what:   85781
--when:   2015.02.17
--where:	www.utexas.edu
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid utaustin
--
--naa:
- who:    Drug Design Data Resource (=) D3R
-@@ -3248,11 +3239,2 @@
- naa:
--who:    UTA Institute of Classical Archaeology (=) ICA
--what:   87610
--when:   2015.04.06
--where:	http://www.utexas.edu/cola/insts/ica
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid uta_ica
--
--naa:
- who:    Incorporated Research Institutions for Seismology (=) IRIS
-@@ -3916,11 +3898,2 @@
- naa:
--who:    Lafayette College Library (=) LAFCOLLIB
--what:   88736
--when:   2016.02.09
--where:	https://library.lafayette.edu
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid lafcollib
--
--naa:
- who:	Durham University Library (=) DURUL
-@@ -3952,11 +3925,2 @@
- naa:
--who:    Emory University Library (=) EMORYLIB
--what:   88737
--when:   2016.02.17
--where:	web.library.emory.edu
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid emory
--
--naa:
- who:    Texas Digital Library (=) TDL
-@@ -4033,11 +3997,2 @@
- naa:
--who:    UTA Dolph Briscoe Center (=) BRISCOE
--what:   80359
--when:   2016.03.30
--where:	http://www.cah.utexas.edu
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid uta_briscoe
--
--naa:
- who:    College of William & Mary Libraries (=) WMLIB
-@@ -5598,2 +5553,12 @@
- naa:
-+who:	Cité de la musique - Philharmonie de Paris (=) CMPP
-+what:	49250
-+when:	2018.01.29
-+where:	http://philharmoniedeparis.fr
++who:	Réunion des musées nationaux - Grand Palais (=) RMNGP
++what:	36255
++when:	2018.02.01
++where:	http://grandpalais.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Bailly, Rodolphe (Deputy Director of the Resources Center) ||| rbailly@cite-musique.fr | 
-+!address: 221 avenue Jean-Jaurès, 75019, Paris, France
++!contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.fr | 
++!address: 254/256 rue de Bercy, 75012 Paris, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

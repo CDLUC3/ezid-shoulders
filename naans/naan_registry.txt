@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.01.29
+when:	2018.02.01
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4208,6 +4208,13 @@ who:	Cité de la musique - Philharmonie de Paris (=) CMPP
 what:	49250
 when:	2018.01.29
 where:	http://philharmoniedeparis.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Réunion des musées nationaux - Grand Palais (=) RMNGP
+what:	36255
+when:	2018.02.01
+where:	http://grandpalais.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

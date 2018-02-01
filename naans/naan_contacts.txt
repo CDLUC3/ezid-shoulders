@@ -621,6 +621,7 @@ contact: VAZEILLES, Patrick (Archiviste) ||| patrick.vazeilles@nimes.fr |
 contact: Vaniet, Cecile (Archiviste) ||| cvaniet@mairie-lille.fr | 
 contact: Fleury, Raphaèle (Head of the Research and Documentation center, project manager of the Web portal of Puppetry Arts (PAM)) ||| recherche.institut@marionnette.com | 
 contact: Bailly, Rodolphe (Deputy Director of the Resources Center) ||| rbailly@cite-musique.fr | 
+contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

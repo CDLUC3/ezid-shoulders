@@ -79,8 +79,9 @@
 # 4. Add NAAN string to list below of NAANs to recycle.
 # 5. Reload EZID.
 
-# NAANs/Prefixes to re-use (don't forget to drop these from NAAN registry):
+# NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87292 87287 81428 88736 88737 80359 87610 85781 >
+#    xxx plus 97720 is now free (shadow UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
