@@ -18,6 +18,8 @@ import datetime
 import lxml.etree
 import re
 import sys
+import time
+import xml.sax.saxutils
 import zlib
 
 maxIdentifierLength = 255
@@ -117,19 +119,18 @@ def validateArk (ark):
   if len(p)+len(s) > maxIdentifierLength-5: return None
   return p+s
 
-_urnUuidPattern = re.compile("[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$",
-  re.I)
+_uuidPattern = re.compile("[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$", re.I)
 
-def validateUrnUuid (urn):
+def validateUuid (id):
   """
   If the supplied string (e.g.,
   "f81d4fae-7dec-11d0-a765-00a0c91e6bf6") is a syntactically valid
-  scheme-less UUID URN identifier as defined by RFC 4122
+  scheme-less UUID identifier as defined by RFC 4122
   <http://www.ietf.org/rfc/rfc4122.txt>, returns the canonical form of
   the identifier (namely, lowercased).  Otherwise, returns None.
   """
-  if _urnUuidPattern.match(urn) and urn[-1] != "\n":
-    return urn.lower()
+  if _uuidPattern.match(id) and id[-1] != "\n":
+    return id.lower()
   else:
     return None
 
@@ -151,10 +152,10 @@ def validateIdentifier (identifier):
       return "doi:" + s
     else:
       return None
-  elif identifier.startswith("urn:uuid:"):
-    s = validateUrnUuid(identifier[9:])
+  elif identifier.startswith("uuid:"):
+    s = validateUuid(identifier[5:])
     if s != None:
-      return "urn:uuid:" + s
+      return "uuid:" + s
     else:
       return None
   else:
@@ -174,7 +175,7 @@ def validateShoulder (shoulder):
   elif shoulder.startswith("doi:"):
     id = shoulder[4:] + "X"
     return validateDoi(id) == id
-  elif shoulder == "urn:uuid:":
+  elif shoulder == "uuid:":
     return True
   else:
     return False
@@ -202,8 +203,7 @@ def doi2shadow (doi):
   """
   Given a scheme-less DOI identifier (e.g., "10.5060/FOO"), returns
   the corresponding scheme-less shadow ARK identifier (e.g.,
-  "b5060/foo").  The returned identifier is in canonical form.  Note
-  that the conversion is *not* in general reversible by shadow2doi.
+  "b5060/foo").  The returned identifier is in canonical form.
   """
   # The conversion of DOIs to ARKs is a little tricky because ARKs
   # place semantics on certain characters in suffixes while DOIs do
@@ -236,31 +236,47 @@ def doi2shadow (doi):
   assert a != None, "shadow ARK failed validation"
   return a
 
+_hexDecodePattern = re.compile("%([0-9a-fA-F][0-9a-fA-F])")
+
 def shadow2doi (ark):
   """
-  Given a scheme-less shadow ARK identifier (e.g., "b5060/foo"),
-  returns the corresponding scheme-less DOI identifier
-  (e.g. "10.5060/FOO").  The returned identifier is in canonical form.
-  This function is intended to be used for noid-minted ARK identifiers
-  only; it is not in general the inverse of doi2shadow.
+  Given a scheme-less shadow ARK identifier for a DOI (e.g.,
+  "b5060/foo"), returns the corresponding scheme-less DOI identifier
+  (e.g., "10.5060/FOO").  The returned identifier is in canonical
+  form.
   """
   if ark[0] == "b":
     doi = "10." + ark[1:]
   else:
     doi = "10." + chr(ord("1")+ord(ark[0])-ord("c")) + ark[1:]
-  return doi.upper()
+  return _hexDecodePattern.sub(lambda c: chr(int(c.group(1), 16)), doi).upper()
 
-_urnUuidShadowArkPrefix = "97720/"
+_shadowedDoiPattern = re.compile("ark:/[b-k]") # see _arkPattern1 above
 
-def urnUuid2shadow (urn):
+def normalizeIdentifier (identifier):
   """
-  Given a scheme-less UUID URN identifier (e.g.,
-  "f81d4fae-7dec-11d0-a765-00a0c91e6bf6"), returns the corresponding
-  scheme-less shadow ARK identifier (e.g.,
-  "97720/f81d4fae7dec11d0a76500a0c91e6bf6").  The URN is assumed to be
-  in canonical form; the returned identifier is in canonical form.
+  Similar to 'validateIdentifier': if the supplied string is any type
+  of qualified, syntactically valid identifier, returns the canonical
+  form of the identifier.  However, if the identifier is a shadow ARK,
+  this function instead returns (the canonical form of) the shadowed
+  identifier.  On any kind of error, returns None.
   """
-  return _urnUuidShadowArkPrefix + urn.replace("-", "")
+  id = validateIdentifier(identifier)
+  if id == None: return None
+  if id.startswith("ark:/"):
+    # The reverse shadow function doesn't check that the supplied
+    # identifier is indeed a valid shadow ARK, so we check that the
+    # returned identifier is valid and produces the same shadow ARK.
+    if _shadowedDoiPattern.match(id):
+      doi = shadow2doi(id[5:])
+      if validateDoi(doi) != None and doi2shadow(doi) == id[5:]:
+        return "doi:" + doi
+      else:
+        return None
+    else:
+      return id
+  else:
+    return id
 
 def _encode (pattern, s):
   return pattern.sub(lambda c: "%%%02X" % ord(c.group(0)), s.encode("UTF-8"))
@@ -408,6 +424,55 @@ def formatException (exception):
   s = oneLine(str(exception)).strip()
   if len(s) > 0: s = ": " + s
   return type(exception).__name__ + s
+
+def desentencify (s):
+  """
+  Turns a string that looks like a sentence (initial capital letter,
+  period at the end) into a phrase.  Fallible, but tries to be
+  careful.
+  """
+  if len(s) >= 2 and s[0].isupper() and not s[1].isupper():
+    s = s[0].lower() + s[1:]
+  if s.endswith("."):
+    return s[:-1]
+  else:
+    return s
+
+# The following dictionary maps Identifier model fields to ANVL
+# labels, to the extent possible.
+
+_modelAnvlLabelMapping = {
+  "owner": "_owner",
+  "ownergroup": "_ownergroup",
+  "createTime": "_created",
+  "updateTime": "_updated",
+  "status": "_status",
+  "unavailableReason": "_status",
+  "exported": "_export",
+  "datacenter": "_datacenter",
+  "crossrefStatus": "_crossref",
+  "crossrefMessage": "_crossref",
+  "target": "_target",
+  "profile": "_profile",
+  "agentRole": "_ezid_role"
+}
+
+def formatValidationError (exception, convertToAnvlLabels=True):
+  """
+  Formats a Django validation error into a single-line string.  If
+  'convertToAnvlLabels' is true, an attempt is made to convert any
+  model field names referenced in the error to their ANVL
+  counterparts.
+  """
+  l = []
+  for entry in exception:
+    if type(entry) is tuple:
+      l.append("%s: %s" % (_modelAnvlLabelMapping.get(entry[0], entry[0])\
+        if convertToAnvlLabels else entry[0],
+        ", ".join(desentencify(s) for s in entry[1])))
+    else:
+      l.append(desentencify(entry))
+  return oneLine("; ".join(l))
 
 _illegalAsciiCharsRE = re.compile("[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\xFF]")
 
@@ -576,6 +641,13 @@ def extractXmlContent (document):
 
 _datespecRE = re.compile("(\d{4})(?:-(\d\d)(?:-(\d\d))?)?$")
 
+def xmlEscape (s):
+  """
+  Suitably escapes a string for inclusion in an XML element or
+  attribute (assuming attributes are delimited by double quotes).
+  """
+  return xml.sax.saxutils.escape(s, { "\"": "&quot;" })
+
 def dateToLowerTimestamp (date):
   """
   Converts a string date of the form YYYY, YYYY-MM, or YYYY-MM-DD to a
@@ -625,3 +697,24 @@ def dateToUpperTimestamp (date):
     return calendar.timegm(date.timetuple()) - 1
   except ValueError:
     return None
+
+def formatTimestampZulu (t):
+  """
+  Returns a Unix timestamp in ISO 8601 UTC format.
+  """
+  return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(t))
+
+def parseTimestampZulu (s, allowDateOnly=False):
+  """
+  Parses a time (or just a date, if 'allowDateOnly' is true) in ISO
+  8601 UTC format and returns a Unix timestamp.  Raises an exception
+  on parse error.
+  """
+  t = None
+  if allowDateOnly:
+    try:
+      t = time.strptime(s, "%Y-%m-%d")
+    except:
+      pass
+  if t == None: t = time.strptime(s, "%Y-%m-%dT%H:%M:%SZ")
+  return calendar.timegm(t)

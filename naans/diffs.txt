@@ -1,16 +1,16 @@
-diff -r 8e1f7731c884 naans/master_naans
---- a/naans/master_naans	Mon Jan 29 14:49:00 2018 -0800
-+++ b/naans/master_naans	Thu Feb 01 11:15:29 2018 -0800
-@@ -5563,2 +5563,12 @@
+diff -r b25f2bf51374 naans/master_naans
+--- a/naans/master_naans	Thu Feb 01 11:15:29 2018 -0800
++++ b/naans/master_naans	Mon Feb 05 09:45:51 2018 -0800
+@@ -5573,2 +5573,12 @@
  naa:
-+who:	Réunion des musées nationaux - Grand Palais (=) RMNGP
-+what:	36255
-+when:	2018.02.01
-+where:	http://grandpalais.fr
++who:	Agence France Presse (=) AFP
++what:	23258
++when:	2018.02.05
++where:	http://www.afp.com
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.fr | 
-+!address: 254/256 rue de Bercy, 75012 Paris, France
++!contact: BEYNET, Yannick (IPTC AFP representative) ||| id-naa@afp.com | 
++!address: 11-13 Place de la Bourse, 75002 PARIS, FRANCE
 +
 +naa:
  who:	Metadata Terms (=) TERMS
