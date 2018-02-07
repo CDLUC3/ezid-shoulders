@@ -151,7 +151,6 @@
 11971	Archives départementales de l'Aveyron (=) ADAVEYRON
 73531	Archives départementales du Var (=) ADVAR
 87295	Center for Research in Biological Systems (=) CRBS
-87296	Edom Lowlands Regional Archaeology Project (=) ELRAP
 87297	UC Berkeley Department of Linguistics (=) UCBLING
 60535	Archives départementales de Saône-et-Loire (=) ADSL
 47539	Archives départementales de la Haute-Loire (=) ADHL
@@ -561,6 +560,7 @@
 49250	Cité de la musique - Philharmonie de Paris (=) CMPP
 36255	Réunion des musées nationaux - Grand Palais (=) RMNGP
 23258	Agence France Presse (=) AFP
+87292	Iowa State University (=) IASTATELIB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

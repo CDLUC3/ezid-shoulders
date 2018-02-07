@@ -1,16 +1,28 @@
-diff -r b25f2bf51374 naans/master_naans
---- a/naans/master_naans	Thu Feb 01 11:15:29 2018 -0800
-+++ b/naans/master_naans	Mon Feb 05 09:45:51 2018 -0800
-@@ -5573,2 +5573,12 @@
+diff -r 6936b0b1ff6f naans/master_naans
+--- a/naans/master_naans	Mon Feb 05 09:45:51 2018 -0800
++++ b/naans/master_naans	Wed Feb 07 09:42:53 2018 -0800
+@@ -1703,11 +1703,2 @@
  naa:
-+who:	Agence France Presse (=) AFP
-+what:	23258
-+when:	2018.02.05
-+where:	http://www.afp.com
+-who:    Edom Lowlands Regional Archaeology Project (=) ELRAP
+-what:   87296
+-when:   2013.03.07
+-where:	http://anthro.ucsd.edu/~tlevy
+-how:	NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid ucsd_elrap
+-
+-naa:
+ who:    UC Berkeley Department of Linguistics (=) UCBLING
+@@ -5583,2 +5574,12 @@
+ naa:
++who:	Iowa State University (=) IASTATELIB
++what:	87292
++when:	2018.02.07
++where:	http://www.lib.iastate.edu
 +how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: BEYNET, Yannick (IPTC AFP representative) ||| id-naa@afp.com | 
-+!address: 11-13 Place de la Bourse, 75002 PARIS, FRANCE
++!why:	EZID ARK ONLY
++!contact: eziduserid iastate_lib
++!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
 +
 +naa:
  who:	Metadata Terms (=) TERMS

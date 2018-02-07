@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.01
+when:	2018.02.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1699,15 +1699,6 @@ where:	http://crbs.ucsd.edu
 how:	NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid ucsd_crbs
-
-naa:
-who:    Edom Lowlands Regional Archaeology Project (=) ELRAP
-what:   87296
-when:   2013.03.07
-where:	http://anthro.ucsd.edu/~tlevy
-how:	NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid ucsd_elrap
 
 naa:
 who:    UC Berkeley Department of Linguistics (=) UCBLING
@@ -5579,6 +5570,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: BEYNET, Yannick (IPTC AFP representative) ||| id-naa@afp.com | 
 !address: 11-13 Place de la Bourse, 75002 PARIS, FRANCE
+
+naa:
+who:	Iowa State University (=) IASTATELIB
+what:	87292
+when:	2018.02.07
+where:	http://www.lib.iastate.edu
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK ONLY
+!contact: eziduserid iastate_lib
+!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
 
 naa:
 who:	Metadata Terms (=) TERMS

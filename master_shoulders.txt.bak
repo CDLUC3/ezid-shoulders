@@ -79,8 +79,10 @@
 # 4. Add NAAN string to list below of NAANs to recycle.
 # 5. Reload EZID.
 
-# NAANs/Prefixes to re-use (don't forget to drop these from NAAN registry):
-#    < 87292 87287 81428 88736 88737 80359 87610 85781 >
+# NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
+#    < 87292 87287 81428 88736 88737 80359 87610 85781 87296 >
+#    < 10.7296 >
+#    97720 is now free (used to be shadow ARKs for UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
 # Datacenters to drop:
@@ -4725,15 +4727,6 @@ name: Duke University
 date: 2013.10.14
 minter: https://n2t.net/a/ezid/m/ark/87924/g9
 
-:: doi:10.7924/G8
-type: shoulder
-manager: ezid
-#eziduser: duke_lib
-name: Duke University
-date: 2013.10.14
-minter: https://n2t.net/a/ezid/m/ark/b7924/g8
-datacenter: CDL.DUL
-
 :: ark:/87923/g5
 type: shoulder
 manager: ezid
@@ -5187,24 +5180,6 @@ date: 2013.03.11
 minter: https://n2t.net/a/ezid/m/ark/b7298/x4
 datacenter: CDL.CUL
 
-:: ark:/87296/x1
-type: shoulder
-manager: ezid
-#eziduser: ucsd_elrap
-name: Edom Lowlands Regional Archaeology Project
-date: 2013.03.07
-minter: https://n2t.net/a/ezid/m/ark/87296/x1
-
-:: doi:10.7296/X0
-type: shoulder
-manager: ezid
-#eziduser: ucsd_elrap
-name: Edom Lowlands Regional Archaeology Project
-date: 2013.03.07
-minter: https://n2t.net/a/ezid/m/ark/b7296/x0
-datacenter: CDL.UCSD
-prefix_shares_datacenter: true
-
 :: ark:/87297/x3
 type: shoulder
 manager: ezid
@@ -5457,6 +5432,11 @@ name: Johns Hopkins University Data Archive
 date: 2012.09.13
 minter: https://n2t.net/a/ezid/m/ark/b7281/t1
 datacenter: CDL.JHU
+
+:: datacite:CDL.UCI
+type: datacenter
+manager: ezid
+name: UC Irvine Library
 
 :: ark:/87280/t0
 type: shoulder
@@ -6740,11 +6720,6 @@ type: datacenter
 manager: ezid
 name: Dryad
 
-:: datacite:CDL.DUL
-type: datacenter
-manager: ezid
-name: Duke University
-
 :: datacite:CDL.EAEI
 type: datacenter
 manager: ezid
@@ -7197,11 +7172,6 @@ name: University of California, Davis, University Library
 type: datacenter
 manager: ezid
 name: University College Dublin
-
-:: datacite:CDL.UCI
-type: datacenter
-manager: ezid
-name: UC Irvine Library
 
 :: datacite:CDL.UCLA
 type: datacenter

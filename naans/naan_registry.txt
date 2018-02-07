@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.05
+when:	2018.02.07
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1352,13 +1352,6 @@ who:    Center for Research in Biological Systems (=) CRBS
 what:   87295
 when:   2013.03.04
 where:	http://crbs.ucsd.edu
-how:	NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    Edom Lowlands Regional Archaeology Project (=) ELRAP
-what:   87296
-when:   2013.03.07
-where:	http://anthro.ucsd.edu/~tlevy
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -4222,6 +4215,13 @@ who:	Agence France Presse (=) AFP
 what:	23258
 when:	2018.02.05
 where:	http://www.afp.com
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Iowa State University (=) IASTATELIB
+what:	87292
+when:	2018.02.07
+where:	http://www.lib.iastate.edu
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

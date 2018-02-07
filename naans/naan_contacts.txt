@@ -171,7 +171,6 @@ contact: Olive, Béatrice || beatrice.olive@cg12.fr |
 contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 contact: Jegouzo, Benoît ||| bjegouzo@cg83.fr | +33 04.98.10.22.77
 contact: eziduserid ucsd_crbs
-contact: eziduserid ucsd_elrap
 contact: eziduserid ucb-ling
 contact: Simonet, Luc ||| l.simonet@cg71.fr | +33 03 85 39 75 68
 contact: Rahon, Antoine ||| antoine.rahon@cg43.fr | +33 04.71.02.52.09
@@ -623,6 +622,7 @@ contact: Fleury, Raphaèle (Head of the Research and Documentation center, proje
 contact: Bailly, Rodolphe (Deputy Director of the Resources Center) ||| rbailly@cite-musique.fr | 
 contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.fr | 
 contact: BEYNET, Yannick (IPTC AFP representative) ||| id-naa@afp.com | 
+contact: eziduserid iastate_lib
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
