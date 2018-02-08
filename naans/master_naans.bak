@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.05
+when:	2018.02.07
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5579,7 +5579,17 @@ where:	http://www.lib.iastate.edu
 how:	NP | (:unkn) unknown | 2018 |
 !why:	EZID ARK ONLY
 !contact: eziduserid iastate_lib
-!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
+!address: University Library  701 Morrill Rd., Ames, IA  50011-2101
+
+naa:
+who:	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) MFMP
+what:	10262
+when:	2018.02.08
+where:	http://www.bm-poitiers.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
+!address: 4 rue de l'Université, CS 70619, 86022, Poitiers, France
 
 naa:
 who:	Metadata Terms (=) TERMS

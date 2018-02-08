@@ -1,28 +1,18 @@
-diff -r 6936b0b1ff6f naans/master_naans
---- a/naans/master_naans	Mon Feb 05 09:45:51 2018 -0800
-+++ b/naans/master_naans	Wed Feb 07 09:42:53 2018 -0800
-@@ -1703,11 +1703,2 @@
- naa:
--who:    Edom Lowlands Regional Archaeology Project (=) ELRAP
--what:   87296
--when:   2013.03.07
--where:	http://anthro.ucsd.edu/~tlevy
--how:	NP | (:unkn) unknown | 2013 |
--!why:   EZID ARK
--!contact: eziduserid ucsd_elrap
--
--naa:
- who:    UC Berkeley Department of Linguistics (=) UCBLING
-@@ -5583,2 +5574,12 @@
- naa:
-+who:	Iowa State University (=) IASTATELIB
-+what:	87292
-+when:	2018.02.07
-+where:	http://www.lib.iastate.edu
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK ONLY
-+!contact: eziduserid iastate_lib
-+!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
+diff -r 09ebeede7fab naans/master_naans
+--- a/naans/master_naans	Wed Feb 07 09:42:53 2018 -0800
++++ b/naans/master_naans	Thu Feb 08 05:10:56 2018 -0800
+@@ -5581,3 +5581,13 @@
+ !contact: eziduserid iastate_lib
+-!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
++!address: University Library  701 Morrill Rd., Ames, IA  50011-2101
 +
 +naa:
- who:	Metadata Terms (=) TERMS
++who:	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) MFMP
++what:	10262
++when:	2018.02.08
++where:	http://www.bm-poitiers.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
++!address: 4 rue de l'Université, CS 70619, 86022, Poitiers, France
+ 

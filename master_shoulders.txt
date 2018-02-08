@@ -199,6 +199,14 @@
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
 
+:: ark:/62930/d1
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library Digital Objects
+date: 2017.08.23
+minter: https://n2t.net/a/ezid/m/ark/62930/d1
+
 :: ark:/87292/w9
 type: shoulder
 manager: ezid

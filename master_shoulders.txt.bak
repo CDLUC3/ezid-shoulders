@@ -80,7 +80,7 @@
 # 5. Reload EZID.
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87292 87287 81428 88736 88737 80359 87610 85781 87296 >
+#    < 87287 81428 88736 88737 80359 87610 85781 87296 >
 #    < 10.7296 >
 #    97720 is now free (used to be shadow ARKs for UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
@@ -197,6 +197,15 @@
 # aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
 # ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
+# iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
+
+:: ark:/87292/w9
+type: shoulder
+manager: ezid
+#eziduser: iastate_lib
+name: Iowa State University
+date: 2018.02.07
+minter: https://n2t.net/a/ezid/m/ark/87292/w9
 
 :: ark:/99166/p3
 type: shoulder
