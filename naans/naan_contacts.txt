@@ -624,6 +624,7 @@ contact: Papadopoulos, Julie (Responsable SI Web) ||| julie.papadopoulos@rmngp.f
 contact: BEYNET, Yannick (IPTC AFP representative) ||| id-naa@afp.com | 
 contact: eziduserid iastate_lib
 contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
+contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

@@ -61,13 +61,6 @@
 # 2. DataCite moves existing DOIs to new datacenter
 # 3. Greg changes "_datacenter" fields of existing DOIs to new datacenter
 # 4. Old datacenters can be deleted or repurposed after move prefixes out
-#
-# yyy four candidate datacenters/prefixes to merge into CDL.UAL:
-#    UAlberta HSSA Journal (CDL.HSSAJOUR) 9 DOIs prefix 10.18732/H2
-#    UAlberta VAMP Journal (CDL.VAMPJOUR) 6 DOIs prefix 10.18435/B5
-#    UAlberta EBLIP Journal (CDL.EBLIPJOU) 905 DOIs prefix 10.18438/B8
-#    UAlberta JPPS Journal (CDL.JPPSJOUR) 416 DOIs prefix 10.18433/J3
-# Counts above are as of 2016.03.23
 
 # Procedures for removing and transferring stuff:
 #   https://confluence.ucop.edu/pages/viewpage.action?pageId=185207031
@@ -82,6 +75,7 @@
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87287 81428 88736 88737 80359 87610 85781 87296 >
 #    < 10.7296 >
+#    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
 #    97720 is now free (used to be shadow ARKs for UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
@@ -100,7 +94,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 #
 # STACKTOP
-# 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -198,6 +192,17 @@
 # ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
+# ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
+
+:: doi:10.25341/D4
+type: shoulder
+manager: ezid
+#eziduser: ntu-dr-data
+name: NTU PRO-AM conference
+date: 2018.02.08
+minter: https://n2t.net/a/ezid/m/ark/d5341/d4
+datacenter: PURDUE.NTU
+prefix_shares_datacenter: true
 
 :: ark:/62930/d1
 type: shoulder
@@ -343,7 +348,7 @@ minter: https://n2t.net/a/ezid/m/ark/81423/b1
 type: shoulder
 manager: ezid
 #eziduser: ntu-research-data
-name: NTU Research Data
+name: NTU-NIE research data DOI
 date: 2017.08.07
 minter: https://n2t.net/a/ezid/m/ark/d5340/r4
 datacenter: PURDUE.NTU
@@ -412,17 +417,6 @@ name: Pitt Project Tycho
 date: 2017.07.12
 minter: https://n2t.net/a/ezid/m/ark/d5337/t7
 datacenter: CDL.PITT
-prefix_shares_datacenter: true
-
-:: doi:10.25336/P6
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Canadian Studies in Population
-date: 2017.07.07
-minter: https://n2t.net/a/ezid/m/ark/d5336/p6
-datacenter: CDL.UAL
-crossref: true
 prefix_shares_datacenter: true
 
 :: ark:/85335/m5
@@ -514,28 +508,6 @@ name: UMich Materials Commons
 date: 2017.05.08
 minter: https://n2t.net/a/ezid/m/ark/c3011/m3
 datacenter: PURDUE.UMICH
-prefix_shares_datacenter: true
-
-:: doi:10.21991/C9
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Constitutional Forum Journal
-date: 2017.05.03
-minter: https://n2t.net/a/ezid/m/ark/d1991/c9
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.21992/T9
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta TranscUlturAl Journal
-date: 2017.05.03
-minter: https://n2t.net/a/ezid/m/ark/d1992/t9
-datacenter: CDL.UAL
-crossref: true
 prefix_shares_datacenter: true
 
 :: doi:10.21990/B9
@@ -874,7 +846,7 @@ prefix_shares_datacenter: true
 type: shoulder
 manager: ezid
 #eziduser: ntu-dr-data
-name: Nanyang Technological University
+name: NTU ARK
 date: 2017.01.12
 minter: https://n2t.net/a/ezid/m/ark/81979/t7
 
@@ -887,7 +859,7 @@ name: Nanyang Technological University
 type: shoulder
 manager: ezid
 #eziduser: ntu-dr-data
-name: Nanyang Technological University
+name: NTU research data DOI
 date: 2017.01.12
 minter: https://n2t.net/a/ezid/m/ark/d1979/n9
 datacenter: PURDUE.NTU
@@ -1030,17 +1002,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1972/g2
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
-:: doi:10.21971/P7
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Past Imperfect Journal
-date: 2016.10.21
-minter: https://n2t.net/a/ezid/m/ark/d1971/p7
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
 :: ark:/81970/n7
 type: shoulder
 manager: ezid
@@ -1123,17 +1084,6 @@ name: UC Berkeley eScholarship Content
 date: 2016.09.16
 minter: https://n2t.net/a/ezid/m/ark/d1433/b3
 datacenter: CDL.UCB
-crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.21432/T2
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Canadian Jrnl of Learning and Technology
-date: 2016.09.16
-minter: https://n2t.net/a/ezid/m/ark/d1432/t2
-datacenter: CDL.UAL
 crossref: true
 prefix_shares_datacenter: true
 
@@ -1683,17 +1633,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1231/m3
 datacenter: PURDUE.UWISC
 prefix_shares_datacenter: true
 
-:: doi:10.21230/F3
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta REEFMM
-date: 2016.05.24
-minter: https://n2t.net/a/ezid/m/ark/d1230/f3
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
 :: ark:/81229/m2
 type: shoulder
 manager: ezid
@@ -1768,28 +1707,6 @@ name: IEEE
 date: 2016.05.16
 minter: https://n2t.net/a/ezid/m/ark/d1227/h2
 datacenter: PURDUE.IEEE
-
-:: doi:10.21226/T2
-type: shoulder
-manager: ezid
-#eziduser: 
-name: UAlberta East West Jrnl of Ukrainian Studies
-date: 2016.05.11
-minter: https://n2t.net/a/ezid/m/ark/d1226/t2
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.21225/D5
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Canadian Jrnl of University Continuing Education
-date: 2016.05.11
-minter: https://n2t.net/a/ezid/m/ark/d1225/d5
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
 
 :: ark:/81224/h2
 type: shoulder
@@ -1920,28 +1837,6 @@ date: 2016.04.07
 minter: https://n2t.net/a/ezid/m/ark/d1220/m2
 datacenter: CDL.WMLIB
 
-:: doi:10.20361/G2
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Deakin Revw of Childrens Lit
-date: 2016.03.31
-minter: https://n2t.net/a/ezid/m/ark/d0361/g2
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.20360/G2
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Language and Literacy
-date: 2016.03.31
-minter: https://n2t.net/a/ezid/m/ark/d0360/g2
-datacenter: CDL.UAL
-crossref: true
-prefix_shares_datacenter: true
-
 :: doi:10.20359/T6
 type: shoulder
 manager: ezid
@@ -2009,17 +1904,6 @@ date: 2016.03.24
 minter: https://n2t.net/a/ezid/m/ark/d0356/c4
 datacenter: PURDUE.UMD
 prefix_shares_datacenter: true
-
-:: doi:10.20355/C5
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Journal of Contemporary Issues in Education
-date: 2016.03.22
-minter: https://n2t.net/a/ezid/m/ark/d0355/c5
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
 
 :: ark:/80354/b3
 type: shoulder
@@ -2094,30 +1978,6 @@ manager: ezid
 name: University of Alberta Libraries
 date: 2016.03.10
 minter: https://n2t.net/a/ezid/m/ark/54379/t7
-
-:: doi:10.18741/P9
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Journal of Professional Continuing and Online Education
-date: 2016.03.10
-minter: https://n2t.net/a/ezid/m/ark/c8741/p9
-#datacenter: CDL.PCOEJOUR
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
-
-:: doi:10.18740/S4
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta Socialist Studies Journal
-date: 2016.03.07
-minter: https://n2t.net/a/ezid/m/ark/c8740/s4
-#datacenter: CDL.SSJOURNA
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
 
 :: datacite:CDL.NSFADC
 type: datacenter
@@ -2253,28 +2113,6 @@ minter: https://n2t.net/a/ezid/m/ark/c8734/p4
 datacenter: CDL.LBNL
 prefix_shares_datacenter: true
 
-:: doi:10.18733/C3
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta CPI Journal
-date: 2016.01.04
-minter: https://n2t.net/a/ezid/m/ark/c8733/c3
-#datacenter: CDL.CPIJOURN
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
-
-:: doi:10.18732/H2
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta HSSA Journal
-date: 2016.01.04
-minter: https://n2t.net/a/ezid/m/ark/c8732/h2
-datacenter: CDL.HSSAJOUR
-crossref: true
-
 :: ark:/88439/g4
 type: shoulder
 manager: ezid
@@ -2309,16 +2147,6 @@ date: 2015.12.11
 minter: https://n2t.net/a/ezid/m/ark/c8434/t4
 datacenter: CDL.NIST
 prefix_shares_datacenter: true
-
-:: doi:10.18438/B8
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta EBLIP Journal
-date: 2015.12.10
-minter: https://n2t.net/a/ezid/m/ark/c8438/b8
-datacenter: CDL.EBLIPJOU
-crossref: true
 
 :: doi:10.6086/D1
 type: shoulder
@@ -2365,38 +2193,6 @@ name: UCSD SCCOOS
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/c8436/s6
 datacenter: CDL.SCCOOS
-
-:: doi:10.18435/B5
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta VAMP Journal
-date: 2015.12.09
-minter: https://n2t.net/a/ezid/m/ark/c8435/b5
-datacenter: CDL.VAMPJOUR
-crossref: true
-
-:: doi:10.18433/J3
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta JPPS Journal
-date: 2015.12.09
-minter: https://n2t.net/a/ezid/m/ark/c8433/j3
-datacenter: CDL.JPPSJOUR
-crossref: true
-
-:: doi:10.18432/R2
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: UAlberta ARI Journal
-date: 2015.12.09
-minter: https://n2t.net/a/ezid/m/ark/c8432/r2
-#datacenter: CDL.ARIJOURN
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
 
 :: ark:/88126/m3
 type: shoulder
@@ -6747,11 +6543,6 @@ type: datacenter
 manager: ezid
 name: EarthRef
 
-:: datacite:CDL.EBLIPJOU
-type: datacenter
-manager: ezid
-name: UAlberta EBLIP Journal
-
 :: datacite:CDL.EIX
 type: datacenter
 manager: ezid
@@ -6805,11 +6596,6 @@ type: datacenter
 manager: ezid
 name: Harte Research Institute
 
-:: datacite:CDL.HSSAJOUR
-type: datacenter
-manager: ezid
-name: UAlberta HSSA Journal
-
 :: datacite:CDL.ICA
 type: datacenter
 manager: ezid
@@ -6849,11 +6635,6 @@ name: Irish Social Science Data Archive (ISSDA)
 type: datacenter
 manager: ezid
 name: Johns Hopkins University Data Archive
-
-:: datacite:CDL.JPPSJOUR
-type: datacenter
-manager: ezid
-name: UAlberta JPPS Journal
 
 :: datacite:CDL.LABARCH
 type: datacenter
@@ -7364,11 +7145,6 @@ name: University of Washington
 type: datacenter
 manager: ezid
 name: University of Wyoming Libraries
-
-:: datacite:CDL.VAMPJOUR
-type: datacenter
-manager: ezid
-name: UAlberta VAMP Journal
 
 :: datacite:CDL.VTLIB
 type: datacenter

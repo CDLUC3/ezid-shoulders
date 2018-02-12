@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.08
+when:	2018.02.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5590,6 +5590,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
 !address: 4 rue de l'Université, CS 70619, 86022, Poitiers, France
+
+naa:
+who:	Archives municipales de Fontainebleau (=) AMF
+what:	71481
+when:	2018.02.12
+where:	http://archives.fontainebleau.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
+!address: Archives municipales de Fontainebleau, 40 rue Grande, 77300 Fontainebleau, France
 
 naa:
 who:	Metadata Terms (=) TERMS

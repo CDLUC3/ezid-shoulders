@@ -562,6 +562,7 @@
 23258	Agence France Presse (=) AFP
 87292	Iowa State University (=) IASTATELIB
 10262	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) MFMP
+71481	Archives municipales de Fontainebleau (=) AMF
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

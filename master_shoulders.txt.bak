@@ -82,6 +82,7 @@
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87287 81428 88736 88737 80359 87610 85781 87296 >
 #    < 10.7296 >
+#    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
 #    97720 is now free (used to be shadow ARKs for UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
 #    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
@@ -100,7 +101,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 #
 # STACKTOP
-# 10.25341 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25342 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -198,6 +199,25 @@
 # ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
+# ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
+
+:: doi:10.25341/D4
+type: shoulder
+manager: ezid
+#eziduser: ntu-dr-data
+name: NTU PRO-AM conference
+date: 2018.02.08
+minter: https://n2t.net/a/ezid/m/ark/d5341/d4
+datacenter: PURDUE.NTU
+prefix_shares_datacenter: true
+
+:: ark:/62930/d1
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library Digital Objects
+date: 2017.08.23
+minter: https://n2t.net/a/ezid/m/ark/62930/d1
 
 :: ark:/87292/w9
 type: shoulder
@@ -335,7 +355,7 @@ minter: https://n2t.net/a/ezid/m/ark/81423/b1
 type: shoulder
 manager: ezid
 #eziduser: ntu-research-data
-name: NTU Research Data
+name: NTU-NIE research data DOI
 date: 2017.08.07
 minter: https://n2t.net/a/ezid/m/ark/d5340/r4
 datacenter: PURDUE.NTU
@@ -866,7 +886,7 @@ prefix_shares_datacenter: true
 type: shoulder
 manager: ezid
 #eziduser: ntu-dr-data
-name: Nanyang Technological University
+name: NTU ARK
 date: 2017.01.12
 minter: https://n2t.net/a/ezid/m/ark/81979/t7
 
@@ -879,7 +899,7 @@ name: Nanyang Technological University
 type: shoulder
 manager: ezid
 #eziduser: ntu-dr-data
-name: Nanyang Technological University
+name: NTU research data DOI
 date: 2017.01.12
 minter: https://n2t.net/a/ezid/m/ark/d1979/n9
 datacenter: PURDUE.NTU

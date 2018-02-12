@@ -563,6 +563,7 @@ RedirectMatch ^/((ark:/36255)|36255/?)(.*)$ http://grandpalais.fr/$2$3
 RedirectMatch ^/((ark:/23258)|23258/?)(.*)$ http://www.afp.com/$2$3
 RedirectMatch ^/((ark:/87292)|87292/?)(.*)$ http://www.lib.iastate.edu/$2$3
 RedirectMatch ^/((ark:/10262)|10262/?)(.*)$ http://www.bm-poitiers.fr/$2$3
+RedirectMatch ^/((ark:/71481)|71481/?)(.*)$ http://archives.fontainebleau.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

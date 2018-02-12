@@ -1,18 +1,16 @@
-diff -r 09ebeede7fab naans/master_naans
---- a/naans/master_naans	Wed Feb 07 09:42:53 2018 -0800
-+++ b/naans/master_naans	Thu Feb 08 05:10:56 2018 -0800
-@@ -5581,3 +5581,13 @@
- !contact: eziduserid iastate_lib
--!address: University Library  701 Morrill Rd.  Ames, IA  50011-2101
-+!address: University Library  701 Morrill Rd., Ames, IA  50011-2101
-+
-+naa:
-+who:	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) MFMP
-+what:	10262
-+when:	2018.02.08
-+where:	http://www.bm-poitiers.fr
+diff -r 630fda4edbda naans/master_naans
+--- a/naans/master_naans	Thu Feb 08 05:10:56 2018 -0800
++++ b/naans/master_naans	Mon Feb 12 10:18:09 2018 -0800
+@@ -5594,2 +5594,12 @@
+ naa:
++who:	Archives municipales de Fontainebleau (=) AMF
++what:	71481
++when:	2018.02.12
++where:	http://archives.fontainebleau.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
-+!address: 4 rue de l'Université, CS 70619, 86022, Poitiers, France
- 
++!contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
++!address: Archives municipales de Fontainebleau, 40 rue Grande, 77300 Fontainebleau, France
++
++naa:
+ who:	Metadata Terms (=) TERMS

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.08
+when:	2018.02.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4229,6 +4229,13 @@ who:	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) 
 what:	10262
 when:	2018.02.08
 where:	http://www.bm-poitiers.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives municipales de Fontainebleau (=) AMF
+what:	71481
+when:	2018.02.12
+where:	http://archives.fontainebleau.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:
