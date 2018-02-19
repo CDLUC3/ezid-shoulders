@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.12
+when:	2018.02.19
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4237,6 +4237,13 @@ what:	71481
 when:	2018.02.12
 where:	http://archives.fontainebleau.fr
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Humensis (=) HUM
+what:	58826
+when:	2018.02.19
+where:	http://humensis.com
+how:	FP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.12
+when:	2018.02.19
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5600,6 +5600,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
 !address: Archives municipales de Fontainebleau, 40 rue Grande, 77300 Fontainebleau, France
+
+naa:
+who:	Humensis (=) HUM
+what:	58826
+when:	2018.02.19
+where:	http://humensis.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Monnier, Catherine Dang (Business developer) ||| catherine.dang@humensis.com | 
+!address: 170 bis, boulevard du Montparnasse CS 20012, 75680, Paris cedex 14, France
 
 naa:
 who:	Metadata Terms (=) TERMS

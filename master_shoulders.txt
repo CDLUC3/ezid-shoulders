@@ -1374,7 +1374,7 @@ name: Adaptive Biotechnologies
 date: 2016.07.08
 minter: https://n2t.net/a/ezid/m/ark/81417/b4
 
-:: datacite:CDL.ADAPTIVE
+:: datacite:PURDUE.ADAPTIVE
 type: datacenter
 manager: ezid
 name: Adaptive Biotechnologies
@@ -1386,7 +1386,7 @@ manager: ezid
 name: Adaptive Biotechnologies
 date: 2016.07.08
 minter: https://n2t.net/a/ezid/m/ark/d1417/b7
-datacenter: CDL.ADAPTIVE
+datacenter: PURDUE.ADAPTIVE
 
 :: ark:/81416/s4
 type: shoulder
