@@ -1,16 +1,16 @@
-diff -r 6e270c842179 naans/master_naans
---- a/naans/master_naans	Mon Feb 12 10:18:09 2018 -0800
-+++ b/naans/master_naans	Mon Feb 19 06:50:46 2018 -0800
-@@ -5604,2 +5604,12 @@
- naa:
-+who:	Humensis (=) HUM
-+what:	58826
-+when:	2018.02.19
-+where:	http://humensis.com
-+how:	FP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Monnier, Catherine Dang (Business developer) ||| catherine.dang@humensis.com | 
-+!address: 170 bis, boulevard du Montparnasse CS 20012, 75680, Paris cedex 14, France
-+
-+naa:
- who:	Metadata Terms (=) TERMS
+diff -r 241a839b3866 naans/master_naans
+--- a/naans/master_naans	Mon Feb 19 06:50:47 2018 -0800
++++ b/naans/master_naans	Wed Feb 21 07:20:20 2018 -0800
+@@ -445,4 +445,6 @@
+ !why:   ARK
++!contact: Caron, Bertrand (preservation metadata expert) || 2018- | bertrand.caron@bnf.fr |
+ #!contact: Lupovici, Catherine || 2005-2008 | catherine.lupovici@bnf.fr
+-!contact: XXX Bermes, Emmanuelle || 2008- | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
++#!contact: Bermes, Emmanuelle || 2008-2018 | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
++!address: Quai François Mauriac, 75706 PARIS Cedex 13, France
+ 
+@@ -5610,3 +5612,3 @@
+ !why:	ARK
+-!contact: Monnier, Catherine Dang (Business developer) ||| catherine.dang@humensis.com | 
++!contact: Dang Monnier, Catherine (Business developer) ||| catherine.dang@humensis.com | 
+ !address: 170 bis, boulevard du Montparnasse CS 20012, 75680, Paris cedex 14, France

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.19
+when:	2018.02.21
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -443,8 +443,10 @@ when:	2005.07.17
 where:	http://ark.bnf.fr
 how:	NP | NR, OP, CC | 2005 | http://ark.bnf.fr/ark:/12148/bpt6k2102478.policy
 !why:   ARK
+!contact: Caron, Bertrand (preservation metadata expert) || 2018- | bertrand.caron@bnf.fr |
 #!contact: Lupovici, Catherine || 2005-2008 | catherine.lupovici@bnf.fr
-!contact: XXX Bermes, Emmanuelle || 2008- | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
+#!contact: Bermes, Emmanuelle || 2008-2018 | emmanuelle.bermes@bnf.fr | +33 1 5379 4240
+!address: Quai François Mauriac, 75706 PARIS Cedex 13, France
 
 naa:
 who:	Princeton University (=) PRINCETON
@@ -5608,7 +5610,7 @@ when:	2018.02.19
 where:	http://humensis.com
 how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
-!contact: Monnier, Catherine Dang (Business developer) ||| catherine.dang@humensis.com | 
+!contact: Dang Monnier, Catherine (Business developer) ||| catherine.dang@humensis.com | 
 !address: 170 bis, boulevard du Montparnasse CS 20012, 75680, Paris cedex 14, France
 
 naa:
