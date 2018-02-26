@@ -161,7 +161,6 @@ contact: EZID userid noaa-edm
 contact: EZID userid tkn
 contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
 contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
-contact: eziduser benchfly
 contact: eziduserid vtlib
 contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
@@ -626,6 +625,7 @@ contact: eziduserid iastate_lib
 contact: Palluault, Florent (Head of special collections) ||| florent.palluault@poitiers.fr | 
 contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
 contact: Dang Monnier, Catherine (Business developer) ||| catherine.dang@humensis.com | 
+contact: Dederek-Breuer, Ute (Research Data Management CIO) ||| Ute.Dederek-Breuer@ruhr-uni-bochum.de | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

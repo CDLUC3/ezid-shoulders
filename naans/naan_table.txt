@@ -144,7 +144,6 @@
 87290	University of Tennessee (=) UTK
 63955	Institut de recherche et d'histoire des textes (=) CNRSIRHT
 50959	Digital Commonwealth (=) DIGCMNW
-87293	BenchFly (=) BENCHFLY
 87294	University Libraries, Virginia Tech (=) VTLIB
 37963	Archives départementales de la Mayenne (=) ADMAYENNE
 24967	Archives départementales de la Lozère (=) ADLOZERE
@@ -564,6 +563,7 @@
 10262	Médiathèque François-Mitterrand Poitiers (=) Poitiers Media Library (=) MFMP
 71481	Archives municipales de Fontainebleau (=) AMF
 58826	Humensis (=) HUM
+45831	Ruhr Universität Bochum (=) RUB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

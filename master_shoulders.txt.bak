@@ -1379,11 +1379,6 @@ type: datacenter
 manager: ezid
 name: Adaptive Biotechnologies
 
-:: datacite:CDL.ADAPTIVE
-type: datacenter
-manager: ezid
-name: Adaptive Biotechnologies -- temporary
-
 :: doi:10.21417/B7
 type: shoulder
 manager: ezid
