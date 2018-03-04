@@ -1,28 +1,28 @@
-diff -r cd831fde3a33 naans/master_naans
---- a/naans/master_naans	Wed Feb 21 07:20:20 2018 -0800
-+++ b/naans/master_naans	Mon Feb 26 07:51:00 2018 -0800
-@@ -1639,11 +1639,2 @@
+diff -r 39074e38e401 naans/master_naans
+--- a/naans/master_naans	Mon Feb 26 07:51:01 2018 -0800
++++ b/naans/master_naans	Sat Mar 03 16:45:54 2018 -0800
+@@ -3800,11 +3800,2 @@
  naa:
--who:    BenchFly (=) BENCHFLY
--what:   87293
--when:   2013.02.11
--where:  http://www.benchfly.com
--how:    FP | (:unkn) unknown | 2013 |
+-who:    National Institute of Standards and Technology (=) NIST
+-what:   88434
+-when:   2015.12.11
+-where:	www.nist.gov
+-how:	NP | (:unkn) unknown | 2015 |
 -!why:   EZID ARK
--!contact: eziduser benchfly
+-!contact: eziduserid nist
 -
 -naa:
- who:    University Libraries, Virginia Tech (=) VTLIB
-@@ -5616,2 +5607,12 @@
+ who:	Archives Départementales de la Vendée (=) ADVENDEE
+@@ -5617,2 +5608,12 @@
  naa:
-+who:	Ruhr Universität Bochum (=) RUB
-+what:	45831
-+when:	2018.02.26
-+where:	http://rub.de
++who:	Quantiply Corporation (=) QPLY
++what:	32834
++when:	2018.03.03
++where:	http://Quantiply.com
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Dederek-Breuer, Ute (Research Data Management CIO) ||| Ute.Dederek-Breuer@ruhr-uni-bochum.de | 
-+!address: Universitätsstr. 150, IT.SERVICES, Ruhr-Universität Bochum, 44801 Bochum, Germany
++!contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com | 
++!address: 333 West San Carlos Street, Suite 1650, San Jose, CA 95113
 +
 +naa:
  who:	Metadata Terms (=) TERMS

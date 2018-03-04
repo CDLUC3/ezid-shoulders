@@ -380,7 +380,6 @@
 88126	University of Chicago Materials Data Facility (=) MDF
 88436	Southern California Ocean Observing System (=) SCCOOS
 88437	Coastal Data Information Program (=) CDIP
-88434	National Institute of Standards and Technology (=) NIST
 22574	Archives Départementales de la Vendée (=) ADVENDEE
 88439	Open Geospatial Consortium (=) OGC
 83791	Archives municipales de Saumur (=) AMSAUMUR
@@ -564,6 +563,7 @@
 71481	Archives municipales de Fontainebleau (=) AMF
 58826	Humensis (=) HUM
 45831	Ruhr Universität Bochum (=) RUB
+32834	Quantiply Corporation (=) QPLY
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

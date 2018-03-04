@@ -381,7 +381,6 @@ RedirectMatch ^/((ark:/35228)|35228/?)(.*)$ http://www.scd.uha.fr/$2$3
 RedirectMatch ^/((ark:/88126)|88126/?)(.*)$ www.materialsdatafacility.org/$2$3
 RedirectMatch ^/((ark:/88436)|88436/?)(.*)$ sccoos.org/$2$3
 RedirectMatch ^/((ark:/88437)|88437/?)(.*)$ cdip.ucsd.edu/$2$3
-RedirectMatch ^/((ark:/88434)|88434/?)(.*)$ www.nist.gov/$2$3
 RedirectMatch ^/((ark:/22574)|22574/?)(.*)$ http://www.vendee.fr/$2$3
 RedirectMatch ^/((ark:/88439)|88439/?)(.*)$ www.opengeospatial.org/$2$3
 RedirectMatch ^/((ark:/83791)|83791/?)(.*)$ http://archives.ville-saumur.fr/$2$3
@@ -565,6 +564,7 @@ RedirectMatch ^/((ark:/10262)|10262/?)(.*)$ http://www.bm-poitiers.fr/$2$3
 RedirectMatch ^/((ark:/71481)|71481/?)(.*)$ http://archives.fontainebleau.fr/$2$3
 RedirectMatch ^/((ark:/58826)|58826/?)(.*)$ http://humensis.com/$2$3
 RedirectMatch ^/((ark:/45831)|45831/?)(.*)$ http://rub.de/$2$3
+RedirectMatch ^/((ark:/32834)|32834/?)(.*)$ http://Quantiply.com/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

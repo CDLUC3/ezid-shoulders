@@ -434,7 +434,6 @@ contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
 contact: eziduserid mdf
 contact: eziduserid ucsd_sccoos
 contact: eziduserid ucsd_cdip
-contact: eziduserid nist
 contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
 contact: eziduserid ogc
 contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
@@ -626,6 +625,7 @@ contact: Palluault, Florent (Head of special collections) ||| florent.palluault@
 contact: Renaud, Valérie (Archivist) ||| archives@fontainebleau.fr | 
 contact: Dang Monnier, Catherine (Business developer) ||| catherine.dang@humensis.com | 
 contact: Dederek-Breuer, Ute (Research Data Management CIO) ||| Ute.Dederek-Breuer@ruhr-uni-bochum.de | 
+contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

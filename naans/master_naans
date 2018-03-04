@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.26
+when:	2018.03.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3798,15 +3798,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid ucsd_cdip
 
 naa:
-who:    National Institute of Standards and Technology (=) NIST
-what:   88434
-when:   2015.12.11
-where:	www.nist.gov
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid nist
-
-naa:
 who:	Archives Départementales de la Vendée (=) ADVENDEE
 what:	22574
 when:	2015.12.14
@@ -5613,6 +5604,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Dederek-Breuer, Ute (Research Data Management CIO) ||| Ute.Dederek-Breuer@ruhr-uni-bochum.de | 
 !address: Universitätsstr. 150, IT.SERVICES, Ruhr-Universität Bochum, 44801 Bochum, Germany
+
+naa:
+who:	Quantiply Corporation (=) QPLY
+what:	32834
+when:	2018.03.03
+where:	http://Quantiply.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com | 
+!address: 333 West San Carlos Street, Suite 1650, San Jose, CA 95113
 
 naa:
 who:	Metadata Terms (=) TERMS
