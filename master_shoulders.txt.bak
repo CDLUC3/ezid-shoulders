@@ -94,7 +94,7 @@
 # Allocate a prefix by popping off the top of the stack (next).
 #
 # STACKTOP
-# 10.25343 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -194,6 +194,28 @@
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
 # ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.25342 - - -  < ezaccts/newacct > out
+# umiami      make_ezacct -n 10.25343 v3 - -  < ezaccts/newacct > out
+
+:: doi:10.25343/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: umiami
+name: National Center for Environmental Information no minter
+date: 2018.02.26
+minter:
+datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
+
+:: doi:10.25343/V3
+type: shoulder
+manager: ezid
+#eziduser: umiami
+name: National Center for Environmental Information
+date: 2018.02.26
+minter: https://n2t.net/a/ezid/m/ark/d5343/v3
+datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
 
 :: doi:10.25342/
 type: shoulder
@@ -3034,6 +3056,7 @@ name: University of Miami Libraries
 date: 2015.03.31
 minter: https://n2t.net/a/ezid/m/ark/c7604/m6
 datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
 
 :: ark:/87603/c9
 type: shoulder

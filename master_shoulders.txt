@@ -73,8 +73,11 @@
 # 5. Reload EZID.
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 >
-#    < 10.7296 >
+#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 >
+#    mistakenly minted NAAN to recycle immediately < 55407 >
+#    < 10.7296 10.21221 10.20357 >
+# make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
+
 #    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
 #    97720 is now free (used to be shadow ARKs for UUID URNs)
 #  * after moving current NAAN entry to former_naans (delay move to when
@@ -1772,28 +1775,6 @@ date: 2016.04.30
 minter: https://n2t.net/a/ezid/m/ark/d1223/p3
 datacenter: CDL.CIP
 
-:: ark:/81221/s4
-type: shoulder
-manager: ezid
-#eziduser: sdsu_edwards
-name: SDSU Computer Science
-date: 2016.04.14
-minter: https://n2t.net/a/ezid/m/ark/81221/s4
-
-:: datacite:CDL.SDSUCS
-type: datacenter
-manager: ezid
-name: SDSU Computer Science
-
-:: doi:10.21221/C2
-type: shoulder
-manager: ezid
-#eziduser: sdsu_edwards
-name: SDSU Computer Science
-date: 2016.04.14
-minter: https://n2t.net/a/ezid/m/ark/d1221/c2
-datacenter: CDL.SDSUCS
-
 :: doi:10.21220/S2
 type: shoulder
 manager: ezid
@@ -1888,28 +1869,6 @@ date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/d0358/c8
 datacenter: CDL.LBNL
 prefix_shares_datacenter: true
-
-:: ark:/80357/s3
-type: shoulder
-manager: ezid
-#eziduser: diglibsdsu
-name: SDSU Library
-date: 2016.03.29
-minter: https://n2t.net/a/ezid/m/ark/80357/s3
-
-:: datacite:CDL.SDSULIB
-type: datacenter
-manager: ezid
-name: San Diego State University Library
-
-:: doi:10.20357/D7
-type: shoulder
-manager: ezid
-#eziduser: diglibsdsu
-name: SDSU Library
-date: 2016.03.29
-minter: https://n2t.net/a/ezid/m/ark/d0357/d7
-datacenter: CDL.SDSULIB
 
 :: ark:/80356/s5
 type: shoulder

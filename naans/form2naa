@@ -236,6 +236,7 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 		($ostatus eq 'For profit' ? 'FP' :
 		($ostatus eq 'Not-for-profit' ? 'NP' :
 			"ORGSTATUS: $ostatus"));
+	# yyy should lc hostname part
 	$URL =~ s,[./]+\s*$,,;		# remove terminal / or . if any
 	$URL =~ m,^https?://, or
 		$URL = 'http://' . $URL;	# clothe a naked hostname

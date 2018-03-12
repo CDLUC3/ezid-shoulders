@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.02.26
+when:	2018.03.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3943,15 +3943,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: eziduserid umd_ascl
 
 naa:
-who:    San Diego State University Library (=) SDSULIB
-what:   80357
-when:   2016.03.29
-where:	http://library.sdsu.edu
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid 
-
-naa:
 who:	Institut de l'information scientifique et technique (=) Institute for scientific and technical information (=) INIST
 what:	67375
 when:	2016.03.30
@@ -3986,15 +3977,6 @@ where:	http://bm.angers.fr
 how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Sosson, Elisabeth ||| Elisabeth.SOSSON@ville.angers.fr |
-
-naa:
-who:    SDSU Computer Science (=) SDSUCS
-what:   81221
-when:   2016.04.14
-where:	http://www.cs.sdsu.edu
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid sdsu_edwards
 
 naa:
 who:	Eclair Preservation S.A.S. (=) ECLAIR
@@ -5609,11 +5591,41 @@ naa:
 who:	Quantiply Corporation (=) QPLY
 what:	32834
 when:	2018.03.03
-where:	http://Quantiply.com
+where:	http://quantiply.com
 how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com | 
 !address: 333 West San Carlos Street, Suite 1650, San Jose, CA 95113
+
+naa:
+who:	Cahiers de la Haute-Loire (=) CHL
+what:	19838
+when:	2018.03.12
+where:	http://www.cahiersdelahauteloire.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Maillebouis, Christian (webmaster) ||| c.maillebouis@laposte.net | 
+!address: 4 Avenue de Meschede, 43000 Le Puy-en-Velay, France
+
+naa:
+who:    Unit Research - Research, Enterprises and Decision (=) URRED
+what:	68402
+when:   2018.03.12
+where:  http://www.ur-red.com/ang/index.php
+how:    NP | (:unkn) unknown | 2018 |
+!why:   ARK
+!contact: HENCHIRI, Jamel Eddine (Head) ||| jamel.Henchiri@gmail.com |
+!address: Jilani Lahbib Road, 6000 GABES, TUNISIA
+
+naa:
+who:	Varepsilon Ltd (=) VL
+what:	42410
+when:	2018.03.12
+where:	http://varepsilon.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Stoyanov, Borislav (President) ||| mse@varepsilon.com | 
+!address: 34 Rishki Prodod, et. 8, ap. 35, Shumen, Bulgaria
 
 naa:
 who:	Metadata Terms (=) TERMS

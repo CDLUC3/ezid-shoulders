@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.03
+when:	2018.03.12
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3070,13 +3070,6 @@ where:	http://ascl.net
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    San Diego State University Library (=) SDSULIB
-what:   80357
-when:   2016.03.29
-where:	http://library.sdsu.edu
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	Institut de l'information scientifique et technique (=) Institute for scientific and technical information (=) INIST
 what:	67375
 when:	2016.03.30
@@ -3102,13 +3095,6 @@ who:	Bibliothèque Municipale d'Angers (=) BMA
 what:	54380
 when:	2016.04.08
 where:	http://bm.angers.fr
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
-who:    SDSU Computer Science (=) SDSUCS
-what:   81221
-when:   2016.04.14
-where:	http://www.cs.sdsu.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -4242,7 +4228,28 @@ naa:
 who:	Quantiply Corporation (=) QPLY
 what:	32834
 when:	2018.03.03
-where:	http://Quantiply.com
+where:	http://quantiply.com
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Cahiers de la Haute-Loire (=) CHL
+what:	19838
+when:	2018.03.12
+where:	http://www.cahiersdelahauteloire.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:    Unit Research - Research, Enterprises and Decision (=) URRED
+what:	68402
+when:   2018.03.12
+where:  http://www.ur-red.com/ang/index.php
+how:    NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Varepsilon Ltd (=) VL
+what:	42410
+when:	2018.03.12
+where:	http://varepsilon.com
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

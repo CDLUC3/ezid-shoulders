@@ -1,28 +1,65 @@
-diff -r 39074e38e401 naans/master_naans
---- a/naans/master_naans	Mon Feb 26 07:51:01 2018 -0800
-+++ b/naans/master_naans	Sat Mar 03 16:45:54 2018 -0800
-@@ -3800,11 +3800,2 @@
+diff -r 2a1d54913850 naans/master_naans
+--- a/naans/master_naans	Sat Mar 03 16:45:54 2018 -0800
++++ b/naans/master_naans	Mon Mar 12 06:19:38 2018 -0700
+@@ -3945,11 +3945,2 @@
  naa:
--who:    National Institute of Standards and Technology (=) NIST
--what:   88434
--when:   2015.12.11
--where:	www.nist.gov
--how:	NP | (:unkn) unknown | 2015 |
+-who:    San Diego State University Library (=) SDSULIB
+-what:   80357
+-when:   2016.03.29
+-where:	http://library.sdsu.edu
+-how:	NP | (:unkn) unknown | 2016 |
 -!why:   EZID ARK
--!contact: eziduserid nist
+-!contact: eziduserid 
 -
 -naa:
- who:	Archives Départementales de la Vendée (=) ADVENDEE
-@@ -5617,2 +5608,12 @@
+ who:	Institut de l'information scientifique et technique (=) Institute for scientific and technical information (=) INIST
+@@ -3990,11 +3981,2 @@
  naa:
-+who:	Quantiply Corporation (=) QPLY
-+what:	32834
-+when:	2018.03.03
-+where:	http://Quantiply.com
+-who:    SDSU Computer Science (=) SDSUCS
+-what:   81221
+-when:   2016.04.14
+-where:	http://www.cs.sdsu.edu
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:   EZID ARK
+-!contact: eziduserid sdsu_edwards
+-
+-naa:
+ who:	Eclair Preservation S.A.S. (=) ECLAIR
+@@ -5611,3 +5593,3 @@
+ when:	2018.03.03
+-where:	http://Quantiply.com
++where:	http://quantiply.com
+ how:	NP | (:unkn) unknown | 2018 |
+@@ -5618,2 +5600,32 @@
+ naa:
++who:	Cahiers de la Haute-Loire (=) CHL
++what:	19838
++when:	2018.03.12
++where:	http://www.cahiersdelahauteloire.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com | 
-+!address: 333 West San Carlos Street, Suite 1650, San Jose, CA 95113
++!contact: Maillebouis, Christian (webmaster) ||| c.maillebouis@laposte.net | 
++!address: 4 Avenue de Meschede, 43000 Le Puy-en-Velay, France
++
++naa:
++who:    Unit Research - Research, Enterprises and Decision (=) URRED
++what:	68402
++when:   2018.03.12
++where:  http://www.ur-red.com/ang/index.php
++how:    NP | (:unkn) unknown | 2018 |
++!why:   ARK
++!contact: HENCHIRI, Jamel Eddine (Head) ||| jamel.Henchiri@gmail.com |
++!address: Jilani Lahbib Road, 6000 GABES, TUNISIA
++
++naa:
++who:	Varepsilon Ltd (=) VL
++what:	42410
++when:	2018.03.12
++where:	http://varepsilon.com
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Stoyanov, Borislav (President) ||| mse@varepsilon.com | 
++!address: 34 Rishki Prodod, et. 8, ap. 35, Shumen, Bulgaria
 +
 +naa:
  who:	Metadata Terms (=) TERMS
