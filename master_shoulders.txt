@@ -75,7 +75,7 @@
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 >
 #    mistakenly minted NAAN to recycle immediately < 55407 >
-#    < 10.7296 10.21221 10.20357 >
+#    < 10.7296 10.20357 >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
 #    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
@@ -198,6 +198,28 @@
 # ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.25342 - - -  < ezaccts/newacct > out
 # umiami      make_ezacct -n 10.25343 v3 - -  < ezaccts/newacct > out
+# ucsdlib     make_ezacct -n 10.21221 s2 - -  < ezaccts/newacct > out
+
+:: doi:10.21221/S2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_scholcomm
+name: UCSD Library Scholarly Comm
+date: 2018.03.16
+minter: https://n2t.net/a/ezid/m/ark/d1221/s2
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.5070/B8
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: Berkeley Review of Education
+date: 2018.03.14
+minter:
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
 
 :: doi:10.25343/
 type: shoulder
@@ -3332,7 +3354,7 @@ minter: https://n2t.net/a/ezid/m/ark/10945/t4
 :: doi:10.5070/P2
 type: shoulder
 manager: ezid
-#eziduser: eschol-harvester
+#eziduser: eschol_harvester
 name: eScholarship: California Jrnl of Politics and Policy
 date: 2014.01.14
 minter: https://n2t.net/a/ezid/m/ark/b5070/p2

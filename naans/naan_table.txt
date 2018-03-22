@@ -565,6 +565,7 @@
 19838	Cahiers de la Haute-Loire (=) CHL
 68402	Unit Research - Research, Enterprises and Decision (=) URRED
 42410	Varepsilon Ltd (=) VL
+29414	Institut Mémoires de l'édition contemporaine (=) IMEC
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

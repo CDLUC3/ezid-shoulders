@@ -627,6 +627,7 @@ contact: Reddy, Surendra (CEO) ||| sureddy@quantiply.com |
 contact: Maillebouis, Christian (webmaster) ||| c.maillebouis@laposte.net | 
 contact: HENCHIRI, Jamel Eddine (Head) ||| jamel.Henchiri@gmail.com |
 contact: Stoyanov, Borislav (President) ||| mse@varepsilon.com | 
+contact: Derval, André (Directeur des collections) ||| andre.derval@imec-archives.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
