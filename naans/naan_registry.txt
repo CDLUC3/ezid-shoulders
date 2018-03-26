@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.22
+when:	2018.03.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4257,6 +4257,13 @@ who:	Institut Mémoires de l'édition contemporaine (=) IMEC
 what:	29414
 when:	2018.03.22
 where:	http://www.imec-archives.com
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	La Fabrique de patrimoines en Normandie (=) LFPN
+what:	16418
+when:	2018.03.26
+where:	http://www.lafabriquedepatrimoines.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

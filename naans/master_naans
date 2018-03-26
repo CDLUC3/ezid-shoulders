@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.22
+when:	2018.03.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5636,6 +5636,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Derval, André (Directeur des collections) ||| andre.derval@imec-archives.com | 
 !address: Abbaye d'Ardenne, 14280 Saint Germain la Blanche Herbe, France
+
+naa:
+who:	La Fabrique de patrimoines en Normandie (=) LFPN
+what:	16418
+when:	2018.03.26
+where:	http://www.lafabriquedepatrimoines.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepatrimoines.fr | 
+!address: 9 rue Vaubenard, 14000 Caen, France
 
 naa:
 who:	Metadata Terms (=) TERMS

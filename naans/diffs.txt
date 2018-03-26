@@ -1,16 +1,16 @@
-diff -r 6e668b3aa789 naans/master_naans
---- a/naans/master_naans	Mon Mar 12 06:19:38 2018 -0700
-+++ b/naans/master_naans	Thu Mar 22 00:12:08 2018 -0700
-@@ -5630,2 +5630,12 @@
+diff -r 0c5096a93d60 naans/master_naans
+--- a/naans/master_naans	Thu Mar 22 00:12:09 2018 -0700
++++ b/naans/master_naans	Mon Mar 26 10:15:02 2018 -0700
+@@ -5640,2 +5640,12 @@
  naa:
-+who:	Institut Mémoires de l'édition contemporaine (=) IMEC
-+what:	29414
-+when:	2018.03.22
-+where:	http://www.imec-archives.com
++who:	La Fabrique de patrimoines en Normandie (=) LFPN
++what:	16418
++when:	2018.03.26
++where:	http://www.lafabriquedepatrimoines.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Derval, André (Directeur des collections) ||| andre.derval@imec-archives.com | 
-+!address: Abbaye d'Ardenne, 14280 Saint Germain la Blanche Herbe, France
++!contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepatrimoines.fr | 
++!address: 9 rue Vaubenard, 14000 Caen, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS
