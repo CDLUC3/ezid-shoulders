@@ -253,7 +253,7 @@ contact: eziduserid cors
 contact: Smith, Dan ||| dan@colectica.com |
 contact: eziduserid morphobank
 contact: eziduserid ligo
-contact: ROUCHY-LEVY, Violette ||| violette.rouchy-levy@cg08.fr |
+contact: MONTAT, Eric ||| eric.montat@cd08.fr |
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: eziduserid doiwustl
 contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
@@ -629,6 +629,7 @@ contact: HENCHIRI, Jamel Eddine (Head) ||| jamel.Henchiri@gmail.com |
 contact: Stoyanov, Borislav (President) ||| mse@varepsilon.com | 
 contact: Derval, André (Directeur des collections) ||| andre.derval@imec-archives.com | 
 contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepatrimoines.fr | 
+contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

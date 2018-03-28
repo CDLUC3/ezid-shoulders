@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.26
+when:	2018.03.28
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1701,7 +1701,7 @@ naa:
 who:	Archives municipales d'Orléans (=) AMORLEAN
 what:	24625
 when:	2013.11.08
-where:	http://archives.orleans.fr
+where:	http://archives.orleans-metropole.fr
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -1869,7 +1869,7 @@ naa:
 who:	Archives départementales des Ardennes (=) ADARDENN
 what:	75583
 when:	2014.03.17
-where:	http://archives.cg08.fr
+where:	http://archives.cd08.fr
 how:	NP | (:unkn) unknown | 2014 |
 
 naa:
@@ -4264,6 +4264,13 @@ who:	La Fabrique de patrimoines en Normandie (=) LFPN
 what:	16418
 when:	2018.03.26
 where:	http://www.lafabriquedepatrimoines.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives départementales du Lot (=) AD46
+what:	77978
+when:	2018.03.28
+where:	https://archives.lot.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

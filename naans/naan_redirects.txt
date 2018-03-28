@@ -201,7 +201,7 @@ RedirectMatch ^/((ark:/87928)|87928/?)(.*)$ N/A/$2$3
 RedirectMatch ^/((ark:/87929)|87929/?)(.*)$ http://www.issda.ie/$2$3
 RedirectMatch ^/((ark:/87930)|87930/?)(.*)$ http://globalchange.gov/$2$3
 RedirectMatch ^/((ark:/37279)|37279/?)(.*)$ http://archives-pierresvives.herault.fr/$2$3
-RedirectMatch ^/((ark:/24625)|24625/?)(.*)$ http://archives.orleans.fr/$2$3
+RedirectMatch ^/((ark:/24625)|24625/?)(.*)$ http://archives.orleans-metropole.fr/$2$3
 RedirectMatch ^/((ark:/11629)|11629/?)(.*)$ http://una.ac.cr/$2$3
 RedirectMatch ^/((ark:/87931)|87931/?)(.*)$ www.LandcareResearch.co.nz/$2$3
 RedirectMatch ^/((ark:/72847)|72847/?)(.*)$ http://www.archivesdepartementales.puydedome.fr/$2$3
@@ -225,7 +225,7 @@ RedirectMatch ^/((ark:/83014)|83014/?)(.*)$ http://libraries.unl.edu/$2$3
 RedirectMatch ^/((ark:/14365)|14365/?)(.*)$ http://www.colectica.com/$2$3
 RedirectMatch ^/((ark:/87934)|87934/?)(.*)$ http://www.morphobank.org/$2$3
 RedirectMatch ^/((ark:/87935)|87935/?)(.*)$ https://losc.ligo.org/$2$3
-RedirectMatch ^/((ark:/75583)|75583/?)(.*)$ http://archives.cg08.fr/$2$3
+RedirectMatch ^/((ark:/75583)|75583/?)(.*)$ http://archives.cd08.fr/$2$3
 RedirectMatch ^/((ark:/87936)|87936/?)(.*)$ http://www.wustl.edu/$2$3
 RedirectMatch ^/((ark:/62929)|62929/?)(.*)$ http://www.in2p3.fr/$2$3
 RedirectMatch ^/((ark:/87937)|87937/?)(.*)$ https://www.cancerimagingarchive.net/$2$3
@@ -568,6 +568,7 @@ RedirectMatch ^/((ark:/68402)|68402/?)(.*)$ http://www.ur-red.com/ang/index.php/
 RedirectMatch ^/((ark:/42410)|42410/?)(.*)$ http://varepsilon.com/$2$3
 RedirectMatch ^/((ark:/29414)|29414/?)(.*)$ http://www.imec-archives.com/$2$3
 RedirectMatch ^/((ark:/16418)|16418/?)(.*)$ http://www.lafabriquedepatrimoines.fr/$2$3
+RedirectMatch ^/((ark:/77978)|77978/?)(.*)$ https://archives.lot.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

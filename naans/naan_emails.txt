@@ -164,7 +164,7 @@ nicolas.bourcier@vtech.fr
 aymone.lagarrigue@cg82.fr
 hollowsw@jmu.edu
 dan@colectica.com
-violette.rouchy-levy@cg08.fr
+eric.montat@cd08.fr
 franck@1egal2.com
 guesnon@lpccaen.in2p3.fr
 celine.claudel@cg35.fr
@@ -387,6 +387,7 @@ jamel.Henchiri@gmail.com
 mse@varepsilon.com
 andre.derval@imec-archives.com
 reseaumusees@lafabriquedepatrimoines.fr
+Antoine.MAURIER@lot.fr
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu

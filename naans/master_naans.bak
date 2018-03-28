@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.22
+when:	2018.03.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2151,7 +2151,7 @@ naa:
 who:	Archives municipales d'Orléans (=) AMORLEAN
 what:	24625
 when:	2013.11.08
-where:	http://archives.orleans.fr
+where:	http://archives.orleans-metropole.fr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
 !contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
@@ -2372,10 +2372,11 @@ naa:
 who:	Archives départementales des Ardennes (=) ADARDENN
 what:	75583
 when:	2014.03.17
-where:	http://archives.cg08.fr
+where:	http://archives.cd08.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: ROUCHY-LEVY, Violette ||| violette.rouchy-levy@cg08.fr |
+!contact: MONTAT, Eric ||| eric.montat@cd08.fr |
+#!contact: ROUCHY-LEVY, Violette || 2014-2015 | violette.rouchy-levy@cg08.fr |
 !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 
 naa:
@@ -5646,6 +5647,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepatrimoines.fr | 
 !address: 9 rue Vaubenard, 14000 Caen, France
+
+naa:
+who:	Archives départementales du Lot (=) AD46
+what:	77978
+when:	2018.03.28
+where:	https://archives.lot.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
+!address: 218 Rue des Cadourques, 46000 Cahors
 
 naa:
 who:	Metadata Terms (=) TERMS
