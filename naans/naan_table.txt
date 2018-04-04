@@ -357,7 +357,6 @@
 88119	Facebase Consortium (=) FACEBASE
 88120	USC ISI Informatics Systems Research Division (=) ISRD
 88121	National Cancer Institute, NIH (=) NCIP
-88122	Boise State University (=) BOISESTATE
 88123	Landscape Conservation Cooperative (=) LCC
 88124	Antarctic Environments Portal (=) AEP
 77636	Archives Municipales Aix En Provence (=) AMAEP
@@ -381,7 +380,6 @@
 88436	Southern California Ocean Observing System (=) SCCOOS
 88437	Coastal Data Information Program (=) CDIP
 22574	Archives Départementales de la Vendée (=) ADVENDEE
-88439	Open Geospatial Consortium (=) OGC
 83791	Archives municipales de Saumur (=) AMSAUMUR
 70795	Bibliothèque nationale de Luxembourg (=) National Library of Luxembourg (=) BNL
 88734	Joint Center for Artificial Photosynthesis in Chemical Sciences Division (=) LBNLJCAP
@@ -568,6 +566,8 @@
 29414	Institut Mémoires de l'édition contemporaine (=) IMEC
 16418	La Fabrique de patrimoines en Normandie (=) LFPN
 77978	Archives départementales du Lot (=) AD46
+55407	Global Politics Review (=) GPR
+64983	AJLSM (=) AJLSM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

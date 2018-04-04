@@ -1,31 +1,55 @@
-diff -r 19e268ea8b9a naans/master_naans
---- a/naans/master_naans	Mon Mar 26 10:15:02 2018 -0700
-+++ b/naans/master_naans	Wed Mar 28 06:22:23 2018 -0700
-@@ -2153,3 +2153,3 @@
- when:	2013.11.08
--where:	http://archives.orleans.fr
-+where:	http://archives.orleans-metropole.fr
- how:	NP | (:unkn) unknown | 2013 |
-@@ -2374,6 +2374,7 @@
- when:	2014.03.17
--where:	http://archives.cg08.fr
-+where:	http://archives.cd08.fr
- how:	NP | (:unkn) unknown | 2014 |
- !why:	ARK
--!contact: ROUCHY-LEVY, Violette ||| violette.rouchy-levy@cg08.fr |
-+!contact: MONTAT, Eric ||| eric.montat@cd08.fr |
-+#!contact: ROUCHY-LEVY, Violette || 2014-2015 | violette.rouchy-levy@cg08.fr |
- !contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
-@@ -5650,2 +5651,12 @@
+diff -r eb34a3723377 naans/master_naans
+--- a/naans/master_naans	Wed Mar 28 06:22:23 2018 -0700
++++ b/naans/master_naans	Wed Apr 04 07:27:03 2018 -0700
+@@ -3590,11 +3590,2 @@
  naa:
-+who:	Archives départementales du Lot (=) AD46
-+what:	77978
-+when:	2018.03.28
-+where:	https://archives.lot.fr
+-who:    Boise State University (=) BOISESTATE
+-what:   88122
+-when:   2015.09.08
+-where:	scholarworks.boisestate.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid boisedoi
+-
+-naa:
+ who:    Landscape Conservation Cooperative (=) LCC
+@@ -3810,11 +3801,2 @@
+ naa:
+-who:    Open Geospatial Consortium (=) OGC
+-what:   88439
+-when:   2015.12.17
+-where:	www.opengeospatial.org
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid ogc
+-
+-naa:
+ who:	Archives municipales de Saumur (=) AMSAUMUR
+@@ -5657,3 +5639,3 @@
+ !why:	ARK
+-!contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
++!contact: Maurier, Antoine (computer scientist) ||| Antoine.MAURIER@lot.fr | 
+ !address: 218 Rue des Cadourques, 46000 Cahors
+@@ -5661,2 +5643,22 @@
+ naa:
++who:    Global Politics Review (=) GPR
++what:   55407
++when:   2018.04.03
++where:  http://www.globalpoliticsreview.com
++how:    NP | (:unkn) unknown | 2018 |
++!why:   ARK
++!contact: Scartozzi, Cesare (Editor in-chief) ||| c.scartozzi@globalpoliticsreview.com |
++!address: Via Palmieri 25, 10138, Torino, Italy.
++
++naa:
++who:	AJLSM (=) AJLSM
++what:	64983
++when:	2018.04.04
++where:	http://ajlsm.com
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
-+!address: 218 Rue des Cadourques, 46000 Cahors
++!contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
++!address: 17 Rue Vital Carles, 33000 Bordeaux, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

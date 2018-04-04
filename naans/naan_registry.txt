@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.28
+when:	2018.04.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2797,13 +2797,6 @@ where:	www.cancer.gov
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    Boise State University (=) BOISESTATE
-what:   88122
-when:   2015.09.08
-where:	scholarworks.boisestate.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    Landscape Conservation Cooperative (=) LCC
 what:   88123
 when:   2015.09.29
@@ -2962,13 +2955,6 @@ who:	Archives Départementales de la Vendée (=) ADVENDEE
 what:	22574
 when:	2015.12.14
 where:	http://www.vendee.fr
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Open Geospatial Consortium (=) OGC
-what:   88439
-when:   2015.12.17
-where:	www.opengeospatial.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -4271,6 +4257,20 @@ who:	Archives départementales du Lot (=) AD46
 what:	77978
 when:	2018.03.28
 where:	https://archives.lot.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:    Global Politics Review (=) GPR
+what:   55407
+when:   2018.04.03
+where:  http://www.globalpoliticsreview.com
+how:    NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	AJLSM (=) AJLSM
+what:	64983
+when:	2018.04.04
+where:	http://ajlsm.com
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

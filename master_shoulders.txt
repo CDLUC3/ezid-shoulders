@@ -73,9 +73,10 @@
 # 5. Reload EZID.
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 >
-#    mistakenly minted NAAN to recycle immediately < 55407 >
-#    < 10.7296 10.20357 >
+
+#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 >
+#    < 10.7296 10.20357 10.21984 10.18439 >
+
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
 #    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
@@ -813,20 +814,6 @@ manager: ezid
 name: University of Illinois at Chicago
 date: 2017.02.09
 minter: https://n2t.net/a/ezid/m/ark/81984/c8
-
-:: datacite:PURDUE.UIC
-type: datacenter
-manager: ezid
-name: University of Illinois at Chicago
-
-:: doi:10.21984/C4
-type: shoulder
-manager: ezid
-#eziduser: uic
-name: University of Illinois at Chicago
-date: 2017.02.09
-minter: https://n2t.net/a/ezid/m/ark/d1984/c4
-datacenter: PURDUE.UIC
 
 :: ark:/81983/r8
 type: shoulder
@@ -2118,23 +2105,6 @@ minter: https://n2t.net/a/ezid/m/ark/c8734/p4
 datacenter: CDL.LBNL
 prefix_shares_datacenter: true
 
-:: ark:/88439/g4
-type: shoulder
-manager: ezid
-#eziduser: ogc
-name: Open Geospatial Consortium
-date: 2015.12.17
-minter: https://n2t.net/a/ezid/m/ark/88439/g4
-
-:: doi:10.18439/G9
-type: shoulder
-manager: ezid
-#eziduser: ogc
-name: Open Geospatial Consortium
-date: 2015.12.17
-minter: https://n2t.net/a/ezid/m/ark/c8439/g9
-datacenter: CDL.OGC
-
 :: doi:10.6086/D1
 type: shoulder
 manager: ezid
@@ -2362,23 +2332,6 @@ name: Landscape Conservation Cooperative
 date: 2015.09.15
 minter: https://n2t.net/a/ezid/m/ark/c8123/d6
 datacenter: CDL.LCC
-
-:: ark:/88122/b8
-type: shoulder
-manager: ezid
-#eziduser: boisedoi
-name: Boise State University
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/88122/b8
-
-:: doi:10.18122/B2
-type: shoulder
-manager: ezid
-#eziduser: boisedoi
-name: Boise State University
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/c8122/b2
-datacenter: CDL.BOISESTA
 
 :: ark:/88121/n7
 type: shoulder
@@ -6354,11 +6307,6 @@ type: datacenter
 manager: ezid
 name: Biocode Commons
 
-:: datacite:CDL.BOISESTA
-type: datacenter
-manager: ezid
-name: Boise State University
-
 :: datacite:CDL.BROAD
 type: datacenter
 manager: ezid
@@ -6736,11 +6684,6 @@ name: Open Context
 type: datacenter
 manager: ezid
 name: Odum Institute for Research in Social Science
-
-:: datacite:CDL.OGC
-type: datacenter
-manager: ezid
-name: Open Geospatial Consortium
 
 :: datacite:CDL.OHSU
 type: datacenter

@@ -358,7 +358,6 @@ RedirectMatch ^/((ark:/16076)|16076/?)(.*)$ http://sanglap-journal.in/$2$3
 RedirectMatch ^/((ark:/88119)|88119/?)(.*)$ https://www.facebase.org/$2$3
 RedirectMatch ^/((ark:/88120)|88120/?)(.*)$ http://www.isi.edu/research/informatics/$2$3
 RedirectMatch ^/((ark:/88121)|88121/?)(.*)$ www.cancer.gov/$2$3
-RedirectMatch ^/((ark:/88122)|88122/?)(.*)$ scholarworks.boisestate.edu/$2$3
 RedirectMatch ^/((ark:/88123)|88123/?)(.*)$ http://http://lccnetwork.org/$2$3
 RedirectMatch ^/((ark:/88124)|88124/?)(.*)$ https://www.environments.aq/$2$3
 RedirectMatch ^/((ark:/77636)|77636/?)(.*)$ http://aix.arkotheque.fr/$2$3
@@ -382,7 +381,6 @@ RedirectMatch ^/((ark:/88126)|88126/?)(.*)$ www.materialsdatafacility.org/$2$3
 RedirectMatch ^/((ark:/88436)|88436/?)(.*)$ sccoos.org/$2$3
 RedirectMatch ^/((ark:/88437)|88437/?)(.*)$ cdip.ucsd.edu/$2$3
 RedirectMatch ^/((ark:/22574)|22574/?)(.*)$ http://www.vendee.fr/$2$3
-RedirectMatch ^/((ark:/88439)|88439/?)(.*)$ www.opengeospatial.org/$2$3
 RedirectMatch ^/((ark:/83791)|83791/?)(.*)$ http://archives.ville-saumur.fr/$2$3
 RedirectMatch ^/((ark:/70795)|70795/?)(.*)$ http://bnl.etat.lu/$2$3
 RedirectMatch ^/((ark:/88734)|88734/?)(.*)$ solarfuelshub.org/$2$3
@@ -569,6 +567,8 @@ RedirectMatch ^/((ark:/42410)|42410/?)(.*)$ http://varepsilon.com/$2$3
 RedirectMatch ^/((ark:/29414)|29414/?)(.*)$ http://www.imec-archives.com/$2$3
 RedirectMatch ^/((ark:/16418)|16418/?)(.*)$ http://www.lafabriquedepatrimoines.fr/$2$3
 RedirectMatch ^/((ark:/77978)|77978/?)(.*)$ https://archives.lot.fr/$2$3
+RedirectMatch ^/((ark:/55407)|55407/?)(.*)$ http://www.globalpoliticsreview.com/$2$3
+RedirectMatch ^/((ark:/64983)|64983/?)(.*)$ http://ajlsm.com/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.03.26
+when:	2018.03.28
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3588,15 +3588,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid nci_asset
 
 naa:
-who:    Boise State University (=) BOISESTATE
-what:   88122
-when:   2015.09.08
-where:	scholarworks.boisestate.edu
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid boisedoi
-
-naa:
 who:    Landscape Conservation Cooperative (=) LCC
 what:   88123
 when:   2015.09.29
@@ -3806,15 +3797,6 @@ where:	http://www.vendee.fr
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
-
-naa:
-who:    Open Geospatial Consortium (=) OGC
-what:   88439
-when:   2015.12.17
-where:	www.opengeospatial.org
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid ogc
 
 naa:
 who:	Archives municipales de Saumur (=) AMSAUMUR
@@ -5655,8 +5637,28 @@ when:	2018.03.28
 where:	https://archives.lot.fr
 how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
-!contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
+!contact: Maurier, Antoine (computer scientist) ||| Antoine.MAURIER@lot.fr | 
 !address: 218 Rue des Cadourques, 46000 Cahors
+
+naa:
+who:    Global Politics Review (=) GPR
+what:   55407
+when:   2018.04.03
+where:  http://www.globalpoliticsreview.com
+how:    NP | (:unkn) unknown | 2018 |
+!why:   ARK
+!contact: Scartozzi, Cesare (Editor in-chief) ||| c.scartozzi@globalpoliticsreview.com |
+!address: Via Palmieri 25, 10138, Torino, Italy.
+
+naa:
+who:	AJLSM (=) AJLSM
+what:	64983
+when:	2018.04.04
+where:	http://ajlsm.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
+!address: 17 Rue Vital Carles, 33000 Bordeaux, France
 
 naa:
 who:	Metadata Terms (=) TERMS

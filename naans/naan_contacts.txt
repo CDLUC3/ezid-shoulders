@@ -407,7 +407,6 @@ contact: Chattopadhyay, Arka ||| sanglapthejournal@gmail.com |
 contact: eziduserid facebase
 contact: eziduserid isi-isrd
 contact: eziduserid nci_asset
-contact: eziduserid boisedoi
 contact: eziduserid lccnetwork
 contact: eziduserid aep
 contact: Sepulveda, Jean José ||| sepulvedajj@mairie-aixenprovence.fr |
@@ -435,7 +434,6 @@ contact: eziduserid mdf
 contact: eziduserid ucsd_sccoos
 contact: eziduserid ucsd_cdip
 contact: Jaouad, Soufiane ||| soufiane.jaouad@vendee.fr |
-contact: eziduserid ogc
 contact: Flandrin, Véronique ||| v.flandrin@ville-saumur.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu |
@@ -629,7 +627,9 @@ contact: HENCHIRI, Jamel Eddine (Head) ||| jamel.Henchiri@gmail.com |
 contact: Stoyanov, Borislav (President) ||| mse@varepsilon.com | 
 contact: Derval, André (Directeur des collections) ||| andre.derval@imec-archives.com | 
 contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepatrimoines.fr | 
-contact: Antoine, MAURIER (computer scientist) ||| Antoine.MAURIER@lot.fr | 
+contact: Maurier, Antoine (computer scientist) ||| Antoine.MAURIER@lot.fr | 
+contact: Scartozzi, Cesare (Editor in-chief) ||| c.scartozzi@globalpoliticsreview.com |
+contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
