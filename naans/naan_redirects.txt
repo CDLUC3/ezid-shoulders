@@ -562,6 +562,7 @@ RedirectMatch ^/((ark:/77978)|77978/?)(.*)$ https://archives.lot.fr/$2$3
 RedirectMatch ^/((ark:/55407)|55407/?)(.*)$ http://www.globalpoliticsreview.com/$2$3
 RedirectMatch ^/((ark:/64983)|64983/?)(.*)$ http://ajlsm.com/$2$3
 RedirectMatch ^/((ark:/51986)|51986/?)(.*)$ https://eta.lbl.gov/$2$3
+RedirectMatch ^/((ark:/38990)|38990/?)(.*)$ http://archives.chalon.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

@@ -623,6 +623,7 @@ contact: Maurier, Antoine (computer scientist) ||| Antoine.MAURIER@lot.fr |
 contact: Scartozzi, Cesare (Editor in-chief) ||| c.scartozzi@globalpoliticsreview.com |
 contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
 contact: eziduserid lbnl-btusadmin
+contact: DESWARTVAEGHER, Christelle (Archivist) ||| Christelle.DESWARTVAEGHER@chalonsursaone.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

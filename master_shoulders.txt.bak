@@ -74,8 +74,8 @@
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 >
-#    < 10.7296 10.20357 10.21984 10.18439 10.21983 10.7276 10.21416 >
+#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 >
+#    < 10.7296 10.21984 10.18439 10.21983 10.7276 10.21416 >
 
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
@@ -93,10 +93,10 @@
 # shoulder entry generated.
 
 # Combined Purdue and CDL prefixes.
-# xxx unassigned CDL-only prefixes:  10.7918
 #
 # Allocate a prefix by popping off the top of the stack (next).
 #
+# xxx unassigned CDL-only prefixes:  10.7918
 # STACKTOP
 # 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
@@ -198,6 +198,33 @@
 # lbnl-lib    make_ezacct -n 10.25342 - - -  < ezaccts/newacct > out
 # umiami      make_ezacct -n 10.25343 v3 - -  < ezaccts/newacct > out
 # ucsdlib     make_ezacct -n 10.21221 s2 - -  < ezaccts/newacct > out
+# lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
+
+:: ark:/21198/n1
+type: shoulder
+manager: ezid
+#eziduser: ucla-library
+name: DLP
+date: 2018.04.11
+minter: https://n2t.net/a/ezid/m/ark/21198/n1
+
+:: ark:/51986/b6
+type: shoulder
+manager: ezid
+#eziduser: lbnl-btusadmin
+name: LBNL BSUD Admin
+date: 2018.04.11
+minter: https://n2t.net/a/ezid/m/ark/51986/b6
+
+:: doi:10.20357/B7
+type: shoulder
+manager: ezid
+#eziduser: lbnl-btusadmin
+name: LBNL BSUD Admin
+date: 2018.04.11
+minter: https://n2t.net/a/ezid/m/ark/d0357/b7
+datacenter: CDL.LBNL
+prefix_shares_datacenter: true
 
 :: doi:10.21221/S2
 type: shoulder
@@ -1531,28 +1558,6 @@ date: 2016.05.26
 minter: https://n2t.net/a/ezid/m/ark/d1236/d6
 datacenter: CDL.DTIC
 
-:: ark:/81235/
-type: shoulder
-manager: ezid
-#eziduser: sepeditors
-name: Stanford Encyclopedia of Philosophy
-date: 2016.05.26
-minter: 
-
-:: datacite:CDL.SEP
-type: datacenter
-manager: ezid
-name: Stanford Encyclopedia of Philosophy
-
-:: doi:10.21235/
-type: shoulder
-manager: ezid
-#eziduser: sepeditors
-name: Stanford Encyclopedia of Philosophy
-date: 2016.05.26
-minter: 
-datacenter: CDL.SEP
-
 :: ark:/81234/b8
 type: shoulder
 manager: ezid
@@ -1996,23 +2001,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6071/z7
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
 
-:: ark:/88735/s3
-type: shoulder
-manager: ezid
-#eziduser: simtk
-name: SimTK
-date: 2016.02.08
-minter: https://n2t.net/a/ezid/m/ark/88735/s3
-
-:: doi:10.18735/S5
-type: shoulder
-manager: ezid
-#eziduser: simtk
-name: SimTK
-date: 2016.02.08
-minter: https://n2t.net/a/ezid/m/ark/c8735/s5
-datacenter: CDL.SIMTK
-
 :: doi:10.7936/G3
 type: shoulder
 manager: ezid
@@ -2405,23 +2393,6 @@ name: Laboratory for Basic and Translational Cognitive Neuroscience
 date: 2015.08.13
 minter: https://n2t.net/a/ezid/m/ark/c8115/d5
 datacenter: CDL.LUCKLAB
-
-:: ark:/88112/p8
-type: shoulder
-manager: ezid
-#eziduser: openfmri
-name: Openfmri
-date: 2015.07.27
-minter: https://n2t.net/a/ezid/m/ark/88112/p8
-
-:: doi:10.18112/P2
-type: shoulder
-manager: ezid
-#eziduser: openfmri
-name: Openfmri
-date: 2015.07.27
-minter: https://n2t.net/a/ezid/m/ark/c8112/p2
-datacenter: CDL.OPENFMRI
 
 :: ark:/77920/p2
 type: shoulder
@@ -4902,7 +4873,7 @@ manager: ezid
 name: UCSD Research Cyberinfrastructure Data Curation
 date: 2013.02.21
 minter: https://n2t.net/a/ezid/m/ark/b6075/w7
-datacenter: CDL.RCIDC
+datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
 :: ark:/87294/w5
@@ -5471,7 +5442,7 @@ manager: ezid
 name: OpenContext
 date: 2012.05.04
 minter: https://n2t.net/a/ezid/m/ark/b6078/m7
-datacenter: CDL.OCONTEXT
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/47881/m6
@@ -6566,11 +6537,6 @@ type: datacenter
 manager: ezid
 name: New York University Libraries (on behalf of New York University)
 
-:: datacite:CDL.OCONTEXT
-type: datacenter
-manager: ezid
-name: Open Context
-
 :: datacite:CDL.ODUMUNC
 type: datacenter
 manager: ezid
@@ -6580,11 +6546,6 @@ name: Odum Institute for Research in Social Science
 type: datacenter
 manager: ezid
 name: Oregon Health & Science University
-
-:: datacite:CDL.OPENFMRI
-type: datacenter
-manager: ezid
-name: Openfmri
 
 :: datacite:CDL.ORNL
 type: datacenter
@@ -6630,11 +6591,6 @@ name: Consortium for Qualitative Research Methods
 type: datacenter
 manager: ezid
 name: Rolling Deck to Repository Program
-
-:: datacite:CDL.RCIDC
-type: datacenter
-manager: ezid
-name: UCSD Research Cyberinfrastructure Data Curation
 
 :: datacite:CDL.REGENBAS
 type: datacenter
@@ -6690,11 +6646,6 @@ name: Caltech Seismological Laboratory
 #type: datacenter
 #manager: ezid
 #name: Saint Edward's University
-
-:: datacite:CDL.SIMTK
-type: datacenter
-manager: ezid
-name: SimTK
 
 :: datacite:CDL.STSCI
 type: datacenter

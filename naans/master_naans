@@ -5596,6 +5596,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !address: 1 Cyclotron Road  Berkeley, CA 94720  MSn90R3111
 
 naa:
+who:	Archives municipales de Chalon-sur-Saône (=) AMCHALON
+what:	38990
+when:	2018.04.11
+where:	http://archives.chalon.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: DESWARTVAEGHER, Christelle (Archivist) ||| Christelle.DESWARTVAEGHER@chalonsursaone.fr | 
+!address: 16 rue de la jonchère - 71880 Chatenoy-le-Royale
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02
