@@ -122,7 +122,6 @@
 87273	Washington State University (=) WSU
 87274	University of Notre Dame (=) UND
 87275	University of Massachusetts Amherst (=) UMA
-87276	Center for Studies in Demography and Ecology (=) CSDE     
 87277	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 87278	University of Utah (=) UUTAH
 87279	Ocean Observatory Initiative (=) OOI
@@ -169,7 +168,6 @@
 87910	Databrary (=) DATABRARY
 87912	Indiana University Purdue University Indianapolis (=) IUPUI
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
-87913	UW eScience Institute (=) UWESCIENCE
 88113	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
 87914	International Federation of Digital Seismograph Networks (=) FDSN
 31123	Fondation Maison des Sciences de l'Homme (=) FMSH
@@ -332,7 +330,6 @@
 87908	UC San Diego Department of Biomedical Informatics (=) DBMICLD
 77909	Space Telescope Science Institute (=) STSCI
 58484	Archives Départementales des Alpes de Haute Provence (=) ADAHP
-87911	University of Washington IsoLab (=) UWISOLAB
 45487	Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
 77912	Caltech Biology (=) WORMBASE
 77913	Miami Project to Cure Paralysis (=) REGENBASE
@@ -348,7 +345,6 @@
 87918	Drexel University Libraries (=) DRXLDATA
 77919	Entrepreneur & Innovation Exchange (=) EIX
 77920	PubRef.org (=) PUBREF
-88112	Openfmri (=) OPENFMRI
 88115	Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
 88117	University of Pittsburgh (=) PITT
 88116	UMass Medical School-CANDI (=) UMMSCAND
@@ -385,7 +381,6 @@
 88734	Joint Center for Artificial Photosynthesis in Chemical Sciences Division (=) LBNLJCAP
 57799	bioCADDIE (=) BIOCADDIE
 44804	Université de Caen Normandie (=) UCN
-88735	SimTK (=) SIMTK
 32150	Durham University Library (=) DURUL
 19154	Durham Cathedral Library (=) DURCL
 80371	Ushaw College Library (=) USHAWCL
@@ -416,7 +411,6 @@
 81232	UWisc EcoSIS (=) ECOSIS
 81233	UWisc Neotoma Paleological Database (=) NEOTOMA
 81234	UWisc IceCube Astrophysics Center (=) WIPAC
-81235	Stanford Encyclopedia of Philosophy (=) SEP
 81236	Defense Technical Information Center (DTIC) (=) DTIC
 12313	Hachette Livre (=) HACHETTE
 81238	UCSD Scripps Spray Plotting (=) UCSDIDG
@@ -430,7 +424,6 @@
 81415	TalkBank (=) TALKBANK
 21889	Editis Pôle Éducation & Référence (=) EDITISPER
 83108	Toulon Provence Méditerranée (=) TPM
-81416	UW Information Technology Services (=) UWITS
 70454	Association Sésamath (=) SESAMATH
 81417	Adaptive Biotechnologies (=) ADAPTIVE
 81418	UCB Geotechnical Engineering Research (=) UCBGT
@@ -480,7 +473,6 @@
 81982	University of Michigan Dept of EEC (=) UMGRSS
 82765	Cadmos (=) CADMOS
 69769	Archives du Musée du quai Branly Jacques Chirac (=) MQB
-81983	UW Institute for Learning & Brain Sciences (=) UWILABS
 56773	Journal of Zoology Studies (=) JOZS
 81984	University of Illinois at Chicago (=) UIC
 43778	Archives départementales de la Dordogne (=) ADDORD
@@ -568,6 +560,7 @@
 77978	Archives départementales du Lot (=) AD46
 55407	Global Politics Review (=) GPR
 64983	AJLSM (=) AJLSM
+51986	LBNL ETA Building Tech and Urban Systems (=) BSUDADMIN
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

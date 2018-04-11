@@ -137,7 +137,6 @@ contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 
 contact: EZID userid washstate
 contact: EZID userid notredame
 contact: EZID userid umamherst
-contact: EZID userid uw_csde
 contact: EZID userid iucns
 contact: EZID userid uofutah
 contact: EZID userid ucsd_ooi
@@ -189,7 +188,6 @@ contact: eziduserid caltech_sl
 contact: eziduserid nyu_databrary
 contact: eziduserid iupui
 contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
-contact: eziduserid uw_esci
 contact: eziduserid datacommon
 contact: eziduserid fdsn
 contact: Papy, Fabrice ||| fabrice.papy@msh-paris.fr |
@@ -380,7 +378,6 @@ contact: eziduserid ucsd_dbmicloud
 contact: eziduserid stsci
 contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
-contact: eziduserid uw_isolab
 contact: Miller, Anna ||| editors@rulb.org |
 contact: eziduserid caltech_wormbase
 contact: eziduserid umiami_regenbase
@@ -398,7 +395,6 @@ contact: eziduserid nci
 contact: eziduserid drexeldata
 contact: eziduserid eixid
 contact: eziduserid pubref
-contact: eziduserid openfmri
 contact: eziduserid ucd-lucklab
 contact: eziduserid pittezid
 contact: eziduserid umms-candi
@@ -440,7 +436,6 @@ contact: Popistasu, Roxana ||| Roxana.Popistasu@bnl.etat.lu |
 contact: eziduserid lbnl-jcap
 contact: eziduserid biocaddie
 contact: Le Monnier, Olivier ||| olivier.lemonnier |
-contact: eziduserid simtk
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
@@ -474,7 +469,6 @@ contact: Branda, Ewan ||| Ewan.Branda@woodbury.edu |
 contact: eziduserid uwisc_ecosis
 contact: eziduserid uwisc_neotoma
 contact: eziduserid wisc_icecube
-contact: eziduserid sepeditors
 contact: eziduserid dtic-ci
 contact: Audrain, Luc ||| laudrain@hachette-livre.fr | +33 (0) 1 43 92 33 02
 contact: eziduserid ucsd_spray
@@ -488,7 +482,6 @@ contact: eziduserid lovejoy
 contact: eziduserid talkbank
 contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
-contact: eziduserid uw_rw
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
 contact: eziduserid adaptive
 contact: eziduserid ucb-geotech
@@ -541,7 +534,6 @@ contact: eziduserid uiowa
 contact: eziduserid um_rsclid
 contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
 contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
-contact: eziduserid uw_i-labsout
 contact: Kumar, Rishabh ||| info.jozs@gmail.com | 
 contact: eziduserid uic
 contact: Bordas, Denis ||| d.bordas@dordogne.fr | 
@@ -630,6 +622,7 @@ contact: Osinski, Elise (Database administrator) ||| reseaumusees@lafabriquedepa
 contact: Maurier, Antoine (computer scientist) ||| Antoine.MAURIER@lot.fr | 
 contact: Scartozzi, Cesare (Editor in-chief) ||| c.scartozzi@globalpoliticsreview.com |
 contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
+contact: eziduserid lbnl-btusadmin
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

@@ -74,9 +74,8 @@
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 >
-#        mistakenly minted NAAN to recycle immediately < 55407 >
-#    < 10.7296 10.20357 10.21984 >
+#    < 87287 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 >
+#    < 10.7296 10.20357 10.21984 10.18439 10.21983 10.7276 10.21416 >
 
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
@@ -131,7 +130,6 @@
 # invemar  make_ezacct -n 10.21239 v9 "" m9 < ezaccts/newacct > out
 # siue     make_ezacct -n 10.21414 t4 "" d2 < ezaccts/newacct > out
 # talkbank make_ezacct -n 10.21415 t5 "" b4 < ezaccts/newacct > out
-# uwits    make_ezacct -n 10.21416 t6 "" s4 < ezaccts/newacct > out
 # adaptive make_ezacct -n 10.21417 b7 "" b4 < ezaccts/newacct > out
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
@@ -165,7 +163,6 @@
 # uci-jetem   make_ezacct -n 10.21980 j8 - -  < ezaccts/newacct > out
 # uiowa       make_ezacct -n 10.21981 m8 "" w9  < ezaccts/newacct > out
 # um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
-# uw_i-labs   make_ezacct -n 10.21983 b3 "" r8  < ezaccts/newacct > out
 # uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
 # nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 # sdsc-caida  make_ezacct -n 10.21986 s6 "" s6  < ezaccts/newacct > out
@@ -816,24 +813,6 @@ name: University of Illinois at Chicago
 date: 2017.02.09
 minter: https://n2t.net/a/ezid/m/ark/81984/c8
 
-:: ark:/81983/r8
-type: shoulder
-manager: ezid
-#eziduser: uw_i-labsout
-name: UW Institute for Learning & Brain Sciences
-date: 2017.01.26
-minter: https://n2t.net/a/ezid/m/ark/81983/r8
-
-:: doi:10.21983/B3
-type: shoulder
-manager: ezid
-#eziduser: uw_i-labsout
-name: UW Institute for Learning & Brain Sciences
-date: 2017.01.26
-minter: https://n2t.net/a/ezid/m/ark/d1983/b3
-datacenter: CDL.UWL
-prefix_shares_datacenter: true
-
 :: ark:/81982/r2
 type: shoulder
 manager: ezid
@@ -1424,25 +1403,6 @@ name: Adaptive Biotechnologies
 date: 2016.07.08
 minter: https://n2t.net/a/ezid/m/ark/d1417/b7
 datacenter: PURDUE.ADAPTIVE
-
-:: ark:/81416/s4
-type: shoulder
-manager: ezid
-#eziduser: uw_rw
-name: UW Information Technology Services
-date: 2016.06.29
-minter: https://n2t.net/a/ezid/m/ark/81416/s4
-
-:: doi:10.21416/T6
-type: shoulder
-manager: ezid
-#eziduser: uw_rw
-name: UW Information Technology Services
-date: 2016.06.29
-minter: https://n2t.net/a/ezid/m/ark/d1416/t6
-datacenter: CDL.UWL
-prefix_shares_datacenter: true
-
 
 :: ark:/81415/b4
 type: shoulder
@@ -2106,23 +2066,6 @@ minter: https://n2t.net/a/ezid/m/ark/c8734/p4
 datacenter: CDL.LBNL
 prefix_shares_datacenter: true
 
-:: ark:/88439/g4
-type: shoulder
-manager: ezid
-#eziduser: ogc
-name: Open Geospatial Consortium
-date: 2015.12.17
-minter: https://n2t.net/a/ezid/m/ark/88439/g4
-
-:: doi:10.18439/G9
-type: shoulder
-manager: ezid
-#eziduser: ogc
-name: Open Geospatial Consortium
-date: 2015.12.17
-minter: https://n2t.net/a/ezid/m/ark/c8439/g9
-datacenter: CDL.OGC
-
 :: doi:10.6086/D1
 type: shoulder
 manager: ezid
@@ -2628,25 +2571,6 @@ name: Caltech Biology
 date: 2015.05.26
 minter: https://n2t.net/a/ezid/m/ark/c7912/w2
 datacenter: CDL.WORMBASE
-
-# ARK NAAN formerly used by OneOcean
-:: ark:/87911/s7
-type: shoulder
-manager: ezid
-#eziduser: uw_isolab
-name: University of Washington IsoLab
-date: 2015.05.20
-minter: https://n2t.net/a/ezid/m/ark/87911/s7
-
-# DOI Prefix formerly used by OneOcean
-:: doi:10.17911/S9
-type: shoulder
-manager: ezid
-#eziduser: uw_isolab
-name: University of Washington IsoLab
-date: 2015.05.20
-minter: https://n2t.net/a/ezid/m/ark/c7911/s9
-datacenter: CDL.UWISOLAB
 
 :: ark:/87910/b9
 type: shoulder
@@ -4745,23 +4669,6 @@ minter:
 datacenter: PURDUE.EZID
 prefix_shares_datacenter: true
 
-:: ark:/87913/d2
-type: shoulder
-manager: ezid
-#eziduser: uw_esci
-name: University of Washington eScience Institute
-date: 2013.06.05
-minter: https://n2t.net/a/ezid/m/ark/87913/d2
-
-:: doi:10.7913/D1
-type: shoulder
-manager: ezid
-#eziduser: uw_esci
-name: University of Washington eScience Institute
-date: 2013.06.05
-minter: https://n2t.net/a/ezid/m/ark/b7913/d1
-datacenter: CDL.UWESCI
-
 :: ark:/87912/d0
 type: shoulder
 manager: ezid
@@ -5262,23 +5169,6 @@ name: Indiana University Cyberinfrastructure for Network Science Center
 date: 2012.08.11
 minter: https://n2t.net/a/ezid/m/ark/b7277/s3
 datacenter: PURDUE.IUCNS
-
-:: ark:/87276/s2
-type: shoulder
-manager: ezid
-#eziduser: uw_csde
-name: University of Washington Center for Studies in Demography and Ecology
-date: 2012.08.07
-minter: https://n2t.net/a/ezid/m/ark/87276/s2
-
-:: doi:10.7276/S1
-type: shoulder
-manager: ezid
-#eziduser: uw_csde
-name: University of Washington Center for Studies in Demography and Ecology
-date: 2012.08.07
-minter: https://n2t.net/a/ezid/m/ark/b7276/s1
-datacenter: CDL.UWCSDE
 
 :: ark:/34231/s0
 type: shoulder
@@ -5981,23 +5871,6 @@ name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC
 date: 2011.12.13
 minter:
 datacenter: CDL.ORNL
-
-:: ark:/85066/f8
-type: shoulder
-manager: ezid
-#eziduser: usgs
-name: USGS Core Science Analytics and Synthesis (CSAS)
-date: 2011.12.13
-minter: https://n2t.net/a/ezid/m/ark/85066/f8
-
-:: doi:10.5066/F7
-type: shoulder
-manager: ezid
-#eziduser: usgs
-name: USGS Core Science Analytics and Synthesis (CSAS)
-date: 2011.12.13
-minter: https://n2t.net/a/ezid/m/ark/b5066/f7
-datacenter: CDL.USGS
 
 :: ark:/85064/f5
 type: shoulder
@@ -6703,11 +6576,6 @@ type: datacenter
 manager: ezid
 name: Odum Institute for Research in Social Science
 
-:: datacite:CDL.OGC
-type: datacenter
-manager: ezid
-name: Open Geospatial Consortium
-
 :: datacite:CDL.OHSU
 type: datacenter
 manager: ezid
@@ -7013,11 +6881,6 @@ type: datacenter
 manager: ezid
 name: U.S. Global Change Research Program/UCAR
 
-:: datacite:CDL.USGS
-type: datacenter
-manager: ezid
-name: USGS Core Science Analytics and Synthesis (CSAS)
-
 :: datacite:CDL.USU
 type: datacenter
 manager: ezid
@@ -7047,21 +6910,6 @@ name: University of Virginia
 type: datacenter
 manager: ezid
 name: University of Washington College of the Environment Climate Impacts Group (CIG)
-
-:: datacite:CDL.UWCSDE
-type: datacenter
-manager: ezid
-name: University of Washington Center for Studies in Demography and Ecology
-
-:: datacite:CDL.UWESCI
-type: datacenter
-manager: ezid
-name: University of Washington eScience Institute
-
-:: datacite:CDL.UWISOLAB
-type: datacenter
-manager: ezid
-name: University of Washington IsoLab
 
 :: datacite:CDL.UWL
 type: datacenter

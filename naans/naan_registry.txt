@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.04.04
+when:	2018.04.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1152,13 +1152,6 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	Center for Studies in Demography and Ecology (=) CSDE     
-what:	87276
-when:	2012.08.07
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
 who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 what:	87277
 when:	2012.08.11
@@ -1479,13 +1472,6 @@ what:	44119
 when:	2013.05.27
 where:	http://www.wallonie.be/fr/guide/guide-services/1150
 how:	NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    UW eScience Institute (=) UWESCIENCE
-what:   87913
-when:   2013.06.05
-where:  http://escience.washington.edu
-how:    NP | (:unkn) unknown | 2013 |
 
 naa:
 who:    Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
@@ -2622,13 +2608,6 @@ where:	http://archivesenligne.archives04.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    University of Washington IsoLab (=) UWISOLAB
-what:   87911
-when:   2015.05.20
-where:	depts.washington.edu/isolab
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
 what:	45487
 when:	2015.05.22
@@ -2731,13 +2710,6 @@ who:    PubRef.org (=) PUBREF
 what:   77920
 when:   2015.07.17
 where:	https://pubref.org/v1/home
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Openfmri (=) OPENFMRI
-what:   88112
-when:   2015.07.27
-where:	http://www.openfmri.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -2993,13 +2965,6 @@ where:	http://www.unicaen.fr
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    SimTK (=) SIMTK
-what:   88735
-when:   2016.02.08
-where:	http://simtk.org
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	Durham University Library (=) DURUL
 what:	32150
 when:	2016.02.16
@@ -3210,13 +3175,6 @@ where:	https://wipac.wisc.edu
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    Stanford Encyclopedia of Philosophy (=) SEP
-what:   81235
-when:   2016.05.26
-where:	http://plato.stanford.edu
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:    Defense Technical Information Center (DTIC) (=) DTIC
 what:   81236
 when:   2016.05.26
@@ -3305,13 +3263,6 @@ who:	Toulon Provence Méditerranée (=) TPM
 what:	83108
 when:	2016.06.28
 where:	http://www.tpm-agglo.fr
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
-who:    UW Information Technology Services (=) UWITS
-what:   81416
-when:   2016.06.29
-where:	http://www.washington.edu/uwit
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -3655,13 +3606,6 @@ who:	Archives du Musée du quai Branly Jacques Chirac (=) MQB
 what:	69769
 when:	2017.01.25
 where:	http://docmuseale.quaibranly.fr
-how:	NP | (:unkn) unknown | 2017 |
-
-naa:
-who:	UW Institute for Learning & Brain Sciences (=) UWILABS
-what:	81983
-when:	2017.01.26
-where:	http://ilabs.washington.edu
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
@@ -4271,6 +4215,13 @@ who:	AJLSM (=) AJLSM
 what:	64983
 when:	2018.04.04
 where:	http://ajlsm.com
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	LBNL ETA Building Tech and Urban Systems (=) BSUDADMIN
+what:	51986
+when:	2018.04.11
+where:	https://eta.lbl.gov
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

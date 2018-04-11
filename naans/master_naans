@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.04.04
+when:	2018.04.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1437,15 +1437,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid umamherst
 
 naa:
-who:	Center for Studies in Demography and Ecology (=) CSDE     
-what:	87276
-when:	2012.08.07
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid uw_csde
-
-naa:
 who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 what:	87277
 when:	2012.08.11
@@ -1863,15 +1854,6 @@ where:	http://www.wallonie.be/fr/guide/guide-services/1150
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
 !contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
-
-naa:
-who:    UW eScience Institute (=) UWESCIENCE
-what:   87913
-when:   2013.06.05
-where:  http://escience.washington.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid uw_esci
 
 naa:
 who:    Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
@@ -3361,15 +3343,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 
 naa:
-who:    University of Washington IsoLab (=) UWISOLAB
-what:   87911
-when:   2015.05.20
-where:	depts.washington.edu/isolab
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid uw_isolab
-
-naa:
 who:    Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
 what:	45487
 when:	2015.05.22
@@ -3505,15 +3478,6 @@ where:	https://pubref.org/v1/home
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid pubref
-
-naa:
-who:    Openfmri (=) OPENFMRI
-what:   88112
-when:   2015.07.27
-where:	http://www.openfmri.org
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid openfmri
 
 naa:
 who:    Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
@@ -3845,15 +3809,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: Le Monnier, Olivier ||| olivier.lemonnier |
 
 naa:
-who:    SimTK (=) SIMTK
-what:   88735
-when:   2016.02.08
-where:	http://simtk.org
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid simtk
-
-naa:
 who:	Durham University Library (=) DURUL
 what:	32150
 when:	2016.02.16
@@ -4138,16 +4093,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: 222 W Washington Ave, Suite 500, Madison WI, 53703
 
 naa:
-who:    Stanford Encyclopedia of Philosophy (=) SEP
-what:   81235
-when:   2016.05.26
-where:	http://plato.stanford.edu
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid sepeditors
-!address: 202 Cordura Hall  Stanford University  Stanford, CA 94305-4115
-
-naa:
 who:    Defense Technical Information Center (DTIC) (=) DTIC
 what:   81236
 when:   2016.05.26
@@ -4276,16 +4221,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 !address: 107 Boulevard Henri Fabre - CS 30536, 83041 TOULON Cedex 09, France
-
-naa:
-who:    UW Information Technology Services (=) UWITS
-what:   81416
-when:   2016.06.29
-where:	http://www.washington.edu/uwit
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid uw_rw
-!address: University of Washington Libraries  Box 352900  Seattle, WA 9895
 
 naa:
 who:	Association Sésamath (=) SESAMATH
@@ -4778,16 +4713,6 @@ how:	NP | (:unkn) unknown | 2017 |
 !why:	ARK
 !contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
 !address: 222 rue de l'Université 75007 PARIS
-
-naa:
-who:	UW Institute for Learning & Brain Sciences (=) UWILABS
-what:	81983
-when:	2017.01.26
-where:	http://ilabs.washington.edu
-how:	NP | (:unkn) unknown | 2017 |
-!why:	EZID ARK
-!contact: eziduserid uw_i-labsout
-!address: Campus Box 357988  Seattle, WA 981-7988
 
 naa:
 who:	Journal of Zoology Studies (=) JOZS
@@ -5659,6 +5584,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Dia, Modou (development) ||| mdia@ajlsm.com | 
 !address: 17 Rue Vital Carles, 33000 Bordeaux, France
+
+naa:
+who:	LBNL ETA Building Tech and Urban Systems (=) BSUDADMIN
+what:	51986
+when:	2018.04.11
+where:	https://eta.lbl.gov
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid lbnl-btusadmin
+!address: 1 Cyclotron Road  Berkeley, CA 94720  MSn90R3111
 
 naa:
 who:	Metadata Terms (=) TERMS
