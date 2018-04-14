@@ -343,7 +343,7 @@ naa:
 who:	University of California San Diego (=) UCSD
 what:	20775
 when:	2004.06.02
-where:	http://library.ucsd.edu
+where:	http://libraries.ucsd.edu
 how:	NP | (:unkn) unknown | 2004 |
 !why:   ARK
 #!contact: Frymann, Chris | UCSD Library | 2004-2010 | chrisfm@library.ucsd.edu
@@ -5604,6 +5604,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: DESWARTVAEGHER, Christelle (Archivist) ||| Christelle.DESWARTVAEGHER@chalonsursaone.fr | 
 !address: 16 rue de la jonchère - 71880 Chatenoy-le-Royale
+
+naa:
+who:	UCD Online Strategies (=) UCDONS
+what:	87287
+when:	2018.04.14
+where:	http://library.ucdavis.edu
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid ucd-qjhart
+!address: Davis, California
 
 naa:
 who:	Metadata Terms (=) TERMS

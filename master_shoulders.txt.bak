@@ -200,6 +200,16 @@
 # ucsdlib     make_ezacct -n 10.21221 s2 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
 
+:: datacite:CDL.RCIDC
+type: datacenter
+manager: ezid
+name: UCSD Research Cyberinfrastructure Data Curation
+
+:: datacite:CDL.OCONTEXT
+type: datacenter
+manager: ezid
+name: Open Context
+
 :: ark:/21198/n1
 type: shoulder
 manager: ezid
@@ -212,7 +222,7 @@ minter: https://n2t.net/a/ezid/m/ark/21198/n1
 type: shoulder
 manager: ezid
 #eziduser: lbnl-btusadmin
-name: LBNL BSUD Admin
+name: LBNL BTUSAdmin
 date: 2018.04.11
 minter: https://n2t.net/a/ezid/m/ark/51986/b6
 
@@ -220,7 +230,7 @@ minter: https://n2t.net/a/ezid/m/ark/51986/b6
 type: shoulder
 manager: ezid
 #eziduser: lbnl-btusadmin
-name: LBNL BSUD Admin
+name: LBNL BTUSAdmin
 date: 2018.04.11
 minter: https://n2t.net/a/ezid/m/ark/d0357/b7
 datacenter: CDL.LBNL
