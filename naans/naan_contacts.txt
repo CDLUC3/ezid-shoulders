@@ -521,7 +521,6 @@ contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr |
 contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
 contact: eziduserid nrsinfomgr
 contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
-contact: eziduserid vculibraries
 contact: Babois, Agnès ||| a.babois@crlbn.fr | 
 contact: Mansum, Jan van ||| jan.van.mansum@dans.knaw.nl | 
 contact: Blin, Isabelle ||| i.blin@bayonne.fr | 
@@ -625,6 +624,8 @@ contact: Dia, Modou (development) ||| mdia@ajlsm.com |
 contact: eziduserid lbnl-btusadmin
 contact: DESWARTVAEGHER, Christelle (Archivist) ||| Christelle.DESWARTVAEGHER@chalonsursaone.fr | 
 contact: eziduserid ucd-qjhart
+contact: Lamprecht, Frédéric (Director) ||| lamprecht@explorateurdemetiers.fr |
+contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

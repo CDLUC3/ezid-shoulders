@@ -232,7 +232,7 @@
 87940	UCSB Writing Program (=) WRITPRO
 23941	University of Southern California (=) USC
 10945	AsWeGrow (=) ASWEGROW
-72505	Université Lille 3 (=) University of Lille 3 (=) UL3
+72505	Université Lille (=) University of Lille (=) ULILLE
 59509	PharmaTutor (=) PTUTOR
 87941	Lawrence Berkeley National Laboratory (=) LBNL
 46513	Sciences Po (=) Paris Institute of Political Studies (=) SCPO
@@ -460,7 +460,6 @@
 24626	Archives départementales de la Drôme (=) AD26
 81973	University of California Natural Reserve System (=) UCNRS
 11972	Archives départementales du Tarn (=) AD81
-81974	Virginia Commonwealth University (=) VCU
 86186	Centre Régional des Lettres (=) NORMANNIA
 73189	Data Archiving and Networked Services (=) DANSKNAW
 60193	Médiathèque de Bayonne (=) MBAYONNE
@@ -563,6 +562,8 @@
 51986	LBNL ETA Building Tech and Urban Systems (=) BSUDADMIN
 38990	Archives municipales de Chalon-sur-Saône (=) AMCHALON
 87287	UCD Online Strategies (=) UCDONS
+25994	Explorateur de Métiers (=) EDMTV
+12999	Archives Municipales de Landerneau (=) AML
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

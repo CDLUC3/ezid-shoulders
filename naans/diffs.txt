@@ -1,21 +1,48 @@
-diff -r 1c3957209712 naans/master_naans
---- a/naans/master_naans	Wed Apr 11 14:05:09 2018 -0700
-+++ b/naans/master_naans	Sat Apr 14 08:43:52 2018 -0700
-@@ -345,3 +345,3 @@
- when:	2004.06.02
--where:	http://library.ucsd.edu
-+where:	http://libraries.ucsd.edu
- how:	NP | (:unkn) unknown | 2004 |
-@@ -5608,2 +5608,12 @@
+diff -r f7dd6c2fe914 naans/master_naans
+--- a/naans/master_naans	Sat Apr 14 08:43:52 2018 -0700
++++ b/naans/master_naans	Mon Apr 23 09:52:18 2018 -0700
+@@ -2446,6 +2446,6 @@
  naa:
-+who:	UCD Online Strategies (=) UCDONS
-+what:	87287
-+when:	2018.04.14
-+where:	http://library.ucdavis.edu
+-who:	Université Lille 3 (=) University of Lille 3 (=) UL3
++who:	Université Lille (=) University of Lille (=) ULILLE
+ what:	72505
+ when:	2014.05.06
+-where:	http://www.univ-lille3.fr
++where:	http://www.univ-lille.fr
+ how:	NP | (:unkn) unknown | 2014 |
+@@ -4587,12 +4587,2 @@
+ naa:
+-who:	Virginia Commonwealth University (=) VCU
+-what:	81974
+-when:	2016.11.16
+-where:	http://www.vcu.edu
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:	EZID ARK
+-!contact: eziduserid vculibraries
+-!address: VCU Libraries  901 Park Ave., P.O. Box 842033  Richmond, VA 23284-2033
+-
+-naa:
+ who:	Centre Régional des Lettres (=) NORMANNIA
+@@ -5618,2 +5608,22 @@
+ naa:
++who:	Explorateur de Métiers (=) EDMTV
++what:	25994
++when:	2018.04.23
++where:	http://explorateurdemetiers.tv
++how:	FP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Lamprecht, Frédéric (Director) ||| lamprecht@explorateurdemetiers.fr |
++!address: 12 rue jacques kable, 94130 Nogent-sur-marne France
++
++naa:
++who:	Archives Municipales de Landerneau (=) AML
++what:	12999
++when:	2018.04.23
++where:	http://archives.landerneau.fr
 +how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK
-+!contact: eziduserid ucd-qjhart
-+!address: Davis, California
++!why:	ARK
++!contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
++!address: (Médiathèque Per Jakez Hélias) 1 Rue de la Petite Palud, 29800 Landerneau, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

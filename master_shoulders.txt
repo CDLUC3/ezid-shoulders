@@ -74,7 +74,7 @@
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 >
+#    < 81428 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 >
 #    < 10.7296 10.21983 10.7276 10.21416 >
 #    purdue-only prefix < 10.21984 >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
@@ -218,16 +218,6 @@ date: 2018.04.14
 minter: https://n2t.net/a/ezid/m/ark/c8439/s9
 datacenter: CDL.UCDAVIS
 prefix_shares_datacenter: true
-
-:: datacite:CDL.RCIDC
-type: datacenter
-manager: ezid
-name: UCSD Research Cyberinfrastructure Data Curation
-
-:: datacite:CDL.OCONTEXT
-type: datacenter
-manager: ezid
-name: Open Context
 
 :: ark:/21198/n1
 type: shoulder
@@ -477,15 +467,6 @@ date: 2017.08.07
 minter:
 datacenter: PURDUE.UWISC
 prefix_shares_datacenter: true
-
-:: doi:10.21974/G7
-type: shoulder
-manager: ezid
-#eziduser: vculibraries
-name: VCU Graduate School ETDs
-date: 2017.08.04
-minter: https://n2t.net/a/ezid/m/ark/d1974/g7
-datacenter: CDL.VCU
 
 :: ark:/77914/c4
 type: shoulder
@@ -999,28 +980,6 @@ date: 2016.12.01
 minter: https://n2t.net/a/ezid/m/ark/d1975/h5
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/81974/c9
-type: shoulder
-manager: ezid
-#eziduser: vculibraries
-name: Virginia Commonwealth University
-date: 2016.11.16
-minter: https://n2t.net/a/ezid/m/ark/81974/c9
-
-:: datacite:CDL.VCU
-type: datacenter
-manager: ezid
-name: Virginia Commonwealth University
-
-:: doi:10.21974/V4
-type: shoulder
-manager: ezid
-#eziduser: vculibraries
-name: Virginia Commonwealth University
-date: 2016.11.16
-minter: https://n2t.net/a/ezid/m/ark/d1974/v4
-datacenter: CDL.VCU
 
 :: ark:/81973/r7
 type: shoulder
