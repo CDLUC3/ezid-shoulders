@@ -1,48 +1,20 @@
-diff -r f7dd6c2fe914 naans/master_naans
---- a/naans/master_naans	Sat Apr 14 08:43:52 2018 -0700
-+++ b/naans/master_naans	Mon Apr 23 09:52:18 2018 -0700
-@@ -2446,6 +2446,6 @@
+diff -r 8dbb33f73f3a naans/master_naans
+--- a/naans/master_naans	Mon Apr 23 09:52:19 2018 -0700
++++ b/naans/master_naans	Thu Apr 26 07:13:40 2018 -0700
+@@ -5625,2 +5625,3 @@
+ !contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
++!contact: Bourcier, Nicolas | Ligeo Archives || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
+ !address: (Médiathèque Per Jakez Hélias) 1 Rue de la Petite Palud, 29800 Landerneau, France
+@@ -5628,2 +5629,12 @@
  naa:
--who:	Université Lille 3 (=) University of Lille 3 (=) UL3
-+who:	Université Lille (=) University of Lille (=) ULILLE
- what:	72505
- when:	2014.05.06
--where:	http://www.univ-lille3.fr
-+where:	http://www.univ-lille.fr
- how:	NP | (:unkn) unknown | 2014 |
-@@ -4587,12 +4587,2 @@
- naa:
--who:	Virginia Commonwealth University (=) VCU
--what:	81974
--when:	2016.11.16
--where:	http://www.vcu.edu
--how:	NP | (:unkn) unknown | 2016 |
--!why:	EZID ARK
--!contact: eziduserid vculibraries
--!address: VCU Libraries  901 Park Ave., P.O. Box 842033  Richmond, VA 23284-2033
--
--naa:
- who:	Centre Régional des Lettres (=) NORMANNIA
-@@ -5618,2 +5608,22 @@
- naa:
-+who:	Explorateur de Métiers (=) EDMTV
-+what:	25994
-+when:	2018.04.23
-+where:	http://explorateurdemetiers.tv
-+how:	FP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Lamprecht, Frédéric (Director) ||| lamprecht@explorateurdemetiers.fr |
-+!address: 12 rue jacques kable, 94130 Nogent-sur-marne France
-+
-+naa:
-+who:	Archives Municipales de Landerneau (=) AML
-+what:	12999
-+when:	2018.04.23
-+where:	http://archives.landerneau.fr
++who:	Archives de Rennes (=) ARENNES
++what:	74559
++when:	2018.04.26
++where:	http://www.archives.rennes.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
-+!address: (Médiathèque Per Jakez Hélias) 1 Rue de la Petite Palud, 29800 Landerneau, France
++!contact: FAUTREZ, Sébastien (Webmaster) ||| s.fautrez@ville-rennes.fr | 
++!address: 18 avenue Jules-Ferry, 35700 Rennes, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

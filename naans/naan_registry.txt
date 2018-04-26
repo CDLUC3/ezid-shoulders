@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.04.23
+when:	2018.04.26
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4243,6 +4243,13 @@ who:	Archives Municipales de Landerneau (=) AML
 what:	12999
 when:	2018.04.23
 where:	http://archives.landerneau.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives de Rennes (=) ARENNES
+what:	74559
+when:	2018.04.26
+where:	http://www.archives.rennes.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

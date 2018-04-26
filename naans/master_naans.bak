@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.04.14
+when:	2018.04.23
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5623,7 +5623,18 @@ where:	http://archives.landerneau.fr
 how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
+!contact: Bourcier, Nicolas | Ligeo Archives || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 !address: (Médiathèque Per Jakez Hélias) 1 Rue de la Petite Palud, 29800 Landerneau, France
+
+naa:
+who:	Archives de Rennes (=) ARENNES
+what:	74559
+when:	2018.04.26
+where:	http://www.archives.rennes.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: FAUTREZ, Sébastien (Webmaster) ||| s.fautrez@ville-rennes.fr | 
+!address: 18 avenue Jules-Ferry, 35700 Rennes, France
 
 naa:
 who:	Metadata Terms (=) TERMS
