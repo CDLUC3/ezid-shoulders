@@ -1,20 +1,16 @@
-diff -r 8dbb33f73f3a naans/master_naans
---- a/naans/master_naans	Mon Apr 23 09:52:19 2018 -0700
-+++ b/naans/master_naans	Thu Apr 26 07:13:40 2018 -0700
-@@ -5625,2 +5625,3 @@
- !contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
-+!contact: Bourcier, Nicolas | Ligeo Archives || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
- !address: (Médiathèque Per Jakez Hélias) 1 Rue de la Petite Palud, 29800 Landerneau, France
-@@ -5628,2 +5629,12 @@
+diff -r 3cad0d71823b naans/master_naans
+--- a/naans/master_naans	Thu Apr 26 07:13:40 2018 -0700
++++ b/naans/master_naans	Tue May 01 09:58:52 2018 -0700
+@@ -5639,2 +5639,12 @@
  naa:
-+who:	Archives de Rennes (=) ARENNES
-+what:	74559
-+when:	2018.04.26
-+where:	http://www.archives.rennes.fr
++who:	Dartmouth Virtual Basilica (=) VBASILICA
++what:	81428
++when:	2018.05.01
++where:	http://rc.dartmouth.edu/index.php/virtual-basilica-project
 +how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: FAUTREZ, Sébastien (Webmaster) ||| s.fautrez@ville-rennes.fr | 
-+!address: 18 avenue Jules-Ferry, 35700 Rennes, France
++!why:	EZID ARK only
++!contact: eziduserid dartvbasilica
++!address: HB 6033  Dartmouth College  Hanover, NH 03755
 +
 +naa:
  who:	Metadata Terms (=) TERMS

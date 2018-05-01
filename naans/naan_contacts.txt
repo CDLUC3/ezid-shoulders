@@ -628,6 +628,7 @@ contact: Lamprecht, Frédéric (Director) ||| lamprecht@explorateurdemetiers.fr 
 contact: Berriet, Aurélie (Archivist) ||| aurelie.berriet@mairie-landerneau.fr | 
 contact: Bourcier, Nicolas | Ligeo Archives || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: FAUTREZ, Sébastien (Webmaster) ||| s.fautrez@ville-rennes.fr | 
+contact: eziduserid dartvbasilica
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
