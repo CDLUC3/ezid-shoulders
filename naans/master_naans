@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.01
+when:	2018.05.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5645,6 +5645,36 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	EZID ARK only
 !contact: eziduserid dartvbasilica
 !address: HB 6033  Dartmouth College  Hanover, NH 03755
+
+naa:
+who:	Dartmouth Thayer Instructional Labs (=) THAYERINSL
+what:	88736
+when:	2018.05.01
+where:	https://engineering.dartmouth.edu/microeng
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK only
+!contact: eziduserid dartthayerinsl
+!address: 14 Engineering Drive, Dartmouth College, Hanover, NH 03755
+
+naa:
+who:	Bibliothèque Mazarine (=) BIBM
+what:	61562
+when:	2018.05.02
+where:	https://www.bibliotheque-mazarine.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-mazarine.fr | 
+!address: 23 quai de Conti, 75006 Paris, France
+
+naa:
+who:	Pearltrees (=) PEARLTREES
+what:	48566
+when:	2018.05.03
+where:	http://pearltrees.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
+!address: 131 boulevard de Sebastopol 75002 Paris, France
 
 naa:
 who:	Metadata Terms (=) TERMS

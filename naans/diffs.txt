@@ -1,16 +1,36 @@
-diff -r 3cad0d71823b naans/master_naans
---- a/naans/master_naans	Thu Apr 26 07:13:40 2018 -0700
-+++ b/naans/master_naans	Tue May 01 09:58:52 2018 -0700
-@@ -5639,2 +5639,12 @@
+diff -r 3a953fbca58d naans/master_naans
+--- a/naans/master_naans	Tue May 01 09:58:52 2018 -0700
++++ b/naans/master_naans	Thu May 03 06:13:44 2018 -0700
+@@ -5649,2 +5649,32 @@
  naa:
-+who:	Dartmouth Virtual Basilica (=) VBASILICA
-+what:	81428
++who:	Dartmouth Thayer Instructional Labs (=) THAYERINSL
++what:	88736
 +when:	2018.05.01
-+where:	http://rc.dartmouth.edu/index.php/virtual-basilica-project
++where:	https://engineering.dartmouth.edu/microeng
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	EZID ARK only
-+!contact: eziduserid dartvbasilica
-+!address: HB 6033  Dartmouth College  Hanover, NH 03755
++!contact: eziduserid dartthayerinsl
++!address: 14 Engineering Drive, Dartmouth College, Hanover, NH 03755
++
++naa:
++who:	Bibliothèque Mazarine (=) BIBM
++what:	61562
++when:	2018.05.02
++where:	https://www.bibliotheque-mazarine.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-mazarine.fr | 
++!address: 23 quai de Conti, 75006 Paris, France
++
++naa:
++who:	Pearltrees (=) PEARLTREES
++what:	48566
++when:	2018.05.03
++where:	http://pearltrees.com
++how:	FP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
++!address: 131 boulevard de Sebastopol 75002 Paris, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

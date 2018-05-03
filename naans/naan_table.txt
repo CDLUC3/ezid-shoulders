@@ -566,6 +566,9 @@
 12999	Archives Municipales de Landerneau (=) AML
 74559	Archives de Rennes (=) ARENNES
 81428	Dartmouth Virtual Basilica (=) VBASILICA
+88736	Dartmouth Thayer Instructional Labs (=) THAYERINSL
+61562	Bibliothèque Mazarine (=) BIBM
+48566	Pearltrees (=) PEARLTREES
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
