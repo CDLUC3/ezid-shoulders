@@ -213,7 +213,6 @@
 43777	Otolaryngology Online Journal (=) JORL
 79003	Archives de Saint-Etienne (=) AMSE
 87932	Berkeley Seismological Laboratory (=) BSL
-87933	Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
 66007	Archives départementales d'Eure-et-Loir (=) AD28
 53353	Archives du Musée Picasso (=) AMPICASSO
 40357	Archives départementales de Tarn-et-Garonne (=) AD82

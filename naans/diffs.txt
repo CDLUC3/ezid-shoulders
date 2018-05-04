@@ -1,36 +1,15 @@
-diff -r 3a953fbca58d naans/master_naans
---- a/naans/master_naans	Tue May 01 09:58:52 2018 -0700
-+++ b/naans/master_naans	Thu May 03 06:13:44 2018 -0700
-@@ -5649,2 +5649,32 @@
+diff -r 1b23aecb31de naans/master_naans
+--- a/naans/master_naans	Thu May 03 06:13:44 2018 -0700
++++ b/naans/master_naans	Fri May 04 10:43:56 2018 -0700
+@@ -2270,11 +2270,2 @@
  naa:
-+who:	Dartmouth Thayer Instructional Labs (=) THAYERINSL
-+what:	88736
-+when:	2018.05.01
-+where:	https://engineering.dartmouth.edu/microeng
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK only
-+!contact: eziduserid dartthayerinsl
-+!address: 14 Engineering Drive, Dartmouth College, Hanover, NH 03755
-+
-+naa:
-+who:	Bibliothèque Mazarine (=) BIBM
-+what:	61562
-+when:	2018.05.02
-+where:	https://www.bibliotheque-mazarine.fr
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-mazarine.fr | 
-+!address: 23 quai de Conti, 75006 Paris, France
-+
-+naa:
-+who:	Pearltrees (=) PEARLTREES
-+what:	48566
-+when:	2018.05.03
-+where:	http://pearltrees.com
-+how:	FP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
-+!address: 131 boulevard de Sebastopol 75002 Paris, France
-+
-+naa:
- who:	Metadata Terms (=) TERMS
+-who:    Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
+-what:   87933
+-when:   2014.02.13
+-where:  http://ecotope.org
+-how:    NP | (:unkn) unknown | 2014 |
+-!why:   EZID ARK
+-!contact: eziduserid globe
+-
+-naa:
+ who:	Archives départementales d'Eure-et-Loir (=) AD28

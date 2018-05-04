@@ -240,7 +240,6 @@ contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 0
 contact: Thiagarajan, Balasubramanian ||| otolaryngologyonline@GMAIL.COM |
 contact: Fournel, Matthieu ||| matthieu.fournel@saint-etienne.fr | +33 04.77.34.40.41
 contact: eziduserid ucb-bsl
-contact: eziduserid globe
 contact: Lucas, Marie-Laure ||| marie-laure.lucas@cg28.fr | +33 02 37 88 82 46
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: Annoepel-Cabrignac, Sophie ||| sophie.annoepel-cabrignac@museepicassoparis.fr |

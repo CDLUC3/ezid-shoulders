@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.03
+when:	2018.05.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1786,13 +1786,6 @@ who:    Berkeley Seismological Laboratory (=) BSL
 what:   87932
 when:   2014.02.13
 where:  http://seismo.berkeley.edu
-how:    NP | (:unkn) unknown | 2014 |
-
-naa:
-who:    Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
-what:   87933
-when:   2014.02.13
-where:  http://ecotope.org
 how:    NP | (:unkn) unknown | 2014 |
 
 naa:

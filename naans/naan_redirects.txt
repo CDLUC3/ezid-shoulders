@@ -214,7 +214,6 @@ RedirectMatch ^/((ark:/56431)|56431/?)(.*)$ http://archivesenligne.yonne-archive
 RedirectMatch ^/((ark:/43777)|43777/?)(.*)$ http://www.jorl.net/$2$3
 RedirectMatch ^/((ark:/79003)|79003/?)(.*)$ http://www.archives.saint-etienne.fr/$2$3
 RedirectMatch ^/((ark:/87932)|87932/?)(.*)$ http://seismo.berkeley.edu/$2$3
-RedirectMatch ^/((ark:/87933)|87933/?)(.*)$ http://ecotope.org/$2$3
 RedirectMatch ^/((ark:/66007)|66007/?)(.*)$ http://www.archives28.fr/$2$3
 RedirectMatch ^/((ark:/53353)|53353/?)(.*)$ http://archives.museepicassoparis.fr/$2$3
 RedirectMatch ^/((ark:/40357)|40357/?)(.*)$ http://www.archivesdepartementales.cg82.fr/$2$3

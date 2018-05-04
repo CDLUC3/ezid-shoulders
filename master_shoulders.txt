@@ -74,7 +74,7 @@
 
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 >
 #    < 10.7296 10.21983 10.7276 10.21416 >
 #    purdue-only prefix < 10.21984 >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
@@ -4093,23 +4093,6 @@ date: 2014.02.27
 minter: https://n2t.net/a/ezid/m/ark/c3014/k2
 datacenter: PURDUE.UNL
 
-:: ark:/87933/j9
-type: shoulder
-manager: ezid
-#eziduser: globe
-name: Laboratory for Anthropogenic Landscape Ecology
-date: 2014.02.13
-minter: https://n2t.net/a/ezid/m/ark/87933/j9
-
-:: doi:10.7933/K1
-type: shoulder
-manager: ezid
-#eziduser: globe
-name: Laboratory for Anthropogenic Landscape Ecology
-date: 2014.02.13
-minter: https://n2t.net/a/ezid/m/ark/b7933/k1
-datacenter: CDL.LALEUMBC
-
 :: ark:/87932/k0
 type: shoulder
 manager: ezid
@@ -6412,11 +6395,6 @@ name: Johns Hopkins University Data Archive
 type: datacenter
 manager: ezid
 name: LabArchives
-
-:: datacite:CDL.LALEUMBC
-type: datacenter
-manager: ezid
-name: Laboratory for Anthropogenic Landscape Ecology
 
 :: datacite:CDL.LBNL
 type: datacenter
