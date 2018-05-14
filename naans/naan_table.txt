@@ -162,9 +162,7 @@
 70111	Hawaii State Archives (=) HSA
 87303	Sage Bionetworks (=) SAGEBIO
 57115	Archives départementales de la Manche (=) ADMANCHE
-87907	California Institute of Technology (=) CALTECH
 77908	Broad Institute of MIT and Harvard (=) BROAD
-87909	CalTech Seismological Laboratory (=) SEISMOLAB
 87910	Databrary (=) DATABRARY
 87912	Indiana University Purdue University Indianapolis (=) IUPUI
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
@@ -191,7 +189,6 @@
 87924	Duke University (=) DUL
 63271	Archives départementales de l'Aisne (=) AD02
 87925	University College Dublin (=) UCDIRL
-87926	Middlebury College (=) MDY
 87927	Center for International Earth Science Information Network (=) CIESIN
 50275	Archives départementales des Vosges (=) AD88
 87928	Berkeley Research IT (=) UCBRIT
@@ -220,7 +217,6 @@
 83014	University of Nebraska-Lincoln Libraries (=) UNL
 14365	Colectica - Statistical Data Management (=) COLECTICA
 87934	MorphoBank (=) MORPHOBA
-87935	LIGO Open Science Center (=) LIGO
 75583	Archives départementales des Ardennes (=) ADARDENN
 87936	Washington University in St. Louis (=) WUSTL
 62929	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
@@ -330,7 +326,6 @@
 77909	Space Telescope Science Institute (=) STSCI
 58484	Archives Départementales des Alpes de Haute Provence (=) ADAHP
 45487	Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
-77912	Caltech Biology (=) WORMBASE
 77913	Miami Project to Cure Paralysis (=) REGENBASE
 32491	Archives de la ville de Romans (=) AVROMANS
 19495	Ohio Supercomputer Center (=) OSC
@@ -467,7 +462,6 @@
 34202	Center for Sustainability Research and Consultancy (=) CSRC
 21548	Ecole Nationale Supérieure d'Arts et Métiers (=) ENSAM
 81979	Nanyang Technological University (=) NTU
-81981	University of Iowa (=) UIOWA
 81982	University of Michigan Dept of EEC (=) UMGRSS
 82765	Cadmos (=) CADMOS
 69769	Archives du Musée du quai Branly Jacques Chirac (=) MQB
@@ -568,6 +562,7 @@
 88736	Dartmouth Thayer Instructional Labs (=) THAYERINSL
 61562	Bibliothèque Mazarine (=) BIBM
 48566	Pearltrees (=) PEARLTREES
+35570	Château de Versailles (=) EPV
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

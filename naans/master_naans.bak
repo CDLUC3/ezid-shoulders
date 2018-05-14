@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.03
+when:	2018.05.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1802,15 +1802,6 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
 
 naa:
-who:    California Institute of Technology (=) CALTECH
-what:   87907
-when:   2013.04.15
-where:	http://library.caltech.edu
-how:	NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid caltech
-
-naa:
 who:    Broad Institute of MIT and Harvard (=) BROAD
 what:   77908
 when:   2013.04.24
@@ -1818,15 +1809,6 @@ where:  http://www.broadinstitute.org
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid broad
-
-naa:
-who:    CalTech Seismological Laboratory (=) SEISMOLAB
-what:   87909
-when:   2013.04.29
-where:  http://www.seismolab.caltech.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid caltech_sl
 
 naa:
 who:    Databrary (=) DATABRARY
@@ -2063,15 +2045,6 @@ where:  http://www.ucd.ie/library
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid ucd_irl
-
-naa:
-who:    Middlebury College (=) MDY
-what:   87926
-when:   2013.10.28
-where:  http://www.middlebury.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid middlebury
 
 naa:
 who:    Center for International Earth Science Information Network (=) CIESIN
@@ -2331,15 +2304,6 @@ where:  http://www.morphobank.org
 how:    NP | (:unkn) unknown | 2014 |
 !why:   EZID ARK
 !contact: eziduserid morphobank
-
-naa:
-who:    LIGO Open Science Center (=) LIGO
-what:   87935
-when:   2014.03.13
-where:  https://losc.ligo.org
-how:    NP | (:unkn) unknown | 2014 |
-!why:   EZID ARK
-!contact: eziduserid ligo
 
 naa:
 who:	Archives départementales des Ardennes (=) ADARDENN
@@ -3341,15 +3305,6 @@ where:	http://rulb.org
 how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: Miller, Anna ||| editors@rulb.org |
-
-naa:
-who:    Caltech Biology (=) WORMBASE
-what:   77912
-when:   2015.05.26
-where:	http://www.wormbase.org
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid caltech_wormbase
 
 naa:
 who:    Miami Project to Cure Paralysis (=) REGENBASE
@@ -4656,16 +4611,6 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: Lee Wee Nam Library, 50 Nanyang Avenue Singapore 639798
 
 naa:
-who:	University of Iowa (=) UIOWA
-what:	81981
-when:	2017.01.20
-where:	http://www.lib.uiowa.edu
-how:	NP | (:unkn) unknown | 2017 |
-!why:	EZID ARK
-!contact: eziduserid uiowa
-!address: 100 Main Library, 125 West Washington St.  Iowa City, IA 52242-1420
-
-naa:
 who:	University of Michigan Dept of EEC (=) UMGRSS
 what:	81982
 when:	2017.01.20
@@ -5666,6 +5611,16 @@ how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
 !address: 131 boulevard de Sebastopol 75002 Paris, France
+
+naa:
+who:	Château de Versailles (=) EPV
+what:	35570
+when:	2018.05.14
+where:	http://chateauversailles.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
+!address: 1 rue de l'indépendance américaine, 78000 Versailles, France
 
 naa:
 who:	Metadata Terms (=) TERMS

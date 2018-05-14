@@ -182,9 +182,7 @@ contact: eziduserid umich
 contact: Jansen, Adam ||| adam_jansen@outlook.com |
 contact: eziduserid sagebio
 contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
-contact: eziduserid caltech
 contact: eziduserid broad
-contact: eziduserid caltech_sl
 contact: eziduserid nyu_databrary
 contact: eziduserid iupui
 contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
@@ -213,7 +211,6 @@ contact: Griffin, James ||| griffinj@lafayette.edu | +1 610-330-5160
 contact: eziduserid duke_lib
 contact: Bertanier, Florence ||| fbertanier@cg02.fr |
 contact: eziduserid ucd_irl
-contact: eziduserid middlebury
 contact: eziduserid cu-ciesin
 contact: Rembert, Sébastien ||| srembert@cg88.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
@@ -249,7 +246,6 @@ contact: Holloway, Steven | JMU Libraries || hollowsw@jmu.edu |
 contact: eziduserid cors
 contact: Smith, Dan ||| dan@colectica.com |
 contact: eziduserid morphobank
-contact: eziduserid ligo
 contact: MONTAT, Eric ||| eric.montat@cd08.fr |
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: eziduserid doiwustl
@@ -378,7 +374,6 @@ contact: eziduserid stsci
 contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Miller, Anna ||| editors@rulb.org |
-contact: eziduserid caltech_wormbase
 contact: eziduserid umiami_regenbase
 contact: Meunier-Perdriole, Nancy ||| nperdriole@ville-romans26.fr |
 contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 43 64 17 10 
@@ -528,7 +523,6 @@ contact: Grandhomme, Mireille ||| mireille.grandhomme@ville-cannes.fr |
 contact: Siddiqui, Sulaman Hafeez ||| research@globalscsrc.org | 
 contact: Basset, Mylène ||| mylene.basset@ensam.eu | 
 contact: eziduserid ntu-drdata
-contact: eziduserid uiowa
 contact: eziduserid um_rsclid
 contact: Hatala, Andre ||| andre.hatala@cadmos.fr | 
 contact: Ferfaille, Léa ||| lea.ferfaille@quaibranly.fr | 
@@ -631,6 +625,7 @@ contact: eziduserid dartvbasilica
 contact: eziduserid dartthayerinsl
 contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-mazarine.fr | 
 contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
+contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

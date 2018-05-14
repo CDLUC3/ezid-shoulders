@@ -1,15 +1,89 @@
-diff -r 1b23aecb31de naans/master_naans
---- a/naans/master_naans	Thu May 03 06:13:44 2018 -0700
-+++ b/naans/master_naans	Fri May 04 10:43:56 2018 -0700
-@@ -2270,11 +2270,2 @@
+diff -r 54a47569e07d naans/master_naans
+--- a/naans/master_naans	Fri May 04 10:43:56 2018 -0700
++++ b/naans/master_naans	Mon May 14 07:54:32 2018 -0700
+@@ -1804,11 +1804,2 @@
  naa:
--who:    Laboratory for Anthropogenic Landscape Ecology (=) LALEUMBC
--what:   87933
--when:   2014.02.13
--where:  http://ecotope.org
--how:    NP | (:unkn) unknown | 2014 |
+-who:    California Institute of Technology (=) CALTECH
+-what:   87907
+-when:   2013.04.15
+-where:	http://library.caltech.edu
+-how:	NP | (:unkn) unknown | 2013 |
 -!why:   EZID ARK
--!contact: eziduserid globe
+-!contact: eziduserid caltech
 -
 -naa:
- who:	Archives départementales d'Eure-et-Loir (=) AD28
+ who:    Broad Institute of MIT and Harvard (=) BROAD
+@@ -1822,11 +1813,2 @@
+ naa:
+-who:    CalTech Seismological Laboratory (=) SEISMOLAB
+-what:   87909
+-when:   2013.04.29
+-where:  http://www.seismolab.caltech.edu
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid caltech_sl
+-
+-naa:
+ who:    Databrary (=) DATABRARY
+@@ -2067,11 +2049,2 @@
+ naa:
+-who:    Middlebury College (=) MDY
+-what:   87926
+-when:   2013.10.28
+-where:  http://www.middlebury.edu
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid middlebury
+-
+-naa:
+ who:    Center for International Earth Science Information Network (=) CIESIN
+@@ -2335,11 +2308,2 @@
+ naa:
+-who:    LIGO Open Science Center (=) LIGO
+-what:   87935
+-when:   2014.03.13
+-where:  https://losc.ligo.org
+-how:    NP | (:unkn) unknown | 2014 |
+-!why:   EZID ARK
+-!contact: eziduserid ligo
+-
+-naa:
+ who:	Archives départementales des Ardennes (=) ADARDENN
+@@ -3345,11 +3309,2 @@
+ naa:
+-who:    Caltech Biology (=) WORMBASE
+-what:   77912
+-when:   2015.05.26
+-where:	http://www.wormbase.org
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid caltech_wormbase
+-
+-naa:
+ who:    Miami Project to Cure Paralysis (=) REGENBASE
+@@ -4658,12 +4613,2 @@
+ naa:
+-who:	University of Iowa (=) UIOWA
+-what:	81981
+-when:	2017.01.20
+-where:	http://www.lib.uiowa.edu
+-how:	NP | (:unkn) unknown | 2017 |
+-!why:	EZID ARK
+-!contact: eziduserid uiowa
+-!address: 100 Main Library, 125 West Washington St.  Iowa City, IA 52242-1420
+-
+-naa:
+ who:	University of Michigan Dept of EEC (=) UMGRSS
+@@ -5670,2 +5615,12 @@
+ naa:
++who:	Château de Versailles (=) EPV
++what:	35570
++when:	2018.05.14
++where:	http://chateauversailles.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
++!address: 1 rue de l'indépendance américaine, 78000 Versailles, France
++
++naa:
+ who:	Metadata Terms (=) TERMS

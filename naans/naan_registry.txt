@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.04
+when:	2018.05.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1432,24 +1432,10 @@ where:	http://archives.manche.fr
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    California Institute of Technology (=) CALTECH
-what:   87907
-when:   2013.04.15
-where:	http://library.caltech.edu
-how:	NP | (:unkn) unknown | 2013 |
-
-naa:
 who:    Broad Institute of MIT and Harvard (=) BROAD
 what:   77908
 when:   2013.04.24
 where:  http://www.broadinstitute.org
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    CalTech Seismological Laboratory (=) SEISMOLAB
-what:   87909
-when:   2013.04.29
-where:  http://www.seismolab.caltech.edu
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -1632,13 +1618,6 @@ who:    University College Dublin (=) UCDIRL
 what:   87925
 when:   2013.10.18
 where:  http://www.ucd.ie/library
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    Middlebury College (=) MDY
-what:   87926
-when:   2013.10.28
-where:  http://www.middlebury.edu
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -1835,13 +1814,6 @@ who:    MorphoBank (=) MORPHOBA
 what:   87934
 when:   2014.03.13
 where:  http://www.morphobank.org
-how:    NP | (:unkn) unknown | 2014 |
-
-naa:
-who:    LIGO Open Science Center (=) LIGO
-what:   87935
-when:   2014.03.13
-where:  https://losc.ligo.org
 how:    NP | (:unkn) unknown | 2014 |
 
 naa:
@@ -2605,13 +2577,6 @@ who:    Российский Лингвистический Бюллетень (
 what:	45487
 when:	2015.05.22
 where:	http://rulb.org
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Caltech Biology (=) WORMBASE
-what:   77912
-when:   2015.05.26
-where:	http://www.wormbase.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -3567,13 +3532,6 @@ where:	www.ntu.edu.sg
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
-who:	University of Iowa (=) UIOWA
-what:	81981
-when:	2017.01.20
-where:	http://www.lib.uiowa.edu
-how:	NP | (:unkn) unknown | 2017 |
-
-naa:
 who:	University of Michigan Dept of EEC (=) UMGRSS
 what:	81982
 when:	2017.01.20
@@ -4272,6 +4230,13 @@ what:	48566
 when:	2018.05.03
 where:	http://pearltrees.com
 how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Château de Versailles (=) EPV
+what:	35570
+when:	2018.05.14
+where:	http://chateauversailles.fr
+how:	NP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

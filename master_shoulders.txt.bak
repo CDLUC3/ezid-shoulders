@@ -72,9 +72,10 @@
 # 4. Add NAAN string to list below of NAANs to recycle.
 # 5. Reload EZID.
 
+# ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88736 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 >
 #    < 10.7296 10.21983 10.7276 10.21416 >
 #    purdue-only prefix < 10.21984 >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
@@ -201,6 +202,15 @@
 # lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
 # ucd-library make_ezacct -n 10.18439 s9 87287 d7  < ezaccts/newacct > out
 # dartmouthc  make_ezacct -n - - 81428 v8  < ezaccts/newacct > out
+# dartmouthc  make_ezacct -n - - 88736 t6  < ezaccts/newacct > out
+
+:: ark:/88736/t6
+type: shoulder
+manager: ezid
+#eziduser: dartthayerinsl
+name: Dartmouth Thayer Instructional Labs
+date: 2018.05.01
+minter: https://n2t.net/a/ezid/m/ark/88736/t6
 
 :: ark:/81428/v8
 type: shoulder
@@ -493,16 +503,6 @@ name: UC Davis Bio Agr Eng Dash
 date: 2017.07.24
 minter: https://n2t.net/a/ezid/m/ark/d5338/b8
 datacenter: CDL.UCDAVIS
-prefix_shares_datacenter: true
-
-:: doi:10.14291/TCCON
-type: shoulder
-manager: ezid
-#eziduser: caltech_tccon
-name: Caltech TCCON
-date: 2017.07.17
-minter: 
-datacenter: CDL.CALTECH
 prefix_shares_datacenter: true
 
 :: ark:/87269/t9
@@ -870,28 +870,6 @@ name: University of Michigan Dept of EEC
 date: 2017.01.20
 minter: https://n2t.net/a/ezid/m/ark/d1982/m8
 datacenter: PURDUE.UMGRSS
-
-:: ark:/81981/w9
-type: shoulder
-manager: ezid
-#eziduser: uiowa
-name: University of Iowa
-date: 2017.01.20
-minter: https://n2t.net/a/ezid/m/ark/81981/w9
-
-:: datacite:PURDUE.UIOWA
-type: datacenter
-manager: ezid
-name: University of Iowa
-
-:: doi:10.21981/M8
-type: shoulder
-manager: ezid
-#eziduser: uiowa
-name: University of Iowa
-date: 2017.01.20
-minter: https://n2t.net/a/ezid/m/ark/d1981/m8
-datacenter: PURDUE.UIOWA
 
 :: doi:10.21980/J8
 type: shoulder
@@ -1737,41 +1715,13 @@ date: 2016.04.30
 minter: https://n2t.net/a/ezid/m/ark/d1223/p3
 datacenter: CDL.CIP
 
-:: doi:10.21220/S2
+:: ark:/81220/w2
 type: shoulder
 manager: ezid
 #eziduser: wmlibdigi
-name: William & Mary Library - Arts & Sciences
-date: 2016.04.12
-minter: https://n2t.net/a/ezid/m/ark/d1220/s2
-datacenter: CDL.WMLIB
-
-:: doi:10.21220/B3
-type: shoulder
-manager: ezid
-#eziduser: wmlibdigi
-name: William & Mary Library - Mason School of Business
-date: 2016.04.12
-minter: https://n2t.net/a/ezid/m/ark/d1220/b3
-datacenter: CDL.WMLIB
-
-:: doi:10.21220/W4
-type: shoulder
-manager: ezid
-#eziduser: wmlibdigi
-name: William & Mary Library - School of Education
-date: 2016.04.12
-minter: https://n2t.net/a/ezid/m/ark/d1220/w4
-datacenter: CDL.WMLIB
-
-:: doi:10.21220/V5
-type: shoulder
-manager: ezid
-#eziduser: wmlibdigi
-name: William & Mary Library - VIMS
-date: 2016.04.12
-minter: https://n2t.net/a/ezid/m/ark/d1220/v5
-datacenter: CDL.WMLIB
+name: College of William & Mary Libraries
+date: 2016.04.07
+minter: https://n2t.net/a/ezid/m/ark/81220/w2
 
 :: doi:10.13012/B2
 type: shoulder
@@ -1781,28 +1731,6 @@ name: Illinois Data Bank
 date: 2016.04.08
 minter: https://n2t.net/a/ezid/m/ark/c3012/b2
 datacenter: PURDUE.UIUCLIB
-
-:: ark:/81220/w2
-type: shoulder
-manager: ezid
-#eziduser: wmlibdigi
-name: College of William & Mary Libraries
-date: 2016.04.07
-minter: https://n2t.net/a/ezid/m/ark/81220/w2
-
-:: datacite:CDL.WMLIB
-type: datacenter
-manager: ezid
-name: College of William & Mary Libraries
-
-:: doi:10.21220/M2
-type: shoulder
-manager: ezid
-#eziduser: wmlibdigi
-name: College of William & Mary Libraries
-date: 2016.04.07
-minter: https://n2t.net/a/ezid/m/ark/d1220/m2
-datacenter: CDL.WMLIB
 
 :: doi:10.20359/T6
 type: shoulder
@@ -2512,14 +2440,6 @@ name: Miami Project to Cure Paralysis
 date: 2015.05.27
 minter: https://n2t.net/a/ezid/m/ark/c7913/r3
 datacenter: CDL.REGENBAS
-
-:: ark:/77912/w7
-type: shoulder
-manager: ezid
-#eziduser: caltech_wormbase
-name: Caltech Biology
-date: 2015.05.26
-minter: https://n2t.net/a/ezid/m/ark/77912/w7
 
 :: doi:10.17912/W2
 type: shoulder
@@ -3500,24 +3420,6 @@ minter: https://n2t.net/a/ezid/m/ark/c5145/m6
 datacenter: CDL.UNMLIB
 prefix_shares_datacenter: true
 
-:: doi:10.7907/S4
-type: shoulder
-manager: ezid
-#eziduser: oanaluca
-name: Caltech Scholar
-date: 2014.09.17
-minter: https://n2t.net/a/ezid/m/ark/b7907/s4
-datacenter: CDL.CALTECH
-prefix_shares_datacenter: true
-
-:: ark:/87907/s9
-type: shoulder
-manager: ezid
-#eziduser: oanaluca
-name: Caltech Scholar
-date: 2014.09.16
-minter: https://n2t.net/a/ezid/m/ark/87907/s9
-
 :: doi:10.5060/D8
 type: shoulder
 manager: ezid
@@ -4023,14 +3925,6 @@ date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/b7936/k7
 datacenter: CDL.WUSTL
 
-:: ark:/87935/k6
-type: shoulder
-manager: ezid
-#eziduser: caltech_ligo
-name: LIGO Open Science Center
-date: 2014.03.13
-minter: https://n2t.net/a/ezid/m/ark/87935/k6
-
 :: doi:10.7935/K5
 type: shoulder
 manager: ezid
@@ -4083,23 +3977,6 @@ name: University of Nebraska-Lincoln Libraries
 date: 2014.02.27
 minter: https://n2t.net/a/ezid/m/ark/c3014/k2
 datacenter: PURDUE.UNL
-
-:: ark:/87933/j9
-type: shoulder
-manager: ezid
-#eziduser: globe
-name: Laboratory for Anthropogenic Landscape Ecology
-date: 2014.02.13
-minter: https://n2t.net/a/ezid/m/ark/87933/j9
-
-:: doi:10.7933/K1
-type: shoulder
-manager: ezid
-#eziduser: globe
-name: Laboratory for Anthropogenic Landscape Ecology
-date: 2014.02.13
-minter: https://n2t.net/a/ezid/m/ark/b7933/k1
-datacenter: CDL.LALEUMBC
 
 :: ark:/87932/k0
 type: shoulder
@@ -4319,23 +4196,6 @@ name: Center for International Earth Science Information Network (CIESIN)
 date: 2013.10.28
 minter: https://n2t.net/a/ezid/m/ark/b7927/h4
 datacenter: CDL.CIESIN
-
-:: ark:/87926/h3
-type: shoulder
-manager: ezid
-#eziduser: middlebury
-name: Middlebury College
-date: 2013.10.28
-minter: https://n2t.net/a/ezid/m/ark/87926/h3
-
-:: doi:10.7926/H2
-type: shoulder
-manager: ezid
-#eziduser: middlebury
-name: Middlebury College
-date: 2013.10.28
-minter: https://n2t.net/a/ezid/m/ark/b7926/h2
-datacenter: CDL.MDY
 
 :: ark:/87925/
 type: shoulder
@@ -4653,23 +4513,6 @@ date: 2013.04.30
 minter:
 datacenter: CDL.DATAVERS
 
-:: ark:/87909/c4
-type: shoulder
-manager: ezid
-#eziduser: caltech_sl
-name: Caltech Seismological Laboratory
-date: 2013.04.29
-minter: https://n2t.net/a/ezid/m/ark/87909/c4
-
-:: doi:10.7909/C3
-type: shoulder
-manager: ezid
-#eziduser: caltech_sl
-name: Caltech Seismological Laboratory
-date: 2013.04.29
-minter: https://n2t.net/a/ezid/m/ark/b7909/c3
-datacenter: CDL.SEISMOLA
-
 :: ark:/77908/c2
 type: shoulder
 manager: ezid
@@ -4686,24 +4529,6 @@ name: Broad Institute of MIT and Harvard
 date: 2013.04.24
 minter: https://n2t.net/a/ezid/m/ark/b7908/c1
 datacenter: CDL.BROAD
-
-:: ark:/87907/c0
-type: shoulder
-manager: ezid
-#eziduser: caltech
-name: California Institute of Technology (Caltech)
-date: 2013.04.15
-minter: https://n2t.net/a/ezid/m/ark/87907/c0
-
-:: doi:10.7907/Z9
-type: shoulder
-manager: ezid
-#eziduser: caltech
-name: California Institute of Technology (Caltech)
-date: 2013.04.15
-minter: https://n2t.net/a/ezid/m/ark/b7907/z9
-datacenter: CDL.CALTECH
-prefix_shares_datacenter: true
 
 :: ark:/87303/z4
 type: shoulder
@@ -6404,11 +6229,6 @@ type: datacenter
 manager: ezid
 name: LabArchives
 
-:: datacite:CDL.LALEUMBC
-type: datacenter
-manager: ezid
-name: Laboratory for Anthropogenic Landscape Ecology
-
 :: datacite:CDL.LBNL
 type: datacenter
 manager: ezid
@@ -6443,11 +6263,6 @@ name: Laboratory for Basic and Translational Cognitive Neuroscience
 type: datacenter
 manager: ezid
 name: MBF Bioscience
-
-:: datacite:CDL.MDY
-type: datacenter
-manager: ezid
-name: Middlebury College
 
 :: datacite:CDL.MINORLAB
 type: datacenter
@@ -6623,11 +6438,6 @@ name: OpenTopography Facility
 type: datacenter
 manager: ezid
 name: UCSD Signaling Gateway
-
-:: datacite:CDL.SEISMOLA
-type: datacenter
-manager: ezid
-name: Caltech Seismological Laboratory
 
 #:: datacite:CDL.SEU
 #type: datacenter
