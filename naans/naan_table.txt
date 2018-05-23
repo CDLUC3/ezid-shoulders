@@ -99,7 +99,6 @@
 86079	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
 86080	Collaborative Research Computational Neuroscience Program (=) CRCNSP
 86081	UCSD Biosciences Division (=) UCSDBD
-86083	Oregon Health and Science University (=) OHSU
 10987	University of Prince Edward Island (=) UPEI
 47881	Université Claude Bernard Lyon 1 (=) University of Lyon 1 (=) UCBL
 35227	Archives départementales des Landes (=) Landes Departmental Archives (=) ADLANDES
@@ -563,6 +562,7 @@
 61562	Bibliothèque Mazarine (=) BIBM
 48566	Pearltrees (=) PEARLTREES
 35570	Château de Versailles (=) EPV
+22575	Archives départementales de la Creuse (=) AD23
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

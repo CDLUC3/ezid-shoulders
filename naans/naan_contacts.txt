@@ -110,7 +110,6 @@ contact: EZID userid fhcrc
 contact: EZID userid ucla-eeb1
 contact: EZID userid crcns.org
 contact: EZID userid ucsd_jnieh
-contact: EZID userid ohsu_libr
 contact: Moses, Donald | Robertson Library || dmoses@upei.ca |
 contact: Barthet, Emilie | University Library || emilie.barthet@univ-lyon1.fr | +33 472445835
 contact: EZID userid bulyon1
@@ -626,6 +625,7 @@ contact: eziduserid dartthayerinsl
 contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-mazarine.fr | 
 contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
 contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
+contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

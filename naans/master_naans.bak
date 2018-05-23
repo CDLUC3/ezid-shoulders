@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.04
+when:	2018.05.14
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1223,15 +1223,6 @@ where:	http://biology.ucsd.edu
 how:	NP | (:unkn) unknown | 2012 |
 !why:   EZID ARK
 !contact: EZID userid ucsd_jnieh
-
-naa:
-who:	Oregon Health and Science University (=) OHSU
-what:	86083 
-when:	2012.04.03
-where:	http://www.ohsu.edu
-how:	NP | (:unkn) unknown | 2012 |
-!why:   EZID ARK
-!contact: EZID userid ohsu_libr
 
 naa:
 who:	University of Prince Edward Island (=) UPEI
@@ -5621,6 +5612,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
 !address: 1 rue de l'indépendance américaine, 78000 Versailles, France
+
+naa:
+who:	Archives départementales de la Creuse (=) AD23
+what:	22575
+when:	2018.05.23
+where:	http://archives.creuse.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
+!address: 30 Rue Franklin Roosevelt, 23000 Guéret, France
 
 naa:
 who:	Metadata Terms (=) TERMS
