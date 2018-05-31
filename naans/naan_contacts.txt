@@ -257,7 +257,7 @@ contact: eziduserid cu-rescom
 contact: eziduserid sb-writ
 contact: Gomez, Joshua | USC Libaries || gomezjn@usc.edu |
 contact: de Pape, Aldo ||| aldo.depape@aswegrow.org | +44 780 951 1065
-contact: Berthier, Sandrine | Library || sandrine.berthier@univ-lille3.fr | +33-3-20-41-70-34
+contact: Malleret, Cecile ||| cecile.malleret@univ-lille.fr | +33 3 20 41 70 07
 contact: Vagh, Rajesh ||| raj190888@gmail.com |
 contact: eziduserid lbnl-lib
 contact: Rault, Julien | Sciences Po Library || julien.rault@sciencespo.fr | +33-1-45-49-51-85
@@ -626,6 +626,7 @@ contact: Mars, Gina (Information system engineer) ||| gina.mars@bibliotheque-maz
 contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com | 
 contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
 contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
+contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

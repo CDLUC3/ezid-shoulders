@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.14
+when:	2018.05.23
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2396,7 +2396,7 @@ when:	2014.05.06
 where:	http://www.univ-lille.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
-!contact: Berthier, Sandrine | Library || sandrine.berthier@univ-lille3.fr | +33-3-20-41-70-34
+!contact: Malleret, Cecile ||| cecile.malleret@univ-lille.fr | +33 3 20 41 70 07
 
 naa:
 who:	PharmaTutor (=) PTUTOR
@@ -5622,6 +5622,18 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
 !address: 30 Rue Franklin Roosevelt, 23000 Guéret, France
+!provider: Franck BERNARDET, franck@1egal2.com
+
+naa:
+who:	Archives départementales du Val-de-Marne (=) AD94
+what:	71138
+when:	2018.05.31
+where:	http://archives.valdemarne.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
+!address: 10 Rue des Archives, 94000 Créteil
+!provider: Franck BERNARDET, franck@1egal2.com
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -1,28 +1,23 @@
-diff -r 3335c1f2adb6 naans/master_naans
---- a/naans/master_naans	Mon May 14 07:54:32 2018 -0700
-+++ b/naans/master_naans	Wed May 23 07:39:48 2018 -0700
-@@ -1227,11 +1227,2 @@
- naa:
--who:	Oregon Health and Science University (=) OHSU
--what:	86083 
--when:	2012.04.03
--where:	http://www.ohsu.edu
--how:	NP | (:unkn) unknown | 2012 |
--!why:   EZID ARK
--!contact: EZID userid ohsu_libr
--
--naa:
- who:	University of Prince Edward Island (=) UPEI
-@@ -5625,2 +5616,12 @@
- naa:
-+who:	Archives départementales de la Creuse (=) AD23
-+what:	22575
-+when:	2018.05.23
-+where:	http://archives.creuse.fr
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
-+!address: 30 Rue Franklin Roosevelt, 23000 Guéret, France
+diff -r dc8fa491d03e naans/master_naans
+--- a/naans/master_naans	Wed May 23 07:39:48 2018 -0700
++++ b/naans/master_naans	Thu May 31 08:56:38 2018 -0700
+@@ -2398,3 +2398,3 @@
+ !why:	ARK
+-!contact: Berthier, Sandrine | Library || sandrine.berthier@univ-lille3.fr | +33-3-20-41-70-34
++!contact: Malleret, Cecile ||| cecile.malleret@univ-lille.fr | +33 3 20 41 70 07
+ 
+@@ -5624,2 +5624,14 @@
+ !address: 30 Rue Franklin Roosevelt, 23000 Guéret, France
++!provider: Franck BERNARDET, franck@1egal2.com
 +
 +naa:
- who:	Metadata Terms (=) TERMS
++who:	Archives départementales du Val-de-Marne (=) AD94
++what:	71138
++when:	2018.05.31
++where:	http://archives.valdemarne.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
++!address: 10 Rue des Archives, 94000 Créteil
++!provider: Franck BERNARDET, franck@1egal2.com
+ 
