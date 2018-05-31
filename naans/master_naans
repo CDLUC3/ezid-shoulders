@@ -5636,6 +5636,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !provider: Franck BERNARDET, franck@1egal2.com
 
 naa:
+who:	Punctum Books (=) PUNCTUM
+what:	84135
+when:	2018.05.31
+where:	http://punctumbooks.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid sb-punctum
+!address: 962 West Campus Lane  Goleta, California 93117
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02

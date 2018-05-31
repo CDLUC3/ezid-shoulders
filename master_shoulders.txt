@@ -76,8 +76,9 @@
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
 #    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 >
-#    minted but rejected by regex: < 84135 >
-#    < 10.7296 10.21983 10.7276 10.21416 >
+#    minted but rejected by regex: < >
+#    < 10.21416 10.7276 10.7296 >
+#       (some of these may still be attached to old datacenters)
 #    purdue-only prefix < 10.21984 >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
@@ -203,7 +204,25 @@
 # lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
 # ucd-library make_ezacct -n 10.18439 s9 87287 d7  < ezaccts/newacct > out
 # dartmouthc  make_ezacct -n - - 81428 v8  < ezaccts/newacct > out
-# dartmouthc  make_ezacct -n - - 88736 t6  < ezaccts/newacct > out
+# punctumbook make_ezacct -n 10.21983 p3 84135 p5  < ezaccts/newacct > out
+
+:: ark:/84135/p5
+type: shoulder
+manager: ezid
+#eziduser: sb-punctum
+name: UCSB Punctum Books
+date: 2018.05.31
+minter: https://n2t.net/a/ezid/m/ark/84135/p5
+
+:: doi:10.21983/P3
+type: shoulder
+manager: ezid
+#eziduser: sb-punctum
+name: UCSB Punctum Books
+date: 2018.05.31
+minter: https://n2t.net/a/ezid/m/ark/d1983/p3
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/88736/t6
 type: shoulder

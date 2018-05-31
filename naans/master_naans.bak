@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.23
+when:	2018.05.31
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5634,6 +5634,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
 !address: 10 Rue des Archives, 94000 Créteil
 !provider: Franck BERNARDET, franck@1egal2.com
+
+naa:
+who:	Punctum Books (=) PUNCTUM
+what:	84135
+when:	2018.05.31
+where:	http://punctumbooks.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid sb-punctum
+!address: 962 West Campus Lane  Goleta, California 93117
 
 naa:
 who:	Metadata Terms (=) TERMS

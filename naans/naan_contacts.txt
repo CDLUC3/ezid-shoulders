@@ -627,6 +627,7 @@ contact: Dhimolea, Arnaud (Engineer) ||| arnaud.dhimolea@pearltrees.com |
 contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.com | 
 contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
 contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
+contact: eziduserid sb-punctum
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
