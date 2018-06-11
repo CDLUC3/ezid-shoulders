@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.31
+when:	2018.06.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -400,13 +400,6 @@ who:	Princeton University (=) PRINCETON
 what:	88435
 when:	2005.10.06
 where:	http://diglib.princeton.edu
-how:	NP | (:unkn) unknown | 2005 |
-
-naa:
-who:	University of Washington (=) UW
-what:	78428
-when:	2005.10.06
-where:	http://u.washington.edu
 how:	NP | (:unkn) unknown | 2005 |
 
 naa:
@@ -1061,13 +1054,6 @@ where:	http://www.fundp.ac.be/universite
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	Oregon State University (=) OSU
-what:	87267
-when:	2012.06.21
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
 who:	Bourns College of Engineering (=) BCOE
 what:	87268
 when:	2012.06.27
@@ -1474,13 +1460,6 @@ where:	http://www.msh-paris.fr
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    UW College of the Environment Climate Impacts Group (=) UWCIG
-what:   77915
-when:   2013.06.27
-where:  http://cses.washington.edu/cig
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
 who:    Columbia University Library/Information Services (=) CUL/IS
 what:   87916
 when:   2013.06.27
@@ -1576,13 +1555,6 @@ who:    Institute of Transportation Studies, UC Berkeley (=) UCBITS
 what:   87922
 when:   2013.09.30
 where:  http://its.berkeley.edu
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    Northwest Knowledge Network, University of Idaho (=) NKN
-what:   87923
-when:   2013.10.02
-where:  www.northwestknowledge.net
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -3238,13 +3210,6 @@ where:	http://www.ce.berkeley.edu/programs/geo
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    University of Washington Bothell (=) UWB
-what:   81419
-when:   2016.07.13
-where:	https://www.uwb.edu
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:    Vermont Monitoring Cooperative (=) VMC
 what:   88125
 when:   2016.07.18
@@ -4253,6 +4218,13 @@ where:	http://punctumbooks.com
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:
+who:	Université Paris-Est Marne-la-Vallée (=) UPEM
+what:	58142
+when:	2018.06.11
+where:	http://www.u-pem.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02
@@ -4279,3 +4251,4 @@ what:	12345
 when:	2007.10.02
 where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2007 |
+

@@ -296,7 +296,7 @@ open OUT, "|mail -s 'NAAN request for $acronym' jakkbl\@gmail.com" or
 print OUT << "EOT";
 
 NEW TRIAL: intended for $email
-CC: Joan.Starr\@ucop.edu, $provider
+CC: Perry.Willett\@ucop.edu, $provider
 
 Hi $firstname,
 
@@ -314,7 +314,7 @@ The ARK specification linked from [1] is currently the best guide for how to cre
 
          https://groups.google.com/group/arks-forum
 
-intended for people interested in sharing with and learning from others about how ARKs have been or could be used in identifier applications. The best open source software for setting up your own ARK service implementation is currently Noid, available from cpan.org.
+intended for people interested in sharing with and learning from others about how ARKs have been or could be used in identifier applications. The best open source software for setting up your own ARK service implementation is currently Noid, available from metacpan.org.
 
 There is also a service called EZID (https://ezid.cdlib.org) that you can use to manage your namespace, which includes minting and resolving ARKs, DOIs, and other identifiers, as well as maintaining metadata. Please contact ezid\@ucop.edu if you are interested in EZID.
 
@@ -322,7 +322,7 @@ There's nothing else you need to do right now. As you may know, we're hoping to 
 
 -John
 
-[1] https://wiki.ucop.edu/display/Curation/ARK
+1. http://n2t.net/e/ark_ids.html
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 John A. Kunze            jak\@ucop.edu      California Digital Library

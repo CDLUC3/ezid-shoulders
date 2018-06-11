@@ -15,7 +15,6 @@
 21198	University of California Los Angeles (=) UCLA
 12148	Bibliothèque nationale de France (=) National Library of France (=) BNF
 88435	Princeton University (=) PRINCETON
-78428	University of Washington (=) UW
 89901	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
 80444	Northwest Digital Archives (=) NWDA
 25593	Emory University (=) EMORY
@@ -109,7 +108,6 @@
 87265	National Snow and Ice Data Center (=) NSIDC
 87266	Harte Research Institue (=) HRI
 83449	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
-87267	Oregon State University (=) OSU
 87268	Bourns College of Engineering (=) BCOE
 84246	California Coastal Atlas (=) UCSDCCA
 70453	Massage Therapy Association of British Columbia (=) MTABC
@@ -168,7 +166,6 @@
 88113	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
 87914	International Federation of Digital Seismograph Networks (=) FDSN
 31123	Fondation Maison des Sciences de l'Homme (=) FMSH
-77915	UW College of the Environment Climate Impacts Group (=) UWCIG
 87916	Columbia University Library/Information Services (=) CUL/IS
 18127	Archives départementales du Val-d'Oise (=) ADVO
 79687	San Francisco Symphony (=) SFSYMPH
@@ -183,7 +180,6 @@
 27703	US Environmental Protection Agency (=) USEPA
 15049	Archives départementales du Morbihan (=) AD56
 87922	Institute of Transportation Studies, UC Berkeley (=) UCBITS
-87923	Northwest Knowledge Network, University of Idaho (=) NKN
 76267	Lafayette College Libraries (=) LCL
 87924	Duke University (=) DUL
 63271	Archives départementales de l'Aisne (=) AD02
@@ -420,7 +416,6 @@
 70454	Association Sésamath (=) SESAMATH
 81417	Adaptive Biotechnologies (=) ADAPTIVE
 81418	UCB Geotechnical Engineering Research (=) UCBGT
-81419	University of Washington Bothell (=) UWB
 88125	Vermont Monitoring Cooperative (=) VMC
 57458	Saint-Gobain (=) STGOBAIN
 44461	Remix the Manuscript (=) RMXMANU
@@ -565,6 +560,7 @@
 22575	Archives départementales de la Creuse (=) AD23
 71138	Archives départementales du Val-de-Marne (=) AD94
 84135	Punctum Books (=) PUNCTUM
+58142	Université Paris-Est Marne-la-Vallée (=) UPEM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

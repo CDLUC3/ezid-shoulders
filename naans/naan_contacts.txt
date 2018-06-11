@@ -16,8 +16,6 @@ contact: Kirchhoff, Amy ||| amy.kirchhoff@ithaka.org | +1 609-986-2218
 contact: Chiong, Henry | UCLA Library | 2007- | hchiong@library.ucla.edu |
 contact: Caron, Bertrand (preservation metadata expert) || 2018- | bertrand.caron@bnf.fr |
 contact: Stroop, Jon | Princeton University Library || jstroop@princeton.edu
-contact: XXX Maguire, Marsha | University of Washington Libraries | 2005-2012 | mmaguire@u.washington.edu
-contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
 contact: Saternus, Jakob ||| Jakob.Saternus@arkivnamnden.goteborg.se
 contact: Cornish, Alan | Washington State University Libraries || cornish@wsu.edu | +1 509-335-1895
 contact: Fenton, Kyle | Robert W. Woodruff Library || jfenton@emory.edu
@@ -122,7 +120,6 @@ contact: EZID userid uoregon
 contact: EZID userid nsidc
 contact: EZID userid griidc
 contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
-contact: EZID userid oregonstate
 contact: EZID userid ucr-­
 contact: EZID userid ucsd_hellyj
 contact: Menard, Martha | Georgetown University CAM Program || mbmenard@gmail.com | 604.565.5669
@@ -188,7 +185,6 @@ contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75
 contact: eziduserid datacommon
 contact: eziduserid fdsn
 contact: Papy, Fabrice ||| fabrice.papy@msh-paris.fr |
-contact: eziduserid uw_cig
 contact: eziduserid columbia
 contact: Blanckaert, Odile ||| odile.blanckaert@valdoise.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
@@ -205,7 +201,6 @@ contact: Perez, Christina ||| perez.cristina@epa.gov | +1 919-541-2793
 contact: Percot, Patrick ||| patrick.percot@cg56.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: eziduserid ucb-its
-contact: eziduserid uidaho
 contact: Griffin, James ||| griffinj@lafayette.edu | +1 610-330-5160
 contact: eziduserid duke_lib
 contact: Bertanier, Florence ||| fbertanier@cg02.fr |
@@ -478,7 +473,6 @@ contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
 contact: eziduserid adaptive
 contact: eziduserid ucb-geotech
-contact: eziduserid uw_bothell
 contact: eziduserid datactr3
 contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
 contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
@@ -628,6 +622,7 @@ contact: Truyens, Gilles (Digital project manager) ||| versaillesnewmedia@gmail.
 contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr | 
 contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
 contact: eziduserid sb-punctum
+contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

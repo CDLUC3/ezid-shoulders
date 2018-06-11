@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -1353,28 +1353,6 @@ date: 2016.07.18
 minter: https://n2t.net/a/ezid/m/ark/c8125/d2
 datacenter: CDL.VMC
 
-:: ark:/81419/b2
-type: shoulder
-manager: ezid
-#eziduser: uw_bothell
-name: University of Washington Bothell
-date: 2016.07.13
-minter: https://n2t.net/a/ezid/m/ark/81419/b2
-
-:: datacite:CDL.UWB
-type: datacenter
-manager: ezid
-name: University of Washington Bothell
-
-:: doi:10.21419/B9
-type: shoulder
-manager: ezid
-#eziduser: uw_bothell
-name: University of Washington Bothell
-date: 2016.07.13
-minter: https://n2t.net/a/ezid/m/ark/d1419/b9
-datacenter: CDL.UWB
-
 :: ark:/81418/g4
 type: shoulder
 manager: ezid
@@ -2460,15 +2438,6 @@ name: Miami Project to Cure Paralysis
 date: 2015.05.27
 minter: https://n2t.net/a/ezid/m/ark/c7913/r3
 datacenter: CDL.REGENBAS
-
-:: doi:10.17912/W2
-type: shoulder
-manager: ezid
-#eziduser: caltech_wormbase
-name: Caltech Biology
-date: 2015.05.26
-minter: https://n2t.net/a/ezid/m/ark/c7912/w2
-datacenter: CDL.WORMBASE
 
 :: ark:/87910/b9
 type: shoulder
@@ -3928,15 +3897,6 @@ date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/b7936/k7
 datacenter: CDL.WUSTL
 
-:: doi:10.7935/K5
-type: shoulder
-manager: ezid
-#eziduser: caltech_ligo
-name: LIGO Open Science Center
-date: 2014.03.13
-minter: https://n2t.net/a/ezid/m/ark/b7935/k5
-datacenter: CDL.LIGO
-
 :: ark:/87934/
 type: shoulder
 manager: ezid
@@ -4244,23 +4204,6 @@ name: Duke University
 date: 2013.10.14
 minter: https://n2t.net/a/ezid/m/ark/87924/g9
 
-:: ark:/87923/g5
-type: shoulder
-manager: ezid
-#eziduser: uidaho
-name: Northwest Knowledge Network (NKN)
-date: 2013.10.02
-minter: https://n2t.net/a/ezid/m/ark/87923/g5
-
-:: doi:10.7923/G4
-type: shoulder
-manager: ezid
-#eziduser: uidaho
-name: Northwest Knowledge Network (NKN)
-date: 2013.10.02
-minter: https://n2t.net/a/ezid/m/ark/b7923/g4
-datacenter: CDL.NKN
-
 :: ark:/21198/z1
 type: shoulder
 manager: ezid
@@ -4425,23 +4368,6 @@ date: 2013.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7916/d8
 datacenter: CDL.CULIS
 crossref: true
-
-:: ark:/77915/d6
-type: shoulder
-manager: ezid
-#eziduser: uw-cig
-name: University of Washington College of the Environment Climate Impacts Group (CIG)
-date: 2013.06.27
-minter: https://n2t.net/a/ezid/m/ark/77915/d6
-
-:: doi:10.7915/CIG
-type: shoulder
-manager: ezid
-#eziduser: uw-cig
-name: University of Washington College of the Environment Climate Impacts Group (CIG)
-date: 2013.06.27
-minter: https://n2t.net/a/ezid/m/ark/b7915/cig
-datacenter: CDL.UWCIG
 
 :: ark:/87914/d4
 type: shoulder
@@ -5147,23 +5073,6 @@ date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7268/p1
 datacenter: CDL.UCRBCOE
 
-:: ark:/87267/p0
-type: shoulder
-manager: ezid
-#eziduser: oregonstate
-name: Oregon State University
-date: 2012.06.21
-minter: https://n2t.net/a/ezid/m/ark/87267/p0
-
-:: doi:10.7267/N9
-type: shoulder
-manager: ezid
-#eziduser: oregonstate
-name: Oregon State University
-date: 2012.06.21
-minter: https://n2t.net/a/ezid/m/ark/b7267/n9
-datacenter: CDL.OSU
-
 :: ark:/87266/n8
 type: shoulder
 manager: ezid
@@ -5465,27 +5374,6 @@ name: UC Merced
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/b6071/h8
 datacenter: CDL.UCM
-prefix_shares_datacenter: true
-
-# note: prior ARK contact, Maguire, Marsha | University of Washington
-#       Libraries || mmaguire@u.washington.edu
-# is different from current EZID customer
-:: ark:/78428/h6
-type: shoulder
-manager: ezid
-#eziduser: uwlibs
-name: University of Washington
-date: 2012.03.02
-minter: https://n2t.net/a/ezid/m/ark/78428/h6
-
-:: doi:10.6069/H5
-type: shoulder
-manager: ezid
-#eziduser: uwlibs
-name: University of Washington
-date: 2012.03.02
-minter: https://n2t.net/a/ezid/m/ark/b6069/h5
-datacenter: CDL.UWL
 prefix_shares_datacenter: true
 
 :: ark:/86070/h3
@@ -5875,14 +5763,6 @@ manager: ezid
 name: CDL Digital Special Collections
 minter: https://n2t.net/a/ezid/m/ark/13030/c8
 
-:: doi:10.5061/
-type: shoulder
-manager: ezid
-#eziduser: dryad
-name: Dryad
-minter: https://n2t.net/a/ezid/m/ark/b5061/rd8
-datacenter: CDL.DRYAD
-
 # Merritt is using this
 :: doi:10.5060/D2
 type: shoulder
@@ -5981,11 +5861,6 @@ name: Berkeley Seismological Laboratory
 type: datacenter
 manager: ezid
 name: Brown University Library
-
-:: datacite:CDL.CALTECH
-type: datacenter
-manager: ezid
-name: California Institute of Technology (Caltech)
 
 :: datacite:CDL.CAMS
 type: datacenter
@@ -6101,11 +5976,6 @@ name: Data-Planet
 type: datacenter
 manager: ezid
 name: Drexel University Libraries
-
-:: datacite:CDL.DRYAD
-type: datacenter
-manager: ezid
-name: Dryad
 
 :: datacite:CDL.EAEI
 type: datacenter
@@ -6235,11 +6105,6 @@ type: datacenter
 manager: ezid
 name: UNC Library - Resource Description and Management
 
-:: datacite:CDL.LIGO
-type: datacenter
-manager: ezid
-name: LIGO Open Science Center
-
 :: datacite:CDL.LUCKLAB
 type: datacenter
 manager: ezid
@@ -6295,11 +6160,6 @@ type: datacenter
 manager: ezid
 name: National Center for Ecological Analysis and Synthesis (NCEAS)
 
-:: datacite:CDL.NKN
-type: datacenter
-manager: ezid
-name: Northwest Knowledge Network (NKN)
-
 :: datacite:CDL.NOAA
 type: datacenter
 manager: ezid
@@ -6334,11 +6194,6 @@ name: Odum Institute for Research in Social Science
 type: datacenter
 manager: ezid
 name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
-
-:: datacite:CDL.OSU
-type: datacenter
-manager: ezid
-name: Oregon State University
 
 :: datacite:CDL.PGERR
 type: datacenter
@@ -6635,16 +6490,6 @@ type: datacenter
 manager: ezid
 name: University of Virginia
 
-:: datacite:CDL.UWCIG
-type: datacenter
-manager: ezid
-name: University of Washington College of the Environment Climate Impacts Group (CIG)
-
-:: datacite:CDL.UWL
-type: datacenter
-manager: ezid
-name: University of Washington
-
 :: datacite:CDL.VTLIB
 type: datacenter
 manager: ezid
@@ -6654,11 +6499,6 @@ name: Virginia Tech University Libraries
 type: datacenter
 manager: ezid
 name: Virginia Tech Transportation Institute
-
-:: datacite:CDL.WORMBASE
-type: datacenter
-manager: ezid
-name: Caltech Biology
 
 :: datacite:CDL.WRITPRO
 type: datacenter

@@ -15,8 +15,6 @@ amy.kirchhoff@ithaka.org
 hchiong@library.ucla.edu
 bertrand.caron@bnf.fr
 jstroop@princeton.edu
-mmaguire@u.washington.edu
-swright@uw.edu
 Jakob.Saternus@arkivnamnden.goteborg.se
 cornish@wsu.edu
 jfenton@emory.edu
@@ -400,6 +398,7 @@ arnaud.dhimolea@pearltrees.com
 versaillesnewmedia@gmail.com
 PBUGAT@creuse.fr
 Zoi.Kyritsopoulos@valdemarne.fr
+maria-chiara.rioli@u-pem.fr
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu

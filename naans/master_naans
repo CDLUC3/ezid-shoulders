@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.31
+when:	2018.06.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -456,16 +456,6 @@ where:	http://diglib.princeton.edu
 how:	NP | (:unkn) unknown | 2005 |
 !why:   ARK
 !contact: Stroop, Jon | Princeton University Library || jstroop@princeton.edu
-
-naa:
-who:	University of Washington (=) UW
-what:	78428
-when:	2005.10.06
-where:	http://u.washington.edu
-how:	NP | (:unkn) unknown | 2005 |
-!why:   ARK
-!contact: XXX Maguire, Marsha | University of Washington Libraries | 2005-2012 | mmaguire@u.washington.edu
-!contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
 
 naa:
 who:	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
@@ -1317,15 +1307,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
 
 naa:
-who:	Oregon State University (=) OSU
-what:	87267
-when:	2012.06.21
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid oregonstate
-
-naa:
 who:	Bourns College of Engineering (=) BCOE
 what:	87268
 when:	2012.06.27
@@ -1856,15 +1837,6 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Papy, Fabrice ||| fabrice.papy@msh-paris.fr |
 
 naa:
-who:    UW College of the Environment Climate Impacts Group (=) UWCIG
-what:   77915
-when:   2013.06.27
-where:  http://cses.washington.edu/cig
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid uw_cig
-
-naa:
 who:    Columbia University Library/Information Services (=) CUL/IS
 what:   87916
 when:   2013.06.27
@@ -1991,15 +1963,6 @@ where:  http://its.berkeley.edu
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid ucb-its
-
-naa:
-who:    Northwest Knowledge Network, University of Idaho (=) NKN
-what:   87923
-when:   2013.10.02
-where:  www.northwestknowledge.net
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid uidaho
 
 naa:
 who:	Lafayette College Libraries (=) LCL
@@ -4190,16 +4153,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: 750 Davis Hall  UC Berkeley  94720-1710
 
 naa:
-who:    University of Washington Bothell (=) UWB
-what:   81419
-when:   2016.07.13
-where:	https://www.uwb.edu
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid uw_bothell
-!address: Box 358500, 18115 Campus Way NE,  Bothell, WA
-
-naa:
 who:    Vermont Monitoring Cooperative (=) VMC
 what:   88125
 when:   2016.07.18
@@ -5646,6 +5599,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !address: 962 West Campus Lane  Goleta, California 93117
 
 naa:
+who:	Université Paris-Est Marne-la-Vallée (=) UPEM
+what:	58142
+when:	2018.06.11
+where:	http://www.u-pem.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
+!address: 5 Boulevard Descartes, 77420 Champs-sur-Marne, France
+
+naa:
 who:	Metadata Terms (=) TERMS
 what:	99152
 when:	2007.10.02
@@ -5682,3 +5645,4 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2007 |
 !why:   ARK
 !contact: Kunze, John | California Digital Library || jak@ucop.edu
+

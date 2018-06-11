@@ -235,8 +235,8 @@ remote = jak@ucop.edu jkunze@ucop.edu
 ccremote = jakkbl@gmail.com jkunze@ucop.edu
 
 # real values
-remote = jean-philippe.tramoni@bnf.fr bertrand.caron@bnf.fr sebastien.peyrard@bnf.fr MarillJ@mail.nlm.nih.gov joan.starr@ucop.edu
-ccremote = shalvid@mail.nlm.nih.gov thomas.ledoux@bnf.fr jak@ucop.edu joan.starr@ucop.edu
+remote = jean-philippe.tramoni@bnf.fr bertrand.caron@bnf.fr sebastien.peyrard@bnf.fr MarillJ@mail.nlm.nih.gov Perry.Willett@ucop.edu
+ccremote = shalvid@mail.nlm.nih.gov thomas.ledoux@bnf.fr jak@ucop.edu Perry.Willett@ucop.edu
 
 
 # This string is printed with perl to get the \n's to be recognized.
