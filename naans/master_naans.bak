@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.05.31
+when:	2018.06.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5585,7 +5585,7 @@ where:	http://archives.valdemarne.fr
 how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
-!address: 10 Rue des Archives, 94000 Créteil
+!address: 10 Rue des Archives, 94000 Créteil, France
 !provider: Franck BERNARDET, franck@1egal2.com
 
 naa:
@@ -5607,6 +5607,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
 !address: 5 Boulevard Descartes, 77420 Champs-sur-Marne, France
+
+naa:
+who:	Le Génie Editeur (=) GDGFP
+what:	45146
+when:	2018.06.13
+where:	http://lelivrenumerique.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
+!address: 38 avenue Jean Jaurès, 73000 Chambéry, France
 
 naa:
 who:	Metadata Terms (=) TERMS

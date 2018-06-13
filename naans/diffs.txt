@@ -1,81 +1,21 @@
-diff -r 334dabfa972d naans/master_naans
---- a/naans/master_naans	Thu May 31 14:50:02 2018 -0700
-+++ b/naans/master_naans	Mon Jun 11 16:11:54 2018 -0700
-@@ -460,12 +460,2 @@
+diff -r bbace4abb24b naans/master_naans
+--- a/naans/master_naans	Mon Jun 11 16:11:54 2018 -0700
++++ b/naans/master_naans	Wed Jun 13 07:38:07 2018 -0700
+@@ -5587,3 +5587,3 @@
+ !contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
+-!address: 10 Rue des Archives, 94000 Créteil
++!address: 10 Rue des Archives, 94000 Créteil, France
+ !provider: Franck BERNARDET, franck@1egal2.com
+@@ -5611,2 +5611,12 @@
  naa:
--who:	University of Washington (=) UW
--what:	78428
--when:	2005.10.06
--where:	http://u.washington.edu
--how:	NP | (:unkn) unknown | 2005 |
--!why:   ARK
--!contact: XXX Maguire, Marsha | University of Washington Libraries | 2005-2012 | mmaguire@u.washington.edu
--!contact: Wright, Stephanie | University of Washington Libraries || swright@uw.edu | 206.685.1540
--
--naa:
- who:	Archives of Region of Västra Götaland and City of Gothenburg, Sweden (=) ARKIVNAMNDEN
-@@ -1319,11 +1309,2 @@
- naa:
--who:	Oregon State University (=) OSU
--what:	87267
--when:	2012.06.21
--where:	http://n2t.net
--how:	NP | (:unkn) unknown | 2012 |
--!why:	EZID ARK
--!contact: EZID userid oregonstate
--
--naa:
- who:	Bourns College of Engineering (=) BCOE
-@@ -1858,11 +1839,2 @@
- naa:
--who:    UW College of the Environment Climate Impacts Group (=) UWCIG
--what:   77915
--when:   2013.06.27
--where:  http://cses.washington.edu/cig
--how:    NP | (:unkn) unknown | 2013 |
--!why:   EZID ARK
--!contact: eziduserid uw_cig
--
--naa:
- who:    Columbia University Library/Information Services (=) CUL/IS
-@@ -1995,11 +1967,2 @@
- naa:
--who:    Northwest Knowledge Network, University of Idaho (=) NKN
--what:   87923
--when:   2013.10.02
--where:  www.northwestknowledge.net
--how:    NP | (:unkn) unknown | 2013 |
--!why:   EZID ARK
--!contact: eziduserid uidaho
--
--naa:
- who:	Lafayette College Libraries (=) LCL
-@@ -4192,12 +4155,2 @@
- naa:
--who:    University of Washington Bothell (=) UWB
--what:   81419
--when:   2016.07.13
--where:	https://www.uwb.edu
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid uw_bothell
--!address: Box 358500, 18115 Campus Way NE,  Bothell, WA
--
--naa:
- who:    Vermont Monitoring Cooperative (=) VMC
-@@ -5648,2 +5601,12 @@
- naa:
-+who:	Université Paris-Est Marne-la-Vallée (=) UPEM
-+what:	58142
-+when:	2018.06.11
-+where:	http://www.u-pem.fr
-+how:	NP | (:unkn) unknown | 2018 |
++who:	Le Génie Editeur (=) GDGFP
++what:	45146
++when:	2018.06.13
++where:	http://lelivrenumerique.com
++how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
-+!address: 5 Boulevard Descartes, 77420 Champs-sur-Marne, France
++!contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
++!address: 38 avenue Jean Jaurès, 73000 Chambéry, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS
-@@ -5684,1 +5647,2 @@
- !contact: Kunze, John | California Digital Library || jak@ucop.edu
-+

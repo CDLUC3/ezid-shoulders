@@ -623,6 +623,7 @@ contact: BUGAT, Pascale (Directrice) ||| PBUGAT@creuse.fr |
 contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
 contact: eziduserid sb-punctum
 contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
+contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

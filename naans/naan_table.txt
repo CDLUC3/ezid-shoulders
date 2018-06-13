@@ -561,6 +561,7 @@
 71138	Archives départementales du Val-de-Marne (=) AD94
 84135	Punctum Books (=) PUNCTUM
 58142	Université Paris-Est Marne-la-Vallée (=) UPEM
+45146	Le Génie Editeur (=) GDGFP
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
