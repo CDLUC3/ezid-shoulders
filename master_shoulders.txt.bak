@@ -5763,14 +5763,6 @@ manager: ezid
 name: CDL Digital Special Collections
 minter: https://n2t.net/a/ezid/m/ark/13030/c8
 
-:: doi:10.5061/
-type: shoulder
-manager: ezid
-#eziduser: dryad
-name: Dryad
-minter: https://n2t.net/a/ezid/m/ark/b5061/rd8
-datacenter: CDL.DRYAD
-
 # Merritt is using this
 :: doi:10.5060/D2
 type: shoulder
@@ -5984,11 +5976,6 @@ name: Data-Planet
 type: datacenter
 manager: ezid
 name: Drexel University Libraries
-
-:: datacite:CDL.DRYAD
-type: datacenter
-manager: ezid
-name: Dryad
 
 :: datacite:CDL.EAEI
 type: datacenter

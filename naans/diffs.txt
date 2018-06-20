@@ -1,21 +1,28 @@
-diff -r bbace4abb24b naans/master_naans
---- a/naans/master_naans	Mon Jun 11 16:11:54 2018 -0700
-+++ b/naans/master_naans	Wed Jun 13 07:38:07 2018 -0700
-@@ -5587,3 +5587,3 @@
- !contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.fr | 
--!address: 10 Rue des Archives, 94000 Créteil
-+!address: 10 Rue des Archives, 94000 Créteil, France
- !provider: Franck BERNARDET, franck@1egal2.com
-@@ -5611,2 +5611,12 @@
+diff -r 7738b7022c51 naans/master_naans
+--- a/naans/master_naans	Wed Jun 13 07:38:08 2018 -0700
++++ b/naans/master_naans	Wed Jun 20 11:38:58 2018 -0700
+@@ -1273,11 +1273,2 @@
  naa:
-+who:	Le Génie Editeur (=) GDGFP
-+what:	45146
-+when:	2018.06.13
-+where:	http://lelivrenumerique.com
+-who:	University of Oregon (=) UOREGON
+-what:	87264
+-when:	2012.05.26
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid uoregon
+-
+-naa:
+ who:	National Snow and Ice Data Center (=) NSIDC
+@@ -5621,2 +5612,12 @@
+ naa:
++who:	English Attack! (=) ENGTACK
++what:	32151
++when:	2018.06.14
++where:	http://www.english-attack.com
 +how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
-+!address: 38 avenue Jean Jaurès, 73000 Chambéry, France
++!contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
++!address: 75 rue de Lourmel, 75015 Paris, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

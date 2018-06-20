@@ -116,7 +116,6 @@ contact: EZID userid sb-pisco
 contact: Vesson, Valéry ||| valery.vesson@cg01.fr
 contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 contact: EZID userid ucrlibrary
-contact: EZID userid uoregon
 contact: EZID userid nsidc
 contact: EZID userid griidc
 contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
@@ -624,6 +623,7 @@ contact: Zoi, Kyritsopoulos, (Chef de projet) ||| Zoi.Kyritsopoulos@valdemarne.f
 contact: eziduserid sb-punctum
 contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
 contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
+contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

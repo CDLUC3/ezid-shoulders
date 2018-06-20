@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.11
+when:	2018.06.13
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1269,15 +1269,6 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
 !contact: EZID userid ucrlibrary
-
-naa:
-who:	University of Oregon (=) UOREGON
-what:	87264
-when:	2012.05.26
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid uoregon
 
 naa:
 who:	National Snow and Ice Data Center (=) NSIDC
@@ -5617,6 +5608,16 @@ how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
 !address: 38 avenue Jean Jaurès, 73000 Chambéry, France
+
+naa:
+who:	English Attack! (=) ENGTACK
+what:	32151
+when:	2018.06.14
+where:	http://www.english-attack.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
+!address: 75 rue de Lourmel, 75015 Paris, France
 
 naa:
 who:	Metadata Terms (=) TERMS

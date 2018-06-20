@@ -105,7 +105,6 @@ RedirectMatch ^/((ark:/35227)|35227/?)(.*)$ http://www.archives.landes.org/$2$3
 RedirectMatch ^/((ark:/86085)|86085/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/22231)|22231/?)(.*)$ http://www.archives-numerisees.ain.fr/$2$3
 RedirectMatch ^/((ark:/86086)|86086/?)(.*)$ http://n2t.net/$2$3
-RedirectMatch ^/((ark:/87264)|87264/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87265)|87265/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87266)|87266/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/83449)|83449/?)(.*)$ http://www.fundp.ac.be/universite/$2$3
@@ -563,6 +562,7 @@ RedirectMatch ^/((ark:/71138)|71138/?)(.*)$ http://archives.valdemarne.fr/$2$3
 RedirectMatch ^/((ark:/84135)|84135/?)(.*)$ http://punctumbooks.com/$2$3
 RedirectMatch ^/((ark:/58142)|58142/?)(.*)$ http://www.u-pem.fr/$2$3
 RedirectMatch ^/((ark:/45146)|45146/?)(.*)$ http://lelivrenumerique.com/$2$3
+RedirectMatch ^/((ark:/32151)|32151/?)(.*)$ http://www.english-attack.com/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

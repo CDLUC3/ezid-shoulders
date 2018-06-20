@@ -104,7 +104,6 @@
 86085	Partnership for Interdisciplinary Studies of Coastal Oceans (=) PISCO
 22231	Archives départementales de l'Ain (=) ADAIN
 86086	University of California Riverside (=) UCRIVERSIDE
-87264	University of Oregon (=) UOREGON
 87265	National Snow and Ice Data Center (=) NSIDC
 87266	Harte Research Institue (=) HRI
 83449	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
@@ -562,6 +561,7 @@
 84135	Punctum Books (=) PUNCTUM
 58142	Université Paris-Est Marne-la-Vallée (=) UPEM
 45146	Le Génie Editeur (=) GDGFP
+32151	English Attack! (=) ENGTACK
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID
