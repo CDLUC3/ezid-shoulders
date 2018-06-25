@@ -118,7 +118,6 @@ RedirectMatch ^/((ark:/57457)|57457/?)(.*)$ http://www.culture41.fr/$2$3
 RedirectMatch ^/((ark:/44803)|44803/?)(.*)$ http://www.archives.oise.fr/$2$3
 RedirectMatch ^/((ark:/87273)|87273/?)(.*)$ http://wsu.edu/$2$3
 RedirectMatch ^/((ark:/87274)|87274/?)(.*)$ http://n2t.net/$2$3
-RedirectMatch ^/((ark:/87275)|87275/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87277)|87277/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87278)|87278/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87279)|87279/?)(.*)$ http://n2t.net/$2$3
@@ -409,7 +408,6 @@ RedirectMatch ^/((ark:/60878)|60878/?)(.*)$ https://www.edumedia-sciences.com/$2
 RedirectMatch ^/((ark:/81239)|81239/?)(.*)$ http://www.invemar.org.co/$2$3
 RedirectMatch ^/((ark:/47882)|47882/?)(.*)$ http://www.cabri.com/$2$3
 RedirectMatch ^/((ark:/34885)|34885/?)(.*)$ http://ark.universalis-edu.com/$2$3
-RedirectMatch ^/((ark:/81414)|81414/?)(.*)$ http://www.siue.edu/lovejoylibrary/$2$3
 RedirectMatch ^/((ark:/81415)|81415/?)(.*)$ http://talkbank.org/$2$3
 RedirectMatch ^/((ark:/21889)|21889/?)(.*)$ http://www.editis-education.fr/$2$3
 RedirectMatch ^/((ark:/83108)|83108/?)(.*)$ http://www.tpm-agglo.fr/$2$3
@@ -563,6 +561,8 @@ RedirectMatch ^/((ark:/84135)|84135/?)(.*)$ http://punctumbooks.com/$2$3
 RedirectMatch ^/((ark:/58142)|58142/?)(.*)$ http://www.u-pem.fr/$2$3
 RedirectMatch ^/((ark:/45146)|45146/?)(.*)$ http://lelivrenumerique.com/$2$3
 RedirectMatch ^/((ark:/32151)|32151/?)(.*)$ http://www.english-attack.com/$2$3
+RedirectMatch ^/((ark:/19496)|19496/?)(.*)$ http://ark.edumalin.net/$2$3
+RedirectMatch ^/((ark:/67718)|67718/?)(.*)$ http://www.speakshake.com/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -3000,15 +3000,6 @@ minter: https://n2t.net/a/ezid/m/ark/c5781/t2
 datacenter: CDL.UTAUSTIN
 prefix_shares_datacenter: true
 
-:: doi:10.7264/D3
-type: shoulder
-manager: ezid
-#eziduser: oregondata
-name: University of Oregon Data
-date: 2015.02.12
-minter: https://n2t.net/a/ezid/m/ark/b7264/d3
-datacenter: CDL.UOREGON
-
 :: ark:/85788/g4
 type: shoulder
 manager: ezid
@@ -5125,23 +5116,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6086/n1
 datacenter: CDL.UCR
 prefix_shares_datacenter: true
 
-:: ark:/87264/n4
-type: shoulder
-manager: ezid
-#eziduser: uoregon
-name: University of Oregon
-date: 2012.05.26
-minter: https://n2t.net/a/ezid/m/ark/87264/n4
-
-:: doi:10.7264/N3
-type: shoulder
-manager: ezid
-#eziduser: uoregon
-name: University of Oregon
-date: 2012.05.26
-minter: https://n2t.net/a/ezid/m/ark/b7264/n3
-datacenter: CDL.UOREGON
-
 :: ark:/86085/n0
 type: shoulder
 manager: ezid
@@ -6449,11 +6423,6 @@ name: University of New Mexico Libraries
 type: datacenter
 manager: ezid
 name: University of Auckland
-
-:: datacite:CDL.UOREGON
-type: datacenter
-manager: ezid
-name: University of Oregon
 
 :: datacite:CDL.USFWS
 type: datacenter

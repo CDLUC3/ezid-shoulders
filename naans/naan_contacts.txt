@@ -48,7 +48,6 @@ contact: Moses, Laurie Lee | Center for Black Music Research || lmoses@colum.edu
 contact: Giarlo, Michael J. ||| leftwing@alumni.rutgers.edu
 contact: Winkler, Mike | University of Pennsylvania Library || winkler4@pobox.upenn.edu | +1 215.573.9086
 contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
-contact: eziduserid unkentucky
 contact: Dobratz, Susanne | University Library & Computer and Media Services | dobratz@cms.hu-berlin.de | +49+30+2093-7070
 contact: Cassoudesalle, Joanna ||| j.cassoudesalle@cirdoc.fr | +33 4 67 11 85 10
 contact: Myung-Ja "MJ" Han | Assistant Professor and Metadata Librarian || mhan3@illinois.edu | 217-333-9515
@@ -131,7 +130,6 @@ contact: Weber, Vincent ||| archives@oise.fr |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: EZID userid washstate
 contact: EZID userid notredame
-contact: EZID userid umamherst
 contact: EZID userid iucns
 contact: EZID userid uofutah
 contact: EZID userid ucsd_ooi
@@ -465,7 +463,6 @@ contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 3
 contact: eziduserid invemarodi
 contact: Laborde, Jean-Marie ||| jean-marie.laborde@cabri.com | +33 (0)4 76 43 97 00
 contact: Boiteux, Eric ||| eboiteux@universalis.fr |
-contact: eziduserid lovejoy
 contact: eziduserid talkbank
 contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
@@ -624,6 +621,8 @@ contact: eziduserid sb-punctum
 contact: RIOLI, Maria Chiara (Administrative Secretary) ||| maria-chiara.rioli@u-pem.fr | 
 contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com | 
 contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
+contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
+contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

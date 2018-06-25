@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.13
+when:	2018.06.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -736,7 +736,6 @@ where:	http://www.uky.edu
 how:	NP | (:unkn) unknown | 2010 |
 !why:   ARK
 !contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
-!contact: eziduserid unkentucky
 
 naa:
 who:	Humboldt-Universität zu Berlin (=) Humboldt University Berlin (=) HUB
@@ -1389,15 +1388,6 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
 !contact: EZID userid notredame
-
-naa:
-who:	University of Massachusetts Amherst (=) UMA
-what:	87275
-when:	2012.07.24
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid umamherst
 
 naa:
 who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
@@ -4074,16 +4064,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: 88 ter avenue du Général Leclerc, 92100 Boulogne-Billancourt, France
 
 naa:
-who:    Southern Illinois University Edwardsville (=) SIUE
-what:   81414
-when:   2016.06.22
-where:	http://www.siue.edu/lovejoylibrary
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid lovejoy
-!address: Library and Info. Services, Campus Box 1063, 30 Hairpin Drive, Edwardsville, IL 62026
-
-naa:
 who:    TalkBank (=) TALKBANK
 what:   81415
 when:   2016.06.23
@@ -5618,6 +5598,26 @@ how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
 !address: 75 rue de Lourmel, 75015 Paris, France
+
+naa:
+who:	Edumalin (=) EDUMALIN
+what:	19496
+when:	2018.06.25
+where:	http://ark.edumalin.net
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
+!address: 188 rue la Fayette, 75010 Paris, France
+
+naa:
+who:	SpeakShake (=) SPEAKSHAKE
+what:	67718
+when:	2018.06.25
+where:	http://www.speakshake.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
+!address: 36 rue de l'Amiral Hamelin, 75116 Paris, France
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -1,28 +1,55 @@
-diff -r 7738b7022c51 naans/master_naans
---- a/naans/master_naans	Wed Jun 13 07:38:08 2018 -0700
-+++ b/naans/master_naans	Wed Jun 20 11:38:58 2018 -0700
-@@ -1273,11 +1273,2 @@
+diff -r 8766a8033be4 naans/master_naans
+--- a/naans/master_naans	Wed Jun 20 11:38:58 2018 -0700
++++ b/naans/master_naans	Mon Jun 25 11:27:41 2018 -0700
+@@ -738,3 +738,2 @@
+ !contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
+-!contact: eziduserid unkentucky
+ 
+@@ -1393,11 +1392,2 @@
  naa:
--who:	University of Oregon (=) UOREGON
--what:	87264
--when:	2012.05.26
+-who:	University of Massachusetts Amherst (=) UMA
+-what:	87275
+-when:	2012.07.24
 -where:	http://n2t.net
 -how:	NP | (:unkn) unknown | 2012 |
 -!why:	EZID ARK
--!contact: EZID userid uoregon
+-!contact: EZID userid umamherst
 -
 -naa:
- who:	National Snow and Ice Data Center (=) NSIDC
-@@ -5621,2 +5612,12 @@
+ who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
+@@ -4076,12 +4066,2 @@
  naa:
-+who:	English Attack! (=) ENGTACK
-+what:	32151
-+when:	2018.06.14
-+where:	http://www.english-attack.com
+-who:    Southern Illinois University Edwardsville (=) SIUE
+-what:   81414
+-when:   2016.06.22
+-where:	http://www.siue.edu/lovejoylibrary
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:   EZID ARK
+-!contact: eziduserid lovejoy
+-!address: Library and Info. Services, Campus Box 1063, 30 Hairpin Drive, Edwardsville, IL 62026
+-
+-naa:
+ who:    TalkBank (=) TALKBANK
+@@ -5622,2 +5602,22 @@
+ naa:
++who:	Edumalin (=) EDUMALIN
++what:	19496
++when:	2018.06.25
++where:	http://ark.edumalin.net
 +how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
-+!address: 75 rue de Lourmel, 75015 Paris, France
++!contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
++!address: 188 rue la Fayette, 75010 Paris, France
++
++naa:
++who:	SpeakShake (=) SPEAKSHAKE
++what:	67718
++when:	2018.06.25
++where:	http://www.speakshake.com
++how:	FP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
++!address: 36 rue de l'Amiral Hamelin, 75116 Paris, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

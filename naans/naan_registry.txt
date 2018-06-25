@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.20
+when:	2018.06.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1113,13 +1113,6 @@ naa:
 who:	University of Notre Dame (=) UND
 what:	87274
 when:	2012.07.20
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
-who:	University of Massachusetts Amherst (=) UMA
-what:	87275
-when:	2012.07.24
 where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
@@ -3154,13 +3147,6 @@ where:	http://ark.universalis-edu.com
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    Southern Illinois University Edwardsville (=) SIUE
-what:   81414
-when:   2016.06.22
-where:	http://www.siue.edu/lovejoylibrary
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:    TalkBank (=) TALKBANK
 what:   81415
 when:   2016.06.23
@@ -4229,6 +4215,20 @@ who:	English Attack! (=) ENGTACK
 what:	32151
 when:	2018.06.14
 where:	http://www.english-attack.com
+how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Edumalin (=) EDUMALIN
+what:	19496
+when:	2018.06.25
+where:	http://ark.edumalin.net
+how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	SpeakShake (=) SPEAKSHAKE
+what:	67718
+when:	2018.06.25
+where:	http://www.speakshake.com
 how:	FP | (:unkn) unknown | 2018 |
 
 naa:
