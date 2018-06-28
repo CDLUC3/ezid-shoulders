@@ -75,11 +75,11 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
-#    purdue-only prefix < 10.21984 >
+#    purdue-only prefix < >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
 #    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
@@ -166,7 +166,6 @@
 # uci-jetem   make_ezacct -n 10.21980 j8 - -  < ezaccts/newacct > out
 # uiowa       make_ezacct -n 10.21981 m8 "" w9  < ezaccts/newacct > out
 # um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
-# uic         make_ezacct -n 10.21984 c4 "" c8  < ezaccts/newacct > out
 # nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 # sdsc-caida  make_ezacct -n 10.21986 s6 "" s6  < ezaccts/newacct > out
 # iris        make_ezacct -n 10.21987 r7 "" r7  < ezaccts/newacct > out
@@ -205,6 +204,17 @@
 # ucd-library make_ezacct -n 10.18439 s9 87287 d7  < ezaccts/newacct > out
 # dartmouthc  make_ezacct -n - - 81428 v8  < ezaccts/newacct > out
 # punctumbook make_ezacct -n 10.21983 p3 84135 p5  < ezaccts/newacct > out
+# ntu-dr-data make_ezacct -n 10.21984 n4 - -  < ezaccts/newacct > out
+
+:: doi:10.21984/N4
+type: shoulder
+manager: ezid
+#eziduser: ntu-dr-data
+name: ADM exhibition catalogues/proceedings
+date: 2018.06.25
+minter: https://n2t.net/a/ezid/m/ark/d1984/n4
+datacenter: PURDUE.NTU
+prefix_shares_datacenter: true
 
 :: ark:/84135/p5
 type: shoulder
@@ -1144,28 +1154,6 @@ name: UCSF ImmPort
 date: 2016.09.13
 minter: https://n2t.net/a/ezid/m/ark/d1430/m3
 datacenter: CDL.IMMPORT
-
-:: ark:/81429/s2
-type: shoulder
-manager: ezid
-#eziduser: nccwsccsc
-name: US Dept of Interior Climate Science Centers
-date: 2016.09.11
-minter: https://n2t.net/a/ezid/m/ark/81429/s2
-
-:: datacite:CDL.CSC
-type: datacenter
-manager: ezid
-name: US Dept of Interior Climate Science Centers
-
-:: doi:10.21429/C9
-type: shoulder
-manager: ezid
-#eziduser: nccwsccsc
-name: US Dept of Interior Climate Science Centers
-date: 2016.09.11
-minter: https://n2t.net/a/ezid/m/ark/d1429/c9
-datacenter: CDL.CSC
 
 :: doi:10.1184/R1/
 type: shoulder

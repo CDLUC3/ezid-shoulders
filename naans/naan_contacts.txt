@@ -482,7 +482,6 @@ contact: eziduserid sb-eri
 contact: Aucher, Laurent ||| laurent.aucher@univ-psl.fr | +33 1 85 76 08 61
 contact: Kaur, Rasmeet ||| jmeb.editor@gmail.com |
 contact: eziduserid dit_yvonned
-contact: eziduserid nccwsccsc
 contact: eziduserid ucsf_immPort
 contact: eziduserid upennlib
 contact: Flynn, Allen ||| ajflynn@med.umich.edu | +1 734-615-0839
@@ -623,6 +622,7 @@ contact: Perrier, Olivier (Gérant) ||| olivier.perrier@le-genie.com |
 contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com | 
 contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
 contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
+contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wouter.addink@naturalis.nl | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

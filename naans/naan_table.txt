@@ -425,7 +425,6 @@
 18469	Paris Sciences et Lettres (=) PSL
 80030	Journal of Mechanical Engineering and Biomechanics (=) JMEB
 81427	Dublin Institute of Technology (=) DIT
-81429	US Dept of Interior Climate Science Centers (=) CSC
 81430	UCSF ImmPort (=) IMMPORT
 81431	University of Pennsylvania Libraries (=) UPENNLIB
 67034	University of Michigan Medical School DLHS-DLKS (=) DLHSDLKS
@@ -562,6 +561,7 @@
 32151	English Attack! (=) ENGTACK
 19496	Edumalin (=) EDUMALIN
 67718	SpeakShake (=) SPEAKSHAKE
+54722	Naturalis Biodiversity Center (=) NATURALIS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

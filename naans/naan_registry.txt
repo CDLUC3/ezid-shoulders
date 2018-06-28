@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.25
+when:	2018.06.28
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3273,13 +3273,6 @@ where:	http://www.dit.ie
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:	US Dept of Interior Climate Science Centers (=) CSC
-what:	81429
-when:	2016.09.11
-where:	https://nccwsc.usgs.gov
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	UCSF ImmPort (=) IMMPORT
 what:	81430
 when:	2016.09.13
@@ -4230,6 +4223,13 @@ what:	67718
 when:	2018.06.25
 where:	http://www.speakshake.com
 how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Naturalis Biodiversity Center (=) NATURALIS
+what:	54722
+when:	2018.06.27
+where:	http://naturalis.nl
+how:	NP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

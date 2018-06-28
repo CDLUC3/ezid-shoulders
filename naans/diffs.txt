@@ -1,55 +1,29 @@
-diff -r 8766a8033be4 naans/master_naans
---- a/naans/master_naans	Wed Jun 20 11:38:58 2018 -0700
-+++ b/naans/master_naans	Mon Jun 25 11:27:41 2018 -0700
-@@ -738,3 +738,2 @@
- !contact: Weig, Eric | University of Kentucky Libraries || eweig@email.uky.edu
--!contact: eziduserid unkentucky
- 
-@@ -1393,11 +1392,2 @@
+diff -r 8033c4669389 naans/master_naans
+--- a/naans/master_naans	Mon Jun 25 11:27:41 2018 -0700
++++ b/naans/master_naans	Thu Jun 28 10:14:19 2018 -0700
+@@ -4246,12 +4246,2 @@
  naa:
--who:	University of Massachusetts Amherst (=) UMA
--what:	87275
--when:	2012.07.24
--where:	http://n2t.net
--how:	NP | (:unkn) unknown | 2012 |
--!why:	EZID ARK
--!contact: EZID userid umamherst
--
--naa:
- who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
-@@ -4076,12 +4066,2 @@
- naa:
--who:    Southern Illinois University Edwardsville (=) SIUE
--what:   81414
--when:   2016.06.22
--where:	http://www.siue.edu/lovejoylibrary
+-who:	US Dept of Interior Climate Science Centers (=) CSC
+-what:	81429
+-when:	2016.09.11
+-where:	https://nccwsc.usgs.gov
 -how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid lovejoy
--!address: Library and Info. Services, Campus Box 1063, 30 Hairpin Drive, Edwardsville, IL 62026
+-!why:	EZID ARK
+-!contact: eziduserid nccwsccsc
+-!address: NCCWSC   12201 Sunrise Valley Drive, MS 516   Reston VA, 20192
 -
 -naa:
- who:    TalkBank (=) TALKBANK
-@@ -5622,2 +5602,22 @@
+ who:	UCSF ImmPort (=) IMMPORT
+@@ -5622,2 +5612,12 @@
  naa:
-+who:	Edumalin (=) EDUMALIN
-+what:	19496
-+when:	2018.06.25
-+where:	http://ark.edumalin.net
-+how:	FP | (:unkn) unknown | 2018 |
++who:	Naturalis Biodiversity Center (=) NATURALIS
++what:	54722
++when:	2018.06.27
++where:	http://naturalis.nl
++how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
-+!address: 188 rue la Fayette, 75010 Paris, France
-+
-+naa:
-+who:	SpeakShake (=) SPEAKSHAKE
-+what:	67718
-+when:	2018.06.25
-+where:	http://www.speakshake.com
-+how:	FP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
-+!address: 36 rue de l'Amiral Hamelin, 75116 Paris, France
++!contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wouter.addink@naturalis.nl | 
++!address: Naturalis, Vondellaan 55, 2332 AA Leiden, Netherlands
 +
 +naa:
  who:	Metadata Terms (=) TERMS

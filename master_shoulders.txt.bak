@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 >
+#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -1415,28 +1415,6 @@ name: TalkBank
 date: 2016.06.23
 minter: https://n2t.net/a/ezid/m/ark/d1415/t5
 datacenter: CDL.TALKBANK
-
-:: ark:/81414/d2
-type: shoulder
-manager: ezid
-#eziduser: lovejoy
-name: Southern Illinois University Edwardsville
-date: 2016.06.22
-minter: https://n2t.net/a/ezid/m/ark/81414/d2
-
-:: datacite:CDL.SIUE
-type: datacenter
-manager: ezid
-name: Southern Illinois University Edwardsville
-
-:: doi:10.21414/T4
-type: shoulder
-manager: ezid
-#eziduser: lovejoy
-name: Southern Illinois University Edwardsville
-date: 2016.06.22
-minter: https://n2t.net/a/ezid/m/ark/d1414/t4
-datacenter: CDL.SIUE
 
 :: ark:/81239/m9
 type: shoulder
@@ -2861,16 +2839,6 @@ date: 2015.03.20
 minter: https://n2t.net/a/ezid/m/ark/b7931/l1
 datacenter: CDL.LCRNZ
 
-:: doi:10.13023/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: unkentucky
-name: University of Kentucky Libraries (Semantic)
-date: 2015.03.20
-minter:
-datacenter: CDL.UKY
-
 :: ark:/19153/p4
 type: shoulder
 manager: ezid
@@ -3198,23 +3166,6 @@ minter: https://n2t.net/a/ezid/m/ark/b5070/s8
 datacenter: CDL.ESCHOL
 prefix_shares_datacenter: true
 crossref: true
-
-:: ark:/16417/k4
-type: shoulder
-manager: ezid
-#eziduser: unkentucky
-name: University of Kentucky Libraries
-date: 2014.11.21
-minter: https://n2t.net/a/ezid/m/ark/16417/k4
-
-:: doi:10.13023/K2
-type: shoulder
-manager: ezid
-#eziduser: unkentucky
-name: University of Kentucky Libraries (Random)
-date: 2014.11.21
-minter: https://n2t.net/a/ezid/m/ark/c3023/k2
-datacenter: CDL.UKY
 
 :: doi:10.13012/M3
 type: shoulder
@@ -4909,23 +4860,6 @@ minter: https://n2t.net/a/ezid/m/ark/b4231/r7
 datacenter: PURDUE.EZID
 prefix_shares_datacenter: true
 
-:: ark:/87275/r6
-type: shoulder
-manager: ezid
-#eziduser: umamherst
-name: UMass Amherst
-date: 2012.07.24
-minter: https://n2t.net/a/ezid/m/ark/87275/r6
-
-:: doi:10.7275/R5
-type: shoulder
-manager: ezid
-#eziduser: umamherst
-name: UMass Amherst
-date: 2012.07.24
-minter: https://n2t.net/a/ezid/m/ark/b7275/r5
-datacenter: CDL.UMA
-
 :: ark:/87274/r4
 type: shoulder
 manager: ezid
@@ -6383,16 +6317,6 @@ name: UCSF Clinical & Translational Science Institute (CTSI)
 type: datacenter
 manager: ezid
 name: UCSF
-
-:: datacite:CDL.UKY
-type: datacenter
-manager: ezid
-name: University of Kentucky Libraries
-
-:: datacite:CDL.UMA
-type: datacenter
-manager: ezid
-name: UMass Amherst
 
 :: datacite:CDL.UMIAMI
 type: datacenter

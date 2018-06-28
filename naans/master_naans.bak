@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.20
+when:	2018.06.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4244,16 +4244,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: c/o DIT Library Services  Rathmines Rd.  Dublin 6, Ireland
 
 naa:
-who:	US Dept of Interior Climate Science Centers (=) CSC
-what:	81429
-when:	2016.09.11
-where:	https://nccwsc.usgs.gov
-how:	NP | (:unkn) unknown | 2016 |
-!why:	EZID ARK
-!contact: eziduserid nccwsccsc
-!address: NCCWSC   12201 Sunrise Valley Drive, MS 516   Reston VA, 20192
-
-naa:
 who:	UCSF ImmPort (=) IMMPORT
 what:	81430
 when:	2016.09.13
@@ -5618,6 +5608,16 @@ how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
 !address: 36 rue de l'Amiral Hamelin, 75116 Paris, France
+
+naa:
+who:	Naturalis Biodiversity Center (=) NATURALIS
+what:	54722
+when:	2018.06.27
+where:	http://naturalis.nl
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wouter.addink@naturalis.nl | 
+!address: Naturalis, Vondellaan 55, 2332 AA Leiden, Netherlands
 
 naa:
 who:	Metadata Terms (=) TERMS
