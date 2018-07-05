@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.28
+when:	2018.07.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2111,13 +2111,6 @@ where:	http://archives.rueilmalmaison.fr
 how:	NP | (:unkn) unknown | 2014 |
 
 naa:
-who:    George Mason University (=) GMU
-what:   83021
-when:   2014.11.04
-where:	www.gmu.edu
-how:	NP | (:unkn) unknown | 2014 |
-
-naa:
 who:	Archives municipales de Saint Brieuc (=) AMSB
 what:	49249
 when:	2014.11.04
@@ -2227,13 +2220,6 @@ who:	Archives départementales des Deux-Sèvres (=) ADDS
 what:	58825
 when:	2015.01.30
 where:	http://archives.deux-sevres.com
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    University of Massachusetts Medical School (=) UMWLSL
-what:   83028
-when:   2015.02.04
-where:	http://library.umassmed.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -2388,13 +2374,6 @@ who:    University of Miami Libraries (=) UMIAMI
 what:   87604
 when:   2015.03.31
 where:	http://libraries.miami.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Center for Open Science (=) COS
-what:   87605
-when:   2015.03.31
-where:	http://cos.io
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -2741,13 +2720,6 @@ where:	https://ark.mines-paristech.fr
 how:	NP | NR, OP, CC | 2015 | https://patrimoine.mines-paristech.fr/ark/policy
 
 naa:
-who:    University of Virginia (=) UVA
-what:   88130
-when:   2015.11.19
-where:	http://www.virginia.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:	Société archéologique de Namur (=) SAN
 what:	12998
 when:	2015.11.20
@@ -3025,13 +2997,6 @@ who:    UC San Diego Philosophy Dept. (=) UCSDGRUSH
 what:   81224
 when:   2016.05.06
 where:	http://philosophy.ucsd.edu
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
-who:    IEEE (=) IEEE
-what:   81227
-when:   2016.05.16
-where:	https://www.ieee.org
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
@@ -4230,6 +4195,20 @@ what:	54722
 when:	2018.06.27
 where:	http://naturalis.nl
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Duke Visible Thinking (=) VISIBLETHK
+what:	88737
+when:	2018.06.29
+where:	https://visiblethinking.duke.edu
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	MatchWare (=) MATCHWARE
+what:	41727
+when:	2018.07.04
+where:	http://matchware.com
+how:	FP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

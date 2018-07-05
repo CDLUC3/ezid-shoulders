@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 88737 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 >
+#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -205,6 +205,25 @@
 # dartmouthc  make_ezacct -n - - 81428 v8  < ezaccts/newacct > out
 # punctumbook make_ezacct -n 10.21983 p3 84135 p5  < ezaccts/newacct > out
 # ntu-dr-data make_ezacct -n 10.21984 n4 - -  < ezaccts/newacct > out
+# visiblethk  make_ezacct -n - - 88737 t7 < ezaccts/newacct > out
+# unlvezid    make_ezacct -n - - 62930 w1 < ezaccts/newacct > out
+#             which fails because naan 62930 already exists
+
+:: ark:/62930/w1
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Libraries Web Archives
+date: 2018.07.02
+minter: https://n2t.net/a/ezid/m/ark/62930/w1
+
+:: ark:/88737/t7
+type: shoulder
+manager: ezid
+#eziduser: duke_visiblethk
+name: Visible Thinking
+date: 2018.06.29
+minter: https://n2t.net/a/ezid/m/ark/88737/t7
 
 :: doi:10.21984/N4
 type: shoulder
@@ -1617,28 +1636,6 @@ name: Princeton University Open Access Repository
 date: 2016.05.17
 minter: https://n2t.net/a/ezid/m/ark/88435/pr1
 
-:: ark:/81227/h7
-type: shoulder
-manager: ezid
-#eziduser: dataport
-name: IEEE
-date: 2016.05.16
-minter: https://n2t.net/a/ezid/m/ark/81227/h7
-
-:: datacite:PURDUE.IEEE
-type: datacenter
-manager: ezid
-name: IEEE
-
-:: doi:10.21227/H2
-type: shoulder
-manager: ezid
-#eziduser: dataport
-name: IEEE
-date: 2016.05.16
-minter: https://n2t.net/a/ezid/m/ark/d1227/h2
-datacenter: PURDUE.IEEE
-
 :: ark:/81224/h2
 type: shoulder
 manager: ezid
@@ -2047,23 +2044,6 @@ name: GHSL Northwestern
 date: 2015.11.30
 minter: https://n2t.net/a/ezid/m/ark/c8131/g3
 datacenter: PURDUE.GHSL
-
-:: ark:/88130/v8
-type: shoulder
-manager: ezid
-#eziduser: uvalib
-name: University of Virginia
-date: 2015.11.19
-minter: https://n2t.net/a/ezid/m/ark/88130/v8
-
-:: doi:10.18130/V3
-type: shoulder
-manager: ezid
-#eziduser: uvalib
-name: University of Virginia
-date: 2015.11.19
-minter: https://n2t.net/a/ezid/m/ark/c8130/v3
-datacenter: CDL.UVA
 
 :: doi:10.4231/H4
 type: shoulder
@@ -2723,23 +2703,6 @@ date: 2015.04.01
 minter: https://n2t.net/a/ezid/m/ark/c7606/m6
 datacenter: CDL.AUL
 
-:: ark:/87605/
-type: shoulder
-manager: ezid
-#eziduser: cos
-name: Center for Open Science
-date: 2015.03.31
-minter:
-
-:: doi:10.17605/
-type: shoulder
-manager: ezid
-#eziduser: cos
-name: Center for Open Science
-date: 2015.03.31
-minter:
-datacenter: CDL.COS
-
 :: ark:/65665/
 type: shoulder
 is_supershoulder: true
@@ -3001,23 +2964,6 @@ minter: https://n2t.net/a/ezid/m/ark/c5779/j2
 datacenter: CDL.UCBLAWLB
 crossref: true
 
-:: ark:/83028/m4
-type: shoulder
-manager: ezid
-#eziduser: umassmed
-name: UMass Medical School
-date: 2015.02.04
-minter: https://n2t.net/a/ezid/m/ark/83028/m4
-
-:: doi:10.13028/M2
-type: shoulder
-manager: ezid
-#eziduser: umassmed
-name: UMass Medical School
-date: 2015.02.04
-minter: https://n2t.net/a/ezid/m/ark/c3028/m2
-datacenter: CDL.UMWLSL
-
 :: ark:/83027/m4
 type: shoulder
 manager: ezid
@@ -3190,24 +3136,6 @@ name: DataMares
 date: 2014.11.10
 minter: https://n2t.net/a/ezid/m/ark/c3022/m3
 datacenter: CDL.DATAMARE
-
-:: ark:/83021/g9
-type: shoulder
-manager: ezid
-#eziduser: masonlib
-name: George Mason University
-date: 2014.11.04
-minter: https://n2t.net/a/ezid/m/ark/83021/g9
-
-:: doi:10.13021/G8
-type: shoulder
-manager: ezid
-#eziduser: masonlib
-name: George Mason University
-date: 2014.11.04
-minter: https://n2t.net/a/ezid/m/ark/c3021/g8
-datacenter: CDL.GMU
-crossref: true
 
 :: ark:/83020/d8
 type: shoulder
@@ -5803,11 +5731,6 @@ type: datacenter
 manager: ezid
 name: Carnegie Mellon University Libraries
 
-:: datacite:CDL.COS
-type: datacenter
-manager: ezid
-name: Center for Open Science
-
 :: datacite:CDL.CRAWDAD
 type: datacenter
 manager: ezid
@@ -5925,11 +5848,6 @@ name: Geotechnical Extreme Events Reconnaissance
 #minter: https://n2t.net/a/ezid/m/ark/c3018/g2
 ##this datacenter doesn't show in DataCite
 #datacenter: CDL.GLOBUS
-
-:: datacite:CDL.GMU
-type: datacenter
-manager: ezid
-name: George Mason University
 
 :: datacite:CDL.HRI
 type: datacenter
@@ -6316,11 +6234,6 @@ type: datacenter
 manager: ezid
 name: UMass Medical School-CANDI
 
-:: datacite:CDL.UMWLSL
-type: datacenter
-manager: ezid
-name: University of Massachusetts Medical School
-
 :: datacite:CDL.UNAVCO
 type: datacenter
 manager: ezid
@@ -6365,11 +6278,6 @@ name: University of Tennessee
 type: datacenter
 manager: ezid
 name: University of Utah
-
-:: datacite:CDL.UVA
-type: datacenter
-manager: ezid
-name: University of Virginia
 
 :: datacite:CDL.VTLIB
 type: datacenter

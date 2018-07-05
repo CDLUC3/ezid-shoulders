@@ -259,7 +259,6 @@
 14023	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
 75241	Archives municipales de Bordeaux (=) AMBDEAUX
 62245	Archives municipales de Rueil-Malmaison (=) AMRM
-83021	George Mason University (=) GMU
 49249	Archives municipales de Saint Brieuc (=) AMSB
 36254	Muséum d'Histoire Naturelle de Toulouse (=) MHNT
 83022	DataMares (=) DATAMARES
@@ -276,7 +275,6 @@
 55406	Archives municipales de Blois (=) AMBLOIS
 83027	MBF Bioscience (=) MBFBIO
 58825	Archives départementales des Deux-Sèvres (=) ADDS
-83028	University of Massachusetts Medical School (=) UMWLSL
 85779	Berkeley Law Library (=) UCBLAWLIB
 42751	Archives départementales de l'Aube (=) ADAUBE
 85788	UCSB Climate Hazards Group, Dept of Geography (=) SBGEOG
@@ -299,7 +297,6 @@
 13339	Archives départementales de la Sarthe (=) AD72
 87603	Texas Advanced Computing Center (=) TACC
 87604	University of Miami Libraries (=) UMIAMI
-87605	Center for Open Science (=) COS
 87606	American University Library (=) AUL
 87607	Chicago Collections Consortium (=) CCC
 87608	University of Auckland (=) UOA
@@ -349,7 +346,6 @@
 51643	Institute for Research in Classical Philosophy and Science (=) IRCPS
 38647	Bibliography on the Architecture of Ancient Theater (=) BAAT
 25652	École nationale supérieure des mines de Paris (=) ENSMINES
-88130	University of Virginia (=) UVA
 12998	Société archéologique de Namur (=) SAN
 87211	Laboratoire de Recherche des Monuments Historiques (=) LRMH
 74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
@@ -390,7 +386,6 @@
 38306	Archives nationales de France (=) French National Archives (=) ANFRANCE
 81223	Potato Center (=) CIP
 81224	UC San Diego Philosophy Dept. (=) UCSDGRUSH
-81227	IEEE (=) IEEE
 81228	UCSD Metabolomics Workbench (=) UCSDMW
 81229	UCSB ECE Dept Mostofi Lab (=) UCSBECE
 81231	University of Wisconsin-Madison (=) UWISC
@@ -562,6 +557,8 @@
 19496	Edumalin (=) EDUMALIN
 67718	SpeakShake (=) SPEAKSHAKE
 54722	Naturalis Biodiversity Center (=) NATURALIS
+88737	Duke Visible Thinking (=) VISIBLETHK
+41727	MatchWare (=) MATCHWARE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

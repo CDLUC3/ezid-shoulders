@@ -291,7 +291,6 @@ contact: Robin, Vélleda ||| v.robin@mairie-bordeaux.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Markidès, Clémentine ||| clementine.markides@mairie-rueilmalmaison.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
-contact: eziduserid masonlib
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Molinié, Christelle ||| christelle.molinie@mairie-toulouse.fr |
 contact: eziduserid ucsd_datamares
@@ -312,7 +311,6 @@ contact: PAVY, Frédéric ||| Frederic.PAVY@blois.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: eziduserid mbf_bioscience
 contact: Rault, Philippe ||| Philippe.RAULT@cg79.fr | +33 05 49 08 94 90
-contact: eziduserid umassmed
 contact: eziduserid ucb-lawlib
 contact: Salach, Blandine ||| blandine.salach@cg10.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
@@ -341,7 +339,6 @@ contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: eziduserid uta_tacc
 contact: eziduserid umiami
-contact: eziduserid cos
 contact: eziduserid aulibrary
 contact: eziduserid ccc
 contact: eziduserid uoa
@@ -399,7 +396,6 @@ contact: Bowen, Alan ||| bowen@IRCPS.org |
 contact: Garrett, Edward | pinedrop.london || edward@pinedrop.com |
 contact: Rousset, Miled | MOM-CNRS Université Lyon2 || miled.rousset@mom.fr | +33-0472715896
 contact: Weber, Ann ||| anne.weber@mines-paristech.fr |
-contact: eziduserid uvalib
 contact: Carlier, Aurore ||| aurore.carlier@lasan.be | +32-081/840203
 contact: Leboucher, Elise ||| Elise.Leboucher@culture.gouv.fr |
 contact: Bailly, Laurence ||| laurence.bailly@ain.fr |
@@ -446,7 +442,6 @@ contact: Pétard, Fabrice | Archimaine || fabrice.petard@archimaine.fr | +33 02 
 contact: Simon, Agnès ||| agnes.a.simon@culture.gouv.fr |
 contact: eziduserid riu_admin
 contact: eziduserid ucsd_grush
-contact: eziduserid dataport
 contact: eziduserid ucsd_mwb
 contact: eziduserid sb-mostofi
 contact: eziduserid uwisc
@@ -623,6 +618,8 @@ contact: Tibout, Frederic (President) ||| frederic.tibout@english-attack.com |
 contact: Gousset, Frantz (co-founder) ||| frantz@edumalin.fr | 
 contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com | 
 contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wouter.addink@naturalis.nl | 
+contact: eziduserid duke_visiblethk
+contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
