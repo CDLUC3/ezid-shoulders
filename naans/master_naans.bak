@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.06.28
+when:	2018.07.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5592,6 +5592,16 @@ how:	FP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
 !address: 311 South Brevard Ave., Tampa, FL 33606-2205, USA
+
+naa:
+who:	Bodleian Libraries, University of Oxford (=) BODLEIAN
+what:	29072
+when:	2018.07.09
+where:	https://www.bodleian.ox.ac.uk
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
+!address: Bodleian Libraries, Broad Street, Oxford OX1 3BG, UK
 
 naa:
 who:	Metadata Terms (=) TERMS

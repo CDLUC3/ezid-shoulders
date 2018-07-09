@@ -1,87 +1,16 @@
-diff -r c61f802fe351 naans/master_naans
---- a/naans/master_naans	Thu Jun 28 10:14:19 2018 -0700
-+++ b/naans/master_naans	Thu Jul 05 09:52:56 2018 -0700
-@@ -2690,11 +2690,2 @@
+diff -r e3950e5b7b2c naans/master_naans
+--- a/naans/master_naans	Thu Jul 05 09:52:56 2018 -0700
++++ b/naans/master_naans	Mon Jul 09 15:52:30 2018 -0700
+@@ -5596,2 +5596,12 @@
  naa:
--who:    George Mason University (=) GMU
--what:   83021
--when:   2014.11.04
--where:	www.gmu.edu
--how:	NP | (:unkn) unknown | 2014 |
--!why:   EZID ARK
--!contact: eziduserid masonlib
--
--naa:
- who:	Archives municipales de Saint Brieuc (=) AMSB
-@@ -2847,11 +2838,2 @@
- naa:
--who:    University of Massachusetts Medical School (=) UMWLSL
--what:   83028
--when:   2015.02.04
--where:	http://library.umassmed.edu
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid umassmed
--
--naa:
- who:    Berkeley Law Library (=) UCBLAWLIB
-@@ -3060,11 +3042,2 @@
- naa:
--who:    Center for Open Science (=) COS
--what:   87605
--when:   2015.03.31
--where:	http://cos.io
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid cos
--
--naa:
- who:    American University Library (=) AUL
-@@ -3518,11 +3491,2 @@
- naa:
--who:    University of Virginia (=) UVA
--what:   88130
--when:   2015.11.19
--where:	http://www.virginia.edu
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid uvalib
--
--naa:
- who:	Société archéologique de Namur (=) SAN
-@@ -3896,12 +3860,2 @@
- naa:
--who:    IEEE (=) IEEE
--what:   81227
--when:   2016.05.16
--where:	https://www.ieee.org
--how:	NP | (:unkn) unknown | 2016 |
--!why:   EZID ARK
--!contact: eziduserid dataport
--!address: 445 Hoes Lane  Piscataway, NJ 08854
--
--naa:
- who:    UCSD Metabolomics Workbench (=) UCSDMW
-@@ -5622,2 +5576,22 @@
- naa:
-+who:	Duke Visible Thinking (=) VISIBLETHK
-+what:	88737
-+when:	2018.06.29
-+where:	https://visiblethinking.duke.edu
++who:	Bodleian Libraries, University of Oxford (=) BODLEIAN
++what:	29072
++when:	2018.07.09
++where:	https://www.bodleian.ox.ac.uk
 +how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK
-+!contact: eziduserid duke_visiblethk
-+!address: 905 West Main Street, Box 41, Suite 25B, Durham, NC 27701
-+
-+naa:
-+who:	MatchWare (=) MATCHWARE
-+what:	41727
-+when:	2018.07.04
-+where:	http://matchware.com
-+how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
-+!address: 311 South Brevard Ave., Tampa, FL 33606-2205, USA
++!contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
++!address: Bodleian Libraries, Broad Street, Oxford OX1 3BG, UK
 +
 +naa:
  who:	Metadata Terms (=) TERMS

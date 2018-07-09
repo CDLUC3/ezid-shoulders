@@ -229,7 +229,7 @@ minter: https://n2t.net/a/ezid/m/ark/88737/t7
 type: shoulder
 manager: ezid
 #eziduser: ntu-dr-data
-name: ADM exhibition catalogues/proceedings
+name: NTU ADM exhibition catalogues/proceedings
 date: 2018.06.25
 minter: https://n2t.net/a/ezid/m/ark/d1984/n4
 datacenter: PURDUE.NTU

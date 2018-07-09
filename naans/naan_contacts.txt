@@ -620,6 +620,7 @@ contact: Vallantin, Fanny (General Manager) ||| fanny.vallantin@speakshake.com |
 contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wouter.addink@naturalis.nl | 
 contact: eziduserid duke_visiblethk
 contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
+contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
