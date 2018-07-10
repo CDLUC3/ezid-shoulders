@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.07.09
+when:	2018.07.10
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5602,6 +5602,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
 !address: Bodleian Libraries, Broad Street, Oxford OX1 3BG, UK
+
+naa:
+who:	Institut du Monde Arabe (=) Arab World Institute (=) IMA
+what:	16077
+when:	2018.07.10
+where:	https://www.imarabe.org/fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
+!address: 1 rue des Fossés Saint-Bernard, Place Mohammed V, 75236 Paris cedex 05, France
 
 naa:
 who:	Metadata Terms (=) TERMS

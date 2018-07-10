@@ -621,6 +621,7 @@ contact: Addink, Wouter (Coordinator Research Data and eInfrastructures) ||| wou
 contact: eziduserid duke_visiblethk
 contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
 contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
+contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

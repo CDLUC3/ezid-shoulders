@@ -1,16 +1,16 @@
-diff -r e3950e5b7b2c naans/master_naans
---- a/naans/master_naans	Thu Jul 05 09:52:56 2018 -0700
-+++ b/naans/master_naans	Mon Jul 09 15:52:30 2018 -0700
-@@ -5596,2 +5596,12 @@
+diff -r e7bb0e5f25a9 naans/master_naans
+--- a/naans/master_naans	Mon Jul 09 15:52:30 2018 -0700
++++ b/naans/master_naans	Tue Jul 10 09:37:54 2018 -0700
+@@ -5606,2 +5606,12 @@
  naa:
-+who:	Bodleian Libraries, University of Oxford (=) BODLEIAN
-+what:	29072
-+when:	2018.07.09
-+where:	https://www.bodleian.ox.ac.uk
++who:	Institut du Monde Arabe (=) Arab World Institute (=) IMA
++what:	16077
++when:	2018.07.10
++where:	https://www.imarabe.org/fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
-+!address: Bodleian Libraries, Broad Street, Oxford OX1 3BG, UK
++!contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
++!address: 1 rue des Fossés Saint-Bernard, Place Mohammed V, 75236 Paris cedex 05, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

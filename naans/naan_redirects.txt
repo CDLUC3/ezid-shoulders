@@ -561,6 +561,7 @@ RedirectMatch ^/((ark:/54722)|54722/?)(.*)$ http://naturalis.nl/$2$3
 RedirectMatch ^/((ark:/88737)|88737/?)(.*)$ https://visiblethinking.duke.edu/$2$3
 RedirectMatch ^/((ark:/41727)|41727/?)(.*)$ http://matchware.com/$2$3
 RedirectMatch ^/((ark:/29072)|29072/?)(.*)$ https://www.bodleian.ox.ac.uk/$2$3
+RedirectMatch ^/((ark:/16077)|16077/?)(.*)$ https://www.imarabe.org/fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
