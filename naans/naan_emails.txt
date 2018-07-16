@@ -407,6 +407,7 @@ wouter.addink@naturalis.nl
 thomas.toftborg@matchware.com
 andrew.hankinson@bodleian.ox.ac.uk
 oscheer@imarabe.org
+domenge@generation5.fr
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu

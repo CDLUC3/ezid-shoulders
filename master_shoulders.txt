@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 >
+#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 >
 #    minted but rejected by regex: < >
 #    < 10.21416 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -208,6 +208,16 @@
 # visiblethk  make_ezacct -n - - 88737 t7 < ezaccts/newacct > out
 # unlvezid    make_ezacct -n - - 62930 w1 < ezaccts/newacct > out
 #             which fails because naan 62930 already exists
+# dcppc       make_ezacct -n - - 13030 d3 < ezaccts/newacct > out
+#             which fails because naan 13030 already exists
+
+:: ark:/13030/d3
+type: shoulder
+manager: ezid
+#eziduser: dcppc
+name: DCPPC Team Sodium
+date: 2018.07.12
+minter: https://n2t.net/a/ezid/m/ark/13030/d3
 
 :: ark:/62930/w1
 type: shoulder
@@ -2009,23 +2019,6 @@ name: LBNL EAEI
 date: 2015.12.05
 minter: https://n2t.net/a/ezid/m/ark/c8431/b3
 datacenter: CDL.EAEI
-
-:: ark:/88430/m4
-type: shoulder
-manager: ezid
-#eziduser: uva-minorl
-name: UVA Minor Lab
-date: 2015.12.03
-minter: https://n2t.net/a/ezid/m/ark/88430/m4
-
-:: doi:10.18430/M3
-type: shoulder
-manager: ezid
-#eziduser: uva-minorl
-name: UVA Minor Lab
-date: 2015.12.03
-minter: https://n2t.net/a/ezid/m/ark/c8430/m3
-datacenter: CDL.MINORLAB
 
 # Galter Health Sciences Library, Northwestern University
 :: ark:/88131/g8
@@ -5928,11 +5921,6 @@ name: Laboratory for Basic and Translational Cognitive Neuroscience
 type: datacenter
 manager: ezid
 name: MBF Bioscience
-
-:: datacite:CDL.MINORLAB
-type: datacenter
-manager: ezid
-name: UVA Minor Lab
 
 :: datacite:CDL.MITLCP
 type: datacenter

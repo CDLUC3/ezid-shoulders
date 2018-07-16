@@ -403,7 +403,6 @@ contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
 contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
 contact: eziduserid galterlibrary
 contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
-contact: eziduserid uva-minorl
 contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
 contact: eziduserid lbnl-eaei
 contact: Débénath, Viviane ||| viviane.debenath@uha.fr | +33 (0)3 89 33 63 63
@@ -622,6 +621,7 @@ contact: eziduserid duke_visiblethk
 contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com | 
 contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
 contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
+contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

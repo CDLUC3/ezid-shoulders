@@ -1,16 +1,28 @@
-diff -r e7bb0e5f25a9 naans/master_naans
---- a/naans/master_naans	Mon Jul 09 15:52:30 2018 -0700
-+++ b/naans/master_naans	Tue Jul 10 09:37:54 2018 -0700
-@@ -5606,2 +5606,12 @@
+diff -r 41e00102ebeb naans/master_naans
+--- a/naans/master_naans	Tue Jul 10 09:37:54 2018 -0700
++++ b/naans/master_naans	Mon Jul 16 08:27:26 2018 -0700
+@@ -3538,11 +3538,2 @@
  naa:
-+who:	Institut du Monde Arabe (=) Arab World Institute (=) IMA
-+what:	16077
-+when:	2018.07.10
-+where:	https://www.imarabe.org/fr
-+how:	NP | (:unkn) unknown | 2018 |
+-who:    UVA Minor Lab (=) MINORLAB
+-what:   88430
+-when:   2015.12.03
+-where:	http:/olenka.med.virginia.edu/CrystUVa
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid uva-minorl
+-
+-naa:
+ who:	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
+@@ -5616,2 +5607,12 @@
+ naa:
++who:	Génération 5 (=) GEN5
++what:	77294
++when:	2018.07.16
++where:	http://www.generation5.fr
++how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
-+!address: 1 rue des Fossés Saint-Bernard, Place Mohammed V, 75236 Paris cedex 05, France
++!contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr | 
++!address: 82 rue du Bon Pasteur, 73000 CHAMBERY, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

@@ -352,7 +352,6 @@ RedirectMatch ^/((ark:/87211)|87211/?)(.*)$ http://www.lrmh.fr/$2$3
 RedirectMatch ^/((ark:/74215)|74215/?)(.*)$ http://patrimoines.ain.fr/$2$3
 RedirectMatch ^/((ark:/88131)|88131/?)(.*)$ https://galter.northwestern.edu/$2$3
 RedirectMatch ^/((ark:/61219)|61219/?)(.*)$ http://mappemonde.mgm.fr/$2$3
-RedirectMatch ^/((ark:/88430)|88430/?)(.*)$ http:/olenka.med.virginia.edu/CrystUVa/$2$3
 RedirectMatch ^/((ark:/48223)|48223/?)(.*)$ http://www.unesco.org/$2$3
 RedirectMatch ^/((ark:/88431)|88431/?)(.*)$ eaei.lbl.gov/$2$3
 RedirectMatch ^/((ark:/35228)|35228/?)(.*)$ http://www.scd.uha.fr/$2$3
@@ -562,6 +561,7 @@ RedirectMatch ^/((ark:/88737)|88737/?)(.*)$ https://visiblethinking.duke.edu/$2$
 RedirectMatch ^/((ark:/41727)|41727/?)(.*)$ http://matchware.com/$2$3
 RedirectMatch ^/((ark:/29072)|29072/?)(.*)$ https://www.bodleian.ox.ac.uk/$2$3
 RedirectMatch ^/((ark:/16077)|16077/?)(.*)$ https://www.imarabe.org/fr/$2$3
+RedirectMatch ^/((ark:/77294)|77294/?)(.*)$ http://www.generation5.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

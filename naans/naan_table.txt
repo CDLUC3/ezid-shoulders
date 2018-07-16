@@ -351,7 +351,6 @@
 74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
 88131	Galter Health Sciences Library, Northwestern University (=) GHSL
 61219	Mappemonde (=) MAPPEM
-88430	UVA Minor Lab (=) MINORLAB
 48223	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 88431	Energy Analysis and Environmental Impacts (=) EAEI
 35228	Université de Haute-Alsace (=) UHA
@@ -561,6 +560,7 @@
 41727	MatchWare (=) MATCHWARE
 29072	Bodleian Libraries, University of Oxford (=) BODLEIAN
 16077	Institut du Monde Arabe (=) Arab World Institute (=) IMA
+77294	Génération 5 (=) GEN5
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

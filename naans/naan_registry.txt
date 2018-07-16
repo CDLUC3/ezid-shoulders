@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.07.10
+when:	2018.07.16
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2755,13 +2755,6 @@ where:	http://mappemonde.mgm.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    UVA Minor Lab (=) MINORLAB
-what:   88430
-when:   2015.12.03
-where:	http:/olenka.med.virginia.edu/CrystUVa
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 what:	48223
 when:	2015.12.03
@@ -4223,6 +4216,13 @@ what:	16077
 when:	2018.07.10
 where:	https://www.imarabe.org/fr
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Génération 5 (=) GEN5
+what:	77294
+when:	2018.07.16
+where:	http://www.generation5.fr
+how:	FP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS
