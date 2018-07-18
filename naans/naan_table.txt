@@ -561,6 +561,8 @@
 29072	Bodleian Libraries, University of Oxford (=) BODLEIAN
 16077	Institut du Monde Arabe (=) Arab World Institute (=) IMA
 77294	Génération 5 (=) GEN5
+81416	UCI PECE project (=) PECE
+64298	Institut national de recherches archéologiques préventives (Inrap) (=) National Institute of Preventive Archaeological Research (=) INRAP
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

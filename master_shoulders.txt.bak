@@ -208,6 +208,16 @@
 # visiblethk  make_ezacct -n - - 88737 t7 < ezaccts/newacct > out
 # unlvezid    make_ezacct -n - - 62930 w1 < ezaccts/newacct > out
 #             which fails because naan 62930 already exists
+# dcppc       make_ezacct -n - - 13030 d3 < ezaccts/newacct > out
+#             which fails because naan 13030 already exists
+
+:: ark:/13030/d3
+type: shoulder
+manager: ezid
+#eziduser: dcppc
+name: DCPPC Team Sodium
+date: 2018.07.12
+minter: https://n2t.net/a/ezid/m/ark/13030/d3
 
 :: ark:/62930/w1
 type: shoulder

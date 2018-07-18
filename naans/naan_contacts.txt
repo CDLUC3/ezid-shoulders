@@ -622,6 +622,8 @@ contact: Toftborg, Thomas (Programmer) ||| thomas.toftborg@matchware.com |
 contact: Hankinson, Andrew (Senior Software Engineer) ||| andrew.hankinson@bodleian.ox.ac.uk | 
 contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org | 
 contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr | 
+contact: eziduserid uci_pece
+contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

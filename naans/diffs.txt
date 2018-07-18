@@ -1,28 +1,26 @@
-diff -r 41e00102ebeb naans/master_naans
---- a/naans/master_naans	Tue Jul 10 09:37:54 2018 -0700
-+++ b/naans/master_naans	Mon Jul 16 08:27:26 2018 -0700
-@@ -3538,11 +3538,2 @@
+diff -r ad27573c9112 naans/master_naans
+--- a/naans/master_naans	Mon Jul 16 08:27:26 2018 -0700
++++ b/naans/master_naans	Wed Jul 18 16:05:27 2018 -0700
+@@ -5617,2 +5617,22 @@
  naa:
--who:    UVA Minor Lab (=) MINORLAB
--what:   88430
--when:   2015.12.03
--where:	http:/olenka.med.virginia.edu/CrystUVa
--how:	NP | (:unkn) unknown | 2015 |
--!why:   EZID ARK
--!contact: eziduserid uva-minorl
--
--naa:
- who:	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
-@@ -5616,2 +5607,12 @@
- naa:
-+who:	Génération 5 (=) GEN5
-+what:	77294
-+when:	2018.07.16
-+where:	http://www.generation5.fr
-+how:	FP | (:unkn) unknown | 2018 |
++who:	UCI PECE project (=) PECE
++what:	81416
++when:	2018.07.18
++where:	http://worldpece.org
++how:	NP | (:unkn) unknown | 2018 |
++!why:	EZID ARK
++!contact: eziduserid uci_pece
++!address: Dept. of Anthropology, 3151 Social Sciences Plaza, UC Irvine, Irvine, CA 92697
++
++naa:
++who:	Institut national de recherches archéologiques préventives (Inrap) (=) National Institute of Preventive Archaeological Research (=) INRAP
++what:	64298
++when:	2018.07.18
++where:	http://inrap.fr
++how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr | 
-+!address: 82 rue du Bon Pasteur, 73000 CHAMBERY, France
++!contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
++!address: 121 rue d'Alésia CS 20007, 75685, Paris cedex 14, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

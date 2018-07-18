@@ -408,6 +408,7 @@ thomas.toftborg@matchware.com
 andrew.hankinson@bodleian.ox.ac.uk
 oscheer@imarabe.org
 domenge@generation5.fr
+emmanuelle.bryas@inrap.fr
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu
