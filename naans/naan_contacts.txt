@@ -102,7 +102,6 @@ contact: EZID userid data-planet
 contact: EZID userid labarchives
 contact: EZID userid ucmlibrary (Emily Linn)
 contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
-contact: EZID userid ciser
 contact: EZID userid fhcrc
 contact: EZID userid ucla-eeb1
 contact: EZID userid crcns.org
@@ -153,7 +152,6 @@ contact: EZID userid noaa-edm
 contact: EZID userid tkn
 contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
 contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
-contact: eziduserid vtlib
 contact: Chureau, Séverine ||| archives@cg53.fr | +33 0243591090
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: Motte, Alice ||| amotte@cg48.fr |
@@ -624,6 +622,7 @@ contact: SCHEER, Orane (Chef de projet digital) ||| oscheer@imarabe.org |
 contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr | 
 contact: eziduserid uci_pece
 contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
+contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

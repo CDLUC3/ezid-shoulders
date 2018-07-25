@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.07.16
+when:	2018.07.18
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1169,15 +1169,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
 
 naa:
-who:	Cornell Institute for Social and Economic Research (=) CISER
-what:	86077
-when:	2012.03.05
-where:	http://ciser.cornell.edu
-how:	NP | (:unkn) unknown | 2012 |
-!why:   EZID ARK
-!contact: EZID userid ciser
-
-naa:
 who:	Fred Hutchinson Cancer Research Center (=) FHCRC
 what:	86076
 when:	2012.03.05
@@ -1579,15 +1570,6 @@ where:	http://digitalcommonwealth.org
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
 !contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
-
-naa:
-who:    University Libraries, Virginia Tech (=) VTLIB
-what:   87294
-when:   2013.02.11
-where:  http://www.lib.vt.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid vtlib
 
 naa:
 who:	Archives départementales de la Mayenne (=) ADMAYENNE
@@ -5633,6 +5615,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
 !address: 121 rue d'Alésia CS 20007, 75685, Paris cedex 14, France
+
+naa:
+who:	Delta Expert (=) DELTAE
+what:	51303
+when:	2018.07.25
+where:	http://delta-expert.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com | 
+!address: 20 rue Lavoisier, 95300 Pontoise, FRANCE
 
 naa:
 who:	Metadata Terms (=) TERMS

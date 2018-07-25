@@ -1,26 +1,40 @@
-diff -r ad27573c9112 naans/master_naans
---- a/naans/master_naans	Mon Jul 16 08:27:26 2018 -0700
-+++ b/naans/master_naans	Wed Jul 18 16:05:27 2018 -0700
-@@ -5617,2 +5617,22 @@
+diff -r 9a949ab039db naans/master_naans
+--- a/naans/master_naans	Wed Jul 18 16:05:27 2018 -0700
++++ b/naans/master_naans	Wed Jul 25 09:08:19 2018 -0700
+@@ -1171,11 +1171,2 @@
  naa:
-+who:	UCI PECE project (=) PECE
-+what:	81416
-+when:	2018.07.18
-+where:	http://worldpece.org
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK
-+!contact: eziduserid uci_pece
-+!address: Dept. of Anthropology, 3151 Social Sciences Plaza, UC Irvine, Irvine, CA 92697
-+
-+naa:
-+who:	Institut national de recherches archéologiques préventives (Inrap) (=) National Institute of Preventive Archaeological Research (=) INRAP
-+what:	64298
-+when:	2018.07.18
-+where:	http://inrap.fr
-+how:	NP | (:unkn) unknown | 2018 |
+-who:	Cornell Institute for Social and Economic Research (=) CISER
+-what:	86077
+-when:	2012.03.05
+-where:	http://ciser.cornell.edu
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:   EZID ARK
+-!contact: EZID userid ciser
+-
+-naa:
+ who:	Fred Hutchinson Cancer Research Center (=) FHCRC
+@@ -1583,11 +1574,2 @@
+ naa:
+-who:    University Libraries, Virginia Tech (=) VTLIB
+-what:   87294
+-when:   2013.02.11
+-where:  http://www.lib.vt.edu
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid vtlib
+-
+-naa:
+ who:	Archives départementales de la Mayenne (=) ADMAYENNE
+@@ -5637,2 +5619,12 @@
+ naa:
++who:	Delta Expert (=) DELTAE
++what:	51303
++when:	2018.07.25
++where:	http://delta-expert.com
++how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
-+!address: 121 rue d'Alésia CS 20007, 75685, Paris cedex 14, France
++!contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com | 
++!address: 20 rue Lavoisier, 95300 Pontoise, FRANCE
 +
 +naa:
  who:	Metadata Terms (=) TERMS

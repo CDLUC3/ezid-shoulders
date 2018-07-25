@@ -75,9 +75,9 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 81416 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 >
+#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 >
 #    minted but rejected by regex: < >
-#    < 10.21416 10.7276 10.7296 >
+#    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
 #    purdue-only prefix < >
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
@@ -210,6 +210,29 @@
 #             which fails because naan 62930 already exists
 # dcppc       make_ezacct -n - - 13030 d3 < ezaccts/newacct > out
 #             which fails because naan 13030 already exists
+# uci_pece    make_ezacct -n 10.21416 p6 81416 p4  < ezaccts/newacct > out
+
+:: ark:/81416/p4
+type: shoulder
+manager: ezid
+#eziduser: uci-pece
+name: UCI PECE Project
+date: 2018.07.18
+minter: https://n2t.net/a/ezid/m/ark/81416/p4
+
+:: datacite:CDL.PECE
+type: datacenter
+manager: ezid
+name: UCI PECE project
+
+:: doi:10.21416/P6
+type: shoulder
+manager: ezid
+#eziduser: uci-pece
+name: UCI PECE Project
+date: 2018.07.18
+minter: https://n2t.net/a/ezid/m/ark/d1416/p6
+datacenter: CDL.PECE
 
 :: ark:/13030/d3
 type: shoulder

@@ -93,7 +93,6 @@
 86070	LabArchives (=) LABARCH
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
-86077	Cornell Institute for Social and Economic Research (=) CISER
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
 86079	UCLA Department of Ecology and Evolutionary Biology (=) UCLAEEB
 86080	Collaborative Research Computational Neuroscience Program (=) CRCNSP
@@ -138,7 +137,6 @@
 87290	University of Tennessee (=) UTK
 63955	Institut de recherche et d'histoire des textes (=) CNRSIRHT
 50959	Digital Commonwealth (=) DIGCMNW
-87294	University Libraries, Virginia Tech (=) VTLIB
 37963	Archives départementales de la Mayenne (=) ADMAYENNE
 24967	Archives départementales de la Lozère (=) ADLOZERE
 11971	Archives départementales de l'Aveyron (=) ADAVEYRON
@@ -563,6 +561,7 @@
 77294	Génération 5 (=) GEN5
 81416	UCI PECE project (=) PECE
 64298	Institut national de recherches archéologiques préventives (Inrap) (=) National Institute of Preventive Archaeological Research (=) INRAP
+51303	Delta Expert (=) DELTAE
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

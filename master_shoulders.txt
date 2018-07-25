@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
 
-#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 >
+#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 >
 #    minted but rejected by regex: < >
 #    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -4491,23 +4491,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6075/w7
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
-:: ark:/87294/w5
-type: shoulder
-manager: ezid
-#eziduser: vtlib
-name: Virginia Tech University Libraries
-date: 2013.02.11
-minter: https://n2t.net/a/ezid/m/ark/87294/w5
-
-:: doi:10.7294/W4
-type: shoulder
-manager: ezid
-#eziduser: vtlib
-name: Virginia Tech University Libraries
-date: 2013.02.11
-minter: https://n2t.net/a/ezid/m/ark/b7294/w4
-datacenter: CDL.VTLIB
-
 :: doi:10.7291/V9
 type: shoulder
 manager: ezid
@@ -5128,23 +5111,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6075/j0
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
-:: ark:/86077/j4
-type: shoulder
-manager: ezid
-#eziduser: ciser
-name: Cornell Institute for Social and Economic Research (CISER)
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/86077/j4
-
-:: doi:10.6077/J5
-type: shoulder
-manager: ezid
-#eziduser: ciser
-name: Cornell Institute for Social and Economic Research (CISER)
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/b6077/j5
-datacenter: CDL.CISER
-
 :: ark:/86076/j6
 type: shoulder
 manager: ezid
@@ -5732,11 +5698,6 @@ type: datacenter
 manager: ezid
 name: University of Cincinnati Libraries
 
-:: datacite:CDL.CISER
-type: datacenter
-manager: ezid
-name: Cornell Institute for Social and Economic Research (CISER)
-
 :: datacite:CDL.CMMAP
 type: datacenter
 manager: ezid
@@ -6289,11 +6250,6 @@ name: University of Tennessee
 type: datacenter
 manager: ezid
 name: University of Utah
-
-:: datacite:CDL.VTLIB
-type: datacenter
-manager: ezid
-name: Virginia Tech University Libraries
 
 :: datacite:CDL.VTTI
 type: datacenter

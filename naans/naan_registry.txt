@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.07.18
+when:	2018.07.25
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -949,13 +949,6 @@ where:	http://www.signaling-gateway.org
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	Cornell Institute for Social and Economic Research (=) CISER
-what:	86077
-when:	2012.03.05
-where:	http://ciser.cornell.edu
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
 who:	Fred Hutchinson Cancer Research Center (=) FHCRC
 what:	86076
 when:	2012.03.05
@@ -1262,13 +1255,6 @@ what:	50959
 when:	2013.02.05
 where:	http://digitalcommonwealth.org
 how:	NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    University Libraries, Virginia Tech (=) VTLIB
-what:   87294
-when:   2013.02.11
-where:  http://www.lib.vt.edu
-how:    NP | (:unkn) unknown | 2013 |
 
 naa:
 who:	Archives départementales de la Mayenne (=) ADMAYENNE
@@ -4237,6 +4223,13 @@ what:	64298
 when:	2018.07.18
 where:	http://inrap.fr
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Delta Expert (=) DELTAE
+what:	51303
+when:	2018.07.25
+where:	http://delta-expert.com
+how:	FP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS
