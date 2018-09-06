@@ -303,7 +303,7 @@ support@an.etat.lu
 production@euro-france.tv
 shpf2@wanadoo.fr
 lgueitmontchal@departement-touraine.fr
-jlpeyrouze@ladrome.fr
+atosan@ladrome.fr
 archives.tarn@tarn.fr
 a.babois@crlbn.fr
 jan.van.mansum@dans.knaw.nl
@@ -410,6 +410,8 @@ oscheer@imarabe.org
 domenge@generation5.fr
 emmanuelle.bryas@inrap.fr
 sabinedelattre@delta-expert.com
+myriam.pauillac@anaphore.eu
+denis-p82@yandex.ru
 jak@ucop.edu
 jak@ucop.edu
 jak@ucop.edu

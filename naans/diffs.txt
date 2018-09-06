@@ -1,40 +1,133 @@
-diff -r 9a949ab039db naans/master_naans
---- a/naans/master_naans	Wed Jul 18 16:05:27 2018 -0700
-+++ b/naans/master_naans	Wed Jul 25 09:08:19 2018 -0700
-@@ -1171,11 +1171,2 @@
+diff -r 6e3dcd63278e naans/master_naans
+--- a/naans/master_naans	Wed Jul 25 09:08:19 2018 -0700
++++ b/naans/master_naans	Thu Sep 06 14:41:47 2018 -0700
+@@ -1144,11 +1144,2 @@
  naa:
--who:	Cornell Institute for Social and Economic Research (=) CISER
--what:	86077
--when:	2012.03.05
--where:	http://ciser.cornell.edu
+-who:	LabArchives (=) LABARCH
+-what:	86070
+-when:	2012.02.29
+-where:	http://www.labarchives.com
 -how:	NP | (:unkn) unknown | 2012 |
--!why:   EZID ARK
--!contact: EZID userid ciser
+-!why:	EZID ARK
+-!contact: EZID userid labarchives
 -
 -naa:
- who:	Fred Hutchinson Cancer Research Center (=) FHCRC
-@@ -1583,11 +1574,2 @@
+ who:	University of California Merced (=) UCM
+@@ -1374,11 +1365,2 @@
  naa:
--who:    University Libraries, Virginia Tech (=) VTLIB
--what:   87294
--when:   2013.02.11
--where:  http://www.lib.vt.edu
+-who:	University of Notre Dame (=) UND
+-what:	87274
+-when:	2012.07.20
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid notredame
+-
+-naa:
+ who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
+@@ -1694,11 +1676,2 @@
+ naa:
+-who:    Brown University Library (=) BUL
+-what:   87301
+-when:   2013.04.01
+-where:  http://library.brown.edu
 -how:    NP | (:unkn) unknown | 2013 |
 -!why:   EZID ARK
--!contact: eziduserid vtlib
+-!contact: eziduserid brownidsvc
 -
 -naa:
- who:	Archives départementales de la Mayenne (=) ADMAYENNE
-@@ -5637,2 +5619,12 @@
+ who:    University of Michigan Libaries (=) UMICH
+@@ -3015,11 +2988,2 @@
  naa:
-+who:	Delta Expert (=) DELTAE
-+what:	51303
-+when:	2018.07.25
-+where:	http://delta-expert.com
+-who:    University of Miami Libraries (=) UMIAMI
+-what:   87604
+-when:   2015.03.31
+-where:	http://libraries.miami.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid umiami
+-
+-naa:
+ who:    American University Library (=) AUL
+@@ -3171,11 +3135,2 @@
+ naa:
+-who:    Space Telescope Science Institute (=) STSCI
+-what:   77909
+-when:   2015.05.11
+-where:	http://www.stsci.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid stsci
+-
+-naa:
+ who:	Archives Départementales des Alpes de Haute Provence (=) ADAHP
+@@ -3502,11 +3457,2 @@
+ naa:
+-who:    Galter Health Sciences Library, Northwestern University (=) GHSL
+-what:   88131
+-when:   2015.11.30
+-where:	https://galter.northwestern.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid galterlibrary
+-
+-naa:
+ who:	Mappemonde (=) MAPPEM
+@@ -3656,11 +3602,2 @@
+ naa:
+-who:    Texas Digital Library (=) TDL
+-what:   88738
+-when:   2016.02.29
+-where:	http://tdl.org
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:   EZID ARK
+-!contact: eziduserid tdl
+-
+-naa:
+ who:    UCLA Civil and Environmental Engineering (=) UCLACEE
+@@ -4341,4 +4278,5 @@
+ !why:	ARK
+-!contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
+-!address: 14 Rue de la Manutention, 26000 Valence; France
++#!contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
++!contact: Tosan, Alice (Directrice adjointe) ||| atosan@ladrome.fr | 
++!address: 14 Rue de la Manutention, 26000 Valence, France
+ 
+@@ -4492,3 +4430,3 @@
+ !contact: eziduserid uic
+-!address: 801 S. Morgan  Chicago, IL 60607
++!address: 801 S. Morgan, Chicago, IL 60607
+ 
+@@ -5629,2 +5567,32 @@
+ naa:
++who:	Anaphore (=) ANAPHORE
++what:	25653
++when:	2018.08.13
++where:	https://www.anaphore.eu
 +how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com | 
-+!address: 20 rue Lavoisier, 95300 Pontoise, FRANCE
++!contact: Myriam, Pauillac Colombani (Consultante archives) ||| myriam.pauillac@anaphore.eu | 
++!address: 3 ter chemin de la Fontaine, 13370 Barbentane, France
++
++naa:
++who:	PRO-Economics (=) PROECO
++what:	12656
++when:	2018.09.06
++where:	http://proeconomics.ru
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Perepelitsa, Denis (Chief Editor) ||| denis-p82@yandex.ru | 
++!address: 18 M.Zhukova St., Odintsovo, 143003, Russia
++
++naa:
++who:	UCSD Center for Computational Mass Spectrometry (=) UCSDCCMS
++what:	80359
++when:	2018.09.06
++where:	http://proteomics.ucsd.edu
++how:	NP | (:unkn) unknown | 2018 |
++!why:	EZID ARK
++!contact: eziduserid ucsd_massive
++!address: 9500 Gilman Drive   EBU3B   La Jolla CA 92093
 +
 +naa:
  who:	Metadata Terms (=) TERMS

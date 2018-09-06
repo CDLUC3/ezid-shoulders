@@ -90,7 +90,6 @@
 85069	SDSC OpenTopography Facility (=) SDSCOTF
 86067	Digital Antiquity (=) DIGANT
 86068	Data-Planet (=) DATAPLANET
-86070	LabArchives (=) LABARCH
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
@@ -115,7 +114,6 @@
 57457	Archives départementales du Loir-et-Cher (=) ADLC
 44803	Archives départementales de l'Oise (=) ADO
 87273	Washington State University (=) WSU
-87274	University of Notre Dame (=) UND
 87277	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 87278	University of Utah (=) UUTAH
 87279	Ocean Observatory Initiative (=) OOI
@@ -150,7 +148,6 @@
 87299	Museum of Vertebrate Zoology (=) UCBMVZ
 21547	Biocode Commons (=) BIOCODE
 87300	UCSD School of Medicine, Department of Neurosciences, Mobley Lab (=) ONELAB
-87301	Brown University Library (=) BUL
 87302	University of Michigan Libaries (=) UMICH
 70111	Hawaii State Archives (=) HSA
 87303	Sage Bionetworks (=) SAGEBIO
@@ -294,7 +291,6 @@
 87602	Morphosource Project (=) MORPHOSO
 13339	Archives départementales de la Sarthe (=) AD72
 87603	Texas Advanced Computing Center (=) TACC
-87604	University of Miami Libraries (=) UMIAMI
 87606	American University Library (=) AUL
 87607	Chicago Collections Consortium (=) CCC
 87608	University of Auckland (=) UOA
@@ -311,7 +307,6 @@
 22915	The Silent Film Sound & Music Archive (=) SFSMA
 71480	Espace Mendès France (=) EMF
 87908	UC San Diego Department of Biomedical Informatics (=) DBMICLD
-77909	Space Telescope Science Institute (=) STSCI
 58484	Archives Départementales des Alpes de Haute Provence (=) ADAHP
 45487	Российский Лингвистический Бюллетень (=) Russian Linguistic Bulletin (=) RULB
 77913	Miami Project to Cure Paralysis (=) REGENBASE
@@ -347,7 +342,6 @@
 12998	Société archéologique de Namur (=) SAN
 87211	Laboratoire de Recherche des Monuments Historiques (=) LRMH
 74215	Service Ressources patrimoniales et culturelles du département de l'Ain (=) PDLAIN
-88131	Galter Health Sciences Library, Northwestern University (=) GHSL
 61219	Mappemonde (=) MAPPEM
 48223	United Nations Educational, Scientific and Cultural Organization (=) UNESCO
 88431	Energy Analysis and Environmental Impacts (=) EAEI
@@ -364,7 +358,6 @@
 32150	Durham University Library (=) DURUL
 19154	Durham Cathedral Library (=) DURCL
 80371	Ushaw College Library (=) USHAWCL
-88738	Texas Digital Library (=) TDL
 80352	UCLA Civil and Environmental Engineering (=) UCLACEE
 80353	UC Observatories (=) UCOLICK
 80354	Berkeley Linguistics Society (=) UCBBLS
@@ -562,6 +555,9 @@
 81416	UCI PECE project (=) PECE
 64298	Institut national de recherches archéologiques préventives (Inrap) (=) National Institute of Preventive Archaeological Research (=) INRAP
 51303	Delta Expert (=) DELTAE
+25653	Anaphore (=) ANAPHORE
+12656	PRO-Economics (=) PROECO
+80359	UCSD Center for Computational Mass Spectrometry (=) UCSDCCMS
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

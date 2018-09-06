@@ -99,7 +99,6 @@ contact: EZID userid eosdis
 contact: EZID userid ucsd_opentopo
 contact: EZID userid tdar
 contact: EZID userid data-planet
-contact: EZID userid labarchives
 contact: EZID userid ucmlibrary (Emily Linn)
 contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
 contact: EZID userid fhcrc
@@ -128,7 +127,6 @@ contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41
 contact: Weber, Vincent ||| archives@oise.fr |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: EZID userid washstate
-contact: EZID userid notredame
 contact: EZID userid iucns
 contact: EZID userid uofutah
 contact: EZID userid ucsd_ooi
@@ -168,7 +166,6 @@ contact: English, Eben ||| eenglish@bpl.org | +1 617-859-2238
 contact: eziduserid ucb-mvz
 contact: eziduserid bcid
 contact: eziduserid ucsd_onelab
-contact: eziduserid brownidsvc
 contact: eziduserid umich
 contact: Jansen, Adam ||| adam_jansen@outlook.com |
 contact: eziduserid sagebio
@@ -336,7 +333,6 @@ contact: eziduserid duke_morpho
 contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: eziduserid uta_tacc
-contact: eziduserid umiami
 contact: eziduserid aulibrary
 contact: eziduserid ccc
 contact: eziduserid uoa
@@ -356,7 +352,6 @@ contact: Donoghue, Mark ||| m.donoghue@ieee |
 contact: Leonard, Kendra ||| kendraprestonleonard@gmail.com |
 contact: Pasquier, Thierry ||| thierry.pasquier@emf.ccsti.eu | +33549503308
 contact: eziduserid ucsd_dbmicloud
-contact: eziduserid stsci
 contact: Restelli-Gonsaud, Michel ||| M.RESTELLI-GONSAUD@CG04.FR |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: Miller, Anna ||| editors@rulb.org |
@@ -399,7 +394,6 @@ contact: Leboucher, Elise ||| Elise.Leboucher@culture.gouv.fr |
 contact: Bailly, Laurence ||| laurence.bailly@ain.fr |
 contact: Adamowicz, Anne-Siegrid ||| Anne-Siegrid.Adamowicz@ain.fr |
 contact: Lory, Guillaume | V-Technologies || lory@vtech.fr | +33 02 41 72 30 36
-contact: eziduserid galterlibrary
 contact: Jégou, Laurent ||| jegou@univ-tlse2.fr |
 contact: Lannaud, Eric ||| E.Lannaud@unesco.org | +33145682089
 contact: eziduserid lbnl-eaei
@@ -417,7 +411,6 @@ contact: Le Monnier, Olivier ||| olivier.lemonnier |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
 contact: Lyytinen, Olli ||| olli.lyytinen@durham.ac.uk |
-contact: eziduserid tdl
 contact: eziduserid ucla_ngl
 contact: eziduserid ucolick
 contact: eziduserid ucb-bls
@@ -492,7 +485,7 @@ contact: eziduserid nds
 contact: Gromesova, Martina ||| shpf2@wanadoo.fr | 
 contact: eziduserid sb-ayliu
 contact: Gueit-Montchal, Lydiane ||| lgueitmontchal@departement-touraine.fr | 
-contact: Peyrouze, Jean-Luc ||| jlpeyrouze@ladrome.fr | 
+contact: Tosan, Alice (Directrice adjointe) ||| atosan@ladrome.fr | 
 contact: eziduserid nrsinfomgr
 contact: Gautrand, Valérie ||| archives.tarn@tarn.fr | 
 contact: Babois, Agnès ||| a.babois@crlbn.fr | 
@@ -623,6 +616,9 @@ contact: DOMENGE, Bernard (Technical Director) ||| domenge@generation5.fr |
 contact: eziduserid uci_pece
 contact: Bryas, Emmanuelle (Librarian) ||| emmanuelle.bryas@inrap.fr | 
 contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com | 
+contact: Myriam, Pauillac Colombani (Consultante archives) ||| myriam.pauillac@anaphore.eu | 
+contact: Perepelitsa, Denis (Chief Editor) ||| denis-p82@yandex.ru | 
+contact: eziduserid ucsd_massive
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

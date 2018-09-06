@@ -74,9 +74,8 @@
 
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-
-#    < 80359 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 >
-#    minted but rejected by regex: < >
+#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 >
+#    mistakenly minted, for immediate re-use: < 24626 >
 #    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
 #    purdue-only prefix < >
@@ -101,7 +100,7 @@
 #
 # xxx unassigned CDL-only prefixes:  10.7918
 # STACKTOP
-# 10.25344 10.25345 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -198,7 +197,6 @@
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
 # ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.25342 - - -  < ezaccts/newacct > out
-# umiami      make_ezacct -n 10.25343 v3 - -  < ezaccts/newacct > out
 # ucsdlib     make_ezacct -n 10.21221 s2 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
 # ucd-library make_ezacct -n 10.18439 s9 87287 d7  < ezaccts/newacct > out
@@ -211,6 +209,37 @@
 # dcppc       make_ezacct -n - - 13030 d3 < ezaccts/newacct > out
 #             which fails because naan 13030 already exists
 # uci_pece    make_ezacct -n 10.21416 p6 81416 p4  < ezaccts/newacct > out
+# lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
+# ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
+
+:: ark:/80359/c9
+type: shoulder
+manager: ezid
+#eziduser: ucsd_massive
+name: UCSD Center for Computational Mass Spectrometry
+date: 2018.09.06
+minter: https://n2t.net/a/ezid/m/ark/80359/c9
+
+:: doi:10.25345/C5
+type: shoulder
+manager: ezid
+#eziduser: ucsd_massive
+name: UCSD Center for Computational Mass Spectrometry
+date: 2018.09.06
+minter: https://n2t.net/a/ezid/m/ark/d5345/c5
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.25344/S4
+type: shoulder
+manager: ezid
+#eziduser: lbnl-gasnet
+name: LBNL Computational Science Department
+date: 2018.08.29
+minter: https://n2t.net/a/ezid/m/ark/d5344/s4
+datacenter: CDL.LBNL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/81416/p4
 type: shoulder
@@ -366,27 +395,6 @@ minter:
 datacenter: CDL.ESCHOL
 prefix_shares_datacenter: true
 crossref: true
-
-:: doi:10.25343/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: umiami
-name: National Center for Environmental Information no minter
-date: 2018.02.26
-minter:
-datacenter: CDL.UMIAMI
-prefix_shares_datacenter: true
-
-:: doi:10.25343/V3
-type: shoulder
-manager: ezid
-#eziduser: umiami
-name: National Center for Environmental Information
-date: 2018.02.26
-minter: https://n2t.net/a/ezid/m/ark/d5343/v3
-datacenter: CDL.UMIAMI
-prefix_shares_datacenter: true
 
 :: doi:10.25342/
 type: shoulder
@@ -1870,28 +1878,6 @@ date: 2016.03.07
 minter: https://n2t.net/a/ezid/m/ark/c8739/a2
 datacenter: CDL.NSFADC
 
-:: ark:/88738/t7
-type: shoulder
-manager: ezid
-#eziduser: tdl
-name: Texas Digital Library
-date: 2016.02.29
-minter: https://n2t.net/a/ezid/m/ark/88738/t7
-
-:: datacite:CDL.TDL
-type: datacenter
-manager: ezid
-name: Texas Digital Library
-
-:: doi:10.18738/T8
-type: shoulder
-manager: ezid
-#eziduser: tdl
-name: Texas Digital Library
-date: 2016.02.29
-minter: https://n2t.net/a/ezid/m/ark/c8738/t8
-datacenter: CDL.TDL
-
 :: ark:/28722/h2
 type: shoulder
 manager: ezid
@@ -2042,24 +2028,6 @@ name: LBNL EAEI
 date: 2015.12.05
 minter: https://n2t.net/a/ezid/m/ark/c8431/b3
 datacenter: CDL.EAEI
-
-# Galter Health Sciences Library, Northwestern University
-:: ark:/88131/g8
-type: shoulder
-manager: ezid
-#eziduser: galterlibrary
-name: GHSL Northwestern
-date: 2015.11.30
-minter: https://n2t.net/a/ezid/m/ark/88131/g8
-
-:: doi:10.18131/G3
-type: shoulder
-manager: ezid
-#eziduser: galterlibrary
-name: GHSL Northwestern
-date: 2015.11.30
-minter: https://n2t.net/a/ezid/m/ark/c8131/g3
-datacenter: PURDUE.GHSL
 
 :: doi:10.4231/H4
 type: shoulder
@@ -2435,33 +2403,6 @@ date: 2015.05.13
 minter: https://n2t.net/a/ezid/m/ark/b7936/b6
 datacenter: CDL.WUSTL
 
-:: ark:/77909/t7
-type: shoulder
-manager: ezid
-#eziduser: stsci
-name: Space Telescope Science Institute
-date: 2015.05.11
-minter: https://n2t.net/a/ezid/m/ark/77909/t7
-
-:: doi:10.17909/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: stsci
-name: Space Telescope Science Institute no minter
-date: 2015.05.11
-minter:
-datacenter: CDL.STSCI
-
-:: doi:10.17909/T9
-type: shoulder
-manager: ezid
-#eziduser: stsci
-name: Space Telescope Science Institute
-date: 2015.05.11
-minter: https://n2t.net/a/ezid/m/ark/c7909/t9
-datacenter: CDL.STSCI
-
 :: ark:/87908/b9
 type: shoulder
 manager: ezid
@@ -2641,33 +2582,6 @@ date: 2015.04.06
 minter: https://n2t.net/a/ezid/m/ark/c7610/t7
 datacenter: CDL.ICA
 
-:: ark:/62624/n4
-type: shoulder
-manager: ezid
-#eziduser: nyu_library
-name: New York University Libraries (on behalf of New York University) Minter
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/62624/n4
-
-:: doi:10.17609/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: nyu_library
-name: New York University Libraries (on behalf of New York University)
-date: 2015.04.06
-minter:
-datacenter: CDL.NYU
-
-:: doi:10.17609/N8
-type: shoulder
-manager: ezid
-#eziduser: nyu_library
-name: New York University Libraries (on behalf of New York University) Minter
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/c7609/n8
-datacenter: CDL.NYU
-
 :: ark:/87608/k8
 type: shoulder
 manager: ezid
@@ -2727,24 +2641,6 @@ manager: ezid
 name: National Museum of Natural History, Smithsonian Institution - empty shoulder
 date: 2015.03.31
 minter:
-
-:: ark:/87604/m4
-type: shoulder
-manager: ezid
-#eziduser: umiami
-name: University of Miami Libraries
-date: 2015.03.31
-minter: https://n2t.net/a/ezid/m/ark/87604/m4
-
-:: doi:10.17604/M6
-type: shoulder
-manager: ezid
-#eziduser: umiami
-name: University of Miami Libraries
-date: 2015.03.31
-minter: https://n2t.net/a/ezid/m/ark/c7604/m6
-datacenter: CDL.UMIAMI
-prefix_shares_datacenter: true
 
 :: ark:/87603/c9
 type: shoulder
@@ -3066,16 +2962,6 @@ manager: ezid
 name: Dartmouth College Library
 date: 2014.12.19
 minter: https://n2t.net/a/ezid/m/ark/83024/d4
-
-:: doi:10.13024/D2
-type: shoulder
-manager: ezid
-#eziduser: dartmouthc
-name: Dartmouth College Library
-date: 2014.12.19
-minter: https://n2t.net/a/ezid/m/ark/c3024/d2
-datacenter: CDL.DARTLIB
-prefix_shares_datacenter: true
 
 # This shoulder is designed to support the single ARK, ark:/99152/p0,
 # which is registered mainly to support suffix passthrough.
@@ -4350,23 +4236,6 @@ date: 2013.04.10
 minter:
 datacenter: CDL.SAGEBIO
 
-:: ark:/87301/z1
-type: shoulder
-manager: ezid
-#eziduser: brownidsvc
-name: Brown University Library
-date: 2013.04.01
-minter: https://n2t.net/a/ezid/m/ark/87301/z1
-
-:: doi:10.7301/Z0
-type: shoulder
-manager: ezid
-#eziduser: brownidsvc
-name: Brown University Library
-date: 2013.04.01
-minter: https://n2t.net/a/ezid/m/ark/b7301/z0
-datacenter: CDL.BUL
-
 :: ark:/87300/x9
 type: shoulder
 manager: ezid
@@ -4775,23 +4644,6 @@ minter: https://n2t.net/a/ezid/m/ark/b4231/r7
 datacenter: PURDUE.EZID
 prefix_shares_datacenter: true
 
-:: ark:/87274/r4
-type: shoulder
-manager: ezid
-#eziduser: notredame
-name: University of Notre Dame
-date: 2012.07.20
-minter: https://n2t.net/a/ezid/m/ark/87274/r4
-
-:: doi:10.7274/R0
-type: shoulder
-manager: ezid
-#eziduser: notredame
-name: University of Notre Dame
-date: 2012.07.20
-minter: https://n2t.net/a/ezid/m/ark/b7274/r0
-datacenter: PURDUE.UND
-
 :: ark:/87273/q8
 type: shoulder
 manager: ezid
@@ -5038,23 +4890,6 @@ name: Indiana University
 date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/85967/k7
 
-:: ark:/61001/m2
-type: shoulder
-manager: ezid
-#eziduser: uchicago
-name: University of Chicago
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/61001/m2
-
-:: doi:10.6082/M1
-type: shoulder
-manager: ezid
-#eziduser: uchicago
-name: University of Chicago
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/b6082/m1
-datacenter: PURDUE.UCHIG
-
 # k6 ARKs in a partnership between the UCB library and CDL DSC program
 :: ark:/13030/k6
 type: shoulder
@@ -5181,23 +5016,6 @@ date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/b6071/h8
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
-
-:: ark:/86070/h3
-type: shoulder
-manager: ezid
-#eziduser: labarchives
-name: LabArchives
-date: 2012.02.29
-minter: https://n2t.net/a/ezid/m/ark/86070/h3
-
-:: doi:10.6070/H4
-type: shoulder
-manager: ezid
-#eziduser: labarchives
-name: LabArchives
-date: 2012.02.29
-minter: https://n2t.net/a/ezid/m/ark/b6070/h4
-datacenter: CDL.LABARCH
 
 :: ark:/86068/
 type: shoulder
@@ -5663,11 +5481,6 @@ type: datacenter
 manager: ezid
 name: Berkeley Seismological Laboratory
 
-:: datacite:CDL.BUL
-type: datacenter
-manager: ezid
-name: Brown University Library
-
 :: datacite:CDL.CAMS
 type: datacenter
 manager: ezid
@@ -5732,11 +5545,6 @@ name: Columbia University Libraries/Information Services (CUL/IS)
 type: datacenter
 manager: ezid
 name: Drug Design Data (D3R) Resource
-
-:: datacite:CDL.DARTLIB
-type: datacenter
-manager: ezid
-name: Dartmouth College Library
 
 :: datacite:CDL.DATABRAR
 type: datacenter
@@ -5871,11 +5679,6 @@ type: datacenter
 manager: ezid
 name: Johns Hopkins University Data Archive
 
-:: datacite:CDL.LABARCH
-type: datacenter
-manager: ezid
-name: LabArchives
-
 :: datacite:CDL.LBNL
 type: datacenter
 manager: ezid
@@ -5965,11 +5768,6 @@ name: National Snow & Ice Data Center (NSIDC)
 type: datacenter
 manager: ezid
 name: National University of Ireland, Galway
-
-:: datacite:CDL.NYU
-type: datacenter
-manager: ezid
-name: New York University Libraries (on behalf of New York University)
 
 :: datacite:CDL.ODUMUNC
 type: datacenter
@@ -6065,11 +5863,6 @@ name: UCSD Signaling Gateway
 #type: datacenter
 #manager: ezid
 #name: Saint Edward's University
-
-:: datacite:CDL.STSCI
-type: datacenter
-manager: ezid
-name: Space Telescope Science Institute
 
 :: datacite:CDL.TACC
 type: datacenter
@@ -6196,11 +5989,6 @@ type: datacenter
 manager: ezid
 name: UCSF
 
-:: datacite:CDL.UMIAMI
-type: datacenter
-manager: ezid
-name: University of Miami Libraries
-
 :: datacite:CDL.UMMSCAND
 type: datacenter
 manager: ezid
@@ -6296,11 +6084,6 @@ type: datacenter
 manager: ezid
 name: Purdue University
 
-:: datacite:PURDUE.GHSL
-type: datacenter
-manager: ezid
-name: Galter Health Sciences Library, Northwestern University
-
 :: datacite:PURDUE.HTRC
 type: datacenter
 manager: ezid
@@ -6391,11 +6174,6 @@ type: datacenter
 manager: ezid
 name: Statistics (ResearchCompendia.org)
 
-:: datacite:PURDUE.UCHIG
-type: datacenter
-manager: ezid
-name: University of Chicago
-
 :: datacite:PURDUE.UIUCLIB
 type: datacenter
 manager: ezid
@@ -6420,11 +6198,6 @@ name: University of Michigan Library
 type: datacenter
 manager: ezid
 name: University of Minnesota Libraries
-
-:: datacite:PURDUE.UND
-type: datacenter
-manager: ezid
-name: University of Notre Dame
 
 :: datacite:PURDUE.UNL
 type: datacenter

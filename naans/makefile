@@ -221,9 +221,11 @@ replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
 	@echo "Publishing to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
-	cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/
+	cp -p $^ $(HOME)/sv/cur/apache2/htdocs/e/
+	rm $(HOME)/sv/cur/apache2/htdocs/e/mn.asc
 	hg push
 
+	#cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/
 #prefix_files = $(HOME)/shoulders/n2tadds.yaml \
 #	$(HOME)/sv/cur/build/eggnog/t/n2t/prefixes/prefixes.yaml
 
