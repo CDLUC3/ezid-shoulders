@@ -74,7 +74,7 @@
 
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 >
+#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 #    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -654,28 +654,6 @@ date: 2017.05.31
 minter: https://n2t.net/a/ezid/m/ark/d5334/q4
 datacenter: CDL.PITT
 prefix_shares_datacenter: true
-
-:: ark:/83018/c8
-type: shoulder
-manager: ezid
-#eziduser: oclcmrd
-name: OCLC MRD
-date: 2017.05.25
-minter: https://n2t.net/a/ezid/m/ark/83018/c8
-
-:: datacite:PURDUE.OCLCMRD
-type: datacenter
-manager: ezid
-name: Membership and Research Division, OCLC, Inc.
-
-:: doi:10.25333/C3
-type: shoulder
-manager: ezid
-#eziduser: oclcmrd
-name: OCLC MRD
-date: 2017.05.24
-minter: https://n2t.net/a/ezid/m/ark/d5333/c3
-datacenter: PURDUE.OCLCMRD
 
 :: ark:/86084/b4
 type: shoulder

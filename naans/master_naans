@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.09.06
+when:	2018.09.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -4652,16 +4652,6 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: @BlavatnikArchiv  1633 Broadway, 4th Floor  New York, NY 10019
 
 naa:
-who:	Membership and Research Division, OCLC, Inc. (=) OCLCMRD
-what:	83018
-when:	2017.05.25
-where:	http://www.oclc.org
-how:	NP | (:unkn) unknown | 2017 |
-!why:	EZID ARK
-!contact: eziduserid oclcmrd
-!address: 6565 Kilgour Pl.  Dublin, OH 43017
-
-naa:
 who:    Musée de Bretagne (=) MB
 what:   83011
 when:   2017.06.06
@@ -5593,6 +5583,36 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	EZID ARK
 !contact: eziduserid ucsd_massive
 !address: 9500 Gilman Drive   EBU3B   La Jolla CA 92093
+
+naa:
+who:	NASA JPL (=) JPL
+what:	73874
+when:	2018.09.11
+where:	https://www.jpl.nasa.gov
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: McGibbney, Lewis John (Data Scientist) ||| lewis.j.mcgibbney@jpl.nasa.gov | 
+!address: 4800 Oak Grove Drive, Pasadena, CA 91009
+
+naa:
+who:	Archives Nationales du Monde du Travail (=) AANMT
+what:	60879
+when:	2018.09.11
+where:	http://www.archivesnationales.culture.gouv.fr/camt
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: BAUMARD, Raphael (Archivist) ||| raphael.baumard@culture.gouv.fr | 
+!address: 78 Boulevard du Général Leclerc, 59100 Roubaix, France
+
+naa:
+who:	PIX (=) PIX
+what:	48224
+when:	2018.09.11
+where:	http://pix.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Buget, Jérémy (CTO) ||| jeremy.buget@pix.fr | 
+!address: 156, Bd Haussmann, 75008 Paris, France
 
 naa:
 who:	Metadata Terms (=) TERMS

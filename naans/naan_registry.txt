@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.09.06
+when:	2018.09.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -3546,13 +3546,6 @@ where:	http://www.blavatnikarchive.org
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
-who:	Membership and Research Division, OCLC, Inc. (=) OCLCMRD
-what:	83018
-when:	2017.05.25
-where:	http://www.oclc.org
-how:	NP | (:unkn) unknown | 2017 |
-
-naa:
 who:    Musée de Bretagne (=) MB
 what:   83011
 when:   2017.06.06
@@ -4201,6 +4194,27 @@ who:	UCSD Center for Computational Mass Spectrometry (=) UCSDCCMS
 what:	80359
 when:	2018.09.06
 where:	http://proteomics.ucsd.edu
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	NASA JPL (=) JPL
+what:	73874
+when:	2018.09.11
+where:	https://www.jpl.nasa.gov
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives Nationales du Monde du Travail (=) AANMT
+what:	60879
+when:	2018.09.11
+where:	http://www.archivesnationales.culture.gouv.fr/camt
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	PIX (=) PIX
+what:	48224
+when:	2018.09.11
+where:	http://pix.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

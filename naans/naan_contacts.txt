@@ -524,7 +524,6 @@ contact: Hon, David B. (Sr. Lead Scientific Systems Developer) ||| david.hon@ufl
 contact: des Escotais, Aleth Tisseau (Chief Librarian) ||| direction.bibliotheque@obspm.fr | 
 contact: SIMON, Michel (Webmaster) ||| michel.simon@finistere.fr | 
 contact: eziduserid blavatnik
-contact: eziduserid oclcmrd
 contact: Martin-Adam, Fabienne (responsable inventaire des collections) ||| f.martin-adam@leschampslibres.fr |
 contact: Personeni, Isabelle (responsable informatique) ||| personeni.i@mairie-thionville.fr | 
 contact: eziduserid msulib
@@ -619,6 +618,9 @@ contact: DELATTRE, Sabine (director) ||| sabinedelattre@delta-expert.com |
 contact: Myriam, Pauillac Colombani (Consultante archives) ||| myriam.pauillac@anaphore.eu | 
 contact: Perepelitsa, Denis (Chief Editor) ||| denis-p82@yandex.ru | 
 contact: eziduserid ucsd_massive
+contact: McGibbney, Lewis John (Data Scientist) ||| lewis.j.mcgibbney@jpl.nasa.gov | 
+contact: BAUMARD, Raphael (Archivist) ||| raphael.baumard@culture.gouv.fr | 
+contact: Buget, Jérémy (CTO) ||| jeremy.buget@pix.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
