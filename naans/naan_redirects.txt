@@ -186,7 +186,6 @@ RedirectMatch ^/((ark:/87930)|87930/?)(.*)$ http://globalchange.gov/$2$3
 RedirectMatch ^/((ark:/37279)|37279/?)(.*)$ http://archives-pierresvives.herault.fr/$2$3
 RedirectMatch ^/((ark:/24625)|24625/?)(.*)$ http://archives.orleans-metropole.fr/$2$3
 RedirectMatch ^/((ark:/11629)|11629/?)(.*)$ http://una.ac.cr/$2$3
-RedirectMatch ^/((ark:/87931)|87931/?)(.*)$ www.LandcareResearch.co.nz/$2$3
 RedirectMatch ^/((ark:/72847)|72847/?)(.*)$ http://www.archivesdepartementales.puydedome.fr/$2$3
 RedirectMatch ^/((ark:/59851)|59851/?)(.*)$ http://www.cervantesvirtual.com/$2$3
 RedirectMatch ^/((ark:/46855)|46855/?)(.*)$ http://www.laregion-culture.fr/$2$3
@@ -561,6 +560,7 @@ RedirectMatch ^/((ark:/80359)|80359/?)(.*)$ http://proteomics.ucsd.edu/$2$3
 RedirectMatch ^/((ark:/73874)|73874/?)(.*)$ https://www.jpl.nasa.gov/$2$3
 RedirectMatch ^/((ark:/60879)|60879/?)(.*)$ http://www.archivesnationales.culture.gouv.fr/camt/$2$3
 RedirectMatch ^/((ark:/48224)|48224/?)(.*)$ http://pix.fr/$2$3
+RedirectMatch ^/((ark:/35229)|35229/?)(.*)$ http://scmjournals.com/ojs/index.php/index/index/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

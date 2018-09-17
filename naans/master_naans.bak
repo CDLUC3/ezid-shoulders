@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.09.06
+when:	2018.09.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2009,15 +2009,6 @@ where:	http://una.ac.cr
 how:	NP | (:unkn) unknown | 2013 |
 !why:	ARK
 !contact: Venegas, Luis Ocampo | IT Department, Web Project Team || luis.ocampo.venegas@una.cr |
-
-naa:
-who:    Landcare Research New Zealand Ltd (=) LCRNZ
-what:   87931
-when:   2013.11.20
-where:  www.LandcareResearch.co.nz
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid landcarenz
 
 naa:
 who:	Archives départementales du Puy-de-Dôme (=) AD63
@@ -5613,6 +5604,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Buget, Jérémy (CTO) ||| jeremy.buget@pix.fr | 
 !address: 156, Bd Haussmann, 75008 Paris, France
+
+naa:
+who:	SCM Journals (=) SCMJ
+what:	35229
+when:	2018.09.17
+where:	http://scmjournals.com/ojs/index.php/index/index
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Ibarra, Beatrice (Editor) ||| editor@scmjournals.com | 
+!address: 3558 65th St. Apt. 1H Woodside, New York 11377-2311
 
 naa:
 who:	Metadata Terms (=) TERMS

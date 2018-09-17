@@ -74,7 +74,7 @@
 
 # ========================================================================
 # NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 >
+#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 #    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
@@ -211,6 +211,18 @@
 # uci_pece    make_ezacct -n 10.21416 p6 81416 p4  < ezaccts/newacct > out
 # lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
 # ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
+# sb-eschol   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/h9 eedk
+
+:: doi:10.5070/H9
+type: shoulder
+manager: ezid
+#eziduser: sb-eschol
+name: UCSB Himalayan Linguistics
+date: 2018.09.14
+minter: https://n2t.net/a/ezid/m/ark/b5070/h9
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
 
 :: ark:/80359/c9
 type: shoulder
@@ -900,15 +912,6 @@ name: UCB Library Systems Office
 date: 2017.02.28
 minter: https://n2t.net/a/ezid/m/ark/28722/s7
 
-:: doi:10.21423/R1
-type: shoulder
-manager: ezid
-#eziduser: tamu_ezid
-name: Texas A&M Univ Libr IR
-date: 2017.02.24
-minter: https://n2t.net/a/ezid/m/ark/d1423/r1
-datacenter: CDL.TAMUL
-
 :: ark:/81984/c8
 type: shoulder
 manager: ezid
@@ -1275,20 +1278,6 @@ manager: ezid
 name: Texas A&M Univ Libr
 date: 2016.08.22
 minter: https://n2t.net/a/ezid/m/ark/81423/m3
-
-:: datacite:CDL.TAMUL
-type: datacenter
-manager: ezid
-name: Texas A&M University Libraries
-
-:: doi:10.21423/M2
-type: shoulder
-manager: ezid
-#eziduser: tamu_ezid
-name: Texas A&M Univ Libr
-date: 2016.08.22
-minter: https://n2t.net/a/ezid/m/ark/d1423/m2
-datacenter: CDL.TAMUL
 
 :: ark:/81422/d4
 type: shoulder
@@ -2671,15 +2660,6 @@ name: Morphosource Project
 date: 2015.03.26
 minter: https://n2t.net/a/ezid/m/ark/87602/m4
 
-:: doi:10.7931/L1
-type: shoulder
-manager: ezid
-#eziduser: lcnz_lri
-name: LandcareNZ Land Resource Information
-date: 2015.03.20
-minter: https://n2t.net/a/ezid/m/ark/b7931/l1
-datacenter: CDL.LCRNZ
-
 :: ark:/19153/p4
 type: shoulder
 manager: ezid
@@ -3757,59 +3737,6 @@ manager: ezid
 name: University of Illinois Libraries NADP
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/83012/j5
-
-:: ark:/87931/j3
-type: shoulder
-manager: ezid
-#eziduser: landcarenz
-name: Landcare Research New Zealand Ltd
-date: 2013.11.20
-minter: https://n2t.net/a/ezid/m/ark/87931/j3
-
-:: doi:10.7931/DL1
-type: shoulder
-manager: ezid
-#eziduser: lcnz_lib
-name: LandcareNZ Digital Library
-date: 2015.03.04
-minter: https://n2t.net/a/ezid/m/ark/b7931/dl1
-datacenter: CDL.LCRNZ
-
-:: doi:10.7931/P1
-type: shoulder
-manager: ezid
-#eziduser: lcnz_pnd
-name: LandcareNZ Plant Names Database
-date: 2015.01.05
-minter: https://n2t.net/a/ezid/m/ark/b7931/p1
-datacenter: CDL.LCRNZ
-
-:: doi:10.7931/V1
-type: shoulder
-manager: ezid
-#eziduser: lcnz_nvs
-name: LandcareNZ National Vegetation Survey
-date: 2014.12.15
-minter: https://n2t.net/a/ezid/m/ark/b7931/v1
-datacenter: CDL.LCRNZ
-
-:: doi:10.7931/B1
-type: shoulder
-manager: ezid
-#eziduser: lcnz_efl
-name: LandcareNZ eFlora
-date: 2014.12.15
-minter: https://n2t.net/a/ezid/m/ark/b7931/b1
-datacenter: CDL.LCRNZ
-
-:: doi:10.7931/J2
-type: shoulder
-manager: ezid
-#eziduser: landcarenz
-name: Landcare Research New Zealand Ltd
-date: 2013.11.20
-minter: https://n2t.net/a/ezid/m/ark/b7931/j2
-datacenter: CDL.LCRNZ
 
 :: ark:/87930/j1
 type: shoulder
@@ -5666,11 +5593,6 @@ name: Lawrence Berkeley National Laboratory
 type: datacenter
 manager: ezid
 name: Landscape Conservation Cooperative
-
-:: datacite:CDL.LCRNZ
-type: datacenter
-manager: ezid
-name: Landcare Research New Zealand Ltd
 
 :: datacite:CDL.LIBUNC
 type: datacenter

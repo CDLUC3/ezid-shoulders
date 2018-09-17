@@ -185,7 +185,6 @@
 37279	Archives départementales de l'Hérault (=) AD3
 24625	Archives municipales d'Orléans (=) AMORLEAN
 11629	Universidad Nacional de Costa Rica (=) UNCR
-87931	Landcare Research New Zealand Ltd (=) LCRNZ
 72847	Archives départementales du Puy-de-Dôme (=) AD63
 59851	Fundación Biblioteca Virtual Miguel de Cervantes (=) FBVMC
 46855	Languedoc-Roussillon Council (=) LAREGION
@@ -560,6 +559,7 @@
 73874	NASA JPL (=) JPL
 60879	Archives Nationales du Monde du Travail (=) AANMT
 48224	PIX (=) PIX
+35229	SCM Journals (=) SCMJ
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

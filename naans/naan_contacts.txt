@@ -207,7 +207,6 @@ contact: Déhondt, Céline ||| edéhondt@cg34.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
 contact: Venegas, Luis Ocampo | IT Department, Web Project Team || luis.ocampo.venegas@una.cr |
-contact: eziduserid landcarenz
 contact: Perronnet, Christelle ||| christelle.perronnet@cg63.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Romero, Gustavo Candela ||| desarrollo@cervantesvirtual.com |
@@ -621,6 +620,7 @@ contact: eziduserid ucsd_massive
 contact: McGibbney, Lewis John (Data Scientist) ||| lewis.j.mcgibbney@jpl.nasa.gov | 
 contact: BAUMARD, Raphael (Archivist) ||| raphael.baumard@culture.gouv.fr | 
 contact: Buget, Jérémy (CTO) ||| jeremy.buget@pix.fr | 
+contact: Ibarra, Beatrice (Editor) ||| editor@scmjournals.com | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
