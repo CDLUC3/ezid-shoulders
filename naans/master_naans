@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.09.17
+when:	2018.10.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1061,15 +1061,6 @@ how:	NP | (:unkn) unknown | 2011 |
 !contact: EZID userid usgs
 
 naa:
-who:	Oak Ridge National Laboratory (=) ORNL
-what:	83334
-when:	2011.12.13
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2011 |
-!why:	EZID ARK
-!contact: EZID userid ornldaac
-
-naa:
 who:	Ville de Paris (=) VP
 what:	73873
 when:	2011.12.13
@@ -1097,15 +1088,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: Coquelin, Sophie ||| s.coquelin@IN-OC.ORG | +33 (0)5.59.13.06.40
 
 naa:
-who:	Indiana University (=) IU
-what:	85967
-when:	2012.01.04
-where:	http://www.indiana.edu
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid xxx
-
-naa:
 who:	NASA Goddard Space Flight Center (=) NASAGSFC
 what:	85067
 when:	2012.01.24
@@ -1131,15 +1113,6 @@ where:	http://www.digitalantiquity.org
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
 !contact: EZID userid tdar
-
-naa:
-who:	Data-Planet (=) DATAPLANET
-what:	86068
-when:	2012.02.21
-where:	http://www.conquestsystems.com
-how:	FP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid data-planet
 
 naa:
 who:	University of California Merced (=) UCM
@@ -1261,15 +1234,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !contact: EZID userid nsidc
 
 naa:
-who:	Harte Research Institue (=) HRI
-what:	87266
-when:	2012.06.08
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid griidc
-
-naa:
 who:	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
 what:	83449
 when:	2012.06.17
@@ -1361,15 +1325,6 @@ where:	http://wsu.edu
 how:	NP | (:unkn) unknown | 2012 |
 !why:	EZID ARK
 !contact: EZID userid washstate
-
-naa:
-who:	IU Cyberinfrastructure for Network Science Center (=) IUCNS
-what:	87277
-when:	2012.08.11
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid iucns
 
 naa:
 who:	University of Utah (=) UUTAH
@@ -1516,15 +1471,6 @@ where:	http://www.mom.fr
 how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
 !contact: Morandiere, Bruno ||| bruno.morandiere@mom.fr |
-
-naa:
-who:	US National Oceanic and Atmospheric Administration (=) USNOAA
-what:	87289
-when:	2013.01.18
-where:	http://www.noaa.gov
-how:	NP | (:unkn) unknown | 2013 |
-!why:	EZID ARK
-!contact: EZID userid noaa-edm
 
 naa:
 who:	University of Tennessee (=) UTK
@@ -1726,15 +1672,6 @@ where:  https://www.databrary.org
 how:    NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid nyu_databrary
-
-naa:
-who:    Indiana University Purdue University Indianapolis (=) IUPUI
-what:   87912
-when:   2013.05.22
-where:  http://ulib.iupui.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid iupui
 
 naa:
 who:	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
@@ -1972,15 +1909,6 @@ where:  http://www.issda.ie
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid issda
-
-naa:
-who:    US Global Change Research Program (=) USGCRP
-what:   87930
-when:   2013.11.08
-where:  http://globalchange.gov
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid usgcrp
 
 naa:
 who:	Archives départementales de l'Hérault (=) AD3
@@ -2416,15 +2344,6 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid cmu-ezid
 
 naa:
-who:    NOAA Global Monitoring Division (=) NOAA-GMD
-what:   85138
-when:   2014.07.18
-where:	www.esrl.noaa.gov/gmd
-how:	NP | (:unkn) unknown | 2014 |
-!why:   EZID ARK
-!contact: eziduserid noaa-gmd
-
-naa:
 who:    Odum Institute for Research in Social Science (=) ODUMUNC
 what:   85139
 when:   2014.07.23
@@ -2826,15 +2745,6 @@ where:	drugdesigndata.org
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid ucsd_d3r
-
-naa:
-who:    CRAWDAD (=) CRAWDAD
-what:   85783
-when:   2015.02.18
-where:	http://crawdad.cs.dartmouth.edu/index.html
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid dartcrawda
 
 naa:
 who:    Interdisciplinary Earth Data Alliance (=) IEDA
@@ -3253,15 +3163,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: eziduserid eixid
 
 naa:
-who:    PubRef.org (=) PUBREF
-what:   77920
-when:   2015.07.17
-where:	https://pubref.org/v1/home
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid pubref
-
-naa:
 who:    Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
 what:   88115
 when:   2015.08.13
@@ -3278,15 +3179,6 @@ where:	http://www.library.pitt.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid pittezid
-
-naa:
-who:    UMass Medical School-CANDI (=) UMMSCAND
-what:   88116
-when:   2015.08.26
-where:	http://www.umassmed.edu/psychiatry/candi
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid umms-candi
 
 naa:
 who:    Geotechnical Extreme Events Reconnaissance (=) GEER
@@ -3341,15 +3233,6 @@ where:	http://http://lccnetwork.org
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid lccnetwork
-
-naa:
-who:    Antarctic Environments Portal (=) AEP
-what:   88124
-when:   2015.09.29
-where:	https://www.environments.aq
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid aep
 
 naa:
 who:	Archives Municipales Aix En Provence (=) AMAEP
@@ -3979,15 +3862,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !address: 750 Davis Hall  UC Berkeley  94720-1710
 
 naa:
-who:    Vermont Monitoring Cooperative (=) VMC
-what:   88125
-when:   2016.07.18
-where:	http://www.uvm.edu/vmc
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid datactr3
-
-naa:
 who:	Saint-Gobain (=) STGOBAIN
 what:	57458
 when:	2016.07.25
@@ -4007,16 +3881,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
 !contact: eziduserid dartremix
 !address: 210A Reed Hall  Hanover, NH 03755
-
-naa:
-who:    GNS Science (=) GNS
-what:   81420
-when:   2016.08.08
-where:	http://www.gns.cri.nz
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid gns_science
-!address: P.O. Box 30-368  Lower Hutt 5040  New Zealand
 
 naa:
 who:    International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) (=) ICRISAT
@@ -5614,6 +5478,46 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Ibarra, Beatrice (Editor) ||| editor@scmjournals.com | 
 !address: 3558 65th St. Apt. 1H Woodside, New York 11377-2311
+
+naa:
+who:	Médiathèque de l'Architecture et du Patrimoine (=) MAP
+what:	22232
+when:	2018.09.18
+where:	http://www.mediatheque-patrimoine.culture.gouv.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Penicaut, Emmanuel (Conservateur) ||| emmanuel.penicaut@culture.gouv.fr | 
+!address: 11 rue du Séminaire de Conflans 94220 Charenton-le-Pont, France
+
+naa:
+who:	Revista de Estudios Latinoamericanos sobre Reducción del Riesgo de Desastres (=) Journal of Latin American Studies on Disaster Risk Reduction (=) REDER
+what:	70455
+when:	2018.09.20
+where:	http://revistareder.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Sandoval, Vicente (Editor) ||| vsandova@fiu.edu | 
+!address: Pucará 4735, Santiago 7790421, Chile
+
+naa:
+who:	CEDROM-SNI (=) CEDROM
+what:	57800
+when:	2018.09.28
+where:	http://www.europresse.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Varela, Karine (Directrice des relations éditeurs) ||| karine.varela@cision.com | 
+!address: 825 avenue Querbes, Outremont, H2v 3X1, Canada
+
+naa:
+who:	Archives de la Haute-Garonne (=) AD31
+what:	44805
+when:	2018.10.04
+where:	http://archives.haute-garonne.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Cambos, Marie-Hélène (Chef de projet fonctionnel) ||| marie-helene.cambos@cd31.fr | 
+!address: 11 Boulevard Griffoul Dorval, 31400 Toulouse, France
 
 naa:
 who:	Metadata Terms (=) TERMS

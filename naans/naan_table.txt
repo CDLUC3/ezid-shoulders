@@ -81,15 +81,12 @@
 85064	Consortium on Qualitative Research Methods (=) CQRM
 85065	National Center for Atmospheric Research (=) NCAR
 85066	United States Geological Survey (=) USGS
-83334	Oak Ridge National Laboratory (=) ORNL
 73873	Ville de Paris (=) VP
 60877	Archives départementales de la Nièvre (=) ADNIEVRE
 32149	Inoc Aquitania (=) INOC
-85967	Indiana University (=) IU
 85067	NASA Goddard Space Flight Center (=) NASAGSFC
 85069	SDSC OpenTopography Facility (=) SDSCOTF
 86067	Digital Antiquity (=) DIGANT
-86068	Data-Planet (=) DATAPLANET
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
@@ -103,7 +100,6 @@
 22231	Archives départementales de l'Ain (=) ADAIN
 86086	University of California Riverside (=) UCRIVERSIDE
 87265	National Snow and Ice Data Center (=) NSIDC
-87266	Harte Research Institue (=) HRI
 83449	Facultés Universitaires Notre-Dame de la Paix (Namur) (=) University of Namur (=) FUNDP
 87268	Bourns College of Engineering (=) BCOE
 84246	California Coastal Atlas (=) UCSDCCA
@@ -114,7 +110,6 @@
 57457	Archives départementales du Loir-et-Cher (=) ADLC
 44803	Archives départementales de l'Oise (=) ADO
 87273	Washington State University (=) WSU
-87277	IU Cyberinfrastructure for Network Science Center (=) IUCNS
 87278	University of Utah (=) UUTAH
 87279	Ocean Observatory Initiative (=) OOI
 31807	Open Commons Consortium (=) OCC
@@ -131,7 +126,6 @@
 28387	Archives départementales de la Vienne (=) ADV
 15391	Archives municipales de Saint-Denis (=) AMSTDENIS
 76609	Maison de l'Orient et la Méditerranée (=) MOM
-87289	US National Oceanic and Atmospheric Administration (=) USNOAA
 87290	University of Tennessee (=) UTK
 63955	Institut de recherche et d'histoire des textes (=) CNRSIRHT
 50959	Digital Commonwealth (=) DIGCMNW
@@ -154,7 +148,6 @@
 57115	Archives départementales de la Manche (=) ADMANCHE
 77908	Broad Institute of MIT and Harvard (=) BROAD
 87910	Databrary (=) DATABRARY
-87912	Indiana University Purdue University Indianapolis (=) IUPUI
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 88113	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
 87914	International Federation of Digital Seismograph Networks (=) FDSN
@@ -181,7 +174,6 @@
 50275	Archives départementales des Vosges (=) AD88
 87928	Berkeley Research IT (=) UCBRIT
 87929	Irish Social Science Data Archive (=) ISSDA
-87930	US Global Change Research Program (=) USGCRP
 37279	Archives départementales de l'Hérault (=) AD3
 24625	Archives municipales d'Orléans (=) AMORLEAN
 11629	Universidad Nacional de Costa Rica (=) UNCR
@@ -229,7 +221,6 @@
 56089	Cité Numérique de la Méditerranée (=) Digital City of the Mediterranean (=) CNM
 87946	iPlant Collaborative (=) IPLANT
 81184	Carnegie Mellon University Libraries (=) CMU
-85138	NOAA Global Monitoring Division (=) NOAA-GMD
 85139	Odum Institute for Research in Social Science (=) ODUMUNC
 85140	University of California Davis (=) UCDAVIS
 85141	UC Davis, Social Science Data Service (=) UCDSSDS
@@ -274,7 +265,6 @@
 85788	UCSB Climate Hazards Group, Dept of Geography (=) SBGEOG
 29755	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
 85782	Drug Design Data Resource (=) D3R
-85783	CRAWDAD (=) CRAWDAD
 85784	Interdisciplinary Earth Data Alliance (=) IEDA
 85785	Harvard Medical School (=) SBGRID
 85786	University of Wyoming Libraries (=) UWYO
@@ -320,17 +310,14 @@
 87917	National Cancer Informatics Program Hub (=) NCIPHUB
 87918	Drexel University Libraries (=) DRXLDATA
 77919	Entrepreneur & Innovation Exchange (=) EIX
-77920	PubRef.org (=) PUBREF
 88115	Laboratory for Basic and Translational Cognitive Neuroscience (=) LUCKLAB
 88117	University of Pittsburgh (=) PITT
-88116	UMass Medical School-CANDI (=) UMMSCAND
 88118	Geotechnical Extreme Events Reconnaissance (=) GEER
 16076	Sanglap: Journal of Literary and Cultural Inquiry (=) SANGLAP
 88119	Facebase Consortium (=) FACEBASE
 88120	USC ISI Informatics Systems Research Division (=) ISRD
 88121	National Cancer Institute, NIH (=) NCIP
 88123	Landscape Conservation Cooperative (=) LCC
-88124	Antarctic Environments Portal (=) AEP
 77636	Archives Municipales Aix En Provence (=) AMAEP
 88128	IPUMS (=) IPUMS
 64639	Biblioteca Digitale Ligure (=) Ligurian Digital Library (=) BDL
@@ -397,10 +384,8 @@
 70454	Association Sésamath (=) SESAMATH
 81417	Adaptive Biotechnologies (=) ADAPTIVE
 81418	UCB Geotechnical Engineering Research (=) UCBGT
-88125	Vermont Monitoring Cooperative (=) VMC
 57458	Saint-Gobain (=) STGOBAIN
 44461	Remix the Manuscript (=) RMXMANU
-81420	GNS Science (=) GNS
 81421	International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) (=) ICRISAT
 81422	UCSD Scripps Project IDA, Inst. for Geophysics and Planetary Physics (=) PROJECTIDA
 31465	Médiathèque du Grand Troyes (=) MGT
@@ -560,6 +545,10 @@
 60879	Archives Nationales du Monde du Travail (=) AANMT
 48224	PIX (=) PIX
 35229	SCM Journals (=) SCMJ
+22232	Médiathèque de l'Architecture et du Patrimoine (=) MAP
+70455	Revista de Estudios Latinoamericanos sobre Reducción del Riesgo de Desastres (=) Journal of Latin American Studies on Disaster Risk Reduction (=) REDER
+57800	CEDROM-SNI (=) CEDROM
+44805	Archives de la Haute-Garonne (=) AD31
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

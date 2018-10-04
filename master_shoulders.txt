@@ -73,12 +73,15 @@
 # 5. Reload EZID.
 
 # ========================================================================
-# NAANs/Prefixes to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 >
+# NAANs to re-cycle (don't forget to drop these from NAAN registry):
+#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 >
 #    mistakenly minted, for immediate re-use: < 24626 >
+# Prefixes to re-cycle:
 #    < 10.7276 10.7296 >
 #       (some of these may still be attached to old datacenters)
-#    purdue-only prefix < >
+#    purdue-only prefixes < >
+# To remove minters, eg,
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
 
 #    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
@@ -1319,28 +1322,6 @@ date: 2016.08.10
 minter:
 datacenter: CDL.ICRISAT
 
-:: ark:/81420/n4
-type: shoulder
-manager: ezid
-#eziduser: gns_science
-name: GNS Science
-date: 2016.08.08
-minter: https://n2t.net/a/ezid/m/ark/81420/n4
-
-:: datacite:CDL.GNS
-type: datacenter
-manager: ezid
-name: GNS Science
-
-:: doi:10.21420/G2
-type: shoulder
-manager: ezid
-#eziduser: gns_science
-name: GNS Science
-date: 2016.08.08
-minter: https://n2t.net/a/ezid/m/ark/d1420/g2
-datacenter: CDL.GNS
-
 :: ark:/44461/r4
 type: shoulder
 manager: ezid
@@ -1348,25 +1329,6 @@ manager: ezid
 name: Dartmouth Remix the Manuscript
 date: 2016.08.06
 minter: https://n2t.net/a/ezid/m/ark/44461/r4
-
-# from temporary NAAN created 2015.09.10
-:: ark:/88125/d8
-type: shoulder
-manager: ezid
-#eziduser: datactr3
-name: Vermont Monitoring Cooperative
-date: 2016.07.18
-minter: https://n2t.net/a/ezid/m/ark/88125/d8
-
-# from temporary data center DATACTR3 created 2015.09.10
-:: doi:10.18125/D2
-type: shoulder
-manager: ezid
-#eziduser: datactr3
-name: Vermont Monitoring Cooperative
-date: 2016.07.18
-minter: https://n2t.net/a/ezid/m/ark/c8125/d2
-datacenter: CDL.VMC
 
 :: ark:/81418/g4
 type: shoulder
@@ -2058,23 +2020,6 @@ date: 2015.09.29
 minter: 
 datacenter: PURDUE.IPUMS
 
-:: ark:/88124/d5
-type: shoulder
-manager: ezid
-#eziduser: aep
-name: Antarctic Environments Portal
-date: 2015.09.23
-minter: https://n2t.net/a/ezid/m/ark/88124/d5
-
-:: doi:10.18124/D4
-type: shoulder
-manager: ezid
-#eziduser: aep
-name: Antarctic Environments Portal
-date: 2015.09.23
-minter: https://n2t.net/a/ezid/m/ark/c8124/d4
-datacenter: CDL.AEP
-
 :: ark:/88123/d7
 type: shoulder
 manager: ezid
@@ -2151,23 +2096,6 @@ date: 2015.08.28
 minter: https://n2t.net/a/ezid/m/ark/c8118/g6
 datacenter: CDL.GEER
 
-:: ark:/88116/c8
-type: shoulder
-manager: ezid
-#eziduser: umms-candi
-name: UMass Medical School-CANDI
-date: 2015.08.26
-minter: https://n2t.net/a/ezid/m/ark/88116/c8
-
-:: doi:10.18116/C6
-type: shoulder
-manager: ezid
-#eziduser: umms-candi
-name: UMass Medical School-CANDI
-date: 2015.08.26
-minter: https://n2t.net/a/ezid/m/ark/c8116/c6
-datacenter: CDL.UMMSCAND
-
 :: ark:/88117/p7
 type: shoulder
 manager: ezid
@@ -2203,23 +2131,6 @@ name: Laboratory for Basic and Translational Cognitive Neuroscience
 date: 2015.08.13
 minter: https://n2t.net/a/ezid/m/ark/c8115/d5
 datacenter: CDL.LUCKLAB
-
-:: ark:/77920/p2
-type: shoulder
-manager: ezid
-#eziduser: pubref
-name: PubRef.org
-date: 2015.07.17
-minter: https://n2t.net/a/ezid/m/ark/77920/p2
-
-:: doi:10.17920/P9
-type: shoulder
-manager: ezid
-#eziduser: pubref
-name: PubRef.org
-date: 2015.07.17
-minter: https://n2t.net/a/ezid/m/ark/c7920/p9
-datacenter: CDL.PUBREF
 
 :: ark:/77919/x7
 type: shoulder
@@ -2289,34 +2200,6 @@ date: 2015.06.26
 minter: https://n2t.net/a/ezid/m/ark/c7915/n5
 datacenter: CDL.UCSB
 crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.7912/D2
-type: shoulder
-manager: ezid
-#eziduser: indianau
-name: IUPUI University Library Data
-date: 2015.05.29
-minter: https://n2t.net/a/ezid/m/ark/b7912/d2
-datacenter: PURDUE.IUPUI
-
-:: doi:10.7912/C2
-type: shoulder
-manager: ezid
-#eziduser: indianau
-name: IUPUI University Library
-date: 2015.05.29
-minter: https://n2t.net/a/ezid/m/ark/b7912/c2
-datacenter: PURDUE.IUPUI
-
-:: doi:10.5967/P9
-type: shoulder
-manager: ezid
-#eziduser: iujetstrm
-name: Indiana University Pervasive Technology Institute
-date: 2015.05.29
-minter: https://n2t.net/a/ezid/m/ark/b5967/p9
-datacenter: PURDUE.PTI
 prefix_shares_datacenter: true
 
 :: ark:/77913/r7
@@ -2744,23 +2627,6 @@ name: Interdisciplinary Earth Data Alliance
 date: 2015.02.18
 minter:
 datacenter: CDL.IEDA
-
-:: ark:/85783/c9
-type: shoulder
-manager: ezid
-#eziduser: dartcrawda
-name: CRAWDAD
-date: 2015.02.18
-minter: https://n2t.net/a/ezid/m/ark/85783/c9
-
-:: doi:10.15783/C7
-type: shoulder
-manager: ezid
-#eziduser: dartcrawda
-name: CRAWDAD
-date: 2015.02.18
-minter: https://n2t.net/a/ezid/m/ark/c5783/c7
-datacenter: CDL.CRAWDAD
 
 :: ark:/85782/d8
 type: shoulder
@@ -3250,32 +3116,6 @@ date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5139/s3
 datacenter: CDL.ODUMUNC
 
-:: ark:/85138/g4
-type: shoulder
-manager: ezid
-name: NOAA Global Monitoring Division
-date: 2014.07.18
-minter: https://n2t.net/a/ezid/m/ark/85138/g4
-
-:: doi:10.15138/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: noaa-gmd
-name: NOAA Global Monitoring Division
-date: 2014.11.06
-minter:
-datacenter: CDL.NOAA-GMD
-
-:: doi:10.15138/G3
-type: shoulder
-manager: ezid
-#eziduser: noa-gmd
-name: NOAA Global Monitoring Division Minter
-date: 2014.07.18
-minter: https://n2t.net/a/ezid/m/ark/c5138/g3
-datacenter: CDL.NOAA-GMD
-
 :: doi:10.6078/D1
 type: shoulder
 manager: ezid
@@ -3509,14 +3349,6 @@ date: 2014.04.30
 minter: https://n2t.net/a/ezid/m/ark/b7914/d1
 datacenter: CDL.FDSN
 
-:: ark:/85967/s8
-type: shoulder
-manager: ezid
-#eziduser: iusead
-name: Indiana University Sustainable Environment-Actionable Data (SEAD)
-date: 2014.04.22
-minter: https://n2t.net/a/ezid/m/ark/85967/s8
-
 :: ark:/87940/m4
 type: shoulder
 manager: ezid
@@ -3737,23 +3569,6 @@ manager: ezid
 name: University of Illinois Libraries NADP
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/83012/j5
-
-:: ark:/87930/j1
-type: shoulder
-manager: ezid
-#eziduser: usgcrp
-name: U.S. Global Change Research Program
-date: 2013.11.08
-minter: https://n2t.net/a/ezid/m/ark/87930/j1
-
-:: doi:10.7930/J0
-type: shoulder
-manager: ezid
-#eziduser: usgcrp
-name: U.S. Global Change Research Program
-date: 2013.11.08
-minter: https://n2t.net/a/ezid/m/ark/b7930/j0
-datacenter: CDL.USGCRP
 
 :: ark:/87929/
 type: shoulder
@@ -4071,33 +3886,6 @@ date: 2013.06.18
 minter: https://n2t.net/a/ezid/m/ark/c8113/d3
 datacenter: PURDUE.PSIEE
 
-:: doi:10.5967/D3
-type: shoulder
-manager: ezid
-#eziduser: datacommon
-name: {legacy} Penn State Institutes of Energy and the Environment/PSU Data Commons
-date: 2013.06.18
-minter:
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
-:: ark:/87912/d0
-type: shoulder
-manager: ezid
-#eziduser: iupui
-name: Indiana University-Purdue University Indianapolis
-date: 2013.05.22
-minter: https://n2t.net/a/ezid/m/ark/87912/d0
-
-:: doi:10.7912/C9
-type: shoulder
-manager: ezid
-#eziduser: iupui
-name: Indiana University-Purdue University Indianapolis
-date: 2013.05.22
-minter: https://n2t.net/a/ezid/m/ark/b7912/c9
-datacenter: PURDUE.IUPUI
-
 :: doi:10.7910/DVN
 type: shoulder
 manager: ezid
@@ -4292,23 +4080,6 @@ minter: https://n2t.net/a/ezid/m/ark/b7290/v7
 datacenter: CDL.UTENN
 crossref: true
 
-:: ark:/87289/v6
-type: shoulder
-manager: ezid
-#eziduser: noaa-edm
-name: US National Oceanic and Atmospheric Administration (NOAA)
-date: 2013.01.18
-minter: https://n2t.net/a/ezid/m/ark/87289/v6
-
-:: doi:10.7289/V5
-type: shoulder
-manager: ezid
-#eziduser: noaa-edm
-name: US National Oceanic and Atmospheric Administration (NOAA)
-date: 2013.01.18
-minter: https://n2t.net/a/ezid/m/ark/b7289/v5
-datacenter: CDL.NOAA
-
 :: doi:10.7288/V4
 type: shoulder
 manager: ezid
@@ -4496,23 +4267,6 @@ date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/b7278/s5
 datacenter: CDL.UUTAH
 
-:: ark:/87277/s4
-type: shoulder
-manager: ezid
-#eziduser: iucns
-name: Indiana University Cyberinfrastructure for Network Science Center
-date: 2012.08.11
-minter: https://n2t.net/a/ezid/m/ark/87277/s4
-
-:: doi:10.7277/S3
-type: shoulder
-manager: ezid
-#eziduser: iucns
-name: Indiana University Cyberinfrastructure for Network Science Center
-date: 2012.08.11
-minter: https://n2t.net/a/ezid/m/ark/b7277/s3
-datacenter: PURDUE.IUCNS
-
 :: ark:/34231/s0
 type: shoulder
 manager: ezid
@@ -4643,16 +4397,6 @@ date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
 datacenter: CDL.UCSDCCA
 
-:: doi:10.5967/P8
-type: shoulder
-manager: ezid
-#eziduser: iud21
-name: Indiana University Data to Insight
-date: 2012.06.27
-minter: https://n2t.net/a/ezid/m/ark/b5967/p8
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
 :: ark:/87268/p2
 type: shoulder
 manager: ezid
@@ -4669,23 +4413,6 @@ name: UC Riverside Bourns College of Engineering
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7268/p1
 datacenter: CDL.UCRBCOE
-
-:: ark:/87266/n8
-type: shoulder
-manager: ezid
-#eziduser: griidc
-name: Harte Research Institute
-date: 2012.06.08
-minter: https://n2t.net/a/ezid/m/ark/87266/n8
-
-:: doi:10.7266/N7
-type: shoulder
-manager: ezid
-#eziduser: griidc
-name: Harte Research Institute
-date: 2012.06.08
-minter: https://n2t.net/a/ezid/m/ark/b7266/n7
-datacenter: CDL.HRI
 
 :: ark:/87265/n6
 type: shoulder
@@ -4766,34 +4493,6 @@ date: 2012.04.03
 minter: https://n2t.net/a/ezid/m/ark/b5967/k9
 datacenter: PURDUE.HTRC
 prefix_shares_datacenter: true
-
-:: doi:10.5967/K8
-type: shoulder
-manager: ezid
-#eziduser: iusw
-name: Indiana University IUScholarWorks
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/b5967/k8
-datacenter: PURDUE.IUSW
-prefix_shares_datacenter: true
-
-:: doi:10.5967/M0
-type: shoulder
-manager: ezid
-#eziduser: iusead
-name: Indiana University Sustainable Environment-Actionable Data (SEAD)
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/b5967/m0
-datacenter: PURDUE.IUSEAD
-prefix_shares_datacenter: true
-
-:: ark:/85967/k7
-type: shoulder
-manager: ezid
-#eziduser: indianau
-name: Indiana University
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/85967/k7
 
 # k6 ARKs in a partnership between the UCB library and CDL DSC program
 :: ark:/13030/k6
@@ -4922,23 +4621,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6071/h8
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
 
-:: ark:/86068/
-type: shoulder
-manager: ezid
-#eziduser: data-planet
-name: Data-Planet
-date: 2012.02.21
-minter: https://n2t.net/a/ezid/m/ark/86068/h1
-
-:: doi:10.6068/
-type: shoulder
-manager: ezid
-#eziduser: data-planet
-name: Data-Planet
-date: 2012.02.21
-minter: https://n2t.net/a/ezid/m/ark/b6068/h2
-datacenter: CDL.DPLANET
-
 :: ark:/86067/xcv8
 type: shoulder
 manager: ezid
@@ -5040,23 +4722,6 @@ name: National Center for Atmospheric Research (NCAR)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/b5065/d6
 datacenter: CDL.NCAR
-
-:: ark:/83334/f9
-type: shoulder
-manager: ezid
-#eziduser: ornldaac
-name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
-date: 2011.12.13
-minter: https://n2t.net/a/ezid/m/ark/83334/f9
-
-:: doi:10.3334/
-type: shoulder
-manager: ezid
-#eziduser: ornldaac
-name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
-date: 2011.12.13
-minter:
-datacenter: CDL.ORNL
 
 :: ark:/85064/f5
 type: shoulder
@@ -5361,11 +5026,6 @@ manager: other
 name: EZID binder ids
 minter:
 
-:: datacite:CDL.AEP
-type: datacenter
-manager: ezid
-name: Antarctic Environments Portal
-
 :: datacite:CDL.AUL
 type: datacenter
 manager: ezid
@@ -5426,11 +5086,6 @@ type: datacenter
 manager: ezid
 name: Carnegie Mellon University Libraries
 
-:: datacite:CDL.CRAWDAD
-type: datacenter
-manager: ezid
-name: CRAWDAD
-
 :: datacite:CDL.CRCL
 type: datacenter
 manager: ezid
@@ -5456,11 +5111,6 @@ type: datacenter
 manager: ezid
 name: Databrary
 
-:: datacite:CDL.VMC
-type: datacenter
-manager: ezid
-name: Vermont Monitoring Cooperative
-
 :: datacite:CDL.DATAMARE
 type: datacenter
 manager: ezid
@@ -5475,11 +5125,6 @@ name: Harvard Dataverse
 type: datacenter
 manager: ezid
 name: Digital Antiquity
-
-:: datacite:CDL.DPLANET
-type: datacenter
-manager: ezid
-name: Data-Planet
 
 :: datacite:CDL.DRXLDATA
 type: datacenter
@@ -5520,29 +5165,6 @@ name: Fred Hutchinson Cancer Research Center
 type: datacenter
 manager: ezid
 name: Geotechnical Extreme Events Reconnaissance
-
-## xxx to RECYCLE
-#:: datacite:CDL.GLOBUS
-#type: datacenter
-#manager: ezid
-#name: Globus.org
-#
-## xxx to RECYCLE
-## inactive
-#:: doi:10.13018/G2
-#type: shoulder
-#manager: ezid
-##eziduser: none
-#name: Globus.org
-#date: 2014.10.13
-#minter: https://n2t.net/a/ezid/m/ark/c3018/g2
-##this datacenter doesn't show in DataCite
-#datacenter: CDL.GLOBUS
-
-:: datacite:CDL.HRI
-type: datacenter
-manager: ezid
-name: Harte Research Institute
 
 :: datacite:CDL.ICA
 type: datacenter
@@ -5649,16 +5271,6 @@ type: datacenter
 manager: ezid
 name: National Center for Ecological Analysis and Synthesis (NCEAS)
 
-:: datacite:CDL.NOAA
-type: datacenter
-manager: ezid
-name: US National Oceanic and Atmospheric Administration (NOAA)
-
-:: datacite:CDL.NOAA-GMD
-type: datacenter
-manager: ezid
-name: NOAA Global Monitoring Division
-
 :: datacite:CDL.NSIDC
 type: datacenter
 manager: ezid
@@ -5673,11 +5285,6 @@ name: National University of Ireland, Galway
 type: datacenter
 manager: ezid
 name: Odum Institute for Research in Social Science
-
-:: datacite:CDL.ORNL
-type: datacenter
-manager: ezid
-name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
 
 :: datacite:CDL.PGERR
 type: datacenter
@@ -5698,11 +5305,6 @@ name: University of Pittsburgh
 type: datacenter
 manager: ezid
 name: Pitt Quantum Repository
-
-:: datacite:CDL.PUBREF
-type: datacenter
-manager: ezid
-name: PubRef.org
 
 :: datacite:CDL.QDR
 type: datacenter
@@ -5889,11 +5491,6 @@ type: datacenter
 manager: ezid
 name: UCSF
 
-:: datacite:CDL.UMMSCAND
-type: datacenter
-manager: ezid
-name: UMass Medical School-CANDI
-
 :: datacite:CDL.UNAVCO
 type: datacenter
 manager: ezid
@@ -5913,11 +5510,6 @@ name: University of Auckland
 type: datacenter
 manager: ezid
 name: U.S. Fish and Wildlife Service
-
-:: datacite:CDL.USGCRP
-type: datacenter
-manager: ezid
-name: U.S. Global Change Research Program/UCAR
 
 :: datacite:CDL.USU
 type: datacenter
@@ -5999,26 +5591,6 @@ type: datacenter
 manager: ezid
 name: IPUMS
 
-:: datacite:PURDUE.IUCNS
-type: datacenter
-manager: ezid
-name: Indiana University Cyberinfrastructure for Network Science Center
-
-:: datacite:PURDUE.IUPUI
-type: datacenter
-manager: ezid
-name: Indiana University-Purdue University Indianapolis
-
-:: datacite:PURDUE.IUSEAD
-type: datacenter
-manager: ezid
-name: Indiana University Sustainable Environment-Actionable Data (SEAD)
-
-:: datacite:PURDUE.IUSW
-type: datacenter
-manager: ezid
-name: Indiana University IUScholarWorks
-
 :: datacite:PURDUE.MDF
 type: datacenter
 manager: ezid
@@ -6048,11 +5620,6 @@ name: National Cancer Informatics Program Hub, NIH
 type: datacenter
 manager: ezid
 name: Penn State Institutes of Energy and the Environment/PSU Data Commons
-
-:: datacite:PURDUE.PTI
-type: datacenter
-manager: ezid
-name: Indiana University Pervasive Technology Institute
 
 :: datacite:PURDUE.PURDUECC
 type: datacenter

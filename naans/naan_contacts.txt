@@ -90,15 +90,12 @@ contact: EZID userid sb-nceas
 contact: EZID userid qdr_cqrm
 contact: EZID userid ncar
 contact: EZID userid usgs
-contact: EZID userid ornldaac
 contact: Runfola, Sylviane ||| Sylviane.Runfola@paris.fr | +33 (0)1.49.29.36.22
 contact: Roche, Thomas ||| thomas.roche@CG58.FR | +33 (0)3.86.60.68.30
 contact: Coquelin, Sophie ||| s.coquelin@IN-OC.ORG | +33 (0)5.59.13.06.40
-contact: EZID userid xxx
 contact: EZID userid eosdis
 contact: EZID userid ucsd_opentopo
 contact: EZID userid tdar
-contact: EZID userid data-planet
 contact: EZID userid ucmlibrary (Emily Linn)
 contact: EZID userid ucsd_signaling_gateway (Brian Saunders)
 contact: EZID userid fhcrc
@@ -114,7 +111,6 @@ contact: Vesson, Valéry ||| valery.vesson@cg01.fr
 contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 contact: EZID userid ucrlibrary
 contact: EZID userid nsidc
-contact: EZID userid griidc
 contact: Mercy-Cavrenne, Elodie | Bibliothèque Universitaire Moretus Plantin || elodie.mercy@fundp.ac.be | 081/72 46 29
 contact: EZID userid ucr-­
 contact: EZID userid ucsd_hellyj
@@ -127,7 +123,6 @@ contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41
 contact: Weber, Vincent ||| archives@oise.fr |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: EZID userid washstate
-contact: EZID userid iucns
 contact: EZID userid uofutah
 contact: EZID userid ucsd_ooi
 contact: Wells, Walt ||| walt@opencloudconsortium.org |
@@ -146,7 +141,6 @@ contact: Brémond, Pierre ||| PBremond@cg86.fr |
 contact: Jacquet, Frédérique ||| service.archives@ville-saint-denis.fr
 contact: Lory, Guillaume | V-Technologies || guillaume.lory@vtech.fr | +33 02 41 72 30 36
 contact: Morandiere, Bruno ||| bruno.morandiere@mom.fr |
-contact: EZID userid noaa-edm
 contact: EZID userid tkn
 contact: Nodimar, Thomas ||| thomas.nodimar@cnrs-orleans.fr |
 contact: English, Eben | Boston Public Library || eenglish@bpl.org | +1 617-859-2238
@@ -172,7 +166,6 @@ contact: eziduserid sagebio
 contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
 contact: eziduserid broad
 contact: eziduserid nyu_databrary
-contact: eziduserid iupui
 contact: De Spiegeler, Pierre ||| pierre.despiegeler@spw.wallonie.be | 081.23.75.50
 contact: eziduserid datacommon
 contact: eziduserid fdsn
@@ -202,7 +195,6 @@ contact: Rembert, Sébastien ||| srembert@cg88.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: eziduserid ucb-ist-rit
 contact: eziduserid issda
-contact: eziduserid usgcrp
 contact: Déhondt, Céline ||| edéhondt@cg34.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
 contact: Bruant, Christelle ||| cbruant@ville-orleans.fr | +33 (0)2.38.79.29.06
@@ -259,7 +251,6 @@ contact: eziduserid ucinlibs
 contact: Moukhlisse, Hassan ||| moukhlisse@gmail.com |
 contact: eziduserid iplant
 contact: eziduserid cmu-ezid
-contact: eziduserid noaa-gmd
 contact: eziduserid odumunc
 contact: eziduserid ucdavis-lib
 contact: eziduserid davis-ssds
@@ -311,7 +302,6 @@ contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: eziduserid sb-chg
 contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
 contact: eziduserid ucsd_d3r
-contact: eziduserid dartcrawda
 contact: eziduserid cu-ieda
 contact: eziduserid sbgrid
 contact: eziduserid wyu_libs
@@ -368,17 +358,14 @@ contact: Ştefănigă, Sebastian ||| sebastian.stefaniga@e-uvt.ro | +40 0256 592
 contact: eziduserid nci
 contact: eziduserid drexeldata
 contact: eziduserid eixid
-contact: eziduserid pubref
 contact: eziduserid ucd-lucklab
 contact: eziduserid pittezid
-contact: eziduserid umms-candi
 contact: eziduserid uc-geer
 contact: Chattopadhyay, Arka ||| sanglapthejournal@gmail.com |
 contact: eziduserid facebase
 contact: eziduserid isi-isrd
 contact: eziduserid nci_asset
 contact: eziduserid lccnetwork
-contact: eziduserid aep
 contact: Sepulveda, Jean José ||| sepulvedajj@mairie-aixenprovence.fr |
 contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
 contact: eziduserid ipums
@@ -453,11 +440,9 @@ contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
 contact: eziduserid adaptive
 contact: eziduserid ucb-geotech
-contact: eziduserid datactr3
 contact: Maday, Charlotte ||| Charlotte.Maday@saint-gobain.com | +33(0)147625405
 contact: Warren, Michelle ||| michelle.r.warren@dartmouth.edu | +1-603-646-6498
 contact: eziduserid dartremix
-contact: eziduserid gns_science
 contact: eziduserid icrisat
 contact: eziduserid ucsd_ida
 contact: Naddeo, Etienne ||| etienne.naddeo@grand-troyes.fr | +33 (0)325435638
@@ -621,6 +606,10 @@ contact: McGibbney, Lewis John (Data Scientist) ||| lewis.j.mcgibbney@jpl.nasa.g
 contact: BAUMARD, Raphael (Archivist) ||| raphael.baumard@culture.gouv.fr | 
 contact: Buget, Jérémy (CTO) ||| jeremy.buget@pix.fr | 
 contact: Ibarra, Beatrice (Editor) ||| editor@scmjournals.com | 
+contact: Penicaut, Emmanuel (Conservateur) ||| emmanuel.penicaut@culture.gouv.fr | 
+contact: Sandoval, Vicente (Editor) ||| vsandova@fiu.edu | 
+contact: Varela, Karine (Directrice des relations éditeurs) ||| karine.varela@cision.com | 
+contact: Cambos, Marie-Hélène (Chef de projet fonctionnel) ||| marie-helene.cambos@cd31.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

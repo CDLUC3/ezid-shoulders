@@ -82,15 +82,12 @@ RedirectMatch ^/((ark:/85063)|85063/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/85064)|85064/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/85065)|85065/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/85066)|85066/?)(.*)$ http://n2t.net/$2$3
-RedirectMatch ^/((ark:/83334)|83334/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/73873)|73873/?)(.*)$ http://www.paris.fr/$2$3
 RedirectMatch ^/((ark:/60877)|60877/?)(.*)$ http://www.cg58.fr/services-au-public/archives-departementales/$2$3
 RedirectMatch ^/((ark:/32149)|32149/?)(.*)$ http://www.sondaqui.com/$2$3
-RedirectMatch ^/((ark:/85967)|85967/?)(.*)$ http://www.indiana.edu/$2$3
 RedirectMatch ^/((ark:/85067)|85067/?)(.*)$ http://www.nasa.gov/goddard/$2$3
 RedirectMatch ^/((ark:/85069)|85069/?)(.*)$ http://www.opentopography.org/$2$3
 RedirectMatch ^/((ark:/86067)|86067/?)(.*)$ http://www.digitalantiquity.org/$2$3
-RedirectMatch ^/((ark:/86068)|86068/?)(.*)$ http://www.conquestsystems.com/$2$3
 RedirectMatch ^/((ark:/86071)|86071/?)(.*)$ http://ucmercedlibrary.info/$2$3
 RedirectMatch ^/((ark:/86072)|86072/?)(.*)$ http://www.signaling-gateway.org/$2$3
 RedirectMatch ^/((ark:/86076)|86076/?)(.*)$ http://www.fhcrc.org/$2$3
@@ -104,7 +101,6 @@ RedirectMatch ^/((ark:/86085)|86085/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/22231)|22231/?)(.*)$ http://www.archives-numerisees.ain.fr/$2$3
 RedirectMatch ^/((ark:/86086)|86086/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87265)|87265/?)(.*)$ http://n2t.net/$2$3
-RedirectMatch ^/((ark:/87266)|87266/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/83449)|83449/?)(.*)$ http://www.fundp.ac.be/universite/$2$3
 RedirectMatch ^/((ark:/87268)|87268/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/84246)|84246/?)(.*)$ http://n2t.net/$2$3
@@ -115,7 +111,6 @@ RedirectMatch ^/((ark:/87272)|87272/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/57457)|57457/?)(.*)$ http://www.culture41.fr/$2$3
 RedirectMatch ^/((ark:/44803)|44803/?)(.*)$ http://www.archives.oise.fr/$2$3
 RedirectMatch ^/((ark:/87273)|87273/?)(.*)$ http://wsu.edu/$2$3
-RedirectMatch ^/((ark:/87277)|87277/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87278)|87278/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87279)|87279/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/31807)|31807/?)(.*)$ http://occ-data.org/$2$3
@@ -132,7 +127,6 @@ RedirectMatch ^/((ark:/87286)|87286/?)(.*)$ http://www.biocodecommons.org/$2$3
 RedirectMatch ^/((ark:/28387)|28387/?)(.*)$ http://www.archives-vienne.cg86.fr/$2$3
 RedirectMatch ^/((ark:/15391)|15391/?)(.*)$ http://archives.ville-saint-denis.fr/$2$3
 RedirectMatch ^/((ark:/76609)|76609/?)(.*)$ http://www.mom.fr/$2$3
-RedirectMatch ^/((ark:/87289)|87289/?)(.*)$ http://www.noaa.gov/$2$3
 RedirectMatch ^/((ark:/87290)|87290/?)(.*)$ http://lib.utk.edu/$2$3
 RedirectMatch ^/((ark:/63955)|63955/?)(.*)$ http://bvmm.irht.cnrs.fr/$2$3
 RedirectMatch ^/((ark:/50959)|50959/?)(.*)$ http://digitalcommonwealth.org/$2$3
@@ -155,7 +149,6 @@ RedirectMatch ^/((ark:/87303)|87303/?)(.*)$ http://sagebase.org/$2$3
 RedirectMatch ^/((ark:/57115)|57115/?)(.*)$ http://archives.manche.fr/$2$3
 RedirectMatch ^/((ark:/77908)|77908/?)(.*)$ http://www.broadinstitute.org/$2$3
 RedirectMatch ^/((ark:/87910)|87910/?)(.*)$ https://www.databrary.org/$2$3
-RedirectMatch ^/((ark:/87912)|87912/?)(.*)$ http://ulib.iupui.edu/$2$3
 RedirectMatch ^/((ark:/44119)|44119/?)(.*)$ http://www.wallonie.be/fr/guide/guide-services/1150/$2$3
 RedirectMatch ^/((ark:/88113)|88113/?)(.*)$ http://escience.washington.edu/$2$3
 RedirectMatch ^/((ark:/87914)|87914/?)(.*)$ http://www.fdsn.org/$2$3
@@ -182,7 +175,6 @@ RedirectMatch ^/((ark:/87927)|87927/?)(.*)$ http://ciesin.columbia.edu/$2$3
 RedirectMatch ^/((ark:/50275)|50275/?)(.*)$ http://www.vosges-archives.com/$2$3
 RedirectMatch ^/((ark:/87928)|87928/?)(.*)$ N/A/$2$3
 RedirectMatch ^/((ark:/87929)|87929/?)(.*)$ http://www.issda.ie/$2$3
-RedirectMatch ^/((ark:/87930)|87930/?)(.*)$ http://globalchange.gov/$2$3
 RedirectMatch ^/((ark:/37279)|37279/?)(.*)$ http://archives-pierresvives.herault.fr/$2$3
 RedirectMatch ^/((ark:/24625)|24625/?)(.*)$ http://archives.orleans-metropole.fr/$2$3
 RedirectMatch ^/((ark:/11629)|11629/?)(.*)$ http://una.ac.cr/$2$3
@@ -230,7 +222,6 @@ RedirectMatch ^/((ark:/87945)|87945/?)(.*)$ libraries.uc.edu/$2$3
 RedirectMatch ^/((ark:/56089)|56089/?)(.*)$ http://www.mmsh.univ-aix.fr/Pages/default.aspx/$2$3
 RedirectMatch ^/((ark:/87946)|87946/?)(.*)$ http://www.iplantcollaborative.org/$2$3
 RedirectMatch ^/((ark:/81184)|81184/?)(.*)$ http://search.library.cmu.edu/$2$3
-RedirectMatch ^/((ark:/85138)|85138/?)(.*)$ www.esrl.noaa.gov/gmd/$2$3
 RedirectMatch ^/((ark:/85139)|85139/?)(.*)$ http://www.odum.unc.edu/$2$3
 RedirectMatch ^/((ark:/85140)|85140/?)(.*)$ lib.ucdavis.edu/$2$3
 RedirectMatch ^/((ark:/85141)|85141/?)(.*)$ www.ssds.ucdavis.edu/$2$3
@@ -275,7 +266,6 @@ RedirectMatch ^/((ark:/42751)|42751/?)(.*)$ http://www.archives-aube.fr/$2$3
 RedirectMatch ^/((ark:/85788)|85788/?)(.*)$ http://chg.geog.ucsb.edu/$2$3
 RedirectMatch ^/((ark:/29755)|29755/?)(.*)$ http://www.bn-valenciennes.fr/$2$3
 RedirectMatch ^/((ark:/85782)|85782/?)(.*)$ drugdesigndata.org/$2$3
-RedirectMatch ^/((ark:/85783)|85783/?)(.*)$ http://crawdad.cs.dartmouth.edu/index.html/$2$3
 RedirectMatch ^/((ark:/85784)|85784/?)(.*)$ http://www.ldeo.columbia.edu/research/marine-geology-geophysics/integrated-earth-data-applications/$2$3
 RedirectMatch ^/((ark:/85785)|85785/?)(.*)$ http://sbgrid.org/$2$3
 RedirectMatch ^/((ark:/85786)|85786/?)(.*)$ http://www-lib.uwyo.edu/$2$3
@@ -321,17 +311,14 @@ RedirectMatch ^/((ark:/29071)|29071/?)(.*)$ http://www.uvt.ro/$2$3
 RedirectMatch ^/((ark:/87917)|87917/?)(.*)$ nciphub.org/$2$3
 RedirectMatch ^/((ark:/87918)|87918/?)(.*)$ www.library.drexel.data/$2$3
 RedirectMatch ^/((ark:/77919)|77919/?)(.*)$ https://eiexchange.com/$2$3
-RedirectMatch ^/((ark:/77920)|77920/?)(.*)$ https://pubref.org/v1/home/$2$3
 RedirectMatch ^/((ark:/88115)|88115/?)(.*)$ http://mindbrain.ucdavis.edu/labs/luck-lab/$2$3
 RedirectMatch ^/((ark:/88117)|88117/?)(.*)$ http://www.library.pitt.edu/$2$3
-RedirectMatch ^/((ark:/88116)|88116/?)(.*)$ http://www.umassmed.edu/psychiatry/candi/$2$3
 RedirectMatch ^/((ark:/88118)|88118/?)(.*)$ geerassociation.org/$2$3
 RedirectMatch ^/((ark:/16076)|16076/?)(.*)$ http://sanglap-journal.in/$2$3
 RedirectMatch ^/((ark:/88119)|88119/?)(.*)$ https://www.facebase.org/$2$3
 RedirectMatch ^/((ark:/88120)|88120/?)(.*)$ http://www.isi.edu/research/informatics/$2$3
 RedirectMatch ^/((ark:/88121)|88121/?)(.*)$ www.cancer.gov/$2$3
 RedirectMatch ^/((ark:/88123)|88123/?)(.*)$ http://http://lccnetwork.org/$2$3
-RedirectMatch ^/((ark:/88124)|88124/?)(.*)$ https://www.environments.aq/$2$3
 RedirectMatch ^/((ark:/77636)|77636/?)(.*)$ http://aix.arkotheque.fr/$2$3
 RedirectMatch ^/((ark:/88128)|88128/?)(.*)$ https://www.pop.umn.edu/$2$3
 RedirectMatch ^/((ark:/64639)|64639/?)(.*)$ http://bibliotecadigitale.regione.liguria.it/$2$3
@@ -398,10 +385,8 @@ RedirectMatch ^/((ark:/83108)|83108/?)(.*)$ http://www.tpm-agglo.fr/$2$3
 RedirectMatch ^/((ark:/70454)|70454/?)(.*)$ http://www.sesamath.net/$2$3
 RedirectMatch ^/((ark:/81417)|81417/?)(.*)$ http://www.adaptivebiotech.com/$2$3
 RedirectMatch ^/((ark:/81418)|81418/?)(.*)$ http://www.ce.berkeley.edu/programs/geo/$2$3
-RedirectMatch ^/((ark:/88125)|88125/?)(.*)$ http://www.uvm.edu/vmc/$2$3
 RedirectMatch ^/((ark:/57458)|57458/?)(.*)$ https://www.saint-gobain.com/$2$3
 RedirectMatch ^/((ark:/44461)|44461/?)(.*)$ http://sites.dartmouth.edu/RemixBrut/$2$3
-RedirectMatch ^/((ark:/81420)|81420/?)(.*)$ http://www.gns.cri.nz/$2$3
 RedirectMatch ^/((ark:/81421)|81421/?)(.*)$ http://www.icrisat.org/$2$3
 RedirectMatch ^/((ark:/81422)|81422/?)(.*)$ http://ida.ucsd.edu/$2$3
 RedirectMatch ^/((ark:/31465)|31465/?)(.*)$ http://www.mediatheque.grand-troyes.fr/$2$3
@@ -561,6 +546,10 @@ RedirectMatch ^/((ark:/73874)|73874/?)(.*)$ https://www.jpl.nasa.gov/$2$3
 RedirectMatch ^/((ark:/60879)|60879/?)(.*)$ http://www.archivesnationales.culture.gouv.fr/camt/$2$3
 RedirectMatch ^/((ark:/48224)|48224/?)(.*)$ http://pix.fr/$2$3
 RedirectMatch ^/((ark:/35229)|35229/?)(.*)$ http://scmjournals.com/ojs/index.php/index/index/$2$3
+RedirectMatch ^/((ark:/22232)|22232/?)(.*)$ http://www.mediatheque-patrimoine.culture.gouv.fr/$2$3
+RedirectMatch ^/((ark:/70455)|70455/?)(.*)$ http://revistareder.com/$2$3
+RedirectMatch ^/((ark:/57800)|57800/?)(.*)$ http://www.europresse.com/$2$3
+RedirectMatch ^/((ark:/44805)|44805/?)(.*)$ http://archives.haute-garonne.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3
