@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.09.17
+when:	2018.10.04
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -5518,6 +5518,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Cambos, Marie-Hélène (Chef de projet fonctionnel) ||| marie-helene.cambos@cd31.fr | 
 !address: 11 Boulevard Griffoul Dorval, 31400 Toulouse, France
+
+naa:
+who:	Archives départementales du Gard (=) AD30
+what:	31808
+when:	2018.10.10
+where:	http://www.archives.gard.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: MARTINON, Nicolas (Archivist) ||| nicolas.martinon@gard.fr | 
+!address: 365, rue du Forez, Nîmes, 30000, France
 
 naa:
 who:	Metadata Terms (=) TERMS

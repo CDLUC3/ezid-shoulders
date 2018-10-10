@@ -610,6 +610,7 @@ contact: Penicaut, Emmanuel (Conservateur) ||| emmanuel.penicaut@culture.gouv.fr
 contact: Sandoval, Vicente (Editor) ||| vsandova@fiu.edu | 
 contact: Varela, Karine (Directrice des relations éditeurs) ||| karine.varela@cision.com | 
 contact: Cambos, Marie-Hélène (Chef de projet fonctionnel) ||| marie-helene.cambos@cd31.fr | 
+contact: MARTINON, Nicolas (Archivist) ||| nicolas.martinon@gard.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

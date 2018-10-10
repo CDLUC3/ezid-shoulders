@@ -549,6 +549,7 @@
 70455	Revista de Estudios Latinoamericanos sobre Reducción del Riesgo de Desastres (=) Journal of Latin American Studies on Disaster Risk Reduction (=) REDER
 57800	CEDROM-SNI (=) CEDROM
 44805	Archives de la Haute-Garonne (=) AD31
+31808	Archives départementales du Gard (=) AD30
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

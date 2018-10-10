@@ -550,6 +550,7 @@ RedirectMatch ^/((ark:/22232)|22232/?)(.*)$ http://www.mediatheque-patrimoine.cu
 RedirectMatch ^/((ark:/70455)|70455/?)(.*)$ http://revistareder.com/$2$3
 RedirectMatch ^/((ark:/57800)|57800/?)(.*)$ http://www.europresse.com/$2$3
 RedirectMatch ^/((ark:/44805)|44805/?)(.*)$ http://archives.haute-garonne.fr/$2$3
+RedirectMatch ^/((ark:/31808)|31808/?)(.*)$ http://www.archives.gard.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

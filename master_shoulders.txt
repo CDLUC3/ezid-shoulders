@@ -215,6 +215,18 @@
 # lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
 # ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
 # sb-eschol   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/h9 eedk
+# ucd-eschol  nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/l2 eedk
+
+:: doi:10.5070/L2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship
+date: 2018.10.08
+minter: https://n2t.net/a/ezid/m/ark/b5070/l2
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
 
 :: doi:10.5070/H9
 type: shoulder

@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 # Prefixes to re-cycle:
 #    < 10.7276 10.7296 >
@@ -3570,23 +3570,6 @@ name: University of Illinois Libraries NADP
 date: 2013.12.16
 minter: https://n2t.net/a/ezid/m/ark/83012/j5
 
-:: ark:/87930/j1
-type: shoulder
-manager: ezid
-#eziduser: usgcrp
-name: U.S. Global Change Research Program
-date: 2013.11.08
-minter: https://n2t.net/a/ezid/m/ark/87930/j1
-
-:: doi:10.7930/J0
-type: shoulder
-manager: ezid
-#eziduser: usgcrp
-name: U.S. Global Change Research Program
-date: 2013.11.08
-minter: https://n2t.net/a/ezid/m/ark/b7930/j0
-datacenter: CDL.USGCRP
-
 :: ark:/87929/
 type: shoulder
 is_supershoulder: true
@@ -5527,11 +5510,6 @@ name: University of Auckland
 type: datacenter
 manager: ezid
 name: U.S. Fish and Wildlife Service
-
-:: datacite:CDL.USGCRP
-type: datacenter
-manager: ezid
-name: U.S. Global Change Research Program/UCAR
 
 :: datacite:CDL.USU
 type: datacenter
