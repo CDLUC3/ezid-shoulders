@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.10.10
+when:	2018.10.22
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -844,13 +844,6 @@ where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2011 |
 
 naa:
-who:	Consortium on Qualitative Research Methods (=) CQRM
-what:	85064
-when:	2011.12.13
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2011 |
-
-naa:
 who:	National Center for Atmospheric Research (=) NCAR
 what:	85065
 when:	2011.12.13
@@ -886,24 +879,10 @@ where:	http://www.sondaqui.com
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
-who:	NASA Goddard Space Flight Center (=) NASAGSFC
-what:	85067
-when:	2012.01.24
-where:	http://www.nasa.gov/goddard
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
 who:	SDSC OpenTopography Facility (=) SDSCOTF
 what:	85069
 when:	2012.02.07
 where:	http://www.opentopography.org
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
-who:	Digital Antiquity (=) DIGANT
-what:	86067
-when:	2012.02.21
-where:	http://www.digitalantiquity.org
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
@@ -1381,13 +1360,6 @@ what:	79687
 when:	2013.07.28
 where:	http://www.sfsymphony.org
 how:	NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    NASA Center for Climate Simulation (=) NCCS
-what:   77917
-when:   2013.08.02
-where:  http://www.nccs.nasa.gov
-how:    NP | (:unkn) unknown | 2013 |
 
 naa:
 who:	Musée des Augustins (=) MDA
@@ -2272,13 +2244,6 @@ where:	chicagocollectionsconsortium.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    University of Auckland (=) UOA
-what:   87608
-when:   2015.04.03
-where:	http://www.auckland.ac.nz/en.html
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    Incorporated Research Institutions for Seismology (=) IRIS
 what:   87611
 when:   2015.04.06
@@ -2970,13 +2935,6 @@ what:	70454
 when:	2016.07.06
 where:	http://www.sesamath.net
 how:	FP | (:unkn) unknown | 2016 |
-
-naa:
-who:    Adaptive Biotechnologies (=) ADAPTIVE
-what:   81417
-when:   2016.07.08
-where:	http://www.adaptivebiotech.com
-how:	NP | (:unkn) unknown | 2016 |
 
 naa:
 who:    UCB Geotechnical Engineering Research (=) UCBGT
@@ -4145,6 +4103,13 @@ who:	Archives départementales du Gard (=) AD30
 what:	31808
 when:	2018.10.10
 where:	http://www.archives.gard.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives départementales de la Charente-Maritime (=) ADCM
+what:	18812
+when:	2018.10.22
+where:	https://archives.charente-maritime.fr
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

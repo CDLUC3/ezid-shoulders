@@ -1,16 +1,89 @@
-diff -r 46587741427e naans/master_naans
---- a/naans/master_naans	Thu Oct 04 14:06:39 2018 -0700
-+++ b/naans/master_naans	Wed Oct 10 10:35:32 2018 -0700
-@@ -5522,2 +5522,12 @@
+diff -r 648de5b12760 naans/master_naans
+--- a/naans/master_naans	Wed Oct 10 10:35:32 2018 -0700
++++ b/naans/master_naans	Mon Oct 22 11:45:05 2018 -0700
+@@ -1036,11 +1036,2 @@
  naa:
-+who:	Archives départementales du Gard (=) AD30
-+what:	31808
-+when:	2018.10.10
-+where:	http://www.archives.gard.fr
+-who:	Consortium on Qualitative Research Methods (=) CQRM
+-what:	85064
+-when:	2011.12.13
+-where:	http://n2t.net
+-how:	NP | (:unkn) unknown | 2011 |
+-!why:	EZID ARK
+-!contact: EZID userid qdr_cqrm
+-
+-naa:
+ who:	National Center for Atmospheric Research (=) NCAR
+@@ -1090,11 +1081,2 @@
+ naa:
+-who:	NASA Goddard Space Flight Center (=) NASAGSFC
+-what:	85067
+-when:	2012.01.24
+-where:	http://www.nasa.gov/goddard
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid eosdis
+-
+-naa:
+ who:	SDSC OpenTopography Facility (=) SDSCOTF
+@@ -1108,11 +1090,2 @@
+ naa:
+-who:	Digital Antiquity (=) DIGANT
+-what:	86067
+-when:	2012.02.21
+-where:	http://www.digitalantiquity.org
+-how:	NP | (:unkn) unknown | 2012 |
+-!why:	EZID ARK
+-!contact: EZID userid tdar
+-
+-naa:
+ who:	University of California Merced (=) UCM
+@@ -1740,11 +1713,2 @@
+ naa:
+-who:    NASA Center for Climate Simulation (=) NCCS
+-what:   77917
+-when:   2013.08.02
+-where:  http://www.nccs.nasa.gov
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid nasa_nccs
+-
+-naa:
+ who:	Musée des Augustins (=) MDA
+@@ -2907,11 +2871,2 @@
+ naa:
+-who:    University of Auckland (=) UOA
+-what:   87608
+-when:   2015.04.03
+-where:	http://www.auckland.ac.nz/en.html
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid uoa
+-
+-naa:
+ who:    Incorporated Research Institutions for Seismology (=) IRIS
+@@ -3844,12 +3799,2 @@
+ naa:
+-who:    Adaptive Biotechnologies (=) ADAPTIVE
+-what:   81417
+-when:   2016.07.08
+-where:	http://www.adaptivebiotech.com
+-how:	NP | (:unkn) unknown | 2016 |
+-!why:   EZID ARK
+-!contact: eziduserid adaptive
+-!address: 1551 Eastlake Ave E #200  Seattle, WA 98102
+-
+-naa:
+ who:    UCB Geotechnical Engineering Research (=) UCBGT
+@@ -5532,2 +5477,12 @@
+ naa:
++who:	Archives départementales de la Charente-Maritime (=) ADCM
++what:	18812
++when:	2018.10.22
++where:	https://archives.charente-maritime.fr
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: MARTINON, Nicolas (Archivist) ||| nicolas.martinon@gard.fr | 
-+!address: 365, rue du Forez, Nîmes, 30000, France
++!contact: Felton, Alexander (Archivist) ||| alexander.felton@charente-maritime.fr | 
++!address: 35 Rue François de Vaux de Foletier, 17000 La Rochelle, France
 +
 +naa:
  who:	Metadata Terms (=) TERMS

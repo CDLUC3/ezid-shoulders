@@ -78,15 +78,12 @@
 12655	ACCOLAD Franche-Comté (=) ACCOLAD
 86869	Archives départementales de la Marne (=) ADMARNE
 85063	National Center for Ecological Analysis and Synthesis (=) NCEAS
-85064	Consortium on Qualitative Research Methods (=) CQRM
 85065	National Center for Atmospheric Research (=) NCAR
 85066	United States Geological Survey (=) USGS
 73873	Ville de Paris (=) VP
 60877	Archives départementales de la Nièvre (=) ADNIEVRE
 32149	Inoc Aquitania (=) INOC
-85067	NASA Goddard Space Flight Center (=) NASAGSFC
 85069	SDSC OpenTopography Facility (=) SDSCOTF
-86067	Digital Antiquity (=) DIGANT
 86071	University of California Merced (=) UCM
 86072	UCSD Signaling Gateway (=) UCSDSG
 86076	Fred Hutchinson Cancer Research Center (=) FHCRC
@@ -155,7 +152,6 @@
 87916	Columbia University Library/Information Services (=) CUL/IS
 18127	Archives départementales du Val-d'Oise (=) ADVO
 79687	San Francisco Symphony (=) SFSYMPH
-77917	NASA Center for Climate Simulation (=) NCCS
 66691	Musée des Augustins (=) MDA
 53695	American Numismatic Society (=) ANS
 87919	Advanced Graphics Lab (=) AGL
@@ -282,7 +278,6 @@
 87603	Texas Advanced Computing Center (=) TACC
 87606	American University Library (=) AUL
 87607	Chicago Collections Consortium (=) CCC
-87608	University of Auckland (=) UOA
 87611	Incorporated Research Institutions for Seismology (=) IRIS
 87612	UTA Petroleum Engineering (=) PGERR
 74558	Archives municipales de Laval (=) AMLAVAL
@@ -382,7 +377,6 @@
 21889	Editis Pôle Éducation & Référence (=) EDITISPER
 83108	Toulon Provence Méditerranée (=) TPM
 70454	Association Sésamath (=) SESAMATH
-81417	Adaptive Biotechnologies (=) ADAPTIVE
 81418	UCB Geotechnical Engineering Research (=) UCBGT
 57458	Saint-Gobain (=) STGOBAIN
 44461	Remix the Manuscript (=) RMXMANU
@@ -550,6 +544,7 @@
 57800	CEDROM-SNI (=) CEDROM
 44805	Archives de la Haute-Garonne (=) AD31
 31808	Archives départementales du Gard (=) AD30
+18812	Archives départementales de la Charente-Maritime (=) ADCM
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

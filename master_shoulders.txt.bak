@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 # Prefixes to re-cycle:
 #    < 10.7276 10.7296 >
@@ -215,6 +215,65 @@
 # lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
 # ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
 # sb-eschol   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/h9 eedk
+# ucd-eschol  nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/l2 eedk
+# tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/g1 eedk
+# tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/d2 eedk
+
+# start  of restored shoulders
+
+# make_shdr --remove doi:10.7290/D6; make_shdr --remove doi:10.7290/V7
+:: doi:10.7290/D6
+type: shoulder
+manager: ezid
+#eziduser: utk_dlp
+name: University of Tennessee Digital Library Program
+date: 2015.03.09
+minter: https://n2t.net/a/ezid/m/ark/b7290/d6
+datacenter: CDL.UTENN
+
+:: datacite:CDL.UTENN
+type: datacenter
+manager: ezid
+name: University of Tennessee
+
+:: doi:10.7290/V7
+type: shoulder
+manager: ezid
+#eziduser: tkn
+name: University of Tennessee
+date: 2013.01.18
+minter: https://n2t.net/a/ezid/m/ark/b7290/v7
+datacenter: CDL.UTENN
+crossref: true
+
+# end of restored shoulders
+
+:: ark:/81423/d2
+type: shoulder
+manager: ezid
+#eziduser: tamu_ezid
+name: Texas A&M Univ DigProjects
+date: 2018.10.17
+minter: https://n2t.net/a/ezid/m/ark/81423/d2
+
+:: ark:/81423/g1
+type: shoulder
+manager: ezid
+#eziduser: tamu_ezid
+name: Texas A&M Univ MSL
+date: 2018.10.17
+minter: https://n2t.net/a/ezid/m/ark/81423/g1
+
+:: doi:10.5070/L2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship
+date: 2018.10.08
+minter: https://n2t.net/a/ezid/m/ark/b5070/l2
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
 
 :: doi:10.5070/H9
 type: shoulder
@@ -1349,28 +1408,6 @@ datacenter: CDL.UCB
 crossref: true
 prefix_shares_datacenter: true
 
-:: ark:/81417/b4
-type: shoulder
-manager: ezid
-#eziduser: adaptive
-name: Adaptive Biotechnologies
-date: 2016.07.08
-minter: https://n2t.net/a/ezid/m/ark/81417/b4
-
-:: datacite:PURDUE.ADAPTIVE
-type: datacenter
-manager: ezid
-name: Adaptive Biotechnologies
-
-:: doi:10.21417/B7
-type: shoulder
-manager: ezid
-#eziduser: adaptive
-name: Adaptive Biotechnologies
-date: 2016.07.08
-minter: https://n2t.net/a/ezid/m/ark/d1417/b7
-datacenter: PURDUE.ADAPTIVE
-
 :: ark:/81415/b4
 type: shoulder
 manager: ezid
@@ -2432,23 +2469,6 @@ date: 2015.04.06
 minter: https://n2t.net/a/ezid/m/ark/c7610/t7
 datacenter: CDL.ICA
 
-:: ark:/87608/k8
-type: shoulder
-manager: ezid
-#eziduser: uoa
-name: University of Auckland
-date: 2015.04.03
-minter: https://n2t.net/a/ezid/m/ark/87608/k8
-
-:: doi:10.17608/K6
-type: shoulder
-manager: ezid
-#eziduser: uoa
-name: University of Auckland
-date: 2015.04.03
-minter: https://n2t.net/a/ezid/m/ark/c7608/k6
-datacenter: CDL.UOA
-
 :: ark:/87607/c7
 type: shoulder
 manager: ezid
@@ -2550,15 +2570,6 @@ manager: ezid
 name: Parcours EGO-PAC
 date: 2015.03.16
 minter: https://n2t.net/a/ezid/m/ark/19153/p4
-
-:: doi:10.7290/D6
-type: shoulder
-manager: ezid
-#eziduser: utk_dlp
-name: University of Tennessee Digital Library Program
-date: 2015.03.09
-minter: https://n2t.net/a/ezid/m/ark/b7290/d6
-datacenter: CDL.UTENN
 
 :: ark:/75788/m4
 type: shoulder
@@ -3786,23 +3797,6 @@ date: 2013.08.29
 minter: https://n2t.net/a/ezid/m/ark/b5063/f1
 datacenter: CDL.NCEAS
 
-:: ark:/77917/f0
-type: shoulder
-manager: ezid
-#eziduser: nasa-nccs
-name: NASA Center for Climate Simulation (NCCS)
-date: 2013.08.02
-minter: https://n2t.net/a/ezid/m/ark/77917/f0
-
-:: doi:10.7917/D7
-type: shoulder
-manager: ezid
-#eziduser: nasa-nccs
-name: NASA Center for Climate Simulation (NCCS)
-date: 2013.08.02
-minter: https://n2t.net/a/ezid/m/ark/b7917/d7
-datacenter: CDL.NCCS
-
 # This has a new minter on it.  For temporary ids with no defined
 # expiration date ('8' suggests infinity).
 :: ark:/99999/fk8
@@ -4069,16 +4063,6 @@ manager: ezid
 name: University of Tennessee
 date: 2013.01.18
 minter: https://n2t.net/a/ezid/m/ark/87290/v8
-
-:: doi:10.7290/V7
-type: shoulder
-manager: ezid
-#eziduser: tkn
-name: University of Tennessee
-date: 2013.01.18
-minter: https://n2t.net/a/ezid/m/ark/b7290/v7
-datacenter: CDL.UTENN
-crossref: true
 
 :: doi:10.7288/V4
 type: shoulder
@@ -4621,23 +4605,6 @@ minter: https://n2t.net/a/ezid/m/ark/b6071/h8
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
 
-:: ark:/86067/xcv8
-type: shoulder
-manager: ezid
-#eziduser: xcv8
-name: Digital Antiquity
-date: 2012.02.21
-minter: https://n2t.net/a/ezid/m/ark/86067/xcv8
-
-:: doi:10.6067/XCV8
-type: shoulder
-manager: ezid
-#eziduser: xcv8
-name: Digital Antiquity
-date: 2012.02.21
-minter: https://n2t.net/a/ezid/m/ark/b6067/xcv8
-datacenter: CDL.DIGANT
-
 :: ark:/85069/g8
 type: shoulder
 manager: ezid
@@ -4654,23 +4621,6 @@ name: OpenTopography Facility
 date: 2012.02.07
 minter: https://n2t.net/a/ezid/m/ark/b5069/g9
 datacenter: CDL.SDSCOT
-
-:: ark:/85067/g6
-type: shoulder
-manager: ezid
-#eziduser: eosdis
-name: NASA Goddard Space Flight Center (GSFC)
-date: 2012.01.24
-minter: https://n2t.net/a/ezid/m/ark/85067/g6
-
-:: doi:10.5067/
-type: shoulder
-manager: ezid
-#eziduser: eosdis
-name: NASA Goddard Space Flight Center (GSFC)
-date: 2012.01.24
-minter: https://n2t.net/a/ezid/m/ark/b5067/g7
-datacenter: CDL.NASAGSFC
 
 :: ark:/21198/r2
 type: shoulder
@@ -4722,23 +4672,6 @@ name: National Center for Atmospheric Research (NCAR)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/b5065/d6
 datacenter: CDL.NCAR
-
-:: ark:/85064/f5
-type: shoulder
-manager: ezid
-#eziduser: qdr_cqrm
-name: Consortium for Qualitative Research Methods
-date: 2011.12.12
-minter: https://n2t.net/a/ezid/m/ark/85064/f5
-
-:: doi:10.5064/F6
-type: shoulder
-manager: ezid
-#eziduser: qdr_cqrm
-name: Consortium for Qualitative Research Methods
-date: 2011.12.12
-minter: https://n2t.net/a/ezid/m/ark/b5064/f6
-datacenter: CDL.QDR
 
 :: ark:/85063/f2
 type: shoulder
@@ -5121,11 +5054,6 @@ type: datacenter
 manager: ezid
 name: Harvard Dataverse
 
-:: datacite:CDL.DIGANT
-type: datacenter
-manager: ezid
-name: Digital Antiquity
-
 :: datacite:CDL.DRXLDATA
 type: datacenter
 manager: ezid
@@ -5251,20 +5179,10 @@ type: datacenter
 manager: ezid
 name: Montana State University
 
-:: datacite:CDL.NASAGSFC
-type: datacenter
-manager: ezid
-name: NASA Goddard Space Flight Center (GSFC)
-
 :: datacite:CDL.NCAR
 type: datacenter
 manager: ezid
 name: National Center for Atmospheric Research (NCAR)
-
-:: datacite:CDL.NCCS
-type: datacenter
-manager: ezid
-name: NASA Center for Climate Simulation (NCCS)
 
 :: datacite:CDL.NCEAS
 type: datacenter
@@ -5305,11 +5223,6 @@ name: University of Pittsburgh
 type: datacenter
 manager: ezid
 name: Pitt Quantum Repository
-
-:: datacite:CDL.QDR
-type: datacenter
-manager: ezid
-name: Consortium for Qualitative Research Methods
 
 :: datacite:CDL.R2R
 type: datacenter
@@ -5501,11 +5414,6 @@ type: datacenter
 manager: ezid
 name: University of New Mexico Libraries
 
-:: datacite:CDL.UOA
-type: datacenter
-manager: ezid
-name: University of Auckland
-
 :: datacite:CDL.USFWS
 type: datacenter
 manager: ezid
@@ -5520,11 +5428,6 @@ name: Utah State University Merrill-Cazier Library
 type: datacenter
 manager: ezid
 name: University of Texas at Austin
-
-:: datacite:CDL.UTENN
-type: datacenter
-manager: ezid
-name: University of Tennessee
 
 :: datacite:CDL.UUTAH
 type: datacenter
