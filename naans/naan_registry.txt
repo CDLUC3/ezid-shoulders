@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.10.22
+when:	2018.10.30
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1663,13 +1663,6 @@ where:	http://www.in2p3.fr
 how:	NP | (:unkn) unknown | 2014 |
 
 naa:
-who:    The Cancer Imaging Archive (=) TCIA
-what:   87937
-when:   2014.03.21
-where:  https://www.cancerimagingarchive.net
-how:    NP | (:unkn) unknown | 2014 |
-
-naa:
 who:	Archives départementales de l'Ille-et-Vilaine (=) AD35
 what:	49933
 when:	2014.03.21
@@ -2909,13 +2902,6 @@ where:	http://ark.universalis-edu.com
 how:	NP | (:unkn) unknown | 2016 |
 
 naa:
-who:    TalkBank (=) TALKBANK
-what:   81415
-when:   2016.06.23
-where:	http://talkbank.org
-how:	NP | (:unkn) unknown | 2016 |
-
-naa:
 who:	Editis Pôle Éducation & Référence (=) EDITISPER
 what:	21889
 when:	2016.06.27
@@ -4110,6 +4096,34 @@ who:	Archives départementales de la Charente-Maritime (=) ADCM
 what:	18812
 when:	2018.10.22
 where:	https://archives.charente-maritime.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	UCLA Library Data Science Center (=) UCLADATASCI
+what:	87610
+when:	2018.10.24
+where:	http://www.library.ucla.edu/location/data-science-center
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	UC Davis Online Strategies (=) UCD-ONS
+what:	85781
+when:	2018.10.24
+where:	https://library.ucdavis.edu
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	NEOTIS (=) NEOTIS
+what:	67376
+when:	2018.10.30
+where:	http://assimo.com
+how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Escuela de Ciencias de la Ingeniería y Tecnología, Universidad Autónoma de Baja California (=) School of Engineering Sciences and Technology, Autonomous University of Baja California (=) ECITEC
+what:	54381
+when:	2018.10.30
+where:	http://citecuvp.tij.uabc.mx
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

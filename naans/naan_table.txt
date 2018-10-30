@@ -195,7 +195,6 @@
 75583	Archives départementales des Ardennes (=) ADARDENN
 87936	Washington University in St. Louis (=) WUSTL
 62929	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
-87937	The Cancer Imaging Archive (=) TCIA
 49933	Archives départementales de l'Ille-et-Vilaine (=) AD35
 36937	Archives départementales des Yvelines (=) ADYVEL
 87938	Statistics (ResearchCompendia.org) (=) STATSRC
@@ -373,7 +372,6 @@
 81239	Marine and Coastal Research Institute of Columbia (=) INVEMAR
 47882	Cabrilog SAS (=) CABRILOG
 34885	Encyclopædia Universalis (=) ENCYCLOU
-81415	TalkBank (=) TALKBANK
 21889	Editis Pôle Éducation & Référence (=) EDITISPER
 83108	Toulon Provence Méditerranée (=) TPM
 70454	Association Sésamath (=) SESAMATH
@@ -545,6 +543,10 @@
 44805	Archives de la Haute-Garonne (=) AD31
 31808	Archives départementales du Gard (=) AD30
 18812	Archives départementales de la Charente-Maritime (=) ADCM
+87610	UCLA Library Data Science Center (=) UCLADATASCI
+85781	UC Davis Online Strategies (=) UCD-ONS
+67376	NEOTIS (=) NEOTIS
+54381	Escuela de Ciencias de la Ingeniería y Tecnología, Universidad Autónoma de Baja California (=) School of Engineering Sciences and Technology, Autonomous University of Baja California (=) ECITEC
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

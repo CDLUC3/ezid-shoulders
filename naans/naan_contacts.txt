@@ -223,7 +223,6 @@ contact: MONTAT, Eric ||| eric.montat@cd08.fr |
 contact: Bernardet, Franck | www.arkotheque.fr || franck@1egal2.com | +33 04 91 29 90 50
 contact: eziduserid doiwustl
 contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
-contact: eziduserid tcia-ezid
 contact: Claudel, Céline ||| celine.claudel@cg35.fr |
 contact: Aubrée, Bertrand | SICEM || bertrand.aubree@sicem.fr | +33 01.40.43.03.61
 contact: Éon, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
@@ -429,7 +428,6 @@ contact: Monnerie, Christophe ||| monnerie@edumedia-sciences.com | +33 951 851 3
 contact: eziduserid invemarodi
 contact: Laborde, Jean-Marie ||| jean-marie.laborde@cabri.com | +33 (0)4 76 43 97 00
 contact: Boiteux, Eric ||| eboiteux@universalis.fr |
-contact: eziduserid talkbank
 contact: Revellin, Bruno | SEJER || brevellin@sejer.fr |
 contact: Gibaud-Arnaud, Gisele ||| garnaud@tpmed.org | +33 (0)4 94 46 73 93
 contact: Caillibaud, Daniel ||| daniel.caillibaud@sesamath.net | +33 (0)4 82 53 33 48
@@ -606,6 +604,10 @@ contact: Varela, Karine (Directrice des relations éditeurs) ||| karine.varela@c
 contact: Cambos, Marie-Hélène (Chef de projet fonctionnel) ||| marie-helene.cambos@cd31.fr | 
 contact: MARTINON, Nicolas (Archivist) ||| nicolas.martinon@gard.fr | 
 contact: Felton, Alexander (Archivist) ||| alexander.felton@charente-maritime.fr | 
+contact: eziduserid ucla-dataverse
+contact: eziduserid ucd-legacy
+contact: DUFAYS, Benoit (CEO) ||| contact@neotis.fr | 
+contact: Villarreal, Luis (Managing editor) ||| recit.ecitecvlp@uabc.edu.mx | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

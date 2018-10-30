@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.10.22
+when:	2018.10.30
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -2108,15 +2108,6 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: Guesnon, Sandrine ||| guesnon@lpccaen.in2p3.fr | +33 02.31.45.25.20
 
 naa:
-who:    The Cancer Imaging Archive (=) TCIA
-what:   87937
-when:   2014.03.21
-where:  https://www.cancerimagingarchive.net
-how:    NP | (:unkn) unknown | 2014 |
-!why:   EZID ARK
-!contact: eziduserid tcia-ezid
-
-naa:
 who:	Archives départementales de l'Ille-et-Vilaine (=) AD35
 what:	49933
 when:	2014.03.21
@@ -3755,16 +3746,6 @@ how:	NP | (:unkn) unknown | 2016 |
 !why:	ARK
 !contact: Boiteux, Eric ||| eboiteux@universalis.fr |
 !address: 88 ter avenue du Général Leclerc, 92100 Boulogne-Billancourt, France
-
-naa:
-who:    TalkBank (=) TALKBANK
-what:   81415
-when:   2016.06.23
-where:	http://talkbank.org
-how:	NP | (:unkn) unknown | 2016 |
-!why:   EZID ARK
-!contact: eziduserid talkbank
-!address: c/o Brian MacWhinney  CMU-Psychology  5000 Forbes Ave Pittsburgh. PA 15213
 
 naa:
 who:	Editis Pôle Éducation & Référence (=) EDITISPER
@@ -5483,6 +5464,46 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Felton, Alexander (Archivist) ||| alexander.felton@charente-maritime.fr | 
 !address: 35 Rue François de Vaux de Foletier, 17000 La Rochelle, France
+
+naa:
+who:	UCLA Library Data Science Center (=) UCLADATASCI
+what:	87610
+when:	2018.10.24
+where:	http://www.library.ucla.edu/location/data-science-center
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid ucla-dataverse
+!address: UCLA - Young Research Library, 280 Charles Young Drive  Tim Dennis - UCLA Dataverse, Data Science Center Dep. # 21536, Los Angeles, CA 90095-1575
+
+naa:
+who:	UC Davis Online Strategies (=) UCD-ONS
+what:	85781
+when:	2018.10.24
+where:	https://library.ucdavis.edu
+how:	NP | (:unkn) unknown | 2018 |
+!why:	EZID ARK
+!contact: eziduserid ucd-legacy
+!address: Quinn Hart, UC Davis Library, 100 NW Quad, University of California, Davis, Davis, CA 95616
+
+naa:
+who:	NEOTIS (=) NEOTIS
+what:	67376
+when:	2018.10.30
+where:	http://assimo.com
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: DUFAYS, Benoit (CEO) ||| contact@neotis.fr | 
+!address: 11 rue alienor, 17220, Bourgneuf, France
+
+naa:
+who:	Escuela de Ciencias de la Ingeniería y Tecnología, Universidad Autónoma de Baja California (=) School of Engineering Sciences and Technology, Autonomous University of Baja California (=) ECITEC
+what:	54381
+when:	2018.10.30
+where:	http://citecuvp.tij.uabc.mx
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Villarreal, Luis (Managing editor) ||| recit.ecitecvlp@uabc.edu.mx | 
+!address: Blvd. Universitario 1000, Unidad Valle de las Palmas, Tijuana, Baja California, C.P. 21500, Mexico
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -74,8 +74,8 @@
 
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87610 85781 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
+#    < 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 87937 81415 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 # Prefixes to re-cycle:
 #    < 10.7276 10.7296 >
@@ -103,7 +103,7 @@
 #
 # xxx unassigned CDL-only prefixes:  10.7918
 # STACKTOP
-# 10.25346 10.25347 10.25348 10.25349 10.25350 10.25351 10.25352
+# 10.25348 10.25349 10.25350 10.25351 10.25352
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -134,7 +134,6 @@
 # ucsdspra make_ezacct -n 10.21238 s8 "" s3 < ezaccts/newacct > out
 # invemar  make_ezacct -n 10.21239 v9 "" m9 < ezaccts/newacct > out
 # siue     make_ezacct -n 10.21414 t4 "" d2 < ezaccts/newacct > out
-# talkbank make_ezacct -n 10.21415 t5 "" b4 < ezaccts/newacct > out
 # adaptive make_ezacct -n 10.21417 b7 "" b4 < ezaccts/newacct > out
 # ucbgt    make_ezacct -n 10.21418 g8 "" g4 < ezaccts/newacct > out
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
@@ -215,38 +214,46 @@
 # lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
 # ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
 # sb-eschol   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/h9 eedk
-# ucd-eschol  nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/l2 eedk
 # tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/g1 eedk
 # tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/d2 eedk
+# ucla-dverse make_ezacct -n 10.25346 s6 87610 s7  < ezaccts/newacct > out
+# ucd-legacy  make_ezacct -n 10.25347 d7 85781 m7  < ezaccts/newacct > out
 
-# start  of restored shoulders
-
-# make_shdr --remove doi:10.7290/D6; make_shdr --remove doi:10.7290/V7
-:: doi:10.7290/D6
+:: ark:/85781/m7
 type: shoulder
 manager: ezid
-#eziduser: utk_dlp
-name: University of Tennessee Digital Library Program
-date: 2015.03.09
-minter: https://n2t.net/a/ezid/m/ark/b7290/d6
-datacenter: CDL.UTENN
+#eziduser: ucd-legacy
+name: UC Davis DAMS (legacy branch)
+date: 2018.10.24
+minter: https://n2t.net/a/ezid/m/ark/85781/m7
 
-:: datacite:CDL.UTENN
-type: datacenter
-manager: ezid
-name: University of Tennessee
-
-:: doi:10.7290/V7
+:: doi:10.25347/D7
 type: shoulder
 manager: ezid
-#eziduser: tkn
-name: University of Tennessee
-date: 2013.01.18
-minter: https://n2t.net/a/ezid/m/ark/b7290/v7
-datacenter: CDL.UTENN
-crossref: true
+#eziduser: ucd-legacy
+name: UC Davis DAMS (legacy branch)
+date: 2018.10.24
+minter: https://n2t.net/a/ezid/m/ark/d5347/d7
+datacenter: CDL.UCDAVIS
+prefix_shares_datacenter: true
 
-# end of restored shoulders
+:: ark:/87610/s7
+type: shoulder
+manager: ezid
+#eziduser: ucla-dataverse
+name: UCLA Library Data Science Center
+date: 2018.10.24
+minter: https://n2t.net/a/ezid/m/ark/87610/s7
+
+:: doi:10.25346/S6
+type: shoulder
+manager: ezid
+#eziduser: ucla-dataverse
+name: UCLA Library Data Science Center
+date: 2018.10.24
+minter: https://n2t.net/a/ezid/m/ark/d5346/s6
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: ark:/81423/d2
 type: shoulder
@@ -263,17 +270,6 @@ manager: ezid
 name: Texas A&M Univ MSL
 date: 2018.10.17
 minter: https://n2t.net/a/ezid/m/ark/81423/g1
-
-:: doi:10.5070/L2
-type: shoulder
-manager: ezid
-#eziduser: ucd-eschol
-name: UC Davis eScholarship
-date: 2018.10.08
-minter: https://n2t.net/a/ezid/m/ark/b5070/l2
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
 
 :: doi:10.5070/H9
 type: shoulder
@@ -1407,28 +1403,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1418/g8
 datacenter: CDL.UCB
 crossref: true
 prefix_shares_datacenter: true
-
-:: ark:/81415/b4
-type: shoulder
-manager: ezid
-#eziduser: talkbank
-name: TalkBank
-date: 2016.06.23
-minter: https://n2t.net/a/ezid/m/ark/81415/b4
-
-:: datacite:CDL.TALKBANK
-type: datacenter
-manager: ezid
-name: TalkBank
-
-:: doi:10.21415/T5
-type: shoulder
-manager: ezid
-#eziduser: talkbank
-name: TalkBank
-date: 2016.06.23
-minter: https://n2t.net/a/ezid/m/ark/d1415/t5
-datacenter: CDL.TALKBANK
 
 :: ark:/81239/m9
 type: shoulder
@@ -3424,23 +3398,6 @@ date: 2013.06.18
 minter: https://n2t.net/a/ezid/m/ark/c8113/s1
 datacenter: PURDUE.PSIEE
 
-:: ark:/87937/m0
-type: shoulder
-manager: ezid
-#eziduser: tcia-ezid
-name: The Cancer Imaging Archive
-date: 2014.03.21
-minter: https://n2t.net/a/ezid/m/ark/87937/m0
-
-:: doi:10.7937/K9
-type: shoulder
-manager: ezid
-#eziduser: tcia-ezid
-name: The Cancer Imaging Archive
-date: 2014.03.21
-minter: https://n2t.net/a/ezid/m/ark/b7937/k9
-datacenter: CDL.TCIA
-
 :: ark:/87936/k8
 type: shoulder
 manager: ezid
@@ -3879,15 +3836,6 @@ name: Penn State Institutes of Energy and the Environment/PSU Data Commons
 date: 2013.06.18
 minter: https://n2t.net/a/ezid/m/ark/c8113/d3
 datacenter: PURDUE.PSIEE
-
-:: doi:10.7910/DVN
-type: shoulder
-manager: ezid
-#eziduser: hdataverse
-name: Harvard Dataverse
-date: 2013.04.30
-minter:
-datacenter: CDL.DATAVERS
 
 :: ark:/77908/c2
 type: shoulder
@@ -5049,11 +4997,6 @@ type: datacenter
 manager: ezid
 name: DataMares
 
-:: datacite:CDL.DATAVERS
-type: datacenter
-manager: ezid
-name: Harvard Dataverse
-
 :: datacite:CDL.DRXLDATA
 type: datacenter
 manager: ezid
@@ -5283,11 +5226,6 @@ name: UCSD Signaling Gateway
 type: datacenter
 manager: ezid
 name: Texas Advanced Computing Center
-
-:: datacite:CDL.TCIA
-type: datacenter
-manager: ezid
-name: The Cancer Imaging Archive
 
 :: datacite:CDL.UAL
 type: datacenter
