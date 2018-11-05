@@ -127,7 +127,6 @@ contact: EZID userid uci
 contact: EZID userid jhudms
 contact: Tacail, Brigitte ||| brigitte.tacail@mairie-lyon.fr | +33 04 78 92 32 54
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
-contact: EZID userid unavco
 contact: Rey, Bertrand ||| Bertrand.REY@cg74.fr | +33 04 50 66 84 20
 contact: EZID userid rvdata_us
 contact: EZID userid ucsd_cmmap
@@ -317,7 +316,6 @@ contact: eziduserid duke_morpho
 contact: Eymeret-Dauvois, Isabelle ||| +33 2.43.54.74.74 |
 contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
 contact: eziduserid uta_tacc
-contact: eziduserid aulibrary
 contact: eziduserid ccc
 contact: eziduserid iris
 contact: eziduserid uta_peteng
@@ -608,6 +606,7 @@ contact: eziduserid ucla-dataverse
 contact: eziduserid ucd-legacy
 contact: DUFAYS, Benoit (CEO) ||| contact@neotis.fr | 
 contact: Villarreal, Luis (Managing editor) ||| recit.ecitecvlp@uabc.edu.mx | 
+contact: JIROU-NAJOU, Emmanuel (President) ||| ejirou@editions-bpi.fr | 
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

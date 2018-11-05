@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.10.30
+when:	2018.11.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1086,13 +1086,6 @@ who:	Archives municipales de LYON (=) AMLYON
 what:	18811
 when:	2012.09.17
 where:	http://www.archives-lyon.fr/archives
-how:	NP | (:unkn) unknown | 2012 |
-
-naa:
-who:	UNAVCO (=) UNAVCO
-what:	87283
-when:	2012.09.21
-where:	http://n2t.net
 how:	NP | (:unkn) unknown | 2012 |
 
 naa:
@@ -2220,13 +2213,6 @@ who:    Texas Advanced Computing Center (=) TACC
 what:   87603
 when:   2015.03.30
 where:	http://www.tacc.utexas.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    American University Library (=) AUL
-what:   87606
-when:   2015.04.01
-where:	www.american/library.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -4125,6 +4111,13 @@ what:	54381
 when:	2018.10.30
 where:	http://citecuvp.tij.uabc.mx
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Editions BPI - Best Practice Inside (=) BPIEDIT
+what:	41384
+when:	2018.11.05
+where:	http://www.editions-bpi.fr
+how:	FP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -113,7 +113,6 @@
 87280	University of California Irvine (=) UCIRVINE
 87281	Johns Hopkins University (=) JHU
 18811	Archives municipales de LYON (=) AMLYON
-87283	UNAVCO (=) UNAVCO
 67033	Archives départementales de la Haute-Savoie (=) ADHS
 87284	Rolling Deck to Repository Program (=) R2R
 87285	Center for Multiscale Modeling of Atmospheric Processes (=) CMMAP
@@ -275,7 +274,6 @@
 87602	Morphosource Project (=) MORPHOSO
 13339	Archives départementales de la Sarthe (=) AD72
 87603	Texas Advanced Computing Center (=) TACC
-87606	American University Library (=) AUL
 87607	Chicago Collections Consortium (=) CCC
 87611	Incorporated Research Institutions for Seismology (=) IRIS
 87612	UTA Petroleum Engineering (=) PGERR
@@ -547,6 +545,7 @@
 85781	UC Davis Online Strategies (=) UCD-ONS
 67376	NEOTIS (=) NEOTIS
 54381	Escuela de Ciencias de la Ingeniería y Tecnología, Universidad Autónoma de Baja California (=) School of Engineering Sciences and Technology, Autonomous University of Baja California (=) ECITEC
+41384	Editions BPI - Best Practice Inside (=) BPIEDIT
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

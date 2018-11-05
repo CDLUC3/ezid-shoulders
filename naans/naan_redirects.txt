@@ -114,7 +114,6 @@ RedirectMatch ^/((ark:/31807)|31807/?)(.*)$ http://occ-data.org/$2$3
 RedirectMatch ^/((ark:/87280)|87280/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87281)|87281/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/18811)|18811/?)(.*)$ http://www.archives-lyon.fr/archives/$2$3
-RedirectMatch ^/((ark:/87283)|87283/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/67033)|67033/?)(.*)$ http://archives.cg74.fr/$2$3
 RedirectMatch ^/((ark:/87284)|87284/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/87285)|87285/?)(.*)$ http://n2t.net/$2$3
@@ -276,7 +275,6 @@ RedirectMatch ^/((ark:/99160)|99160/?)(.*)$ http://www.oieau.fr/$2$3
 RedirectMatch ^/((ark:/87602)|87602/?)(.*)$ http://morphosource.org/$2$3
 RedirectMatch ^/((ark:/13339)|13339/?)(.*)$ http://www.archives.sarthe.com/$2$3
 RedirectMatch ^/((ark:/87603)|87603/?)(.*)$ http://www.tacc.utexas.edu/$2$3
-RedirectMatch ^/((ark:/87606)|87606/?)(.*)$ www.american/library.edu/$2$3
 RedirectMatch ^/((ark:/87607)|87607/?)(.*)$ chicagocollectionsconsortium.org/$2$3
 RedirectMatch ^/((ark:/87611)|87611/?)(.*)$ http://www.iris.edu/$2$3
 RedirectMatch ^/((ark:/87612)|87612/?)(.*)$ www.pge.utexas.edu/$2$3
@@ -548,6 +546,7 @@ RedirectMatch ^/((ark:/87610)|87610/?)(.*)$ http://www.library.ucla.edu/location
 RedirectMatch ^/((ark:/85781)|85781/?)(.*)$ https://library.ucdavis.edu/$2$3
 RedirectMatch ^/((ark:/67376)|67376/?)(.*)$ http://assimo.com/$2$3
 RedirectMatch ^/((ark:/54381)|54381/?)(.*)$ http://citecuvp.tij.uabc.mx/$2$3
+RedirectMatch ^/((ark:/41384)|41384/?)(.*)$ http://www.editions-bpi.fr/$2$3
 RedirectMatch ^/((ark:/99152)|99152/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99166)|99166/?)(.*)$ http://n2t.net/$2$3
 RedirectMatch ^/((ark:/99999)|99999/?)(.*)$ http://n2t.net/$2$3

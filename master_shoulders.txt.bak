@@ -75,7 +75,7 @@
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 87937 81415 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 87937 81415 87283 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 # Prefixes to re-cycle:
 #    < 10.7276 10.7296 >
@@ -214,10 +214,22 @@
 # lbnl-gasnet make_ezacct -n 10.25344 s4 - -  < ezaccts/newacct > out
 # ucsd_ccms   make_ezacct -n 10.25345 c5 80359 c9  < ezaccts/newacct > out
 # sb-eschol   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 b5070/h9 eedk
+# ??? wouldn't make_shdr -p have sufficed?
 # tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/g1 eedk
 # tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/d2 eedk
 # ucla-dverse make_ezacct -n 10.25346 s6 87610 s7  < ezaccts/newacct > out
 # ucd-legacy  make_ezacct -n 10.25347 d7 85781 m7  < ezaccts/newacct > out
+
+:: doi:10.5070/L2
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: L2 Journal
+date: 2018.10.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/l2
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
 
 :: ark:/85781/m7
 type: shoulder
@@ -1996,24 +2008,6 @@ date: 2015.10.20
 minter: https://n2t.net/a/ezid/m/ark/c8129/b9
 datacenter: PURDUE.NCIB
 
-:: doi:10.7283/P2
-type: shoulder
-manager: ezid
-#eziduser: unavco
-name: UNAVCO-P2
-date: 2015.10.14
-minter: https://n2t.net/a/ezid/m/ark/b7283/p2
-datacenter: CDL.UNAVCO
-
-:: doi:10.7283/R3
-type: shoulder
-manager: ezid
-#eziduser: unavco-tls
-name: UNAVCO-TLS
-date: 2015.10.14
-minter: https://n2t.net/a/ezid/m/ark/b7283/r3
-datacenter: CDL.UNAVCO
-
 :: ark:/88128/
 type: shoulder
 manager: ezid
@@ -2282,15 +2276,6 @@ minter: https://n2t.net/a/ezid/m/ark/c7908/b8
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
-:: doi:10.7283/S2
-type: shoulder
-manager: ezid
-#eziduser: unavco-sar
-name: UNAVCO SAR
-date: 2015.07.11
-minter: https://n2t.net/a/ezid/m/ark/b7283/s2
-datacenter: CDL.UNAVCO
-
 :: ark:/87616/r7
 type: shoulder
 manager: ezid
@@ -2552,15 +2537,6 @@ manager: ezid
 name: Montana State University
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/75788/m4
-
-:: doi:10.15788/M2
-type: shoulder
-manager: ezid
-#eziduser: mtstate
-name: Montana State University
-date: 2015.03.04
-minter: https://n2t.net/a/ezid/m/ark/c5788/m2
-datacenter: CDL.MSU
 
 :: ark:/85787/vtt1
 type: shoulder
@@ -4107,23 +4083,6 @@ date: 2012.09.21
 minter: https://n2t.net/a/ezid/m/ark/b7282/t3
 datacenter: CDL.RUTGERS
 
-:: ark:/87283/t6
-type: shoulder
-manager: ezid
-#eziduser: unavco
-name: UNAVCO
-date: 2012.09.21
-minter: https://n2t.net/a/ezid/m/ark/87283/t6
-
-:: doi:10.7283/T5
-type: shoulder
-manager: ezid
-#eziduser: unavco
-name: UNAVCO
-date: 2012.09.21
-minter: https://n2t.net/a/ezid/m/ark/b7283/t5
-datacenter: CDL.UNAVCO
-
 :: ark:/87281/t2
 type: shoulder
 manager: ezid
@@ -5117,11 +5076,6 @@ type: datacenter
 manager: ezid
 name: MorphoBank
 
-:: datacite:CDL.MSU
-type: datacenter
-manager: ezid
-name: Montana State University
-
 :: datacite:CDL.NCAR
 type: datacenter
 manager: ezid
@@ -5341,11 +5295,6 @@ name: UCSF Clinical & Translational Science Institute (CTSI)
 type: datacenter
 manager: ezid
 name: UCSF
-
-:: datacite:CDL.UNAVCO
-type: datacenter
-manager: ezid
-name: UNAVCO
 
 :: datacite:CDL.UNMLIB
 type: datacenter

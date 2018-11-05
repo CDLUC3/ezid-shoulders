@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.10.30
+when:	2018.11.05
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1353,15 +1353,6 @@ how:	NP | (:unkn) unknown | 2012 |
 !why:	ARK
 !contact: Tacail, Brigitte ||| brigitte.tacail@mairie-lyon.fr | +33 04 78 92 32 54
 !contact: Hautbois, Jérôme | Archimaine || jerome.hautbois@archimaine.fr | +33 02 43 64 17 10 
-
-naa:
-who:	UNAVCO (=) UNAVCO
-what:	87283
-when:	2012.09.21
-where:	http://n2t.net
-how:	NP | (:unkn) unknown | 2012 |
-!why:	EZID ARK
-!contact: EZID userid unavco
 
 naa:
 who:	Archives départementales de la Haute-Savoie (=) ADHS
@@ -2840,15 +2831,6 @@ where:	http://www.tacc.utexas.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid uta_tacc
-
-naa:
-who:    American University Library (=) AUL
-what:   87606
-when:   2015.04.01
-where:	www.american/library.edu
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid aulibrary
 
 naa:
 who:    Chicago Collections Consortium (=) CCC
@@ -5504,6 +5486,16 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Villarreal, Luis (Managing editor) ||| recit.ecitecvlp@uabc.edu.mx | 
 !address: Blvd. Universitario 1000, Unidad Valle de las Palmas, Tijuana, Baja California, C.P. 21500, Mexico
+
+naa:
+who:	Editions BPI - Best Practice Inside (=) BPIEDIT
+what:	41384
+when:	2018.11.05
+where:	http://www.editions-bpi.fr
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: JIROU-NAJOU, Emmanuel (President) ||| ejirou@editions-bpi.fr | 
+!address: 75 allée des parfumeurs, 92000 Nanterre, France
 
 naa:
 who:	Metadata Terms (=) TERMS
