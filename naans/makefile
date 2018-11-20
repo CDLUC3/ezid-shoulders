@@ -5,10 +5,11 @@
 # all rule prerequisites; use $$ to quote $; command prefixes: '@' to
 # suppress echo of a command, '-' to ignore errors.
 
+mnaans = master_naans
 FILES = private public
 #FILES = private public shoulders
 #ALL = $(FILES) commit replicate prefixes
-ALL = $(FILES) commit replicate
+ALL = $(FILES) commit publish
 TODAY = `date "+%Y.%m.%d"`
 #ALL = $(FILES) replicate
 .PHONY: print_usage $(ALL) vmsg umsg mod_date
@@ -20,6 +21,7 @@ print_usage:
 	@echo ''
 	@echo '   $ make diffs.txt   # BEFORE "all", if you plan to "announce"'
 	@echo '   $ make all         # make extra files, publish NAAN registry, and replicate'
+	@echo '   $ make publish     # make NAAN files available for public harvesting'
 	@echo '   $ make announce    # email diffs to folks at replica sites'
 	@echo ''
 	@echo 'Some other useful targets; invoke with "make <target>":'
@@ -40,7 +42,8 @@ vmsg:
 # to see that the date was set and we didn't wipe out the master file.
 # yyy replace `date` call below with a ref to $TODAY
 #
-mnaans = master_naans
+# XXX note that this code is repeated under the "naan_registry.txt" target
+#     maybe it should be in just one place
 mod_date:
 	@perl -p000 -i'.bak' -e 'BEGIN { $$today = `date "+%Y.%m.%d"`; }' \
 		-e 's/^(erc:.*when:\s*)([^\n]*\n)/$$1$$today/s and $$ok++;' \
@@ -52,7 +55,8 @@ mod_date:
 		exit 1; \
 	fi
 
-public: umsg naan_registry.txt naan_table.html naan_redirects.txt
+#public: umsg naan_registry.txt naan_table.html naan_redirects.txt
+public: umsg naan_registry.txt naan_table.html
 
 umsg:
 	@echo Making public files.
@@ -65,8 +69,12 @@ umsg:
 #	@echo 'Copying shoulders to stage.'
 #	@scp $^ $(stage):/cdlib/apache/htdocs/services/uc3/ 
 
+# The hg push below "replicates" any files that aren't on the dependency
+# list below, eg, forge/grandfathered.
+
 commit:
 	hg commit -m 'probably just new NAAN entries'
+	hg push
 
 # Private stuff
 #
@@ -98,6 +106,15 @@ naan_ezid_date.txt: master_naans
 #
 # Create naan_registry.txt, public base used for most other derivatives.
 naan_registry.txt: master_naans
+	@perl -p000 -i'.bak' -e 'BEGIN { $$today = `date "+%Y.%m.%d"`; }' \
+		-e 's/^(erc:.*when:\s*)([^\n]*\n)/$$1$$today/s and $$ok++;' \
+		-e 'END { $$ok or print "ERROR -- mod_date failure\n"; }' \
+			$(mnaans)
+	@if [ `diff $(mnaans).bak $(mnaans) | wc -l` -gt '4' ] ; then \
+		echo PANIC -- mod_date target changed more than expected: ; \
+		diff $(mnaans).bak $(mnaans) ; \
+		exit 1; \
+	fi
 	@sed '/^#!/d;/^!/d' $^ > $@
 
 naan_table.txt: naan_registry.txt
@@ -189,15 +206,15 @@ naan_table.html: naan_table.txt
 #		-e   '"<!--#include virtual=\"/includes/footer.html\" -->"', \
 #		-e   '"</div></div></body>\n</html>\n"}' \
 
-# Now we want to create lines of this form:
-#    RedirectMatch ^/((ark:/12148)|12148/?)(.*)$ http://ark.bnf.fr/$2$3
-#
-naan_redirects.txt: naan_registry.txt
-	@perl -000 -n \
-		-e 'BEGIN {print "# ARK and URL resolution for N2T\n"}' \
-		-e '/^naa:.*\nwhat:\s*(\d+).*\nwhere:\s*(\S+)/s and print ' \
-		-e '"RedirectMatch ^/((ark:/$$1)|$$1/?)(.*)\$$ $$2/\$$2\$$3\n";' \
-			$^ > $@
+## Now we want to create lines of this form:
+##    RedirectMatch ^/((ark:/12148)|12148/?)(.*)$ http://ark.bnf.fr/$2$3
+##
+#naan_redirects.txt: naan_registry.txt
+#	@perl -000 -n \
+#		-e 'BEGIN {print "# ARK and URL resolution for N2T\n"}' \
+#		-e '/^naa:.*\nwhat:\s*(\d+).*\nwhere:\s*(\S+)/s and print ' \
+#		-e '"RedirectMatch ^/((ark:/$$1)|$$1/?)(.*)\$$ $$2/\$$2\$$3\n";' \
+#			$^ > $@
 
 # xxx some dumb bug keeps wiping out the diffs.txt, so we save a dated version
 # xxx previous.announce is, for now, an aid for creating diffs manually
@@ -211,20 +228,25 @@ diffs.txt: master_naans
 stage = jak@cdlib-stage.cdlib.org
 prod = jak@www.cdlib.org
 
-# xxx this is actually a kind of "publish" as much as "replicate"
-# The hg push below "replicates" any files that aren't on the dependency
-# list below, eg, forge/grandfathered.  yyy using this step to copy most
+# Publish and make available for harvesting the NAAN files; also replicate.
+#
+# # yyy using this step to copy most
 # current copy of NAAN registry to where running resolver can find it.
 #
-replicate: naan_registry.txt naan_table.html naan_table.txt mn.asc
+# NB: xxx the copy of naan_registry.txt made in apache2/htdocs/e/ should be
+#     considered published, and to be harvested by N2T for prefix processing
+# xxx should do 'make commit' when doing publishing, with diffs accumulating
+
+publish: naan_registry.txt naan_table.html naan_table.txt mn.asc
+	@admegn validate_naans
 	@echo "Publishing to $(stage) "
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
 	@echo "Publishing to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
 	cp -p $^ $(HOME)/sv/cur/apache2/htdocs/e/
 	rm $(HOME)/sv/cur/apache2/htdocs/e/mn.asc
-	hg push
 
+# old
 	#cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/
 #prefix_files = $(HOME)/shoulders/n2tadds.yaml \
 #	$(HOME)/sv/cur/build/eggnog/t/n2t/prefixes/prefixes.yaml

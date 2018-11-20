@@ -140,7 +140,6 @@
 87300	UCSD School of Medicine, Department of Neurosciences, Mobley Lab (=) ONELAB
 87302	University of Michigan Libaries (=) UMICH
 70111	Hawaii State Archives (=) HSA
-87303	Sage Bionetworks (=) SAGEBIO
 57115	Archives départementales de la Manche (=) ADMANCHE
 77908	Broad Institute of MIT and Harvard (=) BROAD
 87910	Databrary (=) DATABRARY
@@ -260,9 +259,7 @@
 29755	Bibliothèque municipale de Valenciennes (=) Valenciennes Library (=) BMV
 85782	Drug Design Data Resource (=) D3R
 85784	Interdisciplinary Earth Data Alliance (=) IEDA
-85785	Harvard Medical School (=) SBGRID
 85786	University of Wyoming Libraries (=) UWYO
-85787	Virginia Tech Transportation Institute (=) VTTI
 16759	Sprint Investify (=) INVESTIFY
 77977	Archives départementales de la Haute-Saône (=) AD70
 64982	Archives départementales des Hautes-Pyrénées (=) ADHP
@@ -546,6 +543,12 @@
 67376	NEOTIS (=) NEOTIS
 54381	Escuela de Ciencias de la Ingeniería y Tecnología, Universidad Autónoma de Baja California (=) School of Engineering Sciences and Technology, Autonomous University of Baja California (=) ECITEC
 41384	Editions BPI - Best Practice Inside (=) BPIEDIT
+28388	Archives municipales de Saint-Nazaire (=) AMSN
+15392	CFDT - Service des archives (=) Archival Service of the French Democratic Confederation of Labor (CFDT) (=) CFDT
+76952	Projet Voltaire (=) PVOLT
+63957	Archives de la Ville de Chelles (=) AVCHELLES
+50960	Archives municipales de Belfort (=) AMBELFORT
+87296	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

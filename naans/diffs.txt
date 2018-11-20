@@ -1,40 +1,108 @@
-diff -r d6fbc27b1faa naans/master_naans
---- a/naans/master_naans	Tue Oct 30 16:36:01 2018 -0700
-+++ b/naans/master_naans	Mon Nov 05 09:40:37 2018 -0800
-@@ -1357,11 +1357,2 @@
+diff -r a0a4f71922fd naans/master_naans
+--- a/naans/master_naans	Mon Nov 05 09:40:37 2018 -0800
++++ b/naans/master_naans	Tue Nov 20 15:57:51 2018 -0800
+@@ -3,3 +3,3 @@
+ what:	Name Assigning Authority Number (NAAN) Registry
+-when:	2018.11.05
++when:	2018.11.20
+ where:	http://cdlib.org/uc3/naan_registry.txt
+@@ -1604,11 +1604,2 @@
  naa:
--who:	UNAVCO (=) UNAVCO
--what:	87283
--when:	2012.09.21
--where:	http://n2t.net
--how:	NP | (:unkn) unknown | 2012 |
--!why:	EZID ARK
--!contact: EZID userid unavco
+-who:    Sage Bionetworks (=) SAGEBIO
+-what:   87303
+-when:   2013.04.10
+-where:  http://sagebase.org
+-how:    NP | (:unkn) unknown | 2013 |
+-!why:   EZID ARK
+-!contact: eziduserid sagebio
 -
 -naa:
- who:	Archives départementales de la Haute-Savoie (=) ADHS
-@@ -2844,11 +2835,2 @@
+ who:	Archives départementales de la Manche (=) ADMANCHE
+@@ -2704,11 +2695,2 @@
  naa:
--who:    American University Library (=) AUL
--what:   87606
--when:   2015.04.01
--where:	www.american/library.edu
+-who:    Harvard Medical School (=) SBGRID
+-what:   85785
+-when:   2015.02.18
+-where:	http://sbgrid.org
 -how:	NP | (:unkn) unknown | 2015 |
 -!why:   EZID ARK
--!contact: eziduserid aulibrary
+-!contact: eziduserid sbgrid
 -
 -naa:
- who:    Chicago Collections Consortium (=) CCC
-@@ -5508,2 +5490,12 @@
+ who:    University of Wyoming Libraries (=) UWYO
+@@ -2722,11 +2704,2 @@
  naa:
-+who:	Editions BPI - Best Practice Inside (=) BPIEDIT
-+what:	41384
-+when:	2018.11.05
-+where:	http://www.editions-bpi.fr
+-who:    Virginia Tech Transportation Institute (=) VTTI
+-what:   85787
+-when:   2015.02.26
+-where:	www.vtti.vt.edu
+-how:	NP | (:unkn) unknown | 2015 |
+-!why:   EZID ARK
+-!contact: eziduserid vtti_ezid
+-
+-naa:
+ who:	Sprint Investify (=) INVESTIFY
+@@ -5500,2 +5473,63 @@
+ naa:
++who:	Archives municipales de Saint-Nazaire (=) AMSN
++what:	28388
++when:	2018.11.08
++where:	http://archives.saintnazaire.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Ouvrard, Gaëlle (Responsable de service) ||| ouvrardg@mairie-saintnazaire.fr | 
++!address: Hotel de ville, Place François Blancho, 44606 Saint-Nazaire Cedex, France
++
++naa:
++who:	CFDT - Service des archives (=) Archival Service of the French Democratic Confederation of Labor (CFDT) (=) CFDT
++what:	15392
++when:	2018.11.13
++where:	http://archives.memoires.cfdt.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Perrais, Nicolas (Archivist) ||| archives@cfdt.fr | 
++!address: 49 avenue Simon Bolivar, 75019, Paris, France
++
++naa:
++who:	Projet Voltaire (=) PVOLT
++what:	76952
++when:	2018.11.13
++where:	https://www.projet-voltaire.fr
 +how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: JIROU-NAJOU, Emmanuel (President) ||| ejirou@editions-bpi.fr | 
-+!address: 75 allée des parfumeurs, 92000 Nanterre, France
++!contact: Hudson, Zoe (Product Owner) ||| projet-gar@woonoz.com | 
++!address: 6, avenue Sidoine-Apollinaire, 69009 Lyon, France
++
++naa:
++who:	Archives de la Ville de Chelles (=) AVCHELLES
++what:	63957
++when:	2018.11.15
++where:	http://www.chelles.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Caruana, Hélène (Directrice) ||| h.caruana@chelles.fr | 
++!address: Mairie de Chelles, Parc du Souvenir, Emile Fouchard, 77505, Chelles cedex, France
++!provider: Guillaume Lory ||| guillaume.lory@empreintedigitale.fr
++
++naa:
++who:	Archives municipales de Belfort (=) AMBELFORT
++what:	50960
++when:	2018.11.20
++where:	https://archives.belfort.fr
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: GIRARDOT, Fanny (archivist) ||| archives@mairie-belfort.fr | 
++!address: 2 rue de l'ancien théâtre, 90000 BELFORT, France
++
++naa:
++who:	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
++what:	87296
++when:	2018.11.20
++where:	https://sites.dartmouth.edu/sparcl
++how:	NP | (:unkn) unknown | 2018 |
++!why:	EZID ARK
++!contact: eziduserid achiii
++!address: 3 Tuck Mall, 408 Silsby Hall, Dartmouth College, Hanover, NH 03755
 +
 +naa:
  who:	Metadata Terms (=) TERMS

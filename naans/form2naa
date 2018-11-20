@@ -48,7 +48,7 @@ with -n specified produces
   who:    Institut national de l'audiovisuel (=) INA
   what:   XXXXX
   when:   2016.09.23
-  where:  http://www.ina.fr
+  where:  https://www.ina.fr
   how:    FP | (:unkn) unknown | 2016 |
   !why:   ARK
   !contact: Poupeau, Gautier ||| gpoupeau@ina.fr |
@@ -76,7 +76,7 @@ set address = "$8"
 set mint = "nog -d ~/minters/n2t/naans mint 1"
 
 set url = `echo $website | sed 's,//*$,,'`		# remove terminal '/'
-set url = `echo $url | sed 's,^\([^h]\),http://\1,'`	# start with 'http://'
+set url = `echo $url | sed 's,^\([^h]\),https://\1,'`	# start with 'https://'
 
 # XXXX add ability to 'hold' a user-supplied NAAN
 
@@ -239,7 +239,7 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	# yyy should lc hostname part
 	$URL =~ s,[./]+\s*$,,;		# remove terminal / or . if any
 	$URL =~ m,^https?://, or
-		$URL = 'http://' . $URL;	# clothe a naked hostname
+		$URL = 'https://' . $URL;	# clothe a naked hostname
 	$provider and
 		$provider = "\n!provider: $provider";
 	$other =~ /./ and		# if it has real content
@@ -252,6 +252,7 @@ Modify 'new_naa_response' (emailed to $notify) to respond to the requester."
 	# xxx add email address to emailed response, plus note to cc joan
 	# xxx plus adjust subject line
 	unless ($no_exec) {
+# XXXXXXX dumb absolute path!
 		my $naan_rec = "$ENV{HOME}/shoulders/naans/forge/naan_rec ";
 		my $cmd = qq@$naan_rec "$acronym" "$URL" "$orgname" "$firstname ($role)" "$lastname" "$email" "" "$address"@;
 		$naan = `$cmd`;
@@ -322,7 +323,7 @@ There's nothing else you need to do right now. As you may know, we're hoping to 
 
 -John
 
-1. http://n2t.net/e/ark_ids.html
+1. https://n2t.net/e/ark_ids.html
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 John A. Kunze            jak\@ucop.edu      California Digital Library

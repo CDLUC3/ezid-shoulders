@@ -75,11 +75,11 @@
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
 #    < 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 87937 81415 87283 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
+# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
+# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 >
 #    mistakenly minted, for immediate re-use: < 24626 >
 # Prefixes to re-cycle:
-#    < 10.7276 10.7296 >
-#       (some of these may still be attached to old datacenters)
 #    purdue-only prefixes < >
 # To remove minters, eg,
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
@@ -100,10 +100,22 @@
 # Combined Purdue and CDL prefixes.
 #
 # Allocate a prefix by popping off the top of the stack (next).
+
+# NEW obtain new prefixes for CDL
+# In Fabrica UI at https://doi.datacite.org, login as "CDL", and click
+# "assign prefix".
+# NB: this replaces sending email to datacite to request a block, and
+#     replaces need to maintain a stack top and prefix recycling queue
+
+# NEW assign prefixes to a datacenter
+# In Fabrica UI at https://doi.datacite.org, login as "CDL", go to "user"
+# (datacenter), and click "assign prefix".
+# NB: this replaces old mds.datacite.org way of doing it.
 #
-# xxx unassigned CDL-only prefixes:  10.7918
 # STACKTOP
-# 10.25348 10.25349 10.25350 10.25351 10.25352
+# < 10.25349 10.25350 10.25351 10.25352 10.26081 >
+#    never assigned 4-digit CDL-only prefixes < 10.7918 >
+#    prefixes for recyling < 10.7276 10.7296 >
 #
 # when removing, remember to
 #     (1) make_shdr --remove ... to drop minters,
@@ -219,6 +231,17 @@
 # tamu_ezid   nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 81423/d2 eedk
 # ucla-dverse make_ezacct -n 10.25346 s6 87610 s7  < ezaccts/newacct > out
 # ucd-legacy  make_ezacct -n 10.25347 d7 85781 m7  < ezaccts/newacct > out
+# dohanian    make_ezacct -n 10.25348 h8 - -  < ezaccts/newacct > out
+
+:: doi:10.25348/H8
+type: shoulder
+manager: ezid
+#eziduser: ucla_dohanian
+name: UCLA Department of History
+date: 2018.11.14
+minter: https://n2t.net/a/ezid/m/ark/d5348/h8
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: doi:10.5070/L2
 type: shoulder
@@ -2445,23 +2468,6 @@ date: 2015.04.01
 minter: https://n2t.net/a/ezid/m/ark/c7607/c6
 datacenter: PURDUE.CCC
 
-:: ark:/87606/m7
-type: shoulder
-manager: ezid
-#eziduser: aulibrary
-name: American University Library
-date: 2015.04.01
-minter: https://n2t.net/a/ezid/m/ark/87606/m7
-
-:: doi:10.17606/M6
-type: shoulder
-manager: ezid
-#eziduser: aulibrary
-name: American University Library
-date: 2015.04.01
-minter: https://n2t.net/a/ezid/m/ark/c7606/m6
-datacenter: CDL.AUL
-
 :: ark:/65665/
 type: shoulder
 is_supershoulder: true
@@ -2537,40 +2543,6 @@ manager: ezid
 name: Montana State University
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/75788/m4
-
-:: ark:/85787/vtt1
-type: shoulder
-manager: ezid
-#eziduser: vtti_ezid
-name: Virginia Tech Transportation Institute
-date: 2015.02.26
-minter: https://n2t.net/a/ezid/m/ark/85787/vtt1
-
-:: doi:10.15787/VTT1
-type: shoulder
-manager: ezid
-#eziduser: vtti_ezid
-name: Virginia Tech Transportation Institute
-date: 2015.02.26
-minter: https://n2t.net/a/ezid/m/ark/c5787/vtt1
-datacenter: CDL.VTTI
-
-:: ark:/85785/
-type: shoulder
-manager: ezid
-#eziduser: sbgrid
-name: Harvard Medical School
-date: 2015.02.18
-minter:
-
-:: doi:10.15785/
-type: shoulder
-manager: ezid
-#eziduser: sbgrid
-name: Harvard Medical School
-date: 2015.02.18
-minter:
-datacenter: CDL.SBGRID
 
 :: ark:/85784/
 type: shoulder
@@ -3830,23 +3802,6 @@ date: 2013.04.24
 minter: https://n2t.net/a/ezid/m/ark/b7908/c1
 datacenter: CDL.BROAD
 
-:: ark:/87303/z4
-type: shoulder
-manager: ezid
-#eziduser: sagebio
-name: Sage Bionetworks
-date: 2013.04.10
-minter: https://n2t.net/a/ezid/m/ark/87303/z4
-
-:: doi:10.7303/
-type: shoulder
-manager: ezid
-#eziduser: sagebio
-name: Sage Bionetworks
-date: 2013.04.10
-minter:
-datacenter: CDL.SAGEBIO
-
 :: ark:/87300/x9
 type: shoulder
 manager: ezid
@@ -4866,11 +4821,6 @@ manager: other
 name: EZID binder ids
 minter:
 
-:: datacite:CDL.AUL
-type: datacenter
-manager: ezid
-name: American University Library
-
 :: datacite:CDL.BIOCODE
 type: datacenter
 manager: ezid
@@ -5141,20 +5091,10 @@ type: datacenter
 manager: ezid
 name: Rutgers University Library
 
-:: datacite:CDL.SAGEBIO
-type: datacenter
-manager: ezid
-name: Sage Bionetworks
-
 :: datacite:CDL.SBGEOG
 type: datacenter
 manager: ezid
 name: UCSB Climate Hazards Group, Dept of Geography
-
-:: datacite:CDL.SBGRID
-type: datacenter
-manager: ezid
-name: Harvard Medical School
 
 :: datacite:CDL.SCCOOS
 type: datacenter
@@ -5320,11 +5260,6 @@ name: University of Texas at Austin
 type: datacenter
 manager: ezid
 name: University of Utah
-
-:: datacite:CDL.VTTI
-type: datacenter
-manager: ezid
-name: Virginia Tech Transportation Institute
 
 :: datacite:CDL.WRITPRO
 type: datacenter

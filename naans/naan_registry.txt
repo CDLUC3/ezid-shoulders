@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.11.05
+when:	2018.11.20
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1278,13 +1278,6 @@ where:	http://digitalarchives.hawaii.gov
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    Sage Bionetworks (=) SAGEBIO
-what:   87303
-when:   2013.04.10
-where:  http://sagebase.org
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
 who:	Archives départementales de la Manche (=) ADMANCHE
 what:	57115
 when:	2013.04.14
@@ -2118,24 +2111,10 @@ where:  http://www.ldeo.columbia.edu/research/marine-geology-geophysics/integrat
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    Harvard Medical School (=) SBGRID
-what:   85785
-when:   2015.02.18
-where:	http://sbgrid.org
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    University of Wyoming Libraries (=) UWYO
 what:   85786
 when:   2015.02.23
 where:	http://www-lib.uwyo.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Virginia Tech Transportation Institute (=) VTTI
-what:   85787
-when:   2015.02.26
-where:	www.vtti.vt.edu
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -4118,6 +4097,48 @@ what:	41384
 when:	2018.11.05
 where:	http://www.editions-bpi.fr
 how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives municipales de Saint-Nazaire (=) AMSN
+what:	28388
+when:	2018.11.08
+where:	http://archives.saintnazaire.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	CFDT - Service des archives (=) Archival Service of the French Democratic Confederation of Labor (CFDT) (=) CFDT
+what:	15392
+when:	2018.11.13
+where:	http://archives.memoires.cfdt.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Projet Voltaire (=) PVOLT
+what:	76952
+when:	2018.11.13
+where:	https://www.projet-voltaire.fr
+how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives de la Ville de Chelles (=) AVCHELLES
+what:	63957
+when:	2018.11.15
+where:	http://www.chelles.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Archives municipales de Belfort (=) AMBELFORT
+what:	50960
+when:	2018.11.20
+where:	https://archives.belfort.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
+what:	87296
+when:	2018.11.20
+where:	https://sites.dartmouth.edu/sparcl
+how:	NP | (:unkn) unknown | 2018 |
 
 naa:
 who:	Metadata Terms (=) TERMS

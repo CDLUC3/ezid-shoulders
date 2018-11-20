@@ -158,7 +158,6 @@ contact: eziduserid bcid
 contact: eziduserid ucsd_onelab
 contact: eziduserid umich
 contact: Jansen, Adam ||| adam_jansen@outlook.com |
-contact: eziduserid sagebio
 contact: Bisiaux, Emmanuelle ||| emmanuelle.bisiaux@manche.fr | +33 02 33 75 10 16
 contact: eziduserid broad
 contact: eziduserid nyu_databrary
@@ -297,9 +296,7 @@ contact: eziduserid sb-chg
 contact: Gérard, Cécile ||| cgerard@ville-valenciennes.fr |
 contact: eziduserid ucsd_d3r
 contact: eziduserid cu-ieda
-contact: eziduserid sbgrid
 contact: eziduserid wyu_libs
-contact: eziduserid vtti_ezid
 contact: Vinerean, Simona ||| editor@expertjournals.com |
 contact: Leclerc, Catherine ||| catherine.leclerc@cg70.fr |
 contact: Bourcier, Nicolas | V-Technologies || nicolas.bourcier@vtech.fr | +33 02 41 72 10 75
@@ -607,6 +604,12 @@ contact: eziduserid ucd-legacy
 contact: DUFAYS, Benoit (CEO) ||| contact@neotis.fr | 
 contact: Villarreal, Luis (Managing editor) ||| recit.ecitecvlp@uabc.edu.mx | 
 contact: JIROU-NAJOU, Emmanuel (President) ||| ejirou@editions-bpi.fr | 
+contact: Ouvrard, Gaëlle (Responsable de service) ||| ouvrardg@mairie-saintnazaire.fr | 
+contact: Perrais, Nicolas (Archivist) ||| archives@cfdt.fr | 
+contact: Hudson, Zoe (Product Owner) ||| projet-gar@woonoz.com | 
+contact: Caruana, Hélène (Directrice) ||| h.caruana@chelles.fr | 
+contact: GIRARDOT, Fanny (archivist) ||| archives@mairie-belfort.fr | 
+contact: eziduserid achiii
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu
 contact: Kunze, John | California Digital Library || jak@ucop.edu

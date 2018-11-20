@@ -4,7 +4,7 @@ if ($# < 2) then
 	echo "Usage:   $0 Acronym Website InstitutionName First Last Email Phone Address"
 	echo "Example:"
 	echo ""
-	echo "    $ $0" 'OU http://ou.example.org "Oaksterdam University"'
+	echo "    $ $0" 'OU https://ou.example.org "Oaksterdam University"'
 	echo "    98765: OU        2010.04.09   # Oaksterdam University"
 	echo ""
 	echo "See https://goo.gl/forms/bmckLSPpbzpZ5dix1 for alternate input."
@@ -37,7 +37,7 @@ set mint = "nog -d ~/minters/n2t/naans mint 1"
 #set ndcmd = "echo id: 00001/8999a"
 
 set url = `echo $website | sed 's,//*$,,'`		# remove terminal '/'
-set url = `echo $url | sed 's,^\([^h]\),http://\1,'`	# start with 'http://'
+set url = `echo $url | sed 's,^\([^h]\),https://\1,'`	# start with 'https://'
 
 # XXXX add ability to 'hold' a user-supplied NAAN
 
