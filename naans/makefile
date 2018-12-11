@@ -243,8 +243,8 @@ publish: naan_registry.txt naan_table.html naan_table.txt mn.asc
 	@scp $^ diffs.txt $(stage):/cdlib/apache/htdocs/services/uc3/ 
 	@echo "Publishing to $(prod) "
 	@scp $^ diffs.txt $(prod):/cdlib/apache/htdocs/services/uc3/ 
-	cp -p $^ $(HOME)/sv/cur/apache2/htdocs/e/
-	rm $(HOME)/sv/cur/apache2/htdocs/e/mn.asc
+	cp -p $^ $(HOME)/sv/cur/apache2/htdocs/e/pub/
+	rm $(HOME)/sv/cur/apache2/htdocs/e/pub/mn.asc
 
 # old
 	#cp -p naan_registry.txt $(HOME)/sv/cur/apache2/htdocs/e/

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.11.20
+when:	2018.12.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1229,13 +1229,6 @@ where:	http://www.archives43.fr
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    Cornell University Library (=) CUL
-what:   87298
-when:   2013.03.11
-where:  http://www.library.cornell.edu
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
 who:	Boston Public Library (=) BPL
 what:	34543
 when:	2013.03.14
@@ -1516,13 +1509,6 @@ where:	http://www.laregion-culture.fr
 how:	NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    University of Illinois Libraries (=) UIUCLIB
-what:   83012
-when:   2013.12.16
-where:  http://www.library.illinois.edu
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
 who:    Intrepid Bioinformatics (=) INTBIO
 what:   83013
 when:   2013.12.17
@@ -1661,13 +1647,6 @@ what:	36937
 when:	2014.03.25
 where:	http://archives.yvelines.fr
 how:	NP | (:unkn) unknown | 2014 |
-
-naa:
-who:    Statistics (ResearchCompendia.org) (=) STATSRC
-what:   87938
-when:   2014.04.03
-where:  http://researchcompendia.org
-how:    NP | (:unkn) unknown | 2014 |
 
 naa:
 who:    UCSB Writing Program (=) WRITPRO
@@ -4138,6 +4117,48 @@ who:	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
 what:	87296
 when:	2018.11.20
 where:	https://sites.dartmouth.edu/sparcl
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Office des archives de l'Etat de Neuchâtel (=) OAEN
+what:	37964
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Bibliothèque de la Ville de La Chaux-de-Fonds (=) BVCF
+what:	24968
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Bibliothèque publique et universitaire de Neuchâtel (=) BPUN
+what:	11973
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Bibliothèque municipale de Nantes (=) BMN
+what:	73533
+when:	2018.11.28
+where:	https://bm.nantes.fr/home.html
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	docuteam (=) DOCUTEAM
+what:	60536
+when:	2018.12.05
+where:	https://docuteam.ch
+how:	FP | (:unkn) unknown | 2018 |
+
+naa:
+who:	University of Colorado Boulder (=) UCB
+what:	47540
+when:	2018.12.11
+where:	https://www.colorado.edu/libraries
 how:	NP | (:unkn) unknown | 2018 |
 
 naa:

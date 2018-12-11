@@ -14,4 +14,4 @@ cp -p $sourcedir/master_shoulders.txt $deliverydir
 
 # Copy to place where external prefix harvesters can pick it up w.o. creds.
 
-cp -p $sourcedir/master_shoulders.txt $HOME/sv/cur/apache2/htdocs/e/
+cp -p $sourcedir/master_shoulders.txt $HOME/sv/cur/apache2/htdocs/e/pub/

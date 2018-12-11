@@ -133,7 +133,6 @@
 87297	UC Berkeley Department of Linguistics (=) UCBLING
 60535	Archives départementales de Saône-et-Loire (=) ADSL
 47539	Archives départementales de la Haute-Loire (=) ADHL
-87298	Cornell University Library (=) CUL
 34543	Boston Public Library (=) BPL
 87299	Museum of Vertebrate Zoology (=) UCBMVZ
 21547	Biocode Commons (=) BIOCODE
@@ -174,7 +173,6 @@
 72847	Archives départementales du Puy-de-Dôme (=) AD63
 59851	Fundación Biblioteca Virtual Miguel de Cervantes (=) FBVMC
 46855	Languedoc-Roussillon Council (=) LAREGION
-83012	University of Illinois Libraries (=) UIUCLIB
 83013	Intrepid Bioinformatics (=) INTBIO
 34201	Bibliothèque publique d'information (=) Public Information Library (=) BPI
 21205	Archives municipales de Porto Vecchio (=) AMPV
@@ -195,7 +193,6 @@
 62929	Institut National de Physique Nucléaire et de Physique des Particules du CNRS (=) IN2P3
 49933	Archives départementales de l'Ille-et-Vilaine (=) AD35
 36937	Archives départementales des Yvelines (=) ADYVEL
-87938	Statistics (ResearchCompendia.org) (=) STATSRC
 87940	UCSB Writing Program (=) WRITPRO
 23941	University of Southern California (=) USC
 10945	AsWeGrow (=) ASWEGROW
@@ -549,6 +546,12 @@
 63957	Archives de la Ville de Chelles (=) AVCHELLES
 50960	Archives municipales de Belfort (=) AMBELFORT
 87296	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
+37964	Office des archives de l'Etat de Neuchâtel (=) OAEN
+24968	Bibliothèque de la Ville de La Chaux-de-Fonds (=) BVCF
+11973	Bibliothèque publique et universitaire de Neuchâtel (=) BPUN
+73533	Bibliothèque municipale de Nantes (=) BMN
+60536	docuteam (=) DOCUTEAM
+47540	University of Colorado Boulder (=) UCB
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

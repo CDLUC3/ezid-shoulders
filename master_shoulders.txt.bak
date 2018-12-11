@@ -9,8 +9,14 @@
 # See https://confluence.ucop.edu/display/DataCite/Transferring+a+client+from+EZID+to+another+provider
 
 # // Former assignments
-# Former records (removed or overwritten) may sometimes be found in the
-# companion file, former_shoulders.txt.
+#
+# To mark a shoulder as inactive (eg, missing EZID goes into maintenace mode),
+# add the flag
+#
+#   active: false
+#
+# Deliberately retired former records (removed or overwritten) may often be
+# found in the companion file, former_shoulders.txt.
 
 # Default account set up: one DOI shoulder+minter and one ARK shoulder+minter
 # NAANs and Prefixes no longer need to be at highest level of an org, eg, a
@@ -74,11 +80,12 @@
 
 # ========================================================================
 # NAANs to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87296 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
+#    < 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
 # NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
 # NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
-# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 >
-#    mistakenly minted, for immediate re-use: < 24626 >
+# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 87298 87938 83012 >
+# NAAN mistakenly minted 8/9/18 < but which one? >, for immediate re-use
+#
 # Prefixes to re-cycle:
 #    purdue-only prefixes < >
 # To remove minters, eg,
@@ -232,6 +239,26 @@
 # ucla-dverse make_ezacct -n 10.25346 s6 87610 s7  < ezaccts/newacct > out
 # ucd-legacy  make_ezacct -n 10.25347 d7 85781 m7  < ezaccts/newacct > out
 # dohanian    make_ezacct -n 10.25348 h8 - -  < ezaccts/newacct > out
+# achiii      make_ezacct -n - - 87296 s6 < ezaccts/newacct > out
+
+:: doi:10.5070/Q2
+type: shoulder
+manager: ezid
+#eziduser: eschol_harvester
+name: The Equilibrium
+date: 2018.11.29
+minter: https://n2t.net/a/ezid/m/ark/b5070/q2
+datacenter: CDL.ESCHOL
+crossref: true
+prefix_shares_datacenter: true
+
+:: ark:/87296/s6
+type: shoulder
+manager: ezid
+#eziduser: achiii
+name: Dartmouth Spatial Archaeometry Lab
+date: 2018.11.20
+minter: https://n2t.net/a/ezid/m/ark/87296/s6
 
 :: doi:10.25348/H8
 type: shoulder
@@ -1700,15 +1727,6 @@ name: College of William & Mary Libraries
 date: 2016.04.07
 minter: https://n2t.net/a/ezid/m/ark/81220/w2
 
-:: doi:10.13012/B2
-type: shoulder
-manager: ezid
-#eziduser: uiuc_lib
-name: Illinois Data Bank
-date: 2016.04.08
-minter: https://n2t.net/a/ezid/m/ark/c3012/b2
-datacenter: PURDUE.UIUCLIB
-
 :: doi:10.20359/T6
 type: shoulder
 manager: ezid
@@ -1870,15 +1888,6 @@ date: 2016.02.08
 minter: https://n2t.net/a/ezid/m/ark/b6071/z7
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
-
-:: doi:10.7936/G3
-type: shoulder
-manager: ezid
-#eziduser: wustl_geo
-name: WUSTL GIS
-date: 2016.02.08
-minter: https://n2t.net/a/ezid/m/ark/b7936/g3
-datacenter: CDL.WUSTL
 
 :: doi:10.18113/P8
 type: shoulder
@@ -2271,15 +2280,6 @@ manager: ezid
 name: WUSTL Center for Biomedical Informatics
 date: 2015.05.13
 minter: https://n2t.net/a/ezid/m/ark/87936/b7
-
-:: doi:10.7936/B6
-type: shoulder
-manager: ezid
-#eziduser: wustl_cbi
-name: WUSTL Center for Biomedical Informatics
-date: 2015.05.13
-minter: https://n2t.net/a/ezid/m/ark/b7936/b6
-datacenter: CDL.WUSTL
 
 :: ark:/87908/b9
 type: shoulder
@@ -2760,18 +2760,9 @@ datacenter: CDL.ESCHOL
 prefix_shares_datacenter: true
 crossref: true
 
-:: doi:10.13012/M3
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: Materials Data Facility
-date: 2014.11.20
-minter: https://n2t.net/a/ezid/m/ark/c3012/m3
-datacenter: PURDUE.UIUCLIB
-
 :: ark:/87924/r3
 type: shoulder
-# XXX make validate-shoulders accept "retired_ezid" as manager value
+active: false
 manager: oca
 # Retired from ezid
 #eziduser: none
@@ -2931,7 +2922,7 @@ prefix_shares_datacenter: true
 
 :: ark:/13030/p4
 type: shoulder
-# XXX make validate-shoulders accept "retired_ezid" as manager value
+active: false
 manager: oca
 #eziduser: none
 name: Open Access Policy (Retired Minter)
@@ -3320,23 +3311,6 @@ datacenter: CDL.UAL
 prefix_shares_datacenter: true
 crossref: true
 
-:: ark:/87938/m2
-type: shoulder
-manager: ezid
-#eziduser: cu-rescom
-name: Statistics (ResearchCompendia.org)
-date: 2014.04.03
-minter: https://n2t.net/a/ezid/m/ark/87938/m2
-
-:: doi:10.7938/M1
-type: shoulder
-manager: ezid
-#eziduser: cu-rescom
-name: Statistics (ResearchCompendia.org)
-date: 2014.04.03
-minter: https://n2t.net/a/ezid/m/ark/b7938/m1
-datacenter: PURDUE.STATSRC
-
 :: doi:10.18113/S1
 type: shoulder
 manager: ezid
@@ -3353,15 +3327,6 @@ manager: ezid
 name: Washington University in St. Louis
 date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/87936/k8
-
-:: doi:10.7936/K7
-type: shoulder
-manager: ezid
-#eziduser: doiwustl
-name: Washington University in St. Louis
-date: 2014.03.18
-minter: https://n2t.net/a/ezid/m/ark/b7936/k7
-datacenter: CDL.WUSTL
 
 :: ark:/87934/
 type: shoulder
@@ -3424,18 +3389,10 @@ date: 2014.02.13
 minter:
 datacenter: CDL.BSL
 
-:: doi:10.13012/J8
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: University of Illinois Libraries
-date: 2014.01.27
-minter: https://n2t.net/a/ezid/m/ark/c3012/j8
-datacenter: PURDUE.UIUCLIB
-
 # inactive
 :: doi:10.13013/J6
 type: shoulder
+active: false
 manager: ezid
 #eziduser: none
 name: Intrepid Bioinformatics
@@ -3446,45 +3403,12 @@ datacenter: PURDUE.INTBIO
 # inactive
 :: ark:/83013/j7
 type: shoulder
+active: false
 manager: ezid
 #eziduser: none
 name: Intrepid Bioinformatics
 date: 2013.12.17
 minter: https://n2t.net/a/ezid/m/ark/83013/j7
-
-:: doi:10.13012/C5
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: University of Illinois Libraries IDEALS
-date: 2013.12.16
-minter: https://n2t.net/a/ezid/m/ark/c3012/c5
-datacenter: PURDUE.UIUCLIB
-
-:: ark:/83012/c6
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: University of Illinois Libraries IDEALS
-date: 2013.12.16
-minter: https://n2t.net/a/ezid/m/ark/83012/c6
-
-:: doi:10.13012/J4
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: University of Illinois Libraries NADP
-date: 2013.12.16
-minter: https://n2t.net/a/ezid/m/ark/c3012/j4
-datacenter: PURDUE.UIUCLIB
-
-:: ark:/83012/j5
-type: shoulder
-manager: ezid
-#eziduser: uiuc-lib
-name: University of Illinois Libraries NADP
-date: 2013.12.16
-minter: https://n2t.net/a/ezid/m/ark/83012/j5
 
 :: ark:/87929/
 type: shoulder
@@ -3863,23 +3787,6 @@ name: UC Berkeley Museum of Vertebrate Zoology
 date: 2013.03.20
 minter: https://n2t.net/a/ezid/m/ark/87299/x6
 
-:: ark:/87298/x5
-type: shoulder
-manager: ezid
-#eziduser: cornellib
-name: Cornell University Library
-date: 2013.03.11
-minter: https://n2t.net/a/ezid/m/ark/87298/x5
-
-:: doi:10.7298/X4
-type: shoulder
-manager: ezid
-#eziduser: cornellib
-name: Cornell University Library
-date: 2013.03.11
-minter: https://n2t.net/a/ezid/m/ark/b7298/x4
-datacenter: CDL.CUL
-
 :: ark:/87297/x3
 type: shoulder
 manager: ezid
@@ -4103,15 +4010,6 @@ manager: ezid
 name: University of Utah
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/87278/s6
-
-:: doi:10.7278/S5
-type: shoulder
-manager: ezid
-#eziduser: uofutah
-name: University of Utah
-date: 2012.08.16
-minter: https://n2t.net/a/ezid/m/ark/b7278/s5
-datacenter: CDL.UUTAH
 
 :: ark:/34231/s0
 type: shoulder
@@ -4398,6 +4296,7 @@ prefix_shares_datacenter: true
 
 :: ark:/86076/j6
 type: shoulder
+active: false
 manager: ezid
 #eziduser: fhcrc
 name: Fred Hutchinson Cancer Research Center
@@ -4406,6 +4305,7 @@ minter: https://n2t.net/a/ezid/m/ark/86076/j6
 
 :: doi:10.6076/J7
 type: shoulder
+active: false
 manager: ezid
 #eziduser: fhcrc
 name: Fred Hutchinson Cancer Research Center
@@ -4881,11 +4781,6 @@ type: datacenter
 manager: ezid
 name: Center for Research in Computational Linguistics
 
-:: datacite:CDL.CUL
-type: datacenter
-manager: ezid
-name: Cornell University Library
-
 :: datacite:CDL.CULIS
 type: datacenter
 manager: ezid
@@ -5256,11 +5151,6 @@ type: datacenter
 manager: ezid
 name: University of Texas at Austin
 
-:: datacite:CDL.UUTAH
-type: datacenter
-manager: ezid
-name: University of Utah
-
 :: datacite:CDL.WRITPRO
 type: datacenter
 manager: ezid
@@ -5270,11 +5160,6 @@ name: UCSB Writing Program
 type: datacenter
 manager: ezid
 name: Washington State University
-
-:: datacite:CDL.WUSTL
-type: datacenter
-manager: ezid
-name: Washington University in St. Louis
 
 :: datacite:PURDUE.ACSESS
 type: datacenter
@@ -5360,16 +5245,6 @@ name: Purdue Polytechnic Institute
 type: datacenter
 manager: ezid
 name: Registry of Research Repositories
-
-:: datacite:PURDUE.STATSRC
-type: datacenter
-manager: ezid
-name: Statistics (ResearchCompendia.org)
-
-:: datacite:PURDUE.UIUCLIB
-type: datacenter
-manager: ezid
-name: University of Illinois Libraries
 
 :: datacite:PURDUE.UMBS
 type: datacenter

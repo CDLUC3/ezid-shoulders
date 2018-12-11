@@ -1,108 +1,110 @@
-diff -r a0a4f71922fd naans/master_naans
---- a/naans/master_naans	Mon Nov 05 09:40:37 2018 -0800
-+++ b/naans/master_naans	Tue Nov 20 15:57:51 2018 -0800
+diff -r 229bc9711cf5 naans/master_naans
+--- a/naans/master_naans	Tue Nov 20 15:57:51 2018 -0800
++++ b/naans/master_naans	Tue Dec 11 10:26:15 2018 -0800
 @@ -3,3 +3,3 @@
  what:	Name Assigning Authority Number (NAAN) Registry
--when:	2018.11.05
-+when:	2018.11.20
+-when:	2018.11.20
++when:	2018.12.05
  where:	http://cdlib.org/uc3/naan_registry.txt
-@@ -1604,11 +1604,2 @@
+@@ -1541,11 +1541,2 @@
  naa:
--who:    Sage Bionetworks (=) SAGEBIO
--what:   87303
--when:   2013.04.10
--where:  http://sagebase.org
+-who:    Cornell University Library (=) CUL
+-what:   87298
+-when:   2013.03.11
+-where:  http://www.library.cornell.edu
 -how:    NP | (:unkn) unknown | 2013 |
 -!why:   EZID ARK
--!contact: eziduserid sagebio
+-!contact: eziduserid cornellib
 -
 -naa:
- who:	Archives départementales de la Manche (=) ADMANCHE
-@@ -2704,11 +2695,2 @@
+ who:	Boston Public Library (=) BPL
+@@ -1915,11 +1906,2 @@
  naa:
--who:    Harvard Medical School (=) SBGRID
--what:   85785
--when:   2015.02.18
--where:	http://sbgrid.org
--how:	NP | (:unkn) unknown | 2015 |
+-who:    University of Illinois Libraries (=) UIUCLIB
+-what:   83012
+-when:   2013.12.16
+-where:  http://www.library.illinois.edu
+-how:    NP | (:unkn) unknown | 2013 |
 -!why:   EZID ARK
--!contact: eziduserid sbgrid
+-!contact: eziduserid uiuc_lib
 -
 -naa:
- who:    University of Wyoming Libraries (=) UWYO
-@@ -2722,11 +2704,2 @@
+ who:    Intrepid Bioinformatics (=) INTBIO
+@@ -2111,11 +2093,2 @@
  naa:
--who:    Virginia Tech Transportation Institute (=) VTTI
--what:   85787
--when:   2015.02.26
--where:	www.vtti.vt.edu
--how:	NP | (:unkn) unknown | 2015 |
+-who:    Statistics (ResearchCompendia.org) (=) STATSRC
+-what:   87938
+-when:   2014.04.03
+-where:  http://researchcompendia.org
+-how:    NP | (:unkn) unknown | 2014 |
 -!why:   EZID ARK
--!contact: eziduserid vtti_ezid
+-!contact: eziduserid cu-rescom
 -
 -naa:
- who:	Sprint Investify (=) INVESTIFY
-@@ -5500,2 +5473,63 @@
+ who:    UCSB Writing Program (=) WRITPRO
+@@ -5534,2 +5507,65 @@
  naa:
-+who:	Archives municipales de Saint-Nazaire (=) AMSN
-+what:	28388
-+when:	2018.11.08
-+where:	http://archives.saintnazaire.fr
++who:	Office des archives de l'Etat de Neuchâtel (=) OAEN
++what:	37964
++when:	2018.11.26
++where:	http://www.archivesne.ch
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Ouvrard, Gaëlle (Responsable de service) ||| ouvrardg@mairie-saintnazaire.fr | 
-+!address: Hotel de ville, Place François Blancho, 44606 Saint-Nazaire Cedex, France
++!contact: Bartolini, Lionel (Archiviste de l'Etat) ||| lionel.bartolini@ne.ch | 
++!address: Le Château, Rue de la Collégiale 12, 2000 Neuchâtel, Switzerland
++!provider: SIEN ||| webmaster.intranet@ne.ch
 +
 +naa:
-+who:	CFDT - Service des archives (=) Archival Service of the French Democratic Confederation of Labor (CFDT) (=) CFDT
-+what:	15392
-+when:	2018.11.13
-+where:	http://archives.memoires.cfdt.fr
++who:	Bibliothèque de la Ville de La Chaux-de-Fonds (=) BVCF
++what:	24968
++when:	2018.11.26
++where:	http://www.archivesne.ch
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Perrais, Nicolas (Archivist) ||| archives@cfdt.fr | 
-+!address: 49 avenue Simon Bolivar, 75019, Paris, France
++!contact: Béguelin, Sylvie (Direction) ||| sylvie.beguelin@ne.ch | 
++!address: Rue du Progrès 33, 2303 La Chaux-de-Fonds, Switzerland
++!provider: SIEN ||| webmaster.intranet@ne.ch
 +
 +naa:
-+who:	Projet Voltaire (=) PVOLT
-+what:	76952
-+when:	2018.11.13
-+where:	https://www.projet-voltaire.fr
++who:	Bibliothèque publique et universitaire de Neuchâtel (=) BPUN
++what:	11973
++when:	2018.11.26
++where:	http://www.archivesne.ch
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Chatelain, Thierry (Directeur) ||| thierry.chatelain@unine.ch | 
++!address: Place Numa-Droz 3, 2000 Neuchâtel, Switzerland
++!provider: SIEN ||| webmaster.intranet@ne.ch
++
++naa:
++who:	Bibliothèque municipale de Nantes (=) BMN
++what:	73533
++when:	2018.11.28
++where:	https://bm.nantes.fr/home.html
++how:	NP | (:unkn) unknown | 2018 |
++!why:	ARK
++!contact: Chaigne, Marion (Curator of the Heritage Department) ||| marion.chaigne@mairie-nantes.fr | 
++!address: 15 rue de l'Héronnière, 44000 NANTES, FRANCE
++
++naa:
++who:	docuteam (=) DOCUTEAM
++what:	60536
++when:	2018.12.05
++where:	https://docuteam.ch
 +how:	FP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Hudson, Zoe (Product Owner) ||| projet-gar@woonoz.com | 
-+!address: 6, avenue Sidoine-Apollinaire, 69009 Lyon, France
++!contact: Wildi, Tobias (Managing Partner) ||| t.wildi@docuteam.ch | 
++!address: Im Langacker 16, 5405 Baden, Switzerland
 +
 +naa:
-+who:	Archives de la Ville de Chelles (=) AVCHELLES
-+what:	63957
-+when:	2018.11.15
-+where:	http://www.chelles.fr
++who:	University of Colorado Boulder (=) UCB
++what:	47540
++when:	2018.12.11
++where:	https://www.colorado.edu/libraries
 +how:	NP | (:unkn) unknown | 2018 |
 +!why:	ARK
-+!contact: Caruana, Hélène (Directrice) ||| h.caruana@chelles.fr | 
-+!address: Mairie de Chelles, Parc du Souvenir, Emile Fouchard, 77505, Chelles cedex, France
-+!provider: Guillaume Lory ||| guillaume.lory@empreintedigitale.fr
-+
-+naa:
-+who:	Archives municipales de Belfort (=) AMBELFORT
-+what:	50960
-+when:	2018.11.20
-+where:	https://archives.belfort.fr
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	ARK
-+!contact: GIRARDOT, Fanny (archivist) ||| archives@mairie-belfort.fr | 
-+!address: 2 rue de l'ancien théâtre, 90000 BELFORT, France
-+
-+naa:
-+who:	Dartmouth Spatial Archaeometry Lab (=) DARTSPARCL
-+what:	87296
-+when:	2018.11.20
-+where:	https://sites.dartmouth.edu/sparcl
-+how:	NP | (:unkn) unknown | 2018 |
-+!why:	EZID ARK
-+!contact: eziduserid achiii
-+!address: 3 Tuck Mall, 408 Silsby Hall, Dartmouth College, Hanover, NH 03755
++!contact: Radio, Erik (Metadata Librarian) ||| erik.radio@colorado.edu | 
++!address: 1720 Pleasant Street, Boulder, CO 80309
 +
 +naa:
  who:	Metadata Terms (=) TERMS

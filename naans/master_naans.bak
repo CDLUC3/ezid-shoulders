@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.11.20
+when:	2018.12.11
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -1539,15 +1539,6 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Rahon, Antoine ||| antoine.rahon@cg43.fr | +33 04.71.02.52.09
 
 naa:
-who:    Cornell University Library (=) CUL
-what:   87298
-when:   2013.03.11
-where:  http://www.library.cornell.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid cornellib
-
-naa:
 who:	Boston Public Library (=) BPL
 what:	34543
 when:	2013.03.14
@@ -1913,15 +1904,6 @@ how:	NP | (:unkn) unknown | 2013 |
 !contact: Demé, Agnès ||| Deme.Agnes@cr-languedocroussillon.fr | +33 04 67 22 94 47
 
 naa:
-who:    University of Illinois Libraries (=) UIUCLIB
-what:   83012
-when:   2013.12.16
-where:  http://www.library.illinois.edu
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid uiuc_lib
-
-naa:
 who:    Intrepid Bioinformatics (=) INTBIO
 what:   83013
 when:   2013.12.17
@@ -2107,15 +2089,6 @@ where:	http://archives.yvelines.fr
 how:	NP | (:unkn) unknown | 2014 |
 !why:	ARK
 !contact: Éon, Wilfrid ||| weon@yvelines.fr | +33 01 61 37 36 30
-
-naa:
-who:    Statistics (ResearchCompendia.org) (=) STATSRC
-what:   87938
-when:   2014.04.03
-where:  http://researchcompendia.org
-how:    NP | (:unkn) unknown | 2014 |
-!why:   EZID ARK
-!contact: eziduserid cu-rescom
 
 naa:
 who:    UCSB Writing Program (=) WRITPRO
@@ -5530,6 +5503,69 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	EZID ARK
 !contact: eziduserid achiii
 !address: 3 Tuck Mall, 408 Silsby Hall, Dartmouth College, Hanover, NH 03755
+
+naa:
+who:	Office des archives de l'Etat de Neuchâtel (=) OAEN
+what:	37964
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Bartolini, Lionel (Archiviste de l'Etat) ||| lionel.bartolini@ne.ch | 
+!address: Le Château, Rue de la Collégiale 12, 2000 Neuchâtel, Switzerland
+!provider: SIEN ||| webmaster.intranet@ne.ch
+
+naa:
+who:	Bibliothèque de la Ville de La Chaux-de-Fonds (=) BVCF
+what:	24968
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Béguelin, Sylvie (Direction) ||| sylvie.beguelin@ne.ch | 
+!address: Rue du Progrès 33, 2303 La Chaux-de-Fonds, Switzerland
+!provider: SIEN ||| webmaster.intranet@ne.ch
+
+naa:
+who:	Bibliothèque publique et universitaire de Neuchâtel (=) BPUN
+what:	11973
+when:	2018.11.26
+where:	http://www.archivesne.ch
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Chatelain, Thierry (Directeur) ||| thierry.chatelain@unine.ch | 
+!address: Place Numa-Droz 3, 2000 Neuchâtel, Switzerland
+!provider: SIEN ||| webmaster.intranet@ne.ch
+
+naa:
+who:	Bibliothèque municipale de Nantes (=) BMN
+what:	73533
+when:	2018.11.28
+where:	https://bm.nantes.fr/home.html
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Chaigne, Marion (Curator of the Heritage Department) ||| marion.chaigne@mairie-nantes.fr | 
+!address: 15 rue de l'Héronnière, 44000 NANTES, FRANCE
+
+naa:
+who:	docuteam (=) DOCUTEAM
+what:	60536
+when:	2018.12.05
+where:	https://docuteam.ch
+how:	FP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Wildi, Tobias (Managing Partner) ||| t.wildi@docuteam.ch | 
+!address: Im Langacker 16, 5405 Baden, Switzerland
+
+naa:
+who:	University of Colorado Boulder (=) UCB
+what:	47540
+when:	2018.12.11
+where:	https://www.colorado.edu/libraries
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Radio, Erik (Metadata Librarian) ||| erik.radio@colorado.edu | 
+!address: 1720 Pleasant Street, Boulder, CO 80309
 
 naa:
 who:	Metadata Terms (=) TERMS
