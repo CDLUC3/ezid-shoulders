@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.12.11
+when:	2018.12.27
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -884,14 +884,14 @@ how:	NP | (:unkn) unknown | 2010 |
 !contact: Dalton, Joseph ||| jdalton@nypl.org | +1 212-592-7053
 
 naa:
-who:	Purdue University (=) PU
+who:	Purdue University (=) PURDUE
 what:   34231
 when:	2011.01.24
 where:	http://www.purdue.edu
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
-!contact: Bracke, Paul | Purdue University Libraries || pbracke@purdue.edu | +1 765-496-3606
-#! 34231 derived from DOI prefix 10.4231
+!contact: Bracke, Paul | Purdue University Libraries | 2011-2016 | pbracke@purdue.edu | +1 765-496-3606
+!contact: Witt, Michael | Purdue University Libraries || mwitt@purdue.edu |
 
 naa:
 who:	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
@@ -901,6 +901,8 @@ where:	http://www.cndp.fr
 how:	NP | (:unkn) unknown | 2011 |
 !why:	ARK
 !contact: Chauvin, Clotilde | CRDP d'Aix-Marseille || clotilde.chauvin@crdp-aix-marseille.fr | +33 04 91 14 13 90
+!contact: Patrick Agius || EZID customer | patrick.agius@reseau-canope.fr | +330491141394
+!address: 4, avenue du Futuroscope, 80158 Futuroscope Cedex, France
 
 naa:
 who:	Biblioteca Nacional de Portugal (=) National Library of Portugal (=) BNP
@@ -1611,15 +1613,6 @@ how:    NP | (:unkn) unknown | 2013 |
 !contact: eziduserid broad
 
 naa:
-who:    Databrary (=) DATABRARY
-what:   87910
-when:   2015.05.14
-where:  https://www.databrary.org
-how:    NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid nyu_databrary
-
-naa:
 who:	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 what:	44119
 when:	2013.05.27
@@ -1709,15 +1702,6 @@ where:  http://www.ece.ucsb.edu/~psen
 how:    NP | (:unkn) unknown | 2013 |
 !why:   EZID ARK
 !contact: eziduserid sb-mirage_agl
-
-naa:
-who:    University of Michigan Biological Station (=) UMBS
-what:   83010
-when:   2013.08.31
-where:  http://umbs.lsa.umich.edu/research
-how:    NP | (:unkn) unknown | 2013 |
-!why:   EZID ARK
-!contact: eziduserid umbs
 
 naa:
 who:	Ministère de la Défense, Mémoire des hommes (=) MDMH
@@ -2407,15 +2391,6 @@ how:	NP | (:unkn) unknown | 2014 |
 !contact: eziduserid ucsd_idashrepository
 
 naa:
-who:    MyGeoHub (=) MYGEOHUB
-what:   83019
-when:   2014.10.13
-where:	mygeohub.org
-how:	NP | (:unkn) unknown | 2014 |
-!why:   EZID ARK
-!contact: eziduserid mygeohub
-
-naa:
 who:    Purdue Polytechnic Institute (=) PURPOLY
 what:   88114
 when:   2014.10.14
@@ -2591,15 +2566,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !why:	ARK
 !contact: PAVY, Frédéric ||| Frederic.PAVY@blois.fr |
 !contact: Picard, Nicolas ||| nicolas.picard@1egal2.com |
-
-naa:
-who:    MBF Bioscience (=) MBFBIO
-what:   83027
-when:   2015.01.27
-where:	http://mbfbioscience.com
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid mbf_bioscience
 
 naa:
 who:	Archives départementales des Deux-Sèvres (=) ADDS
@@ -2836,15 +2802,6 @@ how:	NP | (:unkn) unknown | 2015 |
 !contact: de Vitry, Joseph | V-Technologies || joseph.devitry@vtech.fr | +33 2 41 72 10 75
 
 naa:
-who:    Modern Language Association (=) MLA
-what:   87613
-when:   2015.04.22
-where:	www.mla.org
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid mla
-
-naa:
 who:    Pitt Quantum Repository (=) PQR
 what:   87614
 when:   2015.04.22
@@ -2861,15 +2818,6 @@ where:	http://www.lib.unc.edu
 how:	NP | (:unkn) unknown | 2015 |
 !why:   EZID ARK
 !contact: eziduserid libunc
-
-naa:
-who:    Registry of Research Repositories (=) RE3DATA
-what:   87616
-when:   2015.04.24
-where:	http://re3data.org
-how:	NP | (:unkn) unknown | 2015 |
-!why:   EZID ARK
-!contact: eziduserid re3data
 
 naa:
 who:	IEEE Publishing Technology (=) IEEEPUB
@@ -4241,16 +4189,6 @@ how:	NP | (:unkn) unknown | 2017 |
 !address: 9500 Gilman #0505  La Jolla, CA 92093-0505
 
 naa:
-who:	Institute for Research on Innovation and Science (=) IRISINK
-what:	81987
-when:	2017.03.22
-where:	http://iris.isr.umich.edu
-how:	NP | (:unkn) unknown | 2017 |
-!why:	EZID ARK
-!contact: eziduserid iris_ink
-!address: 426 Thompson St, Rm. 3304 Ann Arbor MI 48106-1248
-
-naa:
 who:	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
 what:	14707
 when:	2017.03.23
@@ -5558,7 +5496,7 @@ how:	FP | (:unkn) unknown | 2018 |
 !address: Im Langacker 16, 5405 Baden, Switzerland
 
 naa:
-who:	University of Colorado Boulder (=) UCB
+who:	University of Colorado Boulder (=) UCBOULDER
 what:	47540
 when:	2018.12.11
 where:	https://www.colorado.edu/libraries
@@ -5566,6 +5504,46 @@ how:	NP | (:unkn) unknown | 2018 |
 !why:	ARK
 !contact: Radio, Erik (Metadata Librarian) ||| erik.radio@colorado.edu | 
 !address: 1720 Pleasant Street, Boulder, CO 80309
+
+naa:
+who:	Saint-Nazaire Agglomération Tourisme (=) SNAT
+what:	34544
+when:	2018.12.12
+where:	https://storage.saint-nazaire-tourisme.com
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Grandidier, Jean-Yves (IT Manager) ||| grandidierjy@gmail.com | 
+!address: 3 boulevard de la légion d'honneur, Saint-Nazaire, BP 173, France
+
+naa:
+who:	Phoebe A. Hearst Museum of Anthropology (=) PAHMA
+what:	21549
+when:	2018.12.21
+where:	https://portal.hearstmuseum.berkeley.edu
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Black, Michael T. (Head of Research and Information) ||| pahma-research@berkeley.edu | 
+!address: 102 Kroeber Hall, #3712, Berkeley, CA 94720
+
+naa:
+who:	Musée national du Sport (=) MNS
+what:	70112
+when:	2018.12.27
+where:	http://www.museedusport.fr
+how:	NP | (:unkn) unknown | 2018 |
+!why:	ARK
+!contact: Schillinger, Léna (Archivist) ||| lena.schillinger@museedusport.fr | 
+!address: Bd des Jardiniers - Stade Allianz Riviera, 06203 Nice, France
+
+naa:
+who:	Institute of Control, Robotics and Information Engineering (Poznan University of Technology) (=) ICRIE-PUT-PTPN
+what:	57116
+when:	2019.01.03
+where:	https://www.fee.put.poznan.pl
+how:	NP | (:unkn) unknown | 2019 |
+!why:	ARK
+!contact: Horla, Dariusz (Adjunct professor/EIC) ||| dariusz.horla@put.poznan.pl | 
+!address: ul. Piotrowo 3a, 60-965 Poznan, Poland, Faculty of Electrical Engineering
 
 naa:
 who:	Metadata Terms (=) TERMS

@@ -62,7 +62,7 @@
 71137	Archives départementales de la Côte-d'Or (=) ADCO
 58141	Österreichische Nationalbibliothek (=) National Library of Austria (=) ONB
 45145	New York Public Library (=) NYPL
-34231	Purdue University (=) PU
+34231	Purdue University (=) PURDUE
 19153	Centre national de documentation pédagogique (=) French National Pedogical Documentation Center (=) CNDP
 80713	Biblioteca Nacional de Portugal (=) National Library of Portugal (=) BNP
 67717	Ministère de la culture et de la communication (=) French Ministry of Culture and Communication (=) MCC
@@ -141,7 +141,6 @@
 70111	Hawaii State Archives (=) HSA
 57115	Archives départementales de la Manche (=) ADMANCHE
 77908	Broad Institute of MIT and Harvard (=) BROAD
-87910	Databrary (=) DATABRARY
 44119	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 88113	Penn State Institutes of Energy & Environment/PSU Data Commons (=) PSUCOMMONS
 87914	International Federation of Digital Seismograph Networks (=) FDSN
@@ -152,7 +151,6 @@
 66691	Musée des Augustins (=) MDA
 53695	American Numismatic Society (=) ANS
 87919	Advanced Graphics Lab (=) AGL
-83010	University of Michigan Biological Station (=) UMBS
 40699	Ministère de la Défense, Mémoire des hommes (=) MDMH
 87920	Cyberinfrastructure for Atomistic Materials Science (=) CAMS
 87921	RENCI (Renaissance Computing Institute) (=) RENCI
@@ -228,7 +226,6 @@
 85145	University of New Mexico Libraries (=) UNMLIB
 83017	University of Minnesota Libraries (=) UMN
 85147	iDASH Repository (=) IDASHREPOSITORY
-83019	MyGeoHub (=) MYGEOHUB
 88114	Purdue Polytechnic Institute (=) PURPOLY
 83020	Data Repository for the University of Minnesota (=) DRUM
 14023	Revista de Arte, Ciência e Comunicação (=) ARTCIEN
@@ -248,7 +245,6 @@
 68401	Archives municipales de Villeurbanne (=) AMVE
 83026	MIT Laboratory of Computational Physiology (=) MITLCP
 55406	Archives municipales de Blois (=) AMBLOIS
-83027	MBF Bioscience (=) MBFBIO
 58825	Archives départementales des Deux-Sèvres (=) ADDS
 85779	Berkeley Law Library (=) UCBLAWLIB
 42751	Archives départementales de l'Aube (=) ADAUBE
@@ -274,10 +270,8 @@
 74558	Archives municipales de Laval (=) AMLAVAL
 61904	Archives départementales de la Charente (=) AD16
 48908	Archives municipales de Béziers (=) AMBEZIERS
-87613	Modern Language Association (=) MLA
 87614	Pitt Quantum Repository (=) PQR
 87615	UNC Library - Resource Description and Management (=) LIBUNC
-87616	Registry of Research Repositories (=) RE3DATA
 35911	IEEE Publishing Technology (=) IEEEPUB
 22915	The Silent Film Sound & Music Archive (=) SFSMA
 71480	Espace Mendès France (=) EMF
@@ -420,7 +414,6 @@
 40700	Archives départementales des Bouches du Rhône (=) AD13
 27704	Lelivrescolaire.fr Editions (=) LLS
 81986	SDSC Center for Applied Internet Data and Analysis (=) CAIDA
-81987	Institute for Research on Innovation and Science (=) IRISINK
 14707	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
 75925	Mark and Mary Stevens Neuroimaging and Informatics Institute (=) INI
 62930	University of Nevada, Las Vegas University Libraries (=) UNLV
@@ -551,7 +544,11 @@
 11973	Bibliothèque publique et universitaire de Neuchâtel (=) BPUN
 73533	Bibliothèque municipale de Nantes (=) BMN
 60536	docuteam (=) DOCUTEAM
-47540	University of Colorado Boulder (=) UCB
+47540	University of Colorado Boulder (=) UCBOULDER
+34544	Saint-Nazaire Agglomération Tourisme (=) SNAT
+21549	Phoebe A. Hearst Museum of Anthropology (=) PAHMA
+70112	Musée national du Sport (=) MNS
+57116	Institute of Control, Robotics and Information Engineering (Poznan University of Technology) (=) ICRIE-PUT-PTPN
 99152	Metadata Terms (=) TERMS
 99166	People, Groups, and Institutions as Agents (=) AGENTS
 99999	NAAN Reserved for Invalid or Impossible ARKs (=) INVALID

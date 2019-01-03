@@ -83,7 +83,7 @@
 #    < 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
 # NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
 # NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
-# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 87298 87938 83012 >
+# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 87298 87938 83012 87613 81987 87616 83027 87910 83019 83010 >
 # NAAN mistakenly minted 8/9/18 < but which one? >, for immediate re-use
 #
 # Prefixes to re-cycle:
@@ -120,7 +120,7 @@
 # NB: this replaces old mds.datacite.org way of doing it.
 #
 # STACKTOP
-# < 10.25349 10.25350 10.25351 10.25352 10.26081 >
+# < 10.25350 10.25351 10.25352 10.26081 >
 #    never assigned 4-digit CDL-only prefixes < 10.7918 >
 #    prefixes for recyling < 10.7276 10.7296 >
 #
@@ -240,6 +240,17 @@
 # ucd-legacy  make_ezacct -n 10.25347 d7 85781 m7  < ezaccts/newacct > out
 # dohanian    make_ezacct -n 10.25348 h8 - -  < ezaccts/newacct > out
 # achiii      make_ezacct -n - - 87296 s6 < ezaccts/newacct > out
+# ucsbdash    make_ezacct -n 10.25349 d9 - -  < ezaccts/newacct > out
+
+:: doi:10.25349/D9
+type: shoulder
+manager: ezid
+#eziduser: dash
+name: UCSB Dash
+date: 2018.12.10
+minter: https://n2t.net/a/ezid/m/ark/d5349/d9
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: doi:10.5070/Q2
 type: shoulder
@@ -924,28 +935,6 @@ manager: ezid
 name: UNLV Library No Minter
 date: 2017.03.30
 minter:
-
-:: ark:/81987/r7
-type: shoulder
-manager: ezid
-#eziduser: iris_ink
-name: Inst for Research on Innov and Science
-date: 2017.03.22
-minter: https://n2t.net/a/ezid/m/ark/81987/r7
-
-:: datacite:PURDUE.IRISINK
-type: datacenter
-manager: ezid
-name: Institute for Research on Innovation and Science
-
-:: doi:10.21987/R7
-type: shoulder
-manager: ezid
-#eziduser: iris_ink
-name: Inst for Research on Innov and Science
-date: 2017.03.22
-minter: https://n2t.net/a/ezid/m/ark/d1987/r7
-datacenter: PURDUE.IRISINK
 
 :: ark:/81986/s6.caida
 type: shoulder
@@ -2013,16 +2002,6 @@ date: 2015.12.05
 minter: https://n2t.net/a/ezid/m/ark/c8431/b3
 datacenter: CDL.EAEI
 
-:: doi:10.4231/H4
-type: shoulder
-manager: ezid
-#eziduser: datacenterhub
-name: datacenterhub
-date: 2015.11.17
-minter: https://n2t.net/a/ezid/m/ark/b4231/h4
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
 :: ark:/88129/b2
 type: shoulder
 manager: ezid
@@ -2256,23 +2235,6 @@ date: 2015.05.27
 minter: https://n2t.net/a/ezid/m/ark/c7913/r3
 datacenter: CDL.REGENBAS
 
-:: ark:/87910/b9
-type: shoulder
-manager: ezid
-#eziduser: nyu_databrary
-name: Databrary
-date: 2015.05.14
-minter: https://n2t.net/a/ezid/m/ark/87910/b9
-
-:: doi:10.17910/B7
-type: shoulder
-manager: ezid
-#eziduser: nyu_databrary
-name: Databrary
-date: 2015.05.14
-minter: https://n2t.net/a/ezid/m/ark/c7910/b7
-datacenter: CDL.DATABRAR
-
 :: ark:/87936/b7
 type: shoulder
 manager: ezid
@@ -2298,23 +2260,6 @@ date: 2015.05.11
 minter: https://n2t.net/a/ezid/m/ark/c7908/b8
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/87616/r7
-type: shoulder
-manager: ezid
-#eziduser: re3data
-name: Registry of Research Repositories
-date: 2015.04.24
-minter: https://n2t.net/a/ezid/m/ark/87616/r7
-
-:: doi:10.17616/R3
-type: shoulder
-manager: ezid
-#eziduser: re3data
-name: Registry of Research Repositories
-date: 2015.04.24
-minter: https://n2t.net/a/ezid/m/ark/c7616/r3
-datacenter: PURDUE.RE3DATA
 
 :: ark:/87615/c5
 type: shoulder
@@ -2349,23 +2294,6 @@ name: Pitt Quantum Repository
 date: 2015.04.22
 minter: https://n2t.net/a/ezid/m/ark/c7614/q4
 datacenter: CDL.PQR
-
-:: ark:/87613/m3
-type: shoulder
-manager: ezid
-#eziduser: mla
-name: Modern Language Association
-date: 2015.04.22
-minter: https://n2t.net/a/ezid/m/ark/87613/m3
-
-:: doi:10.17613/M6
-type: shoulder
-manager: ezid
-#eziduser: mla
-name: Modern Language Association
-date: 2015.04.22
-minter: https://n2t.net/a/ezid/m/ark/c7613/m6
-datacenter: CDL.MLA
 
 :: doi:10.17611/DP/
 type: shoulder
@@ -2633,23 +2561,6 @@ minter: https://n2t.net/a/ezid/m/ark/c5779/j2
 datacenter: CDL.UCBLAWLB
 crossref: true
 
-:: ark:/83027/m4
-type: shoulder
-manager: ezid
-#eziduser: mbf-bioscience
-name: MBF Bioscience
-date: 2015.01.27
-minter: https://n2t.net/a/ezid/m/ark/83027/m4
-
-:: doi:10.13027/
-type: shoulder
-manager: ezid
-#eziduser: mbf-bioscience
-name: MBF Bioscience
-date: 2015.01.27
-minter:
-datacenter: CDL.MBFBIO
-
 :: ark:/10945/t4
 type: shoulder
 manager: ezid
@@ -2820,23 +2731,6 @@ name: Purdue Polytechnic Institute
 date: 2014.10.14
 minter: https://n2t.net/a/ezid/m/ark/c8114/p5
 datacenter: PURDUE.PURPOLY
-
-:: ark:/83019/m4
-type: shoulder
-manager: ezid
-#eziduser: mygeohub
-name: MyGeoHub
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/83019/m4
-
-:: doi:10.13019/M2
-type: shoulder
-manager: ezid
-name: MyGeoHub
-#eziduser: mygeohub
-date: 2014.10.13
-minter: https://n2t.net/a/ezid/m/ark/c3019/m2
-datacenter: PURDUE.MYGEOHUB
 
 :: ark:/85147/j4
 type: shoulder
@@ -3345,16 +3239,6 @@ date: 2014.03.13
 minter:
 datacenter: CDL.MORPHOBA
 
-:: doi:10.4231/K4
-type: shoulder
-manager: ezid
-#eziduser: purdue_admin
-name: Purdue University Joint Transportation Research Program
-date: 2014.02.27
-minter: https://n2t.net/a/ezid/m/ark/b4231/k4
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
 :: ark:/83014/k3
 type: shoulder
 manager: ezid
@@ -3599,23 +3483,6 @@ name: UCSB Advanced Graphics Lab
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/b7919/f4
 datacenter: CDL.UCSBAGL
-
-:: ark:/83010/f7
-type: shoulder
-manager: ezid
-#eziduser: umbs
-name: University of Michigan Biological Station (UMBS)
-date: 2013.09.01
-minter: https://n2t.net/a/ezid/m/ark/83010/f7
-
-:: doi:10.13010/F6
-type: shoulder
-manager: ezid
-#eziduser: umbs
-name: University of Michigan Biological Station (UMBS)
-date: 2013.09.01
-minter: https://n2t.net/a/ezid/m/ark/c3010/f6
-datacenter: PURDUE.UMBS
 
 :: doi:10.5063/
 type: shoulder
@@ -3876,24 +3743,6 @@ date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
 datacenter: CDL.BIOCODE
 
-:: ark:/34231/v0
-type: shoulder
-manager: ezid
-#eziduser: purdue-cc
-name: Purdue University CyberCenter
-date: 2012.11.16
-minter: https://n2t.net/a/ezid/m/ark/34231/v0
-
-:: doi:10.4231/T9
-type: shoulder
-manager: ezid
-#eziduser: purdue-cc
-name: Purdue University CyberCenter
-date: 2012.11.16
-minter: https://n2t.net/a/ezid/m/ark/b4231/t9
-datacenter: PURDUE.PURDUECC
-prefix_shares_datacenter: true
-
 :: ark:/87285/t8
 type: shoulder
 manager: ezid
@@ -4010,42 +3859,6 @@ manager: ezid
 name: University of Utah
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/87278/s6
-
-:: ark:/34231/s0
-type: shoulder
-manager: ezid
-#eziduser: nanohub
-name: nanoHUB
-date: 2012.08.01
-minter: https://n2t.net/a/ezid/m/ark/34231/s0
-
-:: doi:10.4231/R9
-type: shoulder
-manager: ezid
-#eziduser: nanohub
-name: nanoHUB
-date: 2012.08.01
-minter: https://n2t.net/a/ezid/m/ark/b4231/r9
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
-:: ark:/34231/r8
-type: shoulder
-manager: ezid
-#eziduser: purr
-name: Purdue University Research Repository (PURR)
-date: 2012.08.01
-minter: https://n2t.net/a/ezid/m/ark/34231/r8
-
-:: doi:10.4231/R7
-type: shoulder
-manager: ezid
-#eziduser: purr
-name: Purdue University Research Repository (PURR)
-date: 2012.08.01
-minter: https://n2t.net/a/ezid/m/ark/b4231/r7
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
 
 :: ark:/87273/q8
 type: shoulder
@@ -4513,24 +4326,6 @@ name: CRDP academie d'Aix-Marseille
 date: 2011.03.01
 minter: https://n2t.net/a/ezid/m/ark/19153/b2
 
-:: ark:/34231/c6
-type: shoulder
-manager: ezid
-#eziduser: purduelib
-name: Purdue Libraries
-date: 2011.01.24
-minter: https://n2t.net/a/ezid/m/ark/34231/c6
-
-:: doi:10.4231/D3
-type: shoulder
-manager: ezid
-#eziduser: purduelib
-name: Purdue Libraries
-date: 2011.01.24
-minter: https://n2t.net/a/ezid/m/ark/b4231/d3
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
 # j2 for admin/auxiliary stuff (eg, service agreements, "owner collections")
 :: ark:/13030/j2
 type: shoulder
@@ -4669,16 +4464,6 @@ manager: ezid
 name: UCSD
 minter:
 
-:: doi:10.4231/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: purdue_admin
-name: {legacy} Purdue Libraries
-minter:
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
-
 # contact: Miller, Robert
 # contact: Bromley, Hank
 :: ark:/13960/t
@@ -4791,11 +4576,6 @@ type: datacenter
 manager: ezid
 name: Drug Design Data (D3R) Resource
 
-:: datacite:CDL.DATABRAR
-type: datacenter
-manager: ezid
-name: Databrary
-
 :: datacite:CDL.DATAMARE
 type: datacenter
 manager: ezid
@@ -4901,20 +4681,10 @@ type: datacenter
 manager: ezid
 name: Laboratory for Basic and Translational Cognitive Neuroscience
 
-:: datacite:CDL.MBFBIO
-type: datacenter
-manager: ezid
-name: MBF Bioscience
-
 :: datacite:CDL.MITLCP
 type: datacenter
 manager: ezid
 name: MIT Laboratory of Computational Physiology
-
-:: datacite:CDL.MLA
-type: datacenter
-manager: ezid
-name: Modern Language Association
 
 :: datacite:CDL.MORPHOBA
 type: datacenter
@@ -5181,11 +4951,6 @@ type: datacenter
 manager: ezid
 name: Data Repository for the University of Minnesota
 
-:: datacite:PURDUE.EZID
-type: datacenter
-manager: ezid
-name: Purdue University
-
 :: datacite:PURDUE.HTRC
 type: datacenter
 manager: ezid
@@ -5205,11 +4970,6 @@ name: IPUMS
 type: datacenter
 manager: ezid
 name: Univ Chicago Materials Data Facility
-
-:: datacite:PURDUE.MYGEOHUB
-type: datacenter
-manager: ezid
-name: MyGeoHub
 
 :: datacite:PURDUE.NCIB
 type: datacenter
@@ -5231,25 +4991,10 @@ type: datacenter
 manager: ezid
 name: Penn State Institutes of Energy and the Environment/PSU Data Commons
 
-:: datacite:PURDUE.PURDUECC
-type: datacenter
-manager: ezid
-name: Purdue University CyberCenter
-
 :: datacite:PURDUE.PURPOLY
 type: datacenter
 manager: ezid
 name: Purdue Polytechnic Institute
-
-:: datacite:PURDUE.RE3DATA
-type: datacenter
-manager: ezid
-name: Registry of Research Repositories
-
-:: datacite:PURDUE.UMBS
-type: datacenter
-manager: ezid
-name: University of Michigan Biological Station (UMBS)
 
 :: datacite:PURDUE.UMD
 type: datacenter

@@ -1,7 +1,7 @@
 erc:
 who:	University of California, California Digital Library (CDL)
 what:	Name Assigning Authority Number (NAAN) Registry
-when:	2018.12.11
+when:	2019.01.03
 where:	http://cdlib.org/uc3/naan_registry.txt
 where:  http://ark.bnf.fr/services/naan_registry.txt
 where:	http://www.nlm.nih.gov/naan/naan_registry.txt
@@ -732,7 +732,7 @@ where:	http://www.nypl.org
 how:	NP | (:unkn) unknown | 2010 |
 
 naa:
-who:	Purdue University (=) PU
+who:	Purdue University (=) PURDUE
 what:   34231
 when:	2011.01.24
 where:	http://www.purdue.edu
@@ -1285,13 +1285,6 @@ where:  http://www.broadinstitute.org
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
-who:    Databrary (=) DATABRARY
-what:   87910
-when:   2015.05.14
-where:  https://www.databrary.org
-how:    NP | (:unkn) unknown | 2015 |
-
-naa:
 who:	Service des archives régionales de Wallonie (=) Wallonia Region Archives Service (=) SARW
 what:	44119
 when:	2013.05.27
@@ -1359,13 +1352,6 @@ who:    Advanced Graphics Lab (=) AGL
 what:   87919
 when:   2013.08.31
 where:  http://www.ece.ucsb.edu/~psen
-how:    NP | (:unkn) unknown | 2013 |
-
-naa:
-who:    University of Michigan Biological Station (=) UMBS
-what:   83010
-when:   2013.08.31
-where:  http://umbs.lsa.umich.edu/research
 how:    NP | (:unkn) unknown | 2013 |
 
 naa:
@@ -1894,13 +1880,6 @@ where:	http://idash.ucsd.edu
 how:	NP | (:unkn) unknown | 2014 |
 
 naa:
-who:    MyGeoHub (=) MYGEOHUB
-what:   83019
-when:   2014.10.13
-where:	mygeohub.org
-how:	NP | (:unkn) unknown | 2014 |
-
-naa:
 who:    Purdue Polytechnic Institute (=) PURPOLY
 what:   88114
 when:   2014.10.14
@@ -2031,13 +2010,6 @@ who:	Archives municipales de Blois (=) AMBLOIS
 what:	55406
 when:	2015.01.14
 where:	http://archives.blois.fr
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    MBF Bioscience (=) MBFBIO
-what:   83027
-when:   2015.01.27
-where:	http://mbfbioscience.com
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -2216,13 +2188,6 @@ where:	http://www.ville-beziers.fr
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
-who:    Modern Language Association (=) MLA
-what:   87613
-when:   2015.04.22
-where:	www.mla.org
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
 who:    Pitt Quantum Repository (=) PQR
 what:   87614
 when:   2015.04.22
@@ -2234,13 +2199,6 @@ who:    UNC Library - Resource Description and Management (=) LIBUNC
 what:   87615
 when:   2015.04.23
 where:	http://www.lib.unc.edu
-how:	NP | (:unkn) unknown | 2015 |
-
-naa:
-who:    Registry of Research Repositories (=) RE3DATA
-what:   87616
-when:   2015.04.24
-where:	http://re3data.org
 how:	NP | (:unkn) unknown | 2015 |
 
 naa:
@@ -3238,13 +3196,6 @@ where:	http://www.caida.org
 how:	NP | (:unkn) unknown | 2017 |
 
 naa:
-who:	Institute for Research on Innovation and Science (=) IRISINK
-what:	81987
-when:	2017.03.22
-where:	http://iris.isr.umich.edu
-how:	NP | (:unkn) unknown | 2017 |
-
-naa:
 who:	Bibliothèque de Documentation internationale contemporaine (=) Library of Contemporary International Documentation (=) BDIC
 what:	14707
 when:	2017.03.23
@@ -4155,11 +4106,39 @@ where:	https://docuteam.ch
 how:	FP | (:unkn) unknown | 2018 |
 
 naa:
-who:	University of Colorado Boulder (=) UCB
+who:	University of Colorado Boulder (=) UCBOULDER
 what:	47540
 when:	2018.12.11
 where:	https://www.colorado.edu/libraries
 how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Saint-Nazaire Agglomération Tourisme (=) SNAT
+what:	34544
+when:	2018.12.12
+where:	https://storage.saint-nazaire-tourisme.com
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Phoebe A. Hearst Museum of Anthropology (=) PAHMA
+what:	21549
+when:	2018.12.21
+where:	https://portal.hearstmuseum.berkeley.edu
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Musée national du Sport (=) MNS
+what:	70112
+when:	2018.12.27
+where:	http://www.museedusport.fr
+how:	NP | (:unkn) unknown | 2018 |
+
+naa:
+who:	Institute of Control, Robotics and Information Engineering (Poznan University of Technology) (=) ICRIE-PUT-PTPN
+what:	57116
+when:	2019.01.03
+where:	https://www.fee.put.poznan.pl
+how:	NP | (:unkn) unknown | 2019 |
 
 naa:
 who:	Metadata Terms (=) TERMS
