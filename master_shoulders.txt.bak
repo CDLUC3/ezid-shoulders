@@ -242,6 +242,21 @@
 # achiii      make_ezacct -n - - 87296 s6 < ezaccts/newacct > out
 # ucsbdash    make_ezacct -n 10.25349 d9 - -  < ezaccts/newacct > out
 
+:: datacite:PURDUE.EZID
+type: datacenter
+manager: ezid
+name: Purdue University
+
+:: doi:10.4231/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: purdue_admin
+name: {legacy} Purdue Libraries
+minter:
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
 :: doi:10.25349/D9
 type: shoulder
 manager: ezid

@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+
+shdir=~/shoulders
+shdb=$shdir/master_shoulders.txt
+
+me=$( basename $0 )
+function usage {
+	cat << EOT
+
+SYNOPSIS                          ($0)
+    $me - validate shoulders
+
+USAGE
+    $me [ -p ] Shoulder ...
+
+DESCRIPTION
+
+This script does an operational test to validate each given Shoulder
+in either of these forms
+
+    ark:/NNNNN/X
+    doi:10.N[...]/X
+
+Each Shoulder must be listed in the shoulder database,
+
+    $shdb
+
+If a Shoulder is specified as "-" only a simple database syntax check
+is performed.  Normally validation is done in the CDL realm, but with
+the -p flag, validation is done in the Purdue realm instead.
+
+EXAMPLE
+
+    $me ark:/12345/x4 doi:10.12345/x5
+
+EOT
+}
+
+function valsh {
+
+	local shoulder=$1
+	[[ "$shoulder" ]] || {		# if "-" do basic syntax check
+		$shdir/validate_shoulders.alt $shdb
+		return $?
+	}
+	$shdir/validate_shoulders.alt $shdb \
+			-m "ezid:$eziduserpw" \
+			-d "$adminpw" \
+		"$shoulder" ||
+			return 1
+	echo "$shoulder - OK"
+	return 0
+}
+
+if [[ "$1" == -p ]]			# if -p then use purdue realm admin
+then
+	shift
+	adminpw=$( wegnpw purdueadmin )
+else					# but default realm is cdl admin
+	adminpw=$( wegnpw cdladmin )
+fi
+
+eziduserpw=$( wegnpw ezid )
+errcnt=0
+
+[[ "$1" ]] || {
+	usage
+	exit
+}
+
+[[ "$1" == "-" ]] && {		# basic shoulder database syntax check and exit
+	valsh || {
+		echo "Error: $shdb failed basic syntax check"
+		exit 1
+	}
+	exit 0
+}
+
+for s in "$@"
+do
+	valsh "$s" ||		# operational check on a given shoulder
+		(( errcnt+=1 ))
+done
+
+[[ $errcnt -gt 0 ]] && {
+	exit 1
+}
+exit 0
