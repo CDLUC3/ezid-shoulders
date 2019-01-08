@@ -241,11 +241,31 @@
 # dohanian    make_ezacct -n 10.25348 h8 - -  < ezaccts/newacct > out
 # achiii      make_ezacct -n - - 87296 s6 < ezaccts/newacct > out
 # ucsbdash    make_ezacct -n 10.25349 d9 - -  < ezaccts/newacct > out
+# hearstmsm   make_ezacct -n - - 21549 -  < ezaccts/newacct > out
 
 :: datacite:PURDUE.EZID
 type: datacenter
 manager: ezid
 name: Purdue University
+
+:: ark:/21549/
+type: shoulder
+manager: ezid
+#eziduser: hearstmuseum
+name: Phoebe A. Hearst Museum of Anthropology
+date: 2019.01.04
+minter:
+
+:: doi:10.5070/R7
+type: shoulder
+manager: ezid
+#eziduser: eschol_harvester
+name: Refract
+date: 2019.01.04
+minter: https://n2t.net/a/ezid/m/ark/b5070/r7
+datacenter: CDL.ESCHOL
+crossref: true
+prefix_shares_datacenter: true
 
 :: doi:10.4231/
 type: shoulder
