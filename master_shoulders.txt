@@ -22,13 +22,6 @@
 # NAANs and Prefixes no longer need to be at highest level of an org, eg, a
 # campus library can register as a library and not necessarily as the campus
 
-# XXX bug in unmint: (in queue first/now):
-#     while everything in "now" comes after everything in "first"
-#     "queue first X" puts X _after_ everything in "first"
-#     "queue now X" puts X _after_ everything in "now"
-#    => XXX need a real FIFO queue  (with dates and comments would be good)
-#    => XXX must be able to inspect the queues!
-
 # Add data center name as CDL.X or PURDUE.X where X is 8 chars max, all ucase.
 # xxx data center should be derived from group name, not user name?
 
@@ -74,30 +67,15 @@
 # To remove an entire ezid account,
 # 1. For each shoulder, do: make_shdr --remove <shoulder_name>
 # 2. Move all shoulders and datacenter to former_shoulders file.
-# 3. Move NAAN entry to naans/former_naans file
-# 4. Add NAAN string to list below of NAANs to recycle.
+# 3. Move NAAN entry to ~/naans/former_naans file
+# 4. Add NAAN to the end of the last recycle list in ~/naans/former_naans
 # 5. Reload EZID.
 
 # ========================================================================
-# NAANs to re-cycle (don't forget to drop these from NAAN registry):
-#    < 87293 88434 81221 80357 88122 88439 87913 87276 81983 87911 88112 81235 88735 81974 87933 87926 81981 77912 87909 87935 87907 86083 87267 78428 81419 77915 87923 87264 81414 87275 81429 83021 88130 81227 87605 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
-# NAANs cont'd  < 83028 88430 87294 86077 87301 87274 86070 87604 88131 88738 77909 83018 87931 86068 88116 85783 87289 85138 83334 81420 77920 87266 88125 87912 88124 87277 85967 87930 85064 86067 81417 87608 77917 85067 >
-# NAANs cont'd  < 87937 81415 87283 87606 85785 85787 87303 87298 87938 83012 87613 81987 87616 83027 87910 83019 83010 >
-# NAAN mistakenly minted 8/9/18 < but which one? >, for immediate re-use
-#
 # Prefixes to re-cycle:
 #    purdue-only prefixes < >
 # To remove minters, eg,
 # make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
-
-#    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
-#    97720 is now free (used to be shadow ARKs for UUID URNs)
-#  * after moving current NAAN entry to former_naans (delay move to when
-#    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
-# Datacenters to drop:
-#    <  >
-# Prefixes also listed at mds.datacite.org under CDL and PURDUE accounts.
 
 # To create a Prefix and data center without on an existing account,
 # create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
@@ -243,6 +221,17 @@
 # ucsbdash    make_ezacct -n 10.25349 d9 - -  < ezaccts/newacct > out
 # hearstmsm   make_ezacct -n - - 21549 -  < ezaccts/newacct > out
 # scolomfr    nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 19153/s9 eedk
+
+:: doi:10.5070/V4
+type: shoulder
+manager: ezid
+#eziduser: eschol_harvester
+name: Proceedings of the Vertebrate Pest Conference
+date: 2019.01.10
+minter: https://n2t.net/a/ezid/m/ark/b5070/v4
+datacenter: CDL.ESCHOL
+crossref: true
+prefix_shares_datacenter: true
 
 :: ark:/19153/s9
 type: shoulder
@@ -923,28 +912,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1231/s2
 datacenter: PURDUE.UWISC
 prefix_shares_datacenter: true
 
-:: ark:/81988/g8
-type: shoulder
-manager: ezid
-#eziduser: ginc-doi
-name: Gaussian Inc
-date: 2017.04.19
-minter: https://n2t.net/a/ezid/m/ark/81988/g8
-
-:: datacite:PURDUE.GAUSSIAN
-type: datacenter
-manager: ezid
-name: Gaussian, Inc.
-
-:: doi:10.21988/G8
-type: shoulder
-manager: ezid
-#eziduser: ginc-doi
-name: Gaussian Inc
-date: 2017.04.19
-minter: https://n2t.net/a/ezid/m/ark/d1988/g8
-datacenter: PURDUE.GAUSSIAN
-
 :: ark:/81222/c2
 type: shoulder
 manager: ezid
@@ -1234,28 +1201,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1972/g2
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
-:: ark:/81970/n7
-type: shoulder
-manager: ezid
-#eziduser: nds
-name: National Data Service
-date: 2016.10.19
-minter: https://n2t.net/a/ezid/m/ark/81970/n7
-
-:: datacite:PURDUE.NDS
-type: datacenter
-manager: ezid
-name: National Data Service
-
-:: doi:10.21970/N9
-type: shoulder
-manager: ezid
-#eziduser: nds
-name: National Data Service
-date: 2016.10.19
-minter: https://n2t.net/a/ezid/m/ark/d1970/n9
-datacenter: PURDUE.NDS
-
 :: ark:/48907/b7
 type: shoulder
 manager: ezid
@@ -1521,16 +1466,6 @@ date: 2016.06.14
 minter: https://n2t.net/a/ezid/m/ark/d1239/v9
 datacenter: CDL.INVEMAR
 
-:: doi:10.21236/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: dtic-ci
-name: Defense Technical Information Center (no minter)
-date: 2016.06.09
-minter:
-datacenter: CDL.DTIC
-
 :: ark:/81238/s3
 type: shoulder
 manager: ezid
@@ -1559,28 +1494,6 @@ minter: https://n2t.net/a/ezid/m/ark/d1237/c7
 datacenter: CDL.UCR
 crossref: true
 prefix_shares_datacenter: true
-
-:: ark:/81236/t3
-type: shoulder
-manager: ezid
-#eziduser: dtic-ci
-name: Defense Technical Information Center (DTIC)
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/81236/t3
-
-:: datacite:CDL.DTIC
-type: datacenter
-manager: ezid
-name: Defense Technical Information Center (DTIC)
-
-:: doi:10.21236/D6
-type: shoulder
-manager: ezid
-#eziduser: dtic-ci
-name: Defense Technical Information Center (DTIC)
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/d1236/d6
-datacenter: CDL.DTIC
 
 :: ark:/81234/b8
 type: shoulder
@@ -2063,23 +1976,6 @@ date: 2015.10.20
 minter: https://n2t.net/a/ezid/m/ark/c8129/b9
 datacenter: PURDUE.NCIB
 
-:: ark:/88128/
-type: shoulder
-manager: ezid
-#eziduser: ipums
-name: IPUMS
-date: 2015.09.29
-minter: 
-
-:: doi:10.18128/
-type: shoulder
-manager: ezid
-#eziduser: ipums
-name: IPUMS
-date: 2015.09.29
-minter: 
-datacenter: PURDUE.IPUMS
-
 :: ark:/88123/d7
 type: shoulder
 manager: ezid
@@ -2113,23 +2009,6 @@ name: National Cancer Institute, NIH
 date: 2015.09.08
 minter: https://n2t.net/a/ezid/m/ark/c8121/n2
 datacenter: PURDUE.NCIP
-
-:: ark:/88120/r8
-type: shoulder
-manager: ezid
-#eziduser: isi-isrd
-name: USC ISI Informatics Systems Research Division
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/88120/r8
-
-:: doi:10.18120/R2
-type: shoulder
-manager: ezid
-#eziduser: isi-isrd
-name: USC ISI Informatics Systems Research Division
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/c8120/r2
-datacenter: CDL.ISRD
 
 :: ark:/88119/f7
 type: shoulder
@@ -2191,40 +2070,6 @@ name: Laboratory for Basic and Translational Cognitive Neuroscience
 date: 2015.08.13
 minter: https://n2t.net/a/ezid/m/ark/c8115/d5
 datacenter: CDL.LUCKLAB
-
-:: ark:/77919/x7
-type: shoulder
-manager: ezid
-#eziduser: eixid
-name: Entrepreneur & Innovation Exchange
-date: 2015.07.15
-minter: https://n2t.net/a/ezid/m/ark/77919/x7
-
-:: doi:10.17919/X9
-type: shoulder
-manager: ezid
-#eziduser: eixid
-name: Entrepreneur & Innovation Exchange
-date: 2015.07.15
-minter: https://n2t.net/a/ezid/m/ark/c7919/x9
-datacenter: CDL.EIX
-
-:: ark:/87918/d9
-type: shoulder
-manager: ezid
-#eziduser: drexeldata
-name: Drexel University Libraries
-date: 2015.07.13
-minter: https://n2t.net/a/ezid/m/ark/87918/d9
-
-:: doi:10.17918/D8
-type: shoulder
-manager: ezid
-#eziduser: drexeldata
-name: Drexel University Libraries
-date: 2015.07.13
-minter: https://n2t.net/a/ezid/m/ark/c7918/d8
-datacenter: CDL.DRXLDATA
 
 :: ark:/87917/c9
 type: shoulder
@@ -2304,23 +2149,6 @@ date: 2015.05.11
 minter: https://n2t.net/a/ezid/m/ark/c7908/b8
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/87615/c5
-type: shoulder
-manager: ezid
-#eziduser: libunc
-name: UNC Library - Resource Description and Management
-date: 2015.04.23
-minter: https://n2t.net/a/ezid/m/ark/87615/c5
-
-:: doi:10.17615/C6
-type: shoulder
-manager: ezid
-#eziduser: libunc
-name: UNC Library - Resource Description and Management
-date: 2015.04.23
-minter: https://n2t.net/a/ezid/m/ark/c7615/c6
-datacenter: CDL.LIBUNC
 
 :: ark:/87614/q6
 type: shoulder
@@ -2742,23 +2570,6 @@ date: 2014.11.10
 minter: https://n2t.net/a/ezid/m/ark/c3022/m3
 datacenter: CDL.DATAMARE
 
-:: ark:/83020/d8
-type: shoulder
-manager: ezid
-#eziduser: drum
-name: Data Repository for the University of Minnesota
-date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/83020/d8
-
-:: doi:10.13020/D6
-type: shoulder
-manager: ezid
-#eziduser: drum
-name: Data Repository for the University of Minnesota
-date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/c3020/d6
-datacenter: PURDUE.DRUM
-
 :: ark:/88114/p7
 type: shoulder
 manager: ezid
@@ -2792,23 +2603,6 @@ name: iDASH Repository
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c5147/j2
 datacenter: CDL.IDASHREP
-
-:: ark:/83017/m4
-type: shoulder
-manager: ezid
-#eziduser: minnesota
-name: University of Minnesota Libraries
-date: 2014.10.09
-minter: https://n2t.net/a/ezid/m/ark/83017/m4
-
-:: doi:10.13017/M2
-type: shoulder
-manager: ezid
-#eziduser: minnesota
-name: University of Minnesota Libraries
-date: 2014.10.09
-minter: https://n2t.net/a/ezid/m/ark/c3017/m2
-datacenter: PURDUE.UMN
 
 :: doi:10.15146/R3
 type: shoulder
@@ -2892,23 +2686,6 @@ date: 2014.08.12
 minter:
 datacenter: CDL.CRCL
 
-:: ark:/85143/c4
-type: shoulder
-manager: ezid
-#eziduser: acsess
-name: Alliance for Crops, Soils, and Environmental Science Societies
-date: 2014.07.30
-minter: https://n2t.net/a/ezid/m/ark/85143/c4
-
-:: doi:10.15143/C3
-type: shoulder
-manager: ezid
-#eziduser: acsess
-name: Alliance for Crops, Soils, and Environmental Science Societies
-date: 2014.07.30
-minter: https://n2t.net/a/ezid/m/ark/c5143/c3
-datacenter: PURDUE.ACSESS
-
 :: ark:/85142/t4
 type: shoulder
 manager: ezid
@@ -2960,23 +2737,6 @@ date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5140/d3
 datacenter: CDL.UCDAVIS
 prefix_shares_datacenter: true
-
-:: ark:/85139/s4
-type: shoulder
-manager: ezid
-#eziduser: odumunc
-name: Odum Institute for Research in Social Science
-date: 2014.07.23
-minter: https://n2t.net/a/ezid/m/ark/85139/s4
-
-:: doi:10.15139/S3
-type: shoulder
-manager: ezid
-#eziduser: odumunc
-name: Odum Institute for Research in Social Science
-date: 2014.07.23
-minter: https://n2t.net/a/ezid/m/ark/c5139/s3
-datacenter: CDL.ODUMUNC
 
 :: doi:10.6078/D1
 type: shoulder
@@ -3283,23 +3043,6 @@ date: 2014.03.13
 minter:
 datacenter: CDL.MORPHOBA
 
-:: ark:/83014/k3
-type: shoulder
-manager: ezid
-#eziduser: cors
-name: University of Nebraska-Lincoln Libraries
-date: 2014.02.27
-minter: https://n2t.net/a/ezid/m/ark/83014/k3
-
-:: doi:10.13014/K2
-type: shoulder
-manager: ezid
-#eziduser: cors
-name: University of Nebraska-Lincoln Libraries
-date: 2014.02.27
-minter: https://n2t.net/a/ezid/m/ark/c3014/k2
-datacenter: PURDUE.UNL
-
 :: ark:/87932/k0
 type: shoulder
 manager: ezid
@@ -3316,27 +3059,6 @@ name: Berkeley Seismological Laboratory
 date: 2014.02.13
 minter:
 datacenter: CDL.BSL
-
-# inactive
-:: doi:10.13013/J6
-type: shoulder
-active: false
-manager: ezid
-#eziduser: none
-name: Intrepid Bioinformatics
-date: 2013.12.17
-minter: https://n2t.net/a/ezid/m/ark/c3013/j6
-datacenter: PURDUE.INTBIO
-
-# inactive
-:: ark:/83013/j7
-type: shoulder
-active: false
-manager: ezid
-#eziduser: none
-name: Intrepid Bioinformatics
-date: 2013.12.17
-minter: https://n2t.net/a/ezid/m/ark/83013/j7
 
 :: ark:/87929/
 type: shoulder
@@ -3493,23 +3215,6 @@ name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
 date: 2013.09.09
 minter: https://n2t.net/a/ezid/m/ark/b7920/f8
 datacenter: CDL.CAMS
-
-:: ark:/87921/g1
-type: shoulder
-manager: ezid
-#eziduser: renci
-name: RENCI (Renaissance Computing Institute)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/87921/g1
-
-:: doi:10.7921/G0
-type: shoulder
-manager: ezid
-#eziduser: renci
-name: RENCI (Renaissance Computing Institute)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/b7921/g0
-datacenter: CDL.RENCI
 
 :: ark:/87919/f5
 type: shoulder
@@ -4625,11 +4330,6 @@ type: datacenter
 manager: ezid
 name: DataMares
 
-:: datacite:CDL.DRXLDATA
-type: datacenter
-manager: ezid
-name: Drexel University Libraries
-
 :: datacite:CDL.EAEI
 type: datacenter
 manager: ezid
@@ -4639,11 +4339,6 @@ name: Energy Analysis and Environmental Impacts
 type: datacenter
 manager: ezid
 name: EarthRef
-
-:: datacite:CDL.EIX
-type: datacenter
-manager: ezid
-name: Entrepreneur & Innovation Exchange
 
 :: datacite:CDL.ESCHOL
 type: datacenter
@@ -4690,11 +4385,6 @@ type: datacenter
 manager: ezid
 name: Incorporated Research Institutions for Seismology
 
-:: datacite:CDL.ISRD
-type: datacenter
-manager: ezid
-name: USC ISI Informatics Systems Research Division
-
 :: datacite:CDL.ISSDA
 type: datacenter
 manager: ezid
@@ -4714,11 +4404,6 @@ name: Lawrence Berkeley National Laboratory
 type: datacenter
 manager: ezid
 name: Landscape Conservation Cooperative
-
-:: datacite:CDL.LIBUNC
-type: datacenter
-manager: ezid
-name: UNC Library - Resource Description and Management
 
 :: datacite:CDL.LUCKLAB
 type: datacenter
@@ -4755,11 +4440,6 @@ type: datacenter
 manager: ezid
 name: National University of Ireland, Galway
 
-:: datacite:CDL.ODUMUNC
-type: datacenter
-manager: ezid
-name: Odum Institute for Research in Social Science
-
 :: datacite:CDL.PGERR
 type: datacenter
 manager: ezid
@@ -4789,11 +4469,6 @@ name: Rolling Deck to Repository Program
 type: datacenter
 manager: ezid
 name: Miami Project to Cure Paralysis
-
-:: datacite:CDL.RENCI
-type: datacenter
-manager: ezid
-name: RENCI (Renaissance Computing Institute)
 
 :: datacite:CDL.RUTGERS
 type: datacenter
@@ -4975,11 +4650,6 @@ type: datacenter
 manager: ezid
 name: Washington State University
 
-:: datacite:PURDUE.ACSESS
-type: datacenter
-manager: ezid
-name: Alliance for Crops, Soils, and Environmental Science Societies
-
 :: datacite:PURDUE.ARTLAS
 type: datacenter
 manager: ezid
@@ -4990,25 +4660,10 @@ type: datacenter
 manager: ezid
 name: Chicago Collections Consortium
 
-:: datacite:PURDUE.DRUM
-type: datacenter
-manager: ezid
-name: Data Repository for the University of Minnesota
-
 :: datacite:PURDUE.HTRC
 type: datacenter
 manager: ezid
 name: HathiTrust Research Center
-
-:: datacite:PURDUE.INTBIO
-type: datacenter
-manager: ezid
-name: Intrepid Bioinformatics
-
-:: datacite:PURDUE.IPUMS
-type: datacenter
-manager: ezid
-name: IPUMS
 
 :: datacite:PURDUE.MDF
 type: datacenter
@@ -5050,12 +4705,3 @@ type: datacenter
 manager: ezid
 name: University of Michigan Library
 
-:: datacite:PURDUE.UMN
-type: datacenter
-manager: ezid
-name: University of Minnesota Libraries
-
-:: datacite:PURDUE.UNL
-type: datacenter
-manager: ezid
-name: University of Nebraska-Lincoln Libraries

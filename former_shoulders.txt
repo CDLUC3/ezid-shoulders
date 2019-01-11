@@ -1,0 +1,3730 @@
+:: ark:/88127/p8
+type: shoulder
+manager: ezid
+#eziduser: datactr5
+name: Temporary Name: PURDUE Data Center 5
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/88127/p8
+
+:: doi:10.18127/P2
+type: shoulder
+manager: ezid
+#eziduser: datactr5
+name: Temporary Name: PURDUE Data Center 5
+date: 2015.09.10
+minter: https://n2t.net/a/ezid/m/ark/c8127/p2
+datacenter: PURDUE.DATACTR5
+
+:: datacite:PURDUE.DATACTR5
+type: datacenter
+manager: ezid
+name: Temporary Name: Data Center 5
+
+:: ark:/87292/w1
+type: shoulder
+manager: ezid
+#eziduser: ezbaeri11
+name: Bay Area Environmental Research (BAER) Institute
+date: 2013.01.28
+minter: https://n2t.net/a/ezid/m/ark/87292/w1
+
+:: doi:10.7292/W0
+type: shoulder
+manager: ezid
+#eziduser: ezbaeri11
+name: Bay Area Environmental Research (BAER) Institute
+date: 2013.01.28
+minter: https://n2t.net/a/ezid/m/ark/b7292/w0
+datacenter: CDL.BAER
+
+:: datacite:CDL.BAER
+type: datacenter
+manager: ezid
+name: Bay Area Environmental Research (BAER) Institute
+
+:: datacite:CDL.AAS
+type: datacenter
+manager: ezid
+name: American Astronomical Society
+
+:: ark:/86074/r3
+type: shoulder
+manager: ezid
+#eziduser: aasdata
+name: American Astronomical Society (AAS)
+date: 2012.03.05
+minter: https://n2t.net/a/ezid/m/ark/86074/r3
+
+:: doi:10.6074/D8
+type: shoulder
+manager: ezid
+#eziduser: aasdata
+name: American Astronomical Society (AAS)
+date: 2012.03.05
+minter: https://n2t.net/a/ezid/m/ark/b6074/d8
+datacenter: CDL.AAS
+
+:: datacite:CDL.UPENNLIB
+type: datacenter
+manager: ezid
+name: University of Pennsylvania Libraries
+
+:: doi:10.21431/P4
+type: shoulder
+manager: ezid
+#eziduser: upennlib
+name: University of Pennsylvania Libraries
+date: 2016.09.15
+minter: https://n2t.net/a/ezid/m/ark/d1431/p4
+datacenter: CDL.UPENNLIB
+
+:: ark:/77916/c7
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/77916/c7
+
+:: datacite:CDL.ICIS
+type: datacenter
+manager: ezid
+name: International Center for Integrative Systems Inc.
+
+:: doi:10.17916/C6
+type: shoulder
+manager: ezid
+#eziduser: icis
+name: International Center for Integrative Systems Inc.
+date: 2015.06.30
+minter: https://n2t.net/a/ezid/m/ark/c7916/c6
+datacenter: CDL.ICIS
+
+:: doi:10.7269/P3
+type: shoulder
+manager: ezid
+#eziduser: ESIPCommon
+name: Federation of Earth Science Information Partners (ESIP) Commons
+date: 2012.06.27
+minter: https://n2t.net/a/ezid/m/ark/b7269/p3
+datacenter: CDL.ESIP
+
+:: datacite:CDL.ESIP
+type: datacenter
+manager: ezid
+name: Federation of Earth Science Information Partners (ESIP) Commons
+
+:: ark:/87287/v3
+type: shoulder
+manager: ezid
+#eziduser: peerj
+name: PeerJ
+date: 2012.12.06
+minter: https://n2t.net/a/ezid/m/ark/87287/v3
+
+:: datacite:CDL.ELRAP
+type: datacenter
+manager: ezid
+name: Edom Lowlands Regional Archaeology Project
+
+:: datacite:CDL.LBNLJCAP
+type: datacenter
+manager: ezid
+name: Joint Center for Artificial Photosynthesis in Chemical Sciences Division
+
+:: datacite:CDL.LBNLCESD
+type: datacenter
+manager: ezid
+name: LBNL Climate and Ecosystems Science Division
+
+:: datacite:CDL.LBNLOMSI
+type: datacenter
+manager: ezid
+name: LBNL OpenMSI
+
+:: datacite:CDL.DBMICLD
+type: datacenter
+manager: ezid
+name: UC San Diego Department of Biomedical Informatics
+
+:: datacite:CDL.UCLACEE
+type: datacenter
+manager: ezid
+name: UCLA Civil and Environmental Engineering
+
+:: datacite:CDL.UCSDHLAB
+type: datacenter
+manager: ezid
+name: UCSD Hydraulics Laboratory
+
+:: datacite:CDL.UCSDBIO
+type: datacenter
+manager: ezid
+name: UCSD Nieh Lab
+
+:: datacite:CDL.UCSDOOI
+type: datacenter
+manager: ezid
+name: UCSD Ocean Observatory Initiative
+
+:: datacite:CDL.ONELAB
+type: datacenter
+manager: ezid
+name: UCSD OneLab
+
+:: datacite:CDL.UCSDSSPP
+type: datacenter
+manager: ezid
+name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
+
+:: datacite:CDL.CRBS
+type: datacenter
+manager: ezid
+name: Center for Research in Biological Systems
+
+:: datacite:CDL.CNS
+type: datacenter
+manager: ezid
+name: Center for Nanotechnology in Society
+
+:: ark:/81428/b2
+type: shoulder
+manager: ezid
+#eziduser: pubpub
+name: PubPub
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/81428/b2
+
+:: ark:/81428/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: pubpub
+name: PubPub no minter
+date: 2016.09.08
+minter:
+
+:: datacite:CDL.PUB
+type: datacenter
+manager: ezid
+name: PubPub
+
+:: doi:10.21428/P8
+type: shoulder
+manager: ezid
+#eziduser: pubpub
+name: PubPub
+date: 2016.09.08
+minter: https://n2t.net/a/ezid/m/ark/d1428/p8
+datacenter: CDL.PUB
+crossref: true
+
+:: doi:10.21428/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: pubpub
+name: PubPub no minter
+date: 2016.09.08
+minter:
+datacenter: CDL.PUB
+crossref: true
+
+:: datacite:CDL.LAFCOLLI
+type: datacenter
+manager: ezid
+name: Lafayette College Library
+
+:: ark:/88736/c3
+type: shoulder
+manager: ezid
+#eziduser: lafcollib
+name: Lafayette College Libr
+date: 2016.02.09
+minter: https://n2t.net/a/ezid/m/ark/88736/c3
+
+:: doi:10.18736/C6
+type: shoulder
+manager: ezid
+#eziduser: lafcollib
+name: Lafayette College Libr
+date: 2016.02.09
+minter: https://n2t.net/a/ezid/m/ark/c8736/c6
+datacenter: CDL.LAFCOLLI
+
+:: datacite:CDL.PEERJ
+type: datacenter
+manager: ezid
+name: PeerJ
+
+:: doi:10.7287/
+type: shoulder
+manager: ezid
+#eziduser: peerj
+name: PeerJ
+date: 2012.12.06
+minter:
+datacenter: CDL.PEERJ
+
+:: datacite:CDL.EMU
+type: datacenter
+manager: ezid
+name: Emory University
+
+:: ark:/88737/m3
+type: shoulder
+manager: ezid
+#eziduser: emory
+name: Emory University
+date: 2016.02.17
+minter: https://n2t.net/a/ezid/m/ark/88737/m3
+
+:: doi:10.18737/M7
+type: shoulder
+manager: ezid
+#eziduser: emory
+name: Emory University
+date: 2016.02.17
+minter: https://n2t.net/a/ezid/m/ark/c8737/m7
+datacenter: CDL.EMU
+crossref: true
+
+:: ark:/87603/ds2
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe Minter
+date: 2016.05.17
+minter: https://n2t.net/a/ezid/m/ark/87603/ds2
+
+:: ark:/87603/n9
+type: shoulder
+manager: ezid
+#eziduser: uta_tacc
+name: DesignSafe No Minter
+date: 2016.05.18
+minter:
+
+:: ark:/80359/d3
+type: shoulder
+manager: ezid
+#eziduser: uta_briscoe
+name: UTA Dolph Briscoe Center
+date: 2016.03.30
+minter: https://n2t.net/a/ezid/m/ark/80359/d3
+
+:: ark:/87610/t6
+type: shoulder
+manager: ezid
+#eziduser: uta_ica
+name: UTA Institute of Classical Archaeology
+date: 2015.04.06
+minter: https://n2t.net/a/ezid/m/ark/87610/t6
+
+:: ark:/85781/t4
+type: shoulder
+manager: ezid
+#eziduser: utaustin
+name: University of Texas at Austin
+date: 2015.02.17
+minter: https://n2t.net/a/ezid/m/ark/85781/t4
+
+:: datacite:CDL.MORPHOSO
+type: datacenter
+manager: ezid
+name: Morphosource Project
+
+:: doi:10.17602/M2
+type: shoulder
+manager: ezid
+#eziduser: duke_morpho
+name: Morphosource Project
+date: 2015.03.26
+minter: https://n2t.net/a/ezid/m/ark/c7602/m2
+datacenter: CDL.MORPHOSO
+
+:: datacite:CDL.DUL
+type: datacenter
+manager: ezid
+name: Duke University
+
+:: doi:10.7924/G8
+type: shoulder
+manager: ezid
+#eziduser: duke_lib
+name: Duke University
+date: 2013.10.14
+minter: https://n2t.net/a/ezid/m/ark/b7924/g8
+datacenter: CDL.DUL
+
+:: ark:/87296/x1
+type: shoulder
+manager: ezid
+#eziduser: ucsd_elrap
+name: Edom Lowlands Regional Archaeology Project
+date: 2013.03.07
+minter: https://n2t.net/a/ezid/m/ark/87296/x1
+
+:: doi:10.7296/X0
+type: shoulder
+manager: ezid
+#eziduser: ucsd_elrap
+name: Edom Lowlands Regional Archaeology Project
+date: 2013.03.07
+minter: https://n2t.net/a/ezid/m/ark/b7296/x0
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.18432/R2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta ARI Journal
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/c8432/r2
+#datacenter: CDL.ARIJOURN
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: doi:10.21432/T2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Jrnl of Learning and Technology
+date: 2016.09.16
+minter: https://n2t.net/a/ezid/m/ark/d1432/t2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21225/D5
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Jrnl of University Continuing Education
+date: 2016.05.11
+minter: https://n2t.net/a/ezid/m/ark/d1225/d5
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.25336/P6
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Canadian Studies in Population
+date: 2017.07.07
+minter: https://n2t.net/a/ezid/m/ark/d5336/p6
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21991/C9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Constitutional Forum Journal
+date: 2017.05.03
+minter: https://n2t.net/a/ezid/m/ark/d1991/c9
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.18733/C3
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta CPI Journal
+date: 2016.01.04
+minter: https://n2t.net/a/ezid/m/ark/c8733/c3
+#datacenter: CDL.CPIJOURN
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: doi:10.20361/G2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Deakin Revw of Childrens Lit
+date: 2016.03.31
+minter: https://n2t.net/a/ezid/m/ark/d0361/g2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21226/T2
+type: shoulder
+manager: ezid
+#eziduser: 
+name: UAlberta East West Jrnl of Ukrainian Studies
+date: 2016.05.11
+minter: https://n2t.net/a/ezid/m/ark/d1226/t2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.18438/B8
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta EBLIP Journal
+date: 2015.12.10
+minter: https://n2t.net/a/ezid/m/ark/c8438/b8
+datacenter: CDL.EBLIPJOU
+crossref: true
+
+:: doi:10.18732/H2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta HSSA Journal
+date: 2016.01.04
+minter: https://n2t.net/a/ezid/m/ark/c8732/h2
+datacenter: CDL.HSSAJOUR
+crossref: true
+
+:: doi:10.20355/C5
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Journal of Contemporary Issues in Education
+date: 2016.03.22
+minter: https://n2t.net/a/ezid/m/ark/d0355/c5
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: doi:10.18741/P9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Journal of Professional Continuing and Online Education
+date: 2016.03.10
+minter: https://n2t.net/a/ezid/m/ark/c8741/p9
+#datacenter: CDL.PCOEJOUR
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: doi:10.18433/J3
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta JPPS Journal
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/c8433/j3
+datacenter: CDL.JPPSJOUR
+crossref: true
+
+:: doi:10.20360/G2
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Language and Literacy
+date: 2016.03.31
+minter: https://n2t.net/a/ezid/m/ark/d0360/g2
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21971/P7
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Past Imperfect Journal
+date: 2016.10.21
+minter: https://n2t.net/a/ezid/m/ark/d1971/p7
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.21230/F3
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta REEFMM
+date: 2016.05.24
+minter: https://n2t.net/a/ezid/m/ark/d1230/f3
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.18740/S4
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta Socialist Studies Journal
+date: 2016.03.07
+minter: https://n2t.net/a/ezid/m/ark/c8740/s4
+#datacenter: CDL.SSJOURNA
+datacenter: CDL.UAL
+prefix_shares_datacenter: true
+crossref: true
+
+:: doi:10.21992/T9
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta TranscUlturAl Journal
+date: 2017.05.03
+minter: https://n2t.net/a/ezid/m/ark/d1992/t9
+datacenter: CDL.UAL
+crossref: true
+prefix_shares_datacenter: true
+
+:: doi:10.18435/B5
+type: shoulder
+manager: ezid
+#eziduser: ualberta
+name: UAlberta VAMP Journal
+date: 2015.12.09
+minter: https://n2t.net/a/ezid/m/ark/c8435/b5
+datacenter: CDL.VAMPJOUR
+crossref: true
+
+:: datacite:CDL.VAMPJOUR
+type: datacenter
+manager: ezid
+name: UAlberta VAMP Journal
+
+:: datacite:CDL.JPPSJOUR
+type: datacenter
+manager: ezid
+name: UAlberta JPPS Journal
+
+:: datacite:CDL.HSSAJOUR
+type: datacenter
+manager: ezid
+name: UAlberta HSSA Journal
+
+:: datacite:CDL.EBLIPJOU
+type: datacenter
+manager: ezid
+name: UAlberta EBLIP Journal
+
+:: ark:/87293/w3
+type: shoulder
+manager: ezid
+#eziduser: benchfly
+name: BenchFly
+date: 2013.02.11
+minter: https://n2t.net/a/ezid/m/ark/87293/w3
+
+:: datacite:CDL.BENCHFLY
+type: datacenter
+manager: ezid
+name: BenchFly
+
+:: doi:10.7293/W2
+type: shoulder
+manager: ezid
+#eziduser: benchfly
+name: BenchFly
+date: 2013.02.11
+minter: https://n2t.net/a/ezid/m/ark/b7293/w2
+datacenter: CDL.BENCHFLY
+
+:: ark:/88434/t3
+type: shoulder
+manager: ezid
+#eziduser: nist
+name: National Institute of Standards and Technology
+date: 2015.12.11
+minter: https://n2t.net/a/ezid/m/ark/88434/t3
+
+:: doi:10.18434/M3
+type: shoulder
+manager: ezid
+#eziduser: nist_midas
+name: NIST MIDAS
+date: 2016.12.07
+minter: https://n2t.net/a/ezid/m/ark/c8434/m3
+datacenter: CDL.NIST
+prefix_shares_datacenter: true
+
+:: doi:10.18434/T4
+type: shoulder
+manager: ezid
+#eziduser: nist
+name: National Institute of Standards and Technology
+date: 2015.12.11
+minter: https://n2t.net/a/ezid/m/ark/c8434/t4
+datacenter: CDL.NIST
+prefix_shares_datacenter: true
+
+:: datacite:CDL.NIST
+type: datacenter
+manager: ezid
+name: National Institute of Standards and Technology
+
+:: ark:/80357/s3
+type: shoulder
+manager: ezid
+#eziduser: diglibsdsu
+name: SDSU Library
+date: 2016.03.29
+minter: https://n2t.net/a/ezid/m/ark/80357/s3
+
+:: datacite:CDL.SDSULIB
+type: datacenter
+manager: ezid
+name: San Diego State University Library
+
+:: doi:10.20357/D7
+type: shoulder
+manager: ezid
+#eziduser: diglibsdsu
+name: SDSU Library
+date: 2016.03.29
+minter: https://n2t.net/a/ezid/m/ark/d0357/d7
+datacenter: CDL.SDSULIB
+
+:: ark:/81221/s4
+type: shoulder
+manager: ezid
+#eziduser: sdsu_edwards
+name: SDSU Computer Science
+date: 2016.04.14
+minter: https://n2t.net/a/ezid/m/ark/81221/s4
+
+:: datacite:CDL.SDSUCS
+type: datacenter
+manager: ezid
+name: SDSU Computer Science
+
+:: doi:10.21221/C2
+type: shoulder
+manager: ezid
+#eziduser: sdsu_edwards
+name: SDSU Computer Science
+date: 2016.04.14
+minter: https://n2t.net/a/ezid/m/ark/d1221/c2
+datacenter: CDL.SDSUCS
+
+:: datacite:PURDUE.UIC
+type: datacenter
+manager: ezid
+name: University of Illinois at Chicago
+
+:: doi:10.21984/C4
+type: shoulder
+manager: ezid
+#eziduser: uic
+name: University of Illinois at Chicago
+date: 2017.02.09
+minter: https://n2t.net/a/ezid/m/ark/d1984/c4
+datacenter: PURDUE.UIC
+
+:: ark:/88122/b8
+type: shoulder
+manager: ezid
+#eziduser: boisedoi
+name: Boise State University
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88122/b8
+
+:: datacite:CDL.BOISESTA
+type: datacenter
+manager: ezid
+name: Boise State University
+
+:: doi:10.18122/B2
+type: shoulder
+manager: ezid
+#eziduser: boisedoi
+name: Boise State University
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8122/b2
+datacenter: CDL.BOISESTA
+
+:: ark:/88439/g4
+type: shoulder
+manager: ezid
+#eziduser: ogc
+name: Open Geospatial Consortium
+date: 2015.12.17
+minter: https://n2t.net/a/ezid/m/ark/88439/g4
+
+:: datacite:CDL.OGC
+type: datacenter
+manager: ezid
+name: Open Geospatial Consortium
+
+:: doi:10.18439/G9
+type: shoulder
+manager: ezid
+#eziduser: ogc
+name: Open Geospatial Consortium
+date: 2015.12.17
+minter: https://n2t.net/a/ezid/m/ark/c8439/g9
+datacenter: CDL.OGC
+
+# ARK NAAN formerly used by OneOcean
+:: ark:/87911/s7
+type: shoulder
+manager: ezid
+#eziduser: uw_isolab
+name: University of Washington IsoLab
+date: 2015.05.20
+minter: https://n2t.net/a/ezid/m/ark/87911/s7
+
+# DOI Prefix formerly used by OneOcean
+:: doi:10.17911/S9
+type: shoulder
+manager: ezid
+#eziduser: uw_isolab
+name: University of Washington IsoLab
+date: 2015.05.20
+minter: https://n2t.net/a/ezid/m/ark/c7911/s9
+datacenter: CDL.UWISOLAB
+
+:: datacite:CDL.UWISOLAB
+type: datacenter
+manager: ezid
+name: University of Washington IsoLab
+
+:: ark:/81983/r8
+type: shoulder
+manager: ezid
+#eziduser: uw_i-labsout
+name: UW Institute for Learning & Brain Sciences
+date: 2017.01.26
+minter: https://n2t.net/a/ezid/m/ark/81983/r8
+
+:: doi:10.21983/B3
+type: shoulder
+manager: ezid
+#eziduser: uw_i-labsout
+name: UW Institute for Learning & Brain Sciences
+date: 2017.01.26
+minter: https://n2t.net/a/ezid/m/ark/d1983/b3
+datacenter: CDL.UWL
+prefix_shares_datacenter: true
+
+:: ark:/87276/s2
+type: shoulder
+manager: ezid
+#eziduser: uw_csde
+name: University of Washington Center for Studies in Demography and Ecology
+date: 2012.08.07
+minter: https://n2t.net/a/ezid/m/ark/87276/s2
+
+:: doi:10.7276/S1
+type: shoulder
+manager: ezid
+#eziduser: uw_csde
+name: University of Washington Center for Studies in Demography and Ecology
+date: 2012.08.07
+minter: https://n2t.net/a/ezid/m/ark/b7276/s1
+datacenter: CDL.UWCSDE
+
+:: datacite:CDL.UWCSDE
+type: datacenter
+manager: ezid
+name: University of Washington Center for Studies in Demography and Ecology
+
+:: ark:/87913/d2
+type: shoulder
+manager: ezid
+#eziduser: uw_esci
+name: University of Washington eScience Institute
+date: 2013.06.05
+minter: https://n2t.net/a/ezid/m/ark/87913/d2
+
+:: doi:10.7913/D1
+type: shoulder
+manager: ezid
+#eziduser: uw_esci
+name: University of Washington eScience Institute
+date: 2013.06.05
+minter: https://n2t.net/a/ezid/m/ark/b7913/d1
+datacenter: CDL.UWESCI
+
+:: datacite:CDL.UWESCI
+type: datacenter
+manager: ezid
+name: University of Washington eScience Institute
+
+:: ark:/81416/s4
+type: shoulder
+manager: ezid
+#eziduser: uw_rw
+name: UW Information Technology Services
+date: 2016.06.29
+minter: https://n2t.net/a/ezid/m/ark/81416/s4
+
+:: doi:10.21416/T6
+type: shoulder
+manager: ezid
+#eziduser: uw_rw
+name: UW Information Technology Services
+date: 2016.06.29
+minter: https://n2t.net/a/ezid/m/ark/d1416/t6
+datacenter: CDL.UWL
+prefix_shares_datacenter: true
+
+:: ark:/85066/f8
+type: shoulder
+manager: ezid
+#eziduser: usgs
+name: USGS Core Science Analytics and Synthesis (CSAS)
+date: 2011.12.13
+minter: https://n2t.net/a/ezid/m/ark/85066/f8
+
+:: doi:10.5066/F7
+type: shoulder
+manager: ezid
+#eziduser: usgs
+name: USGS Core Science Analytics and Synthesis (CSAS)
+date: 2011.12.13
+minter: https://n2t.net/a/ezid/m/ark/b5066/f7
+datacenter: CDL.USGS
+
+:: datacite:CDL.USGS
+type: datacenter
+manager: ezid
+name: USGS Core Science Analytics and Synthesis (CSAS)
+
+:: ark:/88112/p8
+type: shoulder
+manager: ezid
+#eziduser: openfmri
+name: Openfmri
+date: 2015.07.27
+minter: https://n2t.net/a/ezid/m/ark/88112/p8
+
+:: datacite:CDL.OPENFMRI
+type: datacenter
+manager: ezid
+name: Openfmri
+
+:: doi:10.18112/P2
+type: shoulder
+manager: ezid
+#eziduser: openfmri
+name: Openfmri
+date: 2015.07.27
+minter: https://n2t.net/a/ezid/m/ark/c8112/p2
+datacenter: CDL.OPENFMRI
+
+:: ark:/81235/
+type: shoulder
+manager: ezid
+#eziduser: sepeditors
+name: Stanford Encyclopedia of Philosophy
+date: 2016.05.26
+minter: 
+
+:: datacite:CDL.SEP
+type: datacenter
+manager: ezid
+name: Stanford Encyclopedia of Philosophy
+
+:: doi:10.21235/
+type: shoulder
+manager: ezid
+#eziduser: sepeditors
+name: Stanford Encyclopedia of Philosophy
+date: 2016.05.26
+minter: 
+datacenter: CDL.SEP
+
+:: ark:/88735/s3
+type: shoulder
+manager: ezid
+#eziduser: simtk
+name: SimTK
+date: 2016.02.08
+minter: https://n2t.net/a/ezid/m/ark/88735/s3
+
+:: datacite:CDL.SIMTK
+type: datacenter
+manager: ezid
+name: SimTK
+
+:: doi:10.18735/S5
+type: shoulder
+manager: ezid
+#eziduser: simtk
+name: SimTK
+date: 2016.02.08
+minter: https://n2t.net/a/ezid/m/ark/c8735/s5
+datacenter: CDL.SIMTK
+
+:: datacite:CDL.RCIDC
+type: datacenter
+manager: ezid
+name: UCSD Research Cyberinfrastructure Data Curation
+
+:: datacite:CDL.OCONTEXT
+type: datacenter
+manager: ezid
+name: Open Context
+
+:: ark:/81974/c9
+type: shoulder
+manager: ezid
+#eziduser: vculibraries
+name: Virginia Commonwealth University
+date: 2016.11.16
+minter: https://n2t.net/a/ezid/m/ark/81974/c9
+
+:: datacite:CDL.VCU
+type: datacenter
+manager: ezid
+name: Virginia Commonwealth University
+
+:: doi:10.21974/G7
+type: shoulder
+manager: ezid
+#eziduser: vculibraries
+name: VCU Graduate School ETDs
+date: 2017.08.04
+minter: https://n2t.net/a/ezid/m/ark/d1974/g7
+datacenter: CDL.VCU
+
+:: doi:10.21974/V4
+type: shoulder
+manager: ezid
+#eziduser: vculibraries
+name: Virginia Commonwealth University
+date: 2016.11.16
+minter: https://n2t.net/a/ezid/m/ark/d1974/v4
+datacenter: CDL.VCU
+
+:: doi:10.21989/D9
+type: shoulder
+manager: ezid
+#eziduser: dartdataverse
+name: Dartmouth TDI
+date: 2017.04.26
+minter: https://n2t.net/a/ezid/m/ark/d1989/d9
+datacenter: CDL.DARTLIB
+prefix_shares_datacenter: true
+
+:: ark:/87933/j9
+type: shoulder
+manager: ezid
+#eziduser: globe
+name: Laboratory for Anthropogenic Landscape Ecology
+date: 2014.02.13
+minter: https://n2t.net/a/ezid/m/ark/87933/j9
+
+:: datacite:CDL.LALEUMBC
+type: datacenter
+manager: ezid
+name: Laboratory for Anthropogenic Landscape Ecology
+
+:: doi:10.7933/K1
+type: shoulder
+manager: ezid
+#eziduser: globe
+name: Laboratory for Anthropogenic Landscape Ecology
+date: 2014.02.13
+minter: https://n2t.net/a/ezid/m/ark/b7933/k1
+datacenter: CDL.LALEUMBC
+
+:: datacite:CDL.WMLIB
+type: datacenter
+manager: ezid
+name: College of William & Mary Libraries
+
+:: doi:10.21220/S2
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - Arts & Sciences
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/s2
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/B3
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - Mason School of Business
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/b3
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/W4
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - School of Education
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/w4
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/V5
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: William & Mary Library - VIMS
+date: 2016.04.12
+minter: https://n2t.net/a/ezid/m/ark/d1220/v5
+datacenter: CDL.WMLIB
+
+:: doi:10.21220/M2
+type: shoulder
+manager: ezid
+#eziduser: wmlibdigi
+name: College of William & Mary Libraries
+date: 2016.04.07
+minter: https://n2t.net/a/ezid/m/ark/d1220/m2
+datacenter: CDL.WMLIB
+
+:: ark:/87926/h3
+type: shoulder
+manager: ezid
+#eziduser: middlebury
+name: Middlebury College
+date: 2013.10.28
+minter: https://n2t.net/a/ezid/m/ark/87926/h3
+
+:: datacite:CDL.MDY
+type: datacenter
+manager: ezid
+name: Middlebury College
+
+:: doi:10.7926/H2
+type: shoulder
+manager: ezid
+#eziduser: middlebury
+name: Middlebury College
+date: 2013.10.28
+minter: https://n2t.net/a/ezid/m/ark/b7926/h2
+datacenter: CDL.MDY
+
+:: ark:/81981/w9
+type: shoulder
+manager: ezid
+#eziduser: uiowa
+name: University of Iowa
+date: 2017.01.20
+minter: https://n2t.net/a/ezid/m/ark/81981/w9
+
+:: datacite:PURDUE.UIOWA
+type: datacenter
+manager: ezid
+name: University of Iowa
+
+:: doi:10.21981/M8
+type: shoulder
+manager: ezid
+#eziduser: uiowa
+name: University of Iowa
+date: 2017.01.20
+minter: https://n2t.net/a/ezid/m/ark/d1981/m8
+datacenter: PURDUE.UIOWA
+
+:: ark:/77912/w7
+type: shoulder
+manager: ezid
+#eziduser: caltech_wormbase
+name: Caltech Biology
+date: 2015.05.26
+minter: https://n2t.net/a/ezid/m/ark/77912/w7
+
+:: ark:/87907/s9
+type: shoulder
+manager: ezid
+#eziduser: oanaluca
+name: Caltech Scholar
+date: 2014.09.16
+minter: https://n2t.net/a/ezid/m/ark/87907/s9
+
+:: ark:/87909/c4
+type: shoulder
+manager: ezid
+#eziduser: caltech_sl
+name: Caltech Seismological Laboratory
+date: 2013.04.29
+minter: https://n2t.net/a/ezid/m/ark/87909/c4
+
+:: doi:10.7909/C3
+type: shoulder
+manager: ezid
+#eziduser: caltech_sl
+name: Caltech Seismological Laboratory
+date: 2013.04.29
+minter: https://n2t.net/a/ezid/m/ark/b7909/c3
+datacenter: CDL.SEISMOLA
+
+:: datacite:CDL.SEISMOLA
+type: datacenter
+manager: ezid
+name: Caltech Seismological Laboratory
+
+:: ark:/87907/c0
+type: shoulder
+manager: ezid
+#eziduser: caltech
+name: California Institute of Technology (Caltech)
+date: 2013.04.15
+minter: https://n2t.net/a/ezid/m/ark/87907/c0
+
+:: doi:10.7907/S4
+type: shoulder
+manager: ezid
+#eziduser: oanaluca
+name: Caltech Scholar
+date: 2014.09.17
+minter: https://n2t.net/a/ezid/m/ark/b7907/s4
+datacenter: CDL.CALTECH
+prefix_shares_datacenter: true
+
+:: ark:/87935/k6
+type: shoulder
+manager: ezid
+#eziduser: caltech_ligo
+name: LIGO Open Science Center
+date: 2014.03.13
+minter: https://n2t.net/a/ezid/m/ark/87935/k6
+
+:: doi:10.7907/Z9
+type: shoulder
+manager: ezid
+#eziduser: caltech
+name: California Institute of Technology (Caltech)
+date: 2013.04.15
+minter: https://n2t.net/a/ezid/m/ark/b7907/z9
+datacenter: CDL.CALTECH
+prefix_shares_datacenter: true
+
+# NB: minted 2 public ARKs, so their NAAN persists
+:: ark:/85786/m4
+type: shoulder
+manager: ezid
+#eziduser: wyu_libs
+name: University of Wyoming Libraries
+date: 2015.02.23
+minter: https://n2t.net/a/ezid/m/ark/85786/m4
+
+:: datacite:CDL.UWYO
+type: datacenter
+manager: ezid
+name: University of Wyoming Libraries
+
+:: doi:10.15786/M2
+type: shoulder
+manager: ezid
+#eziduser: wyu_libs
+name: University of Wyoming Libraries
+date: 2015.02.23
+minter: https://n2t.net/a/ezid/m/ark/c5786/m2
+datacenter: CDL.UWYO
+
+:: ark:/86083/m3
+type: shoulder
+manager: ezid
+#eziduser: ohsu_libr
+name: Oregon Health & Science University
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/86083/m3
+
+:: datacite:CDL.OHSU
+type: datacenter
+manager: ezid
+name: Oregon Health & Science University
+
+:: doi:10.6083/M4
+type: shoulder
+manager: ezid
+#eziduser: ohsu_libr
+name: Oregon Health & Science University
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b6083/m4
+datacenter: CDL.OHSU
+
+# make_shdr --remove ark:/87267/p0 ; make_shdr --remove doi:10.7267/N9
+:: ark:/87267/p0
+type: shoulder
+manager: ezid
+#eziduser: oregonstate
+name: Oregon State University
+date: 2012.06.21
+minter: https://n2t.net/a/ezid/m/ark/87267/p0
+
+:: datacite:CDL.OSU
+type: datacenter
+manager: ezid
+name: Oregon State University
+
+:: doi:10.7267/N9
+type: shoulder
+manager: ezid
+#eziduser: oregonstate
+name: Oregon State University
+date: 2012.06.21
+minter: https://n2t.net/a/ezid/m/ark/b7267/n9
+datacenter: CDL.OSU
+
+# make_shdr --remove ark:/78428/h6 ; make_shdr --remove doi:10.6069/H5 ; make_shdr --remove ark:/81419/b2 ; make_shdr --remove doi:10.21419/B9 ; make_shdr --remove ark:/77915/d6 ; make_shdr --remove doi:10.7915/CIG
+# NAANs to recycle: 78428 81419 77915
+
+# note: prior ARK contact, Maguire, Marsha | University of Washington
+#       Libraries || mmaguire@u.washington.edu
+# is different from current EZID customer
+:: ark:/78428/h6
+type: shoulder
+manager: ezid
+#eziduser: uwlibs
+name: University of Washington
+date: 2012.03.02
+minter: https://n2t.net/a/ezid/m/ark/78428/h6
+
+:: doi:10.6069/H5
+type: shoulder
+manager: ezid
+#eziduser: uwlibs
+name: University of Washington
+date: 2012.03.02
+minter: https://n2t.net/a/ezid/m/ark/b6069/h5
+datacenter: CDL.UWL
+prefix_shares_datacenter: true
+
+:: datacite:CDL.UWL
+type: datacenter
+manager: ezid
+name: University of Washington
+
+:: ark:/81419/b2
+type: shoulder
+manager: ezid
+#eziduser: uw_bothell
+name: University of Washington Bothell
+date: 2016.07.13
+minter: https://n2t.net/a/ezid/m/ark/81419/b2
+
+:: datacite:CDL.UWB
+type: datacenter
+manager: ezid
+name: University of Washington Bothell
+
+:: doi:10.21419/B9
+type: shoulder
+manager: ezid
+#eziduser: uw_bothell
+name: University of Washington Bothell
+date: 2016.07.13
+minter: https://n2t.net/a/ezid/m/ark/d1419/b9
+datacenter: CDL.UWB
+
+:: ark:/77915/d6
+type: shoulder
+manager: ezid
+#eziduser: uw-cig
+name: University of Washington College of the Environment Climate Impacts Group (CIG)
+date: 2013.06.27
+minter: https://n2t.net/a/ezid/m/ark/77915/d6
+
+:: doi:10.7915/CIG
+type: shoulder
+manager: ezid
+#eziduser: uw-cig
+name: University of Washington College of the Environment Climate Impacts Group (CIG)
+date: 2013.06.27
+minter: https://n2t.net/a/ezid/m/ark/b7915/cig
+datacenter: CDL.UWCIG
+
+:: datacite:CDL.UWCIG
+type: datacenter
+manager: ezid
+name: University of Washington College of the Environment Climate Impacts Group (CIG)
+
+# make_shdr --remove ark:/87923/g5 ; make_shdr --remove doi:10.7923/G4
+:: ark:/87923/g5
+type: shoulder
+manager: ezid
+#eziduser: uidaho
+name: Northwest Knowledge Network (NKN)
+date: 2013.10.02
+minter: https://n2t.net/a/ezid/m/ark/87923/g5
+
+:: doi:10.7923/G4
+type: shoulder
+manager: ezid
+#eziduser: uidaho
+name: Northwest Knowledge Network (NKN)
+date: 2013.10.02
+minter: https://n2t.net/a/ezid/m/ark/b7923/g4
+datacenter: CDL.NKN
+
+:: datacite:CDL.NKN
+type: datacenter
+manager: ezid
+name: Northwest Knowledge Network (NKN)
+
+# make_shdr --remove doi:10.17912/W2 ; make_shdr --remove doi:10.7935/K5
+:: doi:10.17912/W2
+type: shoulder
+manager: ezid
+#eziduser: caltech_wormbase
+name: Caltech Biology
+date: 2015.05.26
+minter: https://n2t.net/a/ezid/m/ark/c7912/w2
+datacenter: CDL.WORMBASE
+
+:: doi:10.7935/K5
+type: shoulder
+manager: ezid
+#eziduser: caltech_ligo
+name: LIGO Open Science Center
+date: 2014.03.13
+minter: https://n2t.net/a/ezid/m/ark/b7935/k5
+datacenter: CDL.LIGO
+
+:: datacite:CDL.LIGO
+type: datacenter
+manager: ezid
+name: LIGO Open Science Center
+
+:: datacite:CDL.WORMBASE
+type: datacenter
+manager: ezid
+name: Caltech Biology
+
+:: datacite:CDL.CALTECH
+type: datacenter
+manager: ezid
+name: California Institute of Technology (Caltech)
+
+:: doi:10.5061/
+type: shoulder
+manager: ezid
+#eziduser: dryad
+name: Dryad
+minter: https://n2t.net/a/ezid/m/ark/b5061/rd8
+datacenter: CDL.DRYAD
+
+:: datacite:CDL.DRYAD
+type: datacenter
+manager: ezid
+name: Dryad
+
+:: doi:10.7264/D3
+type: shoulder
+manager: ezid
+#eziduser: oregondata
+name: University of Oregon Data
+date: 2015.02.12
+minter: https://n2t.net/a/ezid/m/ark/b7264/d3
+datacenter: CDL.UOREGON
+
+:: doi:10.7264/N3
+type: shoulder
+manager: ezid
+#eziduser: uoregon
+name: University of Oregon
+date: 2012.05.26
+minter: https://n2t.net/a/ezid/m/ark/b7264/n3
+datacenter: CDL.UOREGON
+
+:: datacite:CDL.UOREGON
+type: datacenter
+manager: ezid
+name: University of Oregon
+
+:: ark:/87264/n4
+type: shoulder
+manager: ezid
+#eziduser: uoregon
+name: University of Oregon
+date: 2012.05.26
+minter: https://n2t.net/a/ezid/m/ark/87264/n4
+
+# make_shdr --remove doi:10.21414/T4
+# make_shdr --remove ark:/81414/d2
+:: ark:/81414/d2
+type: shoulder
+manager: ezid
+#eziduser: lovejoy
+name: Southern Illinois University Edwardsville
+date: 2016.06.22
+minter: https://n2t.net/a/ezid/m/ark/81414/d2
+
+:: datacite:CDL.SIUE
+type: datacenter
+manager: ezid
+name: Southern Illinois University Edwardsville
+
+:: doi:10.21414/T4
+type: shoulder
+manager: ezid
+#eziduser: lovejoy
+name: Southern Illinois University Edwardsville
+date: 2016.06.22
+minter: https://n2t.net/a/ezid/m/ark/d1414/t4
+datacenter: CDL.SIUE
+
+# make_shdr --remove ark:/16417/k4; make_shdr --remove doi:10.13023/K2
+:: ark:/16417/k4
+type: shoulder
+manager: ezid
+#eziduser: unkentucky
+name: University of Kentucky Libraries
+date: 2014.11.21
+minter: https://n2t.net/a/ezid/m/ark/16417/k4
+
+:: doi:10.13023/K2
+type: shoulder
+manager: ezid
+#eziduser: unkentucky
+name: University of Kentucky Libraries (Random)
+date: 2014.11.21
+minter: https://n2t.net/a/ezid/m/ark/c3023/k2
+datacenter: CDL.UKY
+
+:: doi:10.13023/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: unkentucky
+name: University of Kentucky Libraries (Semantic)
+date: 2015.03.20
+minter:
+datacenter: CDL.UKY
+
+:: datacite:CDL.UKY
+type: datacenter
+manager: ezid
+name: University of Kentucky Libraries
+
+# make_shdr --remove ark:/87275/r6; make_shdr --remove doi:10.7275/R5
+:: ark:/87275/r6
+type: shoulder
+manager: ezid
+#eziduser: umamherst
+name: UMass Amherst
+date: 2012.07.24
+minter: https://n2t.net/a/ezid/m/ark/87275/r6
+
+:: doi:10.7275/R5
+type: shoulder
+manager: ezid
+#eziduser: umamherst
+name: UMass Amherst
+date: 2012.07.24
+minter: https://n2t.net/a/ezid/m/ark/b7275/r5
+datacenter: CDL.UMA
+
+:: datacite:CDL.UMA
+type: datacenter
+manager: ezid
+name: UMass Amherst
+
+# make_shdr --remove ark:/81429/s2; make_shdr --remove doi:10.21429/C9
+:: ark:/81429/s2
+type: shoulder
+manager: ezid
+#eziduser: nccwsccsc
+name: US Dept of Interior Climate Science Centers
+date: 2016.09.11
+minter: https://n2t.net/a/ezid/m/ark/81429/s2
+
+:: datacite:CDL.CSC
+type: datacenter
+manager: ezid
+name: US Dept of Interior Climate Science Centers
+
+:: doi:10.21429/C9
+type: shoulder
+manager: ezid
+#eziduser: nccwsccsc
+name: US Dept of Interior Climate Science Centers
+date: 2016.09.11
+minter: https://n2t.net/a/ezid/m/ark/d1429/c9
+datacenter: CDL.CSC
+
+# make_shdr --remove doi:10.13021/G8; make_shdr --remove ark:/83021/g9
+:: ark:/83021/g9
+type: shoulder
+manager: ezid
+#eziduser: masonlib
+name: George Mason University
+date: 2014.11.04
+minter: https://n2t.net/a/ezid/m/ark/83021/g9
+
+:: datacite:CDL.GMU
+type: datacenter
+manager: ezid
+name: George Mason University
+
+:: doi:10.13021/G8
+type: shoulder
+manager: ezid
+#eziduser: masonlib
+name: George Mason University
+date: 2014.11.04
+minter: https://n2t.net/a/ezid/m/ark/c3021/g8
+datacenter: CDL.GMU
+crossref: true
+
+# make_shdr --remove ark:/88130/v8; make_shdr --remove doi:10.18130/V3
+:: ark:/88130/v8
+type: shoulder
+manager: ezid
+#eziduser: uvalib
+name: University of Virginia
+date: 2015.11.19
+minter: https://n2t.net/a/ezid/m/ark/88130/v8
+
+:: datacite:CDL.UVA
+type: datacenter
+manager: ezid
+name: University of Virginia
+
+:: doi:10.18130/V3
+type: shoulder
+manager: ezid
+#eziduser: uvalib
+name: University of Virginia
+date: 2015.11.19
+minter: https://n2t.net/a/ezid/m/ark/c8130/v3
+datacenter: CDL.UVA
+
+:: ark:/87605/
+type: shoulder
+manager: ezid
+#eziduser: cos
+name: Center for Open Science
+date: 2015.03.31
+minter:
+
+:: datacite:CDL.COS
+type: datacenter
+manager: ezid
+name: Center for Open Science
+
+:: doi:10.17605/
+type: shoulder
+manager: ezid
+#eziduser: cos
+name: Center for Open Science
+date: 2015.03.31
+minter:
+datacenter: CDL.COS
+
+# make_shdr --remove ark:/83028/m4; make_shdr --remove doi:10.13028/M2
+:: ark:/83028/m4
+type: shoulder
+manager: ezid
+#eziduser: umassmed
+name: UMass Medical School
+date: 2015.02.04
+minter: https://n2t.net/a/ezid/m/ark/83028/m4
+
+:: datacite:CDL.UMWLSL
+type: datacenter
+manager: ezid
+name: University of Massachusetts Medical School
+
+:: doi:10.13028/M2
+type: shoulder
+manager: ezid
+#eziduser: umassmed
+name: UMass Medical School
+date: 2015.02.04
+minter: https://n2t.net/a/ezid/m/ark/c3028/m2
+datacenter: CDL.UMWLSL
+
+# make_shdr --remove ark:/81227/h7; make_shdr --remove doi:10.21227/H2
+:: ark:/81227/h7
+type: shoulder
+manager: ezid
+#eziduser: dataport
+name: IEEE
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/81227/h7
+
+:: datacite:PURDUE.IEEE
+type: datacenter
+manager: ezid
+name: IEEE
+
+:: doi:10.21227/H2
+type: shoulder
+manager: ezid
+#eziduser: dataport
+name: IEEE
+date: 2016.05.16
+minter: https://n2t.net/a/ezid/m/ark/d1227/h2
+datacenter: PURDUE.IEEE
+
+# make_shdr --remove ark:/88430/m4; make_shdr --remove doi:10.18430/M3
+:: ark:/88430/m4
+type: shoulder
+manager: ezid
+#eziduser: uva-minorl
+name: UVA Minor Lab
+date: 2015.12.03
+minter: https://n2t.net/a/ezid/m/ark/88430/m4
+
+:: datacite:CDL.MINORLAB
+type: datacenter
+manager: ezid
+name: UVA Minor Lab
+
+:: doi:10.18430/M3
+type: shoulder
+manager: ezid
+#eziduser: uva-minorl
+name: UVA Minor Lab
+date: 2015.12.03
+minter: https://n2t.net/a/ezid/m/ark/c8430/m3
+datacenter: CDL.MINORLAB
+
+# make_shdr --remove ark:/87294/w5; make_shdr --remove doi:10.7294/W4
+:: ark:/87294/w5
+type: shoulder
+manager: ezid
+#eziduser: vtlib
+name: Virginia Tech University Libraries
+date: 2013.02.11
+minter: https://n2t.net/a/ezid/m/ark/87294/w5
+
+:: datacite:CDL.VTLIB
+type: datacenter
+manager: ezid
+name: Virginia Tech University Libraries
+
+:: doi:10.7294/W4
+type: shoulder
+manager: ezid
+#eziduser: vtlib
+name: Virginia Tech University Libraries
+date: 2013.02.11
+minter: https://n2t.net/a/ezid/m/ark/b7294/w4
+datacenter: CDL.VTLIB
+
+# make_shdr --remove ark:/86077/j4; make_shdr --remove doi:10.6077/J5
+:: ark:/86077/j4
+type: shoulder
+manager: ezid
+#eziduser: ciser
+name: Cornell Institute for Social and Economic Research (CISER)
+date: 2012.03.05
+minter: https://n2t.net/a/ezid/m/ark/86077/j4
+
+:: datacite:CDL.CISER
+type: datacenter
+manager: ezid
+name: Cornell Institute for Social and Economic Research (CISER)
+
+:: doi:10.6077/J5
+type: shoulder
+manager: ezid
+#eziduser: ciser
+name: Cornell Institute for Social and Economic Research (CISER)
+date: 2012.03.05
+minter: https://n2t.net/a/ezid/m/ark/b6077/j5
+datacenter: CDL.CISER
+
+# make_shdr --remove ark:/87301/z1; make_shdr --remove doi:10.7301/Z0
+:: ark:/87301/z1
+type: shoulder
+manager: ezid
+#eziduser: brownidsvc
+name: Brown University Library
+date: 2013.04.01
+minter: https://n2t.net/a/ezid/m/ark/87301/z1
+
+:: datacite:CDL.BUL
+type: datacenter
+manager: ezid
+name: Brown University Library
+
+:: doi:10.7301/Z0
+type: shoulder
+manager: ezid
+#eziduser: brownidsvc
+name: Brown University Library
+date: 2013.04.01
+minter: https://n2t.net/a/ezid/m/ark/b7301/z0
+datacenter: CDL.BUL
+
+# make_shdr --remove ark:/87274/r4; make_shdr --remove doi:10.7274/R0
+:: ark:/87274/r4
+type: shoulder
+manager: ezid
+#eziduser: notredame
+name: University of Notre Dame
+date: 2012.07.20
+minter: https://n2t.net/a/ezid/m/ark/87274/r4
+
+:: datacite:PURDUE.UND
+type: datacenter
+manager: ezid
+name: University of Notre Dame
+
+:: doi:10.7274/R0
+type: shoulder
+manager: ezid
+#eziduser: notredame
+name: University of Notre Dame
+date: 2012.07.20
+minter: https://n2t.net/a/ezid/m/ark/b7274/r0
+datacenter: PURDUE.UND
+
+# make_shdr --remove ark:/86070/h3; make_shdr --remove doi:10.6070/H4
+:: ark:/86070/h3
+type: shoulder
+manager: ezid
+#eziduser: labarchives
+name: LabArchives
+date: 2012.02.29
+minter: https://n2t.net/a/ezid/m/ark/86070/h3
+
+:: datacite:CDL.LABARCH
+type: datacenter
+manager: ezid
+name: LabArchives
+
+:: doi:10.6070/H4
+type: shoulder
+manager: ezid
+#eziduser: labarchives
+name: LabArchives
+date: 2012.02.29
+minter: https://n2t.net/a/ezid/m/ark/b6070/h4
+datacenter: CDL.LABARCH
+
+# make_shdr --remove doi:10.13024/D2
+:: doi:10.13024/D2
+type: shoulder
+manager: ezid
+#eziduser: dartmouthc
+name: Dartmouth College Library
+date: 2014.12.19
+minter: https://n2t.net/a/ezid/m/ark/c3024/d2
+datacenter: CDL.DARTLIB
+prefix_shares_datacenter: true
+
+:: datacite:CDL.DARTLIB
+type: datacenter
+manager: ezid
+name: Dartmouth College Library
+
+# make_shdr --remove ark:/61001/m2; make_shdr --remove doi:10.6082/M1
+:: ark:/61001/m2
+type: shoulder
+manager: ezid
+#eziduser: uchicago
+name: University of Chicago
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/61001/m2
+
+:: datacite:PURDUE.UCHIG
+type: datacenter
+manager: ezid
+name: University of Chicago
+
+:: doi:10.6082/M1
+type: shoulder
+manager: ezid
+#eziduser: uchicago
+name: University of Chicago
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b6082/m1
+datacenter: PURDUE.UCHIG
+
+# make_shdr --remove doi:10.17609/N8; make_shdr --remove ark:/62624/n4
+:: ark:/62624/n4
+type: shoulder
+manager: ezid
+#eziduser: nyu_library
+name: New York University Libraries (on behalf of New York University) Minter
+date: 2015.04.06
+minter: https://n2t.net/a/ezid/m/ark/62624/n4
+
+:: datacite:CDL.NYU
+type: datacenter
+manager: ezid
+name: New York University Libraries (on behalf of New York University)
+
+:: doi:10.17609/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: nyu_library
+name: New York University Libraries (on behalf of New York University)
+date: 2015.04.06
+minter:
+datacenter: CDL.NYU
+
+:: doi:10.17609/N8
+type: shoulder
+manager: ezid
+#eziduser: nyu_library
+name: New York University Libraries (on behalf of New York University) Minter
+date: 2015.04.06
+minter: https://n2t.net/a/ezid/m/ark/c7609/n8
+datacenter: CDL.NYU
+
+# make_shdr --remove ark:/87604/m4; make_shdr --remove doi:10.17604/M6; make_shdr --remove doi:10.25343/V3
+:: ark:/87604/m4
+type: shoulder
+manager: ezid
+#eziduser: umiami
+name: University of Miami Libraries
+date: 2015.03.31
+minter: https://n2t.net/a/ezid/m/ark/87604/m4
+
+:: doi:10.17604/M6
+type: shoulder
+manager: ezid
+#eziduser: umiami
+name: University of Miami Libraries
+date: 2015.03.31
+minter: https://n2t.net/a/ezid/m/ark/c7604/m6
+datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
+
+:: datacite:CDL.UMIAMI
+type: datacenter
+manager: ezid
+name: University of Miami Libraries
+
+:: doi:10.25343/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: umiami
+name: National Center for Environmental Information no minter
+date: 2018.02.26
+minter:
+datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
+
+:: doi:10.25343/V3
+type: shoulder
+manager: ezid
+#eziduser: umiami
+name: National Center for Environmental Information
+date: 2018.02.26
+minter: https://n2t.net/a/ezid/m/ark/d5343/v3
+datacenter: CDL.UMIAMI
+prefix_shares_datacenter: true
+
+# make_shdr --remove ark:/88131/g8; make_shdr --remove doi:10.18131/G3
+# Galter Health Sciences Library, Northwestern University
+:: ark:/88131/g8
+type: shoulder
+manager: ezid
+#eziduser: galterlibrary
+name: GHSL Northwestern
+date: 2015.11.30
+minter: https://n2t.net/a/ezid/m/ark/88131/g8
+
+:: datacite:PURDUE.GHSL
+type: datacenter
+manager: ezid
+name: Galter Health Sciences Library, Northwestern University
+
+:: doi:10.18131/G3
+type: shoulder
+manager: ezid
+#eziduser: galterlibrary
+name: GHSL Northwestern
+date: 2015.11.30
+minter: https://n2t.net/a/ezid/m/ark/c8131/g3
+datacenter: PURDUE.GHSL
+
+# make_shdr --remove ark:/88738/t7; make_shdr --remove doi:10.18738/T8
+:: ark:/88738/t7
+type: shoulder
+manager: ezid
+#eziduser: tdl
+name: Texas Digital Library
+date: 2016.02.29
+minter: https://n2t.net/a/ezid/m/ark/88738/t7
+
+:: datacite:CDL.TDL
+type: datacenter
+manager: ezid
+name: Texas Digital Library
+
+:: doi:10.18738/T8
+type: shoulder
+manager: ezid
+#eziduser: tdl
+name: Texas Digital Library
+date: 2016.02.29
+minter: https://n2t.net/a/ezid/m/ark/c8738/t8
+datacenter: CDL.TDL
+
+# make_shdr --remove ark:/77909/t7; make_shdr --remove doi:10.17909/T9
+:: ark:/77909/t7
+type: shoulder
+manager: ezid
+#eziduser: stsci
+name: Space Telescope Science Institute
+date: 2015.05.11
+minter: https://n2t.net/a/ezid/m/ark/77909/t7
+
+:: datacite:CDL.STSCI
+type: datacenter
+manager: ezid
+name: Space Telescope Science Institute
+
+:: doi:10.17909/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: stsci
+name: Space Telescope Science Institute no minter
+date: 2015.05.11
+minter:
+datacenter: CDL.STSCI
+
+:: doi:10.17909/T9
+type: shoulder
+manager: ezid
+#eziduser: stsci
+name: Space Telescope Science Institute
+date: 2015.05.11
+minter: https://n2t.net/a/ezid/m/ark/c7909/t9
+datacenter: CDL.STSCI
+
+# make_shdr --remove ark:/83018/c8; make_shdr --remove doi:10.25333/C3
+:: ark:/83018/c8
+type: shoulder
+manager: ezid
+#eziduser: oclcmrd
+name: OCLC MRD
+date: 2017.05.25
+minter: https://n2t.net/a/ezid/m/ark/83018/c8
+
+:: datacite:PURDUE.OCLCMRD
+type: datacenter
+manager: ezid
+name: Membership and Research Division, OCLC, Inc.
+
+:: doi:10.25333/C3
+type: shoulder
+manager: ezid
+#eziduser: oclcmrd
+name: OCLC MRD
+date: 2017.05.24
+minter: https://n2t.net/a/ezid/m/ark/d5333/c3
+datacenter: PURDUE.OCLCMRD
+
+# make_shdr --remove doi:10.21423/R1; make_shdr --remove doi:10.21423/M2
+:: doi:10.21423/R1
+type: shoulder
+manager: ezid
+#eziduser: tamu_ezid
+name: Texas A&M Univ Libr IR
+date: 2017.02.24
+minter: https://n2t.net/a/ezid/m/ark/d1423/r1
+datacenter: CDL.TAMUL
+
+:: datacite:CDL.TAMUL
+type: datacenter
+manager: ezid
+name: Texas A&M University Libraries
+
+:: doi:10.21423/M2
+type: shoulder
+manager: ezid
+#eziduser: tamu_ezid
+name: Texas A&M Univ Libr
+date: 2016.08.22
+minter: https://n2t.net/a/ezid/m/ark/d1423/m2
+datacenter: CDL.TAMUL
+
+# make_shdr --remove ark:/87931/j3; make_shdr --remove doi:10.7931/L1; make_shdr --remove doi:10.7931/DL1
+# make_shdr --remove doi:10.7931/P1; make_shdr --remove doi:10.7931/V1; make_shdr --remove doi:10.7931/B1; make_shdr --remove doi:10.7931/J2
+:: ark:/87931/j3
+type: shoulder
+manager: ezid
+#eziduser: landcarenz
+name: Landcare Research New Zealand Ltd
+date: 2013.11.20
+minter: https://n2t.net/a/ezid/m/ark/87931/j3
+
+:: datacite:CDL.LCRNZ
+type: datacenter
+manager: ezid
+name: Landcare Research New Zealand Ltd
+
+:: doi:10.7931/L1
+type: shoulder
+manager: ezid
+#eziduser: lcnz_lri
+name: LandcareNZ Land Resource Information
+date: 2015.03.20
+minter: https://n2t.net/a/ezid/m/ark/b7931/l1
+datacenter: CDL.LCRNZ
+
+:: doi:10.7931/DL1
+type: shoulder
+manager: ezid
+#eziduser: lcnz_lib
+name: LandcareNZ Digital Library
+date: 2015.03.04
+minter: https://n2t.net/a/ezid/m/ark/b7931/dl1
+datacenter: CDL.LCRNZ
+
+:: doi:10.7931/P1
+type: shoulder
+manager: ezid
+#eziduser: lcnz_pnd
+name: LandcareNZ Plant Names Database
+date: 2015.01.05
+minter: https://n2t.net/a/ezid/m/ark/b7931/p1
+datacenter: CDL.LCRNZ
+
+:: doi:10.7931/V1
+type: shoulder
+manager: ezid
+#eziduser: lcnz_nvs
+name: LandcareNZ National Vegetation Survey
+date: 2014.12.15
+minter: https://n2t.net/a/ezid/m/ark/b7931/v1
+datacenter: CDL.LCRNZ
+
+:: doi:10.7931/B1
+type: shoulder
+manager: ezid
+#eziduser: lcnz_efl
+name: LandcareNZ eFlora
+date: 2014.12.15
+minter: https://n2t.net/a/ezid/m/ark/b7931/b1
+datacenter: CDL.LCRNZ
+
+:: doi:10.7931/J2
+type: shoulder
+manager: ezid
+#eziduser: landcarenz
+name: Landcare Research New Zealand Ltd
+date: 2013.11.20
+minter: https://n2t.net/a/ezid/m/ark/b7931/j2
+datacenter: CDL.LCRNZ
+
+# make_shdr --remove ark:/86068/h1; make_shdr --remove doi:10.6068/H2
+:: ark:/86068/
+type: shoulder
+manager: ezid
+#eziduser: data-planet
+name: Data-Planet
+date: 2012.02.21
+minter: https://n2t.net/a/ezid/m/ark/86068/h1
+
+:: datacite:CDL.DPLANET
+type: datacenter
+manager: ezid
+name: Data-Planet
+
+:: doi:10.6068/
+type: shoulder
+manager: ezid
+#eziduser: data-planet
+name: Data-Planet
+date: 2012.02.21
+minter: https://n2t.net/a/ezid/m/ark/b6068/h2
+datacenter: CDL.DPLANET
+
+# make_shdr --remove ark:/88116/c8; make_shdr --remove doi:10.18116/C6
+:: ark:/88116/c8
+type: shoulder
+manager: ezid
+#eziduser: umms-candi
+name: UMass Medical School-CANDI
+date: 2015.08.26
+minter: https://n2t.net/a/ezid/m/ark/88116/c8
+
+:: datacite:CDL.UMMSCAND
+type: datacenter
+manager: ezid
+name: UMass Medical School-CANDI
+
+:: doi:10.18116/C6
+type: shoulder
+manager: ezid
+#eziduser: umms-candi
+name: UMass Medical School-CANDI
+date: 2015.08.26
+minter: https://n2t.net/a/ezid/m/ark/c8116/c6
+datacenter: CDL.UMMSCAND
+
+# make_shdr --remove ark:/85783/c9; make_shdr --remove doi:10.15783/C7
+:: ark:/85783/c9
+type: shoulder
+manager: ezid
+#eziduser: dartcrawda
+name: CRAWDAD
+date: 2015.02.18
+minter: https://n2t.net/a/ezid/m/ark/85783/c9
+
+:: datacite:CDL.CRAWDAD
+type: datacenter
+manager: ezid
+name: CRAWDAD
+
+:: doi:10.15783/C7
+type: shoulder
+manager: ezid
+#eziduser: dartcrawda
+name: CRAWDAD
+date: 2015.02.18
+minter: https://n2t.net/a/ezid/m/ark/c5783/c7
+datacenter: CDL.CRAWDAD
+
+# make_shdr --remove ark:/87289/v6; make_shdr --remove doi:10.7289/V5
+:: ark:/87289/v6
+type: shoulder
+manager: ezid
+#eziduser: noaa-edm
+name: US National Oceanic and Atmospheric Administration (NOAA)
+date: 2013.01.18
+minter: https://n2t.net/a/ezid/m/ark/87289/v6
+
+:: datacite:CDL.NOAA
+type: datacenter
+manager: ezid
+name: US National Oceanic and Atmospheric Administration (NOAA)
+
+:: doi:10.7289/V5
+type: shoulder
+manager: ezid
+#eziduser: noaa-edm
+name: US National Oceanic and Atmospheric Administration (NOAA)
+date: 2013.01.18
+minter: https://n2t.net/a/ezid/m/ark/b7289/v5
+datacenter: CDL.NOAA
+
+# make_shdr --remove ark:/85138/g4; make_shdr --remove doi:10.15138/G3
+:: ark:/85138/g4
+type: shoulder
+manager: ezid
+name: NOAA Global Monitoring Division
+date: 2014.07.18
+minter: https://n2t.net/a/ezid/m/ark/85138/g4
+
+:: datacite:CDL.NOAA-GMD
+type: datacenter
+manager: ezid
+name: NOAA Global Monitoring Division
+
+:: doi:10.15138/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: noaa-gmd
+name: NOAA Global Monitoring Division
+date: 2014.11.06
+minter:
+datacenter: CDL.NOAA-GMD
+
+:: doi:10.15138/G3
+type: shoulder
+manager: ezid
+#eziduser: noa-gmd
+name: NOAA Global Monitoring Division Minter
+date: 2014.07.18
+minter: https://n2t.net/a/ezid/m/ark/c5138/g3
+datacenter: CDL.NOAA-GMD
+
+# make_shdr --remove ark:/83334/f9
+:: ark:/83334/f9
+type: shoulder
+manager: ezid
+#eziduser: ornldaac
+name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
+date: 2011.12.13
+minter: https://n2t.net/a/ezid/m/ark/83334/f9
+
+:: datacite:CDL.ORNL
+type: datacenter
+manager: ezid
+name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
+
+:: doi:10.3334/
+type: shoulder
+manager: ezid
+#eziduser: ornldaac
+name: Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
+date: 2011.12.13
+minter:
+datacenter: CDL.ORNL
+
+# make_shdr --remove ark:/81420/n4; make_shdr --remove doi:10.21420/G2
+:: ark:/81420/n4
+type: shoulder
+manager: ezid
+#eziduser: gns_science
+name: GNS Science
+date: 2016.08.08
+minter: https://n2t.net/a/ezid/m/ark/81420/n4
+
+:: datacite:CDL.GNS
+type: datacenter
+manager: ezid
+name: GNS Science
+
+:: doi:10.21420/G2
+type: shoulder
+manager: ezid
+#eziduser: gns_science
+name: GNS Science
+date: 2016.08.08
+minter: https://n2t.net/a/ezid/m/ark/d1420/g2
+datacenter: CDL.GNS
+
+# make_shdr --remove ark:/77920/p2; make_shdr --remove doi:10.17920/P9
+:: ark:/77920/p2
+type: shoulder
+manager: ezid
+#eziduser: pubref
+name: PubRef.org
+date: 2015.07.17
+minter: https://n2t.net/a/ezid/m/ark/77920/p2
+
+:: datacite:CDL.PUBREF
+type: datacenter
+manager: ezid
+name: PubRef.org
+
+:: doi:10.17920/P9
+type: shoulder
+manager: ezid
+#eziduser: pubref
+name: PubRef.org
+date: 2015.07.17
+minter: https://n2t.net/a/ezid/m/ark/c7920/p9
+datacenter: CDL.PUBREF
+
+# make_shdr --remove ark:/87266/n8; make_shdr --remove doi:10.7266/N7
+:: ark:/87266/n8
+type: shoulder
+manager: ezid
+#eziduser: griidc
+name: Harte Research Institute
+date: 2012.06.08
+minter: https://n2t.net/a/ezid/m/ark/87266/n8
+
+:: datacite:CDL.HRI
+type: datacenter
+manager: ezid
+name: Harte Research Institute
+
+:: doi:10.7266/N7
+type: shoulder
+manager: ezid
+#eziduser: griidc
+name: Harte Research Institute
+date: 2012.06.08
+minter: https://n2t.net/a/ezid/m/ark/b7266/n7
+datacenter: CDL.HRI
+
+## xxx to RECYCLE
+#:: datacite:CDL.GLOBUS
+#type: datacenter
+#manager: ezid
+#name: Globus.org
+#
+## xxx to RECYCLE
+## inactive
+#:: doi:10.13018/G2
+#type: shoulder
+#manager: ezid
+##eziduser: none
+#name: Globus.org
+#date: 2014.10.13
+#minter: https://n2t.net/a/ezid/m/ark/c3018/g2
+##this datacenter doesn't show in DataCite
+#datacenter: CDL.GLOBUS
+
+# make_shdr --remove ark:/88125/d8; make_shdr --remove doi:10.18125/D2
+# from temporary NAAN created 2015.09.10
+:: ark:/88125/d8
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Vermont Monitoring Cooperative
+date: 2016.07.18
+minter: https://n2t.net/a/ezid/m/ark/88125/d8
+
+:: datacite:CDL.VMC
+type: datacenter
+manager: ezid
+name: Vermont Monitoring Cooperative
+
+# from temporary data center DATACTR3 created 2015.09.10
+:: doi:10.18125/D2
+type: shoulder
+manager: ezid
+#eziduser: datactr3
+name: Vermont Monitoring Cooperative
+date: 2016.07.18
+minter: https://n2t.net/a/ezid/m/ark/c8125/d2
+datacenter: CDL.VMC
+
+# make_shdr --remove ark:/87912/d0 ; make_shdr --remove doi:10.7912/D2 ; make_shdr --remove doi:10.7912/C2 ; make_shdr --remove doi:10.7912/C9 
+:: ark:/87912/d0
+type: shoulder
+manager: ezid
+#eziduser: iupui
+name: Indiana University-Purdue University Indianapolis
+date: 2013.05.22
+minter: https://n2t.net/a/ezid/m/ark/87912/d0
+
+:: datacite:PURDUE.IUPUI
+type: datacenter
+manager: ezid
+name: Indiana University-Purdue University Indianapolis
+
+:: doi:10.7912/D2
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library Data
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/d2
+datacenter: PURDUE.IUPUI
+
+:: doi:10.7912/C2
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/c2
+datacenter: PURDUE.IUPUI
+
+:: doi:10.7912/C9
+type: shoulder
+manager: ezid
+#eziduser: iupui
+name: Indiana University-Purdue University Indianapolis
+date: 2013.05.22
+minter: https://n2t.net/a/ezid/m/ark/b7912/c9
+datacenter: PURDUE.IUPUI
+
+# make_shdr --remove ark:/88124/d5; make_shdr --remove doi:10.18124/D4
+:: ark:/88124/d5
+type: shoulder
+manager: ezid
+#eziduser: aep
+name: Antarctic Environments Portal
+date: 2015.09.23
+minter: https://n2t.net/a/ezid/m/ark/88124/d5
+
+:: datacite:CDL.AEP
+type: datacenter
+manager: ezid
+name: Antarctic Environments Portal
+
+:: doi:10.18124/D4
+type: shoulder
+manager: ezid
+#eziduser: aep
+name: Antarctic Environments Portal
+date: 2015.09.23
+minter: https://n2t.net/a/ezid/m/ark/c8124/d4
+datacenter: CDL.AEP
+
+# make_shdr --remove ark:/85967/s8 ; make_shdr --remove doi:10.5967/K8 ; make_shdr --remove doi:10.5967/M0 ; make_shdr --remove ark:/85967/k7
+# make_shdr --remove doi:10.5967/P9 ; make_shdr --remove ark:/87277/s4 ; make_shdr --remove doi:10.7277/S3 ; make_shdr --remove doi:10.5967/P8
+:: ark:/85967/s8
+type: shoulder
+manager: ezid
+#eziduser: iusead
+name: Indiana University Sustainable Environment-Actionable Data (SEAD)
+date: 2014.04.22
+minter: https://n2t.net/a/ezid/m/ark/85967/s8
+
+:: doi:10.5967/K8
+type: shoulder
+manager: ezid
+#eziduser: iusw
+name: Indiana University IUScholarWorks
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b5967/k8
+datacenter: PURDUE.IUSW
+prefix_shares_datacenter: true
+
+:: datacite:PURDUE.IUSW
+type: datacenter
+manager: ezid
+name: Indiana University IUScholarWorks
+
+:: doi:10.5967/M0
+type: shoulder
+manager: ezid
+#eziduser: iusead
+name: Indiana University Sustainable Environment-Actionable Data (SEAD)
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b5967/m0
+datacenter: PURDUE.IUSEAD
+prefix_shares_datacenter: true
+
+:: datacite:PURDUE.IUSEAD
+type: datacenter
+manager: ezid
+name: Indiana University Sustainable Environment-Actionable Data (SEAD)
+
+:: ark:/85967/k7
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: Indiana University
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/85967/k7
+
+:: doi:10.5967/P9
+type: shoulder
+manager: ezid
+#eziduser: iujetstrm
+name: Indiana University Pervasive Technology Institute
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b5967/p9
+datacenter: PURDUE.PTI
+prefix_shares_datacenter: true
+
+:: datacite:PURDUE.PTI
+type: datacenter
+manager: ezid
+name: Indiana University Pervasive Technology Institute
+
+:: ark:/87277/s4
+type: shoulder
+manager: ezid
+#eziduser: iucns
+name: Indiana University Cyberinfrastructure for Network Science Center
+date: 2012.08.11
+minter: https://n2t.net/a/ezid/m/ark/87277/s4
+
+:: doi:10.7277/S3
+type: shoulder
+manager: ezid
+#eziduser: iucns
+name: Indiana University Cyberinfrastructure for Network Science Center
+date: 2012.08.11
+minter: https://n2t.net/a/ezid/m/ark/b7277/s3
+datacenter: PURDUE.IUCNS
+
+:: datacite:PURDUE.IUCNS
+type: datacenter
+manager: ezid
+name: Indiana University Cyberinfrastructure for Network Science Center
+
+:: doi:10.5967/D3
+type: shoulder
+manager: ezid
+#eziduser: datacommon
+name: {legacy} Penn State Institutes of Energy and the Environment/PSU Data Commons
+date: 2013.06.18
+minter:
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+:: doi:10.5967/P8
+type: shoulder
+manager: ezid
+#eziduser: iud21
+name: Indiana University Data to Insight
+date: 2012.06.27
+minter: https://n2t.net/a/ezid/m/ark/b5967/p8
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+# make_shdr --remove ark:/87930/j1; make_shdr --remove doi:10.7930/J0
+:: ark:/87930/j1
+type: shoulder
+manager: ezid
+#eziduser: usgcrp
+name: U.S. Global Change Research Program
+date: 2013.11.08
+minter: https://n2t.net/a/ezid/m/ark/87930/j1
+
+:: datacite:CDL.USGCRP
+type: datacenter
+manager: ezid
+name: U.S. Global Change Research Program/UCAR
+
+:: doi:10.7930/J0
+type: shoulder
+manager: ezid
+#eziduser: usgcrp
+name: U.S. Global Change Research Program
+date: 2013.11.08
+minter: https://n2t.net/a/ezid/m/ark/b7930/j0
+datacenter: CDL.USGCRP
+
+# make_shdr --remove ark:/85064/f5; make_shdr --remove doi:10.5064/F6
+:: ark:/85064/f5
+type: shoulder
+manager: ezid
+#eziduser: qdr_cqrm
+name: Consortium for Qualitative Research Methods
+date: 2011.12.12
+minter: https://n2t.net/a/ezid/m/ark/85064/f5
+
+:: datacite:CDL.QDR
+type: datacenter
+manager: ezid
+name: Consortium for Qualitative Research Methods
+
+:: doi:10.5064/F6
+type: shoulder
+manager: ezid
+#eziduser: qdr_cqrm
+name: Consortium for Qualitative Research Methods
+date: 2011.12.12
+minter: https://n2t.net/a/ezid/m/ark/b5064/f6
+datacenter: CDL.QDR
+
+# make_shdr --remove doi:10.6067/XCV8; make_shdr --remove ark:/86067/xcv8
+:: ark:/86067/xcv8
+type: shoulder
+manager: ezid
+#eziduser: xcv8
+name: Digital Antiquity
+date: 2012.02.21
+minter: https://n2t.net/a/ezid/m/ark/86067/xcv8
+
+:: datacite:CDL.DIGANT
+type: datacenter
+manager: ezid
+name: Digital Antiquity
+
+:: doi:10.6067/XCV8
+type: shoulder
+manager: ezid
+#eziduser: xcv8
+name: Digital Antiquity
+date: 2012.02.21
+minter: https://n2t.net/a/ezid/m/ark/b6067/xcv8
+datacenter: CDL.DIGANT
+
+# make_shdr --remove doi:10.21417/B7; make_shdr --remove ark:/81417/b4
+:: ark:/81417/b4
+type: shoulder
+manager: ezid
+#eziduser: adaptive
+name: Adaptive Biotechnologies
+date: 2016.07.08
+minter: https://n2t.net/a/ezid/m/ark/81417/b4
+
+:: datacite:PURDUE.ADAPTIVE
+type: datacenter
+manager: ezid
+name: Adaptive Biotechnologies
+
+:: doi:10.21417/B7
+type: shoulder
+manager: ezid
+#eziduser: adaptive
+name: Adaptive Biotechnologies
+date: 2016.07.08
+minter: https://n2t.net/a/ezid/m/ark/d1417/b7
+datacenter: PURDUE.ADAPTIVE
+
+# make_shdr --remove doi:10.17608/K6; make_shdr --remove ark:/87608/k8
+:: ark:/87608/k8
+type: shoulder
+manager: ezid
+#eziduser: uoa
+name: University of Auckland
+date: 2015.04.03
+minter: https://n2t.net/a/ezid/m/ark/87608/k8
+
+:: datacite:CDL.UOA
+type: datacenter
+manager: ezid
+name: University of Auckland
+
+:: doi:10.17608/K6
+type: shoulder
+manager: ezid
+#eziduser: uoa
+name: University of Auckland
+date: 2015.04.03
+minter: https://n2t.net/a/ezid/m/ark/c7608/k6
+datacenter: CDL.UOA
+
+# make_shdr --remove ark:/77917/f0; make_shdr --remove doi:10.7917/D7
+:: ark:/77917/f0
+type: shoulder
+manager: ezid
+#eziduser: nasa-nccs
+name: NASA Center for Climate Simulation (NCCS)
+date: 2013.08.02
+minter: https://n2t.net/a/ezid/m/ark/77917/f0
+
+:: datacite:CDL.NCCS
+type: datacenter
+manager: ezid
+name: NASA Center for Climate Simulation (NCCS)
+
+:: doi:10.7917/D7
+type: shoulder
+manager: ezid
+#eziduser: nasa-nccs
+name: NASA Center for Climate Simulation (NCCS)
+date: 2013.08.02
+minter: https://n2t.net/a/ezid/m/ark/b7917/d7
+datacenter: CDL.NCCS
+
+# make_shdr --remove doi:10.5067/G7; make_shdr --remove ark:/85067/g6
+# note that DOI shoulder didn't show the G7 present in the minter
+:: ark:/85067/g6
+type: shoulder
+manager: ezid
+#eziduser: eosdis
+name: NASA Goddard Space Flight Center (GSFC)
+date: 2012.01.24
+minter: https://n2t.net/a/ezid/m/ark/85067/g6
+
+:: datacite:CDL.NASAGSFC
+type: datacenter
+manager: ezid
+name: NASA Goddard Space Flight Center (GSFC)
+
+:: doi:10.5067/
+type: shoulder
+manager: ezid
+#eziduser: eosdis
+name: NASA Goddard Space Flight Center (GSFC)
+date: 2012.01.24
+minter: https://n2t.net/a/ezid/m/ark/b5067/g7
+datacenter: CDL.NASAGSFC
+
+# make_shdr --remove doi:10.7290/D6; make_shdr --remove doi:10.7290/V7
+:: doi:10.7290/D6
+type: shoulder
+manager: ezid
+#eziduser: utk_dlp
+name: University of Tennessee Digital Library Program
+date: 2015.03.09
+minter: https://n2t.net/a/ezid/m/ark/b7290/d6
+datacenter: CDL.UTENN
+
+:: datacite:CDL.UTENN
+type: datacenter
+manager: ezid
+name: University of Tennessee
+
+:: doi:10.7290/V7
+type: shoulder
+manager: ezid
+#eziduser: tkn
+name: University of Tennessee
+date: 2013.01.18
+minter: https://n2t.net/a/ezid/m/ark/b7290/v7
+datacenter: CDL.UTENN
+crossref: true
+
+:: datacite:CDL.DATAVERS
+type: datacenter
+manager: ezid
+name: Harvard Dataverse
+
+:: doi:10.7910/DVN
+type: shoulder
+manager: ezid
+#eziduser: hdataverse
+name: Harvard Dataverse
+date: 2013.04.30
+minter:
+datacenter: CDL.DATAVERS
+
+# make_shdr --remove ark:/87937/m0; make_shdr --remove doi:10.7937/K9
+:: ark:/87937/m0
+type: shoulder
+manager: ezid
+#eziduser: tcia-ezid
+name: The Cancer Imaging Archive
+date: 2014.03.21
+minter: https://n2t.net/a/ezid/m/ark/87937/m0
+
+:: datacite:CDL.TCIA
+type: datacenter
+manager: ezid
+name: The Cancer Imaging Archive
+
+:: doi:10.7937/K9
+type: shoulder
+manager: ezid
+#eziduser: tcia-ezid
+name: The Cancer Imaging Archive
+date: 2014.03.21
+minter: https://n2t.net/a/ezid/m/ark/b7937/k9
+datacenter: CDL.TCIA
+
+# make_shdr --remove doi:10.5070/L2
+:: doi:10.5070/L2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship
+date: 2018.10.08
+minter: https://n2t.net/a/ezid/m/ark/b5070/l2
+datacenter: CDL.ESCHOL
+prefix_shares_datacenter: true
+crossref: true
+
+# make_shdr --remove ark:/81415/b4; make_shdr --remove doi:10.21415/T5
+:: ark:/81415/b4
+type: shoulder
+manager: ezid
+#eziduser: talkbank
+name: TalkBank
+date: 2016.06.23
+minter: https://n2t.net/a/ezid/m/ark/81415/b4
+
+:: datacite:CDL.TALKBANK
+type: datacenter
+manager: ezid
+name: TalkBank
+
+:: doi:10.21415/T5
+type: shoulder
+manager: ezid
+#eziduser: talkbank
+name: TalkBank
+date: 2016.06.23
+minter: https://n2t.net/a/ezid/m/ark/d1415/t5
+datacenter: CDL.TALKBANK
+
+# make_shdr --remove doi:10.7283/P2; make_shdr --remove doi:10.7283/T5; make_shdr --remove ark:/87283/t6; make_shdr --remove doi:10.7283/R3; make_shdr --remove doi:10.7283/S2
+
+:: doi:10.7283/P2
+type: shoulder
+manager: ezid
+#eziduser: unavco
+name: UNAVCO-P2
+date: 2015.10.14
+minter: https://n2t.net/a/ezid/m/ark/b7283/p2
+datacenter: CDL.UNAVCO
+
+:: doi:10.7283/R3
+type: shoulder
+manager: ezid
+#eziduser: unavco-tls
+name: UNAVCO-TLS
+date: 2015.10.14
+minter: https://n2t.net/a/ezid/m/ark/b7283/r3
+datacenter: CDL.UNAVCO
+
+:: doi:10.7283/S2
+type: shoulder
+manager: ezid
+#eziduser: unavco-sar
+name: UNAVCO SAR
+date: 2015.07.11
+minter: https://n2t.net/a/ezid/m/ark/b7283/s2
+datacenter: CDL.UNAVCO
+
+:: ark:/87283/t6
+type: shoulder
+manager: ezid
+#eziduser: unavco
+name: UNAVCO
+date: 2012.09.21
+minter: https://n2t.net/a/ezid/m/ark/87283/t6
+
+:: datacite:CDL.UNAVCO
+type: datacenter
+manager: ezid
+name: UNAVCO
+
+:: doi:10.7283/T5
+type: shoulder
+manager: ezid
+#eziduser: unavco
+name: UNAVCO
+date: 2012.09.21
+minter: https://n2t.net/a/ezid/m/ark/b7283/t5
+datacenter: CDL.UNAVCO
+
+# make_shdr --remove doi:10.15788/M2
+:: doi:10.15788/M2
+type: shoulder
+manager: ezid
+#eziduser: mtstate
+name: Montana State University
+date: 2015.03.04
+minter: https://n2t.net/a/ezid/m/ark/c5788/m2
+datacenter: CDL.MSU
+
+:: datacite:CDL.MSU
+type: datacenter
+manager: ezid
+name: Montana State University
+
+# make_shdr --remove ark:/87606/m7; make_shdr --remove doi:10.17606/M6
+:: ark:/87606/m7
+type: shoulder
+manager: ezid
+#eziduser: aulibrary
+name: American University Library
+date: 2015.04.01
+minter: https://n2t.net/a/ezid/m/ark/87606/m7
+
+:: datacite:CDL.AUL
+type: datacenter
+manager: ezid
+name: American University Library
+
+:: doi:10.17606/M6
+type: shoulder
+manager: ezid
+#eziduser: aulibrary
+name: American University Library
+date: 2015.04.01
+minter: https://n2t.net/a/ezid/m/ark/c7606/m6
+datacenter: CDL.AUL
+
+:: ark:/85785/
+type: shoulder
+manager: ezid
+#eziduser: sbgrid
+name: Harvard Medical School
+date: 2015.02.18
+minter:
+
+:: datacite:CDL.SBGRID
+type: datacenter
+manager: ezid
+name: Harvard Medical School
+
+:: doi:10.15785/
+type: shoulder
+manager: ezid
+#eziduser: sbgrid
+name: Harvard Medical School
+date: 2015.02.18
+minter:
+datacenter: CDL.SBGRID
+
+# make_shdr --remove ark:/85787/vtt1; make_shdr --remove doi:10.15787/VTT1
+:: ark:/85787/vtt1
+type: shoulder
+manager: ezid
+#eziduser: vtti_ezid
+name: Virginia Tech Transportation Institute
+date: 2015.02.26
+minter: https://n2t.net/a/ezid/m/ark/85787/vtt1
+
+:: datacite:CDL.VTTI
+type: datacenter
+manager: ezid
+name: Virginia Tech Transportation Institute
+
+:: doi:10.15787/VTT1
+type: shoulder
+manager: ezid
+#eziduser: vtti_ezid
+name: Virginia Tech Transportation Institute
+date: 2015.02.26
+minter: https://n2t.net/a/ezid/m/ark/c5787/vtt1
+datacenter: CDL.VTTI
+
+# make_shdr --remove ark:/87303/z4
+:: ark:/87303/z4
+type: shoulder
+manager: ezid
+#eziduser: sagebio
+name: Sage Bionetworks
+date: 2013.04.10
+minter: https://n2t.net/a/ezid/m/ark/87303/z4
+
+:: datacite:CDL.SAGEBIO
+type: datacenter
+manager: ezid
+name: Sage Bionetworks
+
+:: doi:10.7303/
+type: shoulder
+manager: ezid
+#eziduser: sagebio
+name: Sage Bionetworks
+date: 2013.04.10
+minter:
+datacenter: CDL.SAGEBIO
+
+# make_shdr --remove ark:/87298/x5; make_shdr --remove doi:10.7298/X4
+:: ark:/87298/x5
+type: shoulder
+manager: ezid
+#eziduser: cornellib
+name: Cornell University Library
+date: 2013.03.11
+minter: https://n2t.net/a/ezid/m/ark/87298/x5
+
+:: datacite:CDL.CUL
+type: datacenter
+manager: ezid
+name: Cornell University Library
+
+:: doi:10.7298/X4
+type: shoulder
+manager: ezid
+#eziduser: cornellib
+name: Cornell University Library
+date: 2013.03.11
+minter: https://n2t.net/a/ezid/m/ark/b7298/x4
+datacenter: CDL.CUL
+
+# make_shdr --remove ark:/87938/m2 ; make_shdr --remove doi:10.7938/M1 ; make_shdr --remove doi:10.13012/B2 ; make_shdr --remove doi:10.13012/M3 ; make_shdr --remove doi:10.13012/J8 ; make_shdr --remove doi:10.13012/C5 ; make_shdr --remove doi:10.13012/J4 ; make_shdr --remove ark:/83012/j5 ; make_shdr --remove ark:/83012/c6
+:: ark:/87938/m2
+type: shoulder
+manager: ezid
+#eziduser: cu-rescom
+name: Statistics (ResearchCompendia.org)
+date: 2014.04.03
+minter: https://n2t.net/a/ezid/m/ark/87938/m2
+
+:: datacite:PURDUE.STATSRC
+type: datacenter
+manager: ezid
+name: Statistics (ResearchCompendia.org)
+
+:: doi:10.7938/M1
+type: shoulder
+manager: ezid
+#eziduser: cu-rescom
+name: Statistics (ResearchCompendia.org)
+date: 2014.04.03
+minter: https://n2t.net/a/ezid/m/ark/b7938/m1
+datacenter: PURDUE.STATSRC
+
+:: doi:10.13012/B2
+type: shoulder
+manager: ezid
+#eziduser: uiuc_lib
+name: Illinois Data Bank
+date: 2016.04.08
+minter: https://n2t.net/a/ezid/m/ark/c3012/b2
+datacenter: PURDUE.UIUCLIB
+
+:: doi:10.13012/M3
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: Materials Data Facility
+date: 2014.11.20
+minter: https://n2t.net/a/ezid/m/ark/c3012/m3
+datacenter: PURDUE.UIUCLIB
+
+:: doi:10.13012/J8
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: University of Illinois Libraries
+date: 2014.01.27
+minter: https://n2t.net/a/ezid/m/ark/c3012/j8
+datacenter: PURDUE.UIUCLIB
+
+:: doi:10.13012/C5
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: University of Illinois Libraries IDEALS
+date: 2013.12.16
+minter: https://n2t.net/a/ezid/m/ark/c3012/c5
+datacenter: PURDUE.UIUCLIB
+
+:: datacite:PURDUE.UIUCLIB
+type: datacenter
+manager: ezid
+name: University of Illinois Libraries
+
+:: ark:/83012/c6
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: University of Illinois Libraries IDEALS
+date: 2013.12.16
+minter: https://n2t.net/a/ezid/m/ark/83012/c6
+
+:: doi:10.13012/J4
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: University of Illinois Libraries NADP
+date: 2013.12.16
+minter: https://n2t.net/a/ezid/m/ark/c3012/j4
+datacenter: PURDUE.UIUCLIB
+
+:: ark:/83012/j5
+type: shoulder
+manager: ezid
+#eziduser: uiuc-lib
+name: University of Illinois Libraries NADP
+date: 2013.12.16
+minter: https://n2t.net/a/ezid/m/ark/83012/j5
+
+# make_shdr --remove doi:10.7936/G3 ; make_shdr --remove doi:10.7936/K7 ; make_shdr --remove doi:10.7936/B6
+:: doi:10.7936/G3
+type: shoulder
+manager: ezid
+#eziduser: wustl_geo
+name: WUSTL GIS
+date: 2016.02.08
+minter: https://n2t.net/a/ezid/m/ark/b7936/g3
+datacenter: CDL.WUSTL
+
+:: doi:10.7936/K7
+type: shoulder
+manager: ezid
+#eziduser: doiwustl
+name: Washington University in St. Louis
+date: 2014.03.18
+minter: https://n2t.net/a/ezid/m/ark/b7936/k7
+datacenter: CDL.WUSTL
+
+:: doi:10.7936/B6
+type: shoulder
+manager: ezid
+#eziduser: wustl_cbi
+name: WUSTL Center for Biomedical Informatics
+date: 2015.05.13
+minter: https://n2t.net/a/ezid/m/ark/b7936/b6
+datacenter: CDL.WUSTL
+
+:: datacite:CDL.WUSTL
+type: datacenter
+manager: ezid
+name: Washington University in St. Louis
+
+# make_shdr --remove doi:10.7278/S5
+:: datacite:CDL.UUTAH
+type: datacenter
+manager: ezid
+name: University of Utah
+
+:: doi:10.7278/S5
+type: shoulder
+manager: ezid
+#eziduser: uofutah
+name: University of Utah
+date: 2012.08.16
+minter: https://n2t.net/a/ezid/m/ark/b7278/s5
+datacenter: CDL.UUTAH
+
+# make_shdr --remove ark:/87613/m3; make_shdr --remove doi:10.17613/M6
+:: ark:/87613/m3
+type: shoulder
+manager: ezid
+#eziduser: mla
+name: Modern Language Association
+date: 2015.04.22
+minter: https://n2t.net/a/ezid/m/ark/87613/m3
+
+:: datacite:CDL.MLA
+type: datacenter
+manager: ezid
+name: Modern Language Association
+
+:: doi:10.17613/M6
+type: shoulder
+manager: ezid
+#eziduser: mla
+name: Modern Language Association
+date: 2015.04.22
+minter: https://n2t.net/a/ezid/m/ark/c7613/m6
+datacenter: CDL.MLA
+
+# make_shdr --remove ark:/81987/r7; make_shdr --remove doi:10.21987/R7
+:: ark:/81987/r7
+type: shoulder
+manager: ezid
+#eziduser: iris_ink
+name: Inst for Research on Innov and Science
+date: 2017.03.22
+minter: https://n2t.net/a/ezid/m/ark/81987/r7
+
+:: datacite:PURDUE.IRISINK
+type: datacenter
+manager: ezid
+name: Institute for Research on Innovation and Science
+
+:: doi:10.21987/R7
+type: shoulder
+manager: ezid
+#eziduser: iris_ink
+name: Inst for Research on Innov and Science
+date: 2017.03.22
+minter: https://n2t.net/a/ezid/m/ark/d1987/r7
+datacenter: PURDUE.IRISINK
+
+# make_shdr --remove ark:/87616/r7; make_shdr --remove doi:10.17616/R3
+:: ark:/87616/r7
+type: shoulder
+manager: ezid
+#eziduser: re3data
+name: Registry of Research Repositories
+date: 2015.04.24
+minter: https://n2t.net/a/ezid/m/ark/87616/r7
+
+:: datacite:PURDUE.RE3DATA
+type: datacenter
+manager: ezid
+name: Registry of Research Repositories
+
+:: doi:10.17616/R3
+type: shoulder
+manager: ezid
+#eziduser: re3data
+name: Registry of Research Repositories
+date: 2015.04.24
+minter: https://n2t.net/a/ezid/m/ark/c7616/r3
+datacenter: PURDUE.RE3DATA
+
+# make_shdr --remove ark:/83027/m4
+:: ark:/83027/m4
+type: shoulder
+manager: ezid
+#eziduser: mbf-bioscience
+name: MBF Bioscience
+date: 2015.01.27
+minter: https://n2t.net/a/ezid/m/ark/83027/m4
+
+:: datacite:CDL.MBFBIO
+type: datacenter
+manager: ezid
+name: MBF Bioscience
+
+:: doi:10.13027/
+type: shoulder
+manager: ezid
+#eziduser: mbf-bioscience
+name: MBF Bioscience
+date: 2015.01.27
+minter:
+datacenter: CDL.MBFBIO
+
+# make_shdr --remove ark:/87910/b9; make_shdr --remove doi:10.17910/B7
+:: ark:/87910/b9
+type: shoulder
+manager: ezid
+#eziduser: nyu_databrary
+name: Databrary
+date: 2015.05.14
+minter: https://n2t.net/a/ezid/m/ark/87910/b9
+
+:: datacite:CDL.DATABRAR
+type: datacenter
+manager: ezid
+name: Databrary
+
+:: doi:10.17910/B7
+type: shoulder
+manager: ezid
+#eziduser: nyu_databrary
+name: Databrary
+date: 2015.05.14
+minter: https://n2t.net/a/ezid/m/ark/c7910/b7
+datacenter: CDL.DATABRAR
+
+############
+# make_shdr --remove ark:/83019/m4 ; make_shdr --remove doi:10.13019/M2 ; make_shdr --remove doi:10.4231/H4 ; make_shdr --remove doi:10.4231/K4 ; make_shdr --remove ark:/34231/v0 ; make_shdr --remove doi:10.4231/T9 ; make_shdr --remove ark:/34231/s0 ; make_shdr --remove doi:10.4231/R9 ; make_shdr --remove ark:/34231/r8 ; make_shdr --remove doi:10.4231/R7 ; make_shdr --remove ark:/34231/c6 ; make_shdr --remove doi:10.4231/D3
+
+:: ark:/83019/m4
+type: shoulder
+manager: ezid
+#eziduser: mygeohub
+name: MyGeoHub
+date: 2014.10.13
+minter: https://n2t.net/a/ezid/m/ark/83019/m4
+
+:: datacite:PURDUE.MYGEOHUB
+type: datacenter
+manager: ezid
+name: MyGeoHub
+
+:: doi:10.13019/M2
+type: shoulder
+manager: ezid
+name: MyGeoHub
+#eziduser: mygeohub
+date: 2014.10.13
+minter: https://n2t.net/a/ezid/m/ark/c3019/m2
+datacenter: PURDUE.MYGEOHUB
+
+:: doi:10.4231/H4
+type: shoulder
+manager: ezid
+#eziduser: datacenterhub
+name: datacenterhub
+date: 2015.11.17
+minter: https://n2t.net/a/ezid/m/ark/b4231/h4
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+:: doi:10.4231/K4
+type: shoulder
+manager: ezid
+#eziduser: purdue_admin
+name: Purdue University Joint Transportation Research Program
+date: 2014.02.27
+minter: https://n2t.net/a/ezid/m/ark/b4231/k4
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+:: ark:/34231/v0
+type: shoulder
+manager: ezid
+#eziduser: purdue-cc
+name: Purdue University CyberCenter
+date: 2012.11.16
+minter: https://n2t.net/a/ezid/m/ark/34231/v0
+
+:: datacite:PURDUE.PURDUECC
+type: datacenter
+manager: ezid
+name: Purdue University CyberCenter
+
+:: doi:10.4231/T9
+type: shoulder
+manager: ezid
+#eziduser: purdue-cc
+name: Purdue University CyberCenter
+date: 2012.11.16
+minter: https://n2t.net/a/ezid/m/ark/b4231/t9
+datacenter: PURDUE.PURDUECC
+prefix_shares_datacenter: true
+
+:: ark:/34231/s0
+type: shoulder
+manager: ezid
+#eziduser: nanohub
+name: nanoHUB
+date: 2012.08.01
+minter: https://n2t.net/a/ezid/m/ark/34231/s0
+
+:: doi:10.4231/R9
+type: shoulder
+manager: ezid
+#eziduser: nanohub
+name: nanoHUB
+date: 2012.08.01
+minter: https://n2t.net/a/ezid/m/ark/b4231/r9
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+:: ark:/34231/r8
+type: shoulder
+manager: ezid
+#eziduser: purr
+name: Purdue University Research Repository (PURR)
+date: 2012.08.01
+minter: https://n2t.net/a/ezid/m/ark/34231/r8
+
+:: doi:10.4231/R7
+type: shoulder
+manager: ezid
+#eziduser: purr
+name: Purdue University Research Repository (PURR)
+date: 2012.08.01
+minter: https://n2t.net/a/ezid/m/ark/b4231/r7
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+:: ark:/34231/c6
+type: shoulder
+manager: ezid
+#eziduser: purduelib
+name: Purdue Libraries
+date: 2011.01.24
+minter: https://n2t.net/a/ezid/m/ark/34231/c6
+
+:: doi:10.4231/D3
+type: shoulder
+manager: ezid
+#eziduser: purduelib
+name: Purdue Libraries
+date: 2011.01.24
+minter: https://n2t.net/a/ezid/m/ark/b4231/d3
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+############
+
+# make_shdr --remove ark:/83010/f7; make_shdr --remove doi:10.13010/F6
+:: ark:/83010/f7
+type: shoulder
+manager: ezid
+#eziduser: umbs
+name: University of Michigan Biological Station (UMBS)
+date: 2013.09.01
+minter: https://n2t.net/a/ezid/m/ark/83010/f7
+
+:: datacite:PURDUE.UMBS
+type: datacenter
+manager: ezid
+name: University of Michigan Biological Station (UMBS)
+
+:: doi:10.13010/F6
+type: shoulder
+manager: ezid
+#eziduser: umbs
+name: University of Michigan Biological Station (UMBS)
+date: 2013.09.01
+minter: https://n2t.net/a/ezid/m/ark/c3010/f6
+datacenter: PURDUE.UMBS
+
+# make_shdr --remove ark:/81236/t3; make_shdr --remove doi:10.21236/D6
+:: doi:10.21236/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: dtic-ci
+name: Defense Technical Information Center (no minter)
+date: 2016.06.09
+minter:
+datacenter: CDL.DTIC
+
+:: ark:/81236/t3
+type: shoulder
+manager: ezid
+#eziduser: dtic-ci
+name: Defense Technical Information Center (DTIC)
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/81236/t3
+
+:: datacite:CDL.DTIC
+type: datacenter
+manager: ezid
+name: Defense Technical Information Center (DTIC)
+
+:: doi:10.21236/D6
+type: shoulder
+manager: ezid
+#eziduser: dtic-ci
+name: Defense Technical Information Center (DTIC)
+date: 2016.05.26
+minter: https://n2t.net/a/ezid/m/ark/d1236/d6
+datacenter: CDL.DTIC
+
+# make_shdr --remove ark:/87918/d9; make_shdr --remove doi:10.17918/D8
+# NB: this NAAN has 4 ARKs associated with in maintenance mode
+:: ark:/87918/d9
+type: shoulder
+manager: ezid
+#eziduser: drexeldata
+name: Drexel University Libraries
+date: 2015.07.13
+minter: https://n2t.net/a/ezid/m/ark/87918/d9
+
+:: datacite:CDL.DRXLDATA
+type: datacenter
+manager: ezid
+name: Drexel University Libraries
+
+:: doi:10.17918/D8
+type: shoulder
+manager: ezid
+#eziduser: drexeldata
+name: Drexel University Libraries
+date: 2015.07.13
+minter: https://n2t.net/a/ezid/m/ark/c7918/d8
+datacenter: CDL.DRXLDATA
+
+# make_shdr --remove ark:/88120/r8
+:: ark:/88120/r8
+type: shoulder
+manager: ezid
+#eziduser: isi-isrd
+name: USC ISI Informatics Systems Research Division
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/88120/r8
+
+# make_shdr --remove ark:/83013/j7; make_shdr --remove doi:10.13013/J6
+# inactive
+:: doi:10.13013/J6
+type: shoulder
+active: false
+manager: ezid
+#eziduser: none
+name: Intrepid Bioinformatics
+date: 2013.12.17
+minter: https://n2t.net/a/ezid/m/ark/c3013/j6
+datacenter: PURDUE.INTBIO
+
+:: datacite:PURDUE.INTBIO
+type: datacenter
+manager: ezid
+name: Intrepid Bioinformatics
+
+# inactive
+:: ark:/83013/j7
+type: shoulder
+active: false
+manager: ezid
+#eziduser: none
+name: Intrepid Bioinformatics
+date: 2013.12.17
+minter: https://n2t.net/a/ezid/m/ark/83013/j7
+
+# make_shdr --remove ark:/81988/g8; make_shdr --remove doi:10.21988/G8
+:: ark:/81988/g8
+type: shoulder
+manager: ezid
+#eziduser: ginc-doi
+name: Gaussian Inc
+date: 2017.04.19
+minter: https://n2t.net/a/ezid/m/ark/81988/g8
+
+:: datacite:PURDUE.GAUSSIAN
+type: datacenter
+manager: ezid
+name: Gaussian, Inc.
+
+:: doi:10.21988/G8
+type: shoulder
+manager: ezid
+#eziduser: ginc-doi
+name: Gaussian Inc
+date: 2017.04.19
+minter: https://n2t.net/a/ezid/m/ark/d1988/g8
+datacenter: PURDUE.GAUSSIAN
+
+# make_shdr --remove doi:10.17919/X9; make_shdr --remove ark:/77919/x7
+:: ark:/77919/x7
+type: shoulder
+manager: ezid
+#eziduser: eixid
+name: Entrepreneur & Innovation Exchange
+date: 2015.07.15
+minter: https://n2t.net/a/ezid/m/ark/77919/x7
+
+:: datacite:CDL.EIX
+type: datacenter
+manager: ezid
+name: Entrepreneur & Innovation Exchange
+
+:: doi:10.17919/X9
+type: shoulder
+manager: ezid
+#eziduser: eixid
+name: Entrepreneur & Innovation Exchange
+date: 2015.07.15
+minter: https://n2t.net/a/ezid/m/ark/c7919/x9
+datacenter: CDL.EIX
+
+# make_shdr --remove ark:/81970/n7; make_shdr --remove doi:10.21970/N9
+:: ark:/81970/n7
+type: shoulder
+manager: ezid
+#eziduser: nds
+name: National Data Service
+date: 2016.10.19
+minter: https://n2t.net/a/ezid/m/ark/81970/n7
+
+:: datacite:PURDUE.NDS
+type: datacenter
+manager: ezid
+name: National Data Service
+
+:: doi:10.21970/N9
+type: shoulder
+manager: ezid
+#eziduser: nds
+name: National Data Service
+date: 2016.10.19
+minter: https://n2t.net/a/ezid/m/ark/d1970/n9
+datacenter: PURDUE.NDS
+
+# make_shdr --remove ark:/85143/c4; make_shdr --remove doi:10.15143/C3
+:: ark:/85143/c4
+type: shoulder
+manager: ezid
+#eziduser: acsess
+name: Alliance for Crops, Soils, and Environmental Science Societies
+date: 2014.07.30
+minter: https://n2t.net/a/ezid/m/ark/85143/c4
+
+:: datacite:PURDUE.ACSESS
+type: datacenter
+manager: ezid
+name: Alliance for Crops, Soils, and Environmental Science Societies
+
+:: doi:10.15143/C3
+type: shoulder
+manager: ezid
+#eziduser: acsess
+name: Alliance for Crops, Soils, and Environmental Science Societies
+date: 2014.07.30
+minter: https://n2t.net/a/ezid/m/ark/c5143/c3
+datacenter: PURDUE.ACSESS
+
+# make_shdr --remove ark:/83014/k3; make_shdr --remove doi:10.13014/K2
+:: ark:/83014/k3
+type: shoulder
+manager: ezid
+#eziduser: cors
+name: University of Nebraska-Lincoln Libraries
+date: 2014.02.27
+minter: https://n2t.net/a/ezid/m/ark/83014/k3
+
+:: datacite:PURDUE.UNL
+type: datacenter
+manager: ezid
+name: University of Nebraska-Lincoln Libraries
+
+:: doi:10.13014/K2
+type: shoulder
+manager: ezid
+#eziduser: cors
+name: University of Nebraska-Lincoln Libraries
+date: 2014.02.27
+minter: https://n2t.net/a/ezid/m/ark/c3014/k2
+datacenter: PURDUE.UNL
+
+# make_shdr --remove doi:10.18120/R2
+:: doi:10.18120/R2
+type: shoulder
+manager: ezid
+#eziduser: isi-isrd
+name: USC ISI Informatics Systems Research Division
+date: 2015.09.08
+minter: https://n2t.net/a/ezid/m/ark/c8120/r2
+datacenter: CDL.ISRD
+
+:: datacite:CDL.ISRD
+type: datacenter
+manager: ezid
+name: USC ISI Informatics Systems Research Division
+
+# make_shdr --remove ark:/83020/d8; make_shdr --remove doi:10.13020/D6; make_shdr --remove ark:/83017/m4; make_shdr --remove doi:10.13017/M2
+:: ark:/83020/d8
+type: shoulder
+manager: ezid
+#eziduser: drum
+name: Data Repository for the University of Minnesota
+date: 2014.10.14
+minter: https://n2t.net/a/ezid/m/ark/83020/d8
+
+:: datacite:PURDUE.DRUM
+type: datacenter
+manager: ezid
+name: Data Repository for the University of Minnesota
+
+:: doi:10.13020/D6
+type: shoulder
+manager: ezid
+#eziduser: drum
+name: Data Repository for the University of Minnesota
+date: 2014.10.14
+minter: https://n2t.net/a/ezid/m/ark/c3020/d6
+datacenter: PURDUE.DRUM
+
+:: ark:/88128/
+type: shoulder
+manager: ezid
+#eziduser: ipums
+name: IPUMS
+date: 2015.09.29
+minter: 
+
+:: datacite:PURDUE.IPUMS
+type: datacenter
+manager: ezid
+name: IPUMS
+
+:: doi:10.18128/
+type: shoulder
+manager: ezid
+#eziduser: ipums
+name: IPUMS
+date: 2015.09.29
+minter: 
+datacenter: PURDUE.IPUMS
+
+:: ark:/83017/m4
+type: shoulder
+manager: ezid
+#eziduser: minnesota
+name: University of Minnesota Libraries
+date: 2014.10.09
+minter: https://n2t.net/a/ezid/m/ark/83017/m4
+
+:: datacite:PURDUE.UMN
+type: datacenter
+manager: ezid
+name: University of Minnesota Libraries
+
+:: doi:10.13017/M2
+type: shoulder
+manager: ezid
+#eziduser: minnesota
+name: University of Minnesota Libraries
+date: 2014.10.09
+minter: https://n2t.net/a/ezid/m/ark/c3017/m2
+datacenter: PURDUE.UMN
+
+# make_shdr --remove ark:/87615/c5; make_shdr --remove doi:10.17615/C6; make_shdr --remove ark:/87921/g1; make_shdr --remove doi:10.7921/G0; make_shdr --remove ark:/85139/s4; make_shdr --remove doi:10.15139/S3
+:: ark:/85139/s4
+type: shoulder
+manager: ezid
+#eziduser: odumunc
+name: Odum Institute for Research in Social Science
+date: 2014.07.23
+minter: https://n2t.net/a/ezid/m/ark/85139/s4
+
+:: datacite:CDL.ODUMUNC
+type: datacenter
+manager: ezid
+name: Odum Institute for Research in Social Science
+
+:: doi:10.15139/S3
+type: shoulder
+manager: ezid
+#eziduser: odumunc
+name: Odum Institute for Research in Social Science
+date: 2014.07.23
+minter: https://n2t.net/a/ezid/m/ark/c5139/s3
+datacenter: CDL.ODUMUNC
+
+:: ark:/87921/g1
+type: shoulder
+manager: ezid
+#eziduser: renci
+name: RENCI (Renaissance Computing Institute)
+date: 2013.09.09
+minter: https://n2t.net/a/ezid/m/ark/87921/g1
+
+:: datacite:CDL.RENCI
+type: datacenter
+manager: ezid
+name: RENCI (Renaissance Computing Institute)
+
+:: doi:10.7921/G0
+type: shoulder
+manager: ezid
+#eziduser: renci
+name: RENCI (Renaissance Computing Institute)
+date: 2013.09.09
+minter: https://n2t.net/a/ezid/m/ark/b7921/g0
+datacenter: CDL.RENCI
+
+:: ark:/87615/c5
+type: shoulder
+manager: ezid
+#eziduser: libunc
+name: UNC Library - Resource Description and Management
+date: 2015.04.23
+minter: https://n2t.net/a/ezid/m/ark/87615/c5
+
+:: datacite:CDL.LIBUNC
+type: datacenter
+manager: ezid
+name: UNC Library - Resource Description and Management
+
+:: doi:10.17615/C6
+type: shoulder
+manager: ezid
+#eziduser: libunc
+name: UNC Library - Resource Description and Management
+date: 2015.04.23
+minter: https://n2t.net/a/ezid/m/ark/c7615/c6
+datacenter: CDL.LIBUNC
+
