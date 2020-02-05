@@ -1,17 +1,31 @@
 #! /bin/bash
 sourcedir=`dirname $0`
 
-deliverydir=$HOME/sv/cur/apache2/htdocs/e/pop/ezid
+#set -x	# debugging
+
+file=master_shoulders.txt	# source file
+remote=n2t@ids-n2t-prd-2a.n2t.net
+#deliverydir=$HOME/sv/cur/apache2/htdocs/e/pop/ezid
+# drop next line soon
+deliverydir=$remote:/apps/n2t/sv/cur/apache2/htdocs/e/pop/ezid
+harvestdir=$remote:/apps/n2t/sv/cur/apache2/htdocs/e/pub
+installeddir=$HOME/shoulders/installed
 
 # Backup from old copy
-cp -p $deliverydir/master_shoulders.txt $sourcedir/master_shoulders.txt.bak
 
-# Push to place where EZID will pick it up.
-# xxx kludge -- for now, copy to read-protected area for just "ezid" populator;
-#               what about later for other populators (eg, oca)?
-#
-cp -p $sourcedir/master_shoulders.txt $deliverydir
+#cp -p $deliverydir/master_shoulders.txt $sourcedir/master_shoulders.txt.bak
+#scp -p $harvestdir/$file $sourcedir/$file.bak
+cp -p $installeddir/$file $sourcedir/master_shoulders.txt.bak
 
-# Copy to place where external prefix harvesters can pick it up w.o. creds.
+# Push to place where EZID can pick it up.
 
-cp -p $sourcedir/master_shoulders.txt $HOME/sv/cur/apache2/htdocs/e/pub/
+#cp -p $sourcedir/master_shoulders.txt $deliverydir
+cp -p $sourcedir/$file $installeddir
+scp -p $sourcedir/$file $deliverydir/		# xxx drop this line soon
+
+# Copy to place where N2T prefix harvester can pick it up w.o. credentials
+# xxx EZID should probably be changed to pick it up from the same place so we
+#     can stop doing the previous copy to deliverydir
+#cp -p $sourcedir/master_shoulders.txt $HOME/sv/cur/apache2/htdocs/e/pub/
+
+scp -p $sourcedir/$file $harvestdir/

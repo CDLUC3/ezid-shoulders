@@ -1,42 +1,31 @@
-Procedure for adding, modifying, and installing shoulders.  Passwords can
-be found at <https://confluence.ucop.edu/display/UC3/EZID+Operations>.
+// Procedure for adding, modifying, and installing shoulders.
+   Updated 2020.01.06 (jak)
 
---------------------
-1. Edit master_shoulders.txt in this directory.
+These procedures work only for mainstream cases of shoulders with minters.
+For example, supershoulders are not mainstream, and are created by hand.
 
-2. Validate the file.
+1. Edit master_shoulders.txt in this directory by following these steps.
 
-   ./validate-shoulders master_shoulders.txt
+ a. Copy form data to a file named, eg, 'request'.
+ b. Run "./form2shoulder request", which creates a minter if called for,
+    generates a new shoulder entry, stores it in file 'new_shoulder',
+    and appends the request file contents to request_log.
+ c. Edit 'master_shoulders.txt', find first shoulder, and above it
+    insert the contents of 'new_shoulder'.
 
-3. If a new DataCite datacenter is required, create it and assign it
-the necessary prefix(es).  Use the PURDUE allocator password and PURDUE.*
-( "$(wegnpw purdueadmin)" ) instead of CDL.* if appropriate.
+2. Validate the file syntax, and (only if valid) then operationally test by
+   minting (burning up) one id per shoulder listed shoulder.  This is normally
+   done for newly-added or modified shoulders. Example:
 
-   ezmdsadmin "$(wegnpw cdladmin)" create CDL.BUL 'Brown University Library' \
-      10.1234 10.5678 ...
+   ./valsh ark:/12345/f5 doi:10.1234/G6
 
-4. Operationally test any newly-added or modified shoulders by listing
-them on the command line.  Note that testing a DOI shoulder requires
-the password of the shoulder's DataCite allocator, which can be given
-with the -d {ALLOCATOR_PASSWORD} option.
+   If you only want to validate the file syntax, run "./valsh -".
 
- ./validate-shoulders master_shoulders.txt -m "ezid:$(wegnpw ezid)" ark:/12345/foo
-
- ./validate-shoulders master_shoulders.txt -m "ezid:$(wegnpw ezid)" -d "$(wegnpw cdladmin)" doi:10.1234/BAR
-
-+++
-+++ BETTER: valsh ark:/12345/foo doi:10.1234/BAR
-+++     OR: valsh -p ark:/12345/foo doi:10.1234/BAR
-+++
-
-5. Install new shoulder file.  This will place the previously-installed
-shoulder file in master_shoulders.txt.bak in this directory.
+3. Install new shoulder file. This will place the previously-installed
+   shoulder file in master_shoulders.txt.bak in this directory.
 
    ./install-shoulders
 
-6. Reload all EZID instances to make them aware of the change.
+4. Reload all EZID instances to make them aware of the change.
 
-   ./reload-all "$(wegnpw ezidadmin)"
-
-===========
-For all other matters, login to mds.datacite.org as either "cdl" or "purdue".
+   ./reload-all "$(ezidpw)"

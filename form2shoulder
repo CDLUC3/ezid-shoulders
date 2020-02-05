@@ -1,0 +1,197 @@
+#!/usr/bin/perl
+
+# xxx add ability to specify NAAN in form, and not generate NAAN, but
+#     still send the email
+# xxx enforce acronym uniqueness
+# xxx $provider not currently making it into new_naa file
+
+use 5.010;
+use strict;
+use warnings;
+
+use Text::ParseWords;
+use YAML;
+use Encode;
+
+# Author:  John A. Kunze, jak@ucop.edu, California Digital Library
+# Copyright (c) 2019 UC Regents
+
+my $new_shfile = 'new_shoulder';
+my $request_log = 'request_log';
+
+my $cmd = $0;
+$cmd =~ s,.*/,,;		# drop path part
+my $usage_text = << "EOT";
+NAME
+    $cmd - convert a shoulder request form to a registry entry
+
+SYNOPSIS
+    $cmd FormFile
+
+DESCRIPTION
+    The $cmd script converts a shoulder request form to a registry
+    entry that is stored in the current directory under the filename,
+    "$new_shfile".
+
+    The FormFile argument contains form data in a YAML-like format. It may
+    be given as '-' to designate stdin. In the example below, this input
+    
+      EZID prefix/shoulder: doi:10.25497/D7
+      Account/organization username (login): sb-nceas
+      Shoulder display name: Dangermond Preserve
+      Datacenter: CDL.UCSB
+
+    will produce this output
+
+      :: doi:10.25497/D7
+      type: shoulder
+      manager: ezid
+      #eziduser: sb-nceas
+      name: Dangermond Preserve
+      date: 2019.11.01
+      minter: https://n2t.net/a/ezid/m/ark/d5497/d7
+      registration_agency: datacite
+      datacenter: CDL.UCSB
+      prefix_shares_datacenter: true
+
+EOT
+
+# main
+{
+	use open qw/:std :utf8/;
+	$#ARGV < 0 and
+		print($usage_text),
+		exit 0;
+	defined($ARGV[0]) or
+		print($usage_text),
+		exit 1;
+	$ARGV[0] eq '-' and
+		shift;
+	$ARGV[0] =~ /^-/ and
+		print("Unknown option: $ARGV[0]\n"),
+		print($usage_text),
+		exit 1;
+	my $FormFile = $ARGV[0];
+
+	# Get parts of today's date
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+	$year += 1900;
+	$mon = sprintf("%02d", $mon + 1);
+	$mday = sprintf("%02d", $mday);
+
+	# Input from file (in $FormFile)
+	local $/;		# set input mode to slurp whole file at once
+	$_ = <>;		# slurp entire file from stdin or named arg
+	my $form_content = $_;	# make copy of content
+
+	s/(:?)\t+/: /g and	# YAML needs : and forbids tab-for-space, and
+		# as long as we're not doing CSV fields, elide \n in front of
+		s/\n([^:]*)$/ $1/m and	# lines with no colon (a contin. line),
+		s/$/\n/;		# but make sure whole thing ends in \n
+
+	# Flag annoying non-ascii punctuation (eg, ' and -)
+	my @uchars = split '', decode('utf8', $_);
+	/\P{ascii}/ && /\p{Punctuation}/ && print(STDERR
+		"warning: non-ascii punctuation: ", encode('utf8', $_), "\n")
+			for (@uchars);
+
+	# CSV fields:
+	# "Timestamp","Contact name:","Contact email address:","Organization name:","Position in organization:","Organization address:","Organization base URL:","Organization status:","Service provider:","Organization acronym preferred:","Other information:"
+	my $timestamp;			# unused field if it's a CSV parse
+	my $h;				# hash if it's a YAML parse
+	my ($shoulder, $login, $displayname, $datacenter);
+	my ($firstname, $lastname);
+	# xxx very flawed test -- do real csv parse instead,
+	#     or check for occurrences of "," ?
+	#     often the org address has many commas -- don't check that field?
+	if (m/,.*,.*,.*,.*,/) {	# if there are at least 5 commas on a line
+		(			# assume input is in CSV-format
+			$shoulder, $login, $displayname, $datacenter
+		) = Text::ParseWords::parse_line(',', 0, $_);
+		# xxx should limit to number of fields, eg, in face of
+		# texty "Other info"
+	}
+	else {
+		$h = Load($_);		# YAML parse, returning hash reference
+		$shoulder = $h->{'EZID prefix/shoulder'} || '';
+		$login = $h->{'Account/organization username (login)'} || '';
+		$displayname = $h->{'Shoulder display name'} || '';
+		$datacenter = $h->{'Datacenter'} || '';
+	}
+	# yyy check if YAML strips surrounding whitespace
+
+	if ($shoulder =~ /^doi:/) {
+		if ($shoulder !~ m|^doi:10\.[0-9]+/[A-Z]*[0-9]$|) {
+			say "ERROR: DOI shoulder must end in a '/' and one or ",
+				"more upper-case letters followed by a digit";
+			exit 1;
+		}
+	}
+	elsif ($shoulder =~ /^ark:/) {
+		if ($shoulder !~ m|^ark:/[a-z]*[0-9]+/[a-z]*[0-9]$|) {
+			say "ERROR: ARK shoulder must end in a '/' and one or ",
+				"more lower-case letters followed by a digit";
+			exit 1;
+		}
+	}
+	else {
+		say "ERROR: shoulder must start either 'ark:' or 'doi:'";
+		exit 1;
+	}
+
+	my $minter = `./minter make $shoulder`;
+	if ($? != 0) {
+		print $minter;
+		exit 1;
+	}
+	if ($minter !~ m|minter: (http.*)|) {
+		say "ERROR: problem parsing ./minter output:";
+		print $minter;
+		exit 1;
+	}
+	my $minter_url = $1;
+	#my $minter_url = `./minter make $shoulder | grep 'minter:'`;
+	#chop $minter_url;
+
+	my $new_entry = "
+:: $shoulder
+type: shoulder
+manager: ezid
+#eziduser: $login
+name: $displayname
+date: $year.$mon.$mday
+minter: $minter_url
+";
+	if ($shoulder =~ /^doi:/) {	# DOI shoulders get some extra stuff
+		my $reg_agency = $datacenter ? 'datacite' : 'crossref';
+		$new_entry .=
+"registration_agency: $reg_agency
+";
+		if ($reg_agency eq 'datacite') {
+			$new_entry .=
+"datacenter: $datacenter
+prefix_shares_datacenter: true
+";
+		}
+	}
+	$new_entry .= "\n";		# terminate entry with a blank line
+
+	# Save entry
+	open OUT, "> $new_shfile"
+		or die("couldn't open $new_shfile for writing");
+	print OUT "$new_entry";
+	close OUT;
+	print "New shoulder entry below saved in file \"$new_shfile\".\n",
+		$new_entry;
+
+	# Save request
+	open OUT, ">> $request_log"
+		or die("couldn't open $request_log for appending");
+	say OUT "Date: $year.$mon.$mday";	# add processing date of request
+	print OUT "$form_content";
+	print OUT "\n";			# terminate request with a blank line
+	close OUT;
+	say "Request file '$FormFile' saved in file \"$request_log\".";
+
+	exit 0;
+}

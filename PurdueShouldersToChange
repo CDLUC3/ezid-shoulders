@@ -1,0 +1,241 @@
+# NOTE: This is a file composed of a subset of the Master Shoulder file. The
+# lines contained are entries with either data centers that need to change from
+# CDL to PURDUE or from PURDUE.EZID to a unique new data center.
+# xxx jak note: there are currently 12 PURDUE.EZID shoulders, but only 5
+#     are slated for changeover
+#
+# Plan:
+# OK to delete now: PURDUE.NEES     # from Greg
+# OK to delete now: PURDUE.GLOBUS   # from Joan
+# Criteria for deleting a datacentre:
+#    - no refs from master_shoulders.txt
+#    - no quota at DataCite
+# For Joan: should these be deleted: CDL.IUPUI  ... ?
+xxx NEW: PURDUE.IUPUI PURDUE.RE3DATA PURDUE.ACSESS PURDUE.PURDUECC
+xxx confirmed would be NEW: PURDUE.HTRC PURDUE.IUSW PURDUE.IUSEAD
+
+xxx check stats.datacite.org
+
+=== Newly created:
+PURDUE.IUPUI "Indiana University-Purdue University Indianapolis" 10.7912
+PURDUE.ACSESS "Alliance for Crops, Soils, and Environmental Science Societies" 10.15143
+CDL.GLOBUS "Globus.org" 10.13018
+PURDUE.PTI "Indiana University Pervasive Technology Institute" 10.5967
+PURDUE.RE3DATA "Registry of Research Repositories" 10.17616
+PURDUE.PURDUECC "Purdue University CyberCenter" 10.4231
+PURDUE.HTRC "HathiTrust Research Center" 10.5967
+PURDUE.IUSW "Indiana University IUScholarWorks" 10.5967
+PURDUE.IUSEAD "Indiana University Sustainable Environment-Actionable Data (SEAD)" 10.5967
+=== 
+
+function zegg {
+	egg -d ~/binders/ezid "$@"
+}
+function zlist {	# xxx should know about shadow ARKs
+	[[ "$1" ]] || {
+		echo "Usage example: zlist b1234/x5"
+		return 1
+	}
+	egg -d ~/binders/ezid list 0 ark:/$1
+}
+
+Suggestion: don't remove any datacentres until after all id moves implied
+by lines in the spreadsheet are done.
+Additional datacentres to remove:
+       PURDUE.NEES  PURDUE.GLOBUS
+Note that the 10.7912/D2 shoulder is already in the PURDUE.IUPUI datacentre.
+
+=== CSV file of datacentre moves ===
+CDL.IUPUI, 10.7912/C2, 5, PURDUE.IUPUI, "not until C9 shoulder is done"
+CDL.IUPUI, 10.7912/C9, 9, PURDUE.IUPUI, "not until C2 shoulder is done"
+CDL.RE3DATA, 10.17616/R3, 1330, PURDUE.RE3DATA, "YES, may be removed"
+CDL.ACSESS, 10.15143/C3, 3, PURDUE.ACSESS, "YES, may be removed"
+PURDUE.EZID, 10.4231/T9, 19, PURDUE.PURDUECC, "NO, has 7 other active shoulders"
+PURDUE.EZID, 10.5967/K8, 20, PURDUE.IUSW, "NO, has 7 other active shoulders"
+PURDUE.EZID, 10.5967/M0, 543, PURDUE.IUSEAD, "NO, has 7 other active shoulders"
+
+
+y #THIS ONE SHOULD CHANGE FROM CDL.IUPUI TO PURDUE.IUPUI
+:: doi:10.7912/C2
+# 5 dois
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/c2
+datacenter: CDL.IUPUI
+
+y #THIS ONE SHOULD CHANGE FROM CDL.IUPUI TO PURDUE.IUPUI
+:: doi:10.7912/C9
+# 9 dois
+type: shoulder
+manager: ezid
+#eziduser: 
+name: Indiana University-Purdue University Indianapolis
+date: 2013.05.22
+minter: https://n2t.net/a/ezid/m/ark/b7912/c9
+datacenter: CDL.IUPUI
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.RE3DATA "Registry of Research Repositories" 10.17616
+$ candidate for removal AFTER moving ids: CDL.RE3DATA
+
+#THIS ONE SHOULD CHANGE FROM CDL.RE3DATA TO PURDUE.RE3DATA
+:: doi:10.17616/R3
+# 1330 dois
+type: shoulder
+manager: ezid
+#eziduser: re3data
+name: Registry of Research Repositories
+date: 2015.04.24
+minter: https://n2t.net/a/ezid/m/ark/c7616/r3
+datacenter: CDL.RE3DATA
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.ACSESS "Alliance for Crops, Soils, and Environmental Science Societies" 10.15143
+$ candidate for removal AFTER moving ids: CDL.ACSESS
+
+y #THIS ONE SHOULD CHANGE FROM CDL.ACSESS TO PURDUE.ACSESS
+:: doi:10.15143/C3
+# 3 dois
+type: shoulder
+manager: ezid
+#eziduser: 
+name: Alliance for Crops, Soils, and Environmental Science Societies
+date: 2014.07.30
+minter: https://n2t.net/a/ezid/m/ark/c5143/c3
+datacenter: CDL.ACSESS
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.PURDUECC "Purdue University CyberCenter" 10.4231
+$ no candidate for removal
+
+y #THIS ONE SHOULD CHANGE FROM PURDUE.EZID to a NEW DATA CENTER, PURDUE.PURDUECC
+:: doi:10.4231/T9
+# 19 dois
+type: shoulder
+manager: ezid
+#eziduser: purdue-cc
+name: Purdue University CyberCenter
+date: 2012.11.16
+minter: https://n2t.net/a/ezid/m/ark/b4231/t9
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.IUSW "Indiana University IUScholarWorks" 10.5967
+$ no candidate for removal
+
+y #THIS ONE SHOULD CHANGE FROM PURDUE.EZID to a NEW DATA CENTER, PURDUE.IUSW
+:: doi:10.5967/K8
+# 20 dois
+type: shoulder
+manager: ezid
+#eziduser: iusw
+name: Indiana University IUScholarWorks
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b5967/k8
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.IUSEAD "Indiana University Sustainable Environment-Actionable Data (SEAD)" 10.5967
+$ candidate for removal AFTER moving ids: CDL.IUSEAD
+
+y #THIS ONE SHOULD CHANGE FROM PURDUE.EZID to a NEW DATA CENTER, PURDUE.IUSEAD
+:: doi:10.5967/M0
+# 563 dois
+type: shoulder
+manager: ezid
+#eziduser: iusead
+name: Indiana University Sustainable Environment-Actionable Data (SEAD)
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b5967/m0
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+$ ezmdsadmin "$(wegnpw cdladmin)" create CDL.GLOBUS "Globus.org" 10.13018
+$ candidate for removal: PURDUE.GLOBUS
+$ change ARK shoulder too
+
+$ candidate for removal: PURDUE.NEES
+
+z #THIS ONE WILL WAS SPOTTED BUY GREG
+
+# jak: I removed NEES minters, shoulders
+# jak: I left the data center because I can't delete it
+
+# Hi John, all of NEES's identifiers are now owned by somebody else, and
+# in MDS they've been moved to another datacenter.  This leaves the
+# PURDUE.NEES datacenter empty, unused, and un-needed.  You can rename it
+# and reuse it next time you need a PURDUE datacenter.  -Greg
+# P.S. I guess NEES also had some shoulders, which are now defunct, but
+# that's another issue.
+#
+# #######################
+
+### ================ DONE BELOW ========
+
+done z #THIS ONE WILL BE RE-ACTIVATED SOMETIME SOON AS A CDL DATACENTER SO WILL NEED TO BE REGISTERED AS CDL.GLOBUS
+
+# inactive
+:: ark:/83018/g4
+type: shoulder
+manager: ezid
+#eziduser: none
+name: Globus.org
+date: 2014.10.13
+minter: https://n2t.net/a/ezid/m/ark/83018/g4
+
+# inactive
+:: doi:10.13018/G2
+# 0 dois
+type: shoulder
+manager: ezid
+#eziduser: none
+name: Globus.org
+date: 2014.10.13
+minter: https://n2t.net/a/ezid/m/ark/c3018/g2
+#this datacenter doesn't show in DataCite
+datacenter: PURDUE.GLOBUS
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.IUPUI "Indiana University-Purdue University Indianapolis" 10.7912
+$ candidate for removal: CDL.IUPUI    # but DOI quota used: 3
+
+done z #THIS ONE SHOULD CHANGE FROM CDL.IUPUI TO PURDUE.IUPUI
+:: doi:10.7912/D2
+# 0 dois
+type: shoulder
+manager: ezid
+#eziduser: indianau
+name: IUPUI University Library Data
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b7912/d2
+datacenter: CDL.IUPUI
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.PTI "Indiana University Pervasive Technology Institute" 10.5967
+$ no candidate for removal
+
+done z #THIS ONE SHOULD CHANGE FROM PURDUE.EZID to a NEW DATA CENTER, PURDUE.PTI
+:: doi:10.5967/P9
+# 0 dois
+type: shoulder
+manager: ezid
+#eziduser: iujetstrm
+name: Indiana University Pervasive Technology Institute
+date: 2015.05.29
+minter: https://n2t.net/a/ezid/m/ark/b5967/p9
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+
+$ ezmdsadmin "$(wegnpw purdueadmin)" create PURDUE.HTRC "HathiTrust Research Center" 10.5967
+$ no candidate for removal
+
+done z #THIS ONE SHOULD CHANGE FROM PURDUE.EZID to a NEW DATA CENTER, PURDUE.HTRC
+:: doi:10.5967/K9
+# 0 dois
+type: shoulder
+manager: ezid
+#eziduser: iuhtrc
+name: HathiTrust Research Center
+date: 2012.04.03
+minter: https://n2t.net/a/ezid/m/ark/b5967/k9
+datacenter: PURDUE.EZID
+prefix_shares_datacenter: true
+

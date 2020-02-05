@@ -1,0 +1,219 @@
+#!/usr/bin/env bash
+
+doip2naan=$HOME/shoulders/doip2naan
+shdr_exists=$HOME/shoulders/shdr_exists
+n2t=n2t@ids-n2t-prd-2a.n2t.net
+
+dflt_pop=ezid
+#mintersdir="$HOME/sv/cur/apache2/minters"	# minters directory
+mintersdir="sv/cur/apache2/minters"	# minters directory relative to ~n2t
+minter_tracer=nog_README			# file saying it's a minter
+
+me=$( basename $0 )
+function usage {
+
+[[ "$*" != '' ]] && {
+	echo ERROR: $*	# print error message supplied as arguments
+}
+cat << EOT
+
+SORT OF WORKS -- BEWARE!!!
+
+Usage:  $me [ -n ] [ -v ] Command Shoulder [ Populator ]
+
+This tool creates, removes, or lists a minter on a Shoulder. The Shoulder
+name should be fully qualified, namely, of the form ark:... or doi:....
+
+    $ $me list ark:/13030/s8
+    $ $me make doi:10.5072/D9
+    $ $me make ark:/13030/fk4
+    $ $me remove doi:10.13012/J8
+
+Use the -n option to show what would happen without actually altering
+anything. The -v option makes it more verbose. Minters are expected to
+reside at the ends of ARK-like paths, for example,
+
+    THIS SHOULDER    CREATES   THIS PATH
+    ark:/13030/s8      ->      ark/13030/s8
+    doi:10.5072/D9     ->      ark/b5072/d9
+    ark:13030/fk4      ->      ark/13030/fk4
+    doi:10.13012/J8    ->      ark/c3012/j8
+    ark:/13030/        ->      ark/13030/NULL
+
+Note that every minter must be enclosed in its own subdirectory, and
+"NULL" is reserved for a missing sub-shoulder, ie, when only the empty
+string follows the NAAN (this covers a deficiency in "nog mkminter").
+At the moment, all minters are kept on n2t.net.
+
+By default the minter will be created for the "$dflt_pop" user, under
+
+    ~n2t/$mintersdir/$dflt_pop     (on production host for n2t.net)
+
+unless you give the optional Populator argument (one of oca, yamz, n2t, etc).
+
+To Do:
+   Should be forgiving if ark:/ or doi: are missing from shoulder.
+
+EOT
+}
+
+no_exec=
+make=
+list=
+remove=
+verbose=
+while [[ "$1" =~ ^- ]]
+do
+	case $1 in
+	-n)
+		no_exec=1
+		shift
+		;;
+	-v)
+		verbose=1
+		shift
+		;;
+#	--remove)
+#		remove=1
+#		shift
+#		;;
+	*)
+		usage "ERROR: unknown option: $1"
+		exit 1
+	esac
+done
+
+Command=${1:-help}
+case $Command in
+
+make)
+	make=1
+	;;
+remove)
+	remove=1
+	;;
+help)
+	usage
+	exit 0
+	;;
+list)
+	list=1
+	;;
+*)
+	usage "ERROR: unknown command: $Command"
+	exit 1
+	;;
+esac
+
+Shoulder=${2:-}
+[[ $Shoulder == "" ]] && {
+	usage missing shoulder argument
+	exit 1
+}
+[[ ! $Shoulder =~ "/" ]] && {
+	usage first argument must contain a / character
+	exit 1
+}
+
+populator=${3:-$dflt_pop}
+pmdir="$mintersdir/$populator"		# populator's minter directory
+
+# Create a two-element array: NAAN, short-shoulder
+# The NAAN may be a shadowy DOI prefix (converted from real DOI prefix).
+# The short-shoulder is the bit after the NAAN.
+
+a=( $($doip2naan $Shoulder |
+	perl -pe 's,^ark:,ark:,i; s,^ark:/([^/]+)/(.*),\L$1 $2,') )
+naan=${a[0]}
+shdr=${a[1]}
+shdr_subdir=${shdr:-NULL}	# special case of empty shoulder
+
+# XXX do broader check on $naan before doip2naan (which doesn't error check)
+if [[ ! $naan =~ ^[0-9bcdfghjkmnpqrstvwxz][0-9]{4}$ ]]
+then
+	usage "NAAN ($naan) should be a digit or consonant followed by 4 digits"
+	exit 1
+fi
+
+minter_url="https://n2t.net/a/$populator/m/ark/$naan/$shdr_subdir"
+
+# Check if minter exists.
+#
+shdrdir="$pmdir/ark/$naan/$shdr_subdir"
+minter_file=$shdrdir/$minter_tracer
+
+msg=$( ssh $n2t ls -l $minter_file 2>&1 )
+if [ "$?" -ne 0 ]
+then
+	exists=
+else
+	exists=1
+fi
+
+if [[ "$list" ]]
+then
+	if [[ "$exists" ]]
+	then
+		echo shoulder: $Shoulder
+		echo minter: $minter_url
+		echo file: $msg
+		exit 0;
+	else
+		echo minter for $Shoulder does not exist
+		exit 1;
+	fi
+fi
+
+if [[ "$remove" ]]
+then
+	if [[ ! "$exists" ]]
+	then
+		echo ERROR: minter for $Shoulder does not exist
+		exit 1;
+	fi
+	cmd="ssh $n2t rm -fr $shdrdir"
+	echo $cmd
+	# yyy should confirm before removing -- irrevocable
+	#     or should do it with nog internal (save in trash
+	#     dir) so that it's undoable
+	[[ "$no_exec" ]] &&
+		exit 0
+	$cmd &&
+		exit 0
+	exit 1
+fi
+
+if [[ "$make" ]]
+then
+	if [[ "$exists" ]]
+	then
+		echo ERROR: minter for $Shoulder already exists:
+		echo shoulder: $Shoulder
+		echo minter: $minter_url
+		echo file: $msg
+		exit 1;
+	fi
+	mpath=$pmdir/ark
+	[[ ! "$shdr" ]] &&	# empty shoulder has to be created elsewhere
+		mpath+=/tmp	# and moved into place later xxx mkminter bug
+
+	template=eedk
+
+	# Note that $naan/$shdr is the bit that the checkchar is computed over.
+	#
+	#cmd="nog -p $mpath mkminter --type rand --atlast add3 $naan/$shdr $template"
+	cmd="ssh $n2t nog -p $mpath "
+	cmd+="mkminter --type rand --atlast add3 $naan/$shdr $template"
+	echo $cmd
+	echo date: $( date '+%Y.%m.%d' )
+	echo minter: $minter_url
+	[[ "$no_exec" ]] && exit 0
+	$cmd
+	#nog -p $pmdir/ark mkminter --type rand --atlast add3 $naan/$shdr $template
+
+	[[ ! "$shdr" ]] &&	# empty shoulder created elsewhere must be moved
+		mv $mpath/$naan $pmdir/ark/$naan/$shdr_subdir
+
+	exit 0
+fi
+

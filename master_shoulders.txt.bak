@@ -1,134 +1,120 @@
 # // Set up procedure
 #
 # Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
-# follow the instructions. NB: no NAAN or other services are permitted
-# to be supplied to Iran.
+# follow the instructions.
+# NB: no NAAN or other services are permitted to be supplied to Iran.
 #
 # // Tear down procedure
 #
 # See https://confluence.ucop.edu/display/DataCite/Transferring+a+client+from+EZID+to+another+provider
-
+#
 # // Former assignments
 #
-# To mark a shoulder as inactive (eg, missing EZID goes into maintenace mode),
-# add the flag
+# To mark a shoulder as inactive (eg, a non-responsive EZID account holder
+# stops paying bills and the account goes into maintenance mode), add the flag
 #
 #   active: false
 #
 # Deliberately retired former records (removed or overwritten) may often be
 # found in the companion file, former_shoulders.txt.
-
+#
 # Default account set up: one DOI shoulder+minter and one ARK shoulder+minter
 # NAANs and Prefixes no longer need to be at highest level of an org, eg, a
 # campus library can register as a library and not necessarily as the campus
-
-# XXX bug in unmint: (in queue first/now):
-#     while everything in "now" comes after everything in "first"
-#     "queue first X" puts X _after_ everything in "first"
-#     "queue now X" puts X _after_ everything in "now"
-#    => XXX need a real FIFO queue  (with dates and comments would be good)
-#    => XXX must be able to inspect the queues!
-
-# Add data center name as CDL.X or PURDUE.X where X is 8 chars max, all ucase.
-# xxx data center should be derived from group name, not user name?
-
-# ==== Flags ====
+# Add a datacenter name as CDL.X where X is 8 chars max, all uppercase.
+#
+# // Other flags
 #
 # Add "is_supershoulder: true" to mark a shoulder that encompasses at
 # least one other shoulder, eg, ark:/99999/ encompasses ark:/99999/fk4.
-# Add "crossref: true" to make EZID deposit metadata with CrossRef.
+# Add "crossref: true" to make EZID deposit metadata with Crossref.
 # Add "prefix_shares_datacenter: true" to mark a shoulder legitimately
 # assigned to more than one datacenter.
-
-# ======== Add new shoulders after this line ============
-
-# NOTE: all new prefixes can be assigned to either CDL or Purdue.
+#
+# // Shoulder removal in EZID Admin User Interface
+#
 # To remove a shoulder from the system, login to the EZID UI as "admin",
 # go to the DASHBOARD tab and select the ADMINISTRATION button.  Then
 # go to the Groups line/button, look for the group, then visit any users
 # the reference the shoulder, untick their shoulder reference and Save,
 # Then in the Group, find the shoulders and "move" (up-arrow) them back
 # up out of the group (to the available shoulders).
+#
 # Then remove any shoulder minter with, eg,
 #     make_shdr --remove ark:/12345/x8
 # (Do that step before this next step.) Finally, come back and
 # remove them from this file, install, and reload EZID as usual.
 # 
-# Deleting the shoulder from the shoulder database without deleting those
-# references first (in the EZID admin) will cause the update to the
-# shoulder database (and all future updates) to be rejected by EZID.
-# Everything will be fine again after you complete the first step, but
-# meanwhile tell other alert recipients (Greg) that you're working on it.
+# Deleting the shoulder from the shoulder database without first deleting
+# references from the EZID admin UI will cause the shoulder database update
+# (and all future updates) to be rejected by EZID. Everything will be fine
+# again after you complete the first step, but meanwhile tell other alert
+# recipients (eg, Greg) that you're working on it.
 #
-# 2017.02.01 removed ark:/13030/q0 (escholarship)
-
-# To move DOIs between datacenters:
+# // To move DOIs between datacenters
+#
 # 1. Adjust shoulders to use new datacenter
 # 2. DataCite moves existing DOIs to new datacenter
 # 3. Greg changes "_datacenter" fields of existing DOIs to new datacenter
 # 4. Old datacenters can be deleted or repurposed after move prefixes out
-
+#
 # Procedures for removing and transferring stuff:
 #   https://confluence.ucop.edu/pages/viewpage.action?pageId=185207031
-
-# To remove an entire ezid account,
+#
+# // To remove an entire ezid account
+#
 # 1. For each shoulder, do: make_shdr --remove <shoulder_name>
 # 2. Move all shoulders and datacenter to former_shoulders file.
 # 3. Move NAAN entry to ~/naans/former_naans file
 # 4. Add NAAN to the end of the last recycle list in ~/naans/former_naans
 # 5. Reload EZID.
-
-# ========================================================================
-# Prefixes to re-cycle:
-#    purdue-only prefixes < >
-# To remove minters, eg,
-# make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
-
-#    NB: some dead prefixes have a tiny number of DOIs (eg, 10.7280 has two)
-#    97720 is now free (used to be shadow ARKs for UUID URNs)
-#  * after moving current NAAN entry to former_naans (delay move to when
-#    a new NAAN is added, so that NAAN registry doesn't appear to shrink)
-# Datacenters to drop:
-#    <  >
-# Prefixes also listed at mds.datacite.org under CDL and PURDUE accounts.
-
-# To create a Prefix and data center without on an existing account,
-# create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
+#
+# // To remove a shoulder
+#
+# If it has a minter, use "make_shdr --remove ...", for example,
+#
+#    make_shdr --remove ark:/81221/s4; make_shdr --remove doi:10.21221/C2; make_shdr --remove ark:/80357/s3; make_shdr --remove doi:10.20357/D7
+#
+# Remember to
+#     (1) first make_shdr --remove ... to drop minters, _before_ moving
+#     (2) each shoulder and datacenter entry to former_shoulders.txt
+#
+# // When shoulder removal might imply NAAN removal
+#
+# If the NAAN was never used, move it to the ~/naans/former_naans file and
+# add it to the _end_ of the list of NAANs meant for re-cycling.
+#
+# // To create a Prefix and data center without on an existing account
+#
+# Create a pseudo-newaccount form (eg, see ezaccts/newacct88) and run
 # make_ezacct with "" and - for the ARK parts and ignore the fake ARK
-# shoulder entry generated.
-
-# Combined Purdue and CDL prefixes.
+# shoulder entry generated. xxx this is a mess right now
 #
-# Allocate a prefix by popping off the top of the stack (next).
-
-# NEW obtain new prefixes for CDL
-# In Fabrica UI at https://doi.datacite.org, login as "CDL", and click
-# "assign prefix".
-# NB: this replaces sending email to datacite to request a block, and
-#     replaces need to maintain a stack top and prefix recycling queue
-
-# NEW assign prefixes to a datacenter
-# In Fabrica UI at https://doi.datacite.org, login as "CDL", go to "user"
-# (datacenter), and click "assign prefix".
-# NB: this replaces old mds.datacite.org way of doing it.
+# // To obtain a new prefix
 #
-# STACKTOP
-# < 10.25350 10.25351 10.25352 10.26081 >
-#    never assigned 4-digit CDL-only prefixes < 10.7918 >
-#    prefixes for recyling < 10.7276 10.7296 >
+# In the Fabrica UI at https://doi.datacite.org, login as "CDL", and click
+# the Prefixes tab, then on the "% assign prefix" button.
+# (This replaces old procedure of sending email to datacite to request a block,
+# and replaces need to maintain a stack top and prefix recycling queue.)
 #
-# when removing, remember to
-#     (1) make_shdr --remove ... to drop minters,
-#     (2) remove each shoulder file entry and datacenter entry,
-#     (3) and remove old NAAN entry
-
-# rename make_shdr refs to make_minter refs
-# !!! NB: set up ark and doi shoulders to get the same mini-shoulder
-#     (eg, x5 and X5)
-
-######## note: generic accounts section delimited with lines like these ########
-
-# Default shoulder selection: pick one letter and one digit (not 1 or 1).
+# // To assign a prefix to a datacenter
+#
+# In the Fabrica UI at https://doi.datacite.org, login as "CDL", go to the
+# "clients" (datacenter) tab, navigate to client/datacenter, then to the
+# "Prefixes" tab. Then click "assign prefix".
+# (This replaces the old mds.datacite.org way of doing it.)
+#
+# // Miscellaneous notes
+#
+# 2017.02.01 removed ark:/13030/q0 (escholarship)
+# xxx rename make_shdr refs to "minter make|remove ..." refs
+# xxx rename make_ezacct to "shoulder make"
+#
+# // Generating short shoulder strings
+#
+# See "first digit convention" in https://ezid.cdlib.org/learn/id_concepts.
+#
+# Default shoulder selection: pick one letter and one digit (not 0 or 1).
 # To pick the DOI shoulder digit, start with last prefix digit.
 # To pick the ARK shoulder digit, start with second to last prefix digit.
 # To pick letter for both shoulders, start with a non-vowel, non-ell
@@ -136,10 +122,12 @@
 # Iterate: change digit until first shoulder that doesn't exist -> Done
 # ZZZ AVOID digits 0 and 1 in shoulders!
 
-# A record of recent make_ezacct invocations:
-# ecosis   make_ezacct -n 10.21232 c2 "" d6 < ezaccts/newacct > out
-# neotoma  make_ezacct -n 10.21233 n3 "" n7 < ezaccts/newacct > out
-# icecube  make_ezacct -n 10.21234 b4 "" b8 < ezaccts/newacct > out
+# ======== Add new shoulders after this line ============
+
+# Below is a record of recent make_ezacct and other command invocations
+# used to satisfy customer requests. They provider exemplars for some of
+# the diversity of requests.
+#
 # stanford make_ezacct -n 10.21235 - "" - < ezaccts/newacct > out
 # dtic     make_ezacct -n 10.21236 d6 "" t3 < ezaccts/newacct > out
 # cliodyna make_ezacct -n 10.21237 c7 "" - < ezaccts/newacct > out
@@ -151,22 +139,17 @@
 # usb      make_ezacct -n 10.21419 b9 "" b2 < ezaccts/newacct > out
 # remixman naan_rec ... ; make_shdr ark:/44461/r4
 # gns      make_ezacct -n 10.21420 g2 "" n4 < ezaccts/newacct > out
-# icrisat  make_ezacct -n 10.21421 d2 "" c4 < ezaccts/newacct > out
 # ucsd_ida make_ezacct -n 10.21422 d2 "" d4 < ezaccts/newacct > out
 # tamul    make_ezacct -n 10.21423 m2 "" m3 < ezaccts/newacct > out
 # eri      make_ezacct -n 10.21424 r4 "" r2 < ezaccts/newacct > out
 # ucmfront make_ezacct -n 10.21425 f5 "" - < ezaccts/newacct > out
 # ucmbioge make_ezacct -n 10.21426 b6 "" - < ezaccts/newacct > out
-# dit      make_ezacct -n 10.21427 d7 "" t2 < ezaccts/newacct > out
 # pubpub   make_ezacct -n 10.21428 p8 "" b2 < ezaccts/newacct > out
 # nccw     make_ezacct -n 10.21429 c9 "" s2 < ezaccts/newacct > out
-# immport  make_ezacct -n 10.21430 m3 "" p4 < ezaccts/newacct > out
 # upennlib make_ezacct 10.21431 p4 "" p3 < ezaccts/newacct > out
 # kgrid    naans/forge/naan_rec DLHSDLKS https://lhs.medicine.umich.edu/division-learning-knowledge-systems "University of Michigan Medical School Dept of Learning Health Sciences Div of Learning and Knowledge Systems" Allen Flynn ajflynn@med.umich.edu "+1 734-615-0839" "300 North Ingalls Street, 11th Floor, Suite 1161"
 #          then constructed shoulder from new_naa file
 #          then did: make_shdr ark:/67034/k4
-# mdsilber make_ezacct 10.21968 g8 "" g6 < ezaccts/newacct > out
-# uwisclaw make_ezacct 10.21969 w9 "" w6 < ezaccts/newacct > out
 # nds      make_ezacct 10.21970 n9 "" n7 < ezaccts/newacct > out
 # sb-ayliu make_ezacct 10.21972 g2 "" g7 < ezaccts/newacct > out
 # ucnrs    make_ezacct 10.21973 n3 "" r7 < ezaccts/newacct > out
@@ -175,48 +158,37 @@
 # caspo    make_ezacct 10.21976 c6 "" p7 < ezaccts/newacct > out
 # uci      make_ezacct -n 10.21977 d9 - - < ezaccts/newacct > out
 # ucla-pds make_ezacct -n 10.21978 p8 - - < ezaccts/newacct > out
-# ntu-dr-data make_ezacct -n 10.21979 n9 "" t7 < ezaccts/newacct > out
 # uci-jetem   make_ezacct -n 10.21980 j8 - -  < ezaccts/newacct > out
 # uiowa       make_ezacct -n 10.21981 m8 "" w9  < ezaccts/newacct > out
-# um_rsclid   make_ezacct -n 10.21982 m8 "" r2  < ezaccts/newacct > out
 # nu-lib      make_ezacct -n 10.21985 n2 "" n2  < ezaccts/newacct > out
 # sdsc-caida  make_ezacct -n 10.21986 s6 "" s6  < ezaccts/newacct > out
 # iris        make_ezacct -n 10.21987 r7 "" r7  < ezaccts/newacct > out
 # unlvezid naans/forge/naan_rec UNLV http://www.library.unlv.edu "University of Nevada, Las Vegas University Libraries" Cyndi Shein cyndi.shein@unlv.edu "+1 702-895-2209" "4505 S. Maryland Parkway  Box 457001  Las Vegas, NV  89154-7001"
 # ucla_ceegeo make_ezacct -n 10.21222 c2 "" c2  < ezaccts/newacct > out
 # guassian    make_ezacct -n 10.21988 g8 "" g8  < ezaccts/newacct > out
-# uw/ssec     make_shdr -n doi:10.21231/S2
-# uwisc_bmrb  make_ezacct -n 10.13018 - - -  < ezaccts/newacct > out
 # dartmouth   make_ezacct -n 10.21989 d9 - -  < ezaccts/newacct > out
 # lbnl acdo   make_ezacct -n 10.21990 b9 - -  < ezaccts/newacct > out
 # ualberta    make_shdr doi:10.21991/C9; make_shdr doi:10.21992/T9; valsh doi:10.21991/C9 doi:10.21992/T9
-# um_mc       make_ezacct -n 10.13011 m3 - -  < ezaccts/newacct > out
 # cu-mill     make_ezacct -n 10.7916 c6 - -  < ezaccts/newacct > out
 # blavatnik   make_ezacct -n - - 86084 b4 < ezaccts/newacct > out
 #      ***    RECYCLING ark:/86084 (Digital Science)
 # oclcmrd     make_ezacct -n 10.25333 c3 83018 c8  < ezaccts/newacct > out
-# qubes       make_ezacct -n 10.25334 q4 - -  < ezaccts/newacct > out
 # lbnl crd    make_ezacct -n 10.21990 r2 - -  < ezaccts/newacct > out
 # msulib      make_ezacct -n 10.25335 m5 "" m5 < ezaccts/newacct > out
-# pitttycho   make_ezacct -n 10.25337 t7 87269 t9 < ezaccts/newacct > out
 # caltech_arc make_ezacct -n - - 77914 c4 < ezaccts/newacct > out
 #      ***    RECYCLING ark:/77914 (St. Edward's University)
-# atmsips     make_ezacct -n 10.25339 - - -  < ezaccts/newacct > out
-# nturesearch make_ezacct -n 10.25340 r4 - -  < ezaccts/newacct > out
 # ucsd_ndex   make_ezacct -n 10.18119 n9 - -  < ezaccts/newacct > out
 # ucpress     make_ezacct -n 10.17916 p6 - -  < ezaccts/newacct > out
 # aublib      make_ezacct -n - - 86073 b3 < ezaccts/newacct > out
 # ucm_libda   make_ezacct -n - - 86071 d2 < ezaccts/newacct > out
 # sb-zapwld   make_ezacct -n 10.21431 z3 86074 z4 < ezaccts/newacct > out
 # iastate_lib make_ezacct -n - - 87292 w9 < ezaccts/newacct > out
-# ntu-dr-data make_ezacct -n 10.25341 d4 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.25342 - - -  < ezaccts/newacct > out
 # ucsdlib     make_ezacct -n 10.21221 s2 - -  < ezaccts/newacct > out
 # lbnl-lib    make_ezacct -n 10.20357 b7 51986 b6  < ezaccts/newacct > out
 # ucd-library make_ezacct -n 10.18439 s9 87287 d7  < ezaccts/newacct > out
 # dartmouthc  make_ezacct -n - - 81428 v8  < ezaccts/newacct > out
 # punctumbook make_ezacct -n 10.21983 p3 84135 p5  < ezaccts/newacct > out
-# ntu-dr-data make_ezacct -n 10.21984 n4 - -  < ezaccts/newacct > out
 # visiblethk  make_ezacct -n - - 88737 t7 < ezaccts/newacct > out
 # unlvezid    make_ezacct -n - - 62930 w1 < ezaccts/newacct > out
 #             which fails because naan 62930 already exists
@@ -235,7 +207,1122 @@
 # achiii      make_ezacct -n - - 87296 s6 < ezaccts/newacct > out
 # ucsbdash    make_ezacct -n 10.25349 d9 - -  < ezaccts/newacct > out
 # hearstmsm   make_ezacct -n - - 21549 -  < ezaccts/newacct > out
+# wouldn't make_shdr have worked?
 # scolomfr    nog -p /apps/n2t/sv/cur/apache2/minters/ezid/ark mkminter --type rand --atlast add3 19153/s9 eedk
+# ucb-library make_ezacct -n 10.25350 b5 28722 b8  < ezaccts/newacct > out
+# uci chem    make_ezacct -n 10.25351 v3 - - < ezaccts/newacct > out
+# uci-eschol  make_shdr doi:10.5070/T3
+# ucsb-eschol make_shdr doi:10.5070/T2
+# ucd-library make_ezacct -n - - 87293 d3 < ezaccts/newacct > out
+# ucb-eschol  make_shdr doi:10.5070/BP3
+# sb-eschol   make_shdr doi:10.5070/D6
+# cdl general make_ezacct -n 10.17602 c2 - - < ezaccts/newacct > out
+# dash-ucop   make_shdr -v doi:10.18737/D7
+# cdl general make_ezacct -n - - 81983 s9 < ezaccts/newacct > out
+# hearstmsm   make_ezacct -n 10.21428 - - - < ezaccts/newacct > out
+# uci-exoner  make_ezacct -n - - 88112 x2 < ezaccts/newacct > out
+# ucla        make_ezacct -n 10.15144 s4 - - < ezaccts/newacct > out
+# ucidigasset make_ezacct -n 10.15145 d5 81235 d8 < ezaccts/newacct > out
+# ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
+# ./form2shoulder request
+
+:: doi:10.5070/C2
+type: shoulder
+manager: ezid
+#eziduser: cdl-eschol
+name: CDL eScholarship
+date: 2020.01.08
+minter: https://n2t.net/a/ezid/m/ark/b5070/c2
+registration_agency: crossref
+
+:: doi:10.25498/E4
+type: shoulder
+manager: ezid
+#eziduser: ucb-ebrc
+name: Engineering Biology Research Consortium (EBRC)
+date: 2019.12.13
+minter: https://n2t.net/a/ezid/m/ark/d5498/e4
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: doi:10.15310/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: ucla-eschol
+name: Journal of Evolution and Health (no minter)
+date: 2019.12.12
+minter: 
+registration_agency: crossref
+
+:: doi:10.15310/J3
+type: shoulder
+manager: ezid
+#eziduser: ucla-eschol
+name: Journal of Evolution and Health
+date: 2019.12.12
+minter: https://n2t.net/a/ezid/m/ark/c5310/j3
+registration_agency: crossref
+
+:: ark:/78662/s2
+type: shoulder
+manager: ezid
+#eziduser: lbnl-essdive
+name: Environmental System Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)
+date: 2019.11.22
+minter: https://n2t.net/a/ezid/m/ark/78662/s2
+
+:: doi:10.25497/D7
+type: shoulder
+manager: ezid
+#eziduser: sb-nceas
+name: Dangermond Preserve
+date: 2019.11.21
+minter: https://n2t.net/a/ezid/m/ark/d5497/d7
+datacenter: CDL.UCSB
+registration_agency: datacite
+prefix_shares_datacenter: true
+
+:: doi:10.7933/N3
+type: shoulder
+manager: ezid
+#eziduser: lbnl-nersc
+name: LBNL National Energy Research Scientific Computing Center
+date: 2019.11.01
+minter: https://n2t.net/a/ezid/m/ark/b7933/n3
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: ark:/23942/g3
+type: shoulder
+manager: ezid
+#eziduser: ucsd_earthcube
+name: EarthCube Documents
+date: 2019.10.29
+minter: https://n2t.net/a/ezid/m/ark/23942/g3
+
+:: doi:10.26081/K6
+type: shoulder
+manager: ezid
+#eziduser: sb-kitptalks
+name: KITP
+date: 2019.10.23
+minter: https://n2t.net/a/ezid/m/ark/d6081/k6
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
+
+:: ark:/23942/g2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_earthcube
+name: EarthCube Resources
+date: 2019.10.16
+minter: https://n2t.net/a/ezid/m/ark/23942/g2
+
+:: doi:10.25352/G2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_earthcube
+name: EarthCube
+date: 2019.10.16
+minter: https://n2t.net/a/ezid/m/ark/d5352/g2
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.5070/D8
+type: shoulder
+manager: ezid
+#eziduser: ucr-diagonal
+name: Diagonal: An Ibero-American Music Review
+date: 2019.09.17
+minter: https://n2t.net/a/ezid/m/ark/b5070/d8
+registration_agency: crossref
+
+:: doi:10.17610/T6
+type: shoulder
+manager: ezid
+#eziduser: ucla_its
+name: UCLA Institute of Transportation Studies
+date: 2019.08.20
+minter: https://n2t.net/a/ezid/m/ark/c7610/t6
+registration_agency: datacite
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
+
+:: ark:/81235/d8
+type: shoulder
+manager: ezid
+#eziduser: uci-libda
+name: UCI Library Digital Assets
+date: 2019.07.01
+minter: https://n2t.net/a/ezid/m/ark/81235/d8
+
+:: doi:10.15145/D5
+type: shoulder
+manager: ezid
+#eziduser: uci-libda
+name: UCI Library Digital Assets
+date: 2019.07.01
+minter: https://n2t.net/a/ezid/m/ark/c5145/d5
+registration_agency: datacite
+datacenter: CDL.UCI
+prefix_shares_datacenter: true
+
+:: doi:10.15144/S4
+type: shoulder
+manager: ezid
+#eziduser: ucla_aos
+name: UCLA Department of Atmospheric & Oceanic Sciences
+date: 2019.06.28
+minter: https://n2t.net/a/ezid/m/ark/c5144/s4
+registration_agency: datacite
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
+
+:: ark:/88112/x2
+type: shoulder
+manager: ezid
+#eziduser: uci-exonerate
+name: National Registry of Exonerations
+date: 2019.06.27
+minter: https://n2t.net/a/ezid/m/ark/88112/x2
+
+:: doi:10.21239/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: hearstmuseum
+name: Phoebe A. Hearst Museum of Anthropology
+date: 2019.06.19
+minter:
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: ark:/81983/s9
+type: shoulder
+manager: ezid
+#eziduser: ucsf-archives
+name: UCSF Archives & Special Collections
+date: 2019.05.16
+minter: https://n2t.net/a/ezid/m/ark/81983/s9
+
+:: doi:10.18737/D7
+type: shoulder
+manager: ezid
+#eziduser: dash-ucop
+name: UCOP Dash
+date: 2019.05.03
+minter: https://n2t.net/a/ezid/m/ark/c8737/d7
+registration_agency: datacite
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
+
+:: doi:10.17602/C2
+type: shoulder
+manager: ezid
+#eziduser: cdl-generalpurpose
+name: CDL General Purpose
+date: 2019.05.01
+minter: https://n2t.net/a/ezid/m/ark/c7602/c2
+registration_agency: datacite
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
+
+:: doi:10.5070/D6
+type: shoulder
+manager: ezid
+#eziduser: sb-eschol
+name: Dotawo: A Journal of Nubian Studies
+date: 2019.04.18
+minter: https://n2t.net/a/ezid/m/ark/b5070/d6
+registration_agency: crossref
+
+:: ark:/88122/
+type: shoulder
+is_supershoulder: true
+manager: ezid
+#eziduser: ucsf-idl
+name: Industry Documents Library
+date: 2019.04.18
+minter:
+
+:: doi:10.5070/BP3
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: Berkeley Planning Journal
+date: 2019.03.18
+minter: https://n2t.net/a/ezid/m/ark/b5070/bp3
+registration_agency: crossref
+
+:: ark:/87293/d3
+type: shoulder
+manager: ezid
+#eziduser: ucd-dams-2
+name: UC Davis Archives and Institutional Assets Program
+date: 2019.03.18
+minter: https://n2t.net/a/ezid/m/ark/87293/d3
+
+:: doi:10.5070/T2
+type: shoulder
+manager: ezid
+#eziduser: ucsb-eschol
+name: Territories: A Trans-Cultural Journal of Regional Studies
+date: 2019.03.18
+minter: https://n2t.net/a/ezid/m/ark/b5070/t2
+registration_agency: crossref
+
+:: ark:/19153/spbb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Association Française pour la Lecture
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbb9
+
+:: ark:/19153/sdbb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- BrainPop
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbb9
+
+:: ark:/19153/spbc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- BRNE - Myriaé
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbc9
+
+:: ark:/19153/sdbc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Cadmos
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbc9
+
+:: ark:/19153/rcbc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Canopé
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbc9
+
+:: ark:/19153/spbd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Canoprof
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbd9
+
+:: ark:/19153/sdbd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Cfactuel
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbd9
+
+:: ark:/19153/sdbf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Delagrave
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbf9
+
+:: ark:/19153/sdbg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Didier
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbg9
+
+:: ark:/19153/sdbh9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Didier (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbh9
+
+:: ark:/19153/sdbj9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Editions Chavirô
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbj9
+
+:: ark:/19153/sdbk9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Éditions Maison des Langues
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbk9
+
+:: ark:/19153/spbf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Edubases pour Myriaé
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbf9
+
+:: ark:/19153/sdbm9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Educagri
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbm9
+
+:: ark:/19153/sdbn9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Educ'Arte
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbn9
+
+:: ark:/19153/sdbp9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Educlever
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbp9
+
+:: ark:/19153/sdbq9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Educode
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbq9
+
+:: ark:/19153/sdbr9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- eduMedia
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbr9
+
+:: ark:/19153/sdbs9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- EduPad
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbs9
+
+:: ark:/19153/spbg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - AFP
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbg9
+
+:: ark:/19153/spbh9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - ARTE
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbh9
+
+:: ark:/19153/spbj9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - BBC
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbj9
+
+:: ark:/19153/spbk9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - BNF
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbk9
+
+:: ark:/19153/spbm9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - BNF Partenariats
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbm9
+
+:: ark:/19153/spbn9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - BRGM
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbn9
+
+:: ark:/19153/spbp9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Centre Pompidou
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbp9
+
+:: ark:/19153/spbq9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Château de Versailles
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbq9
+
+:: ark:/19153/spbr9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Cité de l'architecture et du patrimoine
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbr9
+
+:: ark:/19153/spbs9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - CMN
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbs9
+
+:: ark:/19153/spbt9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - CNES
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbt9
+
+:: ark:/19153/spbv9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - CNRS
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbv9
+
+:: ark:/19153/spbw9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Deutsche Welle
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbw9
+
+:: ark:/19153/spbx9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - ECPAD
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbx9
+
+:: ark:/19153/spbz9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Espace Myriaé
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spbz9
+
+:: ark:/19153/spcb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Ifremer
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcb9
+
+:: ark:/19153/spcc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - IGN édugéo
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcc9
+
+:: ark:/19153/spcd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - INA GRM
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcd9
+
+:: ark:/19153/spcf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Inserm
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcf9
+
+:: ark:/19153/spcg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Institut du Monde arabe
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcg9
+
+:: ark:/19153/spch9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - LE BAL
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spch9
+
+:: ark:/19153/spcj9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Louvre
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcj9
+
+:: ark:/19153/spck9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Météo France
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spck9
+
+:: ark:/19153/spcm9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - MNHN
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcm9
+
+:: ark:/19153/rcbd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Offre théâtre
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbd9
+
+:: ark:/19153/spcn9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Philharmonie de Paris
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcn9
+
+:: ark:/19153/spcp9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Radio France
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcp9
+
+:: ark:/19153/spcq9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Retronews - BNF
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcq9
+
+:: ark:/19153/spcr9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - RMN HPI
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcr9
+
+:: ark:/19153/spcs9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - RMN PA
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcs9
+
+:: ark:/19153/spct9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - RTVE
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spct9
+
+:: ark:/19153/spcv9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Eduthèque - Site.tv
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcv9
+
+:: ark:/19153/spcw9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Encyclopædia Universalis
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcw9
+
+:: ark:/19153/rcbf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- ENI ressources
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbf9
+
+:: ark:/19153/sdbt9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- e-Toiles éditions
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbt9
+
+:: ark:/19153/sdbv9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Euro-France Médias
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbv9
+
+:: ark:/19153/sdbw9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Floc Production Multimédia
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbw9
+
+:: ark:/19153/sdbx9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Foucher
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbx9
+
+:: ark:/19153/sdbz9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Foucher (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdbz9
+
+:: ark:/19153/sdcb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Fourmikili
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcb9
+
+:: ark:/19153/sdcc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Génération 5
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcc9
+
+:: ark:/19153/sdcd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hachette
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcd9
+
+:: ark:/19153/sdcf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hachette (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcf9
+
+:: ark:/19153/sdcg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hachette FLE
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcg9
+
+:: ark:/19153/sdch9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hachette FLE (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdch9
+
+:: ark:/19153/sdcj9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hatier
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcj9
+
+:: ark:/19153/sdck9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Hatier (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdck9
+
+:: ark:/19153/spcx9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- INS HEA
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcx9
+
+:: ark:/19153/sdcm9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- International développement système
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcm9
+
+:: ark:/19153/sdcn9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Istra
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcn9
+
+:: ark:/19153/sdcp9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Istra (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcp9
+
+:: ark:/19153/sdcq9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Itop Education
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcq9
+
+:: ark:/19153/spcz9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Jeu Numérique
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spcz9
+
+:: ark:/19153/sdcr9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Kiupe
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcr9
+
+:: ark:/19153/sdcs9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Kwyk
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcs9
+
+:: ark:/19153/sdct9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Larousse
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdct9
+
+:: ark:/19153/sdcv9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Larousse (2017)
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcv9
+
+:: ark:/19153/sdcw9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Le Kiosque de l'Education
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcw9
+
+:: ark:/19153/sdcx9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Le Web Pédagogique
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcx9
+
+:: ark:/19153/sdcz9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Learn Enjoy
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdcz9
+
+:: ark:/19153/sddb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- L'Escapadou
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddb9
+
+:: ark:/19153/sddc9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Magistère
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddc9
+
+:: ark:/19153/sddd9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Magnard
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddd9
+
+:: ark:/19153/sddf9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- MusicAmour SAS
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddf9
+
+:: ark:/19153/spdb9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Myriaé - Espace prescripteurs académiques
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/spdb9
+
+:: ark:/19153/sddg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Neotis
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddg9
+
+:: ark:/19153/sddh9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Pixel Cookers
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddh9
+
+:: ark:/19153/sddj9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Planet Némo Interactive
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddj9
+
+:: ark:/19153/sddk9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Plateforme pédagogiques multimédia
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddk9
+
+:: ark:/19153/sddm9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Promethean
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddm9
+
+:: ark:/19153/rcbg9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Réseau Canopé - Espace Myriaé
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbg9
+
+:: ark:/19153/sddn9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Retronews-BNF
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddn9
+
+:: ark:/19153/sddp9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Seira
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddp9
+
+:: ark:/19153/sddq9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Sejer
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddq9
+
+:: ark:/19153/sddr9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Serpodile
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddr9
+
+:: ark:/19153/sdds9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- SlimCricket
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sdds9
+
+:: ark:/19153/sddt9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Teïta conseil
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddt9
+
+:: ark:/19153/sddv9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Texas Instruments
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddv9
+
+:: ark:/19153/sddw9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Tom Pouce Interactive
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddw9
+
+:: ark:/19153/sddx9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Tralalère
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddx9
+
+:: ark:/19153/sddz9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Vuilbert
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/sddz9
+
+:: ark:/19153/stst9
+type: shoulder
+manager: ezid
+#eziduser: canope
+name: Scolomfr -- Test
+date: 2019.03.08
+minter: https://n2t.net/a/ezid/m/ark/19153/stst9
+
+:: doi:10.5070/T3
+type: shoulder
+manager: ezid
+#eziduser: uci-eschol
+name: UCI eScholarship
+date: 2019.01.10
+minter: https://n2t.net/a/ezid/m/ark/b5070/t3
+registration_agency: crossref
+
+:: doi:10.25351/V3
+type: shoulder
+manager: ezid
+#eziduser: ryanmccart
+name: UCI Chemistry Dept.
+date: 2019.02.28
+minter: https://n2t.net/a/ezid/m/ark/d5351/v3
+registration_agency: datacite
+datacenter: CDL.UCI
+prefix_shares_datacenter: true
+
+:: ark:/28722/b8
+type: shoulder
+manager: ezid
+#eziduser: ucblibrary
+name: UC Berkeley Miscellany
+date: 2019.02.28
+minter: https://n2t.net/a/ezid/m/ark/28722/b8
+
+:: doi:10.25350/B5
+type: shoulder
+manager: ezid
+#eziduser: ucblibrary
+name: UC Berkeley Miscellany
+date: 2019.02.28
+minter: https://n2t.net/a/ezid/m/ark/d5350/b5
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: doi:10.5070/V4
 type: shoulder
@@ -244,9 +1331,7 @@ manager: ezid
 name: Proceedings of the Vertebrate Pest Conference
 date: 2019.01.10
 minter: https://n2t.net/a/ezid/m/ark/b5070/v4
-datacenter: CDL.ESCHOL
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/19153/s9
 type: shoulder
@@ -255,11 +1340,6 @@ manager: ezid
 name: Formulaire Scolomfr
 date: 2019.01.08
 minter: https://n2t.net/a/ezid/m/ark/19153/s9
-
-:: datacite:PURDUE.EZID
-type: datacenter
-manager: ezid
-name: Purdue University
 
 :: ark:/21549/
 type: shoulder
@@ -276,19 +1356,7 @@ manager: ezid
 name: Refract
 date: 2019.01.04
 minter: https://n2t.net/a/ezid/m/ark/b5070/r7
-datacenter: CDL.ESCHOL
-crossref: true
-prefix_shares_datacenter: true
-
-:: doi:10.4231/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: purdue_admin
-name: {legacy} Purdue Libraries
-minter:
-datacenter: PURDUE.EZID
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: doi:10.25349/D9
 type: shoulder
@@ -297,6 +1365,7 @@ manager: ezid
 name: UCSB Dash
 date: 2018.12.10
 minter: https://n2t.net/a/ezid/m/ark/d5349/d9
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
@@ -307,9 +1376,7 @@ manager: ezid
 name: The Equilibrium
 date: 2018.11.29
 minter: https://n2t.net/a/ezid/m/ark/b5070/q2
-datacenter: CDL.ESCHOL
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/87296/s6
 type: shoulder
@@ -326,6 +1393,7 @@ manager: ezid
 name: UCLA Department of History
 date: 2018.11.14
 minter: https://n2t.net/a/ezid/m/ark/d5348/h8
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
 
@@ -336,9 +1404,7 @@ manager: ezid
 name: L2 Journal
 date: 2018.10.25
 minter: https://n2t.net/a/ezid/m/ark/b5070/l2
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
+registration_agency: crossref
 
 :: ark:/85781/m7
 type: shoulder
@@ -355,16 +1421,28 @@ manager: ezid
 name: UC Davis DAMS (legacy branch)
 date: 2018.10.24
 minter: https://n2t.net/a/ezid/m/ark/d5347/d7
-datacenter: CDL.UCDAVIS
+registration_agency: datacite
+datacenter: CDL.UCD
 prefix_shares_datacenter: true
 
-:: ark:/87610/s7
+# minter re-constructed and disabled 2019.06.20
+:: ark:/87610/t6
+type: shoulder
+active: false
+manager: ezid
+#eziduser: uta_ica
+name: UTA Institute of Classical Archaeology
+date: 2015.04.06
+minter: https://n2t.net/a/ezid/m/ark/87610/t6
+
+# NAAN and minter replaced 2019.06.20; once mistakenly given NAAN 87610
+:: ark:/87909/s7
 type: shoulder
 manager: ezid
 #eziduser: ucla-dataverse
 name: UCLA Library Data Science Center
 date: 2018.10.24
-minter: https://n2t.net/a/ezid/m/ark/87610/s7
+minter: https://n2t.net/a/ezid/m/ark/87909/s7
 
 :: doi:10.25346/S6
 type: shoulder
@@ -373,6 +1451,7 @@ manager: ezid
 name: UCLA Library Data Science Center
 date: 2018.10.24
 minter: https://n2t.net/a/ezid/m/ark/d5346/s6
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
 
@@ -399,9 +1478,7 @@ manager: ezid
 name: UCSB Himalayan Linguistics
 date: 2018.09.14
 minter: https://n2t.net/a/ezid/m/ark/b5070/h9
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
+registration_agency: crossref
 
 :: ark:/80359/c9
 type: shoulder
@@ -418,6 +1495,7 @@ manager: ezid
 name: UCSD Center for Computational Mass Spectrometry
 date: 2018.09.06
 minter: https://n2t.net/a/ezid/m/ark/d5345/c5
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -428,8 +1506,8 @@ manager: ezid
 name: LBNL Computational Science Department
 date: 2018.08.29
 minter: https://n2t.net/a/ezid/m/ark/d5344/s4
-datacenter: CDL.LBNL
-crossref: true
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/81416/p4
@@ -440,11 +1518,6 @@ name: UCI PECE Project
 date: 2018.07.18
 minter: https://n2t.net/a/ezid/m/ark/81416/p4
 
-:: datacite:CDL.PECE
-type: datacenter
-manager: ezid
-name: UCI PECE project
-
 :: doi:10.21416/P6
 type: shoulder
 manager: ezid
@@ -452,7 +1525,9 @@ manager: ezid
 name: UCI PECE Project
 date: 2018.07.18
 minter: https://n2t.net/a/ezid/m/ark/d1416/p6
-datacenter: CDL.PECE
+registration_agency: datacite
+datacenter: CDL.UCI
+prefix_shares_datacenter: true
 
 :: ark:/13030/d3
 type: shoulder
@@ -478,16 +1553,6 @@ name: Visible Thinking
 date: 2018.06.29
 minter: https://n2t.net/a/ezid/m/ark/88737/t7
 
-:: doi:10.21984/N4
-type: shoulder
-manager: ezid
-#eziduser: ntu-dr-data
-name: NTU ADM exhibition catalogues/proceedings
-date: 2018.06.25
-minter: https://n2t.net/a/ezid/m/ark/d1984/n4
-datacenter: PURDUE.NTU
-prefix_shares_datacenter: true
-
 :: ark:/84135/p5
 type: shoulder
 manager: ezid
@@ -503,6 +1568,7 @@ manager: ezid
 name: UCSB Punctum Books
 date: 2018.05.31
 minter: https://n2t.net/a/ezid/m/ark/d1983/p3
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
@@ -537,7 +1603,8 @@ manager: ezid
 name: UCD Online Strategies
 date: 2018.04.14
 minter: https://n2t.net/a/ezid/m/ark/c8439/s9
-datacenter: CDL.UCDAVIS
+registration_agency: datacite
+datacenter: CDL.UCD
 prefix_shares_datacenter: true
 
 :: ark:/21198/n1
@@ -563,7 +1630,8 @@ manager: ezid
 name: LBNL BTUSAdmin
 date: 2018.04.11
 minter: https://n2t.net/a/ezid/m/ark/d0357/b7
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.21221/S2
@@ -573,6 +1641,7 @@ manager: ezid
 name: UCSD Library Scholarly Comm
 date: 2018.03.16
 minter: https://n2t.net/a/ezid/m/ark/d1221/s2
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -583,9 +1652,7 @@ manager: ezid
 name: Berkeley Review of Education
 date: 2018.03.14
 minter:
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
+registration_agency: crossref
 
 :: doi:10.25342/
 type: shoulder
@@ -595,17 +1662,8 @@ manager: ezid
 name: LBNL Cascade
 date: 2018.02.22
 minter:
-datacenter: CDL.LBNL
-prefix_shares_datacenter: true
-
-:: doi:10.25341/D4
-type: shoulder
-manager: ezid
-#eziduser: ntu-dr-data
-name: NTU PRO-AM conference
-date: 2018.02.08
-minter: https://n2t.net/a/ezid/m/ark/d5341/d4
-datacenter: PURDUE.NTU
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/62930/d1
@@ -647,6 +1705,7 @@ manager: ezid
 name: UCSB Zapruder World
 date: 2017.11.29
 minter: https://n2t.net/a/ezid/m/ark/d1431/z3
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
@@ -657,7 +1716,8 @@ manager: ezid
 name: eschol DataCite
 date: 2017.11.27
 minter: https://n2t.net/a/ezid/m/ark/b6074/d4
-datacenter: CDL.ESCHOL
+registration_agency: datacite
+datacenter: CDL.CDL
 prefix_shares_datacenter: true
 
 :: ark:/86071/d2
@@ -691,7 +1751,9 @@ manager: ezid
 name: UC NRS Santa Cruz Island Reserve
 date: 2017.09.26
 minter: https://n2t.net/a/ezid/m/ark/d1973/s3
-datacenter: CDL.UCNRS
+registration_agency: datacite
+datacenter: CDL.UCD
+prefix_shares_datacenter: true
 
 :: doi:10.17916/P6
 type: shoulder
@@ -700,6 +1762,7 @@ manager: ezid
 name: UC Press
 date: 2017.09.15
 minter: https://n2t.net/a/ezid/m/ark/c7916/p6
+registration_agency: datacite
 datacenter: CDL.CDL
 prefix_shares_datacenter: true
 
@@ -737,6 +1800,7 @@ manager: ezid
 name: UCSD NDEx
 date: 2017.08.22
 minter: https://n2t.net/a/ezid/m/ark/c8119/n9
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -748,34 +1812,6 @@ name: Texas A&M Univ Batt
 date: 2017.08.08
 minter: https://n2t.net/a/ezid/m/ark/81423/b1
 
-:: doi:10.25340/R4
-type: shoulder
-manager: ezid
-#eziduser: ntu-research-data
-name: NTU-NIE research data DOI
-date: 2017.08.07
-minter: https://n2t.net/a/ezid/m/ark/d5340/r4
-datacenter: PURDUE.NTU
-prefix_shares_datacenter: true
-
-:: doi:10.25339/
-type: shoulder
-manager: ezid
-#eziduser: uwisc_atmsips
-name: UWisc_SSEC_SIPS
-date: 2017.08.07
-minter:
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
-:: ark:/77914/c4
-type: shoulder
-manager: ezid
-#eziduser: caltech_arc
-name: Caltech Archives
-date: 2017.08.02
-minter: https://n2t.net/a/ezid/m/ark/77914/c4
-
 :: doi:10.25338/B8
 type: shoulder
 manager: ezid
@@ -783,25 +1819,8 @@ manager: ezid
 name: UC Davis Bio Agr Eng Dash
 date: 2017.07.24
 minter: https://n2t.net/a/ezid/m/ark/d5338/b8
-datacenter: CDL.UCDAVIS
-prefix_shares_datacenter: true
-
-:: ark:/87269/t9
-type: shoulder
-manager: ezid
-#eziduser: pitttycho
-name: Pitt Project Tycho
-date: 2017.07.12
-minter: https://n2t.net/a/ezid/m/ark/87269/t9
-
-:: doi:10.25337/T7
-type: shoulder
-manager: ezid
-#eziduser: pitttycho
-name: Pitt Project Tycho
-date: 2017.07.12
-minter: https://n2t.net/a/ezid/m/ark/d5337/t7
-datacenter: CDL.PITT
+registration_agency: datacite
+datacenter: CDL.UCD
 prefix_shares_datacenter: true
 
 :: ark:/85335/m5
@@ -812,20 +1831,6 @@ name: MSU Libraries
 date: 2017.06.15
 minter: https://n2t.net/a/ezid/m/ark/85335/m5
 
-:: datacite:PURDUE.MSUL
-type: datacenter
-manager: ezid
-name: Michigan State University Libraries
-
-:: doi:10.25335/M5
-type: shoulder
-manager: ezid
-#eziduser: msulib
-name: MSU Libraries
-date: 2017.06.15
-minter: https://n2t.net/a/ezid/m/ark/d5335/m5
-datacenter: PURDUE.MSUL
-
 :: doi:10.21990/R2
 type: shoulder
 manager: ezid
@@ -833,17 +1838,8 @@ manager: ezid
 name: LBNL CRD
 date: 2017.06.08
 minter: https://n2t.net/a/ezid/m/ark/d1990/r2
-datacenter: CDL.LBNL
-prefix_shares_datacenter: true
-
-:: doi:10.25334/Q4
-type: shoulder
-manager: ezid
-#eziduser: pittqubes
-name: Pitt QUBES
-date: 2017.05.31
-minter: https://n2t.net/a/ezid/m/ark/d5334/q4
-datacenter: CDL.PITT
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/86084/b4
@@ -854,25 +1850,6 @@ name: Blavatnik Archive
 date: 2017.05.23
 minter: https://n2t.net/a/ezid/m/ark/86084/b4
 
-:: doi:10.7916/C6
-type: shoulder
-manager: ezid
-#eziduser: cu-mill
-name: CIESEN MILL
-date: 2017.05.08
-minter: https://n2t.net/a/ezid/m/ark/b7916/c6
-datacenter: CDL.CULIS
-
-:: doi:10.13011/M3
-type: shoulder
-manager: ezid
-#eziduser: um_mc
-name: UMich Materials Commons
-date: 2017.05.08
-minter: https://n2t.net/a/ezid/m/ark/c3011/m3
-datacenter: PURDUE.UMICH
-prefix_shares_datacenter: true
-
 :: doi:10.21990/B9
 type: shoulder
 manager: ezid
@@ -880,7 +1857,8 @@ manager: ezid
 name: LBNL ACDO NERSC
 date: 2017.05.01
 minter: https://n2t.net/a/ezid/m/ark/d1990/b9
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.21990/C2
@@ -890,7 +1868,8 @@ manager: ezid
 name: LBNL ACDO CRD
 date: 2017.05.01
 minter: https://n2t.net/a/ezid/m/ark/d1990/c2
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.21990/S9
@@ -900,31 +1879,8 @@ manager: ezid
 name: LBNL ACDO ESnet
 date: 2017.05.01
 minter: https://n2t.net/a/ezid/m/ark/d1990/s9
-datacenter: CDL.LBNL
-prefix_shares_datacenter: true
-
-:: datacite:PURDUE.UWBMRB
-type: datacenter
-manager: ezid
-name: UW-Biological Magnetic Resonance Bank
-
-:: doi:10.13018/
-type: shoulder
-manager: ezid
-#eziduser: uwisc_bmrb
-name: UWisc BMRB
-date: 2017.04.25
-minter:
-datacenter: PURDUE.UWBMRB
-
-:: doi:10.21231/S2
-type: shoulder
-manager: ezid
-#eziduser: uwisc_evaeborbas
-name: UWisc SSEC
-date: 2017.04.24
-minter: https://n2t.net/a/ezid/m/ark/d1231/s2
-datacenter: PURDUE.UWISC
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/81222/c2
@@ -942,6 +1898,7 @@ manager: ezid
 name: UCLA_CEEGEO
 date: 2017.04.11
 minter: https://n2t.net/a/ezid/m/ark/d1222/c2
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
 
@@ -985,6 +1942,7 @@ manager: ezid
 name: SDSC CAIDA
 date: 2017.06.05
 minter:
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -995,6 +1953,7 @@ manager: ezid
 name: SDSC CAIDA Minter
 date: 2017.06.05
 minter: https://n2t.net/a/ezid/m/ark/d1986/s6.caida
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -1005,39 +1964,6 @@ manager: ezid
 name: NorthwesternUniv
 date: 2017.03.11
 minter: https://n2t.net/a/ezid/m/ark/81985/n2
-
-:: datacite:PURDUE.NUL
-type: datacenter
-manager: ezid
-name: Northwestern University
-
-:: doi:10.21985/N2
-type: shoulder
-manager: ezid
-#eziduser: nu-lib
-name: NorthwesternUniv
-date: 2017.03.11
-minter: https://n2t.net/a/ezid/m/ark/d1985/n2
-datacenter: PURDUE.NUL
-
-:: ark:/87946/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: iplant
-name: CyVerse Empty
-date: 2017.03.06
-minter: https://n2t.net/a/ezid/m/ark/87946/NULL
-
-:: doi:10.7946/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: iplant
-name: CyVerse Empty
-date: 2017.03.06
-minter: https://n2t.net/a/ezid/m/ark/b7946/NULL
-datacenter: CDL.IPLANT
 
 :: ark:/28722/s7
 type: shoulder
@@ -1055,28 +1981,6 @@ name: University of Illinois at Chicago
 date: 2017.02.09
 minter: https://n2t.net/a/ezid/m/ark/81984/c8
 
-:: ark:/81982/r2
-type: shoulder
-manager: ezid
-#eziduser: um_rsclid
-name: University of Michigan Dept of EEC
-date: 2017.01.20
-minter: https://n2t.net/a/ezid/m/ark/81982/r2
-
-:: datacite:PURDUE.UMGRSS
-type: datacenter
-manager: ezid
-name: University of Michigan Dept of EEC
-
-:: doi:10.21982/M8
-type: shoulder
-manager: ezid
-#eziduser: um_rsclid
-name: University of Michigan Dept of EEC
-date: 2017.01.20
-minter: https://n2t.net/a/ezid/m/ark/d1982/m8
-datacenter: PURDUE.UMGRSS
-
 :: doi:10.21980/J8
 type: shoulder
 manager: ezid
@@ -1084,31 +1988,8 @@ manager: ezid
 name: UCI JETem
 date: 2017.01.20
 minter: https://n2t.net/a/ezid/m/ark/d1980/j8
+registration_agency: datacite
 datacenter: CDL.UCI
-crossref: true
-prefix_shares_datacenter: true
-
-:: ark:/81979/t7
-type: shoulder
-manager: ezid
-#eziduser: ntu-dr-data
-name: NTU ARK
-date: 2017.01.12
-minter: https://n2t.net/a/ezid/m/ark/81979/t7
-
-:: datacite:PURDUE.NTU
-type: datacenter
-manager: ezid
-name: Nanyang Technological University
-
-:: doi:10.21979/N9
-type: shoulder
-manager: ezid
-#eziduser: ntu-dr-data
-name: NTU research data DOI
-date: 2017.01.12
-minter: https://n2t.net/a/ezid/m/ark/d1979/n9
-datacenter: PURDUE.NTU
 prefix_shares_datacenter: true
 
 :: doi:10.21978/P8
@@ -1118,6 +1999,7 @@ manager: ezid
 name: Planetary Data System
 date: 2017.01.04
 minter: https://n2t.net/a/ezid/m/ark/d1978/p8
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
 
@@ -1128,9 +2010,7 @@ manager: ezid
 name: UCI School of Education
 date: 2016.12.14
 minter: https://n2t.net/a/ezid/m/ark/d1977/d9
-datacenter: CDL.UCI
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/81976/p7
 type: shoulder
@@ -1140,11 +2020,6 @@ name: UCSD Scripps CASPO
 date: 2016.12.09
 minter: https://n2t.net/a/ezid/m/ark/81976/p7
 
-:: datacite:CDL.CASPO
-type: datacenter
-manager: ezid
-name: Climate, Atmospheric Science and Physical Oceanography
-
 :: doi:10.21976/C6
 type: shoulder
 manager: ezid
@@ -1152,7 +2027,9 @@ manager: ezid
 name: UCSD Scripps CASPO
 date: 2016.12.09
 minter: https://n2t.net/a/ezid/m/ark/d1976/c6
-datacenter: CDL.CASPO
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: doi:10.21975/H5
 type: shoulder
@@ -1161,6 +2038,7 @@ manager: ezid
 name: UCSD Hydraulics Laboratory
 date: 2016.12.01
 minter: https://n2t.net/a/ezid/m/ark/d1975/h5
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -1172,11 +2050,6 @@ name: UC Natural Reserve System
 date: 2016.11.15
 minter: https://n2t.net/a/ezid/m/ark/81973/r7
 
-:: datacite:CDL.UCNRS
-type: datacenter
-manager: ezid
-name: University of California Natural Reserve System
-
 :: doi:10.21973/N3
 type: shoulder
 manager: ezid
@@ -1184,19 +2057,9 @@ manager: ezid
 name: UC Natural Reserve System
 date: 2016.11.15
 minter: https://n2t.net/a/ezid/m/ark/d1973/n3
-datacenter: CDL.UCNRS
-
-:: doi:10.5195/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: pittezid
-name: University of Pittsburgh Publications
-date: 2016.11.01
-minter:
-datacenter: CDL.PITT
+registration_agency: datacite
+datacenter: CDL.UCD
 prefix_shares_datacenter: true
-crossref: true
 
 :: ark:/81972/g7
 type: shoulder
@@ -1213,6 +2076,7 @@ manager: ezid
 name: UCSB English Department
 date: 2016.10.25
 minter: https://n2t.net/a/ezid/m/ark/d1972/g2
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
@@ -1224,44 +2088,19 @@ name: UCSB
 date: 2016.10.19
 minter: https://n2t.net/a/ezid/m/ark/48907/b7
 
-:: ark:/81969/w6
-type: shoulder
-manager: ezid
-#eziduser: uwisc_law
-name: UWisc Law School Library
-date: 2016.10.10
-minter: https://n2t.net/a/ezid/m/ark/81969/w6
-
-:: doi:10.21969/W9
-type: shoulder
-manager: ezid
-#eziduser: uwisc_law
-name: UWisc Law School Library
-date: 2016.10.10
-minter: https://n2t.net/a/ezid/m/ark/d1969/w9
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
 :: ark:/81968/g6
 type: shoulder
+active: false
 manager: ezid
 #eziduser: uwisc_mdsilber
-name: UWisc German Program
+name: UWisc German Program (Retired Minter)
 date: 2016.10.10
 minter: https://n2t.net/a/ezid/m/ark/81968/g6
 
-:: doi:10.21968/G8
-type: shoulder
-manager: ezid
-#eziduser: uwisc_mdsilber
-name: UWisc German Program
-date: 2016.10.10
-minter: https://n2t.net/a/ezid/m/ark/d1968/g8
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
+# EZID account put into maintenance mode 2019.06.05; minter intact
 :: ark:/67034/k4
 type: shoulder
+active: false
 manager: ezid
 #eziduser: kgrid
 date:	2016.09.22
@@ -1272,12 +2111,10 @@ minter: https://n2t.net/a/ezid/m/ark/67034/k4
 type: shoulder
 manager: ezid
 #eziduser: ucblibrary
-name: UC Berkeley eScholarship Content
+name: International Conference on GIScience Short Paper Proceedings
 date: 2016.09.16
 minter: https://n2t.net/a/ezid/m/ark/d1433/b3
-datacenter: CDL.UCB
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/81431/p3
 type: shoulder
@@ -1287,59 +2124,6 @@ name: University of Pennsylvania Libraries
 date: 2016.09.15
 minter: https://n2t.net/a/ezid/m/ark/81431/p3
 
-:: ark:/81430/p4
-type: shoulder
-manager: ezid
-#eziduser: ucsf_immPort
-name: UCSF ImmPort
-date: 2016.09.13
-minter: https://n2t.net/a/ezid/m/ark/81430/p4
-
-:: datacite:CDL.IMMPORT
-type: datacenter
-manager: ezid
-name: UCSF ImmPort
-
-:: doi:10.21430/M3
-type: shoulder
-manager: ezid
-#eziduser: ucsf_immPort
-name: UCSF ImmPort
-date: 2016.09.13
-minter: https://n2t.net/a/ezid/m/ark/d1430/m3
-datacenter: CDL.IMMPORT
-
-:: doi:10.1184/R1/
-type: shoulder
-manager: ezid
-#eziduser: cmu-ezid
-name: Carnegie Mellon figshare
-date: 2016.09.08
-minter: https://n2t.net/a/ezid/m/ark/b1184/r1/
-datacenter: CDL.CMU
-
-:: ark:/81427/t2
-type: shoulder
-manager: ezid
-#eziduser: dit_yvonned
-name: Dublin Institute of Technology
-date: 2016.09.08
-minter: https://n2t.net/a/ezid/m/ark/81427/t2
-
-:: datacite:CDL.DIT
-type: datacenter
-manager: ezid
-name: Dublin Institute of Technology
-
-:: doi:10.21427/D7
-type: shoulder
-manager: ezid
-#eziduser: dit_yvonned
-name: Dublin Institute of Technology
-date: 2016.09.08
-minter: https://n2t.net/a/ezid/m/ark/d1427/d7
-datacenter: CDL.DIT
-
 :: doi:10.21426/B6
 type: shoulder
 manager: ezid
@@ -1347,9 +2131,7 @@ manager: ezid
 name: UCM Biogeographia
 date: 2016.08.24
 minter: https://n2t.net/a/ezid/m/ark/d1426/b6
-datacenter: CDL.UCM
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: doi:10.21425/F5
 type: shoulder
@@ -1358,9 +2140,7 @@ manager: ezid
 name: UCM Frontiers of Biogeography
 date: 2016.08.24
 minter: https://n2t.net/a/ezid/m/ark/d1425/f5
-datacenter: CDL.UCM
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/81424/r2
 type: shoulder
@@ -1370,11 +2150,6 @@ name: UCSB Earth Research Institute
 date: 2016.08.24
 minter: https://n2t.net/a/ezid/m/ark/81424/r2
 
-:: datacite:CDL.ERI
-type: datacenter
-manager: ezid
-name: Earth Research Institute
-
 :: doi:10.21424/R4
 type: shoulder
 manager: ezid
@@ -1382,7 +2157,9 @@ manager: ezid
 name: UCSB Earth Research Institute
 date: 2016.08.24
 minter: https://n2t.net/a/ezid/m/ark/d1424/r4
-datacenter: CDL.ERI
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/81423/m3
 type: shoulder
@@ -1407,30 +2184,9 @@ manager: ezid
 name: UCSD Scripps ProjectIDA
 date: 2016.08.10
 minter: https://n2t.net/a/ezid/m/ark/d1422/d2
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/81421/c4
-type: shoulder
-manager: ezid
-#eziduser: icrisat
-name: ICRISAT
-date: 2016.08.10
-minter: https://n2t.net/a/ezid/m/ark/81421/c4
-
-:: datacite:CDL.ICRISAT
-type: datacenter
-manager: ezid
-name: International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)
-
-:: doi:10.21421/D2
-type: shoulder
-manager: ezid
-#eziduser: icrisat
-name: ICRISAT
-date: 2016.08.10
-minter:
-datacenter: CDL.ICRISAT
 
 :: ark:/44461/r4
 type: shoulder
@@ -1455,8 +2211,8 @@ manager: ezid
 name: UCB Geotechnical Engineering Research
 date: 2016.07.09
 minter: https://n2t.net/a/ezid/m/ark/d1418/g8
+registration_agency: datacite
 datacenter: CDL.UCB
-crossref: true
 prefix_shares_datacenter: true
 
 :: ark:/81239/m9
@@ -1467,19 +2223,16 @@ name: Marine and Coastal Research Institute of Columbia
 date: 2016.06.14
 minter: https://n2t.net/a/ezid/m/ark/81239/m9
 
-:: datacite:CDL.INVEMAR
-type: datacenter
-manager: ezid
-name: Marine and Coastal Research Institute of Columbia
-
 :: doi:10.21239/V9
 type: shoulder
+active: false
 manager: ezid
 #eziduser: invemarodi
 name: Marine and Coastal Research Institute of Columbia
 date: 2016.06.14
 minter: https://n2t.net/a/ezid/m/ark/d1239/v9
-datacenter: CDL.INVEMAR
+registration_agency: datacite
+datacenter: CDL.CDL
 
 :: ark:/81238/s3
 type: shoulder
@@ -1496,6 +2249,7 @@ manager: ezid
 name: UCSD Scripps Spray Plotting
 date: 2016.06.07
 minter: https://n2t.net/a/ezid/m/ark/d1238/s8
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -1506,86 +2260,7 @@ manager: ezid
 name: Cliodynamics Journal
 date: 2016.05.31
 minter: https://n2t.net/a/ezid/m/ark/d1237/c7
-datacenter: CDL.UCR
-crossref: true
-prefix_shares_datacenter: true
-
-:: ark:/81234/b8
-type: shoulder
-manager: ezid
-#eziduser: wisc_icecube
-name: UWisc IceCube Astrophysics Center
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/81234/b8
-
-:: doi:10.21234/B4
-type: shoulder
-manager: ezid
-#eziduser: wisc_icecube
-name: UWisc IceCube Astrophysics Center
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/d1234/b4
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
-:: ark:/81233/n7
-type: shoulder
-manager: ezid
-#eziduser: uwisc_neotoma
-name: UWisc Neotoma Paleological Database
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/81233/n7
-
-:: doi:10.21233/N3
-type: shoulder
-manager: ezid
-#eziduser: uwisc_neotoma
-name: UWisc Neotoma Paleological Database
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/d1233/n3
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
-:: ark:/81232/d6
-type: shoulder
-manager: ezid
-#eziduser: uwisc_ecosis
-name: UWisc EcoSIS
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/81232/d6
-
-:: doi:10.21232/C2
-type: shoulder
-manager: ezid
-#eziduser: uwisc_ecosis
-name: UWisc EcoSIS
-date: 2016.05.26
-minter: https://n2t.net/a/ezid/m/ark/d1232/c2
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
-
-:: ark:/81231/m2
-type: shoulder
-manager: ezid
-#eziduser: uwisc
-name: University of Wisconsin-Madison
-date: 2016.05.25
-minter: https://n2t.net/a/ezid/m/ark/81231/m2
-
-:: datacite:PURDUE.UWISC
-type: datacenter
-manager: ezid
-name: University of Wisconsin-Madison
-
-:: doi:10.21231/M3
-type: shoulder
-manager: ezid
-#eziduser: uwisc
-name: University of Wisconsin-Madison
-date: 2016.05.25
-minter: https://n2t.net/a/ezid/m/ark/d1231/m3
-datacenter: PURDUE.UWISC
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/81229/m2
 type: shoulder
@@ -1602,17 +2277,9 @@ manager: ezid
 name: UCSB ECE Dept Mostofi Lab
 date: 2016.05.18
 minter: https://n2t.net/a/ezid/m/ark/d1229/m9
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
-
-:: doi:10.17603/N6
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: DesignSafe No Minter
-date: 2016.05.18
-minter:
-datacenter: CDL.TACC
 
 :: ark:/81228/w2
 type: shoulder
@@ -1629,6 +2296,7 @@ manager: ezid
 name: UCSD Metabolomics Workbench
 date: 2016.05.16
 minter: https://n2t.net/a/ezid/m/ark/d1228/m8
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -1655,30 +2323,9 @@ manager: ezid
 name: UC San Diego Philosophy Dept
 date: 2016.05.06
 minter: https://n2t.net/a/ezid/m/ark/d1224/p4
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/81223/c2
-type: shoulder
-manager: ezid
-#eziduser: riu_admin
-name: International Potato Center
-date: 2016.04.30
-minter: https://n2t.net/a/ezid/m/ark/81223/c2
-
-:: datacite:CDL.CIP
-type: datacenter
-manager: ezid
-name: Potato Center
-
-:: doi:10.21223/P3
-type: shoulder
-manager: ezid
-#eziduser: riu_admin
-name: International Potato Center
-date: 2016.04.30
-minter: https://n2t.net/a/ezid/m/ark/d1223/p3
-datacenter: CDL.CIP
 
 :: ark:/81220/w2
 type: shoulder
@@ -1687,16 +2334,6 @@ manager: ezid
 name: College of William & Mary Libraries
 date: 2016.04.07
 minter: https://n2t.net/a/ezid/m/ark/81220/w2
-
-:: doi:10.20359/T6
-type: shoulder
-manager: ezid
-#eziduser: uta_briscoe
-name: UTA Dolph Briscoe Center
-date: 2016.03.30
-minter: https://n2t.net/a/ezid/m/ark/d0359/t6
-datacenter: CDL.UTAUSTIN
-prefix_shares_datacenter: true
 
 :: ark:/80358/s5
 type: shoulder
@@ -1713,25 +2350,8 @@ manager: ezid
 name: LBNL CESD
 date: 2016.03.30
 minter: https://n2t.net/a/ezid/m/ark/d0358/c8
-datacenter: CDL.LBNL
-prefix_shares_datacenter: true
-
-:: ark:/80356/s5
-type: shoulder
-manager: ezid
-#eziduser: umd_ascl
-name: Astrophysics Source Code Library
-date: 2016.03.24
-minter: https://n2t.net/a/ezid/m/ark/80356/s5
-
-:: doi:10.20356/C4
-type: shoulder
-manager: ezid
-#eziduser: umd_ascl
-name: Astrophysics Source Code Library
-date: 2016.03.24
-minter: https://n2t.net/a/ezid/m/ark/d0356/c4
-datacenter: PURDUE.UMD
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/80354/b3
@@ -1742,11 +2362,6 @@ name: Berkeley Linguistics Society
 date: 2016.03.18
 minter: https://n2t.net/a/ezid/m/ark/80354/b3
 
-#:: datacite:CDL.UCBBLS
-#type: datacenter
-#manager: ezid
-#name: Berkeley Linguistics Society
-
 :: doi:10.20354/B4
 type: shoulder
 manager: ezid
@@ -1754,10 +2369,7 @@ manager: ezid
 name: Berkeley Linguistics Society
 date: 2016.03.18
 minter: https://n2t.net/a/ezid/m/ark/d0354/b4
-#datacenter: CDL.UCBBLS
-datacenter: CDL.UCBLING
-crossref: true
-prefix_shares_datacenter: true
+registration_agency: crossref
 
 :: ark:/80353/k5
 type: shoulder
@@ -1767,11 +2379,6 @@ name: UC Observatories
 date: 2016.03.16
 minter: https://n2t.net/a/ezid/m/ark/80353/k5
 
-:: datacite:CDL.UCOLICK
-type: datacenter
-manager: ezid
-name: UC Observatories
-
 :: doi:10.20353/K3
 type: shoulder
 manager: ezid
@@ -1779,8 +2386,9 @@ manager: ezid
 name: UC Observatories
 date: 2016.03.16
 minter: https://n2t.net/a/ezid/m/ark/d0353/k3
-datacenter: CDL.UCOLICK
-crossref: true
+registration_agency: datacite
+datacenter: CDL.UCSC
+prefix_shares_datacenter: true
 
 :: ark:/80352/c5
 type: shoulder
@@ -1797,21 +2405,9 @@ manager: ezid
 name: UCLA Civil and Environmental Engineering
 date: 2016.03.11
 minter: https://n2t.net/a/ezid/m/ark/d0352/c2
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
-
-:: ark:/54379/t7
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: University of Alberta Libraries
-date: 2016.03.10
-minter: https://n2t.net/a/ezid/m/ark/54379/t7
-
-:: datacite:CDL.NSFADC
-type: datacenter
-manager: ezid
-name: NSF Arctic Data Center
 
 :: doi:10.18739/
 type: shoulder
@@ -1821,7 +2417,9 @@ manager: ezid
 name: NSF Arctic Data Center
 date: 2016.03.07
 minter:
-datacenter: CDL.NSFADC
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: doi:10.18739/A2
 type: shoulder
@@ -1830,7 +2428,9 @@ manager: ezid
 name: NSF Arctic Data Center Minter
 date: 2016.03.07
 minter: https://n2t.net/a/ezid/m/ark/c8739/a2
-datacenter: CDL.NSFADC
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/28722/h2
 type: shoulder
@@ -1847,17 +2447,9 @@ manager: ezid
 name: UCM SSCZO
 date: 2016.02.08
 minter: https://n2t.net/a/ezid/m/ark/b6071/z7
+registration_agency: datacite
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
-
-:: doi:10.18113/P8
-type: shoulder
-manager: ezid
-#eziduser: lps2016
-name: Penn State LPS
-date: 2016.02.03
-minter: https://n2t.net/a/ezid/m/ark/c8113/p8
-datacenter: PURDUE.PSIEE
 
 :: ark:/57799/
 type: shoulder
@@ -1891,7 +2483,8 @@ manager: ezid
 name: LBNL JCAP/CSD
 date: 2016.01.19
 minter: https://n2t.net/a/ezid/m/ark/c8734/p4
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.6086/D1
@@ -1901,6 +2494,7 @@ manager: ezid
 name: UC Riverside DASH
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/b6086/d1
+registration_agency: datacite
 datacenter: CDL.UCR
 prefix_shares_datacenter: true
 
@@ -1920,7 +2514,9 @@ manager: ezid
 name: UCSD CDIP
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/c8437/c7
-datacenter: CDL.CDIP
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 # Southern California Ocean Observing System
 :: ark:/88436/s3
@@ -1938,24 +2534,9 @@ manager: ezid
 name: UCSD SCCOOS
 date: 2015.12.09
 minter: https://n2t.net/a/ezid/m/ark/c8436/s6
-datacenter: CDL.SCCOOS
-
-:: ark:/88126/m3
-type: shoulder
-manager: ezid
-#eziduser: mdf
-name: Univ Chicago Materials Data Facility
-date: 2015.12.08
-minter: https://n2t.net/a/ezid/m/ark/88126/m3
-
-:: doi:10.18126/M2
-type: shoulder
-manager: ezid
-#eziduser: mdf
-name: Univ Chicago Materials Data Facility
-date: 2015.12.08
-minter: https://n2t.net/a/ezid/m/ark/c8126/m2
-datacenter: PURDUE.MDF
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/88431/b4
 type: shoulder
@@ -1972,92 +2553,13 @@ manager: ezid
 name: LBNL EAEI
 date: 2015.12.05
 minter: https://n2t.net/a/ezid/m/ark/c8431/b3
-datacenter: CDL.EAEI
-
-:: ark:/88129/b2
-type: shoulder
-manager: ezid
-#eziduser: nci_bioconductor
-name: National Cancer Institute, Bioconductor
-date: 2015.10.20
-minter: https://n2t.net/a/ezid/m/ark/88129/b2
-
-:: doi:10.18129/B9
-type: shoulder
-manager: ezid
-#eziduser: nci_bioconductor
-name: National Cancer Institute, Bioconductor
-date: 2015.10.20
-minter: https://n2t.net/a/ezid/m/ark/c8129/b9
-datacenter: PURDUE.NCIB
-
-:: ark:/88128/
-type: shoulder
-manager: ezid
-#eziduser: ipums
-name: IPUMS
-date: 2015.09.29
-minter: 
-
-:: doi:10.18128/
-type: shoulder
-manager: ezid
-#eziduser: ipums
-name: IPUMS
-date: 2015.09.29
-minter: 
-datacenter: PURDUE.IPUMS
-
-:: ark:/88123/d7
-type: shoulder
-manager: ezid
-#eziduser: lccnetwork
-name: Landscape Conservation Cooperative
-date: 2015.09.15
-minter: https://n2t.net/a/ezid/m/ark/88123/d7
-
-:: doi:10.18123/D6
-type: shoulder
-manager: ezid
-#eziduser: lccnetwork
-name: Landscape Conservation Cooperative
-date: 2015.09.15
-minter: https://n2t.net/a/ezid/m/ark/c8123/d6
-datacenter: CDL.LCC
-
-:: ark:/88121/n7
-type: shoulder
-manager: ezid
-#eziduser: nci_asset
-name: National Cancer Institute, NIH
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/88121/n7
-
-:: doi:10.18121/N2
-type: shoulder
-manager: ezid
-#eziduser: nci_asset
-name: National Cancer Institute, NIH
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/c8121/n2
-datacenter: PURDUE.NCIP
-
-:: doi:10.18120/R2
-type: shoulder
-manager: ezid
-#eziduser: isi-isrd
-name: USC ISI Informatics Systems Research Division
-date: 2015.09.08
-minter: https://n2t.net/a/ezid/m/ark/c8120/r2
-datacenter: CDL.ISRD
-
-:: datacite:CDL.ISRD
-type: datacenter
-manager: ezid
-name: USC ISI Informatics Systems Research Division
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/88119/f7
 type: shoulder
+active: false
 manager: ezid
 #eziduser: facebase
 name: Facebase Consortium
@@ -2079,26 +2581,9 @@ manager: ezid
 name: Geotechnical Extreme Events Reconnaissance
 date: 2015.08.28
 minter: https://n2t.net/a/ezid/m/ark/c8118/g6
-datacenter: CDL.GEER
-
-:: ark:/88117/p7
-type: shoulder
-manager: ezid
-#eziduser: pittezid
-name: University of Pittsburgh
-date: 2015.08.13
-minter: https://n2t.net/a/ezid/m/ark/88117/p7
-
-:: doi:10.18117/P6
-type: shoulder
-manager: ezid
-#eziduser: pittezid
-name: University of Pittsburgh
-date: 2015.08.13
-minter: https://n2t.net/a/ezid/m/ark/c8117/p6
-datacenter: CDL.PITT
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
-crossref: true
 
 :: ark:/88115/d6
 type: shoulder
@@ -2115,24 +2600,9 @@ manager: ezid
 name: Laboratory for Basic and Translational Cognitive Neuroscience
 date: 2015.08.13
 minter: https://n2t.net/a/ezid/m/ark/c8115/d5
-datacenter: CDL.LUCKLAB
-
-:: ark:/87917/c9
-type: shoulder
-manager: ezid
-#eziduser: nciphub
-name: National Cancer Informatics Program Hub, NIH
-date: 2015.07.09
-minter: https://n2t.net/a/ezid/m/ark/87917/c9
-
-:: doi:10.17917/C7
-type: shoulder
-manager: ezid
-#eziduser: nciphub
-name: National Cancer Informatics Program Hub, NIH
-date: 2015.07.09
-minter: https://n2t.net/a/ezid/m/ark/c7917/c7
-datacenter: PURDUE.NCIPH
+registration_agency: datacite
+datacenter: CDL.UCD
+prefix_shares_datacenter: true
 
 :: ark:/87915/n7
 type: shoulder
@@ -2149,26 +2619,9 @@ manager: ezid
 name: Center for Nanotechnology in Society
 date: 2015.06.26
 minter: https://n2t.net/a/ezid/m/ark/c7915/n5
+registration_agency: datacite
 datacenter: CDL.UCSB
-crossref: true
 prefix_shares_datacenter: true
-
-:: ark:/77913/r7
-type: shoulder
-manager: ezid
-#eziduser: umiami_regenbase
-name: Miami Project to Cure Paralysis
-date: 2015.05.27
-minter: https://n2t.net/a/ezid/m/ark/77913/r7
-
-:: doi:10.17913/R3
-type: shoulder
-manager: ezid
-#eziduser: umiami_regenbase
-name: Miami Project to Cure Paralysis
-date: 2015.05.27
-minter: https://n2t.net/a/ezid/m/ark/c7913/r3
-datacenter: CDL.REGENBAS
 
 :: ark:/87936/b7
 type: shoulder
@@ -2193,51 +2646,9 @@ manager: ezid
 name: UC San Diego Department of Biomedical Informatics
 date: 2015.05.11
 minter: https://n2t.net/a/ezid/m/ark/c7908/b8
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/87615/c5
-type: shoulder
-manager: ezid
-#eziduser: libunc
-name: UNC Library - Resource Description and Management
-date: 2015.04.23
-minter: https://n2t.net/a/ezid/m/ark/87615/c5
-
-:: doi:10.17615/C6
-type: shoulder
-manager: ezid
-#eziduser: libunc
-name: UNC Library - Resource Description and Management
-date: 2015.04.23
-minter: https://n2t.net/a/ezid/m/ark/c7615/c6
-datacenter: CDL.LIBUNC
-
-:: ark:/87614/q6
-type: shoulder
-manager: ezid
-#eziduser: pittquantum
-name: Pitt Quantum Repository
-date: 2015.04.22
-minter: https://n2t.net/a/ezid/m/ark/87614/q6
-
-:: doi:10.17614/Q4
-type: shoulder
-manager: ezid
-#eziduser: pittquantum
-name: Pitt Quantum Repository
-date: 2015.04.22
-minter: https://n2t.net/a/ezid/m/ark/c7614/q4
-datacenter: CDL.PQR
-
-:: doi:10.17611/DP/
-type: shoulder
-manager: ezid
-#eziduser: iris
-name: IRIS Data Products
-date: 2015.04.14
-minter:
-datacenter: CDL.IRIS
 
 :: ark:/13030/p8
 # Minter recreated due to re-seeding error uncovered during Amazon migration
@@ -2261,59 +2672,6 @@ name: Duke Digital Repository
 date: 2015.04.06
 minter: https://n2t.net/a/ezid/m/ark/87924/r4
 
-:: ark:/87612/p2
-type: shoulder
-manager: ezid
-#eziduser: uta_peteng
-name: UTA Petroleum Engineering
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/87612/p2
-
-:: doi:10.17612/P7
-type: shoulder
-manager: ezid
-#eziduser: uta_peteng
-name: UTA Petroleum Engineering
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/c7612/p7
-datacenter: CDL.PGERR
-
-:: ark:/87611/s6
-type: shoulder
-manager: ezid
-#eziduser: iris
-name: Incorporated Research Institutions for Seismology
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/87611/s6
-
-:: doi:10.17611/S7
-type: shoulder
-manager: ezid
-#eziduser: iris
-name: IRIS Publications
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/c7611/s7
-datacenter: CDL.IRIS
-
-:: doi:10.17611/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: iris
-name: Incorporated Research Institutions for Seismology
-date: 2015.04.06
-minter:
-datacenter: CDL.IRIS
-
-:: doi:10.17610/T7
-type: shoulder
-manager: ezid
-#eziduser: uta_ica
-name: UTA Institute of Classical Archaeology
-date: 2015.04.06
-minter: https://n2t.net/a/ezid/m/ark/c7610/t7
-datacenter: CDL.ICA
-
 :: ark:/87607/c7
 type: shoulder
 manager: ezid
@@ -2321,15 +2679,6 @@ manager: ezid
 name: Chicago Collections Consortium
 date: 2015.04.01
 minter: https://n2t.net/a/ezid/m/ark/87607/c7
-
-:: doi:10.17607/C6
-type: shoulder
-manager: ezid
-#eziduser: ccc
-name: Chicago Collections Consortium
-date: 2015.04.01
-minter: https://n2t.net/a/ezid/m/ark/c7607/c6
-datacenter: PURDUE.CCC
 
 :: ark:/65665/
 type: shoulder
@@ -2339,49 +2688,6 @@ manager: ezid
 name: National Museum of Natural History, Smithsonian Institution - empty shoulder
 date: 2015.03.31
 minter:
-
-:: ark:/87603/c9
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: TACC No Minter
-date: 2015.03.30
-minter:
-
-:: doi:10.17603/C6
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: TACC No Minter
-date: 2015.03.30
-minter:
-datacenter: CDL.TACC
-
-:: doi:10.17603/DS2
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: DesignSafe Minter
-date: 2015.09.29
-minter: https://n2t.net/a/ezid/m/ark/c7603/ds2
-datacenter: CDL.TACC
-
-:: ark:/87603/c7
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: TACC Minter
-date: 2015.03.30
-minter: https://n2t.net/a/ezid/m/ark/87603/c7
-
-:: doi:10.17603/C3
-type: shoulder
-manager: ezid
-#eziduser: uta_tacc
-name: TACC Minter
-date: 2015.03.30
-minter: https://n2t.net/a/ezid/m/ark/c7603/c3
-datacenter: CDL.TACC
 
 :: ark:/87602/m4
 type: shoulder
@@ -2407,23 +2713,6 @@ name: Montana State University
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/75788/m4
 
-:: ark:/85784/
-type: shoulder
-manager: ezid
-#eziduser: cu-idea
-name: Interdisciplinary Earth Data Alliance
-date: 2015.02.18
-minter:
-
-:: doi:10.15784/
-type: shoulder
-manager: ezid
-#eziduser: cu-idea
-name: Interdisciplinary Earth Data Alliance
-date: 2015.02.18
-minter:
-datacenter: CDL.IEDA
-
 :: ark:/85782/d8
 type: shoulder
 manager: ezid
@@ -2439,16 +2728,8 @@ manager: ezid
 name: Drug Design Data (D3R) Resource
 date: 2015.02.18
 minter: https://n2t.net/a/ezid/m/ark/c5782/d6
-datacenter: CDL.D3R
-
-:: doi:10.15781/T2
-type: shoulder
-manager: ezid
-#eziduser: utaustin
-name: University of Texas at Austin
-date: 2015.02.17
-minter: https://n2t.net/a/ezid/m/ark/c5781/t2
-datacenter: CDL.UTAUSTIN
+registration_agency: datacite
+datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
 :: ark:/85788/g4
@@ -2466,7 +2747,9 @@ manager: ezid
 name: UCSB Climate Hazards Group, Dept of Geography
 date: 2015.02.11
 minter: https://n2t.net/a/ezid/m/ark/c5780/g2
-datacenter: CDL.SBGEOG
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: ark:/85779/j4
 type: shoulder
@@ -2483,8 +2766,9 @@ manager: ezid
 name: Berkeley Law School Journals
 date: 2015.03.04
 minter: https://n2t.net/a/ezid/m/ark/c5779/z38
-datacenter: CDL.UCBLAWLB
-crossref: true
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: doi:10.15779/J2
 type: shoulder
@@ -2493,8 +2777,9 @@ manager: ezid
 name: Berkeley Law Library
 date: 2015.02.07
 minter: https://n2t.net/a/ezid/m/ark/c5779/j2
-datacenter: CDL.UCBLAWLB
-crossref: true
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/10945/t4
 type: shoulder
@@ -2511,52 +2796,7 @@ manager: ezid
 name: eScholarship: California Jrnl of Politics and Policy
 date: 2014.01.14
 minter: https://n2t.net/a/ezid/m/ark/b5070/p2
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
-
-:: ark:/83026/c4
-type: shoulder
-manager: ezid
-#eziduser: physionet
-name: MIT Laboratory of Computational Physiology
-date: 2015.01.13
-minter: https://n2t.net/a/ezid/m/ark/83026/c4
-
-:: doi:10.13026/C2
-type: shoulder
-manager: ezid
-#eziduser: physionet
-name: MIT Laboratory of Computational Physiology
-date: 2015.01.13
-minter: https://n2t.net/a/ezid/m/ark/c3026/c2
-datacenter: CDL.MITLCP
-
-:: doi:10.13025/D3
-type: shoulder
-manager: ezid
-#eziduser: nuig-duanaire
-name: National University of Ireland, Galway Dataverse
-date: 2015.01.08
-minter: https://n2t.net/a/ezid/m/ark/c3025/d3
-datacenter: CDL.NUIGAL
-
-:: ark:/83025/s4
-type: shoulder
-manager: ezid
-#eziduser: nuigalway
-name: National University of Ireland, Galway
-date: 2015.01.06
-minter: https://n2t.net/a/ezid/m/ark/83025/s4
-
-:: doi:10.13025/S8
-type: shoulder
-manager: ezid
-#eziduser: nuigalway
-name: National University of Ireland, Galway
-date: 2015.01.06
-minter: https://n2t.net/a/ezid/m/ark/c3025/s8
-datacenter: CDL.NUIGAL
+registration_agency: crossref
 
 :: ark:/83024/d4
 type: shoulder
@@ -2583,7 +2823,9 @@ manager: ezid
 name: UCSC Dash
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b7291/d1
+registration_agency: datacite
 datacenter: CDL.UCSC
+prefix_shares_datacenter: true
 
 :: doi:10.7941/D1
 type: shoulder
@@ -2592,7 +2834,8 @@ manager: ezid
 name: LBNL Dash
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b7941/d1
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.5070/S8
@@ -2602,9 +2845,7 @@ manager: ezid
 name: eScholarship
 date: 2014.12.08
 minter: https://n2t.net/a/ezid/m/ark/b5070/s8
-datacenter: CDL.ESCHOL
-prefix_shares_datacenter: true
-crossref: true
+registration_agency: crossref
 
 :: ark:/87924/r3
 type: shoulder
@@ -2631,41 +2872,18 @@ manager: ezid
 name: DataMares
 date: 2014.11.10
 minter: https://n2t.net/a/ezid/m/ark/c3022/m3
-datacenter: CDL.DATAMARE
-
-:: ark:/83020/d8
-type: shoulder
-manager: ezid
-#eziduser: drum
-name: Data Repository for the University of Minnesota
-date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/83020/d8
-
-:: doi:10.13020/D6
-type: shoulder
-manager: ezid
-#eziduser: drum
-name: Data Repository for the University of Minnesota
-date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/c3020/d6
-datacenter: PURDUE.DRUM
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/88114/p7
 type: shoulder
+active: false
 manager: ezid
 #eziduser: purduepoly
-name: Purdue Polytechnic Institute
+name: Purdue Polytechnic Institute (Retired Minter)
 date: 2014.10.14
 minter: https://n2t.net/a/ezid/m/ark/88114/p7
-
-:: doi:10.18114/P5
-type: shoulder
-manager: ezid
-#eziduser: purduepoly
-name: Purdue Polytechnic Institute
-date: 2014.10.14
-minter: https://n2t.net/a/ezid/m/ark/c8114/p5
-datacenter: PURDUE.PURPOLY
 
 :: ark:/85147/j4
 type: shoulder
@@ -2682,61 +2900,8 @@ manager: ezid
 name: iDASH Repository
 date: 2014.10.13
 minter: https://n2t.net/a/ezid/m/ark/c5147/j2
-datacenter: CDL.IDASHREP
-
-:: ark:/83017/m4
-type: shoulder
-manager: ezid
-#eziduser: minnesota
-name: University of Minnesota Libraries
-date: 2014.10.09
-minter: https://n2t.net/a/ezid/m/ark/83017/m4
-
-:: doi:10.13017/M2
-type: shoulder
-manager: ezid
-#eziduser: minnesota
-name: University of Minnesota Libraries
-date: 2014.10.09
-minter: https://n2t.net/a/ezid/m/ark/c3017/m2
-datacenter: PURDUE.UMN
-
-:: doi:10.15146/R3
-type: shoulder
-manager: ezid
-#eziduser: dataone
-name: DataONE Dash
-date: 2014.09.24
-minter: https://n2t.net/a/ezid/m/ark/c5146/r3
-datacenter: CDL.UNMLIB
-prefix_shares_datacenter: true
-
-:: ark:/85145/m7
-type: shoulder
-manager: ezid
-#eziduser: unmlibrary
-name: University of New Mexico Libraries
-date: 2014.09.24
-minter: https://n2t.net/a/ezid/m/ark/85145/m7
-
-:: doi:10.15145/M6
-type: shoulder
-manager: ezid
-#eziduser: unmlibrary
-name: University of New Mexico Libraries
-date: 2014.09.24
-minter: https://n2t.net/a/ezid/m/ark/c5145/m6
-datacenter: CDL.UNMLIB
-prefix_shares_datacenter: true
-
-:: doi:10.5060/D8
-type: shoulder
-manager: ezid
-#eziduser: merritt
-name: UCOP Dash
-date: 2014.09.16
-minter: https://n2t.net/a/ezid/m/ark/b5060/d8
-datacenter: CDL.CDL
+registration_agency: datacite
+datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
 :: doi:10.6071/M3
@@ -2746,6 +2911,7 @@ manager: ezid
 name: UCM Dash
 date: 2014.09.16
 minter: https://n2t.net/a/ezid/m/ark/b6071/m3
+registration_agency: datacite
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
 
@@ -2766,23 +2932,6 @@ name: National Museum of Natural History, Smithsonian Institution
 date: 2014.08.18
 minter: https://n2t.net/a/ezid/m/ark/65665/n6
 
-:: ark:/85144/
-type: shoulder
-manager: ezid
-#eziduser: crcl
-name: Center for Research in Computational Linguistics
-date: 2014.08.12
-minter:
-
-:: doi:10.15144/
-type: shoulder
-manager: ezid
-#eziduser: crcl
-name: Center for Research in Computational Linguistics
-date: 2014.08.12
-minter:
-datacenter: CDL.CRCL
-
 :: ark:/85142/t4
 type: shoulder
 manager: ezid
@@ -2790,15 +2939,6 @@ manager: ezid
 name: Utah State University Merrill-Cazier Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/85142/t4
-
-:: doi:10.15142/T3
-type: shoulder
-manager: ezid
-#eziduser: usulibrary
-name: Utah State University Merrill-Cazier Library
-date: 2014.07.23
-minter: https://n2t.net/a/ezid/m/ark/c5142/t3
-datacenter: CDL.USU
 
 :: ark:/85141/s6
 type: shoulder
@@ -2815,7 +2955,9 @@ manager: ezid
 name: UC Davis, Social Science Data Service
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5141/s5
-datacenter: CDL.UCD-SSDS
+registration_agency: datacite
+datacenter: CDL.UCD
+prefix_shares_datacenter: true
 
 :: ark:/85140/d4
 type: shoulder
@@ -2832,25 +2974,9 @@ manager: ezid
 name: University of California, Davis, University Library
 date: 2014.07.23
 minter: https://n2t.net/a/ezid/m/ark/c5140/d3
-datacenter: CDL.UCDAVIS
+registration_agency: datacite
+datacenter: CDL.UCD
 prefix_shares_datacenter: true
-
-:: ark:/85139/s4
-type: shoulder
-manager: ezid
-#eziduser: odumunc
-name: Odum Institute for Research in Social Science
-date: 2014.07.23
-minter: https://n2t.net/a/ezid/m/ark/85139/s4
-
-:: doi:10.15139/S3
-type: shoulder
-manager: ezid
-#eziduser: odumunc
-name: Odum Institute for Research in Social Science
-date: 2014.07.23
-minter: https://n2t.net/a/ezid/m/ark/c5139/s3
-datacenter: CDL.ODUMUNC
 
 :: doi:10.6078/D1
 type: shoulder
@@ -2859,6 +2985,7 @@ manager: ezid
 name: UCB Dash
 date: 2014.07.17
 minter: https://n2t.net/a/ezid/m/ark/b6078/d1
+registration_agency: datacite
 datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
@@ -2869,70 +2996,9 @@ manager: ezid
 name: UCI Dash
 date: 2014.07.17
 minter: https://n2t.net/a/ezid/m/ark/b7280/d1
+registration_agency: datacite
 datacenter: CDL.UCI
 prefix_shares_datacenter: true
-
-:: ark:/81184/c2
-type: shoulder
-manager: ezid
-#eziduser: cmu-ezid
-name: Carnegie Mellon University Libraries
-date: 2014.07.11
-minter: https://n2t.net/a/ezid/m/ark/81184/c2
-
-:: doi:10.1184/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: cmu-ezid
-name: Carnegie Mellon University Libraries
-date: 2014.07.11
-minter:
-datacenter: CDL.CMU
-
-:: ark:/87946/p3
-type: shoulder
-manager: ezid
-#eziduser: iplant
-name: CyVerse
-date: 2014.07.08
-minter: https://n2t.net/a/ezid/m/ark/87946/p3
-
-:: doi:10.7946/P2
-type: shoulder
-manager: ezid
-#eziduser: iplant
-name: CyVerse
-date: 2014.07.08
-minter: https://n2t.net/a/ezid/m/ark/b7946/p2
-datacenter: CDL.IPLANT
-
-:: ark:/87945/c3
-type: shoulder
-manager: ezid
-#eziduser: ucinlibs
-name: University of Cincinnati Libraries
-date: 2014.06.25
-minter: https://n2t.net/a/ezid/m/ark/87945/c3
-
-:: doi:10.7945/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: ucinlibs
-name: University of Cincinnati Libraries
-date: 2014.06.25
-minter:
-datacenter: CDL.CIN
-
-:: doi:10.7945/C2
-type: shoulder
-manager: ezid
-#eziduser: ucinlibs
-name: University of Cincinnati Libraries Minter
-date: 2014.06.25
-minter: https://n2t.net/a/ezid/m/ark/b7945/c2
-datacenter: CDL.CIN
 
 :: ark:/88435/dsp01
 type: shoulder
@@ -2951,41 +3017,6 @@ name: PUL Digital Collections
 date: 2014.06.20
 minter: https://n2t.net/a/ezid/m/ark/88435/dc
 
-:: ark:/83016/m3
-type: shoulder
-manager: ezid
-#eziduser: umd
-name: University of Maryland Libraries
-date: 2014.06.13
-minter: https://n2t.net/a/ezid/m/ark/83016/m3
-
-:: doi:10.13016/M2
-type: shoulder
-manager: ezid
-#eziduser: umd
-name: University of Maryland Libraries
-date: 2014.06.13
-minter: https://n2t.net/a/ezid/m/ark/c3016/m2
-datacenter: PURDUE.UMD
-prefix_shares_datacenter: true
-
-:: ark:/87944/w4
-type: shoulder
-manager: ezid
-#eziduser: usfws-sw
-name: U.S. Fish and Wildlife Service
-date: 2014.06.12
-minter: https://n2t.net/a/ezid/m/ark/87944/w4
-
-:: doi:10.7944/W3
-type: shoulder
-manager: ezid
-#eziduser: usfws-sw
-name: U.S. Fish and Wildlife Service
-date: 2014.06.12
-minter: https://n2t.net/a/ezid/m/ark/b7944/w3
-datacenter: CDL.USFWS
-
 :: ark:/87943/t4
 type: shoulder
 manager: ezid
@@ -3001,7 +3032,8 @@ manager: ezid
 name: LBNL OpenMSI
 date: 2014.06.12
 minter: https://n2t.net/a/ezid/m/ark/b7943/t3
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: doi:10.5068/D1
@@ -3011,17 +3043,9 @@ manager: ezid
 name: UCLA Dash
 date: 2014.06.05
 minter: https://n2t.net/a/ezid/m/ark/b5068/d1
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
-
-:: doi:10.13015/J4
-type: shoulder
-manager: ezid
-#eziduser: artlas
-name: ARTLAS/Purdue University
-date: 2014.06.04
-minter: https://n2t.net/a/ezid/m/ark/c3015/j4
-datacenter: PURDUE.ARTLAS
 
 :: ark:/12345/
 type: shoulder
@@ -3047,7 +3071,9 @@ manager: ezid
 name: CLIVAR & Carbon Hydrographic Data Office
 date: 2014.05.21
 minter:
-datacenter: CDL.CCHDO
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: doi:10.7942/C2
 type: shoulder
@@ -3056,7 +3082,9 @@ manager: ezid
 name: CLIVAR & CCHDO Minter
 date: 2014.05.21
 minter: https://n2t.net/a/ezid/m/ark/b7942/c2
-datacenter: CDL.CCHDO
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87941/t2
 type: shoulder
@@ -3073,17 +3101,9 @@ manager: ezid
 name: Lawrence Berkeley National Laboratory
 date: 2014.05.09
 minter: https://n2t.net/a/ezid/m/ark/b7941/s9
-datacenter: CDL.LBNL
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
-
-:: doi:10.7914/D1
-type: shoulder
-manager: ezid
-#eziduser: fdsn
-name: FDSN Publications
-date: 2014.04.30
-minter: https://n2t.net/a/ezid/m/ark/b7914/d1
-datacenter: CDL.FDSN
 
 :: ark:/87940/m4
 type: shoulder
@@ -3100,37 +3120,9 @@ manager: ezid
 name: UCSB Writing Program
 date: 2014.04.16
 minter: https://n2t.net/a/ezid/m/ark/b7940/m3
-datacenter: CDL.WRITPRO
-
-:: doi:10.7939/R3
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: University of Alberta Libraries Repository
-date: 2016.10.14
-minter: https://n2t.net/a/ezid/m/ark/b7939/r3
-datacenter: CDL.UAL
+registration_agency: datacite
+datacenter: CDL.UCSB
 prefix_shares_datacenter: true
-
-:: doi:10.7939/DVN
-type: shoulder
-manager: ezid
-#eziduser: ualberta
-name: University of Alberta Libraries Dataverse
-date: 2014.04.09
-minter:
-datacenter: CDL.UAL
-prefix_shares_datacenter: true
-crossref: true
-
-:: doi:10.18113/S1
-type: shoulder
-manager: ezid
-#eziduser: ss1
-name: Penn State ScholarSphere
-date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/c8113/s1
-datacenter: PURDUE.PSIEE
 
 :: ark:/87936/k8
 type: shoulder
@@ -3139,23 +3131,6 @@ manager: ezid
 name: Washington University in St. Louis
 date: 2014.03.18
 minter: https://n2t.net/a/ezid/m/ark/87936/k8
-
-:: ark:/87934/
-type: shoulder
-manager: ezid
-#eziduser: morphobank
-name: MorphoBank
-date: 2014.03.13
-minter:
-
-:: doi:10.7934/
-type: shoulder
-manager: ezid
-#eziduser: morphobank
-name: MorphoBank
-date: 2014.03.13
-minter:
-datacenter: CDL.MORPHOBA
 
 :: ark:/87932/k0
 type: shoulder
@@ -3172,43 +3147,9 @@ manager: ezid
 name: Berkeley Seismological Laboratory
 date: 2014.02.13
 minter:
-datacenter: CDL.BSL
-
-:: ark:/87929/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: issda
-name: Irish Social Science Data Archive (ISSDA)
-date: 2013.11.05
-minter:
-
-:: ark:/87929/h9
-type: shoulder
-manager: ezid
-#eziduser: issda
-name: Irish Social Science Data Archive (ISSDA) Minter
-date: 2013.11.05
-minter: https://n2t.net/a/ezid/m/ark/87929/h9
-
-:: doi:10.7929/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: issda
-name: Irish Social Science Data Archive (ISSDA)
-date: 2013.11.05
-minter:
-datacenter: CDL.ISSDA
-
-:: doi:10.7929/H8
-type: shoulder
-manager: ezid
-#eziduser: issda
-name: Irish Social Science Data Archive (ISSDA) Minter
-date: 2013.11.05
-minter: https://n2t.net/a/ezid/m/ark/b7929/h8
-datacenter: CDL.ISSDA
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/87928/h7
 type: shoulder
@@ -3225,24 +3166,9 @@ manager: ezid
 name: UC Berkeley Research IT
 date: 2013.11.05
 minter: https://n2t.net/a/ezid/m/ark/b7928/h6
-datacenter: CDL.UCBRIT
-
-:: ark:/87927/h5
-type: shoulder
-manager: ezid
-#eziduser: cu_ciesin
-name: Center for International Earth Science Information Network (CIESIN)
-date: 2013.10.28
-minter: https://n2t.net/a/ezid/m/ark/87927/h5
-
-:: doi:10.7927/H4
-type: shoulder
-manager: ezid
-#eziduser: cu_ciesin
-name: Center for International Earth Science Information Network (CIESIN)
-date: 2013.10.28
-minter: https://n2t.net/a/ezid/m/ark/b7927/h4
-datacenter: CDL.CIESIN
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/87925/
 type: shoulder
@@ -3260,25 +3186,6 @@ manager: ezid
 name: University College Dublin Minter
 date: 2013.10.18
 minter: https://n2t.net/a/ezid/m/ark/87925/h1
-
-:: doi:10.7925/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: ucdlibrary
-name: University College Dublin
-date: 2013.10.18
-minter:
-datacenter: CDL.UCDIRL
-
-:: doi:10.7925/H0
-type: shoulder
-manager: ezid
-#eziduser: ucdlibrary
-name: University College Dublin Minter
-date: 2013.10.18
-minter: https://n2t.net/a/ezid/m/ark/b7925/h0
-datacenter: CDL.UCDIRL
 
 :: ark:/87924/g9
 type: shoulder
@@ -3311,41 +3218,32 @@ manager: ezid
 name: UC Berkeley Institute of Transportation Studies (ITS)
 date: 2013.09.30
 minter: https://n2t.net/a/ezid/m/ark/b7922/g2
-datacenter: CDL.UCBITS
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
-:: ark:/87920/f9
-type: shoulder
-manager: ezid
-#eziduser: cams
-name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/87920/f9
-
-:: doi:10.7920/F8
-type: shoulder
-manager: ezid
-#eziduser: cams
-name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/b7920/f8
-datacenter: CDL.CAMS
-
-:: ark:/87921/g1
-type: shoulder
-manager: ezid
-#eziduser: renci
-name: RENCI (Renaissance Computing Institute)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/87921/g1
-
-:: doi:10.7921/G0
-type: shoulder
-manager: ezid
-#eziduser: renci
-name: RENCI (Renaissance Computing Institute)
-date: 2013.09.09
-minter: https://n2t.net/a/ezid/m/ark/b7921/g0
-datacenter: CDL.RENCI
+# EZID account put into maintenance mode 2019.05.16; minters left intact
+# :: ark:/87920/f9
+# type: shoulder
+# manager: ezid
+# #eziduser: cams
+# name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
+# date: 2013.09.09
+# minter: https://n2t.net/a/ezid/m/ark/87920/f9
+# 
+# :: datacite:CDL.CAMS
+# type: datacenter
+# manager: ezid
+# name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
+# 
+# :: doi:10.7920/F8
+# type: shoulder
+# manager: ezid
+# #eziduser: cams
+# name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
+# date: 2013.09.09
+# minter: https://n2t.net/a/ezid/m/ark/b7920/f8
+# datacenter: CDL.CAMS
 
 :: ark:/87919/f5
 type: shoulder
@@ -3362,7 +3260,9 @@ manager: ezid
 name: UCSB Advanced Graphics Lab
 date: 2013.09.01
 minter: https://n2t.net/a/ezid/m/ark/b7919/f4
-datacenter: CDL.UCSBAGL
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: doi:10.5063/
 type: shoulder
@@ -3371,7 +3271,9 @@ manager: ezid
 name: National Center for Ecological Analysis and Synthesis (NCEAS)
 date: 2013.08.29
 minter: https://n2t.net/a/ezid/m/ark/b5063/f1
-datacenter: CDL.NCEAS
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 # This has a new minter on it.  For temporary ids with no defined
 # expiration date ('8' suggests infinity).
@@ -3401,78 +3303,6 @@ minter: https://n2t.net/a/ezid/m/ark/99999/fk8
 #date: 2014.07.24
 #minter:
 
-:: ark:/87916/d9
-type: shoulder
-manager: ezid
-#eziduser: columbia
-name: Columbia University Libraries/Information Services (CUL/IS)
-date: 2013.06.27
-minter: https://n2t.net/a/ezid/m/ark/87916/d9
-
-:: doi:10.7916/D8
-type: shoulder
-manager: ezid
-#eziduser: columbia
-name: Columbia University Libraries/Information Services (CUL/IS)
-date: 2013.06.27
-minter: https://n2t.net/a/ezid/m/ark/b7916/d8
-datacenter: CDL.CULIS
-crossref: true
-
-:: ark:/87914/d4
-type: shoulder
-manager: ezid
-#eziduser: fdsn
-name: International Federation of Digital Seismograph Networks (FDSN)
-date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/87914/d4
-
-:: doi:10.7914/
-type: shoulder
-is_supershoulder: true
-manager: ezid
-#eziduser: fdsn
-name: International Federation of Digital Seismograph Networks (FDSN)
-date: 2013.06.18
-minter:
-datacenter: CDL.FDSN
-
-# re-created 2015.07.28
-:: ark:/88113/c7
-type: shoulder
-manager: ezid
-#eziduser: datacommon
-name: Penn State Institutes of Energy and the Environment/PSU Data Commons
-date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/88113/c7
-
-# re-created 2015.07.28
-:: doi:10.18113/D3
-type: shoulder
-manager: ezid
-#eziduser: datacommon
-name: Penn State Institutes of Energy and the Environment/PSU Data Commons
-date: 2013.06.18
-minter: https://n2t.net/a/ezid/m/ark/c8113/d3
-datacenter: PURDUE.PSIEE
-
-:: ark:/77908/c2
-type: shoulder
-manager: ezid
-#eziduser: broad
-name: Broad Institute of MIT and Harvard
-date: 2013.04.24
-minter: https://n2t.net/a/ezid/m/ark/77908/c2
-
-:: doi:10.7908/C1
-type: shoulder
-manager: ezid
-#eziduser: broad
-name: Broad Institute of MIT and Harvard
-date: 2013.04.24
-minter: https://n2t.net/a/ezid/m/ark/b7908/c1
-datacenter: CDL.BROAD
-
 :: ark:/87300/x9
 type: shoulder
 manager: ezid
@@ -3488,26 +3318,18 @@ manager: ezid
 name: UCSD OneLab
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/b7300/x8
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
 :: ark:/87302/z3
 type: shoulder
+active: false
 manager: ezid
 #eziduser: umich
-name: University of Michigan Library
+name: University of Michigan Library (Retired Minter)
 date: 2013.04.01
 minter: https://n2t.net/a/ezid/m/ark/87302/z3
-
-:: doi:10.7302/Z2
-type: shoulder
-manager: ezid
-#eziduser: umich
-name: University of Michigan Library
-date: 2013.04.01
-minter: https://n2t.net/a/ezid/m/ark/b7302/z2
-datacenter: PURDUE.UMICH
-prefix_shares_datacenter: true
 
 :: doi:10.7299/X7
 type: shoulder
@@ -3516,12 +3338,14 @@ manager: ezid
 name: UC Berkeley Museum of Vertebrate Zoology
 date: 2013.03.25
 minter: https://n2t.net/a/ezid/m/ark/b7299/x7
-datacenter: CDL.UCBMVZ
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/21547/
 type: shoulder
 manager: ezid
-#eziduser: bcid
+#eziduser: ucb-bcid
 name: Biocode Commons
 date: 2013.03.23
 minter:
@@ -3549,7 +3373,8 @@ manager: ezid
 name: UC Berkeley Department of Linguistics
 date: 2013.03.07
 minter: https://n2t.net/a/ezid/m/ark/b7297/x2
-datacenter: CDL.UCBLING
+registration_agency: datacite
+datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
 :: ark:/87295/w8
@@ -3567,6 +3392,7 @@ manager: ezid
 name: Center for Research in Biological Systems
 date: 2013.03.04
 minter: https://n2t.net/a/ezid/m/ark/b7295/w9
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -3577,6 +3403,7 @@ manager: ezid
 name: UCSD Research Cyberinfrastructure Data Curation
 date: 2013.02.21
 minter: https://n2t.net/a/ezid/m/ark/b6075/w7
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -3587,7 +3414,9 @@ manager: ezid
 name: UCSC Library
 date: 2013.01.23
 minter: https://n2t.net/a/ezid/m/ark/b7291/v9
+registration_agency: datacite
 datacenter: CDL.UCSC
+prefix_shares_datacenter: true
 
 :: ark:/87290/v8
 type: shoulder
@@ -3604,7 +3433,9 @@ manager: ezid
 name: EarthRef
 date: 2012.12.17
 minter: https://n2t.net/a/ezid/m/ark/b7288/v4
-datacenter: CDL.EARTHREF
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87286/
 type: shoulder
@@ -3621,7 +3452,9 @@ manager: ezid
 name: Biocode Commons (UCB only)
 date: 2012.12.06
 minter: https://n2t.net/a/ezid/m/ark/b7286/v1
-datacenter: CDL.BIOCODE
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: ark:/87285/t8
 type: shoulder
@@ -3638,41 +3471,9 @@ manager: ezid
 name: Center for Multiscale Modeling of Atmospheric Processes
 date: 2012.11.10
 minter: https://n2t.net/a/ezid/m/ark/b7285/t7
-datacenter: CDL.CMMAP
-
-:: ark:/87284/
-type: shoulder
-manager: ezid
-#eziduser: rvdata_us
-name: Rolling Deck to Repository Program
-date: 2012.10.04
-minter:
-
-:: doi:10.7284/
-type: shoulder
-manager: ezid
-#eziduser: rvdata_us
-name: Rolling Deck to Repository Program
-date: 2012.10.04
-minter:
-datacenter: CDL.R2R
-
-:: ark:/15230/t4
-type: shoulder
-manager: ezid
-#eziduser: rucore
-name: Rutgers University Library
-date: 2012.09.21
-minter: https://n2t.net/a/ezid/m/ark/15230/t4
-
-:: doi:10.7282/T3
-type: shoulder
-manager: ezid
-#eziduser: rucore
-name: Rutgers University Library
-date: 2012.09.21
-minter: https://n2t.net/a/ezid/m/ark/b7282/t3
-datacenter: CDL.RUTGERS
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87281/t2
 type: shoulder
@@ -3682,19 +3483,10 @@ name: Johns Hopkins University Data Archive
 date: 2012.09.13
 minter: https://n2t.net/a/ezid/m/ark/87281/t2
 
-:: doi:10.7281/T1
-type: shoulder
-manager: ezid
-#eziduser: jhudms
-name: Johns Hopkins University Data Archive
-date: 2012.09.13
-minter: https://n2t.net/a/ezid/m/ark/b7281/t1
-datacenter: CDL.JHU
-
 :: datacite:CDL.UCI
 type: datacenter
 manager: ezid
-name: UC Irvine Library
+name: UC Irvine
 
 :: ark:/87280/t0
 type: shoulder
@@ -3711,6 +3503,7 @@ manager: ezid
 name: UC Irvine Library
 date: 2012.09.10
 minter: https://n2t.net/a/ezid/m/ark/b7280/s9
+registration_agency: datacite
 datacenter: CDL.UCI
 prefix_shares_datacenter: true
 
@@ -3729,6 +3522,7 @@ manager: ezid
 name: UCSD Ocean Observatory Initiative
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/b7279/s7
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -3740,22 +3534,15 @@ name: University of Utah
 date: 2012.08.16
 minter: https://n2t.net/a/ezid/m/ark/87278/s6
 
+# disabled 2019.10.30 due to non-payment
 :: ark:/87273/q8
 type: shoulder
+active: false
 manager: ezid
 #eziduser: washstate
 name: Washington State University
 date: 2012.07.20
 minter: https://n2t.net/a/ezid/m/ark/87273/q8
-
-:: doi:10.7273/Q9
-type: shoulder
-manager: ezid
-#eziduser: washstate
-name: Washington State University
-date: 2012.07.20
-minter: https://n2t.net/a/ezid/m/ark/b7273/q9
-datacenter: CDL.WSU
 
 :: ark:/87272/q7
 type: shoulder
@@ -3772,7 +3559,9 @@ manager: ezid
 name: UCSF Clinical & Translational Science Institute (CTSI)
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/b7272/q6
-datacenter: CDL.UCSFCTSI
+registration_agency: datacite
+datacenter: CDL.UCSF
+prefix_shares_datacenter: true
 
 :: ark:/29114/q5
 type: shoulder
@@ -3789,15 +3578,18 @@ manager: ezid
 name: UCSF
 date: 2012.07.10
 minter: https://n2t.net/a/ezid/m/ark/b7271/q4
-datacenter: CDL.UCSFLIB
+registration_agency: datacite
+datacenter: CDL.UCSF
+prefix_shares_datacenter: true
 
-:: ark:/90135/q1
-type: shoulder
-manager: ezid
-#eziduser: dataone
-name: ONEShare Data Service
-date: 2012.07.02
-minter: https://n2t.net/a/ezid/m/ark/90135/q1
+# 2019.06.03 no new ARKs expected, but who knows; minter intact
+#:: ark:/90135/q1
+#type: shoulder
+#manager: ezid
+##eziduser: dataone
+#name: ONEShare Data Service
+#date: 2012.07.02
+#minter: https://n2t.net/a/ezid/m/ark/90135/q1
 
 :: ark:/87270/q3
 type: shoulder
@@ -3814,6 +3606,7 @@ manager: ezid
 name: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences
 date: 2012.07.02
 minter: https://n2t.net/a/ezid/m/ark/b7270/q2
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
 
@@ -3832,7 +3625,9 @@ manager: ezid
 name: California Coastal Atlas
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b4246/p6
-datacenter: CDL.UCSDCCA
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/87268/p2
 type: shoulder
@@ -3849,24 +3644,9 @@ manager: ezid
 name: UC Riverside Bourns College of Engineering
 date: 2012.06.27
 minter: https://n2t.net/a/ezid/m/ark/b7268/p1
-datacenter: CDL.UCRBCOE
-
-:: ark:/87265/n6
-type: shoulder
-manager: ezid
-#eziduser: nsidc
-name: National Snow & Ice Data Center (NSIDC)
-date: 2012.05.30
-minter: https://n2t.net/a/ezid/m/ark/87265/n6
-
-:: doi:10.7265/N5
-type: shoulder
-manager: ezid
-#eziduser: nsidc
-name: National Snow & Ice Data Center (NSIDC)
-date: 2012.05.30
-minter: https://n2t.net/a/ezid/m/ark/b7265/n5
-datacenter: CDL.NSIDC
+registration_agency: datacite
+datacenter: CDL.UCR
+prefix_shares_datacenter: true
 
 :: ark:/86086/n2
 type: shoulder
@@ -3883,6 +3663,7 @@ manager: ezid
 name: UC Riverside
 date: 2012.05.26
 minter: https://n2t.net/a/ezid/m/ark/b6086/n1
+registration_agency: datacite
 datacenter: CDL.UCR
 prefix_shares_datacenter: true
 
@@ -3901,7 +3682,9 @@ manager: ezid
 name: Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
 date: 2012.05.22
 minter:
-datacenter: CDL.PISCO
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
 
 :: doi:10.6078/M7
 type: shoulder
@@ -3910,6 +3693,7 @@ manager: ezid
 name: OpenContext
 date: 2012.05.04
 minter: https://n2t.net/a/ezid/m/ark/b6078/m7
+registration_agency: datacite
 datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
@@ -3921,16 +3705,6 @@ name: University of Lyon
 date: 2012.04.13
 minter: https://n2t.net/a/ezid/m/ark/47881/m6
 
-:: doi:10.5967/K9
-type: shoulder
-manager: ezid
-#eziduser: iuhtrc
-name: HathiTrust Research Center
-date: 2012.04.03
-minter: https://n2t.net/a/ezid/m/ark/b5967/k9
-datacenter: PURDUE.HTRC
-prefix_shares_datacenter: true
-
 # k6 ARKs in a partnership between the UCB library and CDL DSC program
 :: ark:/13030/k6
 type: shoulder
@@ -3939,26 +3713,6 @@ manager: ezid
 name: UC Berkeley/Digital Special Collections
 date: 2012.03.28
 minter: https://n2t.net/a/ezid/m/ark/13030/k6
-
-#note from Joan--account has been cancelled!!
-:: ark:/86081/k5
-type: shoulder
-manager: ezid
-#eziduser: none
-name: UCSD Nieh Lab
-date: 2012.03.28
-minter: https://n2t.net/a/ezid/m/ark/86081/k5
-
-#note from Joan--account has been cancelled!!
-:: doi:10.6081/K4
-type: shoulder
-manager: ezid
-#eziduser: none
-name: UCSD Nieh Lab
-date: 2012.03.28
-minter: https://n2t.net/a/ezid/m/ark/b6081/k4
-datacenter: CDL.UCSD
-prefix_shares_datacenter: true
 
 :: ark:/86080/k3
 type: shoulder
@@ -3975,7 +3729,9 @@ manager: ezid
 name: Collaborative Research in Computational Neuroscience (CRCNS)
 date: 2012.03.08
 minter: https://n2t.net/a/ezid/m/ark/b6080/k0
-datacenter: CDL.UCBCRCNS
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
 
 :: doi:10.6075/J0
 type: shoulder
@@ -3984,35 +3740,18 @@ manager: ezid
 name: UCSD
 date: 2012.03.06
 minter: https://n2t.net/a/ezid/m/ark/b6075/j0
+registration_agency: datacite
 datacenter: CDL.UCSD
 prefix_shares_datacenter: true
-
-:: ark:/86076/j6
-type: shoulder
-active: false
-manager: ezid
-#eziduser: fhcrc
-name: Fred Hutchinson Cancer Research Center
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/86076/j6
-
-:: doi:10.6076/J7
-type: shoulder
-active: false
-manager: ezid
-#eziduser: fhcrc
-name: Fred Hutchinson Cancer Research Center
-date: 2012.03.05
-minter: https://n2t.net/a/ezid/m/ark/b6076/j7
-datacenter: CDL.FHCRC
 
 :: doi:10.6078/J8
 type: shoulder
 manager: ezid
 #eziduser: ucblibrary
-name: UC Berkeley
+name: UC Berkeley Human Rights Center
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6078/j8
+registration_agency: datacite
 datacenter: CDL.UCB
 prefix_shares_datacenter: true
 
@@ -4023,7 +3762,9 @@ manager: ezid
 name: UCLA Department of Ecology and Evolutionary Biology
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6079/j9
-datacenter: CDL.UCLAEEB
+registration_agency: datacite
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
 
 :: ark:/86072/h9
 type: shoulder
@@ -4040,7 +3781,9 @@ manager: ezid
 name: UCSD Signaling Gateway
 date: 2012.03.05
 minter: https://n2t.net/a/ezid/m/ark/b6072/h0
-datacenter: CDL.SDSCSG
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/86071/h7
 type: shoulder
@@ -4057,6 +3800,7 @@ manager: ezid
 name: UC Merced
 date: 2012.03.02
 minter: https://n2t.net/a/ezid/m/ark/b6071/h8
+registration_agency: datacite
 datacenter: CDL.UCM
 prefix_shares_datacenter: true
 
@@ -4075,7 +3819,9 @@ manager: ezid
 name: OpenTopography Facility
 date: 2012.02.07
 minter: https://n2t.net/a/ezid/m/ark/b5069/g9
-datacenter: CDL.SDSCOT
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
 
 :: ark:/21198/r2
 type: shoulder
@@ -4092,6 +3838,7 @@ manager: ezid
 name: UCLA
 date: 2012.01.17
 minter: https://n2t.net/a/ezid/m/ark/b5068/g5
+registration_agency: datacite
 datacenter: CDL.UCLA
 prefix_shares_datacenter: true
 
@@ -4119,15 +3866,6 @@ name: National Center for Atmospheric Research (NCAR)
 date: 2011.12.13
 minter: https://n2t.net/a/ezid/m/ark/85065/d7
 
-:: doi:10.5065/D6
-type: shoulder
-manager: ezid
-#eziduser: ncar_library
-name: National Center for Atmospheric Research (NCAR)
-date: 2011.12.13
-minter: https://n2t.net/a/ezid/m/ark/b5065/d6
-datacenter: CDL.NCAR
-
 :: ark:/85063/f2
 type: shoulder
 manager: ezid
@@ -4143,6 +3881,7 @@ manager: ezid
 name: UCSB
 date: 2011.12.12
 minter: https://n2t.net/a/ezid/m/ark/b5062/f4
+registration_agency: datacite
 datacenter: CDL.UCSB
 prefix_shares_datacenter: true
 
@@ -4177,9 +3916,17 @@ manager: ezid
 name: DOI Test
 date: 2011.08.18
 minter: https://n2t.net/a/ezid/m/ark/b5072/fk2
+registration_agency: datacite
 datacenter: CDL.CDL
-crossref: true
 prefix_shares_datacenter: true
+
+:: doi:10.15697/
+type: shoulder
+manager: ezid
+name: Crossref test
+date: 2019.06.30
+minter: https://n2t.net/a/ezid/m/ark/c5697/fk2
+registration_agency: crossref
 
 :: ark:/21198/r1
 type: shoulder
@@ -4327,16 +4074,6 @@ manager: ezid
 name: CDL Digital Special Collections
 minter: https://n2t.net/a/ezid/m/ark/13030/c8
 
-# Merritt is using this
-:: doi:10.5060/D2
-type: shoulder
-manager: ezid
-#eziduser: merritt
-name: EZID
-minter: https://n2t.net/a/ezid/m/ark/b5060/d2
-datacenter: CDL.CDL
-prefix_shares_datacenter: true
-
 :: ark:/20775/
 type: shoulder
 manager: ezid
@@ -4386,335 +4123,30 @@ manager: other
 name: EZID binder ids
 minter:
 
-:: datacite:CDL.BIOCODE
-type: datacenter
-manager: ezid
-name: Biocode Commons
-
-:: datacite:CDL.BROAD
-type: datacenter
-manager: ezid
-name: Broad Institute of MIT and Harvard
-
-:: datacite:CDL.BSL
-type: datacenter
-manager: ezid
-name: Berkeley Seismological Laboratory
-
-:: datacite:CDL.CAMS
-type: datacenter
-manager: ezid
-name: Cyberinfrastructure for Atomistic Materials Science (CAMS)
-
-:: datacite:CDL.CCHDO
-type: datacenter
-manager: ezid
-name: CLIVAR and Carbon Hydrographic Data Office
-
-:: datacite:CDL.CDIP
-type: datacenter
-manager: ezid
-name: UCSD CDIP
-
 :: datacite:CDL.CDL
 type: datacenter
 manager: ezid
 name: California Digital Library
-
-:: datacite:CDL.CIESIN
-type: datacenter
-manager: ezid
-name: Center for International Earth Science Information Network (CIESIN)
-
-:: datacite:CDL.CIN
-type: datacenter
-manager: ezid
-name: University of Cincinnati Libraries
-
-:: datacite:CDL.CMMAP
-type: datacenter
-manager: ezid
-name: Center for Multiscale Modeling of Atmospheric Processes
-
-:: datacite:CDL.CMU
-type: datacenter
-manager: ezid
-name: Carnegie Mellon University Libraries
-
-:: datacite:CDL.CRCL
-type: datacenter
-manager: ezid
-name: Center for Research in Computational Linguistics
-
-:: datacite:CDL.CULIS
-type: datacenter
-manager: ezid
-name: Columbia University Libraries/Information Services (CUL/IS)
-
-:: datacite:CDL.D3R
-type: datacenter
-manager: ezid
-name: Drug Design Data (D3R) Resource
-
-:: datacite:CDL.DATAMARE
-type: datacenter
-manager: ezid
-name: DataMares
-
-:: datacite:CDL.EAEI
-type: datacenter
-manager: ezid
-name: Energy Analysis and Environmental Impacts
-
-:: datacite:CDL.EARTHREF
-type: datacenter
-manager: ezid
-name: EarthRef
-
-:: datacite:CDL.ESCHOL
-type: datacenter
-manager: ezid
-name: eScholarship
-
-:: datacite:CDL.FDSN
-type: datacenter
-manager: ezid
-name: International Federation of Digital Seismograph Networks (FDSN)
-
-:: datacite:CDL.FHCRC
-type: datacenter
-manager: ezid
-name: Fred Hutchinson Cancer Research Center
-
-:: datacite:CDL.GEER
-type: datacenter
-manager: ezid
-name: Geotechnical Extreme Events Reconnaissance
-
-:: datacite:CDL.ICA
-type: datacenter
-manager: ezid
-name: UTA Institute of Classical Archaeology
-
-:: datacite:CDL.IDASHREP
-type: datacenter
-manager: ezid
-name: iDASH Repository
-
-:: datacite:CDL.IEDA
-type: datacenter
-manager: ezid
-name: Interdisciplinary Earth Data Alliance
-
-:: datacite:CDL.IPLANT
-type: datacenter
-manager: ezid
-name: iPlant Collaborative (at University of Arizona)
-
-:: datacite:CDL.IRIS
-type: datacenter
-manager: ezid
-name: Incorporated Research Institutions for Seismology
-
-:: datacite:CDL.ISSDA
-type: datacenter
-manager: ezid
-name: Irish Social Science Data Archive (ISSDA)
-
-:: datacite:CDL.JHU
-type: datacenter
-manager: ezid
-name: Johns Hopkins University Data Archive
-
-:: datacite:CDL.LBNL
-type: datacenter
-manager: ezid
-name: Lawrence Berkeley National Laboratory
-
-:: datacite:CDL.LCC
-type: datacenter
-manager: ezid
-name: Landscape Conservation Cooperative
-
-:: datacite:CDL.LIBUNC
-type: datacenter
-manager: ezid
-name: UNC Library - Resource Description and Management
-
-:: datacite:CDL.LUCKLAB
-type: datacenter
-manager: ezid
-name: Laboratory for Basic and Translational Cognitive Neuroscience
-
-:: datacite:CDL.MITLCP
-type: datacenter
-manager: ezid
-name: MIT Laboratory of Computational Physiology
-
-:: datacite:CDL.MORPHOBA
-type: datacenter
-manager: ezid
-name: MorphoBank
-
-:: datacite:CDL.NCAR
-type: datacenter
-manager: ezid
-name: National Center for Atmospheric Research (NCAR)
-
-:: datacite:CDL.NCEAS
-type: datacenter
-manager: ezid
-name: National Center for Ecological Analysis and Synthesis (NCEAS)
-
-:: datacite:CDL.NSIDC
-type: datacenter
-manager: ezid
-name: National Snow & Ice Data Center (NSIDC)
-
-:: datacite:CDL.NUIGAL
-type: datacenter
-manager: ezid
-name: National University of Ireland, Galway
-
-:: datacite:CDL.ODUMUNC
-type: datacenter
-manager: ezid
-name: Odum Institute for Research in Social Science
-
-:: datacite:CDL.PGERR
-type: datacenter
-manager: ezid
-name: UTA Petroleum Engineering
-
-:: datacite:CDL.PISCO
-type: datacenter
-manager: ezid
-name: Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
-
-:: datacite:CDL.PITT
-type: datacenter
-manager: ezid
-name: University of Pittsburgh
-
-:: datacite:CDL.PQR
-type: datacenter
-manager: ezid
-name: Pitt Quantum Repository
-
-:: datacite:CDL.R2R
-type: datacenter
-manager: ezid
-name: Rolling Deck to Repository Program
-
-:: datacite:CDL.REGENBAS
-type: datacenter
-manager: ezid
-name: Miami Project to Cure Paralysis
-
-:: datacite:CDL.RENCI
-type: datacenter
-manager: ezid
-name: RENCI (Renaissance Computing Institute)
-
-:: datacite:CDL.RUTGERS
-type: datacenter
-manager: ezid
-name: Rutgers University Library
-
-:: datacite:CDL.SBGEOG
-type: datacenter
-manager: ezid
-name: UCSB Climate Hazards Group, Dept of Geography
-
-:: datacite:CDL.SCCOOS
-type: datacenter
-manager: ezid
-name: UCSD SCCOOS
-
-:: datacite:CDL.SDSCOT
-type: datacenter
-manager: ezid
-name: OpenTopography Facility
-
-:: datacite:CDL.SDSCSG
-type: datacenter
-manager: ezid
-name: UCSD Signaling Gateway
 
 #:: datacite:CDL.SEU
 #type: datacenter
 #manager: ezid
 #name: Saint Edward's University
 
-:: datacite:CDL.TACC
-type: datacenter
-manager: ezid
-name: Texas Advanced Computing Center
-
-:: datacite:CDL.UAL
-type: datacenter
-manager: ezid
-name: University of Alberta Libraries
-
 :: datacite:CDL.UCB
 type: datacenter
 manager: ezid
 name: UC Berkeley
 
-:: datacite:CDL.UCBCRCNS
+:: datacite:CDL.UCD
 type: datacenter
 manager: ezid
-name: Collaborative Research in Computational Neuroscience (CRCNS)
-
-:: datacite:CDL.UCBITS
-type: datacenter
-manager: ezid
-name: UC Berkeley Institute of Transportation Studies (ITS)
-
-:: datacite:CDL.UCBLAWLB
-type: datacenter
-manager: ezid
-name: Berkeley Law Library
-
-:: datacite:CDL.UCBLING
-type: datacenter
-manager: ezid
-name: UC Berkeley Department of Linguistics
-
-:: datacite:CDL.UCBMVZ
-type: datacenter
-manager: ezid
-name: UC Berkeley Museum of Vertebrate Zoology
-
-:: datacite:CDL.UCBRIT
-type: datacenter
-manager: ezid
-name: UC Berkeley Research IT
-
-:: datacite:CDL.UCD-SSDS
-type: datacenter
-manager: ezid
-name: UC Davis, Social Science Data Service
-
-:: datacite:CDL.UCDAVIS
-type: datacenter
-manager: ezid
-name: University of California, Davis, University Library
-
-:: datacite:CDL.UCDIRL
-type: datacenter
-manager: ezid
-name: University College Dublin
+name: UC Davis
 
 :: datacite:CDL.UCLA
 type: datacenter
 manager: ezid
-name: UCLA
-
-:: datacite:CDL.UCLAEEB
-type: datacenter
-manager: ezid
-name: UCLA Department of Ecology and Evolutionary Biology
+name: UC Los Angeles
 
 :: datacite:CDL.UCM
 type: datacenter
@@ -4726,143 +4158,23 @@ type: datacenter
 manager: ezid
 name: UC Riverside
 
-:: datacite:CDL.UCRBCOE
-type: datacenter
-manager: ezid
-name: UC Riverside Bourns College of Engineering
-
 :: datacite:CDL.UCSB
 type: datacenter
 manager: ezid
-name: UCSB
-
-:: datacite:CDL.UCSBAGL
-type: datacenter
-manager: ezid
-name: UCSB Advanced Graphics Lab
+name: UC Santa Barbara
 
 :: datacite:CDL.UCSC
 type: datacenter
 manager: ezid
-name: UCSC
+name: UC Santa Cruz
 
 :: datacite:CDL.UCSD
 type: datacenter
 manager: ezid
-name: UCSD
+name: UC San Diego
 
-:: datacite:CDL.UCSDCCA
+:: datacite:CDL.UCSF
 type: datacenter
 manager: ezid
-name: California Coastal Atlas
-
-:: datacite:CDL.UCSFCTSI
-type: datacenter
-manager: ezid
-name: UCSF Clinical & Translational Science Institute (CTSI)
-
-:: datacite:CDL.UCSFLIB
-type: datacenter
-manager: ezid
-name: UCSF
-
-:: datacite:CDL.UNMLIB
-type: datacenter
-manager: ezid
-name: University of New Mexico Libraries
-
-:: datacite:CDL.USFWS
-type: datacenter
-manager: ezid
-name: U.S. Fish and Wildlife Service
-
-:: datacite:CDL.USU
-type: datacenter
-manager: ezid
-name: Utah State University Merrill-Cazier Library
-
-:: datacite:CDL.UTAUSTIN
-type: datacenter
-manager: ezid
-name: University of Texas at Austin
-
-:: datacite:CDL.WRITPRO
-type: datacenter
-manager: ezid
-name: UCSB Writing Program
-
-:: datacite:CDL.WSU
-type: datacenter
-manager: ezid
-name: Washington State University
-
-:: datacite:PURDUE.ARTLAS
-type: datacenter
-manager: ezid
-name: ARTLAS/Purdue University
-
-:: datacite:PURDUE.CCC
-type: datacenter
-manager: ezid
-name: Chicago Collections Consortium
-
-:: datacite:PURDUE.DRUM
-type: datacenter
-manager: ezid
-name: Data Repository for the University of Minnesota
-
-:: datacite:PURDUE.HTRC
-type: datacenter
-manager: ezid
-name: HathiTrust Research Center
-
-:: datacite:PURDUE.IPUMS
-type: datacenter
-manager: ezid
-name: IPUMS
-
-:: datacite:PURDUE.MDF
-type: datacenter
-manager: ezid
-name: Univ Chicago Materials Data Facility
-
-:: datacite:PURDUE.NCIB
-type: datacenter
-manager: ezid
-name: National Cancer Institute, Bioconductor
-
-:: datacite:PURDUE.NCIP
-type: datacenter
-manager: ezid
-name: National Cancer Institute, NIH
-
-:: datacite:PURDUE.NCIPH
-type: datacenter
-manager: ezid
-name: National Cancer Informatics Program Hub, NIH
-
-:: datacite:PURDUE.PSIEE
-type: datacenter
-manager: ezid
-name: Penn State Institutes of Energy and the Environment/PSU Data Commons
-
-:: datacite:PURDUE.PURPOLY
-type: datacenter
-manager: ezid
-name: Purdue Polytechnic Institute
-
-:: datacite:PURDUE.UMD
-type: datacenter
-manager: ezid
-name: University of Maryland Libraries
-
-:: datacite:PURDUE.UMICH
-type: datacenter
-manager: ezid
-name: University of Michigan Library
-
-:: datacite:PURDUE.UMN
-type: datacenter
-manager: ezid
-name: University of Minnesota Libraries
+name: UC San Francisco
 
