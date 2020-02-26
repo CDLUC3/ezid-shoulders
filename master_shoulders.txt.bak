@@ -226,6 +226,48 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.24432/C5
+type: shoulder
+manager: ezid
+#eziduser: uci-cs
+name: UCI Department of Computer Science
+date: 2020.02.11
+minter: https://n2t.net/a/ezid/m/ark/d4432/c5
+registration_agency: datacite
+datacenter: CDL.UCI
+prefix_shares_datacenter: true
+
+:: doi:10.25494/P6
+type: shoulder
+manager: ezid
+#eziduser: sb-nceas
+name: Ocean Protection Council
+date: 2020.02.11
+minter: https://n2t.net/a/ezid/m/ark/d5494/p6
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
+
+:: doi:10.5070/SC2
+type: shoulder
+manager: ezid
+#eziduser: ucsc-eschol
+name: UCSC eScholarship
+date: 2020.02.11
+minter: https://n2t.net/a/ezid/m/ark/b5070/sc2
+registration_agency: crossref
+
+:: doi:10.25496/W6
+type: shoulder
+manager: ezid
+#eziduser: sb-we1s
+name: UCSB WhatEvery1Says
+date: 2020.01.17
+minter: https://n2t.net/a/ezid/m/ark/d5496/w6
+registration_agency: datacite
+datacenter: CDL.UCSB
+prefix_shares_datacenter: true
+
 :: doi:10.5070/C2
 type: shoulder
 manager: ezid
