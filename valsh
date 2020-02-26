@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-shdir=~/shoulders
+shdir=/apps/ezid/apps/apache/ezid-shoulders
 shdb=$shdir/master_shoulders.txt
 
 me=$( basename $0 )
