@@ -226,6 +226,26 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.5070/LX2
+type: shoulder
+manager: ezid
+#eziduser: ucla-eschol
+name: UCLA eScholarship
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/lx2
+registration_agency: crossref
+
+:: doi:10.26085/C3
+type: shoulder
+manager: ezid
+#eziduser: cega
+name: The Center for Effective Global Action
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/d6085/c3
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
 :: doi:10.24432/C5
 type: shoulder
 manager: ezid
