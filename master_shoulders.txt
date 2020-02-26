@@ -226,6 +226,15 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.5070/B2
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: UC Berkeley eScholarship
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/b2
+registration_agency: crossref
+
 :: doi:10.5070/RV2
 type: shoulder
 manager: ezid
