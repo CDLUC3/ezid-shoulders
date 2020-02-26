@@ -52,7 +52,7 @@ function valsh {
 function eggnogpw {
     # Echoes the eggnog password (this assumes that the binder and
     # minter passwords are the same).
-    local f=/ezid/apache/ezid/SITE/PROJECT/settings/ezid.conf.shadow
+    local f=/apps/ezid/apps/apache/ezid/SITE/PROJECT/settings/ezid.conf.shadow
     local pw=$(sed -n '/binder/,/password/p' $f | grep '^password: ')
     if [ "$pw" == "" ]; then
         echo "ERROR: failed to locate eggnog password"
