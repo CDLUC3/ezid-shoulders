@@ -226,6 +226,14 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: ark:/81984/d3
+type: shoulder
+manager: ezid
+#eziduser: uic
+name: University of Illinois Chicago Digital Collections
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/81984/d3
+
 :: doi:10.5070/B2
 type: shoulder
 manager: ezid
@@ -1369,7 +1377,7 @@ minter: https://n2t.net/a/ezid/m/ark/19153/stst9
 type: shoulder
 manager: ezid
 #eziduser: uci-eschol
-name: UCI eScholarship
+name: Teaching and Learning Anthropology
 date: 2019.01.10
 minter: https://n2t.net/a/ezid/m/ark/b5070/t3
 registration_agency: crossref
