@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-doip2naan=$HOME/shoulders/doip2naan
-shdr_exists=$HOME/shoulders/shdr_exists
+doip2naan=$HOME/apps/apache/ezid-shoulders/doip2naan
+shdr_exists=$HOME/apps/apache/ezid-shoulders/shdr_exists
 n2t=n2t@ids-n2t-prd-2a.n2t.net
 
 dflt_pop=ezid
