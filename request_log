@@ -87,3 +87,39 @@ Account/organization username (login): uic
 Shoulder display name: University of Illinois Chicago Digital Collections
 Datacenter:
 
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/D2
+Account/organization username (login): ucd-eschol
+Shoulder display name: UC Davis eScholarship
+Datacenter:
+
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/M2
+Account/organization username (login): ucm-eschol
+Shoulder display name: UC Merced eScholarship
+Datacenter:
+
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/SF2
+Account/organization username (login): ucsf-eschol
+Shoulder display name: UCSF eScholarship
+Datacenter:
+
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/SB2
+Account/organization username (login): sb-eschol
+Shoulder display name: UCSB eScholarship
+Datacenter:
+
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/R2
+Account/organization username (login): ucr-eschol
+Shoulder display name: UC Riverside eScholarship
+Datacenter:
+
+Date: 2020.03.03
+EZID prefix/shoulder: doi:10.5070/SD2
+Account/organization username (login): ucsd_eschol
+Shoulder display name: UCSD eScholarship
+Datacenter:
+

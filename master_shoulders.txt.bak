@@ -226,6 +226,60 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.5070/SD2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_eschol
+name: UCSD eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sd2
+registration_agency: crossref
+
+:: doi:10.5070/R2
+type: shoulder
+manager: ezid
+#eziduser: ucr-eschol
+name: UC Riverside eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/r2
+registration_agency: crossref
+
+:: doi:10.5070/SB2
+type: shoulder
+manager: ezid
+#eziduser: sb-eschol
+name: UCSB eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sb2
+registration_agency: crossref
+
+:: doi:10.5070/SF2
+type: shoulder
+manager: ezid
+#eziduser: ucsf-eschol
+name: UCSF eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sf2
+registration_agency: crossref
+
+:: doi:10.5070/M2
+type: shoulder
+manager: ezid
+#eziduser: ucm-eschol
+name: UC Merced eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/m2
+registration_agency: crossref
+
+:: doi:10.5070/D2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/d2
+registration_agency: crossref
+
 :: ark:/81984/d3
 type: shoulder
 manager: ezid
@@ -1377,7 +1431,7 @@ minter: https://n2t.net/a/ezid/m/ark/19153/stst9
 type: shoulder
 manager: ezid
 #eziduser: uci-eschol
-name: UCI eScholarship
+name: Teaching and Learning Anthropology
 date: 2019.01.10
 minter: https://n2t.net/a/ezid/m/ark/b5070/t3
 registration_agency: crossref
