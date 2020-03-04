@@ -6,6 +6,7 @@
 #
 # Author:
 #   Greg Janee <gjanee@ucop.edu>
+#   Rushiraj Nenuji <rnenuji@ucop.edu>
 #
 # License:
 #   Copyright (c) 2010, Regents of the University of California
@@ -56,7 +57,7 @@ def validateDoi (doi):
   if len(doi) > maxIdentifierLength-4: return None
   return doi.upper()
 
-_arkPattern1 = re.compile("((?:\d{5}(?:\d{4})?|[b-k]\d{4})/)([!-~]+)$")
+_arkPattern1 = re.compile("((?:\d{5}(?:\d{4})?|[bcdfghjkmnpqrstvwxz]\d{4})/)([!-~]+)$")
 _arkPattern2 = re.compile("\./|/\.")
 _arkPattern3 = re.compile("([./])[./]+")
 _arkPattern4 = re.compile("^[./]|[./]$")
@@ -180,6 +181,21 @@ def validateShoulder (shoulder):
   else:
     return False
 
+def inferredShoulder (identifier):
+  """
+  Given a normalized, qualified identifier (e.g., "ark:/12345/xy7qz"),
+  infers and returns the identifier's shoulder (e.g.,
+  "ark:/12345/xy").  This is typically the identifier up to the first
+  two characters following the NAAN- or prefix-separating slash.
+  """
+  if identifier.startswith("ark:/"):
+    return re.match("ark:/(\d{5}(\d{4})?|[b-k]\d{4})/[0-9a-zA-Z]{0,2}",
+      identifier).group(0)
+  elif identifier.startswith("doi:"):
+    return re.match("doi:10\.[1-9]\d{3,4}/[0-9A-Z]{0,2}", identifier).group(0)
+  else:
+    return identifier.split(":")[0] + ":"
+
 datacenterSymbolRE = re.compile(
   "^([A-Z][-A-Z0-9]{0,6}[A-Z0-9])\.([A-Z][-A-Z0-9]{0,6}[A-Z0-9])$", re.I)
 maxDatacenterSymbolLength = 17
@@ -223,12 +239,16 @@ def doi2shadow (doi):
   # Update: to prevent different DOIs from mapping to the same shadow
   # ARK, we percent-encode characters (and only those characters) that
   # would otherwise be removed by the ARK normalization process.
+  beta_numeric_char = "bcdfghjkmnpqrstvwxz"
+  doi_prefix = doi.split("/")[0]
+  i = len(doi_prefix) + 1
   if doi[7] == "/":
-    i = 8
     p = "b" + doi[3:i]
   else:
-    i = 9
-    p = chr(ord("c")+ord(doi[3])-ord("1")) + doi[4:i]
+    if i == 9:
+      p = beta_numeric_char[(ord(doi[3])-ord("0"))] + doi[4:i]
+    elif i == 10:
+      p = beta_numeric_char[((ord(doi[3]) - ord("0")) * 10) + (ord(doi[4]) - ord("0"))] + doi[5:i]
   s = doi[i:].replace("%", "%25").replace("-", "%2d").lower()
   s = _arkPattern4.sub(lambda c: "%%%02x" % ord(c.group(0)), s)
   s = _arkPattern3.sub(_percentEncodeCdr, s)
@@ -245,13 +265,20 @@ def shadow2doi (ark):
   (e.g., "10.5060/FOO").  The returned identifier is in canonical
   form.
   """
+  beta_numeric_char = "bcdfghjkmnpqrstvwxz"
   if ark[0] == "b":
     doi = "10." + ark[1:]
   else:
-    doi = "10." + chr(ord("1")+ord(ark[0])-ord("c")) + ark[1:]
+    try:
+      if beta_numeric_char.find(ark[0]) > -1:
+        doi = "10." + str(beta_numeric_char.find(ark[0])) + ark[1:]
+      else:
+        raise Exception("Not a valid ark") 
+    except:
+      print "Sorry, an error occured while converting shadow 2 doi"
   return _hexDecodePattern.sub(lambda c: chr(int(c.group(1), 16)), doi).upper()
 
-_shadowedDoiPattern = re.compile("ark:/[b-k]") # see _arkPattern1 above
+_shadowedDoiPattern = re.compile("ark:/[bcdfghjkmnpqrstvwxz]") # see _arkPattern1 above
 
 def normalizeIdentifier (identifier):
   """
@@ -277,6 +304,32 @@ def normalizeIdentifier (identifier):
       return id
   else:
     return id
+
+def explodePrefixes (identifier):
+  """
+  Given a normalized, qualified identifier (e.g., "ark:/12345/x/yz"),
+  returns a list of all prefixes of the identifier that are
+  syntactically valid identifiers (e.g., ["ark:/12345/x",
+  "ark:/12345/x/y", "ark:/12345/x/yz"]).
+  """
+  if identifier.startswith("ark:/"):
+    id = identifier[5:]
+    predicate = validateArk
+    prefix = "ark:/"
+  elif identifier.startswith("doi:"):
+    id = identifier[4:]
+    predicate = validateDoi
+    prefix = "doi:"
+  elif identifier.startswith("uuid:"):
+    id = identifier[5:]
+    predicate = validateUuid
+    prefix = "uuid:"
+  else:
+    assert False, "unhandled case"
+  l = []
+  for i in range(1, len(id)+1):
+     if predicate(id[:i]) == id[:i]: l.append(prefix + id[:i])
+  return l
 
 def _encode (pattern, s):
   return pattern.sub(lambda c: "%%%02X" % ord(c.group(0)), s.encode("UTF-8"))
