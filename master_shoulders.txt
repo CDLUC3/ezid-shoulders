@@ -226,6 +226,24 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.5070/P5
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: Parks Stewardship Forum
+date: 2020.03.06
+minter: https://n2t.net/a/ezid/m/ark/b5070/p5
+registration_agency: crossref
+
+:: doi:10.39999/SD2
+type: shoulder
+manager: ezid
+#eziduser: apitest
+name: API TEST
+date: 2020.03.05
+minter: https://n2t.net/a/ezid/m/ark/f9999/sd2
+registration_agency: crossref
+
 :: doi:10.5070/SD2
 type: shoulder
 manager: ezid
@@ -533,13 +551,14 @@ name: National Registry of Exonerations
 date: 2019.06.27
 minter: https://n2t.net/a/ezid/m/ark/88112/x2
 
-:: doi:10.21239/
+#Original shoulder assigned was doi:10.21239/ on 2019.06.19
+:: doi:10.34939/
 type: shoulder
 is_supershoulder: true
 manager: ezid
 #eziduser: hearstmuseum
 name: Phoebe A. Hearst Museum of Anthropology
-date: 2019.06.19
+date: 2020.03.06
 minter:
 registration_agency: datacite
 datacenter: CDL.UCB
