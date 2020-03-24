@@ -226,6 +226,17 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.34940/E2
+type: shoulder
+manager: ezid
+#eziduser: cdl-eschol
+name: CDL eScholarship (Supplemental Material)
+date: 2020.03.19
+minter: https://n2t.net/a/ezid/m/ark/f4940/e2
+registration_agency: datacite
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
+
 :: doi:10.5070/P5
 type: shoulder
 manager: ezid
@@ -551,13 +562,14 @@ name: National Registry of Exonerations
 date: 2019.06.27
 minter: https://n2t.net/a/ezid/m/ark/88112/x2
 
-:: doi:10.21239/
+#Original shoulder assigned was doi:10.21239/ on 2019.06.19
+:: doi:10.34939/
 type: shoulder
 is_supershoulder: true
 manager: ezid
 #eziduser: hearstmuseum
 name: Phoebe A. Hearst Museum of Anthropology
-date: 2019.06.19
+date: 2020.03.06
 minter:
 registration_agency: datacite
 datacenter: CDL.UCB
