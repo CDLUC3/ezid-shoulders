@@ -9,7 +9,7 @@ remote=n2t@ids-n2t-prd-2a.n2t.net
 # drop next line soon
 deliverydir=$remote:/apps/n2t/sv/cur/apache2/htdocs/e/pop/ezid
 harvestdir=$remote:/apps/n2t/sv/cur/apache2/htdocs/e/pub
-installeddir=$HOME/shoulders/installed
+installeddir=$HOME/apps/apache/ezid-shoulders/installed
 
 # Backup from old copy
 
