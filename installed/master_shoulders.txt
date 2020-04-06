@@ -226,6 +226,184 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.34945/F5
+type: shoulder
+manager: ezid
+#eziduser: ucsd_odc
+name: Open Data Commons at UCSD FDI Lab
+date: 2020.04.06
+minter: https://n2t.net/a/ezid/m/ark/f4945/f5
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: ark:/62930/a1
+type: shoulder
+manager: ezid
+#eziduser: unlvezid
+name: UNLV Library Authorities
+date: 2020.04.06
+minter: https://n2t.net/a/ezid/m/ark/62930/a1
+
+:: ark:/13340/d3
+type: shoulder
+manager: ezid
+#eziduser: ucsd_dml
+name: UCSD Digital Media Lab
+date: 2020.04.03
+minter: https://n2t.net/a/ezid/m/ark/13340/d3
+
+:: doi:10.34946/D6
+type: shoulder
+manager: ezid
+#eziduser: ucsd_dml
+name: UCSD Digital Media Lab
+date: 2020.04.03
+minter: https://n2t.net/a/ezid/m/ark/f4946/d6
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.34942/P2
+type: shoulder
+manager: ezid
+#eziduser: ucb-eng-p2sl
+name: UC Berkeley Project Production Systems Laboratory
+date: 2020.03.24
+minter: https://n2t.net/a/ezid/m/ark/f4942/p2
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: doi:10.34940/E2
+type: shoulder
+manager: ezid
+#eziduser: cdl-eschol
+name: CDL eScholarship (Supplemental Material)
+date: 2020.03.19
+minter: https://n2t.net/a/ezid/m/ark/f4940/e2
+registration_agency: datacite
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
+
+:: doi:10.5070/P5
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: Parks Stewardship Forum
+date: 2020.03.06
+minter: https://n2t.net/a/ezid/m/ark/b5070/p5
+registration_agency: crossref
+
+:: doi:10.39999/SD2
+type: shoulder
+manager: ezid
+#eziduser: apitest
+name: API TEST
+date: 2020.03.05
+minter: https://n2t.net/a/ezid/m/ark/f9999/sd2
+registration_agency: crossref
+
+:: doi:10.5070/SD2
+type: shoulder
+manager: ezid
+#eziduser: ucsd_eschol
+name: UCSD eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sd2
+registration_agency: crossref
+
+:: doi:10.5070/R2
+type: shoulder
+manager: ezid
+#eziduser: ucr-eschol
+name: UC Riverside eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/r2
+registration_agency: crossref
+
+:: doi:10.5070/SB2
+type: shoulder
+manager: ezid
+#eziduser: sb-eschol
+name: UCSB eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sb2
+registration_agency: crossref
+
+:: doi:10.5070/SF2
+type: shoulder
+manager: ezid
+#eziduser: ucsf-eschol
+name: UCSF eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/sf2
+registration_agency: crossref
+
+:: doi:10.5070/M2
+type: shoulder
+manager: ezid
+#eziduser: ucm-eschol
+name: UC Merced eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/m2
+registration_agency: crossref
+
+:: doi:10.5070/D2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/b5070/d2
+registration_agency: crossref
+
+:: ark:/81984/d3
+type: shoulder
+manager: ezid
+#eziduser: uic
+name: University of Illinois Chicago Digital Collections
+date: 2020.03.03
+minter: https://n2t.net/a/ezid/m/ark/81984/d3
+
+:: doi:10.5070/B2
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: UC Berkeley eScholarship
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/b2
+registration_agency: crossref
+
+:: doi:10.5070/RV2
+type: shoulder
+manager: ezid
+#eziduser: uci-eschol
+name: UC Irvine eScholarship
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/rv2
+registration_agency: crossref
+
+:: doi:10.5070/LX2
+type: shoulder
+manager: ezid
+#eziduser: ucla-eschol
+name: UCLA eScholarship
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/b5070/lx2
+registration_agency: crossref
+
+:: doi:10.26085/C3
+type: shoulder
+manager: ezid
+#eziduser: cega
+name: The Center for Effective Global Action
+date: 2020.02.25
+minter: https://n2t.net/a/ezid/m/ark/d6085/c3
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
 :: doi:10.24432/C5
 type: shoulder
 manager: ezid
@@ -433,13 +611,14 @@ name: National Registry of Exonerations
 date: 2019.06.27
 minter: https://n2t.net/a/ezid/m/ark/88112/x2
 
-:: doi:10.21239/
+#Original shoulder assigned was doi:10.21239/ on 2019.06.19
+:: doi:10.34939/
 type: shoulder
 is_supershoulder: true
 manager: ezid
 #eziduser: hearstmuseum
 name: Phoebe A. Hearst Museum of Anthropology
-date: 2019.06.19
+date: 2020.03.06
 minter:
 registration_agency: datacite
 datacenter: CDL.UCB
@@ -1331,7 +1510,7 @@ minter: https://n2t.net/a/ezid/m/ark/19153/stst9
 type: shoulder
 manager: ezid
 #eziduser: uci-eschol
-name: UCI eScholarship
+name: Teaching and Learning Anthropology
 date: 2019.01.10
 minter: https://n2t.net/a/ezid/m/ark/b5070/t3
 registration_agency: crossref

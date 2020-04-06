@@ -147,3 +147,27 @@ Account/organization username (login): ucb-eng-p2sl
 Shoulder display name: UC Berkeley Project Production Systems Laboratory
 Datacenter: CDL.UCB
 
+Date: 2020.04.03
+EZID prefix/shoulder: doi:10.34946/D6
+Account/organization username (login): ucsd_dml
+Shoulder display name: UCSD Digital Media Lab
+Datacenter: CDL.UCSD
+
+Date: 2020.04.03
+EZID prefix/shoulder: ark:/13340/d3
+Account/organization username (login): ucsd_dml
+Shoulder display name: UCSD Digital Media Lab
+Datacenter:
+
+Date: 2020.04.06
+EZID prefix/shoulder: ark:/62930/a1
+Account/organization username (login): unlvezid
+Shoulder display name: UNLV Library Authorities
+Datacenter:
+
+Date: 2020.04.06
+EZID prefix/shoulder: doi:10.34945/F5
+Account/organization username (login): ucsd_odc
+Shoulder display name: Open Data Commons at UCSD FDI Lab
+Datacenter: CDL.UCSD
+
