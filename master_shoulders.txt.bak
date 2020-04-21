@@ -226,6 +226,17 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.34945/F5
+type: shoulder
+manager: ezid
+#eziduser: ucsd_odc
+name: Open Data Commons at UCSD FDI Lab
+date: 2020.04.06
+minter: https://n2t.net/a/ezid/m/ark/f4945/f5
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
 :: ark:/62930/a1
 type: shoulder
 manager: ezid

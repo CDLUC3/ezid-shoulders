@@ -226,6 +226,14 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: ark:/19153/rcbh9
+type: shoulder
+manager: ezid
+#eziduser: admin-canope
+name: Scolomfr -- ENI Onisep
+date: 2020.04.21
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbh9
+
 :: doi:10.34945/F5
 type: shoulder
 manager: ezid
