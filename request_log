@@ -176,3 +176,39 @@ EZID prefix/shoulder: ark:/19153/rcbh9
 Account/organization username (login): admin-canope
 Shoulder display name: Scolomfr -- ENI Onisep
 
+Date: 2020.04.30
+EZID prefix/shoulder: doi:10.5070/G3
+Account/organization username (login): ucla-eschol
+Shoulder display name: Electronic Green Journal
+Datacenter:
+
+Date: 2020.05.13
+EZID prefix/shoulder: doi:10.34950/E2
+Account/organization username (login): ucb-eschol
+Shoulder display name: UC Berkeley eScholarship (Supplemental Material)
+Datacenter: CDL.UCB
+
+Date: 2020.05.19
+EZID prefix/shoulder: doi:10.34947/M7
+Account/organization username (login): ucsf-mhc
+Shoulder display name: UC Medical Humanities Consortium
+Datacenter: CDL.UCSF
+
+Date: 2020.05.27
+EZID prefix/shoulder: doi:10.35012/T2
+Account/organization username (login): ucla-rtg
+Shoulder display name: UCLA Research Technology Group
+Datacenter: CDL.UCLA
+
+Date: 2020.05.27
+EZID prefix/shoulder: doi:10.34951/E2
+Account/organization username (login): ucd-eschol
+Shoulder display name: UC Davis eScholarship (Supplemental Material)
+Datacenter: CDL.UCD
+
+Date: 2020.06.04
+EZID prefix/shoulder: doi:10.34941/S1
+Account/organization username (login): lbnl-esnet
+Shoulder display name: LBNL ESnet
+Datacenter: CDL.UCB
+

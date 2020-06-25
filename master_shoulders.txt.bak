@@ -226,6 +226,78 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.34941/S1
+type: shoulder
+manager: ezid
+#eziduser: lbnl-esnet
+name: LBNL ESnet
+date: 2020.06.04
+minter: https://n2t.net/a/ezid/m/ark/f4941/s1
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: doi:10.34951/E2
+type: shoulder
+manager: ezid
+#eziduser: ucd-eschol
+name: UC Davis eScholarship (Supplemental Material)
+date: 2020.05.27
+minter: https://n2t.net/a/ezid/m/ark/f4951/e2
+registration_agency: datacite
+datacenter: CDL.UCD
+prefix_shares_datacenter: true
+
+:: doi:10.35012/T2
+type: shoulder
+manager: ezid
+#eziduser: ucla-rtg
+name: UCLA Research Technology Group
+date: 2020.05.27
+minter: https://n2t.net/a/ezid/m/ark/f5012/t2
+registration_agency: datacite
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
+
+:: doi:10.34947/M7
+type: shoulder
+manager: ezid
+#eziduser: ucsf-mhc
+name: UC Medical Humanities Consortium
+date: 2020.05.19
+minter: https://n2t.net/a/ezid/m/ark/f4947/m7
+registration_agency: datacite
+datacenter: CDL.UCSF
+prefix_shares_datacenter: true
+
+:: doi:10.34950/E2
+type: shoulder
+manager: ezid
+#eziduser: ucb-eschol
+name: UC Berkeley eScholarship (Supplemental Material)
+date: 2020.05.13
+minter: https://n2t.net/a/ezid/m/ark/f4950/e2
+registration_agency: datacite
+datacenter: CDL.UCB
+prefix_shares_datacenter: true
+
+:: doi:10.5070/G3
+type: shoulder
+manager: ezid
+#eziduser: ucla-eschol
+name: Electronic Green Journal
+date: 2020.04.30
+minter: https://n2t.net/a/ezid/m/ark/b5070/g3
+registration_agency: crossref
+
+:: ark:/19153/rcbh9
+type: shoulder
+manager: ezid
+#eziduser: admin-canope
+name: Scolomfr -- ENI Onisep
+date: 2020.04.21
+minter: https://n2t.net/a/ezid/m/ark/19153/rcbh9
+
 :: doi:10.34945/F5
 type: shoulder
 manager: ezid
@@ -635,7 +707,7 @@ minter: https://n2t.net/a/ezid/m/ark/81983/s9
 :: doi:10.18737/D7
 type: shoulder
 manager: ezid
-#eziduser: dash-ucop
+#eziduser: dash
 name: UCOP Dash
 date: 2019.05.03
 minter: https://n2t.net/a/ezid/m/ark/c8737/d7
@@ -2439,16 +2511,15 @@ prefix_shares_datacenter: true
 :: ark:/81239/m9
 type: shoulder
 manager: ezid
-#eziduser: invemarodi
+#eziduser: invemardoi
 name: Marine and Coastal Research Institute of Columbia
 date: 2016.06.14
 minter: https://n2t.net/a/ezid/m/ark/81239/m9
 
 :: doi:10.21239/V9
 type: shoulder
-active: false
 manager: ezid
-#eziduser: invemarodi
+#eziduser: invemardoi
 name: Marine and Coastal Research Institute of Columbia
 date: 2016.06.14
 minter: https://n2t.net/a/ezid/m/ark/d1239/v9
