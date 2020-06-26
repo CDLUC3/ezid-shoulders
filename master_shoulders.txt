@@ -226,6 +226,15 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: ark:/87924/m1
+type: shoulder
+manager: ezid
+#eziduser: duke_ddr
+name: DUL Archives & Manuscripts
+date: 2020.06.26
+minter: https://n2t.net/a/ezid/m/ark/87924/m1
+
+
 :: doi:10.34941/S1
 type: shoulder
 manager: ezid
