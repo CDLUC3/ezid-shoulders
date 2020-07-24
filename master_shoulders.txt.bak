@@ -226,6 +226,36 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.6076/D1
+type: shoulder
+manager: ezid
+#eziduser: ucsd_lib
+name: UCSD Dryad
+date: 2020.07.20
+minter: https://n2t.net/a/ezid/m/ark/b6076/d1
+registration_agency: datacite
+datacenter: CDL.UCSD
+prefix_shares_datacenter: true
+
+:: doi:10.34948/N3
+type: shoulder
+manager: ezid
+#eziduser: ucla-nhr3
+name: UCLA Natural Hazards Risk & Resiliency Research Center
+date: 2020.06.26
+minter: https://n2t.net/a/ezid/m/ark/f4948/n3
+registration_agency: datacite
+datacenter: CDL.UCLA
+prefix_shares_datacenter: true
+
+:: ark:/87924/m1
+type: shoulder
+manager: ezid
+#eziduser: duke_ddr
+name: DUL Archives & Manuscripts
+date: 2020.06.26
+minter: https://n2t.net/a/ezid/m/ark/87924/m1
+
 :: doi:10.34941/S1
 type: shoulder
 manager: ezid
@@ -1721,7 +1751,7 @@ prefix_shares_datacenter: true
 # minter re-constructed and disabled 2019.06.20
 :: ark:/87610/t6
 type: shoulder
-active: false
+active: true
 manager: ezid
 #eziduser: uta_ica
 name: UTA Institute of Classical Archaeology
