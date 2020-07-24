@@ -1751,7 +1751,7 @@ prefix_shares_datacenter: true
 # minter re-constructed and disabled 2019.06.20
 :: ark:/87610/t6
 type: shoulder
-active: true
+active: false
 manager: ezid
 #eziduser: uta_ica
 name: UTA Institute of Classical Archaeology
