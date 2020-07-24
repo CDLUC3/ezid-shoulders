@@ -226,6 +226,18 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.48321/D1
+type: shoulder
+manager: ezid
+#eziduser: dmptool
+name: CDL DMPTool
+date: 2020.07.24
+minter: https://n2t.net/a/ezid/m/ark/g8321/d1
+registration_agency: datacite
+datacenter: CDL.CDL
+prefix_shares_datacenter: true
+
+
 :: doi:10.6076/D1
 type: shoulder
 manager: ezid
