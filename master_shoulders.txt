@@ -1,6 +1,6 @@
 # // Set up procedure
 #
-# Start at n2t@ids-n2t-prd-2a.n2t.net/shoulders, type make_ezacct and
+# Start at n2t@ids-n2t2-prd.n2t.net/shoulders, type make_ezacct and
 # follow the instructions.
 # NB: no NAAN or other services are permitted to be supplied to Iran.
 #

@@ -2,7 +2,7 @@
 
 doip2naan=$HOME/apps/apache/ezid-shoulders/doip2naan
 shdr_exists=$HOME/apps/apache/ezid-shoulders/shdr_exists
-n2t=n2t@ids-n2t-prd-2a.n2t.net
+n2t=n2t@ids-n2t2-prd.n2t.net
 
 dflt_pop=ezid
 #mintersdir="$HOME/sv/cur/apache2/minters"	# minters directory
