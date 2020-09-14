@@ -226,6 +226,17 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: doi:10.48330/E2
+type: shoulder
+manager: ezid
+#eziduser: ucsc-lib
+name: UCSC eScholarship (General)
+date: 2020.08.14
+minter: https://n2t.net/a/ezid/m/ark/g8330/e2
+registration_agency: datacite
+datacenter: CDL.UCSC
+prefix_shares_datacenter: true
+
 :: doi:10.25496/W2
 type: shoulder
 manager: ezid

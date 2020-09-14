@@ -1,12 +1,10 @@
 
-:: doi:10.25496/W2
+:: doi:10.31223/X5
 type: shoulder
 manager: ezid
-#eziduser: sb-we1s-ilab
-name: UCSB WhatEvery1Says Interpretation Lab
-date: 2020.07.24
-minter: https://n2t.net/a/ezid/m/ark/d5496/w2
-registration_agency: datacite
-datacenter: CDL.UCSB
-prefix_shares_datacenter: true
+#eziduser: sb-eschol
+name: EarthArXiv (no minter)
+date: 2020.09.14
+minter: https://n2t.net/a/ezid/m/ark/f1223/x5
+registration_agency: crossref
 
