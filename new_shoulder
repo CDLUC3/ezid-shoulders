@@ -1,10 +1,9 @@
 
-:: doi:10.31223/X5
+:: ark:/63614/w1
 type: shoulder
 manager: ezid
-#eziduser: sb-eschol
-name: EarthArXiv (no minter)
-date: 2020.09.14
-minter: https://n2t.net/a/ezid/m/ark/f1223/x5
-registration_agency: crossref
+#eziduser: wildlifeinsights
+name: Wildlife Insights (Conservation International)
+date: 2020.09.30
+minter: https://n2t.net/a/ezid/m/ark/63614/w1
 

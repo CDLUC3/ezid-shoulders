@@ -226,6 +226,14 @@
 # ucla_its    make_ezacct -n 10.17610 t6 - - < ezaccts/newacct > out
 # ./form2shoulder request
 
+:: ark:/63614/w1
+type: shoulder
+manager: ezid
+#eziduser: wildlifeinsights
+name: Wildlife Insights (Conservation International)
+date: 2020.09.30
+minter: https://n2t.net/a/ezid/m/ark/63614/w1
+
 :: doi:10.31223/
 type: shoulder
 manager: ezid
